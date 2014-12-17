@@ -1,0 +1,45 @@
+%
+%	404NotFound
+%
+
+% pacchetti comuni a tutti i documenti
+
+\usepackage[italian]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{subfigure}
+\usepackage{color}
+\usepackage{textcomp}
+\usepackage{fancyhdr}
+
+
+% Macro per comandi frequenti %
+
+\newcommand{\404}{404NotFound}
+\newcommand{\mail404}{404notfound.unipd@gmail.com}
+\newcommand{\uni}{Universit\`{a} degli studi di Padova}
+
+% Componenti del gruppo %
+\newcommand{\VF}{Vegro Federico}
+\newcommand{\CM}{Camborata Marco}
+\newcommand{\GI}{Gobbo Ismaele}
+\newcommand{\DE}{De Lazzari Enrico}
+\newcommand{\CM}{Cossu Mattia}
+\newcommand{\RA}{Rettore Andrea}
+\newcommand{\MM}{Manuto Monica}
+
+
+\pagestyle{fancy}
+\fancyhead{} % Toglie l'header di default
+\fancyfoot{} % Toglie il footer di default
+\lhead{\includegraphics[scale=0.28]{../imgs/404Logo.jpg}}
+
+\cfoot{ % parte centrale del footer
+	
+}
+
+\rfoot{ % parte destra del footer
+\thepage\ di \pageref{LastPage}
+}
