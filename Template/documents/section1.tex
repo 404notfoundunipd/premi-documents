@@ -1,0 +1,60 @@
+\section{Esempio citazioni}
+Una citazione in display è
+un testo che \LaTeX{} compone
+su linee a sè:
+\begin{quote}\begin{footnotesize} 
+ 
+	Il cielo stellato sopra di me,\\
+	la legge morale dentro di me.
+	\flushright
+		--- Autore Citazione, fonte.
+ 
+\end{footnotesize} 
+\end{quote}
+Come si può osservare, la
+citazione è centrata e
+separata dal resto del testo.
+
+\section{Esempio tabelle}
+% Ogni spazio diviso da | rappresenta una colonna
+% |l| -> allineamento cella a sinistra
+% |c| -> allineamento cella al centro
+% |r| -> allineamento cella a destra
+\begin{table}[h]
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Prima colonna} & \textbf{seconda colonna} & \textbf{terza colonna} \\
+\hline %disegna una linea orrizzontale
+Primo & Secondo & Terzo \\
+\hline
+Quarto & Quinto & Sesto \\
+\hline
+\end{tabular}
+\caption{Didascalia della tabella.}
+\end{table}
+
+\section{Esempio codice}
+\subsection{Java}
+\captionof{lstlisting}{Esempio codice Java}
+\begin{lstlisting}[language=Java]
+	/**
+	* Esempio di codice Java
+	*/
+	public static void main(String[] args){
+		System.out.println("Hello world!");
+	}
+\end{lstlisting}
+
+\subsection{C++}
+\captionof{lstlisting}{Esempio codice C++}
+\begin{lstlisting}[language=C++]
+	/**
+	* Esempio di codice C++
+	*/
+	int main(String[] args){
+		cout<<"Hello world!";
+	}
+\end{lstlisting}
+
+\section{Esempio di link}
+\href{http://www.google.com/}{Google Inc.}
