@@ -1,0 +1,37 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{../style}
+
+
+\newcommand{\docs}{documents/}
+% Dati inerenti al documento corrente %
+% Da sostituire con i valori corretti %
+\newcommand{\titDoc}{Glossario}
+\newcommand{\dataCreazione}{8 gennaio 2015}
+\newcommand{\versione}{0.1}
+
+% Dati di rilascio del documento corrente %
+\newcommand{\stato}{Formale}
+\newcommand{\uso}{Esterno}
+
+\lfoot{
+	\titDoc \\
+	v. \versione
+}
+\title{\titDoc}
+
+\begin{document}
+\input{\docs first.tex}
+\newpage
+\input{\docs regModifiche.tex}
+\newpage
+\tableofcontents
+\newpage
+\listoftables
+\listoffigures
+
+\newpage
+\input{\docs intro.tex}
+\newpage
+\input{\docs definizioni.tex}
+
+\end{document}
