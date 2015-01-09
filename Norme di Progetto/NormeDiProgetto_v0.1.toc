@@ -1,0 +1,16 @@
+\select@language {italian}
+\contentsline {section}{\numberline {1}Introduzione}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Scopo del documento}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scopo del Progetto}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Glossario}{4}{subsection.1.3}
+\contentsline {section}{\numberline {2}Comunicazioni}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Comunicazioni esterne}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Comunicazioni interne}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Compisizione e-mail}{5}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Destinatario}{5}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Mittente}{5}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Oggetto}{6}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}Corpo}{6}{subsubsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.5}Firma}{6}{subsubsection.2.3.5}
+\contentsline {subsubsection}{\numberline {2.3.6}Allegati}{6}{subsubsection.2.3.6}
+\contentsline {section}{\numberline {3}Riunioni}{7}{section.3}
