@@ -1,50 +1,75 @@
 \section{Metodi di Condivisione}
+
 Qui vengono elencate le piattaforme adottate per facilitare lo svolgimento collettivo del progetto. \\
-%Il gruppo di applicazioni web di Google viene utilizzato per la condivisione di documenti informali e la comunicazione degli incontri tra i membri, mentre il repository GitHub struttura il versionamento e la creazione della documentazione ufficiale e del software.\\ 
+
 \subsection{Google Calendar}
-Google Calendar viene utilizzato come promemoria per le date degli incontri e per segnalare le fasce orarie in cui un membro non e' disponibile in caso di impegni settimanali inderogabili. \\
+Google Calendar$_{G}$ viene utilizzato come promemoria per le date degli incontri e per segnalare le fasce orarie in cui un membro non è disponibile in caso di impegni settimanali inderogabili. \\
+
 \subsection{Google Drive}
-Google Drive permette una facile condivisione di documenti informali e di tutte quelle risorse utili al progetto che non sono soggette a versionamento. \\
-Per sfruttare nel modo migliore le potenzialita' della piattaforma si raccomanda di attenersi alla suddivisione intuitiva in cartelle dei file e di utilizzare, quando possibile, formati compatibili con gli editor testuali del sito.
+Google Drive$_{G}$ permette una facile condivisione di documenti informali e di tutte quelle risorse utili al progetto che non sono soggette a versionamento. \\
+Per sfruttare nel modo migliore le potenzialità della piattaforma si raccomanda di attenersi alla suddivisione intuitiva in cartelle dei file e di utilizzare, quando possibile, formati compatibili con gli editor$_{G}$ testuali del sito.
+
 \subsection{GitHub}
-\href{http://www.github.com/}{GitHub} e' un servizio di hosting di repository \texttt{git}. \\
-Una repository e' uno spazio di archiviazione da cui e' possibile recuperare software o codice sorgente; \texttt{git} in particolare sfrutta la tecnica dei branch, ossia di ramificazioni del codice sorgente su cui poter lavorare senza  entrare in conflitto con il lavoro di altri collaboratori.\\
+\href{http://www.github.com/}{GitHub}$_{G}$ è un servizio di hosting di repository$_{G}$ \texttt{git}$_{G}$. \\
+Una repository è uno spazio di archiviazione da cui è possibile recuperare software o codice sorgente; il sistema di controllo di versione$_{G}$ \texttt{git} in particolare sfrutta la tecnica dei branch$_{G}$, ossia di ramificazioni del codice sorgente su cui poter lavorare senza  entrare in conflitto con il lavoro di altri collaboratori. Il branch originale viene chiamato \texttt{master}. \\
 Sono state create due repository, accessibili dall'indirizzo:\\ 
 \url{https://github.com/404notfoundunipd/}
 \begin{itemize}
 \item \texttt{premi} contiene i file di codifica e di sviluppo dell'applicazione eseguibile;
-\item \texttt{premi-documents} contiene i file di tutti i documenti formali soggetti a versionamento compresi i template per la loro stesura.
+\item \texttt{premi-documents} contiene i file di tutti i documenti formali soggetti a versionamento compresi i template$_{G}$ per la loro stesura.
 \end{itemize}
+
+
 \section{Procedura per lo sviluppo dell'applicazione}
-Vengono qui elencate le norme per l'utilizzo degli strumenti di sviluppo del sito web \href{http://www.github.com/}{GitHub}.
+
+Vengono qui elencate le norme per l'utilizzo degli strumenti di sviluppo del sito web \href{http://www.github.com/}{GitHub}$_{G}$. \\
+Per una guida completa sull'uso di GitHub si consiglia il sito:\\
+\url{https://guides.github.com/}\\
+Per una guida completa sull'uso di git$_{G}$ da terminale si consiglia il sito:\\
+\url{http://git-scm.com/doc/}\\
+
 \subsection{Creare una milestone}
-La creazione di una milestone viene affidata esclusivamente al Responsabile di Progetto e il suo scopo e' quello di suddividere il lavoro in piu' fasi per un maggiore controllo sullo stato di avanzamento del progetto. Questa parte di lavoro viene a sua volta spartita tra i componenti del gruppo attraverso i ticket. \\
-    Dalla pagina della repository accedere al menu \texttt{issues}, andare sulla sezione \texttt{Milestones} e quindi su \texttt{New milestone}.\\
+La creazione di una milestone$_{G}$ viene affidata esclusivamente al Responsabile di Progetto e il suo scopo è quello di suddividere il lavoro in più fasi per un maggiore controllo sullo stato di avanzamento del progetto. Questa parte di lavoro viene a sua volta spartita tra i componenti del gruppo attraverso i ticket$_{G}$. \\
+    Dalla pagina della repository$_{G}$ accedere al menu \texttt{issues}, andare sulla sezione \texttt{Milestones} e quindi su \texttt{New milestone}.\\
     Inserire un breve titolo che la distingua dalle milestone precedenti, una descrizione approfondita che identifichi le parti del progetto su cui si sta lavorando e infine la data di chiusura.
 
 \subsection{Creare un ticket}
-Un ticket corrisponde ad un compito da portare a termine all'interno di una milestone. Vengono creati dal Responsabile di Progetto e assegnati a sua discrezione ad un componente del gruppo. \\
-Dalla pagina della repository accedere al menu \texttt{issues} e premere su \texttt{New Issue}.\\
-E' richiesta la compilazione dei seguenti campi:
+Un ticket$_{G}$ corrisponde ad un compito da portare a termine all'interno di una milestone$_{G}$. Vengono creati dal Responsabile di Progetto e assegnati a sua discrezione ad un componente del gruppo. \\
+Dalla pagina della repository$_{G}$ accedere al menu \texttt{issues} e premere su \texttt{New Issue}.\\
+È richiesta la compilazione dei seguenti campi:
 \begin{itemize}
     \item \texttt{Title:} descrive sinteticamente il compito assegnato;
-    \item \texttt{Assigned to:} e' il membro del gruppo che si occupera' del compito;
-    \item \texttt{Comment:} descrizione approfondita del compito. E' possibile includere immagini esplicative se ritenuto necessario;
-    \item \texttt{Milestone:} per includere il ticket in un contesto temporale;
+    \item \texttt{Assigned to:} è il membro del gruppo che si occuperà del compito;
+    \item \texttt{Comment:} descrizione approfondita del compito. È possibile includere immagini esplicative se ritenuto necessario;
+    \item \texttt{Milestone$_{G}$:} per includere il ticket in un contesto temporale;
     \item \texttt{Labels:} aiutano a suddividere i compiti per tipo.
 \end{itemize}
+È possibile creare dei collegamenti ai ticket all'interno dei commenti in GitHub$_{G}$ scrivendo l'id del ticket preceduto dal carattere \#.\\
 
 \subsection{Eseguire il compito}
-Per portare a termine il compito assegnato, l'incaricato deve creare un branch su cui lavorare. \\
+Per eseguire il compito assegnato, l'incaricato deve creare un branch$_{G}$ su cui lavorare. \\
 Dalla pagina della repository premere sul pulsante della lista dei branch e digitare il nome del nuovo branch, che deve essere formato da:
     \begin{itemize}
     \item Cognome e Nome dell'incaricato;
-    \item \#id e nome del ticket, oppure un breve titolo che identifichi quello su cui si sta lavorando in caso non sia collegato a nessun ticket.
+    \item l'id del ticket$_{G}$(\texttt{issue}) nella forma \texttt{\#id} oppure un breve titolo che identifichi quello su cui si sta lavorando in caso non sia collegato a nessun ticket.
     \end{itemize}
-    Viene lasciato a discrezione dell'incaricato il numero di salvataggi (commit) da effettuare. E' pero' consigliabile aggiornare il branch su cui si sta lavorando almeno una volta la settimana in modo che il resto del gruppo possa vedere il livello di avanzamento del compito. \\
-    Ogni commit deve essere accompagnato da un breve titolo e una descrizione che elenchi quello che e' stato aggiunto al branch.
-    Quando il lavoro e' terminato,
+Viene lasciato a discrezione dell'incaricato il numero di salvataggi (commit$_{G}$) da effettuare. È però consigliabile aggiornare il branch su cui si sta lavorando almeno una volta la settimana in modo che il resto del gruppo possa vedere il livello di avanzamento del compito. \\
+Ogni commit deve essere accompagnato da un breve titolo e una descrizione che elenchi quello che è stato aggiunto al branch. \\
+Quando il lavoro è concluso inviare una \texttt{pull request}$_{G}$, ossia la richiesta di riunire il branch con l'originale. Dalla pagina della repository accedere al menu \texttt{Pull Requests} e premere sul punsante \texttt{New pull request}; selezionare il branch base e quello su cui si ha eseguito il compito e premere \texttt{Create pull request}.\\ È richiesta la compilazione dei seguenti campi:
+\begin{itemize}
+    \item \texttt{titolo:} deve essere il nome del branch da riunire;
+    \item \texttt{commento:} deve contenere almeno l'id del ticket(\texttt{issue}) del compito eseguito nella forma \texttt{\#id}, per rendere automatica la chiusura del ticket una volta accettata la richiesta. 
+\end{itemize}
 
-\subsection{Creare un ticket di verifica}
-\subsection{Fase di Verifica(?)}
+\subsection{Fase di Verifica}
+Il Verificatore ha il compito di esaminare le \texttt{pull request}$_{G}$ proposte dai membri del gruppo.\\
+Dopo aver verificato il lavoro svolto, dal menu \texttt{Pull Requests} ha tre possibilità:
+\begin{itemize}
+\item \texttt{Accettare la richiesta:} Il lavoro è corretto e soddisfa i requisiti del compito; il branch$_{G}$ viene unito al \texttt{master} e il ticket$_{G}$ viene chiuso. Questa azione viene chiamata \texttt{merge}$_{G}$.
+\item \texttt{Comunicare con il richiedente:} Se il lavoro presenta degli errori o non soddisfa i requisiti del compito, il Verificatore può lasciare dei commenti all'interno della \texttt{pull request} in cui descrive i problemi riscontrati. L'incaricato è tenuto a risolvere i problemi e ad aggiornare il branch.
+\item \texttt{Rifiutare la richiesta:} La richiesta non è pertinente al lavoro in corso e viene chiusa senza effettuare il \texttt{merge}. Il Verificatore è tenuto comunque a lasciare un commento che giustifichi tale azione.
+\end{itemize}
+
 \subsection{Chiudere una milestone}
+Quando tutti i ticket sono stati chiusi il Responsabile può chiudere la milestone$_{G}$ in corso. \\
+Dalla pagina della repository$_{G}$ accedere al menu \texttt{issues}, andare sulla sezione \texttt{Milestones} e selezionare quella che si intende chiudere; infine premere su \texttt{close}.
