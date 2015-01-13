@@ -1,0 +1,44 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{../style}
+
+
+\newcommand{\docs}{documents/}
+% Dati inerenti al documento corrente %
+% Da sostituire con i valori corretti %
+\newcommand{\titDoc}{Piano di Progetto}
+\newcommand{\dataCreazione}{18 dicembre 2014}
+\newcommand{\versione}{0.1}
+
+% Dati di rilascio del documento corrente %
+\newcommand{\stato}{Formale}
+\newcommand{\uso}{Esterno}
+
+\lfoot{
+	\titDoc \\
+	v. \versione
+}
+\title{\titDoc}
+
+\begin{document}
+\input{\docs first.tex}
+\newpage
+\input{\docs regModifiche.tex}
+\newpage
+\tableofcontents
+\newpage
+\listoftables
+\listoffigures
+
+\newpage
+\input{\docs intro.tex}
+
+\input{\docs introduzione.tex}
+\input{\docs pianificazione_tempi_attivita.tex}
+\input{\docs totale_ore_costi.tex}
+\input{\docs fattori_di_rischio.tex}
+\input{\docs controllo_rendicontazione.tex}
+% ecc.......
+\newpage
+\bibliography{../bibliography}
+
+\end{document}
