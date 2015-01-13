@@ -1,0 +1,40 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{../style}
+
+
+\newcommand{\titDoc}{Piano di Qualifica}
+\newcommand{\dataCreazione}{05 Gennaio 2015}
+\newcommand{\versione}{1.0}
+\newcommand{\stato}{Formale}
+\newcommand{\uso}{Esterno}
+
+\lfoot{
+	\titDoc \\
+	v. \versione
+}
+\title{\titDoc}
+
+\begin{document}
+\input{documents/first.tex}
+\newpage
+\input{documents/regModifiche.tex}
+\newpage
+\tableofcontents
+\newpage
+\listoftables
+\listoffigures
+\newpage
+\input{documents/intro.tex}
+\newpage
+\input{documents/strategiadiverifica.tex}
+\newpage
+\input{documents/obiettiviqualita.tex}
+\newpage
+\input{documents/gestioneamministrativa.tex}
+\newpage
+\input{documents/resocontoverifca.tex}
+\newpage
+\input{documents/collaudo.tex}
+\bibliography{../bibliography}
+
+\end{document}
