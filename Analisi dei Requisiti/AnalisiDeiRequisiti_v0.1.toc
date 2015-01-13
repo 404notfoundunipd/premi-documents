@@ -11,8 +11,12 @@
 \contentsline {subsection}{\numberline {2.4}Vincoli generali}{4}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Assunzioni e dipendenze}{4}{subsection.2.5}
 \contentsline {section}{\numberline {3}Casi d'uso}{5}{section.3}
-\contentsline {section}{\numberline {4}Tabella dei requisiti}{5}{section.4}
-\contentsline {subsection}{\numberline {4.1}Requisiti funzionali}{5}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Requisiti prestazionali}{5}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Requisiti di qualit\IeC {\`a}}{5}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Requisiti di vincolo}{5}{subsection.4.4}
+\contentsline {subsection}{\numberline {3.1}Caso d'uso UC1: Operazioni base dell'utente}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Caso d'uso UC1.5: Visualizzazione presentazioni pubbliche}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Caso d'uso UC1.5.1: Rendi pubblica una presentazione}{7}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Caso d'uso UC1.5.2: Rendi privata una presentazione}{8}{subsection.3.4}
+\contentsline {section}{\numberline {4}Tabella dei requisiti}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Requisiti funzionali}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Requisiti prestazionali}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Requisiti di qualit\IeC {\`a}}{9}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Requisiti di vincolo}{9}{subsection.4.4}

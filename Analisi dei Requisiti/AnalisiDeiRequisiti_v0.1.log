@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  12 JAN 2015 23:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  13 JAN 2015 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -541,7 +541,7 @@ LaTeX Info: Redefining \nameref on input line 22.
 
 
 (./documents/first.tex
-<../logo/logo404_Extends.png, id=68, 1027.84pt x 433.62pt>
+<../logo/logo404_Extends.png, id=84, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
@@ -558,7 +558,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../logo
 /logo404_Extends.png>])
 (./documents/regModifiche.tex)
-<../logo/logo404.png, id=77, 1027.84pt x 402.50375pt>
+<../logo/logo404.png, id=93, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
@@ -599,19 +599,68 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ))
-(./documents/descrizione.tex) (./documents/casi_uso.tex)
-(./documents/requisiti.tex
+(./documents/descrizione.tex) (./documents/casi_uso.tex
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 4.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [4]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 6.
+Package pdftex.def Info: ../logo/logo404.png used on input line 9.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [4])
+ [5]
+<diagram/UC1.png, id=154, 714.41907pt x 1318.9275pt>
+File: diagram/UC1.png Graphic file (type png)
+ <use diagram/UC1.png>
+Package pdftex.def Info: diagram/UC1.png used on input line 35.
+(pdftex.def)             Requested size: 214.32738pt x 395.6813pt.
+
+<diagram/UC1-5.png, id=156, 662.475pt x 377.91188pt>
+File: diagram/UC1-5.png Graphic file (type png)
+ <use diagram/UC1-5.png>
+Package pdftex.def Info: diagram/UC1-5.png used on input line 52.
+(pdftex.def)             Requested size: 264.9853pt x 151.16206pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 61.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [6 <./diagram/UC1.png>]
+<diagram/UC1-5-1.png, id=165, 707.64375pt x 569.87906pt>
+File: diagram/UC1-5-1.png Graphic file (type png)
+
+<use diagram/UC1-5-1.png>
+Package pdftex.def Info: diagram/UC1-5-1.png used on input line 69.
+(pdftex.def)             Requested size: 283.05249pt x 227.94757pt.
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 79.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [7 <./diagram/UC1-5.png> <./diagram/UC1-5-1.png>]
+<diagram/UC1-5-2.png, id=173, 707.64375pt x 569.87906pt>
+File: diagram/UC1-5-2.png Graphic file (type png)
+
+<use diagram/UC1-5-2.png>
+Package pdftex.def Info: diagram/UC1-5-2.png used on input line 86.
+(pdftex.def)             Requested size: 283.05249pt x 227.94757pt.
+) (./documents/requisiti.tex
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 12.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [8 <./diagram/UC1-5-2.png>])
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 37.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [5]
+ [9]
 No file AnalisiDeiRequisiti_v0.1.bbl.
 
 AED: lastpage setting LastPage
@@ -622,23 +671,25 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `AnalisiDeiRequisiti_v0.1.out' has not change
 d.
-(rerunfilecheck)             Checksum: 0B44FE773C2F1E5F255F4B0F88C96904;1045.
+(rerunfilecheck)             Checksum: 555A982A30A4623A63B66DDDF5DDF291;1448.
  ) 
 Here is how much of TeX's memory you used:
- 10507 strings out of 493117
- 155481 string characters out of 6135432
- 253309 words of memory out of 5000000
- 13792 multiletter control sequences out of 15000+600000
- 8500 words of font info for 30 fonts, out of 8000000 for 9000
+ 10550 strings out of 493117
+ 156162 string characters out of 6135432
+ 254309 words of memory out of 5000000
+ 13817 multiletter control sequences out of 15000+600000
+ 8837 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,15n,45p,818b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on AnalisiDeiRequisiti_v0.1.pdf (6 pages, 86207 bytes).
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on AnalisiDeiRequisiti_v0.1.pdf (10 pages, 494959 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
