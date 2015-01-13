@@ -1,0 +1,179 @@
+\section{Documenti}
+Il seguente capitolo descrive le convenzioni scelte ed adottate da \gruppo\ riguardo alla stesura, verifica e approvazione della documentazione da produrre.
+
+\subsection{Template}
+Come punto di riferimento per della documentazione è stato creato un template \LaTeX{} contenente tutte le impostazioni stilistiche e grafiche menzionate in questo documento. Tale modello si trova nel repository$_{G}$ in documents/template.
+
+\subsection{Struttura del documento}
+
+\subsubsection{Prima pagina}
+La prima pagina di ogni documento contiene le seguenti informazioni:
+
+\begin{itemize}
+\item Nome del gruppo;
+\item Nome del progetto;
+\item Logo del gruppo;
+\item Titolo del documento;
+\item Versione del documento;
+\item Cognome e nome dei redattori del documento;
+\item Cognome e nome dei verificatori del documento;
+\item Cognome e nome del responsabile approvatore del documento;
+\item Destinazione d'uso del documento;
+\item Stato del documento;
+\item Data dell'ultima modifica del documento;
+\item Lista di distribuzione del documento.
+\end{itemize}
+
+\subsubsection{Registro delle modifiche}
+Nella seconda pagina di ogni documento è riportato il registro delle modifiche del documento. \\
+Ogni riga del registro delle modifiche contiene le seguenti informazioni:
+
+\begin{itemize}
+\item Versione del documento dopo la modifica;
+\item Cognome e nome dell'autore della modifica;
+\item Data della modifica;
+\item Breve descrizione delle modifiche svolte.
+\end{itemize}
+
+La tabella è ordinata per data in ordine decrescente, in modo che la prima riga corrisponda alla versione attuale del documento.
+
+\subsubsection{Indici}
+La terza pagina di ogni documento contiene un indice delle sezioni, un indice delle tabelle e un indice delle figure. Nel caso non siano presenti tabelle o figure i rispettivi indici non saranno presenti.
+
+\subsubsection{Formattazione generale delle pagine}
+L'intestazione di ogni pagina è caratterizzata da:
+
+\begin{itemize}
+\item Logo del gruppo;
+\item Nome del gruppo.
+\end{itemize} 
+
+A piè di pagina invece è indicato:
+
+\begin{itemize}
+\item Nome e versione del documento;
+\item Pagina corrente nel formato N di T, dove N indica il numero di pagina corrente e T indica il numero di pagine totali.
+\end{itemize} 
+
+\subsection{Norme tipografiche}
+In questo paragrafo sono riportate le convenzioni ortografiche, tipografiche adottate e la definizione di uno stile uniforme per tutti i documenti.
+
+\subsubsection{Punteggiatura}
+
+\begin{itemize}
+\item \textbf{Lettere Maiuscole:} Le lettere maiuscole vanno posto solo  all'inizio di ogni elemento di un elenco puntato oltre che dove richiesto dalla lingua italiana. Inoltra l'iniziale maiuscola viene utilizzata nel nome del team, del progetto, dei documenti, dei ruoli di progetto, delle fasi si lavoro e nelle parole Proponente e Committente;
+\item \textbf{Punteggiatura:} un carattere di punteggiatura non deve mai seguire un carattere di spaziatura;
+\item \textbf{Parentesi:} Il testo tra parentesi non deve mai iniziare o terminare con un carattere di spaziatura, ne chiudersi con un carattere di punteggiatura.
+\end{itemize}
+
+\subsubsection{Stile del testo}
+
+\begin{itemize}
+\item \textbf{Corsivo:} Il corsivo deve essere utilizzato solo nei seguenti casi:
+\begin{itemize}
+\item \textbf{Nomi particolari:} il corsivo deve essere utilizzato quando si parla di figure particolari (es. Responsabile del Progetto);
+\item \textbf{Documenti:} il corsivo deve essere utilizzato quando si parla di documenti (es. Glossario);
+\item \textbf{Altri casi:} in altre situazione, il corsivo va utilizzato per evidenziare parole significative e riferimenti ai documenti interni o esterni.
+\end{itemize} 
+\item \textbf{Grassetto:} Il grassetto può essere utilizzato negli elenchi puntati per evidenziare il concetto che sarà poi sviluppato nella continuazione del punto;
+\item \textbf{Monospace$_{G}$:} questo carattere viene utilizzato per formattare il testo contenente indirizzi web e percorsi;
+\item \textbf{Maiuscolo:} L'utilizzo di parole completamente in maiuscolo è riservato solo agli acronimi o alle macro \LaTeX{} riportate nei documenti;
+\item \textbf{\LaTeX:} Ogni riferimento a \LaTeX{} viene indicato utilizzando il comando \verb|\LaTeX|.
+\end{itemize}
+
+\subsubsection{Composizione del testo}
+
+\begin{itemize}
+\item \textbf{Citazioni:} Le citazioni devono essere centrate e separate dal testo. In coda alla citazione, spostato verso destra, devono essere indicati l'autore e la fonte da cui è stata estratta la citazione;
+\item \textbf{Elenchi puntati:} Ogni punto dell'elenco deve terminare con un punto e virgola, tranne l'ultimo che terminerà con un punto. La prima parola di ogni punto deve iniziare con la lettera maiuscola a parte in casi particolari, come ad esempio il nome di un file;
+\item \textbf{Parti di codice:} Per riportare porzioni di codice deve essere utilizzato l'ambiente \LaTeX{} \textit{lstlisting};
+\item \textbf{Note a piè di pagina:} Ogni nota dovrà avere la prima parola  che inizia con una lettera maiuscola e dovrà terminare con un punto.
+\end{itemize}
+
+\subsubsection{Formati}
+\begin{itemize}
+\item \textbf{Percorsi:} Per gli indirizzi email e web deve essere usato il comando \LaTeX{} \verb|\href|, mentre per i percorsi relativi dovrà essere usato il carattere monospace$_{G}$;
+\item \textbf{Date:} Le date riportate nei documenti dovranno seguire lo standard ISO$_G$ 8601:2004:
+\begin{center}
+AAAA-MM-GG
+\end{center}
+Dove:
+\begin{itemize}
+\item AAAA: indica l'anno scritto utilizzando quattro cifre;
+\item MM: indica il mese scritto utilizzando due cifre;
+\item GG: indica il giorno scritto utilizzando due cifre.
+\end{itemize}
+\item \textbf{Ruoli di progetto:} Per riferirsi ai ruoli di progetto è necessario usare il comando \LaTeX{} \verb|\ruoloNomeruolo|, per garantire la corretta scrittura degli stessi;
+\item \textbf{Riferimenti ai documenti:} Per riferirsi ai documenti è necessario usare il comando \LaTeX{} ??????;
+\item \textbf{Revisioni:} Per riferirsi alle revisioni programmate è necessario usare il comando \LaTeX{} ??????;
+\item \textbf{Fasi del progetto:} è necessario riferirsi alle fasi del progetto con il comando \LaTeX{}  ??????;
+\item \textbf{Nomi propri:} per utilizzare i nomi propri dei membri del team si deve seguire la forma “Cognome Nome”;
+\item \textbf{Nome del gruppo:} ci si riferirà al gruppo solo come “404NotFound”. Per la corretta scrittura è definita la macro \LaTeX{} \verb|\gruppo\|;
+\item \textbf{Nome del proponente:} ci si riferirà al proponente come “Zucchetti srl” o con “Proponente”. Per la corretta scrittura è definita la macro \LaTeX{} ?????????;
+\item \textbf{Nome del committente:} ci si riferirà al committente come “Prof. Vardanega Tullio” o con “Committente”. Per la corretta scrittura è definita la macro \LaTeX{} ?????????;
+\item \textbf{Nome del progetto:} ci si riferirà al progetto solo come “Premi“; Per la corretta scrittura è definita la macro \LaTeX{} ?????????.
+\end{itemize}
+
+\subsubsection{Sigle}
+In questo paragrafo sono elencate le sigle utilizzabili all'interno dei documenti. Queste sigle potranno essere utilizzate esclusivamente all'interno di tabelle o diagrammi.
+\begin{itemize}
+\item \textbf{AdR:} Analisi dei Requisiti;
+\item \textbf{GL:} Glossario;
+\item \textbf{NdP:} Norme di Progetto;
+\item \textbf{PdP:} Piano di Progetto;
+\item \textbf{PdQ:} Piano di Qualifica;
+\item \textbf{SdF:} Studio di Fattibilità;
+\item \textbf{ST:} Specifica Tecnica;
+\item \textbf{RA:} Revisione di Accettazione;
+\item \textbf{RP:} Revisione di Progettazione;
+\item \textbf{RQ:} Revisione di Qualifica;
+\item \textbf{RR:} Revisione dei Requisiti.
+\end{itemize}
+
+\subsection{Componenti grafiche}
+\subsubsection{Tabelle}
+Ogni tabella presente all’interno dei documenti dev’essere accompagnata da una didascalia che comprende un numero identificativo incrementale utile a rintracciare la stessa all’interno del documento.
+
+\subsubsection{Immagini}
+Le immagini presenti all'interno dei documenti devono essere nel formato PNG$_G$ (Portabe Network Graphics) e. Ogni immagine deve essere accompagnata da una didascalia in cui deve comparire un numero identificativo incrementale utile a rintracciare la stessa all’interno del documento.
+
+\subsection{Classificazione dei documenti}
+\subsubsection{Documenti informali}
+Un documento è considerato informale fino a quando non viene approvato dal \ruoloResponsabile . Di conseguenza tutti i documenti informali sono da ritenersi esclusivaente ad uso interno.
+
+\subsubsection{Documenti formali}
+Un documento diventa formale nel momento in cui riceve l'approvazione del \ruoloResponsabile{} ed è quindi pronto per essere condiviso con i richiedenti.
+Per giungere fino a questo punto il documento deve seguire un processo di verifica e validazione descritto nel paragrafo 5.7 riguardante il ciclo di vita dei documenti.
+
+\subsection{Versionamento}
+Tutta la documentazione prodotta deve indicare il numero di versione versione attuale, riportato nel modo seguente:
+\begin{center}
+v.X.Y
+\end{center}
+Dove:
+\begin{itemize}
+\item X: indica il numero crescente di uscite formali del documento
+\item Y: indica il numero crescente di modifiche al documento
+\end{itemize}
+
+Ogniqualvolta si presenti la necessità di citare una versione specifica di un documento, essa
+deve comprendere sia il nome che il numero di versione nel seguente formato:
+\begin{center}
+\textit{Nome Documento v.X.Y}
+\end{center}
+
+\subsection{Ciclo di vita}
+Ogni documento, dal momento della sua creazione fino all'approvazione finale, segue un percorso ben preciso durante il quale può assumere tre diversi stati:
+
+\begin{itemize}
+\item \textbf{In lavorazione:} Un documento si trova in questa fase dal momento in cui viene creato e per tutto il periodo necessario alla sua realizzazione. Ci si può trovare in questa fase anche per eventuali modifiche successive;
+\item \textbf{Da verificare:} Una volta che il documento viene terminato, esso deve essere preso in consegna dai verificatori che hannno il compito di rilevare e correggere eventuali errori o imprecisioni;
+\item \textbf{Approvato:} Una volta terminata la fase di verifica il documento deve essere approvato dal \ruoloResponsabile. Questo rappresenta lo stato finale del documento. 
+\end{itemize}
+
+Queste fasi posso essere attraversate più volte da uno stesso documento.
+
+\newpage
+
+
+
