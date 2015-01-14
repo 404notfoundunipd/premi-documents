@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  13 JAN 2015 23:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  14 JAN 2015 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,6 +405,24 @@ Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 83.
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count122
+\LTcapwidth=\dimen131
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count123
+\LT@rows=\count124
+\c@LT@tables=\count125
+\c@LT@chunks=\count126
+\LT@p@ftn=\toks22
+)
 (./AnalisiDeiRequisiti_v0.1.aux)
 \openout1 = `AnalisiDeiRequisiti_v0.1.aux'.
 
@@ -443,25 +461,30 @@ italian.ldf    on input line 22.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-\c@lstlisting=\count122
+\c@lstlisting=\count127
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
-\scratchdimen=\dimen131
-\scratchbox=\box28
-\nofMPsegments=\count124
-\nofMParguments=\count125
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count126
-\MPscratchDim=\dimen132
-\MPnumerator=\count127
-\makeMPintoPDFobject=\count128
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count128
+\scratchdimen=\dimen132
+\scratchbox=\box32
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen133
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks24
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
@@ -520,7 +543,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box29
+\AtBeginShipoutBox=\box33
 Package hyperref Info: Link coloring ON on input line 22.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -529,7 +552,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count129
+\c@section@level=\count134
 )
 LaTeX Info: Redefining \ref on input line 22.
 LaTeX Info: Redefining \pageref on input line 22.
@@ -611,13 +634,13 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 9.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [5]
-<diagram/UC1.png, id=154, 714.41907pt x 1318.9275pt>
+<diagram/UC1.png, id=156, 714.41907pt x 1318.9275pt>
 File: diagram/UC1.png Graphic file (type png)
  <use diagram/UC1.png>
 Package pdftex.def Info: diagram/UC1.png used on input line 35.
 (pdftex.def)             Requested size: 214.32738pt x 395.6813pt.
 
-<diagram/UC1-5.png, id=156, 662.475pt x 377.91188pt>
+<diagram/UC1-5.png, id=158, 662.475pt x 377.91188pt>
 File: diagram/UC1-5.png Graphic file (type png)
  <use diagram/UC1-5.png>
 Package pdftex.def Info: diagram/UC1-5.png used on input line 52.
@@ -631,7 +654,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 61.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [6 <./diagram/UC1.png>]
-<diagram/UC1-5-1.png, id=165, 707.64375pt x 569.87906pt>
+<diagram/UC1-5-1.png, id=167, 707.64375pt x 569.87906pt>
 File: diagram/UC1-5-1.png Graphic file (type png)
 
 <use diagram/UC1-5-1.png>
@@ -642,17 +665,24 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 79.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [7 <./diagram/UC1-5.png> <./diagram/UC1-5-1.png>]
-<diagram/UC1-5-2.png, id=173, 707.64375pt x 569.87906pt>
+<diagram/UC1-5-2.png, id=175, 707.64375pt x 569.87906pt>
 File: diagram/UC1-5-2.png Graphic file (type png)
 
 <use diagram/UC1-5-2.png>
 Package pdftex.def Info: diagram/UC1-5-2.png used on input line 86.
 (pdftex.def)             Requested size: 283.05249pt x 227.94757pt.
 ) (./documents/requisiti.tex
-File: ../logo/logo404.png Graphic file (type png)
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
+[]|\OT1/cmr/m/n/12 Vincolo
+ []
 
+
+Underfull \vbox (badness 10000) detected at line 11
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 12.
+Package pdftex.def Info: ../logo/logo404.png used on input line 14.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [8 <./diagram/UC1-5-2.png>])
 File: ../logo/logo404.png Graphic file (type png)
@@ -671,25 +701,25 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
 Package rerunfilecheck Info: File `AnalisiDeiRequisiti_v0.1.out' has not change
 d.
-(rerunfilecheck)             Checksum: 555A982A30A4623A63B66DDDF5DDF291;1448.
+(rerunfilecheck)             Checksum: C51FE35EB7A61E69508469F6195D59CB;1436.
  ) 
 Here is how much of TeX's memory you used:
- 10550 strings out of 493117
- 156162 string characters out of 6135432
- 254309 words of memory out of 5000000
- 13817 multiletter control sequences out of 15000+600000
+ 10672 strings out of 493117
+ 157883 string characters out of 6135432
+ 255602 words of memory out of 5000000
+ 13931 multiletter control sequences out of 15000+600000
  8837 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,15n,45p,818b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,15n,47p,840b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on AnalisiDeiRequisiti_v0.1.pdf (10 pages, 494959 bytes).
+Output written on AnalisiDeiRequisiti_v0.1.pdf (10 pages, 495390 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
+ 214 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
  191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
