@@ -2,15 +2,103 @@
 
 \subsection{Organizzazione}
 
+Per di garantire la qualità del prodotto in tutte le sue fasi di realizzazione, accertandone la conformità rispetto a quanto emerso durante la fase di Analisi dei Requisiti (vedi allegato \textit{AnalisiDeiRequisiti\_v1:0:pdf}), si intende svolgere una costante attività di verifica trasversale a tutte le fasi di sviluppo del progetto.\\ \\
+Per poter effettuare un corretto processo di verifica si è scelto di effettuare le
+dovute operazioni di controllo ogni volta che il prodotto in esame avrà maturato sostanziali modifiche rispetto alla sua precedente versione. Per quanto riguarda la documentazione questa maturazione si rispecchia nel variare dell'indice di versione dei documenti stessi (vedi documento interno \textit{NormeDiProgetto\_v1.0.pdf}, sezione 6.6) e una fase di verifica finale è necessaria affinchè un qualsiasi documento possa passare alla fase di approvazione da parte del \ruoloResponsabile. E' auspicabile che siano svolte verifiche sui documenti non solo prima dell'approvazione ma anche in fasi intermedie nelle quali il documento può non essere ancora stato completato. Ogni svolgimento di una fase di verifica globale sarà riportata nell'apposito registro delle modifiche. Per assicurare il massimo livello di controllo, tuttavia, un primo controllo sommario sui nuovi contenuti viene svolto dal \ruoloVerificatore\ ad ogni modifica del documento (per approfondimento vedi documento interno  \textit{NormeDiProgetto\_v.1.0.pdf} sezione 5.4)
+\\ \\
+Si è scelto e adottato il metodo “Broken Window Theory” secondo il quale, non appena un errore viene rilevato, questo andrà segnalato e corretto il prima possibile onde evitarne la propagazione.
+\\ \\
+Il ciclo di vita scelto per lo sviluppo del progetto è un ciclo di vita incrementale (vedi documento allegato PianoDiProgetto\_v1.0) e di conseguenza le
+operazioni di verifica verranno realizzate in modo tale da intervenire in maniera
+coerente nelle varie fasi del progetto come illustrato di seguito:
+
+\subsubsection{Analisi dei requisiti}
+
+Tutta la documentazione relativa alla RR, una volta completata, entrerà nella dedicata fase di revisione. Di seguito i parametri di controllo:
+\begin{itemize}
+	\item[-] La presenza di eventuali errori lessico/grammaticali e la generale correttezza dei contenuti esposti. Nel dettaglio, il controllo ortografico verrà effettuato con gli strumenti messi a disposizione da TexMaker$_G$, mentre il controllo lessicale, grammaticale e sintattico da un'accurata rilettura del testo.
+	\item[-]Il controllo dei contenuti con l'obiettivo di verificare la copertura delle richieste del proponente e questo tramite un'accurata rilettura e confronto con il capitolato d'appalto.
+	\item[-]Corrispondenza tra ogni requisito e caso d'uso corrispondente.
+	\item[-]verifica dei contenuti grafici e tabellari e conformità dei documenti alle \textit{Norme di Progetto} stabilite.
+\end{itemize}
+Se durante la verifica saranno state rilevate irregolarità
+queste verranno segnalate tramite un apposito ticket dal verificatore
+e corrette dal redattore.
+
+\subsubsection{Progettazione}
+Il processo di verifica in fase di Progettazione consisterà nel verificare che tutti i requisiti descritti durante la fase di Analisi dei Requisiti siano tracciabili nei componenti individuati e viceversa che ogni componente soddisfi o sia associato ad almeno un requisito. Qualora dalla verifica sorgano incongruenze o mancanze, queste verranno segnalate tramite ticket e successivamente risolte.
+
+\subsubsection{Realizzazione}
+La verifica in questa fase verrà effettuata da parte
+dei programmatori stessi utilizzando appositi e specifici strumenti di
+verifica automatizzata del codice. La presenza di errori verrà segnalata da
+un apposito ticket che verrà preso in carico dai programmatori e chiuso
+una volta risolto il problema.
+
+\subsubsection{Validazione}
+Il team \gruppo\ si impegna a garantire il corretto funzionamento del prodotto Premi e a fornire al collaudo una versione funzionante e possibilmente completa del prodotto. Nel caso in cui vengano riscontrati malfunzionamenti o discrepanze tra le caratteristiche del prodotto e le richieste del cliente sarà cura del fornitore eliminare tali difetti, interamente a proprio carico.
+
 \subsection{Pianificazione Strategica e Temporale}
+Avendo l'obiettivo di rispettare le scadenze fissate nel Piano di Progetto v1.0, è necessario che l'attività di verifica della documentazione e del codice sia sistematica e ben organizzata. Ogni fase di redazione dei documenti e di codifica deve essere preceduta da una fase di studio preliminare per eliminare all'origine possibili imprecisioni di natura concettuale e/o tecnica.
+\\ \\Il processo di verifica viene strutturato in tre fasi:
+\begin{enumerate}
+	\item \textbf{Pre-Verifica:} Si tratta della pianificazione e la preparazione delle attività di verifica. Consiste nella scelta delle persone che si occuperanno di questa attività e nella distribuzione dei documenti o componenti software da controllare.
+    \item \textbf{Verifica effettiva:} I \textit{Verifcatori} lavorano indipendentemente per trovare errori, omissioni e scostamenti rispetto agli standard, durante questa fase, un autore del documento o componente software attende il responso del \ruoloVerificatore. Deve stillato un elenco delle azioni correttive da intraprendere.
+    \item \textbf{Post-Verifica:} Dopo che le correzioni sono state apportate al componente in esame il \ruoloVerificatore\, usando  come checklist l'elenco delle correzioni da lui redatto nella fase precedente, potrà constatare l'avvenuta correzione.
+\end{enumerate}
+Durante le attività di verifica è inevitabile che gli errori commessi dagli individui vengano esposti a tutto il gruppo. E' quindi molto importante che si incoraggi nel team una mentalità per la quale la segnalazione degli errori non diventi motivo per screditare il lavoro di un singolo, ma occasione di crescita per la persona e per l'intero gruppo di lavoro.
 
 \subsection{Responsabilità}
 
-\subsection{Risorse}
-\subsubsection{Risorse Necessarie}
-\subsubsection{Risorse Disponibili}
+La responsabilità dell'attività di verifica viene affidata ai seguenti ruoli:
 
-\subsection{Strumenti, Tecnice e Metodi}
+\begin{itemize}
+	\item \textbf{Responsabile di Progetto:} Macroscopicamente ha il compito di controllare che l'evoluzione del progetto rispetti le tempistiche prefissate, è garante della qualità dei processi interni e della conformità dei prodotti a quanto pianificato e progettato ponendosi come garante nei confronti del \textit{Committente}. In particolare in questo contesto ha il compito di assicurarsi che le attività di verifica vengano svolte sistematicamente e non vi siano conflitti di interesse tra redattori e verificatori. Egli è l'unico a poter decidere l'approvazione di un documento e a sancirne la distribuzione.
+	\item \textbf{Verificatore:} Ha il compito di coordinare e definire le attività volte alla verifica del materiale prodotto, sia esso software, documenti o materiale d'altro genere. La responsabilità del verificatore è quella di respingere o validare ogni nuovo documento o modifica di esso e di segnalare formalmente gli errori riscontrati.
+\end{itemize}
+
+\subsection{Strumenti, Tecniche e Metodi}
 \subsubsection{Strumenti}
-\subsubsection{Tecniche}
-\subsubsection{Metodi}
+Per lo svolgimento del processo di verifica faremo uso dei seguenti strumenti:
+\begin{itemize}
+	\item \textbf{Correttore automatico di TeXMaker}: come segnalato nelle Norme di Progetto v1.0 per la scrittura di documenti si è scelto di utilizzare l'ambiente grafico TeXMaker. Tale strumento integra i dizionari di OpenOffice.org e segnala i potenziali
+	errori ortografici presenti nel testo;
+	
+	\item Strumento software realizzato dal gruppo \gruppo\ che contiene ed associa:
+	\begin{itemize}
+		\item Requisiti individuati durante l'analisi;
+		\item Fonti di requisiti individuate, inclusi anche i casi d'uso.
+	\end{itemize}
+	Permette inoltre di esportare automaticamente:
+	\begin{itemize}
+		\item Codice \LaTeX\ per la descrizione dei casi d'uso;
+		\item Tabella in \LaTeX\ per il tracciamento fonti-requisiti.
+	\end{itemize}
+
+	\item Strumenti W3C$_G$ (\href{www.w3.org}{www.w3.org}) per la validazione:
+	    \begin{itemize}
+	    	\item \textbf{validatore HTML5$_G$} (\href{http://validator.w3.org}{http://validator.w3.org})
+	    	\item \textbf{validatore CSS$_G$}
+	    	(\href{http://jigsaw.w3.org/css-validator/}{http://jigsaw.w3.org/css-validator/})
+	    \end{itemize}
+	
+	\item Strumenti per debugging$_G$ HTML$_G$, CSS$_G$ e JavaScript$_G$ messi a disposizione dai vari browser$_G$:
+	    \begin{itemize}
+	    	\item \textbf{Chrome Developer Tools} (\href{https://developers.google.com/chrome-developer-tools}
+	    	{https://developers.google.com/chrome-developer-tools})
+	    	\item \textbf{Firebug}
+	    	(\href{http://getfirebug.com/}{http://getfirebug.com/})
+	    \end{itemize}
+	\item \textbf{JSLint} Ambiente di test (\href{http://www.junit.org}{http://www.junit.org}): tool per la validazione di codice JavaScript$_G$;
+	\item \textbf{JUnit} (\href{http://www.junit.org}{http://www.junit.org}): semplice framework per eseguire test ripetibili;
+	\item \textbf{BrowserStack} (\href{http://www.browserstack.com/}{http://www.browserstack.com/}):  per eseguire il test comparato sui vari browser$_G$;;
+	\item \textbf{WebStorm} (\href{https://www.jetbrains.com/webstorm/}{https://www.jetbrains.com/webstorm/}): IDE JavaScript scelto come ambiente di sviluppo.
+\end{itemize}
+
+\subsubsection{Tecniche di Analisi}
+
+\textbf{Anamilisi Statica}: consiste nell'analisi della documentazione e dei prodotti software senza effettuare l'esecuzione. Viene svolta mediante due tecniche:
+
+\subsubsection{Metodi e Metriche}
+
+
