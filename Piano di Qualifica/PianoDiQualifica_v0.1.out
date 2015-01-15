@@ -7,24 +7,33 @@
 \BOOKMARK [3][-]{subsubsection.1.4.2}{Informativi}{subsection.1.4}% 7
 \BOOKMARK [1][-]{section.2}{Visione Generale della Strategia di Verifica}{}% 8
 \BOOKMARK [2][-]{subsection.2.1}{Organizzazione}{section.2}% 9
-\BOOKMARK [2][-]{subsection.2.2}{Pianificazione Strategica e Temporale}{section.2}% 10
-\BOOKMARK [2][-]{subsection.2.3}{Responsabilit\340}{section.2}% 11
-\BOOKMARK [2][-]{subsection.2.4}{Risorse}{section.2}% 12
-\BOOKMARK [3][-]{subsubsection.2.4.1}{Risorse Necessarie}{subsection.2.4}% 13
-\BOOKMARK [3][-]{subsubsection.2.4.2}{Risorse Disponibili}{subsection.2.4}% 14
-\BOOKMARK [2][-]{subsection.2.5}{Strumenti, Tecnice e Metodi}{section.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.5.1}{Strumenti}{subsection.2.5}% 16
-\BOOKMARK [3][-]{subsubsection.2.5.2}{Tecniche}{subsection.2.5}% 17
-\BOOKMARK [3][-]{subsubsection.2.5.3}{Metodi}{subsection.2.5}% 18
-\BOOKMARK [1][-]{section.3}{Obiettivi di Qualit\340}{}% 19
-\BOOKMARK [2][-]{subsection.3.1}{Qualit\340 dei Processi}{section.3}% 20
-\BOOKMARK [2][-]{subsection.3.2}{Qualit\340 del Prodotto}{section.3}% 21
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Funzionalit\340}{subsection.3.2}% 22
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Affidabilit\340}{subsection.3.2}% 23
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Efficienza}{subsection.3.2}% 24
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Usabilit\340}{subsection.3.2}% 25
-\BOOKMARK [3][-]{subsubsection.3.2.5}{Manutenibilit\340}{subsection.3.2}% 26
-\BOOKMARK [3][-]{subsubsection.3.2.6}{Portabilit\340}{subsection.3.2}% 27
-\BOOKMARK [1][-]{section.4}{Gestione amministrativa della revisione}{}% 28
-\BOOKMARK [1][-]{section.5}{Resoconto dell Attivit\340 di Verifica}{}% 29
-\BOOKMARK [1][-]{section.6}{Pianificazione ed Esecusione del Collaudo}{}% 30
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Analisi dei requisiti}{subsection.2.1}% 10
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Progettazione}{subsection.2.1}% 11
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Realizzazione}{subsection.2.1}% 12
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Validazione}{subsection.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.2}{Pianificazione Strategica e Temporale}{section.2}% 14
+\BOOKMARK [2][-]{subsection.2.3}{Responsabilit\340}{section.2}% 15
+\BOOKMARK [2][-]{subsection.2.4}{Strumenti, Tecniche e Metodi}{section.2}% 16
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Strumenti}{subsection.2.4}% 17
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Tecniche di Analisi}{subsection.2.4}% 18
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Metodi e Metriche}{subsection.2.4}% 19
+\BOOKMARK [1][-]{section.3}{Risorse}{}% 20
+\BOOKMARK [2][-]{subsection.3.1}{Risorse Necessarie}{section.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Risorse Umane}{subsection.3.1}% 22
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Risorse Software}{subsection.3.1}% 23
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Risorse Hardware}{subsection.3.1}% 24
+\BOOKMARK [2][-]{subsection.3.2}{Risorse Disponibili}{section.3}% 25
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Risorse Software}{subsection.3.2}% 26
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Risorse Hardware}{subsection.3.2}% 27
+\BOOKMARK [1][-]{section.4}{Obiettivi di Qualit\340}{}% 28
+\BOOKMARK [2][-]{subsection.4.1}{Qualit\340 dei Processi}{section.4}% 29
+\BOOKMARK [2][-]{subsection.4.2}{Qualit\340 del Prodotto}{section.4}% 30
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Funzionalit\340}{subsection.4.2}% 31
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Affidabilit\340}{subsection.4.2}% 32
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Efficienza}{subsection.4.2}% 33
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Usabilit\340}{subsection.4.2}% 34
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Manutenibilit\340}{subsection.4.2}% 35
+\BOOKMARK [3][-]{subsubsection.4.2.6}{Portabilit\340}{subsection.4.2}% 36
+\BOOKMARK [1][-]{section.5}{Gestione amministrativa della revisione}{}% 37
+\BOOKMARK [1][-]{section.6}{Resoconto dell Attivit\340 di Verifica}{}% 38
+\BOOKMARK [1][-]{section.7}{Pianificazione ed Esecusione del Collaudo}{}% 39
