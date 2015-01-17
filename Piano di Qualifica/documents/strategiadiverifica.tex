@@ -13,13 +13,12 @@ operazioni di verifica verranno realizzate in modo tale da intervenire in manier
 coerente nelle varie fasi del progetto come illustrato di seguito:
 
 \subsubsection{Analisi dei requisiti}
-
 Tutta la documentazione relativa alla RR, una volta completata, entrerà nella dedicata fase di revisione. Di seguito i parametri di controllo:
 \begin{itemize}
 	\item[-] La presenza di eventuali errori lessico/grammaticali e la generale correttezza dei contenuti esposti. Nel dettaglio, il controllo ortografico verrà effettuato con gli strumenti messi a disposizione da TexMaker$_G$, mentre il controllo lessicale, grammaticale e sintattico da un'accurata rilettura del testo.
 	\item[-]Il controllo dei contenuti con l'obiettivo di verificare la copertura delle richieste del proponente e questo tramite un'accurata rilettura e confronto con il capitolato d'appalto.
 	\item[-]Corrispondenza tra ogni requisito e caso d'uso corrispondente.
-	\item[-]verifica dei contenuti grafici e tabellari e conformità dei documenti alle \textit{Norme di Progetto} stabilite.
+	\item[-]Verifica dei contenuti grafici e tabellari e conformità dei documenti alle \textit{Norme di Progetto} stabilite.
 \end{itemize}
 Se durante la verifica saranno state rilevate irregolarità
 queste verranno segnalate tramite un apposito ticket dal verificatore
@@ -64,7 +63,7 @@ Per lo svolgimento del processo di verifica faremo uso dei seguenti strumenti:
 	\item \textbf{Correttore automatico di TeXMaker}: come segnalato nelle Norme di Progetto v1.0 per la scrittura di documenti si è scelto di utilizzare l'ambiente grafico TeXMaker. Tale strumento integra i dizionari di OpenOffice.org e segnala i potenziali
 	errori ortografici presenti nel testo;
 	
-	\item Strumento software realizzato dal gruppo \gruppo\ che contiene ed associa:
+	\item \textbf{404TrackerDB}: Strumento software realizzato dal gruppo \gruppo\ che contiene ed associa:
 	\begin{itemize}
 		\item Requisiti individuati durante l'analisi;
 		\item Fonti di requisiti individuate, inclusi anche i casi d'uso.
@@ -91,14 +90,73 @@ Per lo svolgimento del processo di verifica faremo uso dei seguenti strumenti:
 	    \end{itemize}
 	\item \textbf{JSLint} Ambiente di test (\href{http://www.junit.org}{http://www.junit.org}): tool per la validazione di codice JavaScript$_G$;
 	\item \textbf{JUnit} (\href{http://www.junit.org}{http://www.junit.org}): semplice framework per eseguire test ripetibili;
-	\item \textbf{BrowserStack} (\href{http://www.browserstack.com/}{http://www.browserstack.com/}):  per eseguire il test comparato sui vari browser$_G$;;
+	\item \textbf{BrowserStack} (\href{http://www.browserstack.com/}{http://www.browserstack.com/}):  per eseguire il test comparato sui vari browser$_G$;
 	\item \textbf{WebStorm} (\href{https://www.jetbrains.com/webstorm/}{https://www.jetbrains.com/webstorm/}): IDE JavaScript scelto come ambiente di sviluppo.
 \end{itemize}
 
 \subsubsection{Tecniche di Analisi}
+\textbf{Anamilisi Statica}:\medskip \\ 
+Consiste nell'analisi della documentazione e dei prodotti software senza effettuare l'esecuzione. Viene svolta mediante due tecniche complementari:
+\begin{itemize}
+	\item \textbf{Walkthrough}:
+	È una tecnica che viene utilizzata soprattutto nelle prime fasi del progetto, quando ancora non è stata maturata una adeguata esperienza da parte dei membri del gruppo, che permetta di attuare una verifica più mirata e precisa. Consiste nella rilettura completa e metodica da
+	parte dell'autore stesso o da parte del \ruoloVerificatore\ allo scopo di trovare errori. Con l'utilizzo di questa tecnica, il Verificatore sarà in grado di stilare una lista di controllo con gli errori più frequenti in modo da favorire il miglioramento di tale attività nelle fasi future. Questa è un'attività onerosa e collaborativa che richiede l'intervento di più persone per essere efficace ed efficiente. Segue una fase di discussione con la finalità di esaminare i difetti riscontrati e di proporre le dovute correzioni. L'ultima fase consiste nel correggere gli errori rilevati.
+	
+	\item \textbf{Inspection}:
+	Questa tecnica consiste nell'analisi di alcune parti del documento o del codice alla ricerca di errori solo in parti ritenute critiche in base all'esperienza derivata dalle revisioni precedenti. La lista di controllo o checklist, che deve essere seguita per svolgere efficacemente questo processo, deve essere redatta anticipatamente ed è frutto del lavoro svolto dai verificatori con la tecnica di walkthrough. L'Inspection è da preferire al Walkthrough, poichè  non necessità della lettura integrale dei documenti in oggetto, ma richiede un sufficiente livello di dettaglio nella lista di controllo.
+	    
+\end{itemize}
+La lista di controllo risultante è la seguente:
+thgdfddbfavabrwnbafvgrhjrnsbavfewgrtjryrnbvfjetyngbdfvrjyngbdfv \\ \\
+\textbf{Metodi di Analisi Statica}:
+\begin{itemize}
+	\item \textbf{Analisi del flusso di controllo}: si controlla che il codice sia correttamente strutturato e che segua il flusso aspettato, che non vi siano parti del programma che possano non terminare e che non esistano porzioni di codice non raggiungibile.
+	\item \textbf{Analisi del flusso dei dati}: si accerta che il software non acceda mai a variabili non inizializzate o non modifichi più volte di seguito una variabile senza leggerne il valore tra una modifica e l'altra.
+	\item \textbf{Analisi del flusso di informazione}: si verifica che le uniche dipendenze tra gli input e gli output di ogni unità di codice o di più unità siano quelle previste in fase di progettazione.
+\end{itemize}
+\textbf{Analisi Dinamica}:\medskip \\
+Consiste nella verifica dei componenti del software o del sistema in generale e richiede l'esecuzione del programma per eseguire il test.
+Perchè tale attività sia utile e generi risultati attendibili è necessario che i test effettuati siano ripetibili: cioè dati uno stesso input e uno stesso ambiente di esecuzione deve fornire gli stessi risultati quando vengono effettuate più prove. Questi risultati saranno utili solo se porteranno alla luce errori permettendo di correggerli, nel caso non vengano riscontrate anomalie, ciò non costituisce una prova dell'assenza di errori.
+\\ \\ \textbf{Metodi di Analisi Dinamica}:
+\begin{itemize}
+	\item \textbf{Test di unità}:
+	Viene verificata ogni unità software che deve soddisfare i requisiti per essa richiesti ed è necessario testare tutte le possibili esecuzioni del codice che lo compone. Per unità si intende la più piccola quantità di software che è utile verificare singolarmente e che viene prodotta da un singolo programmatore.
+	\item \textbf{Test di integrazione}:
+	I moduli che hanno superato il test di unità possono
+	venire integrati tra di loro. Il test di integrazione ha lo scopo di individuare errori residui nella realizzazione dei moduli e problemi nell'integrazione con altre componenti fornite da terze parti che non si conoscono a fondo.
+	\item \textbf{Test di sistema e collaudo}:
+	Serve a verificare il completo soddisfacimento dei requisiti software stabiliti in fase di Analisi. Consiste nella validazione del prodotto software nel momento in cui vengono aggiunti tutti i componenti. Il test potrà riguardare, in una fase iniziale, solamente alcune delle componenti del prodotto finale, per poi interessare il sistema nella sua interezza.
+	\item \textbf{Test di regressione}:
+	Consiste nell'eseguire nuovamente i test di unità e di integrazione su componenti software alle quali sono stati apportati cambiamenti. Serve a  controllare che le modifiche apportate non provochino malfunzionamenti alla componente stessa o ad altre che dipendono da essa.
+	\item \textbf{Test di accettazione}:
+	È il test di collaudo del prodotto software che viene eseguito in presenza del Committente. Se questa fase finale di test viene superata positivamente si può procedere al rilascio ufficiale del prodotto sviluppato.
+\end{itemize}
+\subsubsection{Misure e Metriche}
+Le misure e le metriche che il team adotterà si ispireranno alle indicazioni dello standard ISO/IEC-14598. Tale norma descrive il processo di valutazione della qualità del software. Vengono di seguito descritte le metriche sulle quali \gruppo\ intende basarsi nei processi di verifica, sia in fase di progettazione che di codifica, che potranno essere integrate e stabilite con maggiore precisione durante l'avanzamento del progetto.
+\begin{itemize}
+    \item \textbf{Complessità ciclomatica}:
+    La complessità ciclomatica di un programma è il
+    numero di cammini linearmente indipendenti attraverso il codice sorgente. Per esempio, se il codice sorgente non contiene IF o FOR, allora il livello di complessità sarà 1, poiché esiste un solo 
+    cammino, se è presente un IF la complessità diventa di 2. Un programma si può quindi rappresentare come un albero nel quale i nodi sono i blocchi del programma e gli archi sono il passaggio del controllo da un blocco all'altro. La complessità è quindi definita come:
+    \begin{center}
+    	\textit{C = c - n + 2p}
+    \end{center}
 
-\textbf{Anamilisi Statica}: consiste nell'analisi della documentazione e dei prodotti software senza effettuare l'esecuzione. Viene svolta mediante due tecniche:
-
-\subsubsection{Metodi e Metriche}
-
-
+	\item \textbf{Misure nella progettazione}:
+	
+	- profondità di annidamento dei costrutti condizionali
+	
+	- numero di classi e coesione tra di esse
+	
+	- complessità di flusso fan in e fan out
+	
+	\item \textbf{Misure sul codice}:
+	- lunghezza del codice
+	
+	- lunghezza degli identificatori
+	
+	- numero di parametri
+	
+	- numero di campi dati per classe
+	
+\end{itemize}
