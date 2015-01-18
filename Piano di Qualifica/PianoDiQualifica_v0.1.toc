@@ -1,40 +1,46 @@
 \select@language {italian}
-\contentsline {section}{\numberline {1}Introduzione}{4}{section.1}
-\contentsline {subsection}{\numberline {1.1}Scopo del documento}{4}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Scopo del Prodotto}{4}{subsection.1.2}
-\contentsline {subsection}{\numberline {1.3}Glossario}{4}{subsection.1.3}
-\contentsline {subsection}{\numberline {1.4}Riferimenti}{4}{subsection.1.4}
-\contentsline {subsubsection}{\numberline {1.4.1}Normativi}{4}{subsubsection.1.4.1}
-\contentsline {subsubsection}{\numberline {1.4.2}Informativi}{4}{subsubsection.1.4.2}
-\contentsline {section}{\numberline {2}Visione Generale della Strategia di Verifica}{5}{section.2}
-\contentsline {subsection}{\numberline {2.1}Organizzazione}{5}{subsection.2.1}
-\contentsline {subsubsection}{\numberline {2.1.1}Analisi dei requisiti}{5}{subsubsection.2.1.1}
-\contentsline {subsubsection}{\numberline {2.1.2}Progettazione}{6}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Realizzazione}{6}{subsubsection.2.1.3}
-\contentsline {subsubsection}{\numberline {2.1.4}Validazione}{6}{subsubsection.2.1.4}
-\contentsline {subsection}{\numberline {2.2}Pianificazione Strategica e Temporale}{6}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Responsabilit\IeC {\`a}}{7}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Strumenti, Tecniche e Metodi}{7}{subsection.2.4}
-\contentsline {subsubsection}{\numberline {2.4.1}Strumenti}{7}{subsubsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.2}Tecniche di Analisi}{8}{subsubsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.3}Misure e Metriche}{10}{subsubsection.2.4.3}
-\contentsline {section}{\numberline {3}Risorse}{11}{section.3}
-\contentsline {subsection}{\numberline {3.1}Risorse Necessarie}{11}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Risorse Umane}{11}{subsubsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.2}Risorse Software}{11}{subsubsection.3.1.2}
-\contentsline {subsubsection}{\numberline {3.1.3}Risorse Hardware}{11}{subsubsection.3.1.3}
-\contentsline {subsection}{\numberline {3.2}Risorse Disponibili}{11}{subsection.3.2}
-\contentsline {subsubsection}{\numberline {3.2.1}Risorse Software}{11}{subsubsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2}Risorse Hardware}{12}{subsubsection.3.2.2}
-\contentsline {section}{\numberline {4}Obiettivi di Qualit\IeC {\`a}}{13}{section.4}
-\contentsline {subsection}{\numberline {4.1}Qualit\IeC {\`a} dei Processi}{13}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Qualit\IeC {\`a} del Prodotto}{13}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}Funzionalit\IeC {\`a}}{13}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}Affidabilit\IeC {\`a}}{13}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}Efficienza}{13}{subsubsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.4}Usabilit\IeC {\`a}}{13}{subsubsection.4.2.4}
-\contentsline {subsubsection}{\numberline {4.2.5}Manutenibilit\IeC {\`a}}{13}{subsubsection.4.2.5}
-\contentsline {subsubsection}{\numberline {4.2.6}Portabilit\IeC {\`a}}{13}{subsubsection.4.2.6}
-\contentsline {section}{\numberline {5}Gestione amministrativa della revisione}{14}{section.5}
-\contentsline {section}{\numberline {6}Resoconto dell Attivit\IeC {\`a} di Verifica}{15}{section.6}
-\contentsline {section}{\numberline {7}Pianificazione ed Esecusione del Collaudo}{16}{section.7}
+\contentsline {section}{\numberline {1}Introduzione}{5}{section.1}
+\contentsline {subsection}{\numberline {1.1}Scopo del documento}{5}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scopo del Prodotto}{5}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Glossario}{5}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Riferimenti}{5}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}Normativi}{5}{subsubsection.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.2}Informativi}{5}{subsubsection.1.4.2}
+\contentsline {section}{\numberline {2}Visione Generale della Strategia di Verifica}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Organizzazione}{6}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Analisi dei requisiti}{6}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Progettazione}{7}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Realizzazione}{7}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Validazione}{7}{subsubsection.2.1.4}
+\contentsline {subsection}{\numberline {2.2}Pianificazione Strategica e Temporale}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Responsabilit\IeC {\`a}}{8}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Strumenti, Tecniche e Metodi}{8}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Strumenti}{8}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Tecniche di Analisi}{9}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Misure e Metriche}{11}{subsubsection.2.4.3}
+\contentsline {section}{\numberline {3}Risorse}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Risorse Necessarie}{12}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Risorse Umane}{12}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Risorse Software}{12}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Risorse Hardware}{12}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}Risorse Disponibili}{12}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Risorse Software}{12}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Risorse Hardware}{13}{subsubsection.3.2.2}
+\contentsline {section}{\numberline {4}Obiettivi di Qualit\IeC {\`a}}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}Qualit\IeC {\`a} dei Processi}{14}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Qualit\IeC {\`a} del Prodotto}{16}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Funzionalit\IeC {\`a}}{16}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Affidabilit\IeC {\`a}}{16}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Efficienza}{16}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Usabilit\IeC {\`a}}{16}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}Manutenibilit\IeC {\`a}}{16}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.6}Portabilit\IeC {\`a}}{16}{subsubsection.4.2.6}
+\contentsline {section}{\numberline {5}Gestione amministrativa della revisione}{17}{section.5}
+\contentsline {subsection}{\numberline {5.1}Comunicazione e risoluzione di anomalie}{17}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Trattamento delle discrepanze}{17}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Procedure di controllo di qualit\IeC {\`a} di processo}{17}{subsection.5.3}
+\contentsline {section}{\numberline {6}Resoconto dell' Attivit\IeC {\`a} di Verifica}{18}{section.6}
+\contentsline {subsection}{\numberline {6.1}Tracciamento componenti - requisiti}{18}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Dettaglio delle verifiche tramite analisi}{18}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Dettaglio delle verifiche tramite prove}{18}{subsection.6.3}
+\contentsline {section}{\numberline {7}Pianificazione ed Esecusione del Collaudo}{19}{section.7}

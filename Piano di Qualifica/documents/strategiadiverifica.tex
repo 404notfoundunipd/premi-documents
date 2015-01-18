@@ -103,8 +103,7 @@ Consiste nell'analisi della documentazione e dei prodotti software senza effettu
 	parte dell'autore stesso o da parte del \ruoloVerificatore\ allo scopo di trovare errori. Con l'utilizzo di questa tecnica, il Verificatore sarà in grado di stilare una lista di controllo con gli errori più frequenti in modo da favorire il miglioramento di tale attività nelle fasi future. Questa è un'attività onerosa e collaborativa che richiede l'intervento di più persone per essere efficace ed efficiente. Segue una fase di discussione con la finalità di esaminare i difetti riscontrati e di proporre le dovute correzioni. L'ultima fase consiste nel correggere gli errori rilevati.
 	
 	\item \textbf{Inspection}:
-	Questa tecnica consiste nell'analisi di alcune parti del documento o del codice alla ricerca di errori solo in parti ritenute critiche in base all'esperienza derivata dalle revisioni precedenti. La lista di controllo o checklist, che deve essere seguita per svolgere efficacemente questo processo, deve essere redatta anticipatamente ed è frutto del lavoro svolto dai verificatori con la tecnica di walkthrough. L'Inspection è da preferire al Walkthrough, poichè  non necessità della lettura integrale dei documenti in oggetto, ma richiede un sufficiente livello di dettaglio nella lista di controllo.
-	    
+	Questa tecnica consiste nell'analisi di alcune parti del documento o del codice alla ricerca di errori solo in parti ritenute critiche in base all'esperienza derivata dalle revisioni precedenti. La lista di controllo o checklist, che deve essere seguita per svolgere efficacemente questo processo, deve essere redatta anticipatamente ed è frutto del lavoro svolto dai verificatori con la tecnica di walkthrough. L'Inspection è da preferire al Walkthrough, poichè  non necessità della lettura integrale dei documenti in oggetto, ma richiede un sufficiente livello di dettaglio nella lista di controllo.	    
 \end{itemize}
 La lista di controllo risultante è la seguente:
 thgdfddbfavabrwnbafvgrhjrnsbavfewgrtjryrnbvfjetyngbdfvrjyngbdfv \\ \\
@@ -139,24 +138,20 @@ Le misure e le metriche che il team adotterà si ispireranno alle indicazioni de
     numero di cammini linearmente indipendenti attraverso il codice sorgente. Per esempio, se il codice sorgente non contiene IF o FOR, allora il livello di complessità sarà 1, poiché esiste un solo 
     cammino, se è presente un IF la complessità diventa di 2. Un programma si può quindi rappresentare come un albero nel quale i nodi sono i blocchi del programma e gli archi sono il passaggio del controllo da un blocco all'altro. La complessità è quindi definita come:
     \begin{center}
-    	\textit{C = c - n + 2p}
+    	\textit{C = e - n + 2p}
     \end{center}
-
+    dove e è il numero di archi, n il numero di nodi e p il numero delle componenti connesse. Il valore massimo di complessità ciclomatica accettabile per il gruppo di lavoro \gruppo\ è 10.
 	\item \textbf{Misure nella progettazione}:
-	
-	- profondità di annidamento dei costrutti condizionali
-	
-	- numero di classi e coesione tra di esse
-	
-	- complessità di flusso fan in e fan out
-	
+	\begin{itemize}
+		\item \textbf{Complessità di flusso}: 
+		misura la quantità di informazioni in entrata ed uscita da una funzione (fan in e fan out). Fan-in è una misura del numero di metodi che invocano una determinata procedura. Un alto valore per fan-in significa che cambiamenti a quella procedura potrebbero avere effetti a catena sulle altre. Fan-out indica quanto una procedura ne richiama delle altre, dando una valutazione del grado di dipendenza di quella procedura dalle altre.
+		\item \textbf{Profondità di annidamento dei costrutti condizionali}: costrutti IF profondamente annidati sono più soggetti a errori e risultano più difficili da
+		comprendere e da correggere.
+	\end{itemize}
 	\item \textbf{Misure sul codice}:
-	- lunghezza del codice
-	
-	- lunghezza degli identificatori
-	
-	- numero di parametri
-	
-	- numero di campi dati per classe
-	
+	\begin{itemize}
+		\item \textbf{Lunghezza del codice}: misura la dimensione di un componente in termini di numero di linee di codice. Generalmente, maggiore è la dimensione di un componente, maggiore è la probabilità che esso contenga degli errori.
+		\item \textbf{Lunghezza degli identificatori}: misura la lunghezza media degli identificatori (variabili, classi, metodi, etc.). Una lunghezza media elevata e indice di un elevato grado di complessità.
+		\item \textbf{Numero dei parametri}: indica il numero di parametri formali nei metodi. Quando questo indice è troppo elevato, è opportuno pensare di semplificare i metodi suddividendoli in metodi più semplici. Il numero massimo di parametri per metodo stabilito dal team di sviluppo è 6.
+	\end{itemize}
 \end{itemize}
