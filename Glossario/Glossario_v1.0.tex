@@ -1,0 +1,29 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{../style}
+\usepackage{longtable}
+
+
+\newcommand{\titDoc}{Glossario}
+\newcommand{\dataCreazione}{20 Dicembre 2014}
+\newcommand{\versione}{1.0}
+
+% Dati di rilascio del documento corrente %
+\newcommand{\stato}{Formale}
+\newcommand{\uso}{Esterno}
+
+\lfoot{
+	\titDoc \\
+	v. \versione
+}
+\title{\titDoc}
+
+\begin{document}
+\input{documents/first.tex}
+\newpage
+\input{documents/regModifiche.tex}
+\newpage
+\input{documents/intro.tex}
+\newpage
+\input{documents/definizioni.tex}
+
+\end{document}
