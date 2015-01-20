@@ -1,0 +1,46 @@
+
+\section{Analisi dei Requisiti}
+\subsection{Studio di Fattibilità}
+In seguito alla scelta del capitolato da parte del gruppo è necessario che gli \textit{Analisti} redigano uno \textit{Studio di Fattibilità}. Questo documento dovrà focalizzarsi su:
+\begin{itemize}
+\item \textbf{Dominio applicativo e tecnologico:} la conoscenza, da parte dei componenti del gruppo, del dominio applicativo e delle tecnologie richieste nel  ; 
+\item \textbf{Guadagno:} rapporto tra costi per la realizzazione e dei benefici ricavati dal prodotto completo;
+\item \textbf{Analisi dei rischi:} individuazione dei rischi derivati da lacune di conoscenza del dominio e dalle tecnologie richieste.  
+\end{itemize}
+\subsection{Requisiti}
+In seguito allo studio di fattibilità gli \ruoloAnalista dovranno identificare e classificare i Requisiti.
+La classificazione verrà operata sui seguenti attributi:
+\begin{itemize}
+\item \textbf{Tipo del Requisito} i cui valori possono essere:
+\begin{itemize}
+\item[F] Funzionale;
+\item[Q] di Qualità;
+\item[V] di Vincolo;
+\item[P] Prestazionale.
+\end{itemize}
+\item \textbf{Valore del Requisito} i cui valori possono essere:
+\begin{itemize}
+\item[Ob] Obbligatorio;
+\item[De] Desiderabile;
+\item[Op] Opzionale.
+\end{itemize}
+\item \textbf{Codice univoco} è il codice espresso in modo gerarchico come segue.
+\begin{center}
+[codice del padre].[numero unico rispetto ai fratelli]
+\end{center}
+\end{itemize} 
+Oltre a questa classificazione è necessario aggiungere una breve descrizione ad ogni requisito
+\subsection{Casi d'Uso}
+In seguito alla classificazione dei requisiti gli \textit{Analisti} dovranno identificare i \textit{casi d'uso} o \textit{use case}.
+Di ogni caso d'uso interessa:
+\begin{itemize}
+\item \textbf{Titolo} breve titolo che identifica lo UC;
+\item \textbf{Pre e Post Condizione};
+\item \textbf{Attori} principali e secondari;
+\item \textbf{Scenari} principali e alternativi definendo per ognuno titolo, attori coinvolti, una breve descrizione e il caso d'uso a cui si riferiscono se presente;
+\item \textbf{Descrizione} breve descrizione dello UC;
+\item \textbf{Requisiti Dedotti}.
+\end{itemize} 
+\subsection{Tracciamento}
+Sia i requisiti che le fonti dovranno essere inseriti, dagli \textit{Analisti}, in un database$_G$ appositamente creato. Per facilitare le operazioni necessarie è stata creata un'applicazione web il cui nome è 404TrackerDB.
+Compito dell'applicazione è anche quella di creare il codice {Latex}, sia delle tabelle per il tracciamento sia delle generalità di fonti e requisiti, in modo automatico per velocizzare la stesura del documento \textit{Analisi dei Requisiti}. 
