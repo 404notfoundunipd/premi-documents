@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  20 JAN 2015 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  20 JAN 2015 12:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -625,7 +625,7 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 (./documents/descrizione.tex
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 10.
+Package pdftex.def Info: ../logo/logo404.png used on input line 7.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [4])
 (./documents/casi_uso.tex
@@ -695,7 +695,7 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on AnalisiDeiRequisiti_v0.1.pdf (8 pages, 255385 bytes).
+Output written on AnalisiDeiRequisiti_v0.1.pdf (8 pages, 255988 bytes).
 PDF statistics:
  208 PDF objects out of 1000 (max. 8388607)
  185 compressed objects within 2 object streams
