@@ -9,15 +9,16 @@
 \contentsline {subsubsection}{\numberline {1.4.2}Informativi}{4}{subsubsection.1.4.2}
 \contentsline {section}{\numberline {2}Descrizione generale}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}Contesto d'uso del prodotto}{5}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Processi produttivi e modalit\IeC {\`a} d'uso}{5}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Ambiente di utilizzo}{5}{subsubsection.2.1.2}
 \contentsline {subsection}{\numberline {2.2}Funzioni del prodotto}{5}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Caratteristiche degli utenti}{5}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Vincoli generali}{5}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Assunzioni e dipendenze}{5}{subsection.2.5}
-\contentsline {section}{\numberline {3}Casi d'uso}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Caso d'uso UC0}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Caso d'uso UC1}{6}{subsection.3.2}
-\contentsline {section}{\numberline {4}Requisiti}{6}{section.4}
-\contentsline {subsection}{\numberline {4.1}Requisiti funzionali}{6}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Requisiti prestazionali}{7}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Requisiti di qualit\IeC {\`a}}{7}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Requisiti di vincolo}{7}{subsection.4.4}
+\contentsline {section}{\numberline {3}Casi d'uso}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Caso d'uso UC0}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Caso d'uso UC1}{7}{subsection.3.2}
+\contentsline {section}{\numberline {4}Requisiti}{7}{section.4}
+\contentsline {subsection}{\numberline {4.1}Requisiti funzionali}{7}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Requisiti prestazionali}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Requisiti di qualit\IeC {\`a}}{8}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Requisiti di vincolo}{8}{subsection.4.4}

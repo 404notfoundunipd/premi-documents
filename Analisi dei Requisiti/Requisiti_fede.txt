@@ -1,0 +1,65 @@
+REQUISITI FEDE
+
+Requisiti funzionali:
+	Obbligatori:
+		- gestire il cammino presentativo
+			Descrizione: l'utente deve avere la possibilità di modificare il cammino presentativo, ovvero l'ordine con cui le slide verranno visualizzate in fase di presentazione, spostando l'ordine dei frame oppure aggiungendo la vista attuale in coda.
+
+			Fonti: UC5.1.1.5, UC5.1.1.5.1, UC5.1.1.5.2
+
+		- Salvare la presentazione
+			Descrizione: Il sistema deve essere in grado di fornire la possibilità di salvare una presentazione aperta nell'editor.
+
+			Fonti: UC5.1.1.7
+
+		- Annulla e ripristina modifiche
+			Descrizione: il sistema deve fornire la funzionalità di annullamento di una modifica apportata e il ripristino di una precedentemente annullata.
+
+			Fonti: UC5.1.1.8, UC5.1.1.9
+
+		- Eliminazione presentazione
+			Descrizione: l'utente dovrà poter eliminare le proprie presentazioni dopo aver confermato.
+
+			Fonti: UC5.1.2, UC5.1.3
+
+		- Condivisione presentazione
+			Descrizione: l'utente dovrà avere la possibilità di condividere una presentazione generando un link, il quale verrà utilizzato in seguito da qualsiasi utente per avviare la presentazione 
+
+			Fonti: UC5.1.4, UC9
+
+		-Stampa presentazione
+			Descrizione: l'utente dovrà poter stampare la presentazione 
+
+			Fonti: UC5.1.7, Capitolato
+
+		-Avvio presentazione
+			Descrizione: il sistema dovrà permettere l'avvio di una presentazione e la navigazione in essa, procedendo o tornando indietro nella sequenza di slide.
+
+			Fonti: UC5.1.9, UC5.1.9.1, UC5.1.9.2
+
+		-Modifica dati account
+			Descrizione: il sistema permetterà la modifica dei dati del proprio account
+
+			Fonti: UC6
+
+		-Nuova presentazione
+			Descrizione: il sistema permette la creazione di nuove presentazioni
+
+			Fonti: UC7 
+
+	Opzionali:
+		-Download presentazione
+			Descrizione: il sistema fornirà la possibilità di scaricare la presentazione per poterla utilizzare offline e indipendentemente dal sistema
+
+			Fonti: UC5.1.6; Verbale2014-12-18
+
+		-Presentazione remota
+			Descrizione: il sistema fornirà la possibilità di avviare e partecipare a presentazioni in sessioni remote
+
+			Fonti: UC5.1.8, Verbale2014-12-18, UC3
+
+	Desiderabili:
+		-Esportazione poster:
+			Descrizione: l'utente avrà la possibilità di esportare la presentazione sottoforma di poster
+
+			Fonti: UC5.1.5, Capitolato

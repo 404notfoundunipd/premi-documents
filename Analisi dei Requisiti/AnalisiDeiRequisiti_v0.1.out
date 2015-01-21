@@ -7,15 +7,16 @@
 \BOOKMARK [3][-]{subsubsection.1.4.2}{Informativi}{subsection.1.4}% 7
 \BOOKMARK [1][-]{section.2}{Descrizione generale}{}% 8
 \BOOKMARK [2][-]{subsection.2.1}{Contesto d'uso del prodotto}{section.2}% 9
-\BOOKMARK [2][-]{subsection.2.2}{Funzioni del prodotto}{section.2}% 10
-\BOOKMARK [2][-]{subsection.2.3}{Caratteristiche degli utenti}{section.2}% 11
-\BOOKMARK [2][-]{subsection.2.4}{Vincoli generali}{section.2}% 12
-\BOOKMARK [2][-]{subsection.2.5}{Assunzioni e dipendenze}{section.2}% 13
-\BOOKMARK [1][-]{section.3}{Casi d'uso}{}% 14
-\BOOKMARK [2][-]{subsection.3.1}{Caso d'uso UC0}{section.3}% 15
-\BOOKMARK [2][-]{subsection.3.2}{Caso d'uso UC1}{section.3}% 16
-\BOOKMARK [1][-]{section.4}{Requisiti}{}% 17
-\BOOKMARK [2][-]{subsection.4.1}{Requisiti funzionali}{section.4}% 18
-\BOOKMARK [2][-]{subsection.4.2}{Requisiti prestazionali}{section.4}% 19
-\BOOKMARK [2][-]{subsection.4.3}{Requisiti di qualit\340}{section.4}% 20
-\BOOKMARK [2][-]{subsection.4.4}{Requisiti di vincolo}{section.4}% 21
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Processi produttivi e modalit\340 d'uso}{subsection.2.1}% 10
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Ambiente di utilizzo}{subsection.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.2}{Funzioni del prodotto}{section.2}% 12
+\BOOKMARK [2][-]{subsection.2.3}{Caratteristiche degli utenti}{section.2}% 13
+\BOOKMARK [2][-]{subsection.2.4}{Vincoli generali}{section.2}% 14
+\BOOKMARK [1][-]{section.3}{Casi d'uso}{}% 15
+\BOOKMARK [2][-]{subsection.3.1}{Caso d'uso UC0}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.2}{Caso d'uso UC1}{section.3}% 17
+\BOOKMARK [1][-]{section.4}{Requisiti}{}% 18
+\BOOKMARK [2][-]{subsection.4.1}{Requisiti funzionali}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Requisiti prestazionali}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.3}{Requisiti di qualit\340}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.4}{Requisiti di vincolo}{section.4}% 22

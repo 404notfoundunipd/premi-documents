@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  20 JAN 2015 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  21 JAN 2015 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -631,16 +631,22 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 7.
 (./documents/casi_uso.tex
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 9.
+Package pdftex.def Info: ../logo/logo404.png used on input line 4.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [5]
-<diagram/UC0.png, id=162, 775.39688pt x 654.19406pt>
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 9.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [6]
+<diagram/UC0.png, id=171, 775.39688pt x 654.19406pt>
 File: diagram/UC0.png Graphic file (type png)
  <use diagram/UC0.png>
 Package pdftex.def Info: diagram/UC0.png used on input line 34.
 (pdftex.def)             Requested size: 310.15326pt x 261.67299pt.
 
-<diagram/UC1.png, id=164, 706.13812pt x 551.81157pt>
+<diagram/UC1.png, id=173, 706.13812pt x 551.81157pt>
 File: diagram/UC1.png Graphic file (type png)
  <use diagram/UC1.png>
 Package pdftex.def Info: diagram/UC1.png used on input line 51.
@@ -662,13 +668,13 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 11.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [6 <./diagram/UC0.png>])
+ [7 <./diagram/UC0.png>])
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 37.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-[7 <./diagram/UC1.png>]
+[8 <./diagram/UC1.png>]
 No file AnalisiDeiRequisiti_v0.1.bbl.
 
 AED: lastpage setting LastPage
@@ -677,28 +683,42 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
 (./AnalisiDeiRequisiti_v0.1.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
-Package rerunfilecheck Info: File `AnalisiDeiRequisiti_v0.1.out' has not change
-d.
-(rerunfilecheck)             Checksum: 66DF77B7545967E493A09890BC188944;1362.
+
+
+Package rerunfilecheck Warning: File `AnalisiDeiRequisiti_v0.1.out' has changed
+.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `AnalisiDeiRequisiti_v0.1.out':
+(rerunfilecheck)             Before: 66DF77B7545967E493A09890BC188944;1362
+(rerunfilecheck)             After:  5DFFBE095A980CC08E0003380CD398EA;1468.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 10661 strings out of 493117
- 157685 string characters out of 6135432
+ 10666 strings out of 493117
+ 157750 string characters out of 6135432
  256602 words of memory out of 5000000
- 13925 multiletter control sequences out of 15000+600000
- 8837 words of font info for 31 fonts, out of 8000000 for 9000
+ 13926 multiletter control sequences out of 15000+600000
+ 9184 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,15n,47p,840b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on AnalisiDeiRequisiti_v0.1.pdf (8 pages, 255988 bytes).
+pdfTeX warning (dest): name{subsection.2.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on AnalisiDeiRequisiti_v0.1.pdf (9 pages, 268382 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
+ 219 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
  189 words of extra memory for PDF output out of 10000 (max. 10000000)
 
