@@ -8,7 +8,7 @@ Come punto di riferimento per della documentazione è stato creato un template \
 
 \subsubsection{Prima pagina}
 La prima pagina di ogni documento contiene le seguenti informazioni:
-
+\smallbreak
 \begin{itemize}
 \item Nome del gruppo;
 \item Nome del progetto;
@@ -25,7 +25,7 @@ La prima pagina di ogni documento contiene le seguenti informazioni:
 \end{itemize}
 
 \subsubsection{Registro delle modifiche}
-Nella seconda pagina di ogni documento è riportato il registro delle modifiche del documento. \\
+Nella seconda pagina di ogni documento è riportato il registro delle modifiche del documento. \\ 
 Ogni riga del registro delle modifiche contiene le seguenti informazioni:
 
 \begin{itemize}
@@ -34,7 +34,6 @@ Ogni riga del registro delle modifiche contiene le seguenti informazioni:
 \item Data della modifica;
 \item Breve descrizione delle modifiche svolte.
 \end{itemize}
-
 La tabella è ordinata per data in ordine decrescente, in modo che la prima riga corrisponda alla versione attuale del documento.
 
 \subsubsection{Indici}
@@ -47,9 +46,7 @@ L'intestazione di ogni pagina è caratterizzata da:
 \item Logo del gruppo;
 \item Nome del gruppo.
 \end{itemize} 
-
 A piè di pagina invece è indicato:
-
 \begin{itemize}
 \item Nome e versione del documento;
 \item Pagina corrente nel formato N di T, dove N indica il numero di pagina corrente e T indica il numero di pagine totali.
@@ -104,14 +101,11 @@ Dove:
 \item GG: indica il giorno scritto utilizzando due cifre.
 \end{itemize}
 \item \textbf{Ruoli di progetto:} Per riferirsi ai ruoli di progetto è necessario usare il comando \LaTeX{} \verb|\ruoloNomeruolo|, per garantire la corretta scrittura degli stessi;
-\item \textbf{Riferimenti ai documenti:} Per riferirsi ai documenti è necessario usare il comando \LaTeX{} ??????;
-\item \textbf{Revisioni:} Per riferirsi alle revisioni programmate è necessario usare il comando \LaTeX{} ??????;
-\item \textbf{Fasi del progetto:} è necessario riferirsi alle fasi del progetto con il comando \LaTeX{}  ??????;
 \item \textbf{Nomi propri:} per utilizzare i nomi propri dei membri del team si deve seguire la forma “Cognome Nome”;
-\item \textbf{Nome del gruppo:} ci si riferirà al gruppo solo come “404NotFound”. Per la corretta scrittura è definita la macro \LaTeX{} \verb|\gruppo\|;
-\item \textbf{Nome del proponente:} ci si riferirà al proponente come “Zucchetti srl” o con “Proponente”. Per la corretta scrittura è definita la macro \LaTeX{} ?????????;
-\item \textbf{Nome del committente:} ci si riferirà al committente come “Prof. Vardanega Tullio” o con “Committente”. Per la corretta scrittura è definita la macro \LaTeX{} ?????????;
-\item \textbf{Nome del progetto:} ci si riferirà al progetto solo come “Premi“; Per la corretta scrittura è definita la macro \LaTeX{} ?????????.
+\item \textbf{Nome del gruppo:} ci si riferirà al gruppo solo come “404NotFound”. Per la corretta scrittura è definita la macro \LaTeX{} \verb|\gruppo|;
+\item \textbf{Nome del proponente:} ci si riferirà al proponente come “Zucchetti srl” o con “Proponente”. Per la corretta scrittura è definita la macro \LaTeX{} \verb|\Zucchetti|;
+\item \textbf{Nome del committente:} ci si riferirà al committente come “Prof. Vardanega Tullio” o con “Committente”. Per la corretta scrittura è definita la macro \LaTeX{} \verb|\Vardanega|;
+\item \textbf{Nome del progetto:} ci si riferirà al progetto solo come “Premi“; Per la corretta scrittura è definita la macro \LaTeX{} \verb|\Cardin|.
 \end{itemize}
 
 \subsubsection{Sigle}
@@ -148,18 +142,17 @@ Per giungere fino a questo punto il documento deve seguire un processo di verifi
 \subsection{Versionamento}
 Tutta la documentazione prodotta deve indicare il numero di versione versione attuale, riportato nel modo seguente:
 \begin{center}
-v.X.Y
+vX.Y
 \end{center}
 Dove:
 \begin{itemize}
 \item X: indica il numero crescente di uscite formali del documento
 \item Y: indica il numero crescente di modifiche al documento
 \end{itemize}
-
 Ogniqualvolta si presenti la necessità di citare una versione specifica di un documento, essa
 deve comprendere sia il nome che il numero di versione nel seguente formato:
 \begin{center}
-\textit{Nome Documento v.X.Y}
+\textit{Nome Documento\_vX.Y}
 \end{center}
 
 \subsection{Ciclo di vita}
@@ -170,10 +163,7 @@ Ogni documento, dal momento della sua creazione fino all'approvazione finale, se
 \item \textbf{Da verificare:} Una volta che il documento viene terminato, esso deve essere preso in consegna dai verificatori che hannno il compito di rilevare e correggere eventuali errori o imprecisioni;
 \item \textbf{Approvato:} Una volta terminata la fase di verifica il documento deve essere approvato dal \ruoloResponsabile. Questo rappresenta lo stato finale del documento. 
 \end{itemize}
-
 Queste fasi posso essere attraversate più volte da uno stesso documento.
-
-\newpage
 
 
 
