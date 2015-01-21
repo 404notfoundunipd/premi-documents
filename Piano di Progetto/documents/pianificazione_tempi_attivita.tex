@@ -11,7 +11,7 @@ Il modello di ciclo di vita adottato per Premi è il \textbf{modello incremental
 \end{itemize}	
 
 \section{Scadenze}
-Qui vengono presentate le date di consegna delle revisioni che il gruppo 404NotFound ha deciso di rispettare per la stesura di questo documento:
+Qui vengono presentate le date di consegna delle revisioni che il gruppo 404NotFound ha deciso di rispettare per lo sviluppo del software:
 
 \begin{itemize}
 	\item \textit{Revisione dei Requisiti} (RR): 2015-02-16 \\
@@ -28,10 +28,10 @@ Qui vengono presentate le date di consegna delle revisioni che il gruppo 404NotF
 I ruoli previsti per la realizzazione del progetto sono:
 
 \begin{itemize}
-	\item \textbf{Responsabile di Progetto:} È il responsabile ultimo, per conto del suo gruppo, dei risultati del progetto.
+	\item \textbf{Responsabile del Progetto:} È il responsabile ultimo, per conto del suo gruppo, dei risultati del progetto.
 Elabora ed emana piani e scadenze, approva l'emissione di documenti, coordina le attività del gruppo, si relaziona con il controllo di qualità interno al progetto, redige l'Organigramma e il Piano di Progetto e approva l'Offerta e i relativi allegati.
 	\item \textbf{Analista:} È responsabile dell'efficienza e dell'operatività dell'ambiente di sviluppo. 
-È responsabile della redazione e attuazione di piani e procedure di Gestione per la Qualità, controlla versioni e configurazioni del prodotto, gestisce l'archivio della documentazione di progetto, collabora alla redazione del Piano di Progetto e redige le Norme di Progetto per conto del Responsabile.
+È responsabile della redazione e attuazione di piani e procedure di Gestione per la Qualità, controlla versioni e configurazioni del prodotto, gestisce l'archivio della documentazione di progetto, collabora alla redazione del Piano di Progetto e redige le Norme di Progetto per conto del \ruoloResponsabile{}.
 	\item \textbf{Progettista:} È responsabile delle attività di analisi. 
 Redige lo Studio di Fattibilità (documento interno al gruppo) e l'Analisi dei Requisiti.
 	\item \textbf{Amministratore:} È responsabile delle attività di progettazione. 
@@ -47,12 +47,12 @@ Redige la parte retrospettiva del Piano di Qualifica che illustra l'esito e la c
 \hline
 \textbf{Ruolo} & \textbf{€/ora} \\
 \hline
-Responsabile & 30 \\
-Analista & 25 \\
-Progettista & 22 \\
-Amministratore & 20 \\
-Verificatore & 15 \\
-Programmatore & 15 \\
+\ruoloResponsabile & 30 \\
+\ruoloAnalista & 25 \\
+\ruoloProgettista & 22 \\
+\ruoloAmministratore & 20 \\
+\ruoloVerificatore & 15 \\
+\ruoloProgrammatore & 15 \\
 \hline
 \end{tabular}
 \caption{Ruoli previsti e costo per ruolo.}
@@ -74,22 +74,27 @@ Lo sviluppo di Premi, in linea con le scadenze sopra elencate, viene diviso in q
 \end{itemize}
 
 Ogni macro-fase è a sua volta divisa nelle sue attività essenziali, e ogni attività è composta da sotto-attività che ne disciplinano la realizzazione.\\
-La durata di ogni attività è stata tracciata con diagrammi di Gantt, disegnati dal software \href{http://www.projectlibre.org/}{ProjectLibre}, dai quali si possono visualizzare le dipendenze e le principali milestones. Per calcolare le ore e i costi di lavoro invece si è preferito utilizzare un foglio elettronico per la facilità con cui si possono ricavare automaticamente le somme totali (attraverso le funzioni) e aggiornare i dati in caso di modifiche future al documento.
+La durata di ogni attività è stata tracciata con diagrammi di Gantt$_{G}$, disegnati dal software \href{http://www.projectlibre.org/}{ProjectLibre}$_{G}$, dai quali si possono visualizzare le dipendenze e le principali milestone$_{G}$. Per calcolare le ore e i costi di lavoro invece si è preferito utilizzare un foglio elettronico per la facilità con cui si possono ricavare automaticamente le somme totali (attraverso le funzioni) e aggiornare i dati in caso di modifiche future al documento.
+
+\subsection{Responsabile del Progetto}
+Per la creazione dei ticket$_{G}$ e delle milestone$_{G}$, per la rendicontazione e il controllo dei rischi è stato scelto a rotazione un componente del gruppo per ogni macro-fase.
+Egli assumerà il ruolo di \ruoloResponsabile{} e svolgerà questo compito durante le ore a lui già assegnate per le altre attività.
 
 \newpage
 \subsection{Analisi}
-\textbf{Periodo:} dal 1-12-2014 al 22-01-2015
+\textbf{Periodo:} dal 1-12-2014 al 22-01-2015 \\
+\textbf{Responsabile:} \VeFe \\
 La macro-fase di Analisi inizia dalla formazione del gruppo e prosegue fino alla consegna della documentazione per la Revisione dei Requisiti. \\
-I ruoli coinvolti sono quelli del \textit{Responsabile di Progetto}, \textit{Amministratore} e \textit{Analista}, mentre le attività principali sono la stesura e la verifica dei seguenti documenti:
+I ruoli coinvolti sono quelli del \ruoloResponsabile{}, \ruoloAmministratore{}, \ruoloVerificatore{} e \ruoloAnalista{}, mentre le attività principali sono la stesura e la verifica dei seguenti documenti:
 
 \begin{itemize}
 \item \textbf{Studio di fattibilità:} in questo documento vengono studiate le tecnologie interessate e la fattibilità dei Capitolati per stabilire quale affrontare. Sulla scelta pesa molto anche l'interesse dei vari membri del gruppo ai temi proposti;
-\item \textbf{Norme di Progetto:} emanate dall'\textit{Amministratore}, queste norme disciplinano tutte le attività del gruppo in ogni fase del Ciclo di Vita del software;
+\item \textbf{Norme di Progetto:} emanate dall'\ruoloAmministratore{}, queste norme disciplinano tutte le attività del gruppo in ogni fase del Ciclo di Vita del software;
 \item \textbf{Analisi dei Requisiti:} qui vengono descritti in modo dettagliato i requisiti emersi dal Capitolato e dal successivo incontro con il proponente. Ogni requisito aiuta a delineare le funzionalità del prodotto finale;
-\item \textbf{Piano di Progetto:} la stesura di questo documento è compito del \textit{Responsabile di progetto} e punta a pianificare le attività e a distribuirle nell'arco di tempo stabilito dal gruppo calcolandone i costi totali. Vengono inoltre studiati i possibili rischi a cui il progetto va incontro e vengono suggerite le strategie per affrontarli;
+\item \textbf{Piano di Progetto:} la stesura di questo documento è compito del \ruoloResponsabile{} e punta a pianificare le attività e a distribuirle nell'arco di tempo stabilito dal gruppo calcolandone i costi totali. Vengono inoltre studiati i possibili rischi a cui il progetto va incontro e vengono suggerite le strategie per affrontarli;
 \item \textbf{Piano di Qualifica:} delinea la strategia generale di Verifica e Validazione;
 \item \textbf{Glossario:} questo documento contiene le definizioni dei termini e degli acronimi presenti negli altri documenti e ne facilita la compresione. Viene scritto in modo incrementale da tutti i redattori;
-\item \textbf{Lettera di Presentazione:} ha il compito di presentare il gruppo al committente e rende ufficiale l'offerta di prendersi in carico il capitolato.
+\item \textbf{Lettera di Presentazione:} ha il compito di presentare il gruppo al committente e rende ufficiale l'offerta di prendersi in carico il progetto.
 \end{itemize}
 
 \newpage
@@ -126,8 +131,9 @@ I ruoli coinvolti sono quelli del \textit{Responsabile di Progetto}, \textit{Amm
 \newpage
 \subsection{Progettazione Architetturale}
 \textbf{Periodo:} dal 17-02-2015 al 21-04-2015 \\
+\textbf{Responsabile:} \GoIs \\
 La macro-fase di Progettazione Architetturale inizia dalla Revisione dei Requisiti e prosegue fino alla consegna della documentazione per la Revisione di Progetto. \\
-I ruoli coinvolti sono quelli del \textit{Responsabile di Progetto}, \textit{Amministratore}, \textit{Analista}, \textit{Progettista} e \textit{Verificatore}, mentre le attività principali sono la stesura e la verifica dei seguenti documenti:
+I ruoli coinvolti sono quelli del \ruoloResponsabile{}, \ruoloAmministratore{}, \ruoloAnalista{}, \ruoloProgettista{} e \ruoloVerificatore{}, mentre le attività principali sono la stesura e la verifica dei seguenti documenti:
 
 \begin{itemize}
 \item \textbf{correzione}, se necessaria, dei documenti usciti dalla precedente fase (la Revisione dei Requisiti potrebbe imporre delle modifiche ad alcune sezioni);
@@ -169,13 +175,16 @@ I ruoli coinvolti sono quelli del \textit{Responsabile di Progetto}, \textit{Amm
 \newpage
 \subsection{Progettazione di Dettaglio e Codifica}
 \textbf{Periodo:} dal 22-04-2015 al 23-05-2015 \\
+\textbf{Responsabile:} \CoMa \\
 La macro-fase di Progettazione Architetturale inizia dalla Revisione di Progetto e prosegue fino alla consegna del prodotto per la Revisione di Qualifica. \\
 L'attività di codifica viene divisa in due parti: la prima produce un prototipo contenente le funzionalità di base, la seconda incrementa il prototipo e crea un prodotto completo. \\
-I ruoli coinvolti sono quelli del \textit{Responsabile di Progetto}, \textit{Amministratore}, \textit{Progettista}, \textit{Verificatore} e \textit{Programmatore}.
+I ruoli coinvolti sono quelli del \ruoloResponsabile{}, \ruoloAmministratore{}, \ruoloProgettista{}, \ruoloVerificatore{} e \ruoloProgrammatore{}.
 Anche in questa fase è prevista la stesura e la verifica di documenti:
 \begin{itemize}
 \item \textbf{correzione}, se necessaria, dei documenti usciti dalla precedente fase (la Revisione di Progetto potrebbe imporre delle modifiche ad alcune sezioni);
-\item \textbf{Definizione di Prodotto:} questo documento mostra come si è scelto di attuare le scelte progettuali definite nella Specifica Tecnica. Classi e componenti vengono descritti in modo dettagliato;
+\item \textbf{Definizione di Prodotto:} questo documento mostra come sono state attuate le scelte progettuali definite nella Specifica Tecnica. Classi e componenti vengono descritti in modo dettagliato;
+\item \textbf{Codifica di un prototipo:} questa attività produce una versione di base del prodotto che possiede solamente i requisiti minimi;
+\item \textbf{Codifica:} il prototipo viene incrementato per produrre una versione completa;
 \item \textbf{Manuale Utente:} guida gli utenti all'utilizzo il prodotto;
 \item \textbf{incremento e verifica} dei documenti usciti dalla precendente macro-fase.
 \end{itemize}
@@ -213,10 +222,12 @@ Anche in questa fase è prevista la stesura e la verifica di documenti:
 
 \newpage
 \subsection{Verifica Finale e Validazione}
-\textbf{Periodo:} dal 2015-05-24 al 2015-06-16 
+\textbf{Periodo:} dal 2015-05-24 al 2015-06-16 \\
+\textbf{Responsabile:} \CaMa \\
 La macro-fase di Verifica Finale e Validazione inizia dalla Revisione di Qualifica e conclude le attività di sviluppo del software. \\
 In queste tre settimane verrà corretta, incrementata e verificata tutta la documentazione prodotta fino a quel momento con l'obiettivo di rilasciarne una versione da definirsi completa. \\
 L'attività di \textbf{validazione e collaudo} si occupa di accertare che il prodotto realizzato sia conforme alle attese e che copra i requisiti previsti. \\
+I ruoli coinvolti sono quelli del \ruoloResponsabile{}, \ruoloAmministratore{}, \ruoloProgettista{}, \ruoloVerificatore{} e \ruoloProgrammatore{}. \\
 
 \newpage
 \subsubsection{diagramma di Gantt}
