@@ -1,0 +1,100 @@
+Requisito funzionale /* Aggiunta oggetti grafici alla presentazione */ {
+	Obbligatorio:
+		L'utente ha la possibilità di aggiungere oggetti grafici alla presentazione
+	Caso d'uso:
+		UC5.1.1.3.1
+
+	Requisito funzionale /* Inserimento immagine */ {
+		Obbigatorio:
+			L'utente ha la possibilità di inserire oggetti grafici di tipo immagine
+		Caso d'uso:
+			UC5.1.1.3.1.1
+	}
+
+	Requisito funzionale /* Inserimento infografica */ {
+		Obbigatorio:
+			L'utente ha la possibilità di inserire oggetti grafici di tipo infografica
+		Caso d'uso:
+			UC5.1.1.3.1.2
+		
+		Requisito funzionale /* Scelta/Inserimento tipo/dati infografica */ {
+			Obbligatorio:
+				L'utente deve poter scegliere il tipo di infografica ed inserire dei dati corrispondenti
+			Caso d'uso:
+				UC5.1.1.3.1.2.1
+				UC5.1.1.3.1.2.2
+		}
+		Requisito /* Conferma/Annullamento inserimento infogarfica */ {
+			Obbligatorio:
+				L'utente deve poter scegliere se confermare o annullare l'operazione di inserimento
+			Caso d'uso:
+				UC5.1.1.3.1.2.3
+				UC5.1.1.3.1.2.4
+		}
+	}
+}
+
+Requisito funzionale /* Modifica di un infografica */ {
+	Obbligatorio:
+		L'utente ha la possibilità di modificare un'infografica all'interno di una presentazione
+	Caso d'uso:
+		UC5.1.1.3.2
+
+	Requisito funzionale /* Modifica tipo infografica */ {
+		Obbligatorio:
+			L'utente deve poter modificare il tipo di infografica
+		Caso d'uso:
+			UC5.1.1.3.2.1
+	}
+	Requisito funzionale /* Modifica dati di un'infografica */ {
+		Obbligatorio:
+			L'utente deve poter modificare dei dati corrispondenti ad un'infografica
+		Caso d'uso:
+			UC5.1.1.3.2.2
+	}
+	Requisito funzionale /* Conferma/Annullamento modifiche infografica */ {
+		Obbligatorio:
+			L'utente deve poter confermare o annullare le modifiche di un'infografica
+		Caso d'uso:
+			UC5.1.1.3.2.3
+			UC5.1.1.3.2.4
+	}
+}
+
+Requisito funzionale /* Eliminazione tema grafico */ {
+	Obbligatorio:
+		L'utente deve poter eliminare un oggetto grafico all'interno di una presentazione
+	Caso d'uso:
+		UC5.1.1.3.3
+}
+
+Requisito funzionale /* Modifica tema grafico generale */ {
+	Obbligatorio:
+		L'utente deve poter modificare il tema grafico generale assegnato alla presentazione
+	Caso d'uso:
+		UC5.1.1.4
+
+	Requisito funzionale /* Modifica parametri avanzati */ {
+		Obbligatorio:
+			L'utente deve poter modificare i parametri avanzati di una presentazione
+		Caso d'uso:
+			UC5.1.1.4.2
+
+		Requisito funzionale /* Modifica colore connessioni/frame */ {
+			Obbligatorio:
+				L'utente deve poter modificare il colore di una connessione e di un frame
+			Caso d'uso:
+				UC5.1.1.4.2.1
+				UC5.1.1.4.2.2
+		}
+
+		Requisito funzionale /* Modifica dello sfondo, scelta tra colore/immagine */ {
+			Obbligatorio:
+				L'utente deve avere la possibilità di modificare lo sfondo della presentazione scegliendo tra un colore o un'immagine
+			Caso d'uso:
+				UC5.1.1.4.2.3
+				UC5.1.1.4.2.3.1
+				UC5.1.1.4.2.3.2
+		}
+	}
+}
