@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  22 JAN 2015 23:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  22 JAN 2015 23:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,7 +564,7 @@ LaTeX Info: Redefining \nameref on input line 22.
 
 
 (./documents/first.tex
-<../logo/logo404_Extends.png, id=446, 1027.84pt x 433.62pt>
+<../logo/logo404_Extends.png, id=450, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
@@ -585,7 +585,7 @@ Overfull \hbox (63.36722pt too wide) in paragraph at lines 7--32
  [] 
  []
 
-) <../logo/logo404.png, id=455, 1027.84pt x 402.50375pt>
+) <../logo/logo404.png, id=459, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
@@ -640,16 +640,22 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 (./documents/descrizione.tex
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 17.
+Package pdftex.def Info: ../logo/logo404.png used on input line 7.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [6])
 (./documents/casi_uso.tex
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 8.
+Package pdftex.def Info: ../logo/logo404.png used on input line 4.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [7]
-<diagram/gerarchia.png, id=666, 154.32657pt x 548.80031pt>
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 8.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [8]
+<diagram/gerarchia.png, id=676, 154.32657pt x 548.80031pt>
 File: diagram/gerarchia.png Graphic file (type png)
 
 <use diagram/gerarchia.png>
@@ -659,7 +665,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 17.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [8 <./diagram/gerarchia.png>] <diagram/UC1.png, id=675, 706.13812pt x 551.8115
+ [9 <./diagram/gerarchia.png>] <diagram/UC1.png, id=685, 706.13812pt x 551.8115
 7pt>
 File: diagram/UC1.png Graphic file (type png)
 
@@ -687,7 +693,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 48.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [9 <./diagram/UC1.png>]
+ [10 <./diagram/UC1.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 49.
@@ -734,8 +740,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 93.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [10]
-<diagram/UC4.png, id=694, 435.12563pt x 417.05812pt>
+ [11]
+<diagram/UC4.png, id=704, 435.12563pt x 417.05812pt>
 File: diagram/UC4.png Graphic file (type png)
  <use diagram/UC4.png>
 Package pdftex.def Info: diagram/UC4.png used on input line 109.
@@ -745,7 +751,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 118.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [11 <./diagram/UC4.png>]
+ [12 <./diagram/UC4.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 126.
@@ -780,8 +786,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 157.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [12]
-<diagram/UC5.png, id=711, 730.22812pt x 193.47281pt>
+ [13]
+<diagram/UC5.png, id=721, 730.22812pt x 193.47281pt>
 File: diagram/UC5.png Graphic file (type png)
  <use diagram/UC5.png>
 Package pdftex.def Info: diagram/UC5.png used on input line 162.
@@ -791,8 +797,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 178.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [13 <./diagram/UC5.png>]
-<diagram/UC5-1.png, id=720, 693.34032pt x 740.7675pt>
+ [14 <./diagram/UC5.png>]
+<diagram/UC5-1.png, id=730, 693.34032pt x 740.7675pt>
 File: diagram/UC5-1.png Graphic file (type png)
  <use diagram/UC5-1.png>
 Package pdftex.def Info: diagram/UC5-1.png used on input line 183.
@@ -802,8 +808,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 200.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [14 <./diagram/UC5-1.png>]
-<diagram/UC5-1-1.png, id=731, 858.20625pt x 783.67781pt>
+ [15 <./diagram/UC5-1.png>]
+<diagram/UC5-1-1.png, id=741, 858.20625pt x 783.67781pt>
 File: diagram/UC5-1-1.png Graphic file (type png)
 
 <use diagram/UC5-1-1.png>
@@ -813,7 +819,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 220.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [15 <./diagram/UC5-1-1.png>]
+ [16 <./diagram/UC5-1-1.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 231.
@@ -826,7 +832,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 231.
 
-<diagram/UC5-1-1-1.png, id=743, 685.05937pt x 298.86656pt>
+<diagram/UC5-1-1-1.png, id=753, 685.05937pt x 298.86656pt>
 File: diagram/UC5-1-1-1.png Graphic file (type png)
 
 <use diagram/UC5-1-1-1.png>
@@ -849,7 +855,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 257.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [16 <./diagram/UC5-1-1-1.png>]
+ [17 <./diagram/UC5-1-1-1.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 260.
@@ -874,7 +880,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 268.
 
-<diagram/UC5-1-1-1-3.png, id=764, 603.0028pt x 439.6425pt>
+<diagram/UC5-1-1-1-3.png, id=774, 603.0028pt x 439.6425pt>
 File: diagram/UC5-1-1-1-3.png Graphic file (type png)
 
 <use diagram/UC5-1-1-1-3.png>
@@ -884,7 +890,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 281.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [17 <./diagram/UC5-1-1-1-3.png>]
+ [18 <./diagram/UC5-1-1-1-3.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 291.
@@ -937,7 +943,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 322.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [18]
+ [19]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 323.
@@ -978,8 +984,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 348.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [19]
-<diagram/UC5-1-1-2.png, id=788, 388.45125pt x 266.49562pt>
+ [20]
+<diagram/UC5-1-1-2.png, id=798, 388.45125pt x 266.49562pt>
 File: diagram/UC5-1-1-2.png Graphic file (type png)
 
 <use diagram/UC5-1-1-2.png>
@@ -989,7 +995,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 377.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [20 <./diagram/UC5-1-1-2.png>] <diagram/UC5-1-1-2-2.png, id=797, 487.8225pt x 
+ [21 <./diagram/UC5-1-1-2.png>] <diagram/UC5-1-1-2-2.png, id=807, 487.8225pt x 
 420.06938pt>
 File: diagram/UC5-1-1-2-2.png Graphic file (type png)
 
@@ -1000,13 +1006,13 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 411.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [21 <./diagram/UC5-1-1-2-2.png>]
+ [22 <./diagram/UC5-1-1-2-2.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 432.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [22]
-<diagram/UC5-1-1-3.png, id=813, 513.41812pt x 380.92313pt>
+ [23]
+<diagram/UC5-1-1-3.png, id=823, 513.41812pt x 380.92313pt>
 File: diagram/UC5-1-1-3.png Graphic file (type png)
 
 <use diagram/UC5-1-1-3.png>
@@ -1016,7 +1022,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 454.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [23 <./diagram/UC5-1-1-3.png>] <diagram/UC5-1-1-3-1.png, id=823, 446.41782pt x
+ [24 <./diagram/UC5-1-1-3.png>] <diagram/UC5-1-1-3-1.png, id=834, 446.41782pt x
  268.00125pt>
 File: diagram/UC5-1-1-3-1.png Graphic file (type png)
 
@@ -1027,7 +1033,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 475.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [24 <./diagram/UC5-1-1-3-1.png>] <diagram/UC5-1-1-3-1-2.png, id=833, 450.18187
+ [25 <./diagram/UC5-1-1-3-1.png>] <diagram/UC5-1-1-3-1-2.png, id=843, 450.18187
 pt x 465.23813pt>
 File: diagram/UC5-1-1-3-1-2.png Graphic file (type png)
 
@@ -1038,13 +1044,13 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 501.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [25 <./diagram/UC5-1-1-3-1-2.png>]
+ [26 <./diagram/UC5-1-1-3-1-2.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 534.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [26]
-<diagram/UC5-1-1-3-2.png, id=849, 428.35031pt x 395.22656pt>
+ [27]
+<diagram/UC5-1-1-3-2.png, id=860, 428.35031pt x 395.22656pt>
 File: diagram/UC5-1-1-3-2.png Graphic file (type png)
 
 <use diagram/UC5-1-1-3-2.png>
@@ -1054,13 +1060,13 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 553.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [27 <./diagram/UC5-1-1-3-2.png>]
+ [28 <./diagram/UC5-1-1-3-2.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 594.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [28]
-<diagram/UC5-1-1-4.png, id=866, 427.5975pt x 374.90062pt>
+ [29]
+<diagram/UC5-1-1-4.png, id=876, 427.5975pt x 374.90062pt>
 File: diagram/UC5-1-1-4.png Graphic file (type png)
 
 <use diagram/UC5-1-1-4.png>
@@ -1070,7 +1076,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 622.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [29 <./diagram/UC5-1-1-4.png>] <diagram/UC5-1-1-4-2.png, id=875, 434.37282pt x
+ [30 <./diagram/UC5-1-1-4.png>] <diagram/UC5-1-1-4-2.png, id=886, 434.37282pt x
  409.53pt>
 File: diagram/UC5-1-1-4-2.png Graphic file (type png)
 
@@ -1081,7 +1087,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 649.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [30 <./diagram/UC5-1-1-4-2.png>] <diagram/UC5-1-1-4-2-3.png, id=886, 391.4625p
+ [31 <./diagram/UC5-1-1-4-2.png>] <diagram/UC5-1-1-4-2-3.png, id=896, 391.4625p
 t x 274.77657pt>
 File: diagram/UC5-1-1-4-2-3.png Graphic file (type png)
 
@@ -1092,7 +1098,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 676.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [31 <./diagram/UC5-1-1-4-2-3.png>] <diagram/UC5-1-1-4-2-3-2.png, id=893, 419.3
+ [32 <./diagram/UC5-1-1-4-2-3.png>] <diagram/UC5-1-1-4-2-3-2.png, id=903, 419.3
 1656pt x 406.51875pt>
 File: diagram/UC5-1-1-4-2-3-2.png Graphic file (type png)
 
@@ -1103,7 +1109,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 701.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [32 <./diagram/UC5-1-1-4-2-3-2.png>]
+ [33 <./diagram/UC5-1-1-4-2-3-2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 725.
@@ -1120,8 +1126,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 734.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [33]
-<diagram/UC5-1-1-5.png, id=910, 417.05812pt x 338.01282pt>
+ [34]
+<diagram/UC5-1-1-5.png, id=920, 417.05812pt x 338.01282pt>
 File: diagram/UC5-1-1-5.png Graphic file (type png)
 
 <use diagram/UC5-1-1-5.png>
@@ -1131,17 +1137,17 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 766.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [34 <./diagram/UC5-1-1-5.png>]
+ [35 <./diagram/UC5-1-1-5.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 793.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [35]
+ [36]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 831.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [36]
+ [37]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 834.
@@ -1158,8 +1164,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 859.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [37]
-<diagram/UC5-1-9.png, id=935, 627.84563pt x 383.93437pt>
+ [38]
+<diagram/UC5-1-9.png, id=946, 627.84563pt x 383.93437pt>
 File: diagram/UC5-1-9.png Graphic file (type png)
 
 <use diagram/UC5-1-9.png>
@@ -1182,14 +1188,14 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 892.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [38 <./diagram/UC5-1-9.png>]
+ [39 <./diagram/UC5-1-9.png>]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 913.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [39]
-<diagram/UC6.png, id=951, 416.30531pt x 368.1253pt>
+ [40]
+<diagram/UC6.png, id=961, 416.30531pt x 368.1253pt>
 File: diagram/UC6.png Graphic file (type png)
  <use diagram/UC6.png>
 Package pdftex.def Info: diagram/UC6.png used on input line 918.
@@ -1199,8 +1205,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 936.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [40 <./diagram/UC6.png>]
-<diagram/UC6-1.png, id=962, 464.4853pt x 329.73187pt>
+ [41 <./diagram/UC6.png>]
+<diagram/UC6-1.png, id=972, 464.4853pt x 329.73187pt>
 File: diagram/UC6-1.png Graphic file (type png)
  <use diagram/UC6-1.png>
 Package pdftex.def Info: diagram/UC6-1.png used on input line 941.
@@ -1210,13 +1216,13 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 969.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [41 <./diagram/UC6-1.png>]
+ [42 <./diagram/UC6-1.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1002.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-[42]
+[43]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1013.
@@ -1234,7 +1240,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 7.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [43]
+ [44]
 Underfull \hbox (badness 10000) in paragraph at lines 33--33
 []|\OT1/cmr/m/n/12 Funzionale
  []
@@ -2082,12 +2088,12 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 110.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [44]
+ [45]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 110.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [45]
+ [46]
 Underfull \hbox (badness 10000) in paragraph at lines 111--111
 []|\OT1/cmr/m/n/12 Funzionale
  []
@@ -2111,18 +2117,18 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 116.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [46]
+ [47]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 116.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [47]
+ [48]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 118.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [48]
+ [49]
 Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/12 Vincolo
  []
@@ -2799,12 +2805,12 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 218.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [49]
+ [50]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 218.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [50]
+ [51]
 Underfull \hbox (badness 10000) in paragraph at lines 219--220
 []|\OT1/cmr/m/n/12 UC2
  []
@@ -2853,12 +2859,12 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 232.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [51]
+ [52]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 232.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [52]
+ [53]
 Underfull \hbox (badness 10000) in paragraph at lines 238--239
 []|\OT1/cmr/m/n/12 FOb4
  []
@@ -3206,12 +3212,12 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 315.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [53]
+ [54]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 315.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [54]
+ [55]
 Underfull \hbox (badness 10000) in paragraph at lines 316--317
 []|\OT1/cmr/m/n/12 FOb4.2.8.1
  []
@@ -3340,7 +3346,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 355.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [55]
+ [56]
 Underfull \hbox (badness 10000) in paragraph at lines 356--357
 []|\OT1/cmr/m/n/12 FDe4.2.4.1.1
  []
@@ -3514,18 +3520,18 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 423.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [56]
+ [57]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 423.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [57])
+ [58])
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 37.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [58]
+ [59]
 No file AnalisiDeiRequisiti_v0.1.bbl.
 
 AED: lastpage setting LastPage
@@ -3534,48 +3540,30 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
 (./AnalisiDeiRequisiti_v0.1.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
-
-
-Package rerunfilecheck Warning: File `AnalisiDeiRequisiti_v0.1.out' has changed
-.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `AnalisiDeiRequisiti_v0.1.out':
-(rerunfilecheck)             Before: C19711014FB544A269BAE17ACCDC7BCA;8941
-(rerunfilecheck)             After:  1E64C059BB24D8967ADF9E72F11EBA10;8791.
+Package rerunfilecheck Info: File `AnalisiDeiRequisiti_v0.1.out' has not change
+d.
+(rerunfilecheck)             Checksum: E619B3FE386D7764CB1436416096AC10;8995.
  ) 
 Here is how much of TeX's memory you used:
  11108 strings out of 493117
- 164224 string characters out of 6135432
- 291880 words of memory out of 5000000
+ 164276 string characters out of 6135432
+ 291746 words of memory out of 5000000
  14105 multiletter control sequences out of 15000+600000
  9799 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,16n,47p,840b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{table.7} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{table.6} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.5} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.4.4} has been referenced but does not ex
-ist, replaced by a fixed one
-
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on AnalisiDeiRequisiti_v0.1.pdf (59 pages, 990452 bytes).
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on AnalisiDeiRequisiti_v0.1.pdf (60 pages, 999068 bytes).
 PDF statistics:
- 1147 PDF objects out of 1200 (max. 8388607)
- 1023 compressed objects within 11 object streams
+ 1160 PDF objects out of 1200 (max. 8388607)
+ 1034 compressed objects within 11 object streams
  283 named destinations out of 1000 (max. 500000)
- 1001 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1009 words of extra memory for PDF output out of 10000 (max. 10000000)
 
