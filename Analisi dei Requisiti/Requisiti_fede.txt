@@ -18,14 +18,13 @@ Requisiti funzionali:
 			Fonti: UC5.1.1.8, UC5.1.1.9
 
 		- Eliminazione presentazione
-			Descrizione: l'utente dovrà poter eliminare le proprie presentazioni dopo aver confermato.
+			Descrizione: l'utente dovrà poter eliminare le proprie presentazioni.
 
-			Fonti: UC5.1.2, UC5.1.3
+			Fonti: UC5.1.2
+			- Conferma eliminazione presentazione
+				Descrizione: il sistema dovrà chiedere conferma all'utente in seguito ad una richiesta di eliminazione della presentazione
 
-		- Condivisione presentazione
-			Descrizione: l'utente dovrà avere la possibilità di condividere una presentazione generando un link, il quale verrà utilizzato in seguito da qualsiasi utente per avviare la presentazione 
-
-			Fonti: UC5.1.4, UC9
+				Fonti: UC5.1.3
 
 		-Stampa presentazione
 			Descrizione: l'utente dovrà poter stampare la presentazione 
@@ -33,23 +32,22 @@ Requisiti funzionali:
 			Fonti: UC5.1.7, Capitolato
 
 		-Avvio presentazione
-			Descrizione: il sistema dovrà permettere l'avvio di una presentazione e la navigazione in essa, procedendo o tornando indietro nella sequenza di slide.
+			Descrizione: il sistema dovrà permettere l'avvio di una presentazione.
 
-			Fonti: UC5.1.9, UC5.1.9.1, UC5.1.9.2
+			Fonti: UC5.1.9, Capitolato
+			-Navigazione su presentazione
+				Descrizione: l'utente può navigare liberamente avanzando oppure tornando indietro nella sequenza di slide.
 
-		-Modifica dati account
-			Descrizione: il sistema permetterà la modifica dei dati del proprio account
-
-			Fonti: UC6
+				Fonti: UC5.1.9.1, UC5.1.9.2
 
 		-Nuova presentazione
 			Descrizione: il sistema permette la creazione di nuove presentazioni
 
-			Fonti: UC7 
+			Fonti: UC7, Capitolato
 
 	Opzionali:
-		-Download presentazione
-			Descrizione: il sistema fornirà la possibilità di scaricare la presentazione per poterla utilizzare offline e indipendentemente dal sistema
+		-Scaricamento presentazione
+			Descrizione: il sistema fornirà la possibilità di scaricare la presentazione per poterla utilizzare offline e indipendentemente dal sistema.
 
 			Fonti: UC5.1.6; Verbale2014-12-18
 
@@ -58,8 +56,26 @@ Requisiti funzionali:
 
 			Fonti: UC5.1.8, Verbale2014-12-18, UC3
 
+		- Condivisione presentazione
+			Descrizione: l'utente dovrà avere la possibilità di condividere una presentazione generando un link, il quale verrà utilizzato in seguito da un qualsiasi utente per avviare la presentazione 
+
+			Fonti: UC5.1.4, UC9
+
 	Desiderabili:
 		-Esportazione poster:
 			Descrizione: l'utente avrà la possibilità di esportare la presentazione sottoforma di poster
 
 			Fonti: UC5.1.5, Capitolato
+
+		-Modifica dati account
+			Descrizione: il sistema permetterà la modifica dei dati del proprio account
+
+			Fonti: UC6
+			-Modifica della password
+			Descrizione: l'utente deve poter modificare la propria password
+
+			Fonti: UC6.1
+			-Modifica indirizzo e-mail (***Opzionale***)
+			Descrizione: l'utente deve poter modificare il proprio indirizzo e-mail
+
+			Fonti: UC6.2
