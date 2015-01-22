@@ -105,8 +105,6 @@
 \contentsline {subsection}{\numberline {3.91} UC9: Visualizza presentazione condivisa}{43}{subsection.3.91}
 \contentsline {section}{\numberline {4}Requisiti}{44}{section.4}
 \contentsline {subsection}{\numberline {4.1} Requisiti funzionali}{44}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2} Requisiti di qualit\IeC {\`a}}{48}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3} Requisiti prestazionali}{48}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4} Requisiti di vincolo}{48}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5} Tracciamento requisiti-fonti}{49}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.2} Requisiti di vincolo}{49}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3} Tracciamento requisiti-fonti}{49}{subsection.4.3}
 \contentsline {section}{\numberline {5}Tracciamento fonti-requisiti}{53}{section.5}
