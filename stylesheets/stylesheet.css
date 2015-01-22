@@ -287,12 +287,12 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: #606060;
+  background: -moz-linear-gradient(top, #373737, #606060);
+  background: -webkit-linear-gradient(top, #373737, #606060);
+  background: -ms-linear-gradient(top, #373737, #606060);
+  background: -o-linear-gradient(top, #373737, #606060);
+  background: linear-gradient(top, #373737, #606060);
 }
 
 #header_wrap .inner {
@@ -323,6 +323,16 @@ Full-Width Styles
   right: 0;
   height: 70px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
+}
+
+#logo {
+  background-image: url(../images/logo.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  width: 210px;
+  height: 210px;
+  float: left;
+  margin: 10px;
 }
 
 .zip_download_link {
@@ -365,7 +375,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: #606060;
 }
 
 
