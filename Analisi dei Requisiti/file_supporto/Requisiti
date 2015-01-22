@@ -1,0 +1,47 @@
+Requisiti prestazionali:
+	Obb.:
+	Opz.:
+	Des.:
+
+Requisiti qualitativi:
+	Obb.:
+	Opz.:
+	Des.:
+
+Requisiti di vincolo:
+	Obb.:
+		- Supporto a dispositivi mobile
+		- browser con supporto html5 e javascript
+		- browser con javascript e cookie abilitati
+		- connessione ad internet
+	Opz.:
+	Des.:
+
+Requiisti funzionali:
+	Obb.:
+		- Creare una presentazione -----> UC7
+		- Presentare una presentazione -------> UC9, UC5.1.9
+		- Presentare una presentazione nel browser -------> UC9, UC5.1.9
+		- Stampare una presentazione -------> UC5.1.7
+		- salvare la presentazione  ---> UC5.1.1.7
+		- possibilità di avere un account
+			+ modifica dati account
+
+
+		- autenticazione ---> UC4
+		- visualizzazione elenco dei propri progetti ----> UC5
+	Opz.:
+		- presentazione non lineare
+		- effetti grafici di zoom ----> UC5.1.1.1.3.1
+		- effetti grafici di clip
+		- altri effetti grafici
+		- creazione slide in collaborazione con più utenti
+		- dualità slide-infografica ---> UC5.1.1.3.1.2
+		- supporto a story telling
+		- supporto a mappe mentali
+		- supporto alla fase creativa
+		- presentazione remota ---> UC5.1.8, UC3
+		- possibilità di modificare una presentazione offline
+	Des.:
+		- trasformazione in poster ---> UC5.1.5
+		- scaricare la presentazione ---> UC5.1.6
