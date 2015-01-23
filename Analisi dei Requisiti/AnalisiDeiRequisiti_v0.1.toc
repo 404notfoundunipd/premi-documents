@@ -1,0 +1,113 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {1}Introduzione}{6}{section.1}
+\contentsline {subsection}{\numberline {1.1}Scopo del documento}{6}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scopo del Progetto}{6}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Glossario}{6}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Riferimenti}{6}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}Normativi}{6}{subsubsection.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.2}Informativi}{6}{subsubsection.1.4.2}
+\contentsline {section}{\numberline {2}Descrizione generale}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}Contesto d'uso del prodotto}{7}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Processi produttivi e modalit\IeC {\`a} d'uso}{7}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Ambiente di utilizzo}{7}{subsubsection.2.1.2}
+\contentsline {subsection}{\numberline {2.2}Funzioni del prodotto}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Caratteristiche degli utenti}{7}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Vincoli generali}{7}{subsection.2.4}
+\contentsline {section}{\numberline {3}Casi d'uso}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Gerarchia degli utenti}{9}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2} UC1: Registrazione}{10}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3} UC1.1: Inserimento username$_G$}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4} UC1.2: Inserimento password$_G$}{11}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5} UC1.3: Inserimento conferma password$_G$}{11}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6} UC1.4: Inserimento email$_G$}{11}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7} UC1.5: Conferma registrazione}{11}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8} UC1.6: Annulla registrazione}{11}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9} UC2: Notifiche di sistema}{12}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10} UC3: Partecipazione presentazione live}{12}{subsection.3.10}
+\contentsline {subsection}{\numberline {3.11} UC4: Autenticazione}{12}{subsection.3.11}
+\contentsline {subsection}{\numberline {3.12} UC4.1: Inserimento username}{13}{subsection.3.12}
+\contentsline {subsection}{\numberline {3.13} UC4.2: Inserimento password}{13}{subsection.3.13}
+\contentsline {subsection}{\numberline {3.14} UC4.3: Conferma autenticazione}{13}{subsection.3.14}
+\contentsline {subsection}{\numberline {3.15} UC4.4: Annulla autenticazione}{13}{subsection.3.15}
+\contentsline {subsection}{\numberline {3.16} UC5: Visualizzazione elenco presentazioni}{14}{subsection.3.16}
+\contentsline {subsection}{\numberline {3.17} UC5.1: Selezione presentazione}{15}{subsection.3.17}
+\contentsline {subsection}{\numberline {3.18} UC5.1.1: Modifica presentazione}{16}{subsection.3.18}
+\contentsline {subsection}{\numberline {3.19} UC5.1.1.1: Gestione frame$_G$}{17}{subsection.3.19}
+\contentsline {subsection}{\numberline {3.20} UC5.1.1.1.1: Aggiunta nuovo frame$_G$}{17}{subsection.3.20}
+\contentsline {subsection}{\numberline {3.21} UC5.1.1.1.2: Selezione tipo frame$_G$ }{17}{subsection.3.21}
+\contentsline {subsection}{\numberline {3.22} UC5.1.1.1.3: Selezione frame$_G$}{18}{subsection.3.22}
+\contentsline {subsection}{\numberline {3.23} UC5.1.1.1.3.1: Modifica frame$_G$}{18}{subsection.3.23}
+\contentsline {subsection}{\numberline {3.24} UC5.1.1.1.3.2: Zoom al frame$_G$}{19}{subsection.3.24}
+\contentsline {subsection}{\numberline {3.25} UC5.1.1.1.3.3: Sposta frame$_G$}{19}{subsection.3.25}
+\contentsline {subsection}{\numberline {3.26} UC5.1.1.1.3.4: Elimina frame$_G$}{19}{subsection.3.26}
+\contentsline {subsection}{\numberline {3.27} UC5.1.1.1.3.5: Annida frame$_G$}{19}{subsection.3.27}
+\contentsline {subsection}{\numberline {3.28} UC5.1.1.1.3.6: Sposta frame$_G$ all'esterno di un altro frame$_G$}{19}{subsection.3.28}
+\contentsline {subsection}{\numberline {3.29} UC5.1.1.1.4: Visualizza selezione}{20}{subsection.3.29}
+\contentsline {subsection}{\numberline {3.30} UC5.1.1.2: Gestione testo}{21}{subsection.3.30}
+\contentsline {subsection}{\numberline {3.31} UC5.1.1.2.1: Aggiunta testo}{21}{subsection.3.31}
+\contentsline {subsection}{\numberline {3.32} UC5.1.1.2.2: Formattazione testo}{22}{subsection.3.32}
+\contentsline {subsection}{\numberline {3.33} UC5.1.1.2.2.1: Modifica del font}{22}{subsection.3.33}
+\contentsline {subsection}{\numberline {3.34} UC5.1.1.2.2.2: Modifica del colore}{23}{subsection.3.34}
+\contentsline {subsection}{\numberline {3.35} UC5.1.1.2.2.3: Modifica della dimensione }{23}{subsection.3.35}
+\contentsline {subsection}{\numberline {3.36} UC5.1.1.2.2.4: Modifica del stile}{23}{subsection.3.36}
+\contentsline {subsection}{\numberline {3.37} UC5.1.1.3: Gestione oggetti grafici}{24}{subsection.3.37}
+\contentsline {subsection}{\numberline {3.38} UC5.1.1.3.1: Aggiunta oggetto grafico}{25}{subsection.3.38}
+\contentsline {subsection}{\numberline {3.39} UC5.1.1.3.1.1: Aggiunta immagine}{26}{subsection.3.39}
+\contentsline {subsection}{\numberline {3.40} UC5.1.1.3.1.2: Aggiunta infografica}{26}{subsection.3.40}
+\contentsline {subsection}{\numberline {3.41} UC5.1.1.3.1.2.1: Selezione tipo infografica}{27}{subsection.3.41}
+\contentsline {subsection}{\numberline {3.42} UC5.1.1.3.1.2.2: Inserimento dati}{27}{subsection.3.42}
+\contentsline {subsection}{\numberline {3.43} UC5.1.1.3.1.2.3: Annulla inserimento}{27}{subsection.3.43}
+\contentsline {subsection}{\numberline {3.44} UC5.1.1.3.1.2.4: Conferma inserimento}{27}{subsection.3.44}
+\contentsline {subsection}{\numberline {3.45} UC5.1.1.3.2: Modifica infografica}{28}{subsection.3.45}
+\contentsline {subsection}{\numberline {3.46} UC5.1.1.3.2.1: Modifica tipologia}{29}{subsection.3.46}
+\contentsline {subsection}{\numberline {3.47} UC5.1.1.3.2.2: Modifica dati}{29}{subsection.3.47}
+\contentsline {subsection}{\numberline {3.48} UC5.1.1.3.2.3: Conferma modifiche}{29}{subsection.3.48}
+\contentsline {subsection}{\numberline {3.49} UC5.1.1.3.2.4: Annulla modifiche}{29}{subsection.3.49}
+\contentsline {subsection}{\numberline {3.50} UC5.1.1.3.3: Elimina oggetto grafico}{30}{subsection.3.50}
+\contentsline {subsection}{\numberline {3.51} UC5.1.1.4: Modifica tema}{30}{subsection.3.51}
+\contentsline {subsection}{\numberline {3.52} UC5.1.1.4.1: Selezione tema generale}{30}{subsection.3.52}
+\contentsline {subsection}{\numberline {3.53} UC5.1.1.4.2: Modifica parametri avanzati}{31}{subsection.3.53}
+\contentsline {subsection}{\numberline {3.54} UC5.1.1.4.2.1: Modifica colore connessioni}{31}{subsection.3.54}
+\contentsline {subsection}{\numberline {3.55} UC5.1.1.4.2.2: Modifica colore frame}{32}{subsection.3.55}
+\contentsline {subsection}{\numberline {3.56} UC5.1.1.4.2.3: Modifica sfondo}{32}{subsection.3.56}
+\contentsline {subsection}{\numberline {3.57} UC5.1.1.4.2.3.1: Selezione colore}{32}{subsection.3.57}
+\contentsline {subsection}{\numberline {3.58} UC5.1.1.4.2.3.2: Selezione immagine}{33}{subsection.3.58}
+\contentsline {subsection}{\numberline {3.59} UC5.1.1.4.2.3.2.1: Selezione immagine da file}{33}{subsection.3.59}
+\contentsline {subsection}{\numberline {3.60} UC5.1.1.4.2.3.2.2: Selezione immagine da predefinite}{34}{subsection.3.60}
+\contentsline {subsection}{\numberline {3.61} UC5.1.1.4.2.3.2.3: Selezione immagine da URL$_G$}{34}{subsection.3.61}
+\contentsline {subsection}{\numberline {3.62} UC5.1.1.5: Gestione cammino}{35}{subsection.3.62}
+\contentsline {subsection}{\numberline {3.63} UC5.1.1.5.1: Scambia posizione frame}{35}{subsection.3.63}
+\contentsline {subsection}{\numberline {3.64} UC5.1.1.5.2: Aggiunta vista attuale in coda}{36}{subsection.3.64}
+\contentsline {subsection}{\numberline {3.65} UC5.1.1.6: Avvia anteprima}{36}{subsection.3.65}
+\contentsline {subsection}{\numberline {3.66} UC5.1.1.7: Salvataggio}{36}{subsection.3.66}
+\contentsline {subsection}{\numberline {3.67} UC5.1.1.8: Annulla la modifica}{36}{subsection.3.67}
+\contentsline {subsection}{\numberline {3.68} UC5.1.1.9: Ripristina la modifica annullata}{37}{subsection.3.68}
+\contentsline {subsection}{\numberline {3.69} UC5.1.2: Eliminazione presentazione}{37}{subsection.3.69}
+\contentsline {subsection}{\numberline {3.70} UC5.1.3: Conferma eliminazione }{37}{subsection.3.70}
+\contentsline {subsection}{\numberline {3.71} UC5.1.4: Condivisione presentazione }{37}{subsection.3.71}
+\contentsline {subsection}{\numberline {3.72} UC5.1.5: Esportazione poster}{38}{subsection.3.72}
+\contentsline {subsection}{\numberline {3.73} UC5.1.6: Download presentazione$_G$}{38}{subsection.3.73}
+\contentsline {subsection}{\numberline {3.74} UC5.1.7: Stampa presentazione }{38}{subsection.3.74}
+\contentsline {subsection}{\numberline {3.75} UC5.1.8: Avvio sessione live}{38}{subsection.3.75}
+\contentsline {subsection}{\numberline {3.76} UC5.1.9: Avvio presentazione }{39}{subsection.3.76}
+\contentsline {subsection}{\numberline {3.77} UC5.1.9.1: Frame$_G$ successivo}{39}{subsection.3.77}
+\contentsline {subsection}{\numberline {3.78} UC5.1.9.2: Frame precedente}{40}{subsection.3.78}
+\contentsline {subsection}{\numberline {3.79} UC5.1.9.3: Esci dalla presentazione }{40}{subsection.3.79}
+\contentsline {subsection}{\numberline {3.80} UC5.2: Visualizzazione anteprima }{40}{subsection.3.80}
+\contentsline {subsection}{\numberline {3.81} UC6: Modifica dati account}{41}{subsection.3.81}
+\contentsline {subsection}{\numberline {3.82} UC6.1: Modifica password}{42}{subsection.3.82}
+\contentsline {subsection}{\numberline {3.83} UC6.1.1: Inserimento vecchia password}{42}{subsection.3.83}
+\contentsline {subsection}{\numberline {3.84} UC6.1.2: Inserimento nuova password}{42}{subsection.3.84}
+\contentsline {subsection}{\numberline {3.85} UC6.1.3: Inserimento conferma nuova password}{43}{subsection.3.85}
+\contentsline {subsection}{\numberline {3.86} UC6.2: Modifica e-mail}{43}{subsection.3.86}
+\contentsline {subsection}{\numberline {3.87} UC6.3: Conferma modifica}{43}{subsection.3.87}
+\contentsline {subsection}{\numberline {3.88} UC6.4: Annulla modifica}{43}{subsection.3.88}
+\contentsline {subsection}{\numberline {3.89} UC7: Nuova presentazione}{44}{subsection.3.89}
+\contentsline {subsection}{\numberline {3.90} UC8: Selezione template$_G$}{44}{subsection.3.90}
+\contentsline {subsection}{\numberline {3.91} UC9: Visualizza presentazione condivisa}{44}{subsection.3.91}
+\contentsline {section}{\numberline {4}Requisiti}{44}{section.4}
+\contentsline {subsection}{\numberline {4.1} Requisiti funzionali}{45}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2} Requisiti di vincolo}{50}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3} Tracciamento requisiti-fonti}{51}{subsection.4.3}
+\contentsline {section}{\numberline {5}Tracciamento fonti-requisiti}{56}{section.5}
