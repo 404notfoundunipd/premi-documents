@@ -1,7 +1,7 @@
 \section{Requisiti}
 In questa sezione verranno elencati i requisiti che gli \textit{Analisti} hanno individuato. 
 Tutti i requisiti funzionali sono stati ricavati da qualche caso d'uso.
-Non sono stati individuati ne requisiti di qualità ne requisiti prestazonali.
+Non sono stati individuati requisiti prestazionali.
 Ad ogni requisito è stato assegnato un codice univoco che velocizza l'identificazione della classificazione dello stesso.
 Il codice sarà così formato
 \begin{center}
@@ -30,7 +30,7 @@ Inoltre ad ogni requisto corrisponde una descrizione e la lista delle fonti da c
 \hline
 \textbf{Requisito} & \textbf{Tipologia} & \textbf{Descrizione} & \textbf{Fonti} \\
 \hline
-FOb1 & Funzionale \linebreak Obbligatorio & L'utente deve poter avere un account & UC1 \linebreak Verbale2014-12-18 \linebreak \\
+FOb1 & Funzionale \linebreak Obbligatorio & L'utente deve poter avere un account & UC1 \linebreak \\
 \hline
 FOb1.1 & Funzionale \linebreak Obbligatorio & L'utente deve potersi registrare al sistema & UC1 \linebreak  UC1.5 \linebreak  UC1.6 \linebreak  \\
 \hline
@@ -102,7 +102,7 @@ FOb4.2.8.2.2 & Funzionale \linebreak Obbligatorio & L'utente deve poter modifica
 \hline
 FDe4.3 & Funzionale \linebreak Desiderabile & L'utente dovrà poter stampare una sua presentazione & Capitolato \linebreak  UC5.1.7 \linebreak  Verbale2014-12-18 \linebreak  \\
 \hline
-FOp4.4 & Funzionale \linebreak Opzionale & L'utente deve poter scaricare la presentazione per poterla utilizzare offline e indipendentemente dal sistema & UC5.1.6 \linebreak  Verbale2014-12-18 \linebreak  \\
+FOp4.4 & Funzionale \linebreak Opzionale & L'utente deve poter scaricare la presentazione per poterla utilizzare offline & UC5.1.6 \linebreak  Verbale2014-12-18 \linebreak  \\
 \hline
 FDe4.5 & Funzionale \linebreak Desiderabile & L'utente dovrà poter esportare la presentazione sottoforma di poster & Capitolato \linebreak  UC5.1.5 \linebreak  Verbale2014-12-18 \linebreak  \\
 \hline
@@ -124,7 +124,7 @@ FOb5.1 & Funzionale \linebreak Obbligatorio & Il sistema deve avvertire l'utente
 \hline
 VOb10 & Vincolo \linebreak Obbligatorio & Il prodotto necessita della connessione ad internet per offrire tutte le sue funzionalità & Verbale2014-12-18 \linebreak \\
 \hline
-VOb8 & Vincolo \linebreak Obbligatorio & Il prodotto deve essere supportato da dispositivi mobile & Capitolato \linebreak Verbale2014-12-18 \linebreak \\
+VOb8 & Vincolo \linebreak Obbligatorio & Il prodotto deve fornire supporto alla presentazione su dispositivi mobile & Capitolato \linebreak Verbale2014-12-18 \linebreak \\
 \hline
 VOb9 & Vincolo \linebreak Obbligatorio & L'applicazione deve poter essere eseguita su browser$_G$ con supporto a HTML5$_G$ e javascript$_G$ & Capitolato \linebreak Verbale2014-12-18 \linebreak \\
 \hline
@@ -132,6 +132,20 @@ VOb9.1 & Vincolo \linebreak Obbligatorio & L'applicazione deve poter essere eseg
 \hline
 \caption{Requisiti di vincolo}
 \end{longtable}
+
+\newpage
+\subsection{ Requisiti di qualità}
+\begin{longtable}{|l|p{2.5cm}|p{5cm}|p{3.5cm}|}
+\hline
+\textbf{Requisito} & \textbf{Tipologia} & \textbf{Descrizione} & \textbf{Fonti} \\
+\hline
+QDe11 & Qualità \linebreak Desiderabile & L'applicazione deve poter utilizzare le linee guida grafiche del Material Design$_G$ & Verbale2014-12-18 \\
+\hline
+QOp12 & Qualità \linebreak Opzionale & Le infografiche che il sistema permette di inserire dovranno appoggiarsi al framework$_G$ 3Djs$_G$ & Verbale2014-12-18 \\
+\hline
+\caption{Requisiti di qualità}
+\end{longtable}
+
 \newpage
 \subsection{ Tracciamento requisiti-fonti}
 	
@@ -139,7 +153,7 @@ VOb9.1 & Vincolo \linebreak Obbligatorio & L'applicazione deve poter essere eseg
 \hline
 \textbf{Requisito} & \textbf{Fonti} \\
 \hline
-FOb1 & UC1 \linebreak Verbale2014-12-18 \linebreak \\ 
+FOb1 & UC1 \linebreak \\ 
 \hline
 FOb1.1 & UC1 \linebreak  UC1.5 \linebreak  UC1.6 \linebreak  \\ 
 \hline
@@ -238,7 +252,7 @@ VOb9.1 & Capitolato \linebreak  Verbale2014-12-18 \linebreak  \\
 \textbf{IdFonte} & \textbf{IdRequisiti} \\ 
 Capitolato & FOb4 \linebreak  FOb4.1 \linebreak  FOb4.1.1 \linebreak  FOb4.2 \linebreak  FDe4.2.4.1 \linebreak  FOb4.2.8.2 \linebreak  FDe4.3 \linebreak  FDe4.5 \linebreak  VOb8 \linebreak  VOb9 \linebreak  VOb9.1 \linebreak   \\ 
 \hline
-		Verbale2014-12-18 & FOb1 \linebreak  VOb10 \linebreak  FOp2 \linebreak  FOp3 \linebreak  FOb4 \linebreak  FDe4.2.4.1 \linebreak  FOb4.2.5 \linebreak  FOb4.2.8.2 \linebreak  FOb4.2.8.2.2 \linebreak  FDe4.3 \linebreak  FOp4.4 \linebreak  FDe4.5 \linebreak  FOp4.6 \linebreak  VOb8 \linebreak  VOb9 \linebreak  VOb9.1 \linebreak   \\
+		Verbale2014-12-18 & VOb10 \linebreak  FOp2 \linebreak  FOp3 \linebreak  FOb4 \linebreak  FDe4.2.4.1 \linebreak  FOb4.2.5 \linebreak  FOb4.2.8.2 \linebreak  FOb4.2.8.2.2 \linebreak  FDe4.3 \linebreak  FOp4.4 \linebreak  FDe4.5 \linebreak  FOp4.6 \linebreak  VOb8 \linebreak  VOb9 \linebreak  VOb9.1 \linebreak   \\
 \hline
 		UC1 & FOb1 \linebreak  FOb1.1 \linebreak   \\
 \hline
