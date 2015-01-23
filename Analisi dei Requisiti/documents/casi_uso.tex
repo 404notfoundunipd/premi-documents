@@ -25,7 +25,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} Il sistema è avviato;
 	\item \textbf{Postcondizione:} Il sistema ha eseguito le operazioni che l'utente ha richiesto;
-	\item \textbf{Descrizione:} L'utente può registrarsi al sistema;
+	\item \textbf{Descrizione:} L'utente accede alle funzionalità del sistema;
 	\item \textbf{Attori:} Utente non registrato, Utente, Utente registrato, Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
@@ -36,7 +36,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 		\item \textbf{ UC5:} \textit{ Elenco presentazioni};
 		\item \textbf{ UC6:} \textit{ Modifica dati account};
 		\item \textbf{ UC7:} \textit{ Nuova presentazione};
-		\item \textbf{ UC8:} \textit{ Selezione template};
+		\item \textbf{ UC8:} \textit{ Selezione template$_G$};
 		\item \textbf{ UC9:} \textit{ Visualizza presentazione condivisa}.
 	\end{enumerate}
 \end{itemize}
@@ -59,7 +59,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 		\item \textbf{ UC1.1:} \textit{ Inserimento username};
 		\item \textbf{ UC1.2:} \textit{ Inserimento password};
 		\item \textbf{ UC1.3:} \textit{ Inserimento conferma password};
-		\item \textbf{ UC1.4:} \textit{ Inserimento email$_G$};
+		\item \textbf{ UC1.4:} \textit{ Inserimento e-mail};
 		\item \textbf{ UC1.5:} \textit{ Conferma registrazione};
 		\item \textbf{ UC1.6:} \textit{ Annulla registrazione}.
 	\end{enumerate}
@@ -88,12 +88,12 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 	\item \textbf{Descrizione:} L'utente inserisce nuovamente la password;
 	\item \textbf{Attori:} Utente non registrato.
 \end{itemize}
-\subsection{ UC1.4: Inserimento email$_G$}
+\subsection{ UC1.4: Inserimento e-mail}
 
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha scelto di registrarsi;
-	\item \textbf{Postcondizione:} Viene visualizzato l'inserimento del email$_G$;
-	\item \textbf{Descrizione:} L'utente inserisce la sua email$_G$;
+	\item \textbf{Postcondizione:} Viene visualizzato l'inserimento del e-mail;
+	\item \textbf{Descrizione:} L'utente inserisce la sua e-mail;
 	\item \textbf{Attori:} Utente non registrato.
 \end{itemize}
 \subsection{ UC1.5: Conferma registrazione}
@@ -416,7 +416,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 	\begin{enumerate}
 		\item \textbf{ UC5.1.1.2.2.1:} \textit{ Modifica del font};
 		\item \textbf{ UC5.1.1.2.2.2:} \textit{ Modifica del colore};
-		\item \textbf{ UC5.1.1.2.2.3:} \textit{ Modifica della dimensione };
+		\item \textbf{ UC5.1.1.2.2.3:} \textit{ Modifica della dimensione};
 		\item \textbf{ UC5.1.1.2.2.4:} \textit{ Modifica del stile}.
 	\end{enumerate}
 \end{itemize}
@@ -449,7 +449,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha scelto di modificare lo stile del testo;
 	\item \textbf{Postcondizione:} La modifica dello stile viene visualizzata;
-	\item \textbf{Descrizione:} L'utente può scegliere un qualche stile per il testo ex: bold, italico, etc;
+	\item \textbf{Descrizione:} L'utente può scegliere un qualche stile per il testo, ad esempio: bold, italico, etc;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \newpage
@@ -500,7 +500,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha scelto di aggiungere un immagine nella presentazione corrente;
-	\item \textbf{Postcondizione:} L'immagine è stata aggiunta e visualizzata nella presentazione corrente. l'immagine sarà asociata ad un frame$_G$;
+	\item \textbf{Postcondizione:} L'immagine è stata aggiunta e visualizzata nella presentazione corrente. L'immagine sarà associata ad un frame$_G$;
 	\item \textbf{Descrizione:} L'utente può aggiungere un immagine alla presentazione;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
@@ -615,7 +615,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha scelto di eliminare un oggetto grafico;
 	\item \textbf{Postcondizione:} L'oggetto grafico è stato eliminato;
-	\item \textbf{Descrizione:} L'utente ha scelto di eliminare un oggetto grafico. Quindi, verrà elimitato l'oggetto grafico corrspondente;
+	\item \textbf{Descrizione:} L'utente ha scelto di eliminare un oggetto grafico. Quindi, verrà elimitato l'oggetto grafico corrispondente;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC5.1.1.4: Modifica tema}
@@ -656,7 +656,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha scelto di modificare i parametri avanzati;
 	\item \textbf{Postcondizione:} I parametri avanzati sono modificati e si visualizzano le modifiche;
-	\item \textbf{Descrizione:} L'utente decide di modificare i parametri avanzati, che successivamente verranno visualizzate le modifiche;
+	\item \textbf{Descrizione:} L'utente decide di modificare i parametri avanzati, successivamente verranno visualizzate le modifiche;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
@@ -669,7 +669,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha scelto di modificare il colore delle connessioni;
-	\item \textbf{Postcondizione:} Il colore delle connessioni sono stato modificati e vengono visualizzate le modifiche;
+	\item \textbf{Postcondizione:} Il colore delle connessioni è stato modificato e vengono visualizzate le modifiche;
 	\item \textbf{Descrizione:} L'utente ha scelto di modificare il colore delle connessioni.  Successivamente, dopo la scelta del colore, verrà modificato il colore e visualizzata la modifica;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
@@ -719,7 +719,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha scelto di selezionare un'immagine di sfondo;
 	\item \textbf{Postcondizione:} L'immagine di sfondo è stata selezionata e viene visualizzata la selezione;
-	\item \textbf{Descrizione:} L'utente ha scelto di selezionare selezionare un immagine di sfondo. Successivamente, verrà visualizzata la selezione;
+	\item \textbf{Descrizione:} L'utente ha scelto di selezionare un'immagine di sfondo. Successivamente, verrà visualizzata la selezione;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
@@ -733,7 +733,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} l’utente ha scelto di selezionare l’immagine da file;
 	\item \textbf{Postcondizione:} l’immagine selezionata viene applicata allo sfondo della presentazione;
-	\item \textbf{Descrizione:} l’utente sceglie l’immagine dal proprio computer tramite una finestra apposita;
+	\item \textbf{Descrizione:} l’utente sceglie l’immagine dal proprio dispositivo tramite una finestra apposita;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC5.1.1.4.2.3.2.2: Selezione immagine da predefinite}
@@ -778,7 +778,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} L’utente si trova nell’editor e ha deciso di gestire il cammino presentativo scambiando la posizione dei frame$_G$;
 	\item \textbf{Postcondizione:} I frame$_G$ sono stati scambiati correttamente e il nuovo cammino viene visualizzato a video;
-	\item \textbf{Descrizione:} L’utente può scambiare di posizione i vari frame$_G$ semplicemente utilizzando la funzione di drag and drop$_G$ oppure assegnando un numero al frame$_G$ che corrisponde alla posizione in cui il frame$_G$ verrà visualizzato; nel caso in cui il numero inserito sia già in uso tutti i frame$_G$ successivi, a partire da quel numero, verranno scalati di un posto in avanti;
+	\item \textbf{Descrizione:} L’utente può scambiare di posizione i vari frame$_G$ semplicemente utilizzando la funzione di drag and drop$_G$, oppure assegnando un numero al frame$_G$, che corrisponde alla posizione in cui il frame$_G$ verrà visualizzato;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC5.1.1.5.2: Aggiunta vista attuale in coda}
@@ -792,9 +792,9 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \subsection{ UC5.1.1.6: Avvia anteprima}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} l’utente si trova all’interno dell’editor e decide di avviare l’anteprima della presentazione con le eventuali modifiche effettuate;
-	\item \textbf{Postcondizione:} la presentazione viene avviata correttamente a schermo intero con tutte le eventuali modifiche effettuate da parte dell’utente;
-	\item \textbf{Descrizione:} in qualsiasi momento durante la modifica della presentazione l’utente può scegliere di avviare l’anteprima della presentazione; ciò comporta l’avvio della presentazione stessa in modalità a schermo intero con tutte le eventuali modifiche apportate fino a quel momento da parte dell’utente;
+	\item \textbf{Precondizione:} L’utente si trova all’interno dell’editor e decide di avviare l’anteprima della presentazione con le eventuali modifiche effettuate;
+	\item \textbf{Postcondizione:} La presentazione viene avviata correttamente a schermo intero con tutte le eventuali modifiche effettuate da parte dell’utente;
+	\item \textbf{Descrizione:} In qualsiasi momento durante la modifica della presentazione l’utente può scegliere di avviare l’anteprima della presentazione. Ciò comporta l’avvio della presentazione stessa in modalità a schermo intero con tutte le eventuali modifiche apportate fino a quel momento da parte dell’utente;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC5.1.1.7: Salvataggio}
@@ -802,7 +802,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} L’utente si trova all’interno dell’editor e decide di salvare la presentazione;
 	\item \textbf{Postcondizione:} La presentazione è stata correttamente salvata con tutte le eventuali modifiche apportate dall’utente;
-	\item \textbf{Descrizione:} In qualisasi momento durante la modifica della presentazione l’utente può decidere di salvare le modifiche fatte fino a quel momento. Il sistema implementerà anche una funzione di salvataggio automatico con un timeout$_G$ di 5 min;
+	\item \textbf{Descrizione:} In qualsiasi momento durante la modifica della presentazione l’utente può decidere di salvare le modifiche fatte fino a quel momento. Il sistema implementerà anche una funzione di salvataggio automatico;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC5.1.1.8: Annulla la modifica}
@@ -810,7 +810,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} L’utente si trova nell’editor ed ha effettuato una modifica alla presentazione;
 	\item \textbf{Postcondizione:} La modifica poco prima effettuata è stata annullata;
-	\item \textbf{Descrizione:} In qualsiasi istante durante la modifica della presentazione l’utente, dopo una modifica, può decidere di annullare l’ultima effettuata fino ad un massimo di 10 annullamenti;
+	\item \textbf{Descrizione:} In qualsiasi istante durante la modifica della presentazione l’utente, dopo una modifica, può decidere di annullare l’ultima effettuata;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC5.1.1.9: Ripristina la modifica annullata}
@@ -841,7 +841,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
-	\item \textbf{Postcondizione:} La presentazione corrente sarà resa accessibile a qualunque utente tramite un link$_G$;
+	\item \textbf{Postcondizione:} La presentazione corrente sarà resa accessibile a qualunque utente tramite un URL;
 	\item \textbf{Descrizione:} L'utente può condividere una propria presentazione rendendola accessibile, in lettura, anche a utenti esterni;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
@@ -849,8 +849,8 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
-	\item \textbf{Postcondizione:} Viene generata un immagine contenente l'intera presentazione;
-	\item \textbf{Descrizione:} L'utente può decidere di esportare, in un formato che sceglierà, l'immagine della presentazioe scelta;
+	\item \textbf{Postcondizione:} Viene generata un'immagine contenente l'intera presentazione;
+	\item \textbf{Descrizione:} L'utente può decidere di esportare, in un formato che sceglierà, l'immagine della presentazione scelta;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC5.1.6: Download presentazione$_G$}
@@ -865,7 +865,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
-	\item \textbf{Postcondizione:} La richiesta di stampa verrà inviata al sistema operativo$_G$;
+	\item \textbf{Postcondizione:} La richiesta di stampa verrà inviata al sistema operativo;
 	\item \textbf{Descrizione:} L'utente può scegliere di stampare la propria presentazione;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
@@ -873,8 +873,8 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
-	\item \textbf{Postcondizione:} Viene generato un link$_G$ alla presentazione avviata, che gli utenti esterni potranno usare per assistere alla presentazione;
-	\item \textbf{Descrizione:} L'utente può avviare una presentazione remota e tutti gli utenti in possesso del link$_G$ generato potranno assistere visualizzando in tempo reale il susseguirsi delle slide$_G$;
+	\item \textbf{Postcondizione:} Viene generato un URL alla presentazione avviata, che gli utenti esterni potranno usare per assistere alla presentazione;
+	\item \textbf{Descrizione:} L'utente può avviare una presentazione remota e tutti gli utenti in possesso dell' URL generato potranno assistere visualizzando in tempo reale il susseguirsi delle slide;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 
@@ -890,12 +890,12 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
 	\item \textbf{Postcondizione:} Viene visualizzata la presentazione con la relativa interfaccia;
-	\item \textbf{Descrizione:} L'utente può avviare una presentazione e gestire il susseguirsi delle slide andando avanti o indietro nel percorso di questa;
+	\item \textbf{Descrizione:} L'utente può avviare una presentazione e gestire il susseguirsi delle slides andando avanti o indietro nel percorso di questa;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
 		\item \textbf{ UC5.1.9.1:} \textit{ Frame$_G$ successivo};
-		\item \textbf{ UC5.1.9.2:} \textit{ frame$_G$ precedente};
+		\item \textbf{ UC5.1.9.2:} \textit{ Frame$_G$ precedente};
 		\item \textbf{ UC5.1.9.3:} \textit{ Esci dalla presentazione }.
 	\end{enumerate}
 \end{itemize}
@@ -907,7 +907,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 	\item \textbf{Descrizione:} L'utente può avanzare nella presentazione visualizzando il frame$_G$ successivo;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.9.2: frame$_G$ precedente}
+\subsection{ UC5.1.9.2: Frame$_G$ precedente}
 
 \begin{itemize}
 	\item \textbf{Precondizione:} L'utente ha avviato una presentazione e ha eseguito almeno un avanzamento nel percorso dei frame$_G$;
@@ -919,7 +919,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 
 \begin{itemize}
 	\item \textbf{Precondizione:} Una presentazione è stata avviata;
-	\item \textbf{Postcondizione:} L'utente torna alla schermata con l'elenco delle presentazionie;
+	\item \textbf{Postcondizione:} L'utente torna alla schermata con l'elenco delle presentazioni;
 	\item \textbf{Descrizione:} L'utente può scegliere di terminare la presentazione;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
@@ -997,7 +997,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} L’utente è entrato nella sezione dedicata alla modifica dei dati dell’account ed ha deciso di modificare la password;
 	\item \textbf{Postcondizione:} L’utente ha correttamente inserito la conferma della nuova password;
-	\item \textbf{Descrizione:} L’utente inserisce la conferma della nuova password nel campo dedicato e deve corrispondere a quella inserita nel Caso d’uso UC6.1.2;
+	\item \textbf{Descrizione:} L’utente inserisce la conferma della nuova password nel campo dedicato e deve corrispondere a quella inserita nel caso d’uso UC6.1.2;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC6.2: Modifica e-mail}
@@ -1005,7 +1005,7 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} L’utente è entrato nella sezione dedicata alla modifica dei dati dell’account ed ha deciso di modificare l’indirizzo e-mail;
 	\item \textbf{Postcondizione:} L’utente ha correttamente modificato il proprio indirizzo e-mail;
-	\item \textbf{Descrizione:} L’utente inserisce la nuova mail al posto di quella precedente;
+	\item \textbf{Descrizione:} L’utente inserisce il nuovo indirizzo e-mail al posto di quello precedente;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC6.3: Conferma modifica}
@@ -1021,14 +1021,14 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \begin{itemize}
 	\item \textbf{Precondizione:} L’utente è entrato nella sezione dedicata alla modifica dei dati dell’account;
 	\item \textbf{Postcondizione:} L’utente interrompe la modifica dei dati del proprio account che quindi non vengono modificati;
-	\item \textbf{Descrizione:} L’utente interrompe la modifica dei dati dell’account lasciando la pagina dedicata prima di confermare a modifica;
+	\item \textbf{Descrizione:} L’utente interrompe la modifica dei dati dell’account lasciando la pagina dedicata prima di confermare la modifica;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC7: Nuova presentazione}
 
 \begin{itemize}
 	\item \textbf{Precondizione:} L’utente si trova all’interno del sistema;
-	\item \textbf{Postcondizione:} Viene creata una nuova presentazione e aperto l’editor per la modifica dopo aver chiesto all’utente di selezionare un template$_G$ di partenza;
+	\item \textbf{Postcondizione:} Viene creata una nuova presentazione e aperto l’editor per la modifica, dopo aver chiesto all’utente di selezionare un template$_G$ di partenza;
 	\item \textbf{Descrizione:} L’utente che decide di creare una nuova presentazione deve per prima cosa selezionare un template$_G$ dal quale partire, che all’occorrenza può essere anche vuoto. In seguito viene aperto l’editor con il template$_G$ selezionato e si procede analogamente alla modifica di una presentazione già esistente;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
@@ -1043,8 +1043,8 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 \subsection{ UC9: Visualizza presentazione condivisa}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente vuole avviare una presentazione. È necessario che l’utente disponga del link corrispondente a tale presentazione;
-	\item \textbf{Postcondizione:} L’utente ha correttamente inserito il link nel browser$_G$ e la presentazione è stata avviata;
-	\item \textbf{Descrizione:} L’utente, in possesso del link per la condivisione di una presentazione, lo inserisce nella barra degli indirizzi del browser$_G$ e automaticamente il sistema avvia la presentazione corrispondente al link inserito;
+	\item \textbf{Precondizione:} L’utente vuole avviare una presentazione. È necessario che l’utente disponga dell'URL corrispondente a tale presentazione;
+	\item \textbf{Postcondizione:} L’utente ha correttamente inserito l'URL nel browser$_G$ e la presentazione è stata avviata;
+	\item \textbf{Descrizione:} L’utente, in possesso dell'URL per la condivisione di una presentazione, lo inserisce nella barra degli indirizzi del browser$_G$ e automaticamente il sistema avvia la presentazione corrispondente all'URL inserito;
 	\item \textbf{Attori:} Utente.
 \end{itemize}
