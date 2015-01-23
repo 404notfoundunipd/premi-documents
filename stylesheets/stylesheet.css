@@ -328,11 +328,11 @@ Full-Width Styles
 #logo {
   background-image: url(../images/logo.png);
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 70%;
   width: 210px;
   height: 210px;
   float: left;
-  margin: 10px;
+  margin: 20px;
 }
 
 .zip_download_link {
