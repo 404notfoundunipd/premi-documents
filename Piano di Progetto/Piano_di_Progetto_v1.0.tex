@@ -1,5 +1,6 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage{../style}
+\usepackage{natbib}
 
 \newcommand{\titDoc}{Piano di Progetto}
 \newcommand{\dataCreazione}{20 Dicembre 2014}
@@ -16,6 +17,7 @@
 \begin{document}
 \input{documents/first.tex}
 \newpage
+\nocite{*}
 \input{documents/regModifiche.tex}
 \newpage
 \tableofcontents
@@ -31,6 +33,7 @@
 \input{documents/controllo_rendicontazione.tex}
 
 \newpage
+\bibliographystyle{te}
 \bibliography{../bibliography.bib}
 
 \end{document}
