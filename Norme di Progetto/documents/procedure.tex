@@ -1,43 +1,17 @@
-\section{Metodi di Condivisione}
-Qui vengono elencate le piattaforme adottate per facilitare lo svolgimento collettivo del progetto.
-
-\subsection{Google Calendar}
-Google Calendar$_G$ viene utilizzato come promemoria per le date degli incontri e per segnalare le fasce orarie in cui un membro non è disponibile in caso di impegni settimanali inderogabili.
-
-\subsection{Google Drive}
-Google Drive$_G$ permette una facile condivisione di documenti informali e di tutte quelle risorse utili al progetto che non sono soggette a versionamento. \\
-Per sfruttare nel modo migliore le potenzialità della piattaforma si raccomanda di attenersi alla suddivisione intuitiva in cartelle dei file e di utilizzare, quando possibile, formati compatibili con gli editor$_G$ testuali del sito.
-
-\subsection{Mega}
-Per la condivisione delle esportazioni delle Virtual Machine$_G$ con Ubuntu Desktop$_G$ è stato scelto il servizio cloud$_G$ Mega, che dà a disposizione 50GB di spazio gratuito.
-
-\subsection{GitHub}
-GitHub$_G$ è un servizio di hosting di repository$_G$ Git$_G$. \\
-Una repository$_G$ è uno spazio di archiviazione da cui è possibile recuperare software o codice sorgente; il sistema di controllo di versione$_G$ Git$_G$ in particolare sfrutta la tecnica dei branch$_G$, ossia di ramificazioni del codice sorgente su cui poter lavorare senza  entrare in conflitto con il lavoro di altri collaboratori. Il branch originale viene chiamato \textit{master}. \\
-Sono state create due repository$_G$, accessibili dall'indirizzo:\\ 
-\url{https://github.com/404notfoundunipd/}
-\begin{itemize}
-\item \texttt{premi} contiene i file di codifica e di sviluppo dell'applicazione eseguibile;
-\item \texttt{premi-documents} contiene i file di tutti i documenti formali soggetti a versionamento compresi i template$_G$ per la loro stesura.
-\end{itemize}
-
-\subsection{Mega}
-Mega$_G$ è un servizio di storage online e gratuito. È stato creato un account per il team \gruppo, che conterrà le esportazioni delle Virtual Machine$_G$ (VM) con Ubuntu Desktop. È stato scelto questo servizio cloud in quanto si è scelto di non tener traccia del versionamento delle VM. Sono inoltre a disposizione 50GB di spazio gratuito, necessario per poter memorizzare file di grosse di dimensioni come le VM.
-
-\newpage
-\section{Procedura per lo sviluppo dell'applicazione}
+\section{Procedure e supporto dei processi}
+\subsection{Procedura per lo sviluppo dell'applicazione}
 Vengono qui elencate le norme per l'utilizzo degli strumenti di sviluppo del sito web GitHub$_G$. \\
 Per una guida completa sull'uso di GitHub$_G$ si consiglia il sito: \\
 \url{https://guides.github.com/}\\
 Per una guida completa sull'uso di git$_G$ da terminale si consiglia il sito: \\
 \url{http://git-scm.com/doc/}
 
-\subsection{Creare una milestone}
-La creazione di una milestone$_G$ viene affidata esclusivamente al \ruoloResponsabile\ e il suo scopo è quello di suddividere il lavoro in più fasi per un maggiore controllo sullo stato di avanzamento del progetto. Questa parte di lavoro viene a sua volta spartita tra i componenti del gruppo attraverso i ticket$_G$. \\
+\subsubsection{Creare una milestone}
+La creazione di una milestone$_G$ viene affidata esclusivamente al \ruoloResponsabile\ e il suo scopo è quello di suddividere il lavoro in elenchi di attività per un maggiore controllo sullo stato di avanzamento del progetto. Le attività possono essere a loro volta suddivise in task$_G$ e spartite tra i componenti del gruppo attraverso la creazione di ticket$_G$. \\cccx
     Dalla pagina della repository$_G$ accedere al menu \textit{issues}, andare sulla sezione \textit{Milestones} e quindi su \textit{New milestone$_G$}.\\
     Inserire un breve titolo che la distingua dalle milestone$_G$ precedenti, una descrizione approfondita che identifichi le parti del progetto su cui si sta lavorando e infine la data di chiusura.
 
-\subsection{Creare un ticket}
+\subsubsection{Creare un ticket}
 Un ticket$_G$ corrisponde ad un compito da portare a termine all'interno di una milestone$_G$. Vengono creati dal \ruoloResponsabile\ e assegnati a sua discrezione ad un componente del gruppo. \\
 Dalla pagina della repository$_G$ accedere al menu \textit{issues} e premere su \textit{New Issue}.\\
 È richiesta la compilazione dei seguenti campi:
@@ -50,7 +24,7 @@ Dalla pagina della repository$_G$ accedere al menu \textit{issues} e premere su 
 \end{itemize}
 È possibile creare dei collegamenti ai ticket$_G$ all'interno dei commenti in GitHub$_G$ scrivendo l'id del ticket preceduto dal carattere \#.
 
-\subsection{Eseguire il compito}
+\subsubsection{Eseguire il compito}
 Per eseguire il compito assegnato, l'incaricato deve creare un branch$_G$ su cui lavorare. \\
 Dalla pagina della repository$_G$ premere sul pulsante della lista dei branch$_G$ e digitare il nome del nuovo branch$_G$, che deve essere formato dal nome dell'incaricato seguito dall'id del ticket$_G$ nella forma: 
 \begin{verbatim}
@@ -65,7 +39,7 @@ Quando il lavoro è concluso inviare una \textit{pull request}$_G$, ossia la ric
     \item \textit{commento:} deve contenere almeno l'id del ticket$_G$(\textit{issue}) del compito eseguito nella forma \texttt{\#id} e preceduto dalla parola chiave \texttt{Fixes }, per rendere automatica la chiusura del ticket una volta accettata la richiesta. 
 \end{itemize}
 
-\subsection{Fase di Verifica}
+\subsubsection{Fase di Verifica}
 Il \ruoloVerificatore\ ha il compito di esaminare le \textit{pull request}$_G$ proposte dai membri del gruppo.\\
 Dopo aver verificato il lavoro svolto, dal menu \textit{Pull Requests}$_G$ ha tre possibilità:
 \begin{itemize}
@@ -74,6 +48,55 @@ Dopo aver verificato il lavoro svolto, dal menu \textit{Pull Requests}$_G$ ha tr
 \item \textit{Rifiutare la richiesta:} La richiesta non è pertinente al lavoro in corso e viene chiusa senza effettuare il \textit{merge}$_G$. Il \ruoloVerificatore\ è tenuto comunque a lasciare un commento che giustifichi tale azione.
 \end{itemize}
 
-\subsection{Chiudere una milestone}
+\subsubsection{Chiudere una milestone}
 Quando tutti i ticket$_G$ sono stati chiusi il \ruoloResponsabile\ può chiudere la milestone$_G$ in corso. \\
 Dalla pagina della repository$_G$ accedere al menu \textit{issues}, andare sulla sezione \textit{Milestones} e selezionare quella che si intende chiudere; infine premere su \textit{close}.
+
+
+
+
+\subsection{Analisi dei Requisiti}
+\subsubsection{Studio di Fattibilità}
+In seguito alla scelta del capitolato da parte del gruppo è necessario che gli \textit{Analisti} redigano uno \textit{Studio di Fattibilità}. Questo documento dovrà focalizzarsi su:
+\begin{itemize}
+\item \textbf{Dominio applicativo e tecnologico:} la conoscenza, da parte dei componenti del gruppo, del dominio applicativo e delle tecnologie richieste nel  ; 
+\item \textbf{Guadagno:} rapporto tra costi per la realizzazione e dei benefici ricavati dal prodotto completo;
+\item \textbf{Analisi dei rischi:} individuazione dei rischi derivati da lacune di conoscenza del dominio e dalle tecnologie richieste.  
+\end{itemize}
+\subsubsection{Requisiti}
+In seguito allo studio di fattibilità gli \ruoloAnalista dovranno identificare e classificare i Requisiti.
+La classificazione verrà operata sui seguenti attributi:
+\begin{itemize}
+\item \textbf{Tipo del Requisito} i cui valori possono essere:
+\begin{itemize}
+\item[F] Funzionale;
+\item[Q] di Qualità;
+\item[V] di Vincolo;
+\item[P] Prestazionale.
+\end{itemize}
+\item \textbf{Valore del Requisito} i cui valori possono essere:
+\begin{itemize}
+\item[Ob] Obbligatorio;
+\item[De] Desiderabile;
+\item[Op] Opzionale.
+\end{itemize}
+\item \textbf{Codice univoco} è il codice espresso in modo gerarchico come segue.
+\begin{center}
+[codice del padre].[numero unico rispetto ai fratelli]
+\end{center}
+\end{itemize} 
+Oltre a questa classificazione è necessario aggiungere una breve descrizione ad ogni requisito
+\subsubsection{Casi d'Uso}
+In seguito alla classificazione dei requisiti gli \textit{Analisti} dovranno identificare i \textit{casi d'uso} o \textit{use case}.
+Di ogni caso d'uso interessa:
+\begin{itemize}
+\item \textbf{Titolo} breve titolo che identifica lo UC;
+\item \textbf{Pre e Post Condizione};
+\item \textbf{Attori} principali e secondari;
+\item \textbf{Scenari} principali e alternativi definendo per ognuno titolo, attori coinvolti, una breve descrizione e il caso d'uso a cui si riferiscono se presente;
+\item \textbf{Descrizione} breve descrizione dello UC;
+\item \textbf{Requisiti Dedotti}.
+\end{itemize} 
+\subsubsection{Tracciamento}
+Sia i requisiti che le fonti dovranno essere inseriti, dagli \textit{Analisti}, in un database$_G$ appositamente creato. Per facilitare le operazioni necessarie è stata creata un'applicazione web il cui nome è 404TrackerDB.
+Compito dell'applicazione è anche quella di creare il codice {Latex}, sia delle tabelle per il tracciamento sia delle generalità di fonti e requisiti, in modo automatico per velocizzare la stesura del documento \textit{Analisi dei Requisiti}. 
