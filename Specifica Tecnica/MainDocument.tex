@@ -1,0 +1,45 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{../style}
+
+
+\newcommand{\docs}{documents/}
+% Dati inerenti al documento corrente %
+% Da sostituire con i valori corretti %
+\newcommand{\titDoc}{Specifica Tecnica}
+\newcommand{\dataCreazione}{25 febbraio 2015}
+\newcommand{\versione}{0.1}
+
+% Dati di rilascio del documento corrente %
+\newcommand{\stato}{Formale}
+\newcommand{\uso}{Esterno}
+
+\lfoot{
+	\titDoc \\
+	v. \versione
+}
+\title{\titDoc}
+
+\begin{document}
+\input{\docs first.tex}
+\newpage
+\input{\docs regModifiche.tex}
+\newpage
+\tableofcontents
+\newpage
+\listoftables
+\listoffigures
+
+\newpage
+\input{\docs intro.tex}
+\input{\docs defin_prodotto.tex}
+\input{\docs descr_componenti.tex}
+\input{\docs stime_fattibilita.tex}
+\input{\docs tracciam_requisiti.tex}
+\input{\docs descr_tecnologie.tex}
+\input{\docs interfaccia.tex}
+
+% ecc.......
+\newpage
+\bibliography{../bibliography}
+
+\end{document}
