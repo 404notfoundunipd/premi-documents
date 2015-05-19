@@ -1,0 +1,41 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {1}Introduzione}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Scopo del documento}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scopo del Prodotto}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Glossario}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Riferimenti}{4}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}Normativi}{4}{subsubsection.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.2}Informativi}{4}{subsubsection.1.4.2}
+\contentsline {section}{\numberline {2}Visione Generale della Strategia di Verifica}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Organizzazione}{6}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Analisi dei requisiti}{6}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Progettazione}{7}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Realizzazione}{7}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Validazione}{7}{subsubsection.2.1.4}
+\contentsline {subsection}{\numberline {2.2}Pianificazione Strategica e Temporale}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Responsabilit\IeC {\`a}}{8}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Risorse}{8}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Strumenti, Tecniche e Metodi}{8}{subsection.2.5}
+\contentsline {subsubsection}{\numberline {2.5.1}Strumenti}{8}{subsubsection.2.5.1}
+\contentsline {subsubsection}{\numberline {2.5.2}Tecniche di Analisi}{9}{subsubsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.3}Misure e Metriche}{11}{subsubsection.2.5.3}
+\contentsline {section}{\numberline {3}Obiettivi di Qualit\IeC {\`a}}{12}{section.3}
+\contentsline {subsection}{\numberline {3.1}Qualit\IeC {\`a} dei Processi}{12}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Qualit\IeC {\`a} del Prodotto}{14}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Funzionalit\IeC {\`a}}{14}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Affidabilit\IeC {\`a}}{15}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Efficienza}{15}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Usabilit\IeC {\`a}}{15}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}Manutenibilit\IeC {\`a}}{16}{subsubsection.3.2.5}
+\contentsline {subsubsection}{\numberline {3.2.6}Portabilit\IeC {\`a}}{16}{subsubsection.3.2.6}
+\contentsline {section}{\numberline {4}Gestione amministrativa della revisione}{17}{section.4}
+\contentsline {subsection}{\numberline {4.1}Comunicazione e risoluzione di anomalie}{17}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Trattamento delle discrepanze}{17}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Procedure di controllo di qualit\IeC {\`a} di processo}{17}{subsection.4.3}
+\contentsline {section}{\numberline {A}Resoconto dell' Attivit\IeC {\`a} di Verifica}{18}{appendix.Alph1}
+\contentsline {subsection}{\numberline {A.1}Revisione della Documentazione}{18}{subsection.Alph1.1}
+\contentsline {subsection}{\numberline {A.2}Tracciamento requisiti}{19}{subsection.Alph1.2}
+\contentsline {subsection}{\numberline {A.3}Dettaglio delle verifiche tramite analisi}{19}{subsection.Alph1.3}
+\contentsline {subsection}{\numberline {A.4}Revisione dei Requisiti}{20}{subsection.Alph1.4}
+\contentsline {subsection}{\numberline {A.5}Revisione di Progettazione}{20}{subsection.Alph1.5}
