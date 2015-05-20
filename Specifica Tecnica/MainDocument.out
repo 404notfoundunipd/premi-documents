@@ -1,10 +1,13 @@
-\BOOKMARK [1][-]{section.1}{Introduzione}{}% 1
-\BOOKMARK [2][-]{subsection.1.1}{Scopo del documento}{section.1}% 2
-\BOOKMARK [2][-]{subsection.1.2}{Scopo del prodotto}{section.1}% 3
-\BOOKMARK [2][-]{subsection.1.3}{Glossario}{section.1}% 4
-\BOOKMARK [1][-]{section.2}{Definizione del Prodotto}{}% 5
-\BOOKMARK [1][-]{section.3}{Descrizione dei singoli componenti}{}% 6
-\BOOKMARK [1][-]{section.4}{Stime di fattibilit\340 e di bisogno di risorse}{}% 7
-\BOOKMARK [1][-]{section.5}{Tracciamento della relazione componenti - requisiti}{}% 8
-\BOOKMARK [1][-]{section.6}{Descrizione delle tecnologie e dei design pattern utilizzati}{}% 9
-\BOOKMARK [1][-]{section.7}{Mockup Interfaccia [FACOLTATIVO]}{}% 10
+\BOOKMARK [1][-]{section.1}{Introduzione}{}
+\BOOKMARK [2][-]{subsection.1.1}{Scopo del documento}{section.1}
+\BOOKMARK [2][-]{subsection.1.2}{Scopo del prodotto}{section.1}
+\BOOKMARK [2][-]{subsection.1.3}{Glossario}{section.1}
+\BOOKMARK [1][-]{section.2}{Definizione del Prodotto}{}
+\BOOKMARK [2][-]{subsection.2.1}{Metodo e formalismo di specifica}{section.2}
+\BOOKMARK [2][-]{subsection.2.2}{Presentazione dell'architettura generale del sistema}{section.2}
+\BOOKMARK [1][-]{section.3}{Descrizione dei singoli componenti}{}
+\BOOKMARK [1][-]{section.4}{Diagrammi delle attivit\340}{}
+\BOOKMARK [1][-]{section.5}{Stime di fattibilit\340 e di bisogno di risorse}{}
+\BOOKMARK [1][-]{section.6}{Tracciamento della relazione componenti - requisiti}{}
+\BOOKMARK [1][-]{section.7}{Descrizione delle tecnologie e dei design pattern utilizzati}{}
+\BOOKMARK [1][-]{section.8}{Mockup Interfaccia [FACOLTATIVO]}{}
