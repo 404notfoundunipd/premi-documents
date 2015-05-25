@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.23)  25 MAY 2015 11:39
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.23)  25 MAY 2015 14:42
 entering extended mode
  %&-line parsing enabled.
 **MainDocument.tex
@@ -501,7 +501,7 @@ LaTeX Info: Redefining \pageref on input line 23.
 
 \AtBeginShipoutBox=\box33
  (./documents/first.tex
-<../logo/logo404_Extends.png, id=67, 1027.84pt x 433.62pt>
+<../logo/logo404_Extends.png, id=167, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
@@ -519,7 +519,7 @@ g (PNG copy)>])
 Underfull \vbox (badness 10000) detected at line 14
  []
 
-) <../logo/logo404.png, id=76, 1027.84pt x 402.50375pt>
+) <../logo/logo404.png, id=176, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>pdfTeX warning (ext4): destination with the same ident
@@ -533,7 +533,9 @@ l.27 \newpage
 
 File: ../logo/logo404.png Graphic file (type png)
 
-<use ../logo/logo404.png> [2] (./MainDocument.lot)
+<use ../logo/logo404.png> [2]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png> [3] (./MainDocument.lot)
 \tf@lot=\write5
 \openout5 = `MainDocument.lot'.
 
@@ -542,8 +544,7 @@ File: ../logo/logo404.png Graphic file (type png)
 \openout6 = `MainDocument.lof'.
 
 File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png> [3] (./documents/intro.tex
+ <use ../logo/logo404.png> [4] (./documents/intro.tex
 (/usr/share/texmf-texlive/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
 )
@@ -552,43 +553,87 @@ File: uni-32.def 2004/10/17 UCS: Unicode data U+2000..U+20FF
 ))
 (./documents/defin_prodotto.tex
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png> [4]
+ <use ../logo/logo404.png> [5]
 File: ../logo/logo404.png Graphic file (type png)
 
-<use ../logo/logo404.png> [5]) (./documents/descr_componenti.tex
+<use ../logo/logo404.png> [6]) (./documents/descr_componenti.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png> [7]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png> [8]
+Overfull \hbox (7.15001pt too wide) in paragraph at lines 100--101
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 con \OT1
+/cmtt/m/n/12 Premi.UserManager.RegistrationView
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png> [9]
+Overfull \hbox (19.50002pt too wide) in paragraph at lines 115--116
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 con \OT1
+/cmtt/m/n/12 Premi.UserManager.ChangePasswordView
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png> [10]
+Overfull \hbox (64.39697pt too wide) in paragraph at lines 133--134
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 con \OT1
+/cmtt/m/n/12 Premi.Viewer.View\OT1/cmr/m/n/12 , con \OT1/cmtt/m/n/12 Premi.User
+Manager.User
+ []
+
+
+Overfull \hbox (15.10118pt too wide) in paragraph at lines 150--151
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 esten-de
+ \OT1/cmtt/m/n/12 Premi.Presentation.GraphicObject 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png> [11]
+Overfull \hbox (15.10118pt too wide) in paragraph at lines 182--183
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 esten-de
+ \OT1/cmtt/m/n/12 Premi.Presentation.GraphicObject
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png> [12]
+Overfull \hbox (66.03206pt too wide) in paragraph at lines 198--199
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 pos-sie-
+de una li-sta di og-get-ti \OT1/cmtt/m/n/12 premi.Presentation.Frame 
  []
 
 ) (./documents/attivita.tex) (./documents/stime_fattibilita.tex)
 (./documents/tracciam_requisiti.tex) (./documents/descr_tecnologie.tex)
 (./documents/interfaccia.tex)
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png> [6]
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png> [7]
+ <use ../logo/logo404.png> [13]
 No file MainDocument.bbl.
-AED: lastpage setting LastPage (./MainDocument.aux) ) 
+AED: lastpage setting LastPage (./MainDocument.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9392 strings out of 493848
- 139831 string characters out of 1152823
- 218774 words of memory out of 3000000
- 12459 multiletter control sequences out of 15000+50000
+ 9448 strings out of 493848
+ 140841 string characters out of 1152823
+ 222774 words of memory out of 3000000
+ 12484 multiletter control sequences out of 15000+50000
  9730 words of font info for 34 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  45i,15n,45p,919b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/en
-c/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfti1200.pfb>
-Output written on MainDocument.pdf (8 pages, 145376 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on MainDocument.pdf (14 pages, 174446 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 339 words of extra memory for PDF output out of 10000 (max. 10000000)
 

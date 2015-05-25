@@ -8,7 +8,32 @@
 \BOOKMARK [1][-]{section.3}{Diagrammi dei Package}{}
 \BOOKMARK [1][-]{section.4}{Descrizione dei singoli componenti}{}
 \BOOKMARK [2][-]{subsection.4.1}{Premi}{section.4}
-\BOOKMARK [3][-]{subsubsection.4.1.1}{Premi.Utility}{subsection.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Premi.}{subsection.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.2}{Premi.Utility}{subsection.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.3}{Premi.View}{subsection.4.1}
+\BOOKMARK [3][-]{subsubsection.4.1.4}{Premi.PremiCtrl}{subsection.4.1}
+\BOOKMARK [2][-]{subsection.4.2}{Premi.UserManager}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Premi.UserManager.User}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Premi.UserManager.View}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Premi.UserManager.UserManagerCtrl}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Premi.UserManager.LoginView}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Premi.UserManager.LoginController}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.6}{Premi.UserManager.RegistrationView}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.7}{Premi.UserManager.RegistrationController}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.8}{Premi.UserManager.ChangePasswordView}{subsection.4.2}
+\BOOKMARK [3][-]{subsubsection.4.2.9}{Premi.UserManager.ChangePasswordController}{subsection.4.2}
+\BOOKMARK [2][-]{subsection.4.3}{Premi.Viewer}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Premi.Viewer.View}{subsection.4.3}
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Premi.ViewerCtrl}{subsection.4.3}
+\BOOKMARK [2][-]{subsection.4.4}{Premi.Presentation}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Premi.Presentation.GraphicObject}{subsection.4.4}
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Premi.Presentation.GoContent}{subsection.4.4}
+\BOOKMARK [3][-]{subsubsection.4.4.3}{Premi.Presentation.Text}{subsection.4.4}
+\BOOKMARK [3][-]{subsubsection.4.4.4}{Premi.Presentation.Image}{subsection.4.4}
+\BOOKMARK [3][-]{subsubsection.4.4.5}{Premi.Presentation.Shape}{subsection.4.4}
+\BOOKMARK [3][-]{subsubsection.4.4.6}{Premi.Presentation.Frame}{subsection.4.4}
+\BOOKMARK [3][-]{subsubsection.4.4.7}{Premi.Presentation.Trail}{subsection.4.4}
+\BOOKMARK [3][-]{subsubsection.4.4.8}{Premi.Presentation.Presentation}{subsection.4.4}
 \BOOKMARK [1][-]{section.5}{Diagrammi delle attivit\340}{}
 \BOOKMARK [1][-]{section.6}{Stime di fattibilit\340 e di bisogno di risorse}{}
 \BOOKMARK [1][-]{section.7}{Tracciamento della relazione componenti - requisiti}{}

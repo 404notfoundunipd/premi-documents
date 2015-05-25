@@ -4,6 +4,19 @@
 	Interfacce con le relazioni di uso da altre componenti \\
 \subsection{Premi}
 -----------------------------premi-class.jpg
+
+----template------
+\subsubsection{Premi.}
+\begin{itemize}
+  \item \textbf{Nome:}
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.
+  \item \textbf{Descrizione:}
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+---/template-----
+
+
 \subsubsection{Premi.Utility}
 \begin{itemize}
   \item[] \textbf{Nome:} Utility
@@ -56,22 +69,136 @@
   \item \textbf{Descrizione:} controller generale del package \code{UserManager} dedicato a fornire alla view strumenti per l'interazione con l'utente
   \item \textbf{Relazioni con altri componenti:} si collega a \code{Premi.UserManager.View} per mostrare i dati dell'utente che va a prelevare tramite {Premi.UserManager.User}
 \end{itemize}
-\subsubsection{Premi.UserManager}
+\subsubsection{Premi.UserManager.LoginView}
 \begin{itemize}
-  \item \textbf{Nome:} 
-  \item \textbf{Tipo:} 
-  \item \textbf{Package:} 
-  \item \textbf{Descrizione:} 
-  \item \textbf{Relazioni con altri componenti:} 
+  \item \textbf{Nome:} LoginView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} view che permette all'utente di effettuare la login
 \end{itemize}
-\subsubsection{Premi.UserManager}
+\subsubsection{Premi.UserManager.LoginController}
 \begin{itemize}
-  \item \textbf{Nome:} 
-  \item \textbf{Tipo:} 
-  \item \textbf{Package:} 
-  \item \textbf{Descrizione:} 
-  \item \textbf{Relazioni con altri componenti:} 
+  \item \textbf{Nome:} LoginController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} fornisce gli strumenti necessari alla view per effettuare la login
+  \item \textbf{Relazioni con altri componenti:} con \code{Premi.UserManager.LoginView} e con \code{Premi.UserManager.User} per trasmettere le informazioni relative al login
 \end{itemize}
+\subsubsection{Premi.UserManager.RegistrationView}
+\begin{itemize}
+  \item \textbf{Nome:} RegistrationView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} view che permette all'utente di registrarsi nel sistema
+\end{itemize}
+\subsubsection{Premi.UserManager.RegistrationController}
+\begin{itemize}
+  \item \textbf{Nome:} RegistrationController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} fornisce gli strumenti necessari alla view per registrare l'utente
+  \item \textbf{Relazioni con altri componenti:} con \code{Premi.UserManager.RegistrationView} e con \code{Premi.UserManager.User} per trasmettere le informazioni relative alla registrazione
+\end{itemize}
+\subsubsection{Premi.UserManager.ChangePasswordView}
+\begin{itemize}
+  \item \textbf{Nome:} ChangePasswordView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} view che permette all'utente di cambiare la propria password
+\end{itemize}
+\subsubsection{Premi.UserManager.ChangePasswordController}
+\begin{itemize}
+  \item \textbf{Nome:} ChangePassword
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} fornisce gli strumenti necessari alla view per cambiare la password dell'utente
+  \item \textbf{Relazioni con altri componenti:} con \code{Premi.UserManager.ChangePasswordView} e con \code{Premi.UserManager.User} per trasmettere le informazioni relative al cambio password
+\end{itemize}
+
+\subsection{Premi.Viewer}
+---------------------------viewer-class.jpg
+\subsubsection{Premi.Viewer.View}
+\begin{itemize}
+  \item \textbf{Nome:} View
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Viewer
+  \item \textbf{Descrizione:} view che mostra la presentazione all'utente, offrendo funzionalità dipendenti dalla visibilità(pubblica o privata) o dal contesto in cui si trova(presentazione live) 
+\end{itemize}
+\subsubsection{Premi.ViewerCtrl}
+\begin{itemize}
+  \item \textbf{Nome:} ViewerCtrl
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Viewer
+  \item \textbf{Descrizione:} abilita funzionalità nella view in base all'utente
+  \item \textbf{Relazioni con altri componenti:} con \code{Premi.Viewer.View}, con \code{Premi.UserManager.User} per verificare se l'utente è il proprietario della presentazione, e con la libreria esterna \code{ImpressJs} per aggiungere animazioni alla presentazione
+\end{itemize}
+\subsection{Premi.Presentation}
+-------------------presentation-class.jpg
+\subsubsection{Premi.Presentation.GraphicObject}
+\begin{itemize}
+  \item \textbf{Nome:} GraphicObject
+  \item \textbf{Tipo:} \textit{abstract class}
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta gli oggetti grafici nella presentazione
+\end{itemize}
+\subsubsection{Premi.Presentation.GoContent}
+\begin{itemize}
+  \item \textbf{Nome:} GoContent
+  \item \textbf{Tipo:} \textit{abstract class}
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta gli oggetti grafici con contenuto di una presentazione
+  \item \textbf{Relazioni con altri componenti:} estende \code{Premi.Presentation.GraphicObject}
+\end{itemize}
+\subsubsection{Premi.Presentation.Text}
+\begin{itemize}
+  \item \textbf{Nome:} Text
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta un'area di testo nella presentazione
+    \item \textbf{Relazioni con altri componenti:} estende \code{Premi.Presentation.GoContent}
+\end{itemize}
+\subsubsection{Premi.Presentation.Image}
+\begin{itemize}
+  \item \textbf{Nome:} Image
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta un'immagine nella presentazione
+      \item \textbf{Relazioni con altri componenti:} estende \code{Premi.Presentation.GoContent}
+\end{itemize}
+\subsubsection{Premi.Presentation.Shape}
+\begin{itemize}
+  \item \textbf{Nome:} Shape
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta una figura nella presentazione
+      \item \textbf{Relazioni con altri componenti:} estende \code{Premi.Presentation.GoContent}
+\end{itemize}
+\subsubsection{Premi.Presentation.Frame}
+\begin{itemize}
+  \item \textbf{Nome:} Frame
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta un frame nella presentazine
+  \item \textbf{Relazioni con altri componenti:} estende \code{Premi.Presentation.GraphicObject} e possiede un insieme di oggetti  \code{Premi.Presentation.GoContent}
+\end{itemize}
+\subsubsection{Premi.Presentation.Trail}
+\begin{itemize}
+  \item \textbf{Nome:} Trail
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta un percorso nella presentazione
+  \item \textbf{Relazioni con altri componenti:} possiede una lista di riferimenti ad oggetti di tipo \code{Premi.Presentation.Frame}, ma non è in possesso degli oggetti stessi
+\end{itemize}
+\subsubsection{Premi.Presentation.Presentation}
+\begin{itemize}
+  \item \textbf{Nome:} Presentation
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta una presentazione
+  \item \textbf{Relazioni con altri componenti:} possiede una lista di oggetti \code{premi.Presentation.Frame}
+\end{itemize}
+
+
 
 
 
