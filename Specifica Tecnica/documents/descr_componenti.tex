@@ -310,13 +310,116 @@ Completo-Dettagliato.jpg
   \item \textbf{Descrizione:} fornisce alla view una lista preformata delle presentazioni dell'utente
   \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.ListPresView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per recuperare la lista delle presentazioni
 \end{itemize}
-\subsubsection{Premi.}
+\subsection{Premi.Editor}
+\subsubsection{Premi.Editor.View}
 \begin{itemize}
-  \item \textbf{Nome:}
+  \item \textbf{Nome:} View
   \item \textbf{Tipo:} class
-  \item \textbf{Package:} Premi.
-  \item \textbf{Descrizione:}
-  \item \textbf{Relazioni con altri componenti:} 
+  \item \textbf{Package:} Premi.Editor
+  \item \textbf{Descrizione:} view generica dell'editor che funge da contenitore
+\end{itemize}
+\subsubsection{Premi.Editor.EditorCtrl}
+\begin{itemize}
+  \item \textbf{Nome:} EditorCtrl
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor
+  \item \textbf{Descrizione:} fornisce alla view le funzionzalità per la modifica di una presentazione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.EditorView} e sfrutta \code{Premi.Presentation.Presentation} per recuperare la presentazione dalla base di dati
+\end{itemize}
+\subsubsection{Premi.Editor.TextView}
+\begin{itemize}
+  \item \textbf{Nome:} TextView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor
+  \item \textbf{Descrizione:} mostra le opzioni per l'aggiunta di un'area di testo
+\end{itemize}
+\subsubsection{Premi.Editor.TextController}
+\begin{itemize}
+  \item \textbf{Nome:} TextController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per creare e modificare un'area di testo
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TextView}
+\end{itemize}
+\subsubsection{Premi.Editor.ShapeView}
+\begin{itemize}
+  \item \textbf{Nome:} ShapeView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor
+  \item \textbf{Descrizione:} mostra le opzioni per l'aggiunta di uno shape
+\end{itemize}
+\subsubsection{Premi.Editor.ShapeController}
+\begin{itemize}
+  \item \textbf{Nome:} ShapeController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per creare e modificare uno shape
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.ShapeView}
+\end{itemize}
+\subsubsection{Premi.Editor.ImageView}
+\begin{itemize}
+  \item \textbf{Nome:} ImageView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor
+  \item \textbf{Descrizione:} mostra le opzioni per l'aggiunta di un'immagine
+\end{itemize}
+\subsubsection{Premi.Editor.ImageController}
+\begin{itemize}
+  \item \textbf{Nome:} ImageController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per aggiungere un'immagine
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.ImageView}
+\end{itemize}
+\subsubsection{Premi.Editor.StyleView}
+\begin{itemize}
+  \item \textbf{Nome:} StyleView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor
+  \item \textbf{Descrizione:} permette la modifica dello stile di un Frame oppure dello sfondo dell'infografica
+\end{itemize}
+\subsubsection{Premi.Editor.StyleController}
+\begin{itemize}
+  \item \textbf{Nome:} StyleController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per la modifica dello stile
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.StyleView}
+\end{itemize}
+\subsubsection{Premi.Editor.FrameListView}
+\begin{itemize}
+  \item \textbf{Nome:} FrameListView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor
+  \item \textbf{Descrizione:} view di base per la rappresentazione di una lista dei Frame contenuti all'interno della presentazione
+\end{itemize}
+\subsubsection{Premi.Editor.FrameListController}
+\begin{itemize}
+  \item \textbf{Nome:} FrameListController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per rappresentazione della lista dei Frame
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.FrameListView} 
+\end{itemize}
+
+
+
+
+\subsection{Premi.Editor.FrameEditor}
+\subsubsection{Premi.Editor.FrameEditor.View}
+\begin{itemize}
+  \item \textbf{Nome:} View
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.FrameEditor.View
+  \item \textbf{Descrizione:} è la view generale della fase di modifica dei Frame
+\end{itemize}
+\subsubsection{Premi.Editor.FrameEditor.FrameEditorCtrl}
+\begin{itemize}
+  \item \textbf{Nome:} FrameEditorCtrl
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.FrameEditor.FrameEditorCtrl
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per la gestione delle altre view contenute al suo interno
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.FrameEditor.FrameEditor.View} 
 \end{itemize}
 \subsubsection{Premi.}
 \begin{itemize}
@@ -334,6 +437,15 @@ Completo-Dettagliato.jpg
   \item \textbf{Descrizione:}
   \item \textbf{Relazioni con altri componenti:} 
 \end{itemize}
+\subsubsection{Premi.}
+\begin{itemize}
+  \item \textbf{Nome:}
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.
+  \item \textbf{Descrizione:}
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+
 
 
 
