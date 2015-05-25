@@ -1,153 +1,190 @@
-\newpage
 \section{Requisiti}
-In questa sezione verranno elencati i requisiti che gli \textit{Analisti} hanno individuato. 
-Tutti i requisiti funzionali sono stati ricavati da qualche caso d'uso.
-Non sono stati individuati requisiti prestazionali.
-Ad ogni requisito è stato assegnato un codice univoco che velocizza l'identificazione della classificazione dello stesso.
-Il codice sarà così formato
-\begin{center}
-[Tipo][Valore][Codice univoco gerarchico]
-\end{center}
-\begin{itemize}
-\item \textbf{[Tipo]} può assumere i seguenti valori:
-\begin{itemize}
-	\item \textbf{F}: Funzionale;
-	\item \textbf{V}: Di vincolo;
-	\item \textbf{Q}: Di qualità;
-	\item \textbf{P}: Prestazionale.
-\end{itemize}
-\item \textbf{[Valore]} può essere:
-\begin{itemize}
-	\item \textbf{Ob}: Obbligatorio;
-	\item \textbf{De}: Desiderabile;
-	\item \textbf{Op}: Opzionale.
-\end{itemize}
-\item \textbf{[Codice]} è il codice univoco espresso in forma gerarchica
-\end{itemize}
-Inoltre ad ogni requisto corrisponde una descrizione e la lista delle fonti da cui deriva.
 \subsection{ Requisiti funzionali}
 	
 \begin{longtable}{|l|p{2.5cm}|p{5cm}|p{3.5cm}|}
 \hline
 \textbf{Requisito} & \textbf{Tipologia} & \textbf{Descrizione} & \textbf{Fonti} \\
 \hline
-FOb1 & Funzionale \linebreak Obbligatorio & L'utente deve poter avere un account & UC1 \linebreak \\
+FOb1 & Funzionale \linebreak Obbligatorio & L'utente deve poter creare una presentazione & UC1 \linebreak \\
 \hline
-FOb1.1 & Funzionale \linebreak Obbligatorio & L'utente deve potersi registrare al sistema & UC1 \linebreak  UC1.5 \linebreak  UC1.6 \linebreak  \\
+FOb1.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter scegliere un titolo per una presentazione & UC1 \linebreak  UC1.1 \linebreak  \\
 \hline
-FOb1.1.1 & Funzionale \linebreak Obbligatorio & L'utente deve poter scegliere username, password e e-mail & UC1.1 \linebreak  UC1.2 \linebreak  UC1.3 \linebreak  UC1.4 \linebreak  \\
+FOb1.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter inserire una descrizione della presentazione & UC1.2 \linebreak  \\
 \hline
-FOb1.2 & Funzionale \linebreak Obbligatorio & L'utente deve poter modificare i dati del suo account & UC6 \linebreak  UC6.3 \linebreak  UC6.4 \linebreak  \\
+FOp10 & Funzionale \linebreak Opzionale & l'utente deve poter rendere live una presentazione pubblica & UC10 \linebreak \\
 \hline
-FOb1.2.1 & Funzionale \linebreak Obbligatorio & L'utente deve poter modificare la password & UC6.1 \linebreak  UC6.1.1 \linebreak  UC6.1.2 \linebreak  UC6.1.3 \linebreak  \\
+FOb11 & Funzionale \linebreak Obbligatorio & l'utente deve poter esportare una presentazione & UC11 \linebreak \\
 \hline
-FOb1.2.2 & Funzionale \linebreak Obbligatorio & L'utente deve poter modificare e-mail & UC6.2 \linebreak  \\
+FOb11.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter esportare la presentazione come poster & UC11 \linebreak  UC11.1 \linebreak  \\
 \hline
-FOb1.3 & Funzionale \linebreak Obbligatorio & L'utente deve potersi autenticare & UC4 \linebreak  UC4.1 \linebreak  UC4.2 \linebreak  UC4.3 \linebreak  UC4.4 \linebreak  \\
+FOb11.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter esportare la presentazione in formato portabile & UC11 \linebreak  UC11.2 \linebreak  \\
 \hline
-FOp2 & Funzionale \linebreak Opzionale & L'utente deve poter condividere una presentazione live & UC5.1.8 \linebreak Verbale2014-12-18 \linebreak \\
+FOp12 & Funzionale \linebreak Opzionale & l'utente deve poter partecipare ad una presentazione resa live & UC12 \linebreak \\
 \hline
-FOp3 & Funzionale \linebreak Opzionale & L'utente, anche se non registrato, deve poter accedere ad una presentazione live  & UC3 \linebreak UC9 \linebreak Verbale2014-12-18 \linebreak \\
+FOb13 & Funzionale \linebreak Obbligatorio & l'utente deve poter registrarsi al sistema & UC13 \linebreak UC13.1 \linebreak UC13.2 \linebreak UC13.3 \linebreak \\
 \hline
-FOb4 & Funzionale \linebreak Obbligatorio & L'utente deve poter accedere alle sue presentazioni & Capitolato \linebreak UC5 \linebreak UC5.1 \linebreak UC5.2 \linebreak Verbale2014-12-18 \linebreak \\
+FOb14 & Funzionale \linebreak Obbligatorio & l'utente deve potersi autenticare & UC14 \linebreak UC14.1 \linebreak UC14.2 \linebreak \\
 \hline
-FOb4.1 & Funzionale \linebreak Obbligatorio & L'utente deve poter visualizzare una propria presentazione & Capitolato \linebreak  UC5.1.9 \linebreak  \\
+FOb15 & Funzionale \linebreak Obbligatorio & l'utente deve sapere quando ha commesso un errore & UC13.4 \linebreak UC14.3 \linebreak UC15.4 \linebreak \\
 \hline
-FOb4.1.1 & Funzionale \linebreak Obbligatorio & L'utente deve poter muoversi, all'interno della presentazione, in avanti o indietro in qualsiasi momento & Capitolato \linebreak  UC5.1.1.6 \linebreak  UC5.1.9.1 \linebreak  UC5.1.9.2 \linebreak  UC5.1.9.3 \linebreak  \\
+FOb16 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare la propria password & UC15 \linebreak UC15.1 \linebreak UC15.2 \linebreak UC15.3 \linebreak \\
 \hline
-FOb4.2 & Funzionale \linebreak Obbligatorio & L'utente deve poter creare, modificare o eliminare una propria presentazione & Capitolato \linebreak  UC5.1.1 \linebreak  UC5.1.1.7 \linebreak  UC5.1.2 \linebreak  UC5.1.3 \linebreak  UC7 \linebreak  \\
+FOb2 & Funzionale \linebreak Obbligatorio & l'utente deve poter selezionare una sua presentazione & UC2 \linebreak \\
 \hline
-FDe4.2.1 & Funzionale \linebreak Desiderabile & L'utente deve poter scegliere un template$_G$ per le proprie presentazioni & UC8 \linebreak  \\
+FOb3 & Funzionale \linebreak Obbligatorio & l'utente deve poter eseguire una sua presentazione & UC3 \linebreak \\
 \hline
-FOb4.2.2 & Funzionale \linebreak Obbligatorio & L'utente deve poter aggiungere, modificare o eliminare frame$_G$ all'interno di una presentazione & UC5.1.1.1 \linebreak  UC5.1.1.1.1 \linebreak  UC5.1.1.1.3.1 \linebreak  UC5.1.1.1.3.4 \linebreak  \\
+FDe3.1 & Funzionale \linebreak Desiderabile & l'utente deve poter scegliere un percorso presentativo precedentemente creato & UC3.1 \linebreak  \\
 \hline
-FDe4.2.2.1 & Funzionale \linebreak Desiderabile & L'utente deve poter cambiare forma ad un frame$_G$ & UC5.1.1.1.2 \linebreak  UC5.1.1.1.3.1 \linebreak  \\
+FOb3.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter avanzare nel percorso presentativo scelto & UC3.2 \linebreak  \\
 \hline
-FOb4.2.2.2 & Funzionale \linebreak Obbligatorio & L'utente deve poter spostare un frame$_G$ & UC5.1.1.1.3 \linebreak  UC5.1.1.1.3.3 \linebreak  \\
+FOb3.3 & Funzionale \linebreak Obbligatorio & l'utente deve poter retrocedere nel percorso presentativo scelto & UC3.3 \linebreak  \\
 \hline
-FOp4.2.2.2.1 & Funzionale \linebreak Opzionale & L'utente deve poter inserire un frame$_G$ dentro l'altro  & UC5.1.1.1.3.5 \linebreak  \\
+FDe3.4 & Funzionale \linebreak Desiderabile & l'utente deve poter seguire un percorso di approndimento & UC3.4 \linebreak  \\
 \hline
-FOp4.2.2.2.2 & Funzionale \linebreak Opzionale & L'utente deve poter estrarre un frame$_G$ da uno che lo contiene & UC5.1.1.1.3.6 \linebreak  \\
+FOb3.5 & Funzionale \linebreak Obbligatorio & l'utente deve poter tornare ad un checkpoint & UC3.5 \linebreak  \\
 \hline
-FOb4.2.2.3 & Funzionale \linebreak Obbligatorio & L'utente deve poter selezionare e successivamete fare uno zoom su un frame$_G$ & UC5.1.1.1.3 \linebreak  UC5.1.1.1.3.2 \linebreak  \\
+FOb3.6 & Funzionale \linebreak Obbligatorio & l'utente deve poter interrompere l'esecuzione della presentazione & UC3.6 \linebreak  \\
 \hline
-FOb4.2.2.3.1 & Funzionale \linebreak Obbligatorio & Il frame selezionato deve essere riconoscibile dall'utente & UC5.1.1.1.4 \linebreak  \\
+FOb4 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare una presentazione & UC4 \linebreak \\
 \hline
-FOb4.2.3 & Funzionale \linebreak Obbligatorio & L'utente deve poter aggiungere, modificare o eliminare del testo all'interno di una presentazione  & UC5.1.1.2 \linebreak  UC5.1.1.2.1 \linebreak  \\
+FOb4.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter inserire un oggetto grafico & UC4.1 \linebreak  \\
 \hline
-FOb4.2.3.1 & Funzionale \linebreak Obbligatorio & L'utente deve poter cambiare font, grandezza, stile e colore del testo  & UC5.1.1.2.2 \linebreak  UC5.1.1.2.2.1 \linebreak  UC5.1.1.2.2.2 \linebreak  UC5.1.1.2.2.3 \linebreak  UC5.1.1.2.2.4 \linebreak  \\
+FOb4.1.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter inserire un'area di testo & UC4.1.1 \linebreak  \\
 \hline
-FDe4.2.4 & Funzionale \linebreak Desiderabile & L'utente deve poter modificare il tema grafico generale assegnato alla presentazione & UC5.1.1.4 \linebreak  UC5.1.1.4.1 \linebreak  \\
+FOb4.1.1.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter inserire del testo & UC4.1.1.1 \linebreak  \\
 \hline
-FDe4.2.4.1 & Funzionale \linebreak Desiderabile & L'utente deve avere la possibilità di modificare lo sfondo della presentazione scegliendo tra un colore o un'immagine & Capitolato \linebreak  UC5.1.1.4.2.3 \linebreak  UC5.1.1.4.2.3.1 \linebreak  UC5.1.1.4.2.3.2 \linebreak  Verbale2014-12-18 \linebreak  \\
+FOb4.1.1.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter scegliere il tipo di font per il testo & UC4.1.1.2 \linebreak  \\
 \hline
-FDe4.2.4.1.1 & Funzionale \linebreak Desiderabile & L'utente deve poter scegliere come sfondo un'immagine da file, URL$_G$ o da quelle predefinite offerte dal sistema & UC5.1.1.4.2.3.2 \linebreak  UC5.1.1.4.2.3.2.1 \linebreak  UC5.1.1.4.2.3.2.2 \linebreak  UC5.1.1.4.2.3.2.3 \linebreak  \\
+FOb4.1.1.3 & Funzionale \linebreak Obbligatorio & l'utente deve poter scegliere il colore del testo & UC4.1.1.3 \linebreak  \\
 \hline
-FDe4.2.4.2 & Funzionale \linebreak Desiderabile & L'utente deve poter modificare le parti del tema che gli interessano tra: parametri avanzati, colore delle connessioni e colore dei frame$_G$ & UC5.1.1.4.2 \linebreak  UC5.1.1.4.2.1 \linebreak  UC5.1.1.4.2.2 \linebreak  \\
+FOb4.1.1.4 & Funzionale \linebreak Obbligatorio & l'utente deve poter scegliere la dimensione del testo & UC4.1.1.4 \linebreak  \\
 \hline
-FOb4.2.5 & Funzionale \linebreak Obbligatorio & L'utente deve avere la possibilità di modificare il cammino presentativo, ovvero l'ordine con cui le slide verranno visualizzate in fase di presentazione, spostando l'ordine dei frame$_G$ oppure aggiungendo la vista attuale in coda & UC5.1.1.5 \linebreak  UC5.1.1.5.1 \linebreak  UC5.1.1.5.2 \linebreak  Verbale2014-12-18 \linebreak  \\
+FOb4.1.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter inserire un frame nella presentazione & UC4.1.2 \linebreak  \\
 \hline
-FOb4.2.6 & Funzionale \linebreak Obbligatorio & Il sistema deve essere in grado di fornire la possibilità di salvare una presentazione aperta nell'editor & UC5.1.1.7 \linebreak  \\
+FOp4.1.2.1 & Funzionale \linebreak Opzionale & l'utente deve poter scegliere la forma del frame & UC4.1.2.1 \linebreak  \\
 \hline
-FOb4.2.7 & Funzionale \linebreak Obbligatorio & L'utente deve poter annullare una modifica apportata o ripristinare una precedentemente annullata & UC5.1.1.8 \linebreak  UC5.1.1.9 \linebreak  \\
+FOb4.1.3 & Funzionale \linebreak Obbligatorio & l'utente deve poter inserire un immagine nella presentazione & UC4.1.3 \linebreak  \\
 \hline
-FOb4.2.8 & Funzionale \linebreak Obbligatorio & L'utente deve poter aggiungere, rimuovere e modificare oggetti grafici alla presentazione & UC5.1.1.3 \linebreak  UC5.1.1.3.1 \linebreak  UC5.1.1.3.3 \linebreak  \\
+FOb4.1.3.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter scegliere un'immagine da filesystem & UC4.1.3.1 \linebreak  \\
 \hline
-FOb4.2.8.1 & Funzionale \linebreak Obbligatorio & L'utente deve poter aggiungere o rimuovere immagini alla presentazione & UC5.1.1.3.1.1 \linebreak  UC5.1.1.3.3 \linebreak  \\
+FOb4.1.4 & Funzionale \linebreak Obbligatorio & l'utente deve poter inserire uno shape nella presentazione & UC4.1.4 \linebreak  \\
 \hline
-FDe4.2.8.2 & Funzionale \linebreak Desiderabile & L'utente deve poter aggiungere, rimuovere o modificare infografiche$_G$ alla presentazione & Capitolato \linebreak  UC5.1.1.3.1.2 \linebreak  UC5.1.1.3.1.2.3 \linebreak  UC5.1.1.3.1.2.4 \linebreak  UC5.1.1.3.2 \linebreak  UC5.1.1.3.3 \linebreak  Verbale2014-12-18 \linebreak  \\
+FOb4.1.4.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter scegliere la forma di uno shape & UC4.1.4.1 \linebreak  \\
 \hline
-FDe4.2.8.2.1 & Funzionale \linebreak Desiderabile & L'utente deve poter modificare i dati che corrispondono all'infografica$_G$ & UC5.1.1.3.1.2.2 \linebreak  UC5.1.1.3.2.2 \linebreak  UC5.1.1.3.2.3 \linebreak  UC5.1.1.3.2.4 \linebreak  \\
+FOb4.10 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare la descrizione di una presentazione & UC4.9 \linebreak  \\
 \hline
-FDe4.2.8.2.2 & Funzionale \linebreak Desiderabile & L'utente deve poter modificare il tipo dell'infografica$_G$ & UC5.1.1.3.1.2.1 \linebreak  UC5.1.1.3.2.1 \linebreak  UC5.1.1.3.2.3 \linebreak  UC5.1.1.3.2.4 \linebreak  Verbale2014-12-18 \linebreak  \\
+FOb4.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter selezionare un oggetto grafico & UC4.2 \linebreak  \\
 \hline
-FDe4.3 & Funzionale \linebreak Desiderabile & L'utente dovrà poter stampare una sua presentazione & Capitolato \linebreak  UC5.1.7 \linebreak  Verbale2014-12-18 \linebreak  \\
+FOb4.3 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare un oggetto grafico nella presentazione & UC4.3 \linebreak  \\
 \hline
-FOp4.4 & Funzionale \linebreak Opzionale & L'utente deve poter scaricare la presentazione per poterla utilizzare offline & UC5.1.6 \linebreak  Verbale2014-12-18 \linebreak  \\
+FOb4.3.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare un frame & UC4.3.1 \linebreak  \\
 \hline
-FDe4.5 & Funzionale \linebreak Desiderabile & L'utente dovrà poter esportare la presentazione sottoforma di poster & Capitolato \linebreak  UC5.1.5 \linebreak  Verbale2014-12-18 \linebreak  \\
+FOb4.3.1.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter ridimensionare un frame della presentazione & UC4.3.1.1 \linebreak  \\
 \hline
-FOp4.6 & Funzionale \linebreak Opzionale & L'utente deve poter condividere una propria presentazione tramite link & UC5.1.4 \linebreak  Verbale2014-12-18 \linebreak  \\
+FOb4.3.1.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter riposizionare un frame nella presentazione & UC4.3.1.2 \linebreak  \\
 \hline
-FOb5 & Funzionale \linebreak Obbligatorio & Il sistema deve poter offrire all'utente informazioni nel caso di errori, warnings o semplici informazioni & UC2 \linebreak \\
+FOb4.3.1.3 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare lo stile di un frame della presentazione & UC4.3.1.3 \linebreak  \\
 \hline
-FOb5.1 & Funzionale \linebreak Obbligatorio & Il sistema deve avvertire l'utente di un eventuale errore nelle operazioni & UC2 \linebreak  \\
+FOb4.3.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare il contenuto di un'area di testo della presentazione & UC4.3.3 \linebreak  \\
+\hline
+FOb4.3.2.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter ridimensionare un area di testo della presentazione & UC4.3.3.1 \linebreak  \\
+\hline
+FOb4.3.2.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter riposizionare un area di testo nella presentazione & UC4.3.3.2 \linebreak  \\
+\hline
+FOb4.3.2.3 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare lo stile dell'area di testo della presentazione & UC4.3.3.3 \linebreak  \\
+\hline
+FOb4.3.2.4 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare il contenuto di un'area di testo della presentazione & UC4.3.3.4 \linebreak  \\
+\hline
+FOb4.3.2.5 & Funzionale \linebreak Obbligatorio & l'utente deve poter cambiare il livello di un'area di testo & UC4.3.3.5 \linebreak  \\
+\hline
+FOb4.3.3 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare una shape & UC4.3.4 \linebreak  \\
+\hline
+FOb4.3.3.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter riposizionare una shape & UC4.3.4.1 \linebreak  \\
+\hline
+FOb4.3.3.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter cambiare lo stile di una shape & UC4.3.4.3 \linebreak  \\
+\hline
+FOb4.3.3.3 & Funzionale \linebreak Obbligatorio & l'utente deve poter ridimensionare una shape & UC4.3.4.2 \linebreak  \\
+\hline
+FOb4.3.3.4 & Funzionale \linebreak Obbligatorio & l'utente deve poter cambiare livello ad una shape & UC4.3.4.4 \linebreak  \\
+\hline
+FOb4.3.4 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare un'immagine della presentazione & UC4.3.2 \linebreak  \\
+\hline
+FOb4.3.4.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter riposizionare un'immagine nella presentazione & UC4.3.2.1 \linebreak  \\
+\hline
+FOb4.3.4.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter ridimensionare un'immagine della presentazione & UC4.3.2.2 \linebreak  \\
+\hline
+FOb4.3.4.3 & Funzionale \linebreak Obbligatorio & l'utente deve poter cambiare il livello di un immagine & UC4.3.2.3 \linebreak  \\
+\hline
+FOb4.4 & Funzionale \linebreak Obbligatorio & l'utente deve poter eliminare un oggetto grafico dalla presentazione & UC4.4 \linebreak  \\
+\hline
+FDe4.5 & Funzionale \linebreak Desiderabile & l'utente deve poter creare un percorso per la presentazione & UC4.5 \linebreak  \\
+\hline
+FOb4.5.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter inserire un titolo per un percorso & UC4.5.1 \linebreak  \\
+\hline
+FOb4.5.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter clonare un percorso esistente della presentazione & UC4.5.2 \linebreak  \\
+\hline
+FOb4.6 & Funzionale \linebreak Obbligatorio & l'utente deve poter selezionare un percorso della presentazione & UC4.6 \linebreak  \\
+\hline
+FOb4.7 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare un percorso della presentazione & UC4.7 \linebreak  \\
+\hline
+FOb4.7.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare il titolo del percorso & UC4.7.1 \linebreak  \\
+\hline
+FOb4.7.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter aggiungere un passo ad un cammino della presentazione & UC4.7.2 \linebreak  \\
+\hline
+FOb4.7.3 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare l'ordine dei frame nel percorso & UC4.7.4 \linebreak  \\
+\hline
+FDe4.7.4 & Funzionale \linebreak Desiderabile & l'utente deve poter rendere checkpoint un frame & UC4.7.5 \linebreak  \\
+\hline
+FOb4.7.5 & Funzionale \linebreak Obbligatorio & l'utente deve poter rimuovere la marcatura a checkpoint di un frame & UC4.7.6 \linebreak  \\
+\hline
+FOb4.7.5.1 & Funzionale \linebreak Obbligatorio & l'utente deve confermare l'eliminazione di una marcatura a checkpoint & UC4.7.6.1 \linebreak  \\
+\hline
+FOb4.7.5.2 & Funzionale \linebreak Obbligatorio & l'utente deve poter annullare la rimozione di una marcatura a checkpoint & UC4.7.6.2 \linebreak  \\
+\hline
+FOb4.7.6 & Funzionale \linebreak Obbligatorio & l'utente deve poter selezionare un frame del percorso & UC4.7.3 \linebreak  \\
+\hline
+FOb4.8 & Funzionale \linebreak Obbligatorio & l'utente deve poter modificare il titolo di una presentazione & UC4.10 \linebreak  \\
+\hline
+FOb4.9 & Funzionale \linebreak Obbligatorio & l'utente deve poter eliminare un percorso & UC4.8 \linebreak  UC4.8.1 \linebreak  UC4.8.2 \linebreak  \\
+\hline
+FOb5 & Funzionale \linebreak Obbligatorio & l'utente deve poter salvare una presentazione & UC5 \linebreak \\
+\hline
+FOb6 & Funzionale \linebreak Obbligatorio & l'utente deve poter eliminare una presentazione & UC6 \linebreak UC6.1 \linebreak \\
+\hline
+FOb6.1 & Funzionale \linebreak Obbligatorio & l'utente deve poter scegliere di annullare l'operazione di eliminazione di una presentazione & UC6.2 \linebreak  \\
+\hline
+FOb7 & Funzionale \linebreak Obbligatorio & l'utente deve poter rendere pubblica una presentazione & UC7 \linebreak \\
+\hline
+FOb8 & Funzionale \linebreak Obbligatorio & il sistema deve poter generare un link per una presentazione live & UC8 \linebreak \\
+\hline
+FOp9 & Funzionale \linebreak Opzionale & l'utente deve poter rendere privata una presentazione publica & UC9 \linebreak \\
 \hline
 \caption{Requisiti funzionali}
 \end{longtable}
-
-\newpage
+\subsection{ Requisiti di qualità}
+	
+\begin{longtable}{|l|p{2.5cm}|p{5cm}|p{3.5cm}|}
+\hline
+\textbf{Requisito} & \textbf{Tipologia} & \textbf{Descrizione} & \textbf{Fonti} \\
+\hline
+\caption{Requisiti di qualità}
+\end{longtable}
+\subsection{ Requisiti prestazionali}
+	
+\begin{longtable}{|l|p{2.5cm}|p{5cm}|p{3.5cm}|}
+\hline
+\textbf{Requisito} & \textbf{Tipologia} & \textbf{Descrizione} & \textbf{Fonti} \\
+\hline
+\caption{Requisiti prestazionali}
+\end{longtable}
 \subsection{ Requisiti di vincolo}
 	
 \begin{longtable}{|l|p{2.5cm}|p{5cm}|p{3.5cm}|}
 \hline
 \textbf{Requisito} & \textbf{Tipologia} & \textbf{Descrizione} & \textbf{Fonti} \\
 \hline
-VOb10 & Vincolo \linebreak Obbligatorio & Il prodotto necessita della connessione ad internet per offrire tutte le sue funzionalità & Verbale2014-12-18 \linebreak \\
-\hline
-VOb8 & Vincolo \linebreak Obbligatorio & Il prodotto deve fornire supporto alla presentazione su dispositivi mobile & Capitolato \linebreak Verbale2014-12-18 \linebreak \\
-\hline
-VOb9 & Vincolo \linebreak Obbligatorio & L'applicazione deve poter essere eseguita su browser$_G$ con supporto a HTML5$_G$ e javascript$_G$ & Capitolato \linebreak Verbale2014-12-18 \linebreak \\
-\hline
-VOb9.1 & Vincolo \linebreak Obbligatorio & L'applicazione deve poter essere eseguita su browser con javascript$_G$ e cookie$_G$ attivi & Capitolato \linebreak  Verbale2014-12-18 \linebreak  \\
-\hline
 \caption{Requisiti di vincolo}
 \end{longtable}
-
-\newpage
-\subsection{ Requisiti di qualità}
-\begin{longtable}{|l|p{2.5cm}|p{5cm}|p{3.5cm}|}
-\hline
-\textbf{Requisito} & \textbf{Tipologia} & \textbf{Descrizione} & \textbf{Fonti} \\
-\hline
-QDe11 & Qualità \linebreak Desiderabile & L'applicazione deve poter utilizzare le linee guida grafiche del Material Design$_G$ & Verbale2014-12-18 \\
-\hline
-QOp12 & Qualità \linebreak Opzionale & Le infografiche che il sistema permette di inserire dovranno appoggiarsi al framework$_G$ 3Djs$_G$ & Verbale2014-12-18 \\
-\hline
-\caption{Requisiti di qualità}
-\end{longtable}
-
-\newpage
 \subsection{ Tracciamento requisiti-fonti}
 	
 \begin{longtable}{|l|p{4cm}|}
@@ -156,284 +193,344 @@ QOp12 & Qualità \linebreak Opzionale & Le infografiche che il sistema permette 
 \hline
 FOb1 & UC1 \linebreak \\ 
 \hline
-FOb1.1 & UC1 \linebreak  UC1.5 \linebreak  UC1.6 \linebreak  \\ 
+FOb1.1 & UC1 \linebreak  UC1.1 \linebreak  \\ 
 \hline
-FOb1.1.1 & UC1.1 \linebreak  UC1.2 \linebreak  UC1.3 \linebreak  UC1.4 \linebreak  \\ 
+FOb1.2 & UC1.2 \linebreak  \\ 
 \hline
-FOb1.2 & UC6 \linebreak  UC6.3 \linebreak  UC6.4 \linebreak  \\ 
+FOp10 & UC10 \linebreak \\ 
 \hline
-FOb1.2.1 & UC6.1 \linebreak  UC6.1.1 \linebreak  UC6.1.2 \linebreak  UC6.1.3 \linebreak  \\ 
+FOb11 & UC11 \linebreak \\ 
 \hline
-FOb1.2.2 & UC6.2 \linebreak  \\ 
+FOb11.1 & UC11 \linebreak  UC11.1 \linebreak  \\ 
 \hline
-FOb1.3 & UC4 \linebreak  UC4.1 \linebreak  UC4.2 \linebreak  UC4.3 \linebreak  UC4.4 \linebreak  \\ 
+FOb11.2 & UC11 \linebreak  UC11.2 \linebreak  \\ 
 \hline
-FOp2 & UC5.1.8 \linebreak Verbale2014-12-18 \linebreak \\ 
+FOp12 & UC12 \linebreak \\ 
 \hline
-FOp3 & UC3 \linebreak UC9 \linebreak Verbale2014-12-18 \linebreak \\ 
+FOb13 & UC13 \linebreak UC13.1 \linebreak UC13.2 \linebreak UC13.3 \linebreak \\ 
 \hline
-FOb4 & Capitolato \linebreak UC5 \linebreak UC5.1 \linebreak UC5.2 \linebreak Verbale2014-12-18 \linebreak \\ 
+FOb14 & UC14 \linebreak UC14.1 \linebreak UC14.2 \linebreak \\ 
 \hline
-FOb4.1 & Capitolato \linebreak  UC5.1.9 \linebreak  \\ 
+FOb15 & UC13.4 \linebreak UC14.3 \linebreak UC15.4 \linebreak \\ 
 \hline
-FOb4.1.1 & Capitolato \linebreak  UC5.1.1.6 \linebreak  UC5.1.9.1 \linebreak  UC5.1.9.2 \linebreak  UC5.1.9.3 \linebreak  \\ 
+FOb16 & UC15 \linebreak UC15.1 \linebreak UC15.2 \linebreak UC15.3 \linebreak \\ 
 \hline
-FOb4.2 & Capitolato \linebreak  UC5.1.1 \linebreak  UC5.1.1.7 \linebreak  UC5.1.2 \linebreak  UC5.1.3 \linebreak  UC7 \linebreak  \\ 
+FOb2 & UC2 \linebreak \\ 
 \hline
-FDe4.2.1 & UC8 \linebreak  \\ 
+FOb3 & UC3 \linebreak \\ 
 \hline
-FOb4.2.2 & UC5.1.1.1 \linebreak  UC5.1.1.1.1 \linebreak  UC5.1.1.1.3.1 \linebreak  UC5.1.1.1.3.4 \linebreak  \\ 
+FDe3.1 & UC3.1 \linebreak  \\ 
 \hline
-FDe4.2.2.1 & UC5.1.1.1.2 \linebreak  UC5.1.1.1.3.1 \linebreak  \\ 
+FOb3.2 & UC3.2 \linebreak  \\ 
 \hline
-FOb4.2.2.2 & UC5.1.1.1.3 \linebreak  UC5.1.1.1.3.3 \linebreak  \\ 
+FOb3.3 & UC3.3 \linebreak  \\ 
 \hline
-FOp4.2.2.2.1 & UC5.1.1.1.3.5 \linebreak  \\ 
+FDe3.4 & UC3.4 \linebreak  \\ 
 \hline
-FOp4.2.2.2.2 & UC5.1.1.1.3.6 \linebreak  \\ 
+FOb3.5 & UC3.5 \linebreak  \\ 
 \hline
-FOb4.2.2.3 & UC5.1.1.1.3 \linebreak  UC5.1.1.1.3.2 \linebreak  \\ 
+FOb3.6 & UC3.6 \linebreak  \\ 
 \hline
-FOb4.2.2.3.1 & UC5.1.1.1.4 \linebreak  \\ 
+FOb4 & UC4 \linebreak \\ 
 \hline
-FOb4.2.3 & UC5.1.1.2 \linebreak  UC5.1.1.2.1 \linebreak  \\ 
+FOb4.1 & UC4.1 \linebreak  \\ 
 \hline
-FOb4.2.3.1 & UC5.1.1.2.2 \linebreak  UC5.1.1.2.2.1 \linebreak  UC5.1.1.2.2.2 \linebreak  UC5.1.1.2.2.3 \linebreak  UC5.1.1.2.2.4 \linebreak  \\ 
+FOb4.1.1 & UC4.1.1 \linebreak  \\ 
 \hline
-FDe4.2.4 & UC5.1.1.4 \linebreak  UC5.1.1.4.1 \linebreak  \\ 
+FOb4.1.1.1 & UC4.1.1.1 \linebreak  \\ 
 \hline
-FDe4.2.4.1 & Capitolato \linebreak  UC5.1.1.4.2.3 \linebreak  UC5.1.1.4.2.3.1 \linebreak  UC5.1.1.4.2.3.2 \linebreak  Verbale2014-12-18 \linebreak  \\ 
+FOb4.1.1.2 & UC4.1.1.2 \linebreak  \\ 
 \hline
-FDe4.2.4.1.1 & UC5.1.1.4.2.3.2 \linebreak  UC5.1.1.4.2.3.2.1 \linebreak  UC5.1.1.4.2.3.2.2 \linebreak  UC5.1.1.4.2.3.2.3 \linebreak  \\ 
+FOb4.1.1.3 & UC4.1.1.3 \linebreak  \\ 
 \hline
-FDe4.2.4.2 & UC5.1.1.4.2 \linebreak  UC5.1.1.4.2.1 \linebreak  UC5.1.1.4.2.2 \linebreak  \\ 
+FOb4.1.1.4 & UC4.1.1.4 \linebreak  \\ 
 \hline
-FOb4.2.5 & UC5.1.1.5 \linebreak  UC5.1.1.5.1 \linebreak  UC5.1.1.5.2 \linebreak  Verbale2014-12-18 \linebreak  \\ 
+FOb4.1.2 & UC4.1.2 \linebreak  \\ 
 \hline
-FOb4.2.6 & UC5.1.1.7 \linebreak  \\ 
+FOp4.1.2.1 & UC4.1.2.1 \linebreak  \\ 
 \hline
-FOb4.2.7 & UC5.1.1.8 \linebreak  UC5.1.1.9 \linebreak  \\ 
+FOb4.1.3 & UC4.1.3 \linebreak  \\ 
 \hline
-FOb4.2.8 & UC5.1.1.3 \linebreak  UC5.1.1.3.1 \linebreak  UC5.1.1.3.3 \linebreak  \\ 
+FOb4.1.3.1 & UC4.1.3.1 \linebreak  \\ 
 \hline
-FOb4.2.8.1 & UC5.1.1.3.1.1 \linebreak  UC5.1.1.3.3 \linebreak  \\ 
+FOb4.1.4 & UC4.1.4 \linebreak  \\ 
 \hline
-FDe4.2.8.2 & Capitolato \linebreak  UC5.1.1.3.1.2 \linebreak  UC5.1.1.3.1.2.3 \linebreak  UC5.1.1.3.1.2.4 \linebreak  UC5.1.1.3.2 \linebreak  UC5.1.1.3.3 \linebreak  Verbale2014-12-18 \linebreak  \\ 
+FOb4.1.4.1 & UC4.1.4.1 \linebreak  \\ 
 \hline
-FDe4.2.8.2.1 & UC5.1.1.3.1.2.2 \linebreak  UC5.1.1.3.2.2 \linebreak  UC5.1.1.3.2.3 \linebreak  UC5.1.1.3.2.4 \linebreak  \\ 
+FOb4.10 & UC4.9 \linebreak  \\ 
 \hline
-FDe4.2.8.2.2 & UC5.1.1.3.1.2.1 \linebreak  UC5.1.1.3.2.1 \linebreak  UC5.1.1.3.2.3 \linebreak  UC5.1.1.3.2.4 \linebreak  Verbale2014-12-18 \linebreak  \\ 
+FOb4.2 & UC4.2 \linebreak  \\ 
 \hline
-FDe4.3 & Capitolato \linebreak  UC5.1.7 \linebreak  Verbale2014-12-18 \linebreak  \\ 
+FOb4.3 & UC4.3 \linebreak  \\ 
 \hline
-FOp4.4 & UC5.1.6 \linebreak  Verbale2014-12-18 \linebreak  \\ 
+FOb4.3.1 & UC4.3.1 \linebreak  \\ 
 \hline
-FDe4.5 & Capitolato \linebreak  UC5.1.5 \linebreak  Verbale2014-12-18 \linebreak  \\ 
+FOb4.3.1.1 & UC4.3.1.1 \linebreak  \\ 
 \hline
-FOp4.6 & UC5.1.4 \linebreak  Verbale2014-12-18 \linebreak  \\ 
+FOb4.3.1.2 & UC4.3.1.2 \linebreak  \\ 
 \hline
-FOb5 & UC2 \linebreak \\ 
+FOb4.3.1.3 & UC4.3.1.3 \linebreak  \\ 
 \hline
-FOb5.1 & UC2 \linebreak  \\ 
+FOb4.3.2 & UC4.3.3 \linebreak  \\ 
 \hline
-VOb10 & Verbale2014-12-18 \linebreak \\ 
+FOb4.3.2.1 & UC4.3.3.1 \linebreak  \\ 
 \hline
-VOb8 & Capitolato \linebreak Verbale2014-12-18 \linebreak \\ 
+FOb4.3.2.2 & UC4.3.3.2 \linebreak  \\ 
 \hline
-VOb9 & Capitolato \linebreak Verbale2014-12-18 \linebreak \\ 
+FOb4.3.2.3 & UC4.3.3.3 \linebreak  \\ 
 \hline
-VOb9.1 & Capitolato \linebreak  Verbale2014-12-18 \linebreak  \\ 
+FOb4.3.2.4 & UC4.3.3.4 \linebreak  \\ 
+\hline
+FOb4.3.2.5 & UC4.3.3.5 \linebreak  \\ 
+\hline
+FOb4.3.3 & UC4.3.4 \linebreak  \\ 
+\hline
+FOb4.3.3.1 & UC4.3.4.1 \linebreak  \\ 
+\hline
+FOb4.3.3.2 & UC4.3.4.3 \linebreak  \\ 
+\hline
+FOb4.3.3.3 & UC4.3.4.2 \linebreak  \\ 
+\hline
+FOb4.3.3.4 & UC4.3.4.4 \linebreak  \\ 
+\hline
+FOb4.3.4 & UC4.3.2 \linebreak  \\ 
+\hline
+FOb4.3.4.1 & UC4.3.2.1 \linebreak  \\ 
+\hline
+FOb4.3.4.2 & UC4.3.2.2 \linebreak  \\ 
+\hline
+FOb4.3.4.3 & UC4.3.2.3 \linebreak  \\ 
+\hline
+FOb4.4 & UC4.4 \linebreak  \\ 
+\hline
+FDe4.5 & UC4.5 \linebreak  \\ 
+\hline
+FOb4.5.1 & UC4.5.1 \linebreak  \\ 
+\hline
+FOb4.5.2 & UC4.5.2 \linebreak  \\ 
+\hline
+FOb4.6 & UC4.6 \linebreak  \\ 
+\hline
+FOb4.7 & UC4.7 \linebreak  \\ 
+\hline
+FOb4.7.1 & UC4.7.1 \linebreak  \\ 
+\hline
+FOb4.7.2 & UC4.7.2 \linebreak  \\ 
+\hline
+FOb4.7.3 & UC4.7.4 \linebreak  \\ 
+\hline
+FDe4.7.4 & UC4.7.5 \linebreak  \\ 
+\hline
+FOb4.7.5 & UC4.7.6 \linebreak  \\ 
+\hline
+FOb4.7.5.1 & UC4.7.6.1 \linebreak  \\ 
+\hline
+FOb4.7.5.2 & UC4.7.6.2 \linebreak  \\ 
+\hline
+FOb4.7.6 & UC4.7.3 \linebreak  \\ 
+\hline
+FOb4.8 & UC4.10 \linebreak  \\ 
+\hline
+FOb4.9 & UC4.8 \linebreak  UC4.8.1 \linebreak  UC4.8.2 \linebreak  \\ 
+\hline
+FOb5 & UC5 \linebreak \\ 
+\hline
+FOb6 & UC6 \linebreak UC6.1 \linebreak \\ 
+\hline
+FOb6.1 & UC6.2 \linebreak  \\ 
+\hline
+FOb7 & UC7 \linebreak \\ 
+\hline
+FOb8 & UC8 \linebreak \\ 
+\hline
+FOp9 & UC9 \linebreak \\ 
 \hline
 \caption{Tracciamento requisiti-fonti}
 \end{longtable}
-\newpage
+	
 \section{Tracciamento fonti-requisiti}
 \begin{longtable}{|l|p{4cm}|}
 \hline
 \textbf{IdFonte} & \textbf{IdRequisiti} \\ 
-Capitolato & FOb4 \linebreak  FOb4.1 \linebreak  FOb4.1.1 \linebreak  FOb4.2 \linebreak  FDe4.2.4.1 \linebreak  FDe4.2.8.2 \linebreak  FDe4.3 \linebreak  FDe4.5 \linebreak  VOb8 \linebreak  VOb9 \linebreak  VOb9.1 \linebreak   \\ 
-\hline
-		Verbale2014-12-18 & VOb10 \linebreak  FOp2 \linebreak  FOp3 \linebreak  FOb4 \linebreak  FDe4.2.4.1 \linebreak  FOb4.2.5 \linebreak  FDe4.2.8.2 \linebreak  FDe4.2.8.2.2 \linebreak  FDe4.3 \linebreak  FOp4.4 \linebreak  FDe4.5 \linebreak  FOp4.6 \linebreak  VOb8 \linebreak  VOb9 \linebreak  VOb9.1 \linebreak   \\
-\hline
 		UC1 & FOb1 \linebreak  FOb1.1 \linebreak   \\
 \hline
-		UC1.1 & FOb1.1.1 \linebreak   \\
+		UC1.1 & FOb1.1 \linebreak   \\
 \hline
-		UC1.2 & FOb1.1.1 \linebreak   \\
+		UC1.2 & FOb1.2 \linebreak   \\
 \hline
-		UC1.3 & FOb1.1.1 \linebreak   \\
+		UC2 & FOb2 \linebreak   \\
 \hline
-		UC1.4 & FOb1.1.1 \linebreak   \\
+		UC3 & FOb3 \linebreak   \\
 \hline
-		UC1.5 & FOb1.1 \linebreak   \\
+		UC3.1 & FDe3.1 \linebreak   \\
 \hline
-		UC1.6 & FOb1.1 \linebreak   \\
+		UC3.2 & FOb3.2 \linebreak   \\
 \hline
-		UC2 & FOb5 \linebreak  FOb5.1 \linebreak   \\
+		UC3.3 & FOb3.3 \linebreak   \\
 \hline
-		UC3 & FOp3 \linebreak   \\
+		UC3.4 & FDe3.4 \linebreak   \\
 \hline
-		UC4 & FOb1.3 \linebreak   \\
+		UC3.5 & FOb3.5 \linebreak   \\
 \hline
-		UC4.1 & FOb1.3 \linebreak   \\
+		UC3.6 & FOb3.6 \linebreak   \\
 \hline
-		UC4.2 & FOb1.3 \linebreak   \\
+		UC4 & FOb4 \linebreak   \\
 \hline
-		UC4.3 & FOb1.3 \linebreak   \\
+		UC4.1 & FOb4.1 \linebreak   \\
 \hline
-		UC4.4 & FOb1.3 \linebreak   \\
+		UC4.1.1 & FOb4.1.1 \linebreak   \\
 \hline
-		UC5 & FOb4 \linebreak   \\
+		UC4.1.1.1 & FOb4.1.1.1 \linebreak   \\
 \hline
-		UC5.1 & FOb4 \linebreak   \\
+		UC4.1.1.2 & FOb4.1.1.2 \linebreak   \\
 \hline
-		UC5.1.1 & FOb4.2 \linebreak   \\
+		UC4.1.1.3 & FOb4.1.1.3 \linebreak   \\
 \hline
-		UC5.1.1.1 & FOb4.2.2 \linebreak   \\
+		UC4.1.1.4 & FOb4.1.1.4 \linebreak   \\
 \hline
-		UC5.1.1.1.1 & FOb4.2.2 \linebreak   \\
+		UC4.1.2 & FOb4.1.2 \linebreak   \\
 \hline
-		UC5.1.1.1.2 & FDe4.2.2.1 \linebreak   \\
+		UC4.1.2.1 & FOp4.1.2.1 \linebreak   \\
 \hline
-		UC5.1.1.1.3 & FOb4.2.2.2 \linebreak  FOb4.2.2.3 \linebreak   \\
+		UC4.1.3 & FOb4.1.3 \linebreak   \\
 \hline
-		UC5.1.1.1.3.1 & FOb4.2.2 \linebreak  FDe4.2.2.1 \linebreak   \\
+		UC4.1.3.1 & FOb4.1.3.1 \linebreak   \\
 \hline
-		UC5.1.1.1.3.2 & FOb4.2.2.3 \linebreak   \\
+		UC4.1.4 & FOb4.1.4 \linebreak   \\
 \hline
-		UC5.1.1.1.3.3 & FOb4.2.2.2 \linebreak   \\
+		UC4.1.4.1 & FOb4.1.4.1 \linebreak   \\
 \hline
-		UC5.1.1.1.3.4 & FOb4.2.2 \linebreak   \\
+		UC4.2 & FOb4.2 \linebreak   \\
 \hline
-		UC5.1.1.1.3.5 & FOp4.2.2.2.1 \linebreak   \\
+		UC4.3 & FOb4.3 \linebreak   \\
 \hline
-		UC5.1.1.1.3.6 & FOp4.2.2.2.2 \linebreak   \\
+		UC4.3.1 & FOb4.3.1 \linebreak   \\
 \hline
-		UC5.1.1.1.4 & FOb4.2.2.3.1 \linebreak   \\
+		UC4.3.1.1 & FOb4.3.1.1 \linebreak   \\
 \hline
-		UC5.1.1.2 & FOb4.2.3 \linebreak   \\
+		UC4.3.1.2 & FOb4.3.1.2 \linebreak   \\
 \hline
-		UC5.1.1.2.1 & FOb4.2.3 \linebreak   \\
+		UC4.3.1.3 & FOb4.3.1.3 \linebreak   \\
 \hline
-		UC5.1.1.2.2 & FOb4.2.3.1 \linebreak   \\
+		UC4.3.2 & FOb4.3.4 \linebreak   \\
 \hline
-		UC5.1.1.2.2.1 & FOb4.2.3.1 \linebreak   \\
+		UC4.3.2.1 & FOb4.3.4.1 \linebreak   \\
 \hline
-		UC5.1.1.2.2.2 & FOb4.2.3.1 \linebreak   \\
+		UC4.3.2.2 & FOb4.3.4.2 \linebreak   \\
 \hline
-		UC5.1.1.2.2.3 & FOb4.2.3.1 \linebreak   \\
+		UC4.3.2.3 & FOb4.3.4.3 \linebreak   \\
 \hline
-		UC5.1.1.2.2.4 & FOb4.2.3.1 \linebreak   \\
+		UC4.3.3 & FOb4.3.2 \linebreak   \\
 \hline
-		UC5.1.1.3 & FOb4.2.8 \linebreak   \\
+		UC4.3.3.1 & FOb4.3.2.1 \linebreak   \\
 \hline
-		UC5.1.1.3.1 & FOb4.2.8 \linebreak   \\
+		UC4.3.3.2 & FOb4.3.2.2 \linebreak   \\
 \hline
-		UC5.1.1.3.1.1 & FOb4.2.8.1 \linebreak   \\
+		UC4.3.3.3 & FOb4.3.2.3 \linebreak   \\
 \hline
-		UC5.1.1.3.1.2 & FDe4.2.8.2 \linebreak   \\
+		UC4.3.3.4 & FOb4.3.2.4 \linebreak   \\
 \hline
-		UC5.1.1.3.1.2.1 & FDe4.2.8.2.2 \linebreak   \\
+		UC4.3.3.5 & FOb4.3.2.5 \linebreak   \\
 \hline
-		UC5.1.1.3.1.2.2 & FDe4.2.8.2.1 \linebreak   \\
+		UC4.3.4 & FOb4.3.3 \linebreak   \\
 \hline
-		UC5.1.1.3.1.2.3 & FDe4.2.8.2 \linebreak   \\
+		UC4.3.4.1 & FOb4.3.3.1 \linebreak   \\
 \hline
-		UC5.1.1.3.1.2.4 & FDe4.2.8.2 \linebreak   \\
+		UC4.3.4.2 & FOb4.3.3.3 \linebreak   \\
 \hline
-		UC5.1.1.3.2 & FDe4.2.8.2 \linebreak   \\
+		UC4.3.4.3 & FOb4.3.3.2 \linebreak   \\
 \hline
-		UC5.1.1.3.2.1 & FDe4.2.8.2.2 \linebreak   \\
+		UC4.3.4.4 & FOb4.3.3.4 \linebreak   \\
 \hline
-		UC5.1.1.3.2.2 & FDe4.2.8.2.1 \linebreak   \\
+		UC4.4 & FOb4.4 \linebreak   \\
 \hline
-		UC5.1.1.3.2.3 & FDe4.2.8.2.1 \linebreak  FDe4.2.8.2.2 \linebreak   \\
+		UC4.5 & FDe4.5 \linebreak   \\
 \hline
-		UC5.1.1.3.2.4 & FDe4.2.8.2.1 \linebreak  FDe4.2.8.2.2 \linebreak   \\
+		UC4.5.1 & FOb4.5.1 \linebreak   \\
 \hline
-		UC5.1.1.3.3 & FOb4.2.8 \linebreak  FOb4.2.8.1 \linebreak  FDe4.2.8.2 \linebreak   \\
+		UC4.5.2 & FOb4.5.2 \linebreak   \\
 \hline
-		UC5.1.1.4 & FDe4.2.4 \linebreak   \\
+		UC4.6 & FOb4.6 \linebreak   \\
 \hline
-		UC5.1.1.4.1 & FDe4.2.4 \linebreak   \\
+		UC4.7 & FOb4.7 \linebreak   \\
 \hline
-		UC5.1.1.4.2 & FDe4.2.4.2 \linebreak   \\
+		UC4.7.1 & FOb4.7.1 \linebreak   \\
 \hline
-		UC5.1.1.4.2.1 & FDe4.2.4.2 \linebreak   \\
+		UC4.7.2 & FOb4.7.2 \linebreak   \\
 \hline
-		UC5.1.1.4.2.2 & FDe4.2.4.2 \linebreak   \\
+		UC4.7.3 & FOb4.7.6 \linebreak   \\
 \hline
-		UC5.1.1.4.2.3 & FDe4.2.4.1 \linebreak   \\
+		UC4.7.4 & FOb4.7.3 \linebreak   \\
 \hline
-		UC5.1.1.4.2.3.1 & FDe4.2.4.1 \linebreak   \\
+		UC4.7.5 & FDe4.7.4 \linebreak   \\
 \hline
-		UC5.1.1.4.2.3.2 & FDe4.2.4.1 \linebreak  FDe4.2.4.1.1 \linebreak   \\
+		UC4.7.6 & FOb4.7.5 \linebreak   \\
 \hline
-		UC5.1.1.4.2.3.2.1 & FDe4.2.4.1.1 \linebreak   \\
+		UC4.7.6.1 & FOb4.7.5.1 \linebreak   \\
 \hline
-		UC5.1.1.4.2.3.2.2 & FDe4.2.4.1.1 \linebreak   \\
+		UC4.7.6.2 & FOb4.7.5.2 \linebreak   \\
 \hline
-		UC5.1.1.4.2.3.2.3 & FDe4.2.4.1.1 \linebreak   \\
+		UC4.8 & FOb4.9 \linebreak   \\
 \hline
-		UC5.1.1.5 & FOb4.2.5 \linebreak   \\
+		UC4.8.1 & FOb4.9 \linebreak   \\
 \hline
-		UC5.1.1.5.1 & FOb4.2.5 \linebreak   \\
+		UC4.8.2 & FOb4.9 \linebreak   \\
 \hline
-		UC5.1.1.5.2 & FOb4.2.5 \linebreak   \\
+		UC4.9 & FOb4.10 \linebreak   \\
 \hline
-		UC5.1.1.6 & FOb4.1.1 \linebreak   \\
+		UC4.10 & FOb4.8 \linebreak   \\
 \hline
-		UC5.1.1.7 & FOb4.2 \linebreak  FOb4.2.6 \linebreak   \\
+		UC5 & FOb5 \linebreak   \\
 \hline
-		UC5.1.1.8 & FOb4.2.7 \linebreak   \\
+		UC6 & FOb6 \linebreak   \\
 \hline
-		UC5.1.1.9 & FOb4.2.7 \linebreak   \\
+		UC6.1 & FOb6 \linebreak   \\
 \hline
-		UC5.1.2 & FOb4.2 \linebreak   \\
+		UC6.2 & FOb6.1 \linebreak   \\
 \hline
-		UC5.1.3 & FOb4.2 \linebreak   \\
+		UC7 & FOb7 \linebreak   \\
 \hline
-		UC5.1.4 & FOp4.6 \linebreak   \\
+		UC8 & FOb8 \linebreak   \\
 \hline
-		UC5.1.5 & FDe4.5 \linebreak   \\
+		UC9 & FOp9 \linebreak   \\
 \hline
-		UC5.1.6 & FOp4.4 \linebreak   \\
+		UC10 & FOp10 \linebreak   \\
 \hline
-		UC5.1.7 & FDe4.3 \linebreak   \\
+		UC11 & FOb11 \linebreak  FOb11.1 \linebreak  FOb11.2 \linebreak   \\
 \hline
-		UC5.1.8 & FOp2 \linebreak   \\
+		UC11.1 & FOb11.1 \linebreak   \\
 \hline
-		UC5.1.9 & FOb4.1 \linebreak   \\
+		UC11.2 & FOb11.2 \linebreak   \\
 \hline
-		UC5.1.9.1 & FOb4.1.1 \linebreak   \\
+		UC12 & FOp12 \linebreak   \\
 \hline
-		UC5.1.9.2 & FOb4.1.1 \linebreak   \\
+		UC13 & FOb13 \linebreak   \\
 \hline
-		UC5.1.9.3 & FOb4.1.1 \linebreak   \\
+		UC13.1 & FOb13 \linebreak   \\
 \hline
-		UC5.2 & FOb4 \linebreak   \\
+		UC13.2 & FOb13 \linebreak   \\
 \hline
-		UC6 & FOb1.2 \linebreak   \\
+		UC13.3 & FOb13 \linebreak   \\
 \hline
-		UC6.1 & FOb1.2.1 \linebreak   \\
+		UC13.4 & FOb15 \linebreak   \\
 \hline
-		UC6.1.1 & FOb1.2.1 \linebreak   \\
+		UC14 & FOb14 \linebreak   \\
 \hline
-		UC6.1.2 & FOb1.2.1 \linebreak   \\
+		UC14.1 & FOb14 \linebreak   \\
 \hline
-		UC6.1.3 & FOb1.2.1 \linebreak   \\
+		UC14.2 & FOb14 \linebreak   \\
 \hline
-		UC6.2 & FOb1.2.2 \linebreak   \\
+		UC14.3 & FOb15 \linebreak   \\
 \hline
-		UC6.3 & FOb1.2 \linebreak   \\
+		UC15 & FOb16 \linebreak   \\
 \hline
-		UC6.4 & FOb1.2 \linebreak   \\
+		UC15.1 & FOb16 \linebreak   \\
 \hline
-		UC7 & FOb4.2 \linebreak   \\
+		UC15.2 & FOb16 \linebreak   \\
 \hline
-		UC8 & FDe4.2.1 \linebreak   \\
+		UC15.3 & FOb16 \linebreak   \\
 \hline
-		UC9 & FOp3 \linebreak   \\
+		UC15.4 & FOb15 \linebreak   \\
 \hline
 \caption{Tracciamento fonti-requisiti}
 \end{longtable}

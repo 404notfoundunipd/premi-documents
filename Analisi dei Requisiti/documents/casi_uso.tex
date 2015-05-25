@@ -62,7 +62,7 @@
 		\item \textbf{ UC3.2:} \textit{ Avanza nel percorso};
 		\item \textbf{ UC3.3:} \textit{ Retrocedi nel percorso};
 		\item \textbf{ UC3.4:} \textit{ Segui un percorso di approfondimento};
-		\item \textbf{ UC3.5:} \textit{ Torna a checkpoint};
+		\item \textbf{ UC3.5:} \textit{ Torna a checkpoint$_G$};
 		\item \textbf{ UC3.6:} \textit{ Interrompi esecuzione presentazione}.
 	\end{enumerate}
 \end{itemize}
@@ -78,32 +78,32 @@
 
 \begin{itemize}
 	\item \textbf{Precondizione:} il sistema è in fase di esecuzione della presentazione ed è in attesa di un'operazione da parte dell'utente;
-	\item \textbf{Postcondizione:} il sistema ha fatto avanzare la presentazione di un passo ed il frame viene visualizzato;
-	\item \textbf{Descrizione:} l'utente durante l'esecuzione della presentazione può avanzare la stessa di un passo, e viene aggiornata la visualizzazione del frame corrente;
+	\item \textbf{Postcondizione:} il sistema ha fatto avanzare la presentazione di un passo ed il frame$_G$ viene visualizzato;
+	\item \textbf{Descrizione:} l'utente durante l'esecuzione della presentazione può avanzare la stessa di un passo, e viene aggiornata la visualizzazione del frame$_G$ corrente;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC3.3: Retrocedi nel percorso}
 
 \begin{itemize}
 	\item \textbf{Precondizione:} il sistema è in fase di esecuzione della presentazione ed è in attesa di un'operazione da parte dell'utente;
-	\item \textbf{Postcondizione:} il sistema ha fatto retrocedere la presentazione di un passo ed il frame viene visualizzato;
-	\item \textbf{Descrizione:} l'utente durante l'esecuzione della presentazione può far retrocedere la stessa di un passo, e viene aggiornata la visualizzazione del frame corrente;
+	\item \textbf{Postcondizione:} il sistema ha fatto retrocedere la presentazione di un passo ed il frame$_G$ viene visualizzato;
+	\item \textbf{Descrizione:} l'utente durante l'esecuzione della presentazione può far retrocedere la stessa di un passo, e viene aggiornata la visualizzazione del frame$_G$ corrente;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC3.4: Segui un percorso di approfondimento}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di esecuzione della presentazione ed è in attesa di un'operazione da parte dell'utente. Il frame attuale deve essere un checkpoint;
-	\item \textbf{Postcondizione:} il sistema ha avanzato la presentazione in un percorso di approfondimento ed il frame viene visualizzato;
-	\item \textbf{Descrizione:} l'utente può scegliere di intraprendere un percorso di approfondimento se il frame in cui si trova è un checkpoint. Per percorso di approfondimento si intende una serie di frame volti ad approfondire il concetto racchiuso in quella attuale;
+	\item \textbf{Precondizione:} il sistema è in fase di esecuzione della presentazione ed è in attesa di un'operazione da parte dell'utente. Il frame$_G$ attuale deve essere un checkpoint$_G$;
+	\item \textbf{Postcondizione:} il sistema ha avanzato la presentazione in un percorso di approfondimento ed il frame$_G$ viene visualizzato;
+	\item \textbf{Descrizione:} l'utente può scegliere di intraprendere un percorso di approfondimento se il frame$_G$ in cui si trova è un checkpoint$_G$. Per percorso di approfondimento si intende una serie di frame$_G$ volti ad approfondire il concetto racchiuso in quella attuale;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC3.5: Torna a checkpoint}
+\subsection{ UC3.5: Torna a checkpoint$_G$}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di esecuzione della presentazione ed è in attesa di un'operazione da parte dell'utente. Il frame attuale si trova all'interno di un percorso di approfondimento;
-	\item \textbf{Postcondizione:} il sistema fa retrocedere la presentazione al primo checkpoint disponibile;
-	\item \textbf{Descrizione:} l'utente, in qualsiasi momento, se si trova in un percorso di approfondimento può tornare al frame checkpoint;
+	\item \textbf{Precondizione:} il sistema è in fase di esecuzione della presentazione ed è in attesa di un'operazione da parte dell'utente. Il frame$_G$ attuale si trova all'interno di un percorso di approfondimento;
+	\item \textbf{Postcondizione:} il sistema fa retrocedere la presentazione al primo checkpoint$_G$ disponibile;
+	\item \textbf{Descrizione:} l'utente, in qualsiasi momento, se si trova in un percorso di approfondimento può tornare al frame$_G$ checkpoint$_G$;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC3.6: Interrompi esecuzione presentazione}
@@ -157,9 +157,9 @@
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
 		\item \textbf{ UC4.1.1:} \textit{ Inserimento area di testo};
-		\item \textbf{ UC4.1.2:} \textit{ Inserimento frame};
+		\item \textbf{ UC4.1.2:} \textit{ Inserimento frame$_G$};
 		\item \textbf{ UC4.1.3:} \textit{ Inserimento immagine};
-		\item \textbf{ UC4.1.4:} \textit{ Inserimento shape}.
+		\item \textbf{ UC4.1.4:} \textit{ Inserimento shape$_G$}.
 	\end{enumerate}
 \end{itemize}
 \subsection{ UC4.1.1: Inserimento area di testo}
@@ -215,7 +215,7 @@
 	\item \textbf{Descrizione:} l'utente può scegliere la dimensione del testo;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4.1.2: Inserimento frame}
+\subsection{ UC4.1.2: Inserimento frame$_G$}
 
 \begin{figure}[h]
 	\begin{center}
@@ -225,20 +225,20 @@
 \end{figure}
 \begin{itemize}
 	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa di un'operazione da parte dell'utente;
-	\item \textbf{Postcondizione:} il sistema ha aggiunto un frame all'interno della presentazione, la modifica viene visualizzata;
-	\item \textbf{Descrizione:} l'utente può aggiungere un frame all'interno della presentazione;
+	\item \textbf{Postcondizione:} il sistema ha aggiunto un frame$_G$ all'interno della presentazione, la modifica viene visualizzata;
+	\item \textbf{Descrizione:} l'utente può aggiungere un frame$_G$ all'interno della presentazione;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC4.1.2.1:} \textit{ Scelta forma frame}.
+		\item \textbf{ UC4.1.2.1:} \textit{ Scelta forma frame$_G$}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC4.1.2.1: Scelta forma frame}
+\subsection{ UC4.1.2.1: Scelta forma frame$_G$}
 
 \begin{itemize}
 	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa della scelta di una forma da parte dell'utente;
-	\item \textbf{Postcondizione:} il sistema ha selezionato la forma per il frame e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può scegliere la forma del frame;
+	\item \textbf{Postcondizione:} il sistema ha selezionato la forma per il frame$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può scegliere la forma del frame$_G$;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC4.1.3: Inserimento immagine}
@@ -267,7 +267,7 @@
 	\item \textbf{Descrizione:} l'utente deve poter selezionare un immagine da filesystem;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4.1.4: Inserimento shape}
+\subsection{ UC4.1.4: Inserimento shape$_G$}
 
 \begin{figure}[h]
 	\begin{center}
@@ -277,20 +277,20 @@
 \end{figure}
 \begin{itemize}
 	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa di un'operazione da parte dell'utente;
-	\item \textbf{Postcondizione:} il sistema ha aggiunto uno shape all'interno della presentazione, la modifica viene visualizzata;
-	\item \textbf{Descrizione:} l'utente può aggiungere uno shape all'interno della presentazione;
+	\item \textbf{Postcondizione:} il sistema ha aggiunto uno shape$_G$ all'interno della presentazione, la modifica viene visualizzata;
+	\item \textbf{Descrizione:} l'utente può aggiungere uno shape$_G$ all'interno della presentazione;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC4.1.4.1:} \textit{ Scelta tipo shape}.
+		\item \textbf{ UC4.1.4.1:} \textit{ Scelta tipo shape$_G$}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC4.1.4.1: Scelta tipo shape}
+\subsection{ UC4.1.4.1: Scelta tipo shape$_G$}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa della scelta di un tipo di shape da parte dell'utente;
-	\item \textbf{Postcondizione:} il sistema ha selezionato la tipologia di shape, e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può scegliere il tipo di shape;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa della scelta di un tipo di shape$_G$ da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha selezionato la tipologia di shape$_G$, e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può scegliere il tipo di shape$_G$;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC4.2: Seleziona oggetto grafico}
@@ -316,13 +316,13 @@
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC4.3.1:} \textit{ Modifica frame};
+		\item \textbf{ UC4.3.1:} \textit{ Modifica frame$_G$};
 		\item \textbf{ UC4.3.2:} \textit{ Modifica immagine};
 		\item \textbf{ UC4.3.3:} \textit{ Modifica area di testo};
-		\item \textbf{ UC4.3.4:} \textit{ Modifica shape}.
+		\item \textbf{ UC4.3.4:} \textit{ Modifica shape$_G$}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC4.3.1: Modifica frame}
+\subsection{ UC4.3.1: Modifica frame$_G$}
 
 \begin{figure}[h]
 	\begin{center}
@@ -331,39 +331,39 @@
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un frame;
-	\item \textbf{Postcondizione:} il sistema ha modificato il frame e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può modificare un frame;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un frame$_G$;
+	\item \textbf{Postcondizione:} il sistema ha modificato il frame$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare un frame$_G$;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC4.3.1.1:} \textit{ Ridimensiona frame};
-		\item \textbf{ UC4.3.1.2:} \textit{ Riposiziona frame};
-		\item \textbf{ UC4.3.1.3:} \textit{ Modifica stile frame}.
+		\item \textbf{ UC4.3.1.1:} \textit{ Ridimensiona frame$_G$};
+		\item \textbf{ UC4.3.1.2:} \textit{ Riposiziona frame$_G$};
+		\item \textbf{ UC4.3.1.3:} \textit{ Modifica stile frame$_G$}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC4.3.1.1: Ridimensiona frame}
+\subsection{ UC4.3.1.1: Ridimensiona frame$_G$}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un frame;
-	\item \textbf{Postcondizione:} il sistema ha ridimensionato il frame e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può ridimensionare un frame;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un frame$_G$;
+	\item \textbf{Postcondizione:} il sistema ha ridimensionato il frame$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può ridimensionare un frame$_G$;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4.3.1.2: Riposiziona frame}
+\subsection{ UC4.3.1.2: Riposiziona frame$_G$}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un frame;
-	\item \textbf{Postcondizione:} il sistema ha riposizionato il frame e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può riposizionare un frame;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un frame$_G$;
+	\item \textbf{Postcondizione:} il sistema ha riposizionato il frame$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può riposizionare un frame$_G$;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4.3.1.3: Modifica stile frame}
+\subsection{ UC4.3.1.3: Modifica stile frame$_G$}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un frame;
-	\item \textbf{Postcondizione:} il sistema ha modificato lo stile del frame e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può modificare lo stile di un frame;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un frame$_G$;
+	\item \textbf{Postcondizione:} il sistema ha modificato lo stile del frame$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare lo stile di un frame$_G$;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC4.3.2: Modifica immagine}
@@ -472,7 +472,7 @@
 	\item \textbf{Descrizione:} l'utente può cambiare il livello dell'area di testo selezionata;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4.3.4: Modifica shape}
+\subsection{ UC4.3.4: Modifica shape$_G$}
 
 \begin{figure}[h]
 	\begin{center}
@@ -481,48 +481,48 @@
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato una shape;
-	\item \textbf{Postcondizione:} il sistema ha modificato la shape e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può modificare una shape;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato una shape$_G$;
+	\item \textbf{Postcondizione:} il sistema ha modificato la shape$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare una shape$_G$;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC4.3.4.1:} \textit{ Riposiziona shape};
-		\item \textbf{ UC4.3.4.2:} \textit{ Ridimensiona shape};
-		\item \textbf{ UC4.3.4.3:} \textit{ Modifica stile della shape};
-		\item \textbf{ UC4.3.4.4:} \textit{ Cambia livello alla shape}.
+		\item \textbf{ UC4.3.4.1:} \textit{ Riposiziona shape$_G$};
+		\item \textbf{ UC4.3.4.2:} \textit{ Ridimensiona shape$_G$};
+		\item \textbf{ UC4.3.4.3:} \textit{ Modifica stile della shape$_G$};
+		\item \textbf{ UC4.3.4.4:} \textit{ Cambia livello alla shape$_G$}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC4.3.4.1: Riposiziona shape}
+\subsection{ UC4.3.4.1: Riposiziona shape$_G$}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} 	il sistema è in fase di modifica della presentazione ed è stato selezionato una shape;
-	\item \textbf{Postcondizione:} il sistema ha riposizionato la shape e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente puòriposizionare la shape selezionata;
+	\item \textbf{Precondizione:} 	il sistema è in fase di modifica della presentazione ed è stato selezionato una shape$_G$;
+	\item \textbf{Postcondizione:} il sistema ha riposizionato la shape$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente puòriposizionare la shape$_G$ selezionata;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4.3.4.2: Ridimensiona shape}
+\subsection{ UC4.3.4.2: Ridimensiona shape$_G$}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata una shape;
-	\item \textbf{Postcondizione:} il sistema ha ridimensionato la shape e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può ridimensionare una shape;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata una shape$_G$;
+	\item \textbf{Postcondizione:} il sistema ha ridimensionato la shape$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può ridimensionare una shape$_G$;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4.3.4.3: Modifica stile della shape}
+\subsection{ UC4.3.4.3: Modifica stile della shape$_G$}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata una shape;
-	\item \textbf{Postcondizione:} il sistema ha modificato lo stile della shape e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può modificare lo stile della shape selezionata;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata una shape$_G$;
+	\item \textbf{Postcondizione:} il sistema ha modificato lo stile della shape$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare lo stile della shape$_G$ selezionata;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4.3.4.4: Cambia livello alla shape}
+\subsection{ UC4.3.4.4: Cambia livello alla shape$_G$}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} ;
-	\item \textbf{Postcondizione:} ;
-	\item \textbf{Descrizione:} ;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata una shape$_G$;
+	\item \textbf{Postcondizione:} il sistema ha modificato il livello della shape$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare il livello della shape$_G$ selezionata;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC4.4: Elimina oggetto grafico}
@@ -544,7 +544,7 @@
 \begin{itemize}
 	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione;
 	\item \textbf{Postcondizione:} il sistema ha creato un nuovo percorso;
-	\item \textbf{Descrizione:} l'utente può creare un nuovo percorso che descrive la successione dei frame durante l'esecuzione della presentazione;
+	\item \textbf{Descrizione:} l'utente può creare un nuovo percorso che descrive la successione dei frame$_G$ durante l'esecuzione della presentazione;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
@@ -586,17 +586,17 @@
 \end{figure}
 \begin{itemize}
 	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un percorso;
-	\item \textbf{Postcondizione:} il sistema ha modificato il percorso e viene visualizzata la modifica.;
+	\item \textbf{Postcondizione:} il sistema ha modificato il percorso e viene visualizzata la modifica;
 	\item \textbf{Descrizione:} l'utente può modificare il percorso selezionato;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
 		\item \textbf{ UC4.7.1:} \textit{ Modifica titolo };
 		\item \textbf{ UC4.7.2:} \textit{ Aggiungi passo};
-		\item \textbf{ UC4.7.3:} \textit{ Seleziona frame del percorso};
-		\item \textbf{ UC4.7.4:} \textit{ Modifica ordine dei frame};
-		\item \textbf{ UC4.7.5:} \textit{ Crea checkpoint};
-		\item \textbf{ UC4.7.6:} \textit{ Rimuovi checkpoint}.
+		\item \textbf{ UC4.7.3:} \textit{ Seleziona frame$_G$ del percorso};
+		\item \textbf{ UC4.7.4:} \textit{ Modifica ordine dei frame$_G$};
+		\item \textbf{ UC4.7.5:} \textit{ Crea checkpoint$_G$};
+		\item \textbf{ UC4.7.6:} \textit{ Rimuovi checkpoint$_G$}.
 	\end{enumerate}
 \end{itemize}
 \subsection{ UC4.7.1: Modifica titolo }
@@ -612,34 +612,34 @@
 \begin{itemize}
 	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un percorso;
 	\item \textbf{Postcondizione:} il sistema ha aggiunto un passo del percorso e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può aggiungere un passo al cammino. Ogni passo è associato ad un frame;
+	\item \textbf{Descrizione:} l'utente può aggiungere un passo al cammino. Ogni passo è associato ad un frame$_G$;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4.7.3: Seleziona frame del percorso}
+\subsection{ UC4.7.3: Seleziona frame$_G$ del percorso}
 
 \begin{itemize}
 	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un percorso;
-	\item \textbf{Postcondizione:} il sistema ha selezionato un frame del percorso;
-	\item \textbf{Descrizione:} l'utente può selezionare un frame del percorso;
+	\item \textbf{Postcondizione:} il sistema ha selezionato un frame$_G$ del percorso;
+	\item \textbf{Descrizione:} l'utente può selezionare un frame$_G$ del percorso;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4.7.4: Modifica ordine dei frame}
+\subsection{ UC4.7.4: Modifica ordine dei frame$_G$}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione, è stato selezionato un percorso ed un frame al suo interno;
-	\item \textbf{Postcondizione:} il sistema ha modificato l'ordine dei frame e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può modificare l'ordine dei frame all'interno del percorso;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione, è stato selezionato un percorso ed un frame$_G$ al suo interno;
+	\item \textbf{Postcondizione:} il sistema ha modificato l'ordine dei frame$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare l'ordine dei frame$_G$ all'interno del percorso;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4.7.5: Crea checkpoint}
+\subsection{ UC4.7.5: Crea checkpoint$_G$}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione, è stato selezionato un percorso ed un frame al suo interno. Il frame selezionato non è un checkpoint;
-	\item \textbf{Postcondizione:} il sistema ha reso il frame un checkpoint e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può marcare un frame come checkpoint;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione, è stato selezionato un percorso ed un frame$_G$ al suo interno. Il frame$_G$ selezionato non è un checkpoint$_G$;
+	\item \textbf{Postcondizione:} il sistema ha reso il frame$_G$ un checkpoint$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può marcare un frame$_G$ come checkpoint$_G$;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4.7.6: Rimuovi checkpoint}
+\subsection{ UC4.7.6: Rimuovi checkpoint$_G$}
 
 \begin{figure}[h]
 	\begin{center}
@@ -648,9 +648,9 @@
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione, è stato selezionato un percorso ed un frame al suo interno. Il frame selezionato è un checkpoint;
-	\item \textbf{Postcondizione:} il sistema ha rimosso il checkpoint dal frame e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} l'utente può rimuovere checkpoint da un frame;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione, è stato selezionato un percorso ed un frame$_G$ al suo interno. Il frame$_G$ selezionato è un checkpoint$_G$;
+	\item \textbf{Postcondizione:} il sistema ha rimosso il checkpoint$_G$ dal frame$_G$ e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può rimuovere checkpoint$_G$ da un frame$_G$;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
@@ -683,9 +683,9 @@
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} ;
-	\item \textbf{Postcondizione:} ;
-	\item \textbf{Descrizione:} ;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un percorso;
+	\item \textbf{Postcondizione:} il sistema ha eliminato il percorso selezionato e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può eliminare un percorso della presentazione;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
@@ -696,33 +696,33 @@
 \subsection{ UC4.8.1: Conferma eliminazione}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} ;
-	\item \textbf{Postcondizione:} ;
-	\item \textbf{Descrizione:} ;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un percorso da eliminare;
+	\item \textbf{Postcondizione:} il sistema ha ottenuto la conferma di eliminazione del percorso selezionato;
+	\item \textbf{Descrizione:} l'utente può confermare l'eliminazione del percorso della presentazione selezionato;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC4.8.2: Annulla eliminazione}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} ;
-	\item \textbf{Postcondizione:} ;
-	\item \textbf{Descrizione:} ;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un percorso da eliminare;
+	\item \textbf{Postcondizione:} il sistema ha ottenuto l'annullamento di eliminazione del percorso selezionato e torna allo stato precedente all'operazione di eliminazione;
+	\item \textbf{Descrizione:} l'utente può annullare l'eliminazione del percorso della presentazione selezionato;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC4.9: Modifica descrizione}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} ;
-	\item \textbf{Postcondizione:} ;
-	\item \textbf{Descrizione:} ;
+	\item \textbf{Precondizione:} il sistema ha selezionato una presentazione scelta dall'utente;
+	\item \textbf{Postcondizione:} il sistema ha modificato la descrizione associata alla presentazione seleionata;
+	\item \textbf{Descrizione:} l'utente può modificare la descrizione della presentazione selezionata;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC4.10: Modifica titolo presentazione}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} ;
-	\item \textbf{Postcondizione:} ;
-	\item \textbf{Descrizione:} ;
+	\item \textbf{Precondizione:} il sistema ha selezionato una presentazione scelta dall'utente;
+	\item \textbf{Postcondizione:} il sistema ha modificato il titolo associato alla presentazione seleionata;
+	\item \textbf{Descrizione:} l'utente può modificare il titolo della presentazione selezionata;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
 \subsection{ UC5: Salva presentazione}
@@ -861,6 +861,9 @@
 		\item \textbf{ UC13.1:} \textit{ Inserimento email};
 		\item \textbf{ UC13.2:} \textit{ Inserimento password};
 		\item \textbf{ UC13.3:} \textit{ Conferma password};
+	\end{enumerate}
+	\item \textbf{Scenario alternativo:}
+	\begin{enumerate}
 		\item \textbf{ UC13.4:} \textit{ Visualizza errore}.
 	\end{enumerate}
 \end{itemize}
@@ -913,6 +916,10 @@
 	\begin{enumerate}
 		\item \textbf{ UC14.1:} \textit{ Inserimento email};
 		\item \textbf{ UC14.2:} \textit{ Inserimento password};
+		
+	\end{enumerate}
+	\item \textbf{Scenario secondario:}
+	\begin{enumerate}
 		\item \textbf{ UC14.3:} \textit{ Visualizza errore}.
 	\end{enumerate}
 \end{itemize}
@@ -958,6 +965,9 @@
 		\item \textbf{ UC15.1:} \textit{ Inserimento password};
 		\item \textbf{ UC15.2:} \textit{ Inserimento nuova password};
 		\item \textbf{ UC15.3:} \textit{ Conferma nuova password};
+	\end{enumerate}
+	\item \textbf{Scenario secondario:}
+	\begin{enumerate}
 		\item \textbf{ UC15.4:} \textit{ Visualizza errore}.
 	\end{enumerate}
 \end{itemize}
