@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.23)  25 MAY 2015 15:49
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.23)  25 MAY 2015 16:51
 entering extended mode
  %&-line parsing enabled.
 **MainDocument.tex
@@ -501,7 +501,7 @@ LaTeX Info: Redefining \pageref on input line 23.
 
 \AtBeginShipoutBox=\box33
  (./documents/first.tex
-<../logo/logo404_Extends.png, id=239, 1027.84pt x 433.62pt>
+<../logo/logo404_Extends.png, id=303, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
@@ -519,7 +519,7 @@ g (PNG copy)>])
 Underfull \vbox (badness 10000) detected at line 14
  []
 
-) <../logo/logo404.png, id=248, 1027.84pt x 402.50375pt>
+) <../logo/logo404.png, id=312, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>pdfTeX warning (ext4): destination with the same ident
@@ -663,19 +663,65 @@ View
  []
 
 File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png> [16]) (./documents/attivita.tex)
+<use ../logo/logo404.png> [16]
+Overfull \hbox (45.30026pt too wide) in paragraph at lines 327--328
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.EditorView
+ []
+
+
+Overfull \hbox (32.95026pt too wide) in paragraph at lines 342--343
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.TextView 
+ []
+
+
+Overfull \hbox (39.12526pt too wide) in paragraph at lines 357--358
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.ShapeView 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png> [17]
+Overfull \hbox (39.12526pt too wide) in paragraph at lines 372--373
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.ImageView 
+ []
+
+
+Overfull \hbox (39.12526pt too wide) in paragraph at lines 387--388
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.StyleView 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png> [18]
+Overfull \hbox (63.82527pt too wide) in paragraph at lines 402--403
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.FrameListView 
+ []
+
+
+Overfull \hbox (156.45032pt too wide) in paragraph at lines 422--423
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.FrameEditor.FrameEdit
+or.View 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png> [19]) (./documents/attivita.tex)
 (./documents/stime_fattibilita.tex) (./documents/tracciam_requisiti.tex)
 (./documents/descr_tecnologie.tex) (./documents/interfaccia.tex)
 File: ../logo/logo404.png Graphic file (type png)
 
-<use ../logo/logo404.png> [17]
+<use ../logo/logo404.png> [20]
 No file MainDocument.bbl.
 AED: lastpage setting LastPage (./MainDocument.aux) ) 
 Here is how much of TeX's memory you used:
- 9488 strings out of 493848
- 141595 string characters out of 1152823
+ 9523 strings out of 493848
+ 142236 string characters out of 1152823
  223774 words of memory out of 3000000
- 12502 multiletter control sequences out of 15000+50000
+ 12518 multiletter control sequences out of 15000+50000
  9730 words of font info for 34 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  45i,16n,45p,919b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -687,9 +733,9 @@ amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
 er/sfti1200.pfb>
-Output written on MainDocument.pdf (18 pages, 193338 bytes).
+Output written on MainDocument.pdf (21 pages, 208380 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 82 named destinations out of 1000 (max. 500000)
- 483 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 549 PDF objects out of 1000 (max. 8388607)
+ 101 named destinations out of 1000 (max. 500000)
+ 611 words of extra memory for PDF output out of 10000 (max. 10000000)
 

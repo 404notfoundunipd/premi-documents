@@ -50,11 +50,27 @@
 \contentsline {subsubsection}{\numberline {4.5.12}Premi.PresentationManager.NewController}{16}{subsubsection.4.5.12}
 \contentsline {subsubsection}{\numberline {4.5.13}Premi.PresentationManager.ListPresView}{16}{subsubsection.4.5.13}
 \contentsline {subsubsection}{\numberline {4.5.14}Premi.PresentationManager.ListPresController}{16}{subsubsection.4.5.14}
-\contentsline {subsubsection}{\numberline {4.5.15}Premi.}{16}{subsubsection.4.5.15}
-\contentsline {subsubsection}{\numberline {4.5.16}Premi.}{17}{subsubsection.4.5.16}
-\contentsline {subsubsection}{\numberline {4.5.17}Premi.}{17}{subsubsection.4.5.17}
-\contentsline {section}{\numberline {5}Diagrammi delle attivit\IeC {\`a}}{17}{section.5}
-\contentsline {section}{\numberline {6}Stime di fattibilit\IeC {\`a} e di bisogno di risorse}{17}{section.6}
-\contentsline {section}{\numberline {7}Tracciamento della relazione componenti - requisiti}{17}{section.7}
-\contentsline {section}{\numberline {8}Descrizione delle tecnologie e dei design pattern utilizzati}{17}{section.8}
-\contentsline {section}{\numberline {9}Mockup Interfaccia [FACOLTATIVO]}{17}{section.9}
+\contentsline {subsection}{\numberline {4.6}Premi.Editor}{16}{subsection.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}Premi.Editor.View}{16}{subsubsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.2}Premi.Editor.EditorCtrl}{17}{subsubsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.3}Premi.Editor.TextView}{17}{subsubsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.4}Premi.Editor.TextController}{17}{subsubsection.4.6.4}
+\contentsline {subsubsection}{\numberline {4.6.5}Premi.Editor.ShapeView}{17}{subsubsection.4.6.5}
+\contentsline {subsubsection}{\numberline {4.6.6}Premi.Editor.ShapeController}{18}{subsubsection.4.6.6}
+\contentsline {subsubsection}{\numberline {4.6.7}Premi.Editor.ImageView}{18}{subsubsection.4.6.7}
+\contentsline {subsubsection}{\numberline {4.6.8}Premi.Editor.ImageController}{18}{subsubsection.4.6.8}
+\contentsline {subsubsection}{\numberline {4.6.9}Premi.Editor.StyleView}{18}{subsubsection.4.6.9}
+\contentsline {subsubsection}{\numberline {4.6.10}Premi.Editor.StyleController}{18}{subsubsection.4.6.10}
+\contentsline {subsubsection}{\numberline {4.6.11}Premi.Editor.FrameListView}{19}{subsubsection.4.6.11}
+\contentsline {subsubsection}{\numberline {4.6.12}Premi.Editor.FrameListController}{19}{subsubsection.4.6.12}
+\contentsline {subsection}{\numberline {4.7}Premi.Editor.FrameEditor}{19}{subsection.4.7}
+\contentsline {subsubsection}{\numberline {4.7.1}Premi.Editor.FrameEditor.View}{19}{subsubsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.2}Premi.Editor.FrameEditor.FrameEditorCtrl}{19}{subsubsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.3}Premi.}{20}{subsubsection.4.7.3}
+\contentsline {subsubsection}{\numberline {4.7.4}Premi.}{20}{subsubsection.4.7.4}
+\contentsline {subsubsection}{\numberline {4.7.5}Premi.}{20}{subsubsection.4.7.5}
+\contentsline {section}{\numberline {5}Diagrammi delle attivit\IeC {\`a}}{20}{section.5}
+\contentsline {section}{\numberline {6}Stime di fattibilit\IeC {\`a} e di bisogno di risorse}{20}{section.6}
+\contentsline {section}{\numberline {7}Tracciamento della relazione componenti - requisiti}{20}{section.7}
+\contentsline {section}{\numberline {8}Descrizione delle tecnologie e dei design pattern utilizzati}{20}{section.8}
+\contentsline {section}{\numberline {9}Mockup Interfaccia [FACOLTATIVO]}{20}{section.9}
