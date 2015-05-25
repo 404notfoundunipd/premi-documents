@@ -1,0 +1,72 @@
+\BOOKMARK [1][-]{section.1}{Introduzione}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Scopo del documento}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Scopo del Prodotto}{section.1}% 3
+\BOOKMARK [2][-]{subsection.1.3}{Glossario}{section.1}% 4
+\BOOKMARK [1][-]{section.2}{Collaborazione}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Comunicazioni}{section.2}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Comunicazioni esterne}{subsection.2.1}% 7
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Comunicazioni interne}{subsection.2.1}% 8
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Compisizione e-mail}{subsection.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.2}{Riunioni}{section.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Riunioni interne}{subsection.2.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Riunioni Esterne}{subsection.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.3}{Metodi di Condivisione}{section.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Google Calendar}{subsection.2.3}% 14
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Google Drive}{subsection.2.3}% 15
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Mega}{subsection.2.3}% 16
+\BOOKMARK [3][-]{subsubsection.2.3.4}{GitHub}{subsection.2.3}% 17
+\BOOKMARK [1][-]{section.3}{Documenti}{}% 18
+\BOOKMARK [2][-]{subsection.3.1}{Template}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.2}{Struttura del documento}{section.3}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Prima pagina}{subsection.3.2}% 21
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Registro delle modifiche}{subsection.3.2}% 22
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Indici}{subsection.3.2}% 23
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Formattazione generale delle pagine}{subsection.3.2}% 24
+\BOOKMARK [2][-]{subsection.3.3}{Norme tipografiche}{section.3}% 25
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Punteggiatura}{subsection.3.3}% 26
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Stile del testo}{subsection.3.3}% 27
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Composizione del testo}{subsection.3.3}% 28
+\BOOKMARK [3][-]{subsubsection.3.3.4}{Formati}{subsection.3.3}% 29
+\BOOKMARK [3][-]{subsubsection.3.3.5}{Sigle}{subsection.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.4}{Componenti grafiche}{section.3}% 31
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Tabelle}{subsection.3.4}% 32
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Immagini}{subsection.3.4}% 33
+\BOOKMARK [2][-]{subsection.3.5}{Classificazione dei documenti}{section.3}% 34
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Documenti informali}{subsection.3.5}% 35
+\BOOKMARK [3][-]{subsubsection.3.5.2}{Documenti formali}{subsection.3.5}% 36
+\BOOKMARK [2][-]{subsection.3.6}{Versionamento}{section.3}% 37
+\BOOKMARK [2][-]{subsection.3.7}{Ciclo di vita}{section.3}% 38
+\BOOKMARK [1][-]{section.4}{Glossario}{}% 39
+\BOOKMARK [1][-]{section.5}{Ruoli di Progetto}{}% 40
+\BOOKMARK [2][-]{subsection.5.1}{Rotazione dei ruoli}{section.5}% 41
+\BOOKMARK [1][-]{section.6}{Risorse}{}% 42
+\BOOKMARK [2][-]{subsection.6.1}{Risorse Necessarie}{section.6}% 43
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Risorse Umane}{subsection.6.1}% 44
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Risorse Software}{subsection.6.1}% 45
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Risorse Hardware}{subsection.6.1}% 46
+\BOOKMARK [2][-]{subsection.6.2}{Risorse Disponibili}{section.6}% 47
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Risorse Software}{subsection.6.2}% 48
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Risorse Hardware}{subsection.6.2}% 49
+\BOOKMARK [1][-]{section.7}{Procedure e supporto dei processi}{}% 50
+\BOOKMARK [2][-]{subsection.7.1}{Procedura per lo sviluppo dell'applicazione}{section.7}% 51
+\BOOKMARK [3][-]{subsubsection.7.1.1}{Creare una milestone}{subsection.7.1}% 52
+\BOOKMARK [3][-]{subsubsection.7.1.2}{Creare un ticket}{subsection.7.1}% 53
+\BOOKMARK [3][-]{subsubsection.7.1.3}{Eseguire il compito}{subsection.7.1}% 54
+\BOOKMARK [3][-]{subsubsection.7.1.4}{Fase di Verifica}{subsection.7.1}% 55
+\BOOKMARK [3][-]{subsubsection.7.1.5}{Chiudere una milestone}{subsection.7.1}% 56
+\BOOKMARK [2][-]{subsection.7.2}{Analisi dei Requisiti}{section.7}% 57
+\BOOKMARK [3][-]{subsubsection.7.2.1}{Studio di Fattibilit\340}{subsection.7.2}% 58
+\BOOKMARK [3][-]{subsubsection.7.2.2}{Requisiti}{subsection.7.2}% 59
+\BOOKMARK [3][-]{subsubsection.7.2.3}{Casi d'Uso}{subsection.7.2}% 60
+\BOOKMARK [3][-]{subsubsection.7.2.4}{Tracciamento}{subsection.7.2}% 61
+\BOOKMARK [1][-]{section.8}{Ambiente di Lavoro}{}% 62
+\BOOKMARK [2][-]{subsection.8.1}{Coordinamento}{section.8}% 63
+\BOOKMARK [2][-]{subsection.8.2}{Ambiente Documentale}{section.8}% 64
+\BOOKMARK [2][-]{subsection.8.3}{Linee Guida}{section.8}% 65
+\BOOKMARK [2][-]{subsection.8.4}{Framework}{section.8}% 66
+\BOOKMARK [2][-]{subsection.8.5}{Ambiente di Sviluppo}{section.8}% 67
+\BOOKMARK [2][-]{subsection.8.6}{Ambiente di Verifica}{section.8}% 68
+\BOOKMARK [3][-]{subsubsection.8.6.1}{Ambiente Desktop}{subsection.8.6}% 69
+\BOOKMARK [3][-]{subsubsection.8.6.2}{Ambiente Mobile}{subsection.8.6}% 70
+\BOOKMARK [3][-]{subsubsection.8.6.3}{Ambiente Server}{subsection.8.6}% 71
+\BOOKMARK [1][-]{section.9}{Riferimenti}{}% 72
