@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.23)  25 MAY 2015 14:38
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.23)  25 MAY 2015 15:46
 entering extended mode
  %&-line parsing enabled.
 **descr_componenti.tex
@@ -4001,6 +4001,47 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no j in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no g in font nullfont!
+! Undefined control sequence.
+l.137 \subsubsection
+                    {Premi.Presentation.GraphicObject}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no G in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -4015,27 +4056,27 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (32.79845pt too wide) in paragraph at lines 138--139
+Overfull \hbox (32.79845pt too wide) in paragraph at lines 139--140
 \OT1/cmr/bx/n/10 Nome: 
  []
 
 
-Overfull \hbox (26.84708pt too wide) in paragraph at lines 139--140
+Overfull \hbox (26.84708pt too wide) in paragraph at lines 140--141
 \OT1/cmr/bx/n/10 Tipo:
  []
 
 
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 139--140
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 140--141
 \OT1/cmr/m/it/10 ab-
  []
 
 
-Overfull \hbox (24.1498pt too wide) in paragraph at lines 139--140
+Overfull \hbox (24.1498pt too wide) in paragraph at lines 140--141
 \OT1/cmr/m/it/10 stract
  []
 
 
-Overfull \hbox (21.26514pt too wide) in paragraph at lines 139--140
+Overfull \hbox (21.26514pt too wide) in paragraph at lines 140--141
 \OT1/cmr/m/it/10 class 
  []
 
@@ -4058,7 +4099,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (43.15945pt too wide) in paragraph at lines 140--141
+Overfull \hbox (43.15945pt too wide) in paragraph at lines 141--142
 \OT1/cmr/bx/n/10 Package: 
  []
 
@@ -4109,10 +4150,47 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (60.57747pt too wide) in paragraph at lines 141--142
+Overfull \hbox (60.57747pt too wide) in paragraph at lines 142--143
 \OT1/cmr/bx/n/10 Descrizione:
  []
 
+! Undefined control sequence.
+l.144 \subsubsection
+                    {Premi.Presentation.GoContent}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no G in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no C in font nullfont!
@@ -4123,27 +4201,27 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (32.79845pt too wide) in paragraph at lines 143--144
+Overfull \hbox (32.79845pt too wide) in paragraph at lines 146--147
 \OT1/cmr/bx/n/10 Nome: 
  []
 
 
-Overfull \hbox (26.84708pt too wide) in paragraph at lines 144--145
+Overfull \hbox (26.84708pt too wide) in paragraph at lines 147--148
 \OT1/cmr/bx/n/10 Tipo:
  []
 
 
-Overfull \hbox (13.28879pt too wide) in paragraph at lines 144--145
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 147--148
 \OT1/cmr/m/it/10 ab-
  []
 
 
-Overfull \hbox (24.1498pt too wide) in paragraph at lines 144--145
+Overfull \hbox (24.1498pt too wide) in paragraph at lines 147--148
 \OT1/cmr/m/it/10 stract
  []
 
 
-Overfull \hbox (21.26514pt too wide) in paragraph at lines 144--145
+Overfull \hbox (21.26514pt too wide) in paragraph at lines 147--148
 \OT1/cmr/m/it/10 class 
  []
 
@@ -4166,7 +4244,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (43.15945pt too wide) in paragraph at lines 145--146
+Overfull \hbox (43.15945pt too wide) in paragraph at lines 148--149
 \OT1/cmr/bx/n/10 Package: 
  []
 
@@ -4229,7 +4307,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (60.57747pt too wide) in paragraph at lines 146--147
+Overfull \hbox (60.57747pt too wide) in paragraph at lines 149--150
 \OT1/cmr/bx/n/10 Descrizione:
  []
 
@@ -4241,7 +4319,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.147 ...ioni con altri componenti:} estende \code
+l.150 ...ioni con altri componenti:} estende \code
                                                   {Premi.Presentation.Graphi...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4282,46 +4360,78 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (46.31918pt too wide) in paragraph at lines 147--148
+Overfull \hbox (46.31918pt too wide) in paragraph at lines 150--151
 \OT1/cmr/bx/n/10 Relazioni
  []
 
 
-Overfull \hbox (17.24991pt too wide) in paragraph at lines 147--148
+Overfull \hbox (17.24991pt too wide) in paragraph at lines 150--151
 \OT1/cmr/bx/n/10 con
  []
 
 
-Overfull \hbox (12.61797pt too wide) in paragraph at lines 147--148
+Overfull \hbox (12.61797pt too wide) in paragraph at lines 150--151
 \OT1/cmr/bx/n/10 al-
  []
 
 
-Overfull \hbox (12.40273pt too wide) in paragraph at lines 147--148
+Overfull \hbox (12.40273pt too wide) in paragraph at lines 150--151
 \OT1/cmr/bx/n/10 tri
  []
 
 
-Overfull \hbox (24.27765pt too wide) in paragraph at lines 147--148
+Overfull \hbox (24.27765pt too wide) in paragraph at lines 150--151
 \OT1/cmr/bx/n/10 com-
  []
 
 
-Overfull \hbox (16.29158pt too wide) in paragraph at lines 147--148
+Overfull \hbox (16.29158pt too wide) in paragraph at lines 150--151
 \OT1/cmr/bx/n/10 po-
  []
 
 
-Overfull \hbox (28.59013pt too wide) in paragraph at lines 147--148
+Overfull \hbox (28.59013pt too wide) in paragraph at lines 150--151
 \OT1/cmr/bx/n/10 nenti:
  []
 
+! Undefined control sequence.
+l.152 \subsubsection
+                    {Premi.Presentation.Text}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no T in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (32.79845pt too wide) in paragraph at lines 150--151
+Overfull \hbox (32.79845pt too wide) in paragraph at lines 154--155
 \OT1/cmr/bx/n/10 Nome: 
  []
 
@@ -4331,7 +4441,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (26.84708pt too wide) in paragraph at lines 151--152
+Overfull \hbox (26.84708pt too wide) in paragraph at lines 155--156
 \OT1/cmr/bx/n/10 Tipo: 
  []
 
@@ -4354,7 +4464,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (43.15945pt too wide) in paragraph at lines 152--153
+Overfull \hbox (43.15945pt too wide) in paragraph at lines 156--157
 \OT1/cmr/bx/n/10 Package: 
  []
 
@@ -4402,7 +4512,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (60.57747pt too wide) in paragraph at lines 153--154
+Overfull \hbox (60.57747pt too wide) in paragraph at lines 157--158
 \OT1/cmr/bx/n/10 Descrizione:
  []
 
@@ -4414,7 +4524,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.154     \item \textbf
+l.158     \item \textbf
                        {Relazioni con altri componenti:} estende \code{Premi...
 
 Your command was ignored.
@@ -4431,7 +4541,7 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 
 ! Undefined control sequence.
-l.154 ...ioni con altri componenti:} estende \code
+l.158 ...ioni con altri componenti:} estende \code
                                                   {Premi.Presentation.GoCont...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4468,47 +4578,80 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (46.31918pt too wide) in paragraph at lines 154--155
+Overfull \hbox (46.31918pt too wide) in paragraph at lines 158--159
 \OT1/cmr/bx/n/10 Relazioni
  []
 
 
-Overfull \hbox (17.24991pt too wide) in paragraph at lines 154--155
+Overfull \hbox (17.24991pt too wide) in paragraph at lines 158--159
 \OT1/cmr/bx/n/10 con
  []
 
 
-Overfull \hbox (12.61797pt too wide) in paragraph at lines 154--155
+Overfull \hbox (12.61797pt too wide) in paragraph at lines 158--159
 \OT1/cmr/bx/n/10 al-
  []
 
 
-Overfull \hbox (12.40273pt too wide) in paragraph at lines 154--155
+Overfull \hbox (12.40273pt too wide) in paragraph at lines 158--159
 \OT1/cmr/bx/n/10 tri
  []
 
 
-Overfull \hbox (24.27765pt too wide) in paragraph at lines 154--155
+Overfull \hbox (24.27765pt too wide) in paragraph at lines 158--159
 \OT1/cmr/bx/n/10 com-
  []
 
 
-Overfull \hbox (16.29158pt too wide) in paragraph at lines 154--155
+Overfull \hbox (16.29158pt too wide) in paragraph at lines 158--159
 \OT1/cmr/bx/n/10 po-
  []
 
 
-Overfull \hbox (28.59013pt too wide) in paragraph at lines 154--155
+Overfull \hbox (28.59013pt too wide) in paragraph at lines 158--159
 \OT1/cmr/bx/n/10 nenti:
  []
 
+! Undefined control sequence.
+l.160 \subsubsection
+                    {Premi.Presentation.Image}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (32.79845pt too wide) in paragraph at lines 157--158
+Overfull \hbox (32.79845pt too wide) in paragraph at lines 162--163
 \OT1/cmr/bx/n/10 Nome: 
  []
 
@@ -4518,7 +4661,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (26.84708pt too wide) in paragraph at lines 158--159
+Overfull \hbox (26.84708pt too wide) in paragraph at lines 163--164
 \OT1/cmr/bx/n/10 Tipo: 
  []
 
@@ -4541,7 +4684,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (43.15945pt too wide) in paragraph at lines 159--160
+Overfull \hbox (43.15945pt too wide) in paragraph at lines 164--165
 \OT1/cmr/bx/n/10 Package: 
  []
 
@@ -4586,7 +4729,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (60.57747pt too wide) in paragraph at lines 160--161
+Overfull \hbox (60.57747pt too wide) in paragraph at lines 165--166
 \OT1/cmr/bx/n/10 Descrizione:
  []
 
@@ -4598,7 +4741,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.161 ...ioni con altri componenti:} estende \code
+l.166 ...ioni con altri componenti:} estende \code
                                                   {Premi.Presentation.GoCont...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4635,47 +4778,80 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (46.31918pt too wide) in paragraph at lines 161--162
+Overfull \hbox (46.31918pt too wide) in paragraph at lines 166--167
 \OT1/cmr/bx/n/10 Relazioni
  []
 
 
-Overfull \hbox (17.24991pt too wide) in paragraph at lines 161--162
+Overfull \hbox (17.24991pt too wide) in paragraph at lines 166--167
 \OT1/cmr/bx/n/10 con
  []
 
 
-Overfull \hbox (12.61797pt too wide) in paragraph at lines 161--162
+Overfull \hbox (12.61797pt too wide) in paragraph at lines 166--167
 \OT1/cmr/bx/n/10 al-
  []
 
 
-Overfull \hbox (12.40273pt too wide) in paragraph at lines 161--162
+Overfull \hbox (12.40273pt too wide) in paragraph at lines 166--167
 \OT1/cmr/bx/n/10 tri
  []
 
 
-Overfull \hbox (24.27765pt too wide) in paragraph at lines 161--162
+Overfull \hbox (24.27765pt too wide) in paragraph at lines 166--167
 \OT1/cmr/bx/n/10 com-
  []
 
 
-Overfull \hbox (16.29158pt too wide) in paragraph at lines 161--162
+Overfull \hbox (16.29158pt too wide) in paragraph at lines 166--167
 \OT1/cmr/bx/n/10 po-
  []
 
 
-Overfull \hbox (28.59013pt too wide) in paragraph at lines 161--162
+Overfull \hbox (28.59013pt too wide) in paragraph at lines 166--167
 \OT1/cmr/bx/n/10 nenti:
  []
 
+! Undefined control sequence.
+l.168 \subsubsection
+                    {Premi.Presentation.Shape}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (32.79845pt too wide) in paragraph at lines 164--165
+Overfull \hbox (32.79845pt too wide) in paragraph at lines 170--171
 \OT1/cmr/bx/n/10 Nome: 
  []
 
@@ -4685,7 +4861,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (26.84708pt too wide) in paragraph at lines 165--166
+Overfull \hbox (26.84708pt too wide) in paragraph at lines 171--172
 \OT1/cmr/bx/n/10 Tipo: 
  []
 
@@ -4708,7 +4884,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 
-Overfull \hbox (43.15945pt too wide) in paragraph at lines 166--167
+Overfull \hbox (43.15945pt too wide) in paragraph at lines 172--173
 \OT1/cmr/bx/n/10 Package: 
  []
 
@@ -4751,7 +4927,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (60.57747pt too wide) in paragraph at lines 167--168
+Overfull \hbox (60.57747pt too wide) in paragraph at lines 173--174
 \OT1/cmr/bx/n/10 Descrizione:
  []
 
@@ -4763,7 +4939,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-l.168 ...ioni con altri componenti:} estende \code
+l.174 ...ioni con altri componenti:} estende \code
                                                   {Premi.Presentation.GoCont...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4800,275 +4976,78 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (46.31918pt too wide) in paragraph at lines 168--169
+Overfull \hbox (46.31918pt too wide) in paragraph at lines 174--175
 \OT1/cmr/bx/n/10 Relazioni
  []
 
 
-Overfull \hbox (17.24991pt too wide) in paragraph at lines 168--169
+Overfull \hbox (17.24991pt too wide) in paragraph at lines 174--175
 \OT1/cmr/bx/n/10 con
  []
 
 
-Overfull \hbox (12.61797pt too wide) in paragraph at lines 168--169
+Overfull \hbox (12.61797pt too wide) in paragraph at lines 174--175
 \OT1/cmr/bx/n/10 al-
  []
 
 
-Overfull \hbox (12.40273pt too wide) in paragraph at lines 168--169
+Overfull \hbox (12.40273pt too wide) in paragraph at lines 174--175
 \OT1/cmr/bx/n/10 tri
  []
 
 
-Overfull \hbox (24.27765pt too wide) in paragraph at lines 168--169
+Overfull \hbox (24.27765pt too wide) in paragraph at lines 174--175
 \OT1/cmr/bx/n/10 com-
  []
 
 
-Overfull \hbox (16.29158pt too wide) in paragraph at lines 168--169
+Overfull \hbox (16.29158pt too wide) in paragraph at lines 174--175
 \OT1/cmr/bx/n/10 po-
  []
 
 
-Overfull \hbox (28.59013pt too wide) in paragraph at lines 168--169
+Overfull \hbox (28.59013pt too wide) in paragraph at lines 174--175
 \OT1/cmr/bx/n/10 nenti:
  []
 
+! Undefined control sequence.
+l.176 \subsubsection
+                    {Premi.Presentation.Frame}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
-
-Overfull \hbox (32.79845pt too wide) in paragraph at lines 171--172
-\OT1/cmr/bx/n/10 Nome: 
- []
-
-Missing character: There is no c in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-
-Overfull \hbox (26.84708pt too wide) in paragraph at lines 172--173
-\OT1/cmr/bx/n/10 Tipo: 
- []
-
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-
-Overfull \hbox (43.15945pt too wide) in paragraph at lines 173--174
-\OT1/cmr/bx/n/10 Package: 
- []
-
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no f in font nullfont!
+Missing character: There is no F in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no z in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-
-Overfull \hbox (60.57747pt too wide) in paragraph at lines 174--175
-\OT1/cmr/bx/n/10 Descrizione:
- []
-
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-! Undefined control sequence.
-l.175 ...ioni con altri componenti:} estende \code
-                                                  {Premi.Presentation.Graphi...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no j in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-! Undefined control sequence.
-l.175 ...} e possiede un insieme di oggetti  \code
-                                                  {Premi.Presentation.GoCont...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-
-Overfull \hbox (46.31918pt too wide) in paragraph at lines 175--176
-\OT1/cmr/bx/n/10 Relazioni
- []
-
-
-Overfull \hbox (17.24991pt too wide) in paragraph at lines 175--176
-\OT1/cmr/bx/n/10 con
- []
-
-
-Overfull \hbox (12.61797pt too wide) in paragraph at lines 175--176
-\OT1/cmr/bx/n/10 al-
- []
-
-
-Overfull \hbox (12.40273pt too wide) in paragraph at lines 175--176
-\OT1/cmr/bx/n/10 tri
- []
-
-
-Overfull \hbox (24.27765pt too wide) in paragraph at lines 175--176
-\OT1/cmr/bx/n/10 com-
- []
-
-
-Overfull \hbox (16.29158pt too wide) in paragraph at lines 175--176
-\OT1/cmr/bx/n/10 po-
- []
-
-
-Overfull \hbox (28.59013pt too wide) in paragraph at lines 175--176
-\OT1/cmr/bx/n/10 nenti:
- []
-
-Missing character: There is no T in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no l in font nullfont!
 
 Overfull \hbox (32.79845pt too wide) in paragraph at lines 178--179
 \OT1/cmr/bx/n/10 Nome: 
@@ -5120,6 +5099,269 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+
+Overfull \hbox (60.57747pt too wide) in paragraph at lines 181--182
+\OT1/cmr/bx/n/10 Descrizione:
+ []
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+l.182 ...ioni con altri componenti:} estende \code
+                                                  {Premi.Presentation.Graphi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+! Undefined control sequence.
+l.182 ...} e possiede un insieme di oggetti  \code
+                                                  {Premi.Presentation.GoCont...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Overfull \hbox (46.31918pt too wide) in paragraph at lines 182--183
+\OT1/cmr/bx/n/10 Relazioni
+ []
+
+
+Overfull \hbox (17.24991pt too wide) in paragraph at lines 182--183
+\OT1/cmr/bx/n/10 con
+ []
+
+
+Overfull \hbox (12.61797pt too wide) in paragraph at lines 182--183
+\OT1/cmr/bx/n/10 al-
+ []
+
+
+Overfull \hbox (12.40273pt too wide) in paragraph at lines 182--183
+\OT1/cmr/bx/n/10 tri
+ []
+
+
+Overfull \hbox (24.27765pt too wide) in paragraph at lines 182--183
+\OT1/cmr/bx/n/10 com-
+ []
+
+
+Overfull \hbox (16.29158pt too wide) in paragraph at lines 182--183
+\OT1/cmr/bx/n/10 po-
+ []
+
+
+Overfull \hbox (28.59013pt too wide) in paragraph at lines 182--183
+\OT1/cmr/bx/n/10 nenti:
+ []
+
+! Undefined control sequence.
+l.184 \subsubsection
+                    {Premi.Presentation.Trail}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+
+Overfull \hbox (32.79845pt too wide) in paragraph at lines 186--187
+\OT1/cmr/bx/n/10 Nome: 
+ []
+
+Missing character: There is no c in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (26.84708pt too wide) in paragraph at lines 187--188
+\OT1/cmr/bx/n/10 Tipo: 
+ []
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+
+Overfull \hbox (43.15945pt too wide) in paragraph at lines 188--189
+\OT1/cmr/bx/n/10 Package: 
+ []
+
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -5147,7 +5389,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (60.57747pt too wide) in paragraph at lines 181--182
+Overfull \hbox (60.57747pt too wide) in paragraph at lines 189--190
 \OT1/cmr/bx/n/10 Descrizione:
  []
 
@@ -5196,7 +5438,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
 ! Undefined control sequence.
-l.182 ...a di riferimenti ad oggetti di tipo \code
+l.190 ...a di riferimenti ad oggetti di tipo \code
                                                   {Premi.Presentation.Frame}...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5265,228 +5507,1052 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 
-Overfull \hbox (46.31918pt too wide) in paragraph at lines 182--183
+Overfull \hbox (46.31918pt too wide) in paragraph at lines 190--191
 \OT1/cmr/bx/n/10 Relazioni
  []
 
 
-Overfull \hbox (17.24991pt too wide) in paragraph at lines 182--183
+Overfull \hbox (17.24991pt too wide) in paragraph at lines 190--191
 \OT1/cmr/bx/n/10 con
  []
 
 
-Overfull \hbox (12.61797pt too wide) in paragraph at lines 182--183
+Overfull \hbox (12.61797pt too wide) in paragraph at lines 190--191
 \OT1/cmr/bx/n/10 al-
  []
 
 
-Overfull \hbox (12.40273pt too wide) in paragraph at lines 182--183
+Overfull \hbox (12.40273pt too wide) in paragraph at lines 190--191
 \OT1/cmr/bx/n/10 tri
  []
 
 
-Overfull \hbox (24.27765pt too wide) in paragraph at lines 182--183
+Overfull \hbox (24.27765pt too wide) in paragraph at lines 190--191
 \OT1/cmr/bx/n/10 com-
  []
 
 
-Overfull \hbox (16.29158pt too wide) in paragraph at lines 182--183
+Overfull \hbox (16.29158pt too wide) in paragraph at lines 190--191
 \OT1/cmr/bx/n/10 po-
  []
 
 
-Overfull \hbox (28.59013pt too wide) in paragraph at lines 182--183
+Overfull \hbox (28.59013pt too wide) in paragraph at lines 190--191
 \OT1/cmr/bx/n/10 nenti:
  []
 
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.192 _
+       ___________________________________________dipendenze di presentation...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Overfull \hbox (32.79845pt too wide) in paragraph at lines 185--186
-\OT1/cmr/bx/n/10 Nome: 
- []
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 192.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 192.
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 __
+        __________________________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-Missing character: There is no c in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ___
+         _________________________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-Overfull \hbox (26.84708pt too wide) in paragraph at lines 186--187
-\OT1/cmr/bx/n/10 Tipo: 
- []
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ____
+          ________________________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _____
+           _______________________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-Overfull \hbox (43.15945pt too wide) in paragraph at lines 187--188
-\OT1/cmr/bx/n/10 Package: 
- []
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ______
+            ______________________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no z in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _______
+             _____________________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-Overfull \hbox (60.57747pt too wide) in paragraph at lines 188--189
-\OT1/cmr/bx/n/10 Descrizione:
- []
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ________
+              ____________________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
 
-Missing character: There is no p in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _________
+               ___________________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 __________
+                __________________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ___________
+                 _________________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ____________
+                  ________________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _____________
+                   _______________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ______________
+                    ______________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _______________
+                     _____________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ________________
+                      ____________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _________________
+                       ___________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 __________________
+                        __________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ___________________
+                         _________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ____________________
+                          ________________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _____________________
+                           _______________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ______________________
+                            ______________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _______________________
+                             _____________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ________________________
+                              ____________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _________________________
+                               ___________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 __________________________
+                                __________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ___________________________
+                                 _________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ____________________________
+                                  ________________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _____________________________
+                                   _______________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ______________________________
+                                    ______________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _______________________________
+                                     _____________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ________________________________
+                                      ____________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _________________________________
+                                       ___________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 __________________________________
+                                        __________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ___________________________________
+                                         _________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ____________________________________
+                                          ________dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _____________________________________
+                                           _______dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ______________________________________
+                                            ______dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _______________________________________
+                                             _____dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ________________________________________
+                                              ____dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 _________________________________________
+                                               ___dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 __________________________________________
+                                                __dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ___________________________________________
+                                                 _dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.192 ____________________________________________
+                                                  dipendenze di presentation...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 __
+        __________________________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ___
+         _________________________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ____
+          ________________________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _____
+           _______________________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ______
+            ______________________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _______
+             _____________________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ________
+              ____________________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _________
+               ___________________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 __________
+                __________________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ___________
+                 _________________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ____________
+                  ________________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _____________
+                   _______________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ______________
+                    ______________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _______________
+                     _____________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ________________
+                      ____________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _________________
+                       ___________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 __________________
+                        __________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ___________________
+                         _________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ____________________
+                          ________________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _____________________
+                           _______________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ______________________
+                            ______________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _______________________
+                             _____________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ________________________
+                              ____________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _________________________
+                               ___________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 __________________________
+                                __________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ___________________________
+                                 _________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ____________________________
+                                  ________________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _____________________________
+                                   _______________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ______________________________
+                                    ______________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _______________________________
+                                     _____________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ________________________________
+                                      ____________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _________________________________
+                                       ___________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 __________________________________
+                                        __________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ___________________________________
+                                         _________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ____________________________________
+                                          ________Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _____________________________________
+                                           _______Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ______________________________________
+                                            ______Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _______________________________________
+                                             _____Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ________________________________________
+                                              ____Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 _________________________________________
+                                               ___Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 __________________________________________
+                                                __Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ___________________________________________
+                                                 _Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing { inserted.
+<to be read again> 
+                   _
+l.193 ____________________________________________
+                                                  Completo_Dettagliato.jpg
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
 ! Undefined control sequence.
-l.189 ...nti:} possiede una lista di oggetti \code
-                                                  {premi.Presentation.Frame}
+l.194 \subsubsection
+                    {Premi.Presentation.Presentation}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no p in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no e in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.195 \begin{itemize}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-Overfull \hbox (46.31918pt too wide) in paragraph at lines 189--190
-\OT1/cmr/bx/n/10 Relazioni
- []
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.195 \begin{itemize}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.195 \begin{itemize}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Overfull \hbox (17.24991pt too wide) in paragraph at lines 189--190
-\OT1/cmr/bx/n/10 con
- []
+! Missing } inserted.
+<inserted text> 
+                }
+l.195 \begin{itemize}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.195 \begin{itemize}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Overfull \hbox (12.61797pt too wide) in paragraph at lines 189--190
-\OT1/cmr/bx/n/10 al-
- []
+! Missing } inserted.
+<inserted text> 
+                }
+l.195 \begin{itemize}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.195 \begin{itemize}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Overfull \hbox (12.40273pt too wide) in paragraph at lines 189--190
-\OT1/cmr/bx/n/10 tri
- []
+! Missing } inserted.
+<inserted text> 
+                }
+l.195 \begin{itemize}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.195 \begin{itemize}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Overfull \hbox (24.27765pt too wide) in paragraph at lines 189--190
-\OT1/cmr/bx/n/10 com-
- []
+! Missing } inserted.
+<inserted text> 
+                }
+l.195 \begin{itemize}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.195 \begin{itemize}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-Overfull \hbox (16.29158pt too wide) in paragraph at lines 189--190
-\OT1/cmr/bx/n/10 po-
- []
-
-
-Overfull \hbox (28.59013pt too wide) in paragraph at lines 189--190
-\OT1/cmr/bx/n/10 nenti:
- []
-
-)
-! Emergency stop.
-<*> descr_componenti.tex
-                        
-*** (job aborted, no legal \end found)
-
- 
+! Missing } inserted.
+<inserted text> 
+                }
+l.195 \begin{itemize}
+                     
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
  17 strings out of 493848
- 289 string characters out of 1152823
+ 299 string characters out of 1152823
  62808 words of memory out of 3000000
  3389 multiletter control sequences out of 15000+50000
  4294 words of font info for 16 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 21i,4n,15p,306b,202s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 21i,88n,15p,306b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+
 !  ==> Fatal error occurred, no output PDF file produced!
