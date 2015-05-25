@@ -2,3 +2,347 @@
 	Tipo, obiettivo e funzione del componente \\
 	Relazioni d'uso di altre componenti \\
 	Interfacce con le relazioni di uso da altre componenti \\
+\subsection{Premi}
+-----------------------------premi-class.jpg
+
+----template------
+\subsubsection{Premi.}
+\begin{itemize}
+  \item \textbf{Nome:}
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.
+  \item \textbf{Descrizione:}
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+---/template-----
+
+
+\subsubsection{Premi.Utility}
+\begin{itemize}
+  \item[] \textbf{Nome:} Utility
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi
+  \item[] \textbf{Descrizione:} classe statica di utilità che fornisce strumenti per interagire con la base di dati
+\end{itemize}
+
+\subsubsection{Premi.View}
+\begin{itemize}
+  \item \textbf{Nome:} View
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi
+  \item \textbf{Descrizione:} view generale che funge da sfondo per le altre view
+\end{itemize}
+
+\subsubsection{Premi.PremiCtrl}
+\begin{itemize}
+  \item \textbf{Nome:} PremiCtrl
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi
+  \item \textbf{Descrizione:} controller generale che modifica la view principale in base alle scelte dell'utente
+  \item \textbf{Relazioni con altri componenti:} la classe altera l'aspetto di \code{Premi.View} caricando le view di cui l'utente ha bisogno 
+\end{itemize}
+
+\subsection{Premi.UserManager}
+-----------------------------premi-class.jpg
+\subsubsection{Premi.UserManager.User}
+-----------------------------UserManager-class.jpg (mostra le relazioni che possiede ESTERNE al package)
+\begin{itemize}
+  \item \textbf{Nome:} User
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManger
+  \item \textbf{Descrizione:} classe che definisce un utente e fornisce le funzionalità necessarie alla sua creazione, al suo login e ad un eventuale cambio di password
+  \item \textbf{Relazioni con altri componenti:} si collega a \code{Premi.Utility} per le interazioni con la base di dati
+\end{itemize}
+
+\subsubsection{Premi.UserManager.View}
+\begin{itemize}
+  \item \textbf{Nome:} View
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManger
+  \item \textbf{Descrizione:} vista generale del package \code{UserManager}. Puo' contenere le view abbinate alle funzionalità di \code{User}
+\end{itemize}
+\subsubsection{Premi.UserManager.UserManagerCtrl}
+\begin{itemize}
+  \item \textbf{Nome:} UserManagerCtrl
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} controller generale del package \code{UserManager} dedicato a fornire alla view strumenti per l'interazione con l'utente
+  \item \textbf{Relazioni con altri componenti:} si collega a \code{Premi.UserManager.View} per mostrare i dati dell'utente che va a prelevare tramite {Premi.UserManager.User}
+\end{itemize}
+\subsubsection{Premi.UserManager.LoginView}
+\begin{itemize}
+  \item \textbf{Nome:} LoginView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} view che permette all'utente di effettuare la login
+\end{itemize}
+\subsubsection{Premi.UserManager.LoginController}
+\begin{itemize}
+  \item \textbf{Nome:} LoginController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} fornisce gli strumenti necessari alla view per effettuare la login
+  \item \textbf{Relazioni con altri componenti:} con \code{Premi.UserManager.LoginView} e con \code{Premi.UserManager.User} per trasmettere le informazioni relative al login
+\end{itemize}
+\subsubsection{Premi.UserManager.RegistrationView}
+\begin{itemize}
+  \item \textbf{Nome:} RegistrationView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} view che permette all'utente di registrarsi nel sistema
+\end{itemize}
+\subsubsection{Premi.UserManager.RegistrationController}
+\begin{itemize}
+  \item \textbf{Nome:} RegistrationController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} fornisce gli strumenti necessari alla view per registrare l'utente
+  \item \textbf{Relazioni con altri componenti:} con \code{Premi.UserManager.RegistrationView} e con \code{Premi.UserManager.User} per trasmettere le informazioni relative alla registrazione
+\end{itemize}
+\subsubsection{Premi.UserManager.ChangePasswordView}
+\begin{itemize}
+  \item \textbf{Nome:} ChangePasswordView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} view che permette all'utente di cambiare la propria password
+\end{itemize}
+\subsubsection{Premi.UserManager.ChangePasswordController}
+\begin{itemize}
+  \item \textbf{Nome:} ChangePassword
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} fornisce gli strumenti necessari alla view per cambiare la password dell'utente
+  \item \textbf{Relazioni con altri componenti:} con \code{Premi.UserManager.ChangePasswordView} e con \code{Premi.UserManager.User} per trasmettere le informazioni relative al cambio password
+\end{itemize}
+
+\subsection{Premi.Viewer}
+---------------------------viewer-class.jpg
+\subsubsection{Premi.Viewer.View}
+\begin{itemize}
+  \item \textbf{Nome:} View
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Viewer
+  \item \textbf{Descrizione:} view che mostra la presentazione all'utente, offrendo funzionalità dipendenti dalla visibilità(pubblica o privata) o dal contesto in cui si trova(presentazione live) 
+\end{itemize}
+\subsubsection{Premi.ViewerCtrl}
+\begin{itemize}
+  \item \textbf{Nome:} ViewerCtrl
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Viewer
+  \item \textbf{Descrizione:} abilita funzionalità nella view in base all'utente
+  \item \textbf{Relazioni con altri componenti:} con \code{Premi.Viewer.View}, con \code{Premi.UserManager.User} per verificare se l'utente è il proprietario della presentazione, e con la libreria esterna \code{ImpressJs} per aggiungere animazioni alla presentazione
+\end{itemize}
+\subsection{Premi.Presentation}
+-------------------presentation-class.jpg
+\subsubsection{Premi.Presentation.GraphicObject}
+\begin{itemize}
+  \item \textbf{Nome:} GraphicObject
+  \item \textbf{Tipo:} \textit{abstract class}
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta gli oggetti grafici nella presentazione
+\end{itemize}
+\subsubsection{Premi.Presentation.GoContent}
+\begin{itemize}
+  \item \textbf{Nome:} GoContent
+  \item \textbf{Tipo:} \textit{abstract class}
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta gli oggetti grafici con contenuto di una presentazione
+  \item \textbf{Relazioni con altri componenti:} estende \code{Premi.Presentation.GraphicObject}
+\end{itemize}
+\subsubsection{Premi.Presentation.Text}
+\begin{itemize}
+  \item \textbf{Nome:} Text
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta un'area di testo nella presentazione
+    \item \textbf{Relazioni con altri componenti:} estende \code{Premi.Presentation.GoContent}
+\end{itemize}
+\subsubsection{Premi.Presentation.Image}
+\begin{itemize}
+  \item \textbf{Nome:} Image
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta un'immagine nella presentazione
+      \item \textbf{Relazioni con altri componenti:} estende \code{Premi.Presentation.GoContent}
+\end{itemize}
+\subsubsection{Premi.Presentation.Shape}
+\begin{itemize}
+  \item \textbf{Nome:} Shape
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta una figura nella presentazione
+      \item \textbf{Relazioni con altri componenti:} estende \code{Premi.Presentation.GoContent}
+\end{itemize}
+\subsubsection{Premi.Presentation.Frame}
+\begin{itemize}
+  \item \textbf{Nome:} Frame
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta un frame nella presentazine
+  \item \textbf{Relazioni con altri componenti:} estende \code{Premi.Presentation.GraphicObject} e possiede un insieme di oggetti  \code{Premi.Presentation.GoContent}
+\end{itemize}
+\subsubsection{Premi.Presentation.Trail}
+\begin{itemize}
+  \item \textbf{Nome:} Trail
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta un percorso nella presentazione
+  \item \textbf{Relazioni con altri componenti:} possiede una lista di riferimenti ad oggetti di tipo \code{Premi.Presentation.Frame}, ma non è in possesso degli oggetti stessi
+\end{itemize}
+-------------------------------dipendenze di presentation.jpg CITARE L'IMMAGINE DELLE DIPENDENZE CON DI PRESENTATION
+Completo-Dettagliato.jpg
+\subsubsection{Premi.Presentation.Presentation}
+\begin{itemize}
+  \item \textbf{Nome:} Presentation
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Presentation
+  \item \textbf{Descrizione:} rappresenta una presentazione
+  \item \textbf{Relazioni con altri componenti:} possiede una lista di oggetti \code{premi.Presentation.Frame}, identifica l'appartenenza di una presentazione ad un determinato \code{Premi.UserManager.User} e si collega alla base di dati tramite la classe statica \code{Premi.Utility}
+\end{itemize}
+
+
+
+\subsection{Premi.PresentationManager}
+-------usermanager-classe.jpg
+\subsubsection{Premi.PresentationManager.Export}
+\begin{itemize}
+  \item \textbf{Nome:} Export 
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} permette di esportare la presentazione in formato poster
+  \item \textbf{Relazioni con altri componenti:} preleva le informazioni da \code{Premi.Presentation.Presentation} per costruire il poster
+\end{itemize}
+\subsubsection{Premi.PresentationManager.Portable}
+\begin{itemize}
+  \item \textbf{Nome:} Portable
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} permette di rendere portabile una presentazione, e quindi di essere indipendente dal software Premi e di essere caricata come pagina HTML da un browser
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+\subsubsection{Premi.PresentationManager.View}
+\begin{itemize}
+  \item \textbf{Nome:} View
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationController
+  \item \textbf{Descrizione:} è la view generale delle operazioni che l'utente puo' effettuare sul
+\end{itemize}
+\subsubsection{Premi.PresentationManager.PresentationManagerCtrl}
+\begin{itemize}
+  \item \textbf{Nome:} PresentationManagerCtrl
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} fornisce alla view gli strumenti necessari alla gestione delle presentazioni
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.View} 
+\end{itemize}
+\subsubsection{Premi.PresentationManager.RemoveView}
+\begin{itemize}
+  \item \textbf{Nome:} RemoveView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} mostra una finestra di conferma eliminazione della presentazione selezionata
+\end{itemize}
+\subsubsection{Premi.PresentationManager.RemoveController}
+\begin{itemize}
+  \item \textbf{Nome:} RemoveController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} fornisce alla view gli strumenti per rimuovere la presentazione o annullare l'azione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.RemoveView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per l'eliminazione della presentazione 
+\end{itemize}
+\subsubsection{Premi.PresentationManager.PublicView}
+\begin{itemize}
+  \item \textbf{Nome:} PublicView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} mostra una finestra di conferma per rendere pubblica o privata una presentazione
+\end{itemize}
+\subsubsection{Premi.PresentationManager.PublicController}
+\begin{itemize}
+  \item \textbf{Nome:} PublicController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} fornisce alla view gli strumenti per rendere pubblica o privata una presentazione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.PublicView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per accedere alla base di dati
+\end{itemize}
+\subsubsection{Premi.PresentationManager.EditTitleDescrView}
+\begin{itemize}
+  \item \textbf{Nome:} EditTitleDescrView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} mostra una finestra per la modifica del titolo e della descrizone della presentazione
+\end{itemize}
+\subsubsection{Premi.PresentationManager.EditTitleDescrController}
+\begin{itemize}
+  \item \textbf{Nome:} EditTitleDescrController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} fornisce alla view la possibilità di modificare titolo e descrizione della presentazione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.EditTitleDescrView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per accedere alla base di dati
+\end{itemize}
+\subsubsection{Premi.PresentationManager.NewView}
+\begin{itemize}
+  \item \textbf{Nome:} NewView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} mostra una finestra per la creazione di una nuova presentazione
+\end{itemize}
+\subsubsection{Premi.PresentationManager.NewController}
+\begin{itemize}
+  \item \textbf{Nome:} NewController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} fornisce alla view gli strumenti per creare una nuova presentazione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.NewView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per accedere alla base di dati
+\end{itemize}
+\subsubsection{Premi.PresentationManager.ListPresView}
+\begin{itemize}
+  \item \textbf{Nome:} ListPresView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} mostra all'utente la lista delle sue presentazioni, e bottoni aggiuntivi per accedere alle altre funzionalità del package
+\end{itemize}
+\subsubsection{Premi.PresentationManager.ListPresController}
+\begin{itemize}
+  \item \textbf{Nome:} ListPresController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} fornisce alla view una lista preformata delle presentazioni dell'utente
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.ListPresView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per recuperare la lista delle presentazioni
+\end{itemize}
+\subsubsection{Premi.}
+\begin{itemize}
+  \item \textbf{Nome:}
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.
+  \item \textbf{Descrizione:}
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+\subsubsection{Premi.}
+\begin{itemize}
+  \item \textbf{Nome:}
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.
+  \item \textbf{Descrizione:}
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+\subsubsection{Premi.}
+\begin{itemize}
+  \item \textbf{Nome:}
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.
+  \item \textbf{Descrizione:}
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
