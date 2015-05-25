@@ -189,14 +189,154 @@
   \item \textbf{Descrizione:} rappresenta un percorso nella presentazione
   \item \textbf{Relazioni con altri componenti:} possiede una lista di riferimenti ad oggetti di tipo \code{Premi.Presentation.Frame}, ma non è in possesso degli oggetti stessi
 \end{itemize}
+-------------------------------dipendenze di presentation.jpg /////CITARE L'IMMAGINE DELLE DIPENDENZE CON/DI PRESENTATION
+-------------------------------------------Completo_Dettagliato.jpg
 \subsubsection{Premi.Presentation.Presentation}
 \begin{itemize}
   \item \textbf{Nome:} Presentation
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Presentation
   \item \textbf{Descrizione:} rappresenta una presentazione
-  \item \textbf{Relazioni con altri componenti:} possiede una lista di oggetti \code{premi.Presentation.Frame}
+  \item \textbf{Relazioni con altri componenti:} possiede una lista di oggetti \code{premi.Presentation.Frame}, identifica l'appartenenza di una presentazione ad un determinato \code{Premi.UserManager.User} e si collega alla base di dati tramite la classe statica \code{Premi.Utility}
 \end{itemize}
+
+
+
+\subsection{Premi.PresentationManager}
+----------------------------------usermanager_classe.jpg
+\subsubsection{Premi.PresentationManager.Export}
+\begin{itemize}
+  \item \textbf{Nome:} Export 
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} permette di esportare la presentazione in formato poster
+  \item \textbf{Relazioni con altri componenti:} preleva le informazioni da \code{Premi.Presentation.Presentation} per costruire il poster
+\end{itemize}
+\subsubsection{Premi.PresentationManager.Portable}
+\begin{itemize}
+  \item \textbf{Nome:} Portable
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} permette di rendere portabile una presentazione, e quindi di essere indipendente dal software Premi e di essere caricata come pagina HTML da un browser
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+\subsubsection{Premi.PresentationManager.View}
+\begin{itemize}
+  \item \textbf{Nome:} View
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationController
+  \item \textbf{Descrizione:} è la view generale delle operazioni che l'utente puo' effettuare sul
+\end{itemize}
+\subsubsection{Premi.PresentationManager.PresentationManagerCtrl}
+\begin{itemize}
+  \item \textbf{Nome:} PresentationManagerCtrl
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} fornisce alla view gli strumenti necessari alla gestione delle presentazioni
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.View} 
+\end{itemize}
+\subsubsection{Premi.PresentationManager.RemoveView}
+\begin{itemize}
+  \item \textbf{Nome:} RemoveView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} mostra una finestra di conferma eliminazione della presentazione selezionata
+\end{itemize}
+\subsubsection{Premi.PresentationManager.RemoveController}
+\begin{itemize}
+  \item \textbf{Nome:} RemoveController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} fornisce alla view gli strumenti per rimuovere la presentazione o annullare l'azione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.RemoveView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per l'eliminazione della presentazione 
+\end{itemize}
+\subsubsection{Premi.PresentationManager.PublicView}
+\begin{itemize}
+  \item \textbf{Nome:} PublicView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} mostra una finestra di conferma per rendere pubblica o privata una presentazione
+\end{itemize}
+\subsubsection{Premi.PresentationManager.PublicController}
+\begin{itemize}
+  \item \textbf{Nome:} PublicController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} fornisce alla view gli strumenti per rendere pubblica o privata una presentazione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.PublicView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per accedere alla base di dati
+\end{itemize}
+\subsubsection{Premi.PresentationManager.EditTitleDescrView}
+\begin{itemize}
+  \item \textbf{Nome:} EditTitleDescrView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} mostra una finestra per la modifica del titolo e della descrizone della presentazione
+\end{itemize}
+\subsubsection{Premi.PresentationManager.EditTitleDescrController}
+\begin{itemize}
+  \item \textbf{Nome:} EditTitleDescrController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} fornisce alla view la possibilità di modificare titolo e descrizione della presentazione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.EditTitleDescrView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per accedere alla base di dati
+\end{itemize}
+\subsubsection{Premi.PresentationManager.NewView}
+\begin{itemize}
+  \item \textbf{Nome:} NewView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} mostra una finestra per la creazione di una nuova presentazione
+\end{itemize}
+\subsubsection{Premi.PresentationManager.NewController}
+\begin{itemize}
+  \item \textbf{Nome:} NewController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} fornisce alla view gli strumenti per creare una nuova presentazione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.NewView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per accedere alla base di dati
+\end{itemize}
+\subsubsection{Premi.PresentationManager.ListPresView}
+\begin{itemize}
+  \item \textbf{Nome:} ListPresView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} mostra all'utente la lista delle sue presentazioni, e bottoni aggiuntivi per accedere alle altre funzionalità del package
+\end{itemize}
+\subsubsection{Premi.PresentationManager.ListPresController}
+\begin{itemize}
+  \item \textbf{Nome:} ListPresController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.PresentationManager
+  \item \textbf{Descrizione:} fornisce alla view una lista preformata delle presentazioni dell'utente
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.ListPresView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per recuperare la lista delle presentazioni
+\end{itemize}
+\subsubsection{Premi.}
+\begin{itemize}
+  \item \textbf{Nome:}
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.
+  \item \textbf{Descrizione:}
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+\subsubsection{Premi.}
+\begin{itemize}
+  \item \textbf{Nome:}
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.
+  \item \textbf{Descrizione:}
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+\subsubsection{Premi.}
+\begin{itemize}
+  \item \textbf{Nome:}
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.
+  \item \textbf{Descrizione:}
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+
+
+
 
 
 
