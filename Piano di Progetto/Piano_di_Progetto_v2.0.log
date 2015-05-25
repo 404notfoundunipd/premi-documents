@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.13)  25 MAY 2015 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.13)  25 MAY 2015 23:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,7 +430,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count127
 )
-No file Piano_di_Progetto_v2.0.aux.
+(./Piano_di_Progetto_v2.0.aux)
 \openout1 = `Piano_di_Progetto_v2.0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -447,6 +447,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 17.
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -563,12 +564,14 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
 LaTeX Info: Redefining \nameref on input line 17.
+
+(./Piano_di_Progetto_v2.0.out) (./Piano_di_Progetto_v2.0.out)
 \@outlinefile=\write3
 \openout3 = `Piano_di_Progetto_v2.0.out'.
 
 
 (./documents/first.tex
-<../logo/logo404_Extends.png, id=4, 1027.84pt x 433.62pt>
+<../logo/logo404_Extends.png, id=209, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
@@ -591,16 +594,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--74
 
  []
 
-<../logo/logo404.png, id=13, 1027.84pt x 402.50375pt>
+<../logo/logo404.png, id=218, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 74.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 74.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
@@ -616,11 +615,13 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 21.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [2] (./Piano_di_Progetto_v2.0.toc
+File: ../logo/logo404.png Graphic file (type png)
 
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 21.
-
-[2]
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 44.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [3])
 \tf@toc=\write4
 \openout4 = `Piano_di_Progetto_v2.0.toc'.
 
@@ -628,26 +629,21 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 23.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 23.
-
-[3]
+ [4]
+(./Piano_di_Progetto_v2.0.lot)
 \tf@lot=\write5
 \openout5 = `Piano_di_Progetto_v2.0.lot'.
 
+ (./Piano_di_Progetto_v2.0.lof)
 \tf@lof=\write6
 \openout6 = `Piano_di_Progetto_v2.0.lof'.
 
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 27.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 27.
-
-[4] (./documents/intro.tex
+ [5] (./documents/intro.tex
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ))
@@ -656,11 +652,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 29.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 29.
-
-[5] (./documents/pianificazione_tempi_attivita.tex
+ [6] (./documents/pianificazione_tempi_attivita.tex
 Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
@@ -672,40 +664,26 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 49.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 49.
-
-[6]
+ [7]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 51.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 51.
-
-[7
+ [8
 
 ]
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 68.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 68.
-
-[8]
+ [9]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 85.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 85.
-
-[9] <img/analisi-gantt.png, id=79, 1106.1325pt x 713.66624pt>
+ [10]
+<img/analisi-gantt.png, id=386, 1106.1325pt x 713.66624pt>
 File: img/analisi-gantt.png Graphic file (type png)
 
 <use img/analisi-gantt.png>
@@ -715,12 +693,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 94.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 94.
-
-[10 <./img/analisi-gantt.png>]
-<img/analisi-attivita.png, id=88, 563.10374pt x 865.2325pt>
+ [11 <./img/analisi-gantt.png>] <img/analisi-attivita.png, id=394, 563.10374pt 
+x 865.2325pt>
 File: img/analisi-attivita.png Graphic file (type png)
 
 <use img/analisi-attivita.png>
@@ -730,14 +704,10 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 105.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [12
 
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 105.
-
-[11
-
- <./img/analisi-attivita.png>]
-<img/analisi-personeorecosti.png, id=96, 743.77875pt x 385.44pt>
+ <./img/analisi-attivita.png>] <img/analisi-personeorecosti.png, id=402, 743.77
+875pt x 385.44pt>
 File: img/analisi-personeorecosti.png Graphic file (type png)
 
 <use img/analisi-personeorecosti.png>
@@ -748,22 +718,15 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 116.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 116.
-
-[12
+ [13
 
  <./img/analisi-personeorecosti.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 130.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 130.
-
-[13] <img/progarc-gantt.png, id=110, 947.54pt x 584.1825pt>
+ [14]
+<img/progarc-gantt.png, id=414, 947.54pt x 584.1825pt>
 File: img/progarc-gantt.png Graphic file (type png)
 
 <use img/progarc-gantt.png>
@@ -773,12 +736,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 139.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 139.
-
-[14 <./img/progarc-gantt.png (PNG copy)>]
-<img/progarc-attivita.png, id=117, 559.08875pt x 656.4525pt>
+ [15 <./img/progarc-gantt.png (PNG copy)>] <img/progarc-attivita.png, id=420, 5
+59.08875pt x 656.4525pt>
 File: img/progarc-attivita.png Graphic file (type png)
 
 <use img/progarc-attivita.png>
@@ -794,14 +753,10 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 150.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 150.
-
-[15
+ [16
 
  <./img/progarc-attivita.png>]
-<img/progarc-personeorecosti.png, id=125, 738.76pt x 402.50375pt>
+<img/progarc-personeorecosti.png, id=427, 738.76pt x 402.50375pt>
 File: img/progarc-personeorecosti.png Graphic file (type png)
 
 <use img/progarc-personeorecosti.png>
@@ -812,22 +767,15 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 161.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 161.
-
-[16
+ [17
 
  <./img/progarc-personeorecosti.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 178.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 178.
-
-[17] <img/progdet-gantt.png, id=138, 1061.9675pt x 784.9325pt>
+ [18]
+<img/progdet-gantt.png, id=441, 1061.9675pt x 784.9325pt>
 File: img/progdet-gantt.png Graphic file (type png)
 
 <use img/progdet-gantt.png>
@@ -837,12 +785,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 187.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 187.
-
-[18 <./img/progdet-gantt.png (PNG copy)>]
-<img/progdet-attivita.png, id=146, 571.13374pt x 1012.78375pt>
+ [19 <./img/progdet-gantt.png (PNG copy)>]
+<img/progdet-attivita.png, id=447, 571.13374pt x 1012.78375pt>
 File: img/progdet-attivita.png Graphic file (type png)
 
 <use img/progdet-attivita.png>
@@ -852,14 +796,10 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 198.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [20
 
-
-LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 198.
-
-[19
-
- <./img/progdet-attivita.png>]
-<img/progdet-personeorecosti.png, id=155, 745.78625pt x 437.635pt>
+ <./img/progdet-attivita.png>] <img/progdet-personeorecosti.png, id=454, 745.78
+625pt x 437.635pt>
 File: img/progdet-personeorecosti.png Graphic file (type png)
 
 <use img/progdet-personeorecosti.png>
@@ -870,11 +810,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 209.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 20 undefined on input line 209.
-
-[20
+ [21
 
  <./img/progdet-personeorecosti.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 211--217
@@ -885,11 +821,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 218.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 218.
-
-[21] <img/verival-gantt.png, id=168, 990.70125pt x 712.6625pt>
+ [22]
+<img/verival-gantt.png, id=466, 990.70125pt x 712.6625pt>
 File: img/verival-gantt.png Graphic file (type png)
 
 <use img/verival-gantt.png>
@@ -899,12 +832,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 227.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 22 undefined on input line 227.
-
-[22 <./img/verival-gantt.png (PNG copy)>]
-<img/verival-attivita.png, id=175, 564.1075pt x 780.9175pt>
+ [23 <./img/verival-gantt.png (PNG copy)>] <img/verival-attivita.png, id=472, 5
+64.1075pt x 780.9175pt>
 File: img/verival-attivita.png Graphic file (type png)
 
 <use img/verival-attivita.png>
@@ -920,14 +849,10 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 238.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 23 undefined on input line 238.
-
-[23
+ [24
 
  <./img/verival-attivita.png>]
-<img/verival-personeorecosti.png, id=183, 740.7675pt x 420.57124pt>
+<img/verival-personeorecosti.png, id=480, 740.7675pt x 420.57124pt>
 File: img/verival-personeorecosti.png Graphic file (type png)
 
 <use img/verival-personeorecosti.png>
@@ -938,97 +863,66 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 249.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [25
 
-
-LaTeX Warning: Reference `LastPage' on page 24 undefined on input line 249.
-
-[24
-
- <./img/verival-personeorecosti.png>]
-<img/totali.png, id=192, 556.0775pt x 352.31625pt>
+ <./img/verival-personeorecosti.png>] <img/totali.png, id=487, 556.0775pt x 352
+.31625pt>
 File: img/totali.png Graphic file (type png)
- <use img/totali.png>
+
+<use img/totali.png>
 Package pdftex.def Info: img/totali.png used on input line 255.
 (pdftex.def)             Requested size: 278.03807pt x 176.15768pt.
-)
-(./documents/fattori_di_rischio.tex
+) (./documents/fattori_di_rischio.tex
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 22.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 25 undefined on input line 22.
-
-[25 <./img/totali.png>]
+ [26 <./img/totali.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 43.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-
-LaTeX Warning: Reference `LastPage' on page 26 undefined on input line 43.
-
-[26]
+[27]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 64.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 27 undefined on input line 64.
-
-[27]
+ [28]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 97.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 28 undefined on input line 97.
-
-[28]
+ [29]
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 125.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 29 undefined on input line 125.
-
-[29]
+ [30]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 172.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 30 undefined on input line 172.
-
-[30]
+ [31]
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 175.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 31 undefined on input line 175.
-
-[31]) (./documents/controllo_rendicontazione.tex
+ [32]) (./documents/controllo_rendicontazione.tex
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 27.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 32 undefined on input line 27.
-
-[32]) (./documents/consuntivo.tex
+ [33]) (./documents/consuntivo.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--9
 
  []
 
-<img/consuntivo-progarc.png, id=265, 423.5825pt x 591.20876pt>
+<img/consuntivo-progarc.png, id=547, 423.5825pt x 591.20876pt>
 File: img/consuntivo-progarc.png Graphic file (type png)
 
 <use img/consuntivo-progarc.png>
@@ -1038,12 +932,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 16.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 33 undefined on input line 16.
-
-[33 <./img/consuntivo-progarc.png (PNG copy)>]
-<img/consuntivo-progarc-tot.png, id=273, 407.5225pt x 569.12625pt>
+ [34 <./img/consuntivo-progarc.png (PNG copy)>]
+<img/consuntivo-progarc-tot.png, id=553, 407.5225pt x 569.12625pt>
 File: img/consuntivo-progarc-tot.png Graphic file (type png)
 
 <use img/consuntivo-progarc-tot.png>
@@ -1059,17 +949,10 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 27.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 34 undefined on input line 27.
-
-[34
+ [35
 
  <./img/consuntivo-progarc-tot.png (PNG copy)>])
 No file Piano_di_Progetto_v2.0.bbl.
-
-Package lastpage Warning: Rerun to get the references right on input line 39.
-
 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
@@ -1077,30 +960,18 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
 (./Piano_di_Progetto_v2.0.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package rerunfilecheck Info: File `Piano_di_Progetto_v2.0.out' has not changed.
 
-
-Package rerunfilecheck Warning: File `Piano_di_Progetto_v2.0.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Piano_di_Progetto_v2.0.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  209CBC2B2F10785DBA3B9AD6B95D7C0A;3777.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: 209CBC2B2F10785DBA3B9AD6B95D7C0A;3777.
  ) 
 Here is how much of TeX's memory you used:
- 11096 strings out of 493117
- 164041 string characters out of 6135433
- 266632 words of memory out of 5000000
- 14268 multiletter control sequences out of 15000+600000
+ 11161 strings out of 493117
+ 165270 string characters out of 6135433
+ 267632 words of memory out of 5000000
+ 14320 multiletter control sequences out of 15000+600000
  9525 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,15n,45p,835b,560s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,16n,45p,835b,560s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
@@ -1109,10 +980,10 @@ r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
 local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/lo
 cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Piano_di_Progetto_v2.0.pdf (35 pages, 1406306 bytes).
+Output written on Piano_di_Progetto_v2.0.pdf (36 pages, 1415260 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 119 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 611 PDF objects out of 1000 (max. 8388607)
+ 533 compressed objects within 6 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 494 words of extra memory for PDF output out of 10000 (max. 10000000)
 

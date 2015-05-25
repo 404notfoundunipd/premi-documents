@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.13)  25 MAY 2015 23:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.13)  25 MAY 2015 23:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**PianoDiQualifica_v2.0.tex
-(./PianoDiQualifica_v2.0.tex
+**MainDocument.tex
+(./MainDocument.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
@@ -423,32 +423,32 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 88.
 )
-(./PianoDiQualifica_v2.0.aux)
-\openout1 = `PianoDiQualifica_v2.0.aux'.
+(./MainDocument.aux)
+\openout1 = `MainDocument.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Info: Redefining \it@ocap on input line 17.
-LaTeX Info: Redefining \it@ccap on input line 17.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Info: Redefining \it@ocap on input line 23.
+LaTeX Info: Redefining \it@ccap on input line 23.
 
 
 File italian.ldf warning: 
@@ -456,7 +456,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 17.
+italian.ldf    on input line 23.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -492,7 +492,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 17.
+(lastpage)             ! on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -544,7 +544,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring ON on input line 17.
+Package hyperref Info: Link coloring ON on input line 23.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -554,21 +554,20 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 
-(./PianoDiQualifica_v2.0.out) (./PianoDiQualifica_v2.0.out)
+(./MainDocument.out) (./MainDocument.out)
 \@outlinefile=\write3
-\openout3 = `PianoDiQualifica_v2.0.out'.
+\openout3 = `MainDocument.out'.
 
-
-(./documents/first.tex
-<../logo/logo404_Extends.png, id=221, 1027.84pt x 433.62pt>
+ (./documents/first.tex
+<../logo/logo404_Extends.png, id=333, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
-Package pdftex.def Info: ../logo/logo404_Extends.png used on input line 15.
+Package pdftex.def Info: ../logo/logo404_Extends.png used on input line 16.
 (pdftex.def)             Requested size: 359.74939pt x 151.76927pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 26.
@@ -581,644 +580,352 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../logo
 /logo404_Extends.png>])
 (./documents/regModifiche.tex
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-Underfull \hbox (badness 1997) in paragraph at lines 33--34
-[]|\OT1/cmr/m/n/12 Stesura ge-stio-ne am-mi-ni-stra-ti-va
+Underfull \vbox (badness 10000) detected at line 14
  []
 
-
-Underfull \hbox (badness 2111) in paragraph at lines 35--36
-[]|\OT1/cmr/m/n/12 Stesura Ver-sio-ne ge-ne-ra-le del-la
- []
-
-
-Underfull \vbox (badness 10000) detected at line 42
- []
-
-) <../logo/logo404.png, id=230, 1027.84pt x 402.50375pt>
+) <../logo/logo404.png, id=342, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 21.
+Package pdftex.def Info: ../logo/logo404.png used on input line 27.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 \newpage
-              [1 <../logo/logo404.png>] (./PianoDiQualifica_v2.0.toc
+l.27 \newpage
+              [1 <../logo/logo404.png>] (./MainDocument.toc
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 46.
+Package pdftex.def Info: ../logo/logo404.png used on input line 47.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [2])
 \tf@toc=\write4
-\openout4 = `PianoDiQualifica_v2.0.toc'.
+\openout4 = `MainDocument.toc'.
 
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 23.
+Package pdftex.def Info: ../logo/logo404.png used on input line 29.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [3]
-(./PianoDiQualifica_v2.0.lot)
+(./MainDocument.lot)
 \tf@lot=\write5
-\openout5 = `PianoDiQualifica_v2.0.lot'.
+\openout5 = `MainDocument.lot'.
 
- (./PianoDiQualifica_v2.0.lof)
+ (./MainDocument.lof)
 \tf@lof=\write6
-\openout6 = `PianoDiQualifica_v2.0.lof'.
+\openout6 = `MainDocument.lof'.
 
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 26.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [4] (./documents/intro.tex
-Overfull \hbox (16.26332pt too wide) in paragraph at lines 27--28
-[]\OT1/cmr/bx/n/12 Complessit^^Ra ci-clo-ma-ti-ca\OT1/cmr/m/n/12 : [][]http://i
-t.wikipedia.org/wiki/Complessit^^Ra[]ciclomatica[][]; 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 30.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [5])
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 33.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [4]
+(./documents/intro.tex
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+))
+(./documents/defin_prodotto.tex
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [5]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 28.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [6]
-(./documents/strategiadiverifica.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--14
+ [6]) (./documents/descr_componenti.tex
+Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 27.
+Package pdftex.def Info: ../logo/logo404.png used on input line 31.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [7]
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 49.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [8]
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-3.def
-File: uni-3.def 2013/05/13 UCS: Unicode data U+0300..U+03FF
-)
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 ...biettivi qualitativi vengano raggiunti è
-                                                   necessario l'utilizzo di ...
-
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 83.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [9]
-Overfull \hbox (22.23184pt too wide) in paragraph at lines 84--86
-[]\OT1/cmr/bx/n/12 Chrome De-ve-lo-per Tools \OT1/cmr/m/n/12 ([][]https://devel
-opers.google.com/chrome-developer-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 109.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 112--116
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 129.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [11])
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 30.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [12]
-(./documents/obiettiviqualita.tex
-<img/Spy.png, id=388, 490.83376pt x 334.24875pt>
-File: img/Spy.png Graphic file (type png)
- <use img/Spy.png>
-Package pdftex.def Info: img/Spy.png used on input line 8.
-(pdftex.def)             Requested size: 294.50252pt x 200.55078pt.
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 21.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [13 <./img/Spy.png>]
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 44.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-[14]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 67.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [8]
+Overfull \hbox (7.15001pt too wide) in paragraph at lines 100--101
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 con \OT1
+/cmtt/m/n/12 Premi.UserManager.RegistrationView
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 101.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [9]
+Overfull \hbox (19.50002pt too wide) in paragraph at lines 115--116
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 con \OT1
+/cmtt/m/n/12 Premi.UserManager.ChangePasswordView
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 130.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [10]
+Overfull \hbox (64.39697pt too wide) in paragraph at lines 133--134
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 con \OT1
+/cmtt/m/n/12 Premi.Viewer.View\OT1/cmr/m/n/12 , con \OT1/cmtt/m/n/12 Premi.User
+Manager.User
+ []
+
+
+Overfull \hbox (15.10118pt too wide) in paragraph at lines 150--151
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 esten-de
+ \OT1/cmtt/m/n/12 Premi.Presentation.GraphicObject 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 164.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [11]
+Overfull \hbox (15.10118pt too wide) in paragraph at lines 182--183
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 esten-de
+ \OT1/cmtt/m/n/12 Premi.Presentation.GraphicObject
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 198.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [12]
+Overfull \hbox (69.29591pt too wide) in paragraph at lines 200--201
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 pos-sie-
+de una li-sta di og-get-ti \OT1/cmtt/m/n/12 premi.Presentation.Frame\OT1/cmr/m/
+n/12 ,
+ []
+
+
+Overfull \hbox (55.4732pt too wide) in paragraph at lines 200--201
+\OT1/cmr/m/n/12 iden-ti-fi-ca l'ap-par-te-nen-za di una pre-sen-ta-zio-ne ad un
+ de-ter-mi-na-to \OT1/cmtt/m/n/12 Premi.UserManager.User
+ []
+
+
+Overfull \hbox (99.59607pt too wide) in paragraph at lines 213--214
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 pre-le-v
+a le in-for-ma-zio-ni da \OT1/cmtt/m/n/12 Premi.Presentation.Presentation
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 233.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [13]
+Overfull \hbox (88.52528pt too wide) in paragraph at lines 236--237
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.PresentationManager.View 
+ []
+
+
+Overfull \hbox (125.5753pt too wide) in paragraph at lines 251--252
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.PresentationManager.RemoveVi
+ew
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 265.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [14]
+Overfull \hbox (125.5753pt too wide) in paragraph at lines 266--267
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.PresentationManager.PublicVi
+ew
+ []
+
+
+Overfull \hbox (174.97533pt too wide) in paragraph at lines 281--282
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.PresentationManager.EditTitl
+eDescrView
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 295.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [15]
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 90.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [16])
-File: ../logo/logo404.png Graphic file (type png)
+Overfull \hbox (107.0503pt too wide) in paragraph at lines 296--297
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.PresentationManager.NewView
+ []
 
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 32.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [17] (./documents/gestioneamministrativa.tex
-File: ../logo/logo404.png Graphic file (type png)
 
+Overfull \hbox (137.92531pt too wide) in paragraph at lines 311--312
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.PresentationManager.ListPres
+View
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 18.
+Package pdftex.def Info: ../logo/logo404.png used on input line 325.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [16]
+Overfull \hbox (45.30026pt too wide) in paragraph at lines 327--328
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.EditorView
+ []
+
+
+Overfull \hbox (32.95026pt too wide) in paragraph at lines 342--343
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.TextView 
+ []
+
+
+Overfull \hbox (39.12526pt too wide) in paragraph at lines 357--358
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.ShapeView 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 358.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [17]
+Overfull \hbox (39.12526pt too wide) in paragraph at lines 372--373
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.ImageView 
+ []
+
+
+Overfull \hbox (39.12526pt too wide) in paragraph at lines 387--388
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.StyleView 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 392.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [18]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.18 \newpage\right
-                   
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Overfull \hbox (63.82527pt too wide) in paragraph at lines 402--403
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.FrameListView 
+ []
 
-! Missing delimiter (. inserted).
-<to be read again> 
-                   \par 
-l.19 \subsection
-                {Procedure di controllo di qualità di processo}
-I was expecting to see something like `(' or `\{' or
-`\}' here. If you typed, e.g., `{' instead of `\{', you
-should probably delete the `{' by typing `1' now, so that
-braces don't get unbalanced. Otherwise just proceed.
-Acceptable delimiters are characters whose \delcode is
-nonnegative, or you can use `\delimiter <delimiter code>'.
 
-! Extra \right.
-<to be read again> 
-                   \par 
-l.19 \subsection
-                {Procedure di controllo di qualità di processo}
-I'm ignoring a \right that had no matching \left.
+Overfull \hbox (156.45032pt too wide) in paragraph at lines 422--423
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
+con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.FrameEditor.FrameEdit
+or.View 
+ []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.19 \subsection
-                {Procedure di controllo di qualità di processo}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-<img/2000px-PDCA_Cycle.png, id=431, 2007.5pt x 1367.1075pt>
-File: img/2000px-PDCA_Cycle.png Graphic file (type png)
-
-<use img/2000px-PDCA_Cycle.png>
-Package pdftex.def Info: img/2000px-PDCA_Cycle.png used on input line 23.
-(pdftex.def)             Requested size: 401.49289pt x 273.41666pt.
-)
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 430.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [19]) (./documents/attivita.tex)
+(./documents/stime_fattibilita.tex) (./documents/tracciam_requisiti.tex)
+(./documents/descr_tecnologie.tex
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 34.
+Package pdftex.def Info: ../logo/logo404.png used on input line 2.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [19 <./img/2000px-PDCA_Cycle.png>] (./documents/test.tex
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ... aggiornamento futuro per i test di unità
-                                                  . Per le tempistiche di es...
-
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...ostanti lo stato dei test "Pianificato" è
-                                                   da intendersi come non ap...
-
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-)
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-\OT1/cmr/m/n/12 pre-sen-ta-zio-ne, ve-ri-fi-can-do
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-\OT1/cmr/m/n/12 quel-lo scel-to dal-l'u-ten-te
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 24--24
-[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che le mo-di-fi-
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 32--32
-[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che il si-ste-ma
- []
-
-
-Underfull \hbox (badness 1122) in paragraph at lines 32--32
-\OT1/cmr/m/n/12 per-met-ta la pub-bli-ca-zio-ne
- []
-
-
-Underfull \hbox (badness 3965) in paragraph at lines 34--34
-\OT1/cmr/m/n/12 ne-ra-re un link per una
- []
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 40--40
-[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che il for-ma-to
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 42--42
-[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che il si-ste-ma
- []
-
-
-Underfull \hbox (badness 6094) in paragraph at lines 45--45
-[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che il si-ste-
- []
-
-
-Underfull \hbox (badness 1348) in paragraph at lines 47--47
-[]|\OT1/cmr/m/n/12 Viene ve-ri-fi-ca-to il cor-ret-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 55
- []
-
+ [20])
+(./documents/design_pattern.tex
+<img/MVC.jpg, id=551, 552.0625pt x 386.44376pt>
+File: img/MVC.jpg Graphic file (type jpg)
+ <use img/MVC.jpg>
+Package pdftex.def Info: img/MVC.jpg used on input line 8.
+(pdftex.def)             Requested size: 220.82108pt x 154.57475pt.
 File: ../logo/logo404.png Graphic file (type png)
+
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 55.
+Package pdftex.def Info: ../logo/logo404.png used on input line 31.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [20]
+ [21 <./img/MVC.jpg>]
+<img/MVVM.png, id=557, 436.63126pt x 304.13625pt>
+File: img/MVVM.png Graphic file (type png)
+ <use img/MVVM.png>
+Package pdftex.def Info: img/MVVM.png used on input line 48.
+(pdftex.def)             Requested size: 218.3151pt x 152.06775pt.
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 65.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [22 <./img/MVVM.png (PNG copy)>]
+<img/dependency.png, id=563, 352.31625pt x 158.84344pt>
+File: img/dependency.png Graphic file (type png)
+
+<use img/dependency.png>
+Package pdftex.def Info: img/dependency.png used on input line 79.
+(pdftex.def)             Requested size: 281.85338pt x 127.07492pt.
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 55.
+Package pdftex.def Info: ../logo/logo404.png used on input line 98.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [21]
+ [23 <./img/dependency.png>]
+<img/Factory.png, id=571, 575.14874pt x 202.7575pt>
+File: img/Factory.png Graphic file (type png)
+ <use img/Factory.png>
+Package pdftex.def Info: img/Factory.png used on input line 113.
+(pdftex.def)             Requested size: 230.05542pt x 81.10156pt.
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 56.
+Package pdftex.def Info: ../logo/logo404.png used on input line 128.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [22]
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.59 ...o dei dati all'interno del sistema. Si è
-                                                   scelta una strategia di i...
-
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 ...non rispetta il formalismo UMLG 2.x ed è
-                                                   utilizzato per semplifica...
-
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-<img/integrationTests.png, id=454, 1048.91875pt x 719.68875pt>
-File: img/integrationTests.png Graphic file (type png)
-
-<use img/integrationTests.png>
-Package pdftex.def Info: img/integrationTests.png used on input line 66.
-(pdftex.def)             Requested size: 472.00908pt x 323.85695pt.
-
-Overfull \hbox (34.5012pt too wide) in paragraph at lines 66--67
- [][] 
- []
-
+ [24 <./img/Factory.png>]
 File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 70.
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 134.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [23 <./img/integrationTests.png>]
-Underfull \hbox (badness 4036) in paragraph at lines 77--77
-[]|\OT1/cmr/m/n/12 Test di in-te-gra-zio-ne fi-na-le per le
- []
 
-
-Underfull \hbox (badness 4036) in paragraph at lines 83--83
-[]|\OT1/cmr/m/n/12 Test di in-te-gra-zio-ne fi-na-le per le
- []
-
-
-Underfull \vbox (badness 10000) detected at line 94
- []
-
-
-Underfull \vbox (badness 10000) detected at line 141
- []
-
+[25]) (./documents/interfaccia.tex)
 File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 149.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [24]
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.159 All'utente è
-                     richiesto di:
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 All'utente è
-                     richiesto di:
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 178.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [25]
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 All'utente è
-                     richiesto di:
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 All'utente è
-                     richiesto di:
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 218.
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 45.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [26]
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.235 All'utente è
-                     richiesto di:
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-
-Overfull \hbox (17.1936pt too wide) in paragraph at lines 250--251
-[]\OT1/cmr/m/n/12 Scegliere una di-men-sio-ne di-ver-sa da quel-la di de-fault 
-per il te-sto (\OT1/cmr/bx/n/12 TV5.2.4\OT1/cmr/m/n/12 ) 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 269.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [27]
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 318.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [28]
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.336 All'utente è
-                     richiesto di:
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.357 All'utente è
-                     richiesto di:
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 365.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [29]
-Underfull \vbox (badness 10000) detected at line 409
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 516.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [30])
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 37.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [31]
-(./documents/resocontoverifca.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--7
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 35.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [32]
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.49 L'analisi statica è
-                           stata applicata secondo i criteri e le modalità ...
-
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.50 Noti gli errori, si è
-                             provveduto a:
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ...Segnalare gli errori più frequenti.Si è
-                                                   quindi applicato il ciclo...
-
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.55 È
-         stata in seguito applicata l'inspection utilizzando la lista di con...
-
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 ...quisiti - fonti, use-case - requisiti) è
-                                                   stato effettuato tramite ...
-
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 57.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [33])
-No file PianoDiQualifica_v2.0.bbl.
+No file MainDocument.bbl.
 
 AED: lastpage setting LastPage
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 40.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [34]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
- (./PianoDiQualifica_v2.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
-Package rerunfilecheck Info: File `PianoDiQualifica_v2.0.out' has not changed.
-(rerunfilecheck)             Checksum: E09ECF47459F39B5327D64279EB88FBE;4157.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+(./MainDocument.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
+Package rerunfilecheck Info: File `MainDocument.out' has not changed.
+(rerunfilecheck)             Checksum: BC9ED60D53E0638146DAB7052484B247;6734.
  ) 
 Here is how much of TeX's memory you used:
- 11162 strings out of 493117
- 163796 string characters out of 6135433
- 284004 words of memory out of 5000000
- 14338 multiletter control sequences out of 15000+600000
- 9493 words of font info for 33 fonts, out of 8000000 for 9000
+ 10841 strings out of 493117
+ 160658 string characters out of 6135433
+ 260664 words of memory out of 5000000
+ 14003 multiletter control sequences out of 15000+600000
+ 9730 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,16n,47p,1141b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,16n,47p,919b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on PianoDiQualifica_v2.0.pdf (35 pages, 665019 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on MainDocument.pdf (27 pages, 322227 bytes).
 PDF statistics:
- 575 PDF objects out of 1000 (max. 8388607)
- 516 compressed objects within 6 object streams
- 113 named destinations out of 1000 (max. 500000)
- 458 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 641 PDF objects out of 1000 (max. 8388607)
+ 591 compressed objects within 6 object streams
+ 118 named destinations out of 1000 (max. 500000)
+ 687 words of extra memory for PDF output out of 10000 (max. 10000000)
 
