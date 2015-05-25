@@ -2,3 +2,80 @@
 	Tipo, obiettivo e funzione del componente \\
 	Relazioni d'uso di altre componenti \\
 	Interfacce con le relazioni di uso da altre componenti \\
+\subsection{Premi}
+-----------------------------premi-class.jpg
+\subsubsection{Premi.Utility}
+\begin{itemize}
+  \item[] \textbf{Nome:} Utility
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi
+  \item[] \textbf{Descrizione:} classe statica di utilità che fornisce strumenti per interagire con la base di dati
+\end{itemize}
+
+\subsubsection{Premi.View}
+\begin{itemize}
+  \item \textbf{Nome:} View
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi
+  \item \textbf{Descrizione:} view generale che funge da sfondo per le altre view
+\end{itemize}
+
+\subsubsection{Premi.PremiCtrl}
+\begin{itemize}
+  \item \textbf{Nome:} PremiCtrl
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi
+  \item \textbf{Descrizione:} controller generale che modifica la view principale in base alle scelte dell'utente
+  \item \textbf{Relazioni con altri componenti:} la classe altera l'aspetto di \code{Premi.View} caricando le view di cui l'utente ha bisogno 
+\end{itemize}
+
+\subsection{Premi.UserManager}
+-----------------------------premi-class.jpg
+\subsubsection{Premi.UserManager.User}
+-----------------------------UserManager-class.jpg (mostra le relazioni che possiede ESTERNE al package)
+\begin{itemize}
+  \item \textbf{Nome:} User
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManger
+  \item \textbf{Descrizione:} classe che definisce un utente e fornisce le funzionalità necessarie alla sua creazione, al suo login e ad un eventuale cambio di password
+  \item \textbf{Relazioni con altri componenti:} si collega a \code{Premi.Utility} per le interazioni con la base di dati
+\end{itemize}
+
+\subsubsection{Premi.UserManager.View}
+\begin{itemize}
+  \item \textbf{Nome:} View
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManger
+  \item \textbf{Descrizione:} vista generale del package \code{UserManager}. Puo' contenere le view abbinate alle funzionalità di \code{User}
+\end{itemize}
+\subsubsection{Premi.UserManager.UserManagerCtrl}
+\begin{itemize}
+  \item \textbf{Nome:} UserManagerCtrl
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.UserManager
+  \item \textbf{Descrizione:} controller generale del package \code{UserManager} dedicato a fornire alla view strumenti per l'interazione con l'utente
+  \item \textbf{Relazioni con altri componenti:} si collega a \code{Premi.UserManager.View} per mostrare i dati dell'utente che va a prelevare tramite {Premi.UserManager.User}
+\end{itemize}
+\subsubsection{Premi.UserManager}
+\begin{itemize}
+  \item \textbf{Nome:} 
+  \item \textbf{Tipo:} 
+  \item \textbf{Package:} 
+  \item \textbf{Descrizione:} 
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+\subsubsection{Premi.UserManager}
+\begin{itemize}
+  \item \textbf{Nome:} 
+  \item \textbf{Tipo:} 
+  \item \textbf{Package:} 
+  \item \textbf{Descrizione:} 
+  \item \textbf{Relazioni con altri componenti:} 
+\end{itemize}
+
+
+
+
+
+
+

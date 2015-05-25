@@ -5,9 +5,12 @@
 \BOOKMARK [1][-]{section.2}{Definizione del Prodotto}{}
 \BOOKMARK [2][-]{subsection.2.1}{Metodo e formalismo di specifica}{section.2}
 \BOOKMARK [2][-]{subsection.2.2}{Presentazione dell'architettura generale del sistema}{section.2}
-\BOOKMARK [1][-]{section.3}{Descrizione dei singoli componenti}{}
-\BOOKMARK [1][-]{section.4}{Diagrammi delle attivit\340}{}
-\BOOKMARK [1][-]{section.5}{Stime di fattibilit\340 e di bisogno di risorse}{}
-\BOOKMARK [1][-]{section.6}{Tracciamento della relazione componenti - requisiti}{}
-\BOOKMARK [1][-]{section.7}{Descrizione delle tecnologie e dei design pattern utilizzati}{}
-\BOOKMARK [1][-]{section.8}{Mockup Interfaccia [FACOLTATIVO]}{}
+\BOOKMARK [1][-]{section.3}{Diagrammi dei Package}{}
+\BOOKMARK [1][-]{section.4}{Descrizione dei singoli componenti}{}
+\BOOKMARK [2][-]{subsection.4.1}{Premi}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.1.1}{Premi.Utility}{subsection.4.1}
+\BOOKMARK [1][-]{section.5}{Diagrammi delle attivit\340}{}
+\BOOKMARK [1][-]{section.6}{Stime di fattibilit\340 e di bisogno di risorse}{}
+\BOOKMARK [1][-]{section.7}{Tracciamento della relazione componenti - requisiti}{}
+\BOOKMARK [1][-]{section.8}{Descrizione delle tecnologie e dei design pattern utilizzati}{}
+\BOOKMARK [1][-]{section.9}{Mockup Interfaccia [FACOLTATIVO]}{}

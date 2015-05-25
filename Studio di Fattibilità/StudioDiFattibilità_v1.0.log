@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.23)  25 MAY 2015 11:39
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.3.23)  25 MAY 2015 11:17
 entering extended mode
  %&-line parsing enabled.
-**MainDocument.tex
-(./MainDocument.tex
+**StudioDiFattibilità_v1.0.tex
+(./StudioDiFattibilità_v1.0.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
 yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
@@ -383,37 +383,37 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LT@p@ftn=\toks23
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 88.
-) (./MainDocument.aux)
-\openout1 = `MainDocument.aux'.
+)
+No file StudioDiFattibilità_v1.0.aux.
+\openout1 = `StudioDiFattibilità_v1.0.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 23.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 23.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 17.
 (/usr/share/texmf-texlive/tex/latex/cbfonts/lgrcmr.fd
 File: lgrcmr.fd 2008/01/04 v1.0 Greek Computer Modern
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 17.
 
 (/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (/usr/share/texmf-texlive/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2003/11/29 Fixes to fontencodings LGR, T3
@@ -484,7 +484,7 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-Package hyperref Info: Link coloring ON on input line 23.
+Package hyperref Info: Link coloring ON on input line 17.
 (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
 
@@ -493,18 +493,21 @@ Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
 )
 \c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
- (./MainDocument.out) (./MainDocument.out)
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
 \@outlinefile=\write3
-\openout3 = `MainDocument.out'.
+\openout3 = `StudioDiFattibilità_v1.0.out'.
 
 \AtBeginShipoutBox=\box33
- (./documents/first.tex
-<../logo/logo404_Extends.png, id=67, 1027.84pt x 433.62pt>
+
+(./documents/first.tex
+<../logo/logo404_Extends.png, id=3, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
+(/usr/share/texmf-texlive/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
+)
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -516,79 +519,117 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../logo/logo404_Extends.pn
 g (PNG copy)>])
 (./documents/regModifiche.tex
-Underfull \vbox (badness 10000) detected at line 14
+Underfull \hbox (badness 3471) in paragraph at lines 17--18
+[]|\OT1/cmr/m/n/12 Stesura sche-le-tro do-cu-men-to e
  []
 
-) <../logo/logo404.png, id=76, 1027.84pt x 402.50375pt>
+
+Underfull \vbox (badness 10000) detected at line 20
+ []
+
+) <../logo/logo404.png, id=12, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
-<use ../logo/logo404.png>pdfTeX warning (ext4): destination with the same ident
-ifier (name{page.1}) has been already used, duplicate ignored
+<use ../logo/logo404.png>
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 21.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 \newpage
-              [1 <../logo/logo404.png (PNG copy)>] (./MainDocument.toc)
+l.21 \newpage
+              [1 <../logo/logo404.png (PNG copy)>]
 \tf@toc=\write4
-\openout4 = `MainDocument.toc'.
+\openout4 = `StudioDiFattibilità_v1.0.toc'.
 
 File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
 
-<use ../logo/logo404.png> [2] (./MainDocument.lot)
-\tf@lot=\write5
-\openout5 = `MainDocument.lot'.
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 23.
 
- (./MainDocument.lof)
-\tf@lof=\write6
-\openout6 = `MainDocument.lof'.
-
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png> [3] (./documents/intro.tex
-(/usr/share/texmf-texlive/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2004/10/17 UCS: Unicode data U+0000..U+00FF
-)
+[2] (./documents/intro.tex
 (/usr/share/texmf-texlive/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2004/10/17 UCS: Unicode data U+2000..U+20FF
 ))
-(./documents/defin_prodotto.tex
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png> [4]
 File: ../logo/logo404.png Graphic file (type png)
 
-<use ../logo/logo404.png> [5]) (./documents/descr_componenti.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--5
+<use ../logo/logo404.png>
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 25.
+
+[3] (./documents/capitolato.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
 
  []
 
-) (./documents/attivita.tex) (./documents/stime_fattibilita.tex)
-(./documents/tracciam_requisiti.tex) (./documents/descr_tecnologie.tex)
-(./documents/interfaccia.tex)
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png> [6]
+<use ../logo/logo404.png>
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 31.
+
+[4])
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 27.
+
+[5] (./documents/confronto.tex
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 30.
+
+[6]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 46.
+
+[7]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+
+LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 67.
+
+[8])
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+
+LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 29.
+
+[9] (./documents/conclusioni.tex) AED: lastpage setting LastPage
 File: ../logo/logo404.png Graphic file (type png)
 
-<use ../logo/logo404.png> [7]
-No file MainDocument.bbl.
-AED: lastpage setting LastPage (./MainDocument.aux) ) 
+<use ../logo/logo404.png>
+
+LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 33.
+
+[10] (./StudioDiFattibilità_v1.0.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 9392 strings out of 493848
- 139831 string characters out of 1152823
- 218774 words of memory out of 3000000
- 12459 multiletter control sequences out of 15000+50000
- 9730 words of font info for 34 fonts, out of 3000000 for 9000
+ 9362 strings out of 493848
+ 139500 string characters out of 1152823
+ 217774 words of memory out of 3000000
+ 12439 multiletter control sequences out of 15000+50000
+ 9184 words of font info for 32 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 45i,15n,45p,919b,480s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/en
-c/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfti1200.pfb>
-Output written on MainDocument.pdf (8 pages, 145376 bytes).
+ 45i,15n,45p,802b,610s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on StudioDiFattibilità_v1.0.pdf (11 pages, 137719 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 133 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
