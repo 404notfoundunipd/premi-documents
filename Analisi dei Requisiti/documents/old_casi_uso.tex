@@ -1,47 +1,6 @@
-\section{Casi d'uso}
-In seguito ad un'analisi approfondita del capitolato, ad un incontro con il proponente \Zucchetti\ e ad una discussione tra gli Analisti, sono emersi i seguenti casi d'uso.\\
-Ogni caso d'uso è identificato da un codice univoco che ne rappresenta anche la posizione all'interno della gerarchia; il codice è così composto:
-\begin{center}
-UC[codice rappresentante il padre].[codice progressivo]
-\end{center}
-Il codice progressivo può avanzare nei livelli di gerarchia divindendo tali livelli con un punto.
-\newpage
-\subsection{Gerarchia degli utenti}
-La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
-\begin{figure}[h]
-\begin{center}
-	 \includegraphics[scale=0.5]{diagram/gerarchia.png}
-\end{center}
-\end{figure}
-\newpage
 
-\subsection{ UC0: Premi}
-\begin{figure}[h]
-	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC0.png}
-	\caption{Caso d'uso UC0}
-	\end{center}
-\end{figure}
-\begin{itemize}
-	\item \textbf{Precondizione:} Il sistema è avviato;
-	\item \textbf{Postcondizione:} Il sistema ha eseguito le operazioni che l'utente ha richiesto;
-	\item \textbf{Descrizione:} L'utente accede alle funzionalità del sistema;
-	\item \textbf{Attori:} Utente non registrato, Utente, Utente registrato, Utente autenticato;
-	\item \textbf{Scenario principale:}
-	\begin{enumerate}
-		\item \textbf{ UC1:} \textit{ Registrazione};
-		\item \textbf{ UC2:} \textit{ Notifiche di sistema};
-		\item \textbf{ UC3:} \textit{ Partecipazione presentazione live};
-		\item \textbf{ UC4:} \textit{ Autenticazione};
-		\item \textbf{ UC5:} \textit{ Elenco presentazioni};
-		\item \textbf{ UC6:} \textit{ Modifica dati account};
-		\item \textbf{ UC7:} \textit{ Nuova presentazione};
-		\item \textbf{ UC8:} \textit{ Selezione template$_G$};
-		\item \textbf{ UC9:} \textit{ Visualizza presentazione condivisa}.
-	\end{enumerate}
-\end{itemize}
-\newpage
-\subsection{ UC1: Registrazione}
+\section{Use Case}
+\subsection{ UC1: Crea presentazione}
 
 \begin{figure}[h]
 	\begin{center}
@@ -50,85 +9,112 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di registrarsi;
-	\item \textbf{Postcondizione:} L'utente verrà registrato nel database$_G$;
-	\item \textbf{Descrizione:} L'utente può registrarsi al sistema;
-	\item \textbf{Attori:} Utente non registrato;
+	\item \textbf{Precondizione:} l'utente ha effettuato l'accesso al sistema;
+	\item \textbf{Postcondizione:} il sistema ha creato e salvato una nuova presentazione;
+	\item \textbf{Descrizione:} l'utente potrà creare e salvare una presentazione che si aggiungerà alla lista delle presentazioni già create dallo stesso utente;
+	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC1.1:} \textit{ Inserimento username};
-		\item \textbf{ UC1.2:} \textit{ Inserimento password};
-		\item \textbf{ UC1.3:} \textit{ Inserimento conferma password};
-		\item \textbf{ UC1.4:} \textit{ Inserimento e-mail};
-		\item \textbf{ UC1.5:} \textit{ Conferma registrazione};
-		\item \textbf{ UC1.6:} \textit{ Annulla registrazione}.
+		\item \textbf{ UC1.1:} \textit{ Inserimento titolo};
+		\item \textbf{ UC1.2:} \textit{ Inserimento descrizione}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC1.1: Inserimento username}
+\subsection{ UC1.1: Inserimento titolo}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di registrarsi;
-	\item \textbf{Postcondizione:} Verrà visualizzato lo username scelto;
-	\item \textbf{Descrizione:} L'utente può inserire lo username nel apposito spazio;
-	\item \textbf{Attori:} Utente non registrato.
+	\item \textbf{Precondizione:} il sistema è in attesa che l'utente inserisca un titolo per la nuova presentazione;
+	\item \textbf{Postcondizione:} il sistema ha inserito un titolo per la nuova presentazione;
+	\item \textbf{Descrizione:} l'utente dopo aver scelto di creare una presentazione ne dovrà definire il titolo;
+	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC1.2: Inserimento password}
+\subsection{ UC1.2: Inserimento descrizione}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di registrarsi;
-	\item \textbf{Postcondizione:} L'utente avrà inserito la password nel apposito spazio;
-	\item \textbf{Descrizione:} L'utente inserisce la password;
-	\item \textbf{Attori:} Utente non registrato.
+	\item \textbf{Precondizione:} il sistema è in attesa che l'utente inserisca una descrizione per la nuova presentazione;
+	\item \textbf{Postcondizione:} il sistema ha inserito una descrizione per la nuova presentazione;
+	\item \textbf{Descrizione:} l'utente dopo aver scelto di creare una presentazione potrà definirne una descrizione;
+	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC1.3: Inserimento conferma password}
+\subsection{ UC2: Selezione presentazione}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di registrarsi;
-	\item \textbf{Postcondizione:} Viene visualizzato l'inserimento della conferma della password;
-	\item \textbf{Descrizione:} L'utente inserisce nuovamente la password;
-	\item \textbf{Attori:} Utente non registrato.
+	\item \textbf{Precondizione:} nel sistema deve essere presente almeno una presentazione creata dall'utente;
+	\item \textbf{Postcondizione:} il sistema ha selezionato la presentazione scelta dall'utente;
+	\item \textbf{Descrizione:} l'utente può selezionare una presentazione dall'elenco di quelle che ha creato;
+	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC1.4: Inserimento e-mail}
+\subsection{ UC3: Esegui presentazione}
+
+\begin{figure}[h]
+	\begin{center}
+	\includegraphics[scale=0.4]{diagram/UC3.png}
+	\caption{Caso d'uso UC3}
+	\end{center}
+\end{figure}
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema ha selezionato la presentazione scelta dall'utente ed è in attesa di un’operazione da parte sua;
+	\item \textbf{Postcondizione:} il sistema ha eseguito la presentazione scelta dall'utente;
+	\item \textbf{Descrizione:} dopo aver selezionato una presentazione dall'elenco di quelle create l'utente potrà eseguirla;
+	\item \textbf{Attori:} Utente autenticato;
+	\item \textbf{Scenario principale:}
+	\begin{enumerate}
+		\item \textbf{ UC3.1:} \textit{ Scegli percorso};
+		\item \textbf{ UC3.2:} \textit{ Avanza nel percorso};
+		\item \textbf{ UC3.3:} \textit{ Retrocedi nel percorso};
+		\item \textbf{ UC3.4:} \textit{ Segui un percorso di approfondimento};
+		\item \textbf{ UC3.5:} \textit{ Torna a checkpoint};
+		\item \textbf{ UC3.6:} \textit{ Interrompi esecuzione presentazione}.
+	\end{enumerate}
+\end{itemize}
+\subsection{ UC3.1: Scegli percorso}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di registrarsi;
-	\item \textbf{Postcondizione:} Viene visualizzato l'inserimento del e-mail;
-	\item \textbf{Descrizione:} L'utente inserisce la sua e-mail;
-	\item \textbf{Attori:} Utente non registrato.
+	\item \textbf{Precondizione:} il sistema ha avviato la presentazione scelta dall'utente;
+	\item \textbf{Postcondizione:} il sistema ha selezionato il percorso scelto dall'utente per la presentazione;
+	\item \textbf{Descrizione:} l'utente può scegliere il percorso da effettuare in fase esecuzione della presentazione;
+	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC1.5: Conferma registrazione}
+\subsection{ UC3.2: Avanza nel percorso}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} Tutti i dati richiesti sono stati inseriti correttamente;
-	\item \textbf{Postcondizione:} L'utente verrà registrato nel database$_G$;
-	\item \textbf{Descrizione:} L'utente, dopo aver inserito tutti i dati necessari, conferma di volersi registrare;
-	\item \textbf{Attori:} Utente non registrato.
+	\item \textbf{Precondizione:} il sistema è in fase di esecuzione della presentazione ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha fatto avanzare la presentazione di un passo ed il frame viene visualizzato;
+	\item \textbf{Descrizione:} l'utente durante l'esecuzione della presentazione può avanzare la stessa di un passo, e viene aggiornata la visualizzazione del frame corrente;
+	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC1.6: Annulla registrazione}
+\subsection{ UC3.3: Retrocedi nel percorso}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di registrarsi;
-	\item \textbf{Postcondizione:} La registrazione verrà annullata e il sistema torna allo stato precedente alla registrazione;
-	\item \textbf{Descrizione:} L'utente può scegliere di non registrarsi;
-	\item \textbf{Attori:} Utente non registrato.
+	\item \textbf{Precondizione:} il sistema è in fase di esecuzione della presentazione ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha fatto retrocedere la presentazione di un passo ed il frame viene visualizzato;
+	\item \textbf{Descrizione:} l'utente durante l'esecuzione della presentazione può far retrocedere la stessa di un passo, e viene aggiornata la visualizzazione del frame corrente;
+	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC2: Notifiche di sistema}
+\subsection{ UC3.4: Segui un percorso di approfondimento}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} Il sistema funziona correttamente sia lato server$_G$ sia lato client$_G$;
-	\item \textbf{Postcondizione:} Viene notificata un anomalia o un informazione;
-	\item \textbf{Descrizione:} In qualunque momento nell'esecuzione dell'applicazione il sistema fa visualizzare all'utente un messaggio di errore, warning o informativo;
-	\item \textbf{Attori:} Utente.
+	\item \textbf{Precondizione:} il sistema è in fase di esecuzione della presentazione ed è in attesa di un'operazione da parte dell'utente. Il frame attuale deve essere un checkpoint;
+	\item \textbf{Postcondizione:} il sistema ha avanzato la presentazione in un percorso di approfondimento ed il frame viene visualizzato;
+	\item \textbf{Descrizione:} l'utente può scegliere di intraprendere un percorso di approfondimento se il frame in cui si trova è un checkpoint. Per percorso di approfondimento si intende una serie di frame volti ad approfondire il concetto racchiuso in quella attuale;
+	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC3: Partecipazione presentazione live}
+\subsection{ UC3.5: Torna a checkpoint}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente possiede la URL$_G$ della presentazione che vuole visualizzare e la presentazione è stata resa live;
-	\item \textbf{Postcondizione:} L'utente assiste alla presentazione;
-	\item \textbf{Descrizione:} L'utente può visualizzare una presentazione resa live precedentemente da un altro utente;
-	\item \textbf{Attori:} Utente.
+	\item \textbf{Precondizione:} il sistema è in fase di esecuzione della presentazione ed è in attesa di un'operazione da parte dell'utente. Il frame attuale si trova all'interno di un percorso di approfondimento;
+	\item \textbf{Postcondizione:} il sistema fa retrocedere la presentazione al primo checkpoint disponibile;
+	\item \textbf{Descrizione:} l'utente, in qualsiasi momento, se si trova in un percorso di approfondimento può tornare al frame checkpoint;
+	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC4: Autenticazione}
+\subsection{ UC3.6: Interrompi esecuzione presentazione}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di esecuzione della presentazione ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema interrompe l'esecuzione della presentazione e viene visualizzata la lista delle presentazioni create dall'utente;
+	\item \textbf{Descrizione:} in qualsiasi momento dell'esecuzione della presentazione l'utente può decidere di interromperla;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4: Modifica presentazione}
 
 \begin{figure}[h]
 	\begin{center}
@@ -137,803 +123,617 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente è registrato e ha scelto di autenticarsi;
-	\item \textbf{Postcondizione:} L'utente effettua il login;
-	\item \textbf{Descrizione:} Un utente registrato può autenticarsi nel sistema rendendo cosi possibile l'accesso a tutte le funzionalità private di Premi$_G$;
-	\item \textbf{Attori:} Utente registrato;
-	\item \textbf{Scenario principale:}
-	\begin{enumerate}
-		\item \textbf{ UC4.1:} \textit{ Inserimento username};
-		\item \textbf{ UC4.2:} \textit{ Inserimento password};
-		\item \textbf{ UC4.3:} \textit{ Conferma autenticazione};
-		\item \textbf{ UC4.4:} \textit{ Annulla autenticazione}.
-	\end{enumerate}
-\end{itemize}
-\subsection{ UC4.1: Inserimento username}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di autenticarsi;
-	\item \textbf{Postcondizione:} Viene visualizzato, nel relativo spazio, lo username scritto dall'utente;
-	\item \textbf{Descrizione:} Dopo aver scelto di autenticarsi l'utente dovrà inserire il proprio username;
-	\item \textbf{Attori:} Utente registrato.
-\end{itemize}
-\subsection{ UC4.2: Inserimento password}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di autenticarsi e ha scelto di inserire la password;
-	\item \textbf{Postcondizione:} L'inserimento della password viene visualizzato nel relativo spazio;
-	\item \textbf{Descrizione:} L'utente dopo aver scelto di autenticarsi può inserire la password;
-	\item \textbf{Attori:} Utente registrato.
-\end{itemize}
-\subsection{ UC4.3: Conferma autenticazione}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di autenticarsi e ha inserito password e username;
-	\item \textbf{Postcondizione:} L'utente si autentica al sistema;
-	\item \textbf{Descrizione:} L'utente può confermare l'autenticazione;
-	\item \textbf{Attori:} Utente registrato.
-\end{itemize}
-\subsection{ UC4.4: Annulla autenticazione}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di autenticarsi;
-	\item \textbf{Postcondizione:} Il sistema torna allo stato precedente la scelta di autenticarsi;
-	\item \textbf{Descrizione:} L'utente può scegliere di annullare l'autenticazione;
-	\item \textbf{Attori:} Utente registrato.
-\end{itemize}
-\subsection{ UC5: Visualizzazione elenco presentazioni}
-
-\begin{figure}[h]
-	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5.png}
-	\caption{Caso d'uso UC5}
-	\end{center}
-\end{figure}
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente è nella propria pagina;
-	\item \textbf{Postcondizione:} Viene visualizzato l'elenco di tutte le presentazioni dell'utente;
-	\item \textbf{Descrizione:} L'utente può scegliere di visualizzare le presentazioni che ha fatto fino a quel momento. Nel caso non ne abbia create l'elenco sarà vuoto;
+	\item \textbf{Precondizione:} il sistema ha selezionato la presentazione scelta dall'utente ed è in attesa di un'operazione da parte sua;
+	\item \textbf{Postcondizione:} il sistema ha salvato le modifiche dell'utente;
+	\item \textbf{Descrizione:} l'utente può modificare una presentazione scelta dall'elenco di quelle che ha creato;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1:} \textit{ Selezione presentazione};
-		\item \textbf{ UC5.2:} \textit{ Visualizzazione anteprima }.
+		\item \textbf{ UC4.1:} \textit{ Inserimento oggetto grafico};
+		\item \textbf{ UC4.2:} \textit{ Seleziona oggetto grafico};
+		\item \textbf{ UC4.3:} \textit{ Modifica oggetto grafico};
+		\item \textbf{ UC4.4:} \textit{ Elimina oggetto grafico};
+		\item \textbf{ UC4.5:} \textit{ Crea percorso};
+		\item \textbf{ UC4.6:} \textit{ Seleziona percorso};
+		\item \textbf{ UC4.7:} \textit{ Modifica percorso};
+		\item \textbf{ UC4.8:} \textit{ Elimina percorso};
+		\item \textbf{ UC4.9:} \textit{ Modifica descrizione};
+		\item \textbf{ UC4.10:} \textit{ Modifica titolo presentazione}.
 	\end{enumerate}
 \end{itemize}
-
-\newpage
-\subsection{ UC5.1: Selezione presentazione}
+\subsection{ UC4.1: Inserimento oggetto grafico}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1.png}
-	\caption{Caso d'uso UC5.1}
+	\includegraphics[scale=0.4]{diagram/UC4-1.png}
+	\caption{Caso d'uso UC4.1}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha visualizzato la lista delle sue presentazioni;
-	\item \textbf{Postcondizione:} La selezione viene visualizzata insieme all'anteprima della presentazione;
-	\item \textbf{Descrizione:} L'utente può selezionare una presentazione accedendo cosi a tutte le sue funzionalità;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha aggiunto un oggetto grafico all'interno della presentazione, la modifica viene visualizzata;
+	\item \textbf{Descrizione:} l'utente può aggiungere un oggetto grafico alla presentazione nella posizione predefinita;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1:} \textit{ Modifica presentazione};
-		\item \textbf{ UC5.1.2:} \textit{ Eliminazione presentazione};
-		\item \textbf{ UC5.1.3:} \textit{ Conferma eliminazione};
-		\item \textbf{ UC5.1.4:} \textit{ Condivisione presentazione};
-		\item \textbf{ UC5.1.5:} \textit{ Esportazione poster};
-		\item \textbf{ UC5.1.6:} \textit{ Download presentazione};
-		\item \textbf{ UC5.1.7:} \textit{ Stampa presentazione};
-		\item \textbf{ UC5.1.8:} \textit{ Avvio sessione live};
-		\item \textbf{ UC5.1.9:} \textit{ Avvio presentazione}.
+		\item \textbf{ UC4.1.1:} \textit{ Inserimento area di testo};
+		\item \textbf{ UC4.1.2:} \textit{ Inserimento frame};
+		\item \textbf{ UC4.1.3:} \textit{ Inserimento immagine};
+		\item \textbf{ UC4.1.4:} \textit{ Inserimento shape}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC5.1.1: Modifica presentazione}
+\subsection{ UC4.1.1: Inserimento area di testo}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1.png}
-	\caption{Caso d'uso UC5.1.1}
+	\includegraphics[scale=0.4]{diagram/UC4-1-1.png}
+	\caption{Caso d'uso UC4.1.1}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
-	\item \textbf{Postcondizione:} Le modifiche apportate dall'utente verranno visualizzate;
-	\item \textbf{Descrizione:} L'utente può modificare la presentazione scelta inserendo nuovi oggetti o modificando quelli già esistenti;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha aggiunto del testo all'interno della presentazione, la modifica viene visualizzata;
+	\item \textbf{Descrizione:} l'utente può aggiungere un'area di testo all'interno della presentazione;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.1:} \textit{ Gestione frame$_G$};
-		\item \textbf{ UC5.1.1.2:} \textit{ Gestione testo};
-		\item \textbf{ UC5.1.1.3:} \textit{ Gestione oggetti grafici};
-		\item \textbf{ UC5.1.1.4:} \textit{ Modifica tema};
-		\item \textbf{ UC5.1.1.5:} \textit{ Gestione cammino};
-		\item \textbf{ UC5.1.1.6:} \textit{ Avvia anteprima};
-		\item \textbf{ UC5.1.1.7:} \textit{ Salvataggio};
-		\item \textbf{ UC5.1.1.8:} \textit{ Annulla la modifica};
-		\item \textbf{ UC5.1.1.9:} \textit{ Ripristina la modifica annullata}.
+		\item \textbf{ UC4.1.1.1:} \textit{ Inserimento testo};
+		\item \textbf{ UC4.1.1.2:} \textit{ Scelta font};
+		\item \textbf{ UC4.1.1.3:} \textit{ Scelta colore};
+		\item \textbf{ UC4.1.1.4:} \textit{ Scelta dimensione testo}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC5.1.1.1: Gestione frame$_G$}
+\subsection{ UC4.1.1.1: Inserimento testo}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa dell'inserimento del testo da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha inserito il testo, viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può inserire del testo;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.1.1.2: Scelta font}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa della scelta di un font da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha selezionato il font scelto dall'utente, viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può scegliere il font del testo;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.1.1.3: Scelta colore}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa della scelta di un colore da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha applicato il colore scelto dall'utente, viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può scegliere il colore del testo;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.1.1.4: Scelta dimensione testo}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa della scelta della dimensione del testo da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha applicato la dimensione scelta dall'utente, viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può scegliere la dimensione del testo;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.1.2: Inserimento frame}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-1.png}
-	\caption{Caso d'uso UC5.1.1.1}
+	\includegraphics[scale=0.4]{diagram/UC4-1-2.png}
+	\caption{Caso d'uso UC4.1.2}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare una presentazione;
-	\item \textbf{Postcondizione:} Lo stato di qualche frame$_G$ sarà cambiato;
-	\item \textbf{Descrizione:} L'utente può modificare il numero di frame$_G$, la loro gerarchia, la forma e la posizione;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha aggiunto un frame all'interno della presentazione, la modifica viene visualizzata;
+	\item \textbf{Descrizione:} l'utente può aggiungere un frame all'interno della presentazione;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.1.1:} \textit{ Aggiunta nuovo frame$_G$};
-		\item \textbf{ UC5.1.1.1.2:} \textit{ Selezione tipo frame$_G$ };
-		\item \textbf{ UC5.1.1.1.3:} \textit{ Selezione frame$_G$};
-		\item \textbf{ UC5.1.1.1.4:} \textit{ Visualizza selezione}.
+		\item \textbf{ UC4.1.2.1:} \textit{ Scelta forma frame}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC5.1.1.1.1: Aggiunta nuovo frame$_G$}
+\subsection{ UC4.1.2.1: Scelta forma frame}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di gestire i frame$_G$ della presentazione;
-	\item \textbf{Postcondizione:} Viene aggiunto e visualizzato un frame$_G$, con la forma scelta dall'utente, nella presentazione;
-	\item \textbf{Descrizione:} L'utente può aggiungere un nuovo frame$_G$ nella presentazione scegliendone la forma;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa della scelta di una forma da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha selezionato la forma per il frame e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può scegliere la forma del frame;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.1.2: Selezione tipo frame$_G$ }
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di inserire un nuovo frame$_G$;
-	\item \textbf{Postcondizione:} Il frame$_G$ da aggiungere avrà la forma selezionata dall'utente;
-	\item \textbf{Descrizione:} L'utente può selezionare la forma del frame$_G$;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.1.1.3: Selezione frame$_G$}
+\subsection{ UC4.1.3: Inserimento immagine}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-1-3.png}
-	\caption{Caso d'uso UC5.1.1.1.3}
+	\includegraphics[scale=0.4]{diagram/UC4-1-3.png}
+	\caption{Caso d'uso UC4.1.3}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di gestire i frame$_G$;
-	\item \textbf{Postcondizione:} Il frame$_G$ scelto dall'utente viene selezionato, l'utente ha accesso a una serie di funzionalità per quel frame$_G$;
-	\item \textbf{Descrizione:} L'utente può selezionare un frame$_G$ rendendo così possibili una serie di operazioni sul frame$_G$;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha aggiunto un'immagine all'interno della presentazione, la modifica viene visualizzata;
+	\item \textbf{Descrizione:} l'utente può aggiungere un'immagine all'interno della presentazione;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.1.3.1:} \textit{ Modifica frame$_G$};
-		\item \textbf{ UC5.1.1.1.3.2:} \textit{ Zoom al frame$_G$};
-		\item \textbf{ UC5.1.1.1.3.3:} \textit{ Sposta frame$_G$};
-		\item \textbf{ UC5.1.1.1.3.4:} \textit{ Elimina frame$_G$};
-		\item \textbf{ UC5.1.1.1.3.5:} \textit{ Annida frame$_G$};
-		\item \textbf{ UC5.1.1.1.3.6:} \textit{ Sposta frame$_G$ all'esterno di un altro frame$_G$  }.
+		\item \textbf{ UC4.1.3.1:} \textit{ Scelta immagine da filesystem}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC5.1.1.1.3.1: Modifica frame$_G$}
+\subsection{ UC4.1.3.1: Scelta immagine da filesystem}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} Il frame$_G$ da modificare è stato selezionato;
-	\item \textbf{Postcondizione:} Le modifiche apportate al frame$_G$ verranno visualizzate;
-	\item \textbf{Descrizione:} L'utente può scegliere di ridimensionare un frame$_G$ già presente nella presentazione, rendendolo più piccolo o più grande o in alternativa cambiarne la forma;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa della scelta dell'immagine da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha selezionato l'immagine da filesystem, e ha visualizzato le modifiche;
+	\item \textbf{Descrizione:} l'utente deve poter selezionare un immagine da filesystem;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.1.3.2: Zoom al frame$_G$}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} Il frame$_G$ è stato selezionato;
-	\item \textbf{Postcondizione:} Lo zoom sarà focalizzato sul frame$_G$ scelto;
-	\item \textbf{Descrizione:} L'utente può zoommare sul frame$_G$ selezionato rendendone più visibile il contenuto;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.1.1.3.3: Sposta frame$_G$}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} Il frame$_G$ è stato selezionato;
-	\item \textbf{Postcondizione:} Verrà cambiata la posizione del frame$_G$;
-	\item \textbf{Descrizione:} L'utente può modificare la posizione del frame$_G$;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.1.1.3.4: Elimina frame$_G$}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} Il frame$_G$ è stato selezionato;
-	\item \textbf{Postcondizione:} Il frame$_G$ e gli oggetti correlati a questo vengono eliminati;
-	\item \textbf{Descrizione:} L'utente può eliminare il frame$_G$;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.1.1.3.5: Annida frame$_G$}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} Il frame$_G$ è stato selezionato;
-	\item \textbf{Postcondizione:} Il frame$_G$ verrà spostato all'interno di un altro frame$_G$;
-	\item \textbf{Descrizione:} L'utente può trascinare un frame$_G$ all'interno di un altro frame$_G$;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.1.1.3.6: Sposta frame$_G$ all'esterno di un altro frame$_G$}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} Il frame$_G$ è stato selezionato. Il frame$_G$ si trova all'interno di un frame$_G$;
-	\item \textbf{Postcondizione:} Il frame$_G$ verrà spostato all'esterno del frame$_G$ contenitore;
-	\item \textbf{Descrizione:} L'utente può trascinare un frame$_G$ all'esterno del frame$_G$ che lo contiene;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.1.1.4: Visualizza selezione}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha selezionato un frame$_G$;
-	\item \textbf{Postcondizione:} Verrà visualizzata la selezione del frame$_G$;
-	\item \textbf{Descrizione:} Il frame$_G$ selezionato cambia colore;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\newpage
-\subsection{ UC5.1.1.2: Gestione testo}
+\subsection{ UC4.1.4: Inserimento shape}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-2.png}
-	\caption{Caso d'uso UC5.1.1.2}
+	\includegraphics[scale=0.4]{diagram/UC4-1-4.png}
+	\caption{Caso d'uso UC4.1.4}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare una presentazione;
-	\item \textbf{Postcondizione:} Le operazioni sui testi verranno visualizzate;
-	\item \textbf{Descrizione:} L'utente può gestire i testi della presentazione modificandoli, inserendone ed eliminandone;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha aggiunto uno shape all'interno della presentazione, la modifica viene visualizzata;
+	\item \textbf{Descrizione:} l'utente può aggiungere uno shape all'interno della presentazione;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.2.1:} \textit{ Aggiunta testo};
-		\item \textbf{ UC5.1.1.2.2:} \textit{ Formattazione testo}.
+		\item \textbf{ UC4.1.4.1:} \textit{ Scelta tipo shape}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC5.1.1.2.1: Aggiunta testo}
+\subsection{ UC4.1.4.1: Scelta tipo shape}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di gestire i testi;
-	\item \textbf{Postcondizione:} Un nuovo testo sarà inserito;
-	\item \textbf{Descrizione:} L'utente può inserire un nuovo testo;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa della scelta di un tipo di shape da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha selezionato la tipologia di shape, e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può scegliere il tipo di shape;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\newpage
-\subsection{ UC5.1.1.2.2: Formattazione testo}
+\subsection{ UC4.2: Seleziona oggetto grafico}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha selezionato un oggetto grafico;
+	\item \textbf{Descrizione:} l'utente può selezionare un oggetto grafico;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.3: Modifica oggetto grafico}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-2-2.png}
-	\caption{Caso d'uso UC5.1.1.2.2}
+	\includegraphics[scale=0.4]{diagram/UC4-3.png}
+	\caption{Caso d'uso UC4.3}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di gestire i testi;
-	\item \textbf{Postcondizione:} La formattazione dei testi sarà modificata;
-	\item \textbf{Descrizione:} L'utente può modificare la formattazione del testo scegliendo font, colore, tipologia;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha modificato un oggetto grafico all'interno della presentazione, la modifica viene visualizzata;
+	\item \textbf{Descrizione:} l'utente può modificare un oggetto grafico;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.2.2.1:} \textit{ Modifica del font};
-		\item \textbf{ UC5.1.1.2.2.2:} \textit{ Modifica del colore};
-		\item \textbf{ UC5.1.1.2.2.3:} \textit{ Modifica della dimensione};
-		\item \textbf{ UC5.1.1.2.2.4:} \textit{ Modifica del stile}.
+		\item \textbf{ UC4.3.1:} \textit{ Modifica frame};
+		\item \textbf{ UC4.3.2:} \textit{ Modifica immagine};
+		\item \textbf{ UC4.3.3:} \textit{ Modifica area di testo};
+		\item \textbf{ UC4.3.4:} \textit{ Modifica shape}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC5.1.1.2.2.1: Modifica del font}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare i testi;
-	\item \textbf{Postcondizione:} I testi della presentazione avranno il font selezionato;
-	\item \textbf{Descrizione:} L'utente può cambiare il font;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.1.2.2.2: Modifica del colore}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare il colore dei testi;
-	\item \textbf{Postcondizione:} Il colore dei testi verrà cambiato;
-	\item \textbf{Descrizione:} L'utente può modificare il colore dei testi;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.1.2.2.3: Modifica della dimensione }
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare la dimensione dei testi;
-	\item \textbf{Postcondizione:} La modifica della dimensione viene visualizzata;
-	\item \textbf{Descrizione:} L'utente può modificare la dimensione;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.1.2.2.4: Modifica del stile}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare lo stile del testo;
-	\item \textbf{Postcondizione:} La modifica dello stile viene visualizzata;
-	\item \textbf{Descrizione:} L'utente può scegliere un qualche stile per il testo, ad esempio: bold, italico, etc;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\newpage
-\subsection{ UC5.1.1.3: Gestione oggetti grafici}
+\subsection{ UC4.3.1: Modifica frame}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-3.png}
-	\caption{Caso d'uso UC5.1.1.3}
+	\includegraphics[scale=0.4]{diagram/UC4-3-1.png}
+	\caption{Caso d'uso UC4.3.1}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare la presentazione;
-	\item \textbf{Postcondizione:} Le modifiche apportate agli oggetti grafici scelti vengono visualizzate;
-	\item \textbf{Descrizione:} L'utente può gestire tutti gli oggetti grafici messi a sua disposizione dal sistema;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un frame;
+	\item \textbf{Postcondizione:} il sistema ha modificato il frame e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare un frame;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.3.1:} \textit{ Aggiunta oggetto grafico};
-		\item \textbf{ UC5.1.1.3.2:} \textit{ Modifica infografica};
-		\item \textbf{ UC5.1.1.3.3:} \textit{ Elimina oggetto grafico}.
+		\item \textbf{ UC4.3.1.1:} \textit{ Ridimensiona frame};
+		\item \textbf{ UC4.3.1.2:} \textit{ Riposiziona frame};
+		\item \textbf{ UC4.3.1.3:} \textit{ Modifica stile frame}.
 	\end{enumerate}
 \end{itemize}
+\subsection{ UC4.3.1.1: Ridimensiona frame}
 
-\newpage
-\subsection{ UC5.1.1.3.1: Aggiunta oggetto grafico}
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un frame;
+	\item \textbf{Postcondizione:} il sistema ha ridimensionato il frame e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può ridimensionare un frame;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.3.1.2: Riposiziona frame}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un frame;
+	\item \textbf{Postcondizione:} il sistema ha riposizionato il frame e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può riposizionare un frame;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.3.1.3: Modifica stile frame}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un frame;
+	\item \textbf{Postcondizione:} il sistema ha modificato lo stile del frame e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare lo stile di un frame;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.3.2: Modifica immagine}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-3-1.png}
-	\caption{Caso d'uso UC5.1.1.3.1}
+	\includegraphics[scale=0.4]{diagram/UC4-3-2.png}
+	\caption{Caso d'uso UC4.3.2}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di aggiungere un oggetto grafico nella presentazione corrente;
-	\item \textbf{Postcondizione:} L'oggetto grafico viene aggiunto e visualizzato nella presentazione corrente;
-	\item \textbf{Descrizione:} L'utente può aggiungere un oggetto grafico alla presentazione;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata un'immagine;
+	\item \textbf{Postcondizione:} il sistema ha modificato l'immagine e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare un'immagine;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.3.1.1:} \textit{ Aggiunta immagine};
-		\item \textbf{ UC5.1.1.3.1.2:} \textit{ Aggiunta infografica}.
+		\item \textbf{ UC4.3.2.1:} \textit{ Riposiziona immagine};
+		\item \textbf{ UC4.3.2.2:} \textit{ Ridimensiona immagine};
+		\item \textbf{ UC4.3.2.3:} \textit{ Cambia livello immagine}.
 	\end{enumerate}
 \end{itemize}
-
-\newpage
-\subsection{ UC5.1.1.3.1.1: Aggiunta immagine}
+\subsection{ UC4.3.2.1: Riposiziona immagine}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di aggiungere un immagine nella presentazione corrente;
-	\item \textbf{Postcondizione:} L'immagine è stata aggiunta e visualizzata nella presentazione corrente. L'immagine sarà associata ad un frame$_G$;
-	\item \textbf{Descrizione:} L'utente può aggiungere un immagine alla presentazione;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata un'immagine;
+	\item \textbf{Postcondizione:} il sistema ha riposizionato l'immagine e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può riposizionare un'immagine;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.3.1.2: Aggiunta infografica}
+\subsection{ UC4.3.2.2: Ridimensiona immagine}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata un'immagine;
+	\item \textbf{Postcondizione:} il sistema ha ridimensionato l'immagine e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può ridimensionare un'immagine;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.3.2.3: Cambia livello immagine}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata un'immagine;
+	\item \textbf{Postcondizione:} il sistema ha cambiato il livello dell'immagine e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può cambiare il livello dell'immagine selezionata;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.3.3: Modifica area di testo}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-3-1-2.png}
-	\caption{Caso d'uso UC5.1.1.3.1.2}
+	\includegraphics[scale=0.4]{diagram/UC4-3-3.png}
+	\caption{Caso d'uso UC4.3.3}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di aggiungere un'infografica  nella presentazione corrente;
-	\item \textbf{Postcondizione:} L'infografica è stata aggiunta e visualizzata nella presentazione corrente;
-	\item \textbf{Descrizione:} L'utente ha scelto di aggiungere un'infografica nella presentazione corrente, appena verrà aggiunta verrà visualizzata nella presentazione;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un testo;
+	\item \textbf{Postcondizione:} il sistema ha modificato il testo e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare un testo;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.3.1.2.1:} \textit{ Selezione tipo infografica};
-		\item \textbf{ UC5.1.1.3.1.2.2:} \textit{ Inserimento dati};
-		\item \textbf{ UC5.1.1.3.1.2.3:} \textit{ Annulla inserimento};
-		\item \textbf{ UC5.1.1.3.1.2.4:} \textit{ Conferma inserimento}.
+		\item \textbf{ UC4.3.3.1:} \textit{ Ridimensiona area di testo};
+		\item \textbf{ UC4.3.3.2:} \textit{ Riposiziona area di testo};
+		\item \textbf{ UC4.3.3.3:} \textit{ Modifica stile del contenuto dell'area di testo};
+		\item \textbf{ UC4.3.3.4:} \textit{ Modifica contenuto dell'area di testo};
+		\item \textbf{ UC4.3.3.5:} \textit{ Cambia livello area di testo}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC5.1.1.3.1.2.1: Selezione tipo infografica}
+\subsection{ UC4.3.3.1: Ridimensiona area di testo}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di aggiungere un'infografica nella presentazione corrente;
-	\item \textbf{Postcondizione:} L'utente ha selezionato un tipo di infografica. Viene visualizzata una selezione in corrispondenza dell'infografica scelta;
-	\item \textbf{Descrizione:} L'utente ha scelto di aggiungere un'infogarfica nella presentazione corrente. Quindi, dovrà selezionarne un tipo. Successivamente, verrà inserita l'infografica corrispondente;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata un'area di testo;
+	\item \textbf{Postcondizione:} il sistema ha ridimensionato l'area di testo e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può ridimensionare un'area di testo;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.3.1.2.2: Inserimento dati}
+\subsection{ UC4.3.3.2: Riposiziona area di testo}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di aggiungere un'infografica nella presentazione corrente;
-	\item \textbf{Postcondizione:} L'utente ha inserito dei dati;
-	\item \textbf{Descrizione:} L'utente ha scelto di aggiungere un'infogarfica nella presentazione corrente. Quindi, dovrà inserire dei dati da visualizzare nell'infografica. Successivamente, verrà inserita l'infografica corrispondente;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata un'area di testo;
+	\item \textbf{Postcondizione:} il sistema ha riposizionato l'area di testo e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può riposizionare un'area di testo;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.3.1.2.3: Annulla inserimento}
+\subsection{ UC4.3.3.3: Modifica stile del contenuto dell'area di testo}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha deciso di annullare l'inserimento dei dati;
-	\item \textbf{Postcondizione:} Viene annullato l'inserimento dei dati, e non vengono applicate modifiche all'infografica;
-	\item \textbf{Descrizione:} L'utente ha scelto di aggiungere un'infogarfica nella presentazione corrente. Quindi, dovrà inserire dei dati corrispondenti. Successivamente, l'utente sceglie di annullare l'inserimento, di conseguenza non verranno applicate modifiche all'infografica;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata un'area di testo;
+	\item \textbf{Postcondizione:} il sistema ha modificato lo stile del contenuto dell'area di testo e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare lo stile del contenuto dell'area di testo;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.3.1.2.4: Conferma inserimento}
+\subsection{ UC4.3.3.4: Modifica contenuto dell'area di testo}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha concluso l'inserimento dei dati e ha deciso di confermarli;
-	\item \textbf{Postcondizione:} Viene confermato l'inserimento. Vengono visualizzate le modifiche;
-	\item \textbf{Descrizione:} L'utente ha scelto di aggiungere un'infogarfica nella presentazione corrente. Quindi, dovrà inserire dei dati corrispondenti. Successivamente, l'utente sceglie di confermare l'inserimento, di conseguenza verranno applicate modifiche all'infografica e saranno visualizzate le modifiche;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata un'area di testo;
+	\item \textbf{Postcondizione:} il sistema ha modificato il contenuto dell'area di testo e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare il contenuto dell'area di testo;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.3.2: Modifica infografica}
+\subsection{ UC4.3.3.5: Cambia livello area di testo}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata un'area di testo;
+	\item \textbf{Postcondizione:} il sistema ha cambiato il livello dell'area di testo e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può cambiare il livello dell'area di testo selezionata;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.3.4: Modifica shape}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-3-2.png}
-	\caption{Caso d'uso UC5.1.1.3.2}
+	\includegraphics[scale=0.4]{diagram/UC4-3-4.png}
+	\caption{Caso d'uso UC4.3.4}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare un'infografica per la presentazione corrente;
-	\item \textbf{Postcondizione:} L'infografica è stata modificata e le modiche vengono visualizzate;
-	\item \textbf{Descrizione:} L'utente ha scelto di modificare un'infografica nella presentazione corrente, appena verrà modificata, sarà visualizzata la modifica nella presentazione;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato una shape;
+	\item \textbf{Postcondizione:} il sistema ha modificato la shape e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare una shape;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.3.2.1:} \textit{ Modifica tipologia};
-		\item \textbf{ UC5.1.1.3.2.2:} \textit{ Modifica dati};
-		\item \textbf{ UC5.1.1.3.2.3:} \textit{ Conferma modifiche};
-		\item \textbf{ UC5.1.1.3.2.4:} \textit{ Annulla modifiche}.
+		\item \textbf{ UC4.3.4.1:} \textit{ Riposiziona shape};
+		\item \textbf{ UC4.3.4.2:} \textit{ Ridimensiona shape};
+		\item \textbf{ UC4.3.4.3:} \textit{ Modifica stile della shape};
+		\item \textbf{ UC4.3.4.4:} \textit{ Cambia livello alla shape}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC5.1.1.3.2.1: Modifica tipologia}
+\subsection{ UC4.3.4.1: Riposiziona shape}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto un infografica e ne vuole modificare il tipo;
-	\item \textbf{Postcondizione:} Il tipo di infografica viene modificato e vengono visualizzate le modifiche;
-	\item \textbf{Descrizione:} L'utente ha scelto di modificare la tipologia di un'infografica nella presentazione corrente, appena verrà modificata, sarà visualizzata la modifica nella presentazione;
+	\item \textbf{Precondizione:} 	il sistema è in fase di modifica della presentazione ed è stato selezionato una shape;
+	\item \textbf{Postcondizione:} il sistema ha riposizionato la shape e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente puòriposizionare la shape selezionata;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.3.2.2: Modifica dati}
+\subsection{ UC4.3.4.2: Ridimensiona shape}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare i dati per l'infografica;
-	\item \textbf{Postcondizione:} I dati sono modificati. Vengono visualizzate le modifiche;
-	\item \textbf{Descrizione:} L'utente può modificare i dati relativi ad un'infografica;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata una shape;
+	\item \textbf{Postcondizione:} il sistema ha ridimensionato la shape e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può ridimensionare una shape;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.3.2.3: Conferma modifiche}
+\subsection{ UC4.3.4.3: Modifica stile della shape}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di confermare le modifiche per l'infografica;
-	\item \textbf{Postcondizione:} Sono state confermate e visualizzate le modifiche;
-	\item \textbf{Descrizione:} L'utente ha scelto di confermare le modifiche di un'infografica nella presentazione corrente, appena verrà confermata la modifica sarà visualizzata la modifica nella presentazione;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stata selezionata una shape;
+	\item \textbf{Postcondizione:} il sistema ha modificato lo stile della shape e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare lo stile della shape selezionata;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.3.2.4: Annulla modifiche}
+\subsection{ UC4.3.4.4: Cambia livello alla shape}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di annullare le modifiche per l'infografica;
-	\item \textbf{Postcondizione:} Sono state annullate le modifiche;
-	\item \textbf{Descrizione:} L'utente ha scelto di annullare le modifiche di un'infogarfica nella presentazione corrente. Quindi, non verranno applicate modifiche all'infografica;
+	\item \textbf{Precondizione:} ;
+	\item \textbf{Postcondizione:} ;
+	\item \textbf{Descrizione:} ;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.3.3: Elimina oggetto grafico}
+\subsection{ UC4.4: Elimina oggetto grafico}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di eliminare un oggetto grafico;
-	\item \textbf{Postcondizione:} L'oggetto grafico è stato eliminato;
-	\item \textbf{Descrizione:} L'utente ha scelto di eliminare un oggetto grafico. Quindi, verrà elimitato l'oggetto grafico corrispondente;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un oggetto grafico;
+	\item \textbf{Postcondizione:} il sistema ha eliminato l'oggetto grafico e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può eliminare un oggetto grafico;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.4: Modifica tema}
+\subsection{ UC4.5: Crea percorso}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-4.png}
-	\caption{Caso d'uso UC5.1.1.4}
+	\includegraphics[scale=0.4]{diagram/UC4-5.png}
+	\caption{Caso d'uso UC4.5}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente ha scelto di modificare il tema per la presentazione corrente;
-	\item \textbf{Postcondizione:} Il tema è stato modificato e le modifiche vengono visualizzate;
-	\item \textbf{Descrizione:} L'utente ha scelto di modificare il tema della presentazione corrente, appena verrà modificato, sarà visualizzata la modifica nella presentazione;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione;
+	\item \textbf{Postcondizione:} il sistema ha creato un nuovo percorso;
+	\item \textbf{Descrizione:} l'utente può creare un nuovo percorso che descrive la successione dei frame durante l'esecuzione della presentazione;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.4.1:} \textit{ Selezione tema generale};
-		\item \textbf{ UC5.1.1.4.2:} \textit{ Modifica parametri avanzati}.
+		\item \textbf{ UC4.5.1:} \textit{ Inserimento titolo};
+		\item \textbf{ UC4.5.2:} \textit{ Clona percorso}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC5.1.1.4.1: Selezione tema generale}
+\subsection{ UC4.5.1: Inserimento titolo}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di selezionare un tema generale;
-	\item \textbf{Postcondizione:} Il tema è stato applicato e viene visualizzato;
-	\item \textbf{Descrizione:} L'utente ha scelto di selezionare un tema generale. Successivamente, sarà applicato e visualizzato;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa dell'inserimento di una descrizione;
+	\item \textbf{Postcondizione:} il sistema ha inserito un titolo per il nuovo percorso;
+	\item \textbf{Descrizione:} l'utente deve inserire un titolo per il nuovo percorso;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.4.2: Modifica parametri avanzati}
+\subsection{ UC4.5.2: Clona percorso}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa di un'operazione da parte dell'utente. Deve esistere almeno un percorso per la presentazione;
+	\item \textbf{Postcondizione:} il sistema ha clonato un percorso scelto dall'utente;
+	\item \textbf{Descrizione:} l'utente può clonare un percorso;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.6: Seleziona percorso}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è in attesa di un'operazione da parte dell'utente. Deve esistere almeno un percorso per la presentazione;
+	\item \textbf{Postcondizione:} il sistema ha selezionato il percorso scelto dall'utente per la presentazione;
+	\item \textbf{Descrizione:} l'utente può selezionare un percorso esistente nella presentazione;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.7: Modifica percorso}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-4-2.png}
-	\caption{Caso d'uso UC5.1.1.4.2}
+	\includegraphics[scale=0.4]{diagram/UC4-7.png}
+	\caption{Caso d'uso UC4.7}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare i parametri avanzati;
-	\item \textbf{Postcondizione:} I parametri avanzati sono modificati e si visualizzano le modifiche;
-	\item \textbf{Descrizione:} L'utente decide di modificare i parametri avanzati, successivamente verranno visualizzate le modifiche;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un percorso;
+	\item \textbf{Postcondizione:} il sistema ha modificato il percorso e viene visualizzata la modifica.;
+	\item \textbf{Descrizione:} l'utente può modificare il percorso selezionato;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.4.2.1:} \textit{ Modifica colore connessioni};
-		\item \textbf{ UC5.1.1.4.2.2:} \textit{ Modifica colore frame$_G$};
-		\item \textbf{ UC5.1.1.4.2.3:} \textit{ Modifica sfondo}.
+		\item \textbf{ UC4.7.1:} \textit{ Modifica titolo };
+		\item \textbf{ UC4.7.2:} \textit{ Aggiungi passo};
+		\item \textbf{ UC4.7.3:} \textit{ Seleziona frame del percorso};
+		\item \textbf{ UC4.7.4:} \textit{ Modifica ordine dei frame};
+		\item \textbf{ UC4.7.5:} \textit{ Crea checkpoint};
+		\item \textbf{ UC4.7.6:} \textit{ Rimuovi checkpoint}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC5.1.1.4.2.1: Modifica colore connessioni}
+\subsection{ UC4.7.1: Modifica titolo }
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare il colore delle connessioni;
-	\item \textbf{Postcondizione:} Il colore delle connessioni è stato modificato e vengono visualizzate le modifiche;
-	\item \textbf{Descrizione:} L'utente ha scelto di modificare il colore delle connessioni.  Successivamente, dopo la scelta del colore, verrà modificato il colore e visualizzata la modifica;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un percorso;
+	\item \textbf{Postcondizione:} il sistema ha modificato il titolo per il percorso selezionato e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può cambiare il titolo del percorso selezionato. La modifica verrà visualizzata;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.4.2.2: Modifica colore frame$_G$}
+\subsection{ UC4.7.2: Aggiungi passo}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare il colore del frame$_G$;
-	\item \textbf{Postcondizione:} Il colore del frame$_G$ è stato modificato e vengono visualizzate le modifiche;
-	\item \textbf{Descrizione:} L'utente ha scelto di modificare il colore del frame$_G$.  Successivamente, dopo la scelta del colore, verrà modificato il colore e visualizzata la modifica;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un percorso;
+	\item \textbf{Postcondizione:} il sistema ha aggiunto un passo del percorso e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può aggiungere un passo al cammino. Ogni passo è associato ad un frame;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.4.2.3: Modifica sfondo}
+\subsection{ UC4.7.3: Seleziona frame del percorso}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione ed è stato selezionato un percorso;
+	\item \textbf{Postcondizione:} il sistema ha selezionato un frame del percorso;
+	\item \textbf{Descrizione:} l'utente può selezionare un frame del percorso;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.7.4: Modifica ordine dei frame}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione, è stato selezionato un percorso ed un frame al suo interno;
+	\item \textbf{Postcondizione:} il sistema ha modificato l'ordine dei frame e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può modificare l'ordine dei frame all'interno del percorso;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.7.5: Crea checkpoint}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione, è stato selezionato un percorso ed un frame al suo interno. Il frame selezionato non è un checkpoint;
+	\item \textbf{Postcondizione:} il sistema ha reso il frame un checkpoint e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può marcare un frame come checkpoint;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.7.6: Rimuovi checkpoint}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-4-2-3.png}
-	\caption{Caso d'uso UC5.1.1.4.2.3}
+	\includegraphics[scale=0.4]{diagram/UC4-7-6.png}
+	\caption{Caso d'uso UC4.7.6}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare lo sfondo;
-	\item \textbf{Postcondizione:} Lo sfondo viene modificato e viene visualizzata la modifica;
-	\item \textbf{Descrizione:} L'utente ha scelto di modificare lo sfondo.  Successivamente, verrà modificato e visualizzata la modifica;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione, è stato selezionato un percorso ed un frame al suo interno. Il frame selezionato è un checkpoint;
+	\item \textbf{Postcondizione:} il sistema ha rimosso il checkpoint dal frame e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente può rimuovere checkpoint da un frame;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.4.2.3.1:} \textit{ Selezione colore};
-		\item \textbf{ UC5.1.1.4.2.3.2:} \textit{ Selezione immagine}.
+		\item \textbf{ UC4.7.6.1:} \textit{ Conferma eliminazione};
+		\item \textbf{ UC4.7.6.2:} \textit{ Annulla eliminazione}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC5.1.1.4.2.3.1: Selezione colore}
+\subsection{ UC4.7.6.1: Conferma eliminazione}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di modificare il colore per lo sfondo;
-	\item \textbf{Postcondizione:} Il colore di sfondo è stato selezionato e viene visualizzata la selezione;
-	\item \textbf{Descrizione:} L'utente dovrà selezionare un colore.  Successivamente, viene visualizzata la selezione;
+	\item \textbf{Precondizione:} il sistema sta per eliminare un percorso, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha ricevuto la conferma di eliminazione da parte dell'utente;
+	\item \textbf{Descrizione:} l'utente può confermare l'eliminazione di un percorso;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.4.2.3.2: Selezione immagine}
+\subsection{ UC4.7.6.2: Annulla eliminazione}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema sta per eliminare un percorso, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha ricevuto l'annullamento dell'eliminazione da parte dell'utente;
+	\item \textbf{Descrizione:} l'utente può annullare l'eliminazione di un percorso;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC4.8: Elimina percorso}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-4-2-3-2.png}
-	\caption{Caso d'uso UC5.1.1.4.2.3.2}
+	\includegraphics[scale=0.4]{diagram/UC4-8.png}
+	\caption{Caso d'uso UC4.8}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di selezionare un'immagine di sfondo;
-	\item \textbf{Postcondizione:} L'immagine di sfondo è stata selezionata e viene visualizzata la selezione;
-	\item \textbf{Descrizione:} L'utente ha scelto di selezionare un'immagine di sfondo. Successivamente, verrà visualizzata la selezione;
+	\item \textbf{Precondizione:} ;
+	\item \textbf{Postcondizione:} ;
+	\item \textbf{Descrizione:} ;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC5.1.1.4.2.3.2.1:} \textit{ Selezione immagine da file};
-		\item \textbf{ UC5.1.1.4.2.3.2.2:} \textit{ Selezione immagine da predefinite};
-		\item \textbf{ UC5.1.1.4.2.3.2.3:} \textit{ Selezione immagine da URL$_G$}.
+		\item \textbf{ UC4.8.1:} \textit{ Conferma eliminazione};
+		\item \textbf{ UC4.8.2:} \textit{ Annulla eliminazione}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC5.1.1.4.2.3.2.1: Selezione immagine da file}
+\subsection{ UC4.8.1: Conferma eliminazione}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} l’utente ha scelto di selezionare l’immagine da file;
-	\item \textbf{Postcondizione:} l’immagine selezionata viene applicata allo sfondo della presentazione;
-	\item \textbf{Descrizione:} l’utente sceglie l’immagine dal proprio dispositivo tramite una finestra apposita;
+	\item \textbf{Precondizione:} ;
+	\item \textbf{Postcondizione:} ;
+	\item \textbf{Descrizione:} ;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.4.2.3.2.2: Selezione immagine da predefinite}
+\subsection{ UC4.8.2: Annulla eliminazione}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} l’utente ha scelto di selezionare l’immagine tra quelle fornite dal sistema;
-	\item \textbf{Postcondizione:} l’immagine selezionata viene applicata allo sfondo della presentazione;
-	\item \textbf{Descrizione:} vengono mostrate una serie di immagini fornite dal sistema dalle quali l’utente può scegliere quella da impostare come sfondo;
+	\item \textbf{Precondizione:} ;
+	\item \textbf{Postcondizione:} ;
+	\item \textbf{Descrizione:} ;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.4.2.3.2.3: Selezione immagine da URL$_G$}
+\subsection{ UC4.9: Modifica descrizione}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} l’utente ha scelto di selezionare l’immagine fornendo il relativo URL$_G$;
-	\item \textbf{Postcondizione:} l’immagine selezionata viene applicata allo sfondo della presentazione;
-	\item \textbf{Descrizione:} viene chiesto di inserire l’URL$_G$ corrispondente all’immagine;
+	\item \textbf{Precondizione:} ;
+	\item \textbf{Postcondizione:} ;
+	\item \textbf{Descrizione:} ;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-
-\newpage
-\subsection{ UC5.1.1.5: Gestione cammino}
-
-\begin{figure}[h]
-	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-1-5.png}
-	\caption{Caso d'uso UC5.1.1.5}
-	\end{center}
-\end{figure}
-\begin{itemize}
-	\item \textbf{Precondizione:} L’utente si trova nell’editor e decide di gestire il cammino presentativo della presentazione;
-	\item \textbf{Postcondizione:} L’utente ha terminato la gestione del cammino presentativo e visualizza eventuali cambiamenti;
-	\item \textbf{Descrizione:} L’utente si presta a gestire il cammino presentativo, cioè l’ordine in cui vengono visualizzati i vari frame$_G$;
-	\item \textbf{Attori:} Utente autenticato;
-	\item \textbf{Scenario principale:}
-	\begin{enumerate}
-		\item \textbf{ UC5.1.1.5.1:} \textit{ Scambia posizione frame$_G$};
-		\item \textbf{ UC5.1.1.5.2:} \textit{ Aggiunta vista attuale in coda}.
-	\end{enumerate}
-\end{itemize}
-\subsection{ UC5.1.1.5.1: Scambia posizione frame$_G$}
+\subsection{ UC4.10: Modifica titolo presentazione}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente si trova nell’editor e ha deciso di gestire il cammino presentativo scambiando la posizione dei frame$_G$;
-	\item \textbf{Postcondizione:} I frame$_G$ sono stati scambiati correttamente e il nuovo cammino viene visualizzato a video;
-	\item \textbf{Descrizione:} L’utente può scambiare di posizione i vari frame$_G$ semplicemente utilizzando la funzione di drag and drop$_G$, oppure assegnando un numero al frame$_G$, che corrisponde alla posizione in cui il frame$_G$ verrà visualizzato;
+	\item \textbf{Precondizione:} ;
+	\item \textbf{Postcondizione:} ;
+	\item \textbf{Descrizione:} ;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.5.2: Aggiunta vista attuale in coda}
+\subsection{ UC5: Salva presentazione}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente si trova nell’editor e ha deciso di gestire il cammino presentativo aggiungendo in coda la vista attuale;
-	\item \textbf{Postcondizione:} La vista attuale viene aggiunta in coda al cammino presentativo che quindi avrà un passo in più;
-	\item \textbf{Descrizione:} L’utente, durante la gestione del cammino presentativo, può scegliere di aggiungere in coda la vista attuale, ovvero la vista della presentazione al livello di zoom presente al momento dell’aggiunta;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica della presentazione, il sistema è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha salvato le modifiche della presentazione e viene visualizzato il salvataggio;
+	\item \textbf{Descrizione:} l'utente dopo aver modificato una presentazione la può salvare;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC5.1.1.6: Avvia anteprima}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L’utente si trova all’interno dell’editor e decide di avviare l’anteprima della presentazione con le eventuali modifiche effettuate;
-	\item \textbf{Postcondizione:} La presentazione viene avviata correttamente a schermo intero con tutte le eventuali modifiche effettuate da parte dell’utente;
-	\item \textbf{Descrizione:} In qualsiasi momento durante la modifica della presentazione l’utente può scegliere di avviare l’anteprima della presentazione. Ciò comporta l’avvio della presentazione stessa in modalità a schermo intero con tutte le eventuali modifiche apportate fino a quel momento da parte dell’utente;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.1.7: Salvataggio}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L’utente si trova all’interno dell’editor e decide di salvare la presentazione;
-	\item \textbf{Postcondizione:} La presentazione è stata correttamente salvata con tutte le eventuali modifiche apportate dall’utente;
-	\item \textbf{Descrizione:} In qualsiasi momento durante la modifica della presentazione l’utente può decidere di salvare le modifiche fatte fino a quel momento. Il sistema implementerà anche una funzione di salvataggio automatico;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.1.8: Annulla la modifica}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L’utente si trova nell’editor ed ha effettuato una modifica alla presentazione;
-	\item \textbf{Postcondizione:} La modifica poco prima effettuata è stata annullata;
-	\item \textbf{Descrizione:} In qualsiasi istante durante la modifica della presentazione l’utente, dopo una modifica, può decidere di annullare l’ultima effettuata;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.1.9: Ripristina la modifica annullata}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L’utente ha appena annullato una modifica;
-	\item \textbf{Postcondizione:} La modifica precedentemente annullata è stata ripristinata correttamente;
-	\item \textbf{Descrizione:} L’utente in qualsiasi momento, dopo aver annullato una modifica, può scegliere di ripristinarla;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.2: Eliminazione presentazione}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
-	\item \textbf{Postcondizione:} La presentazione verrà eliminata;
-	\item \textbf{Descrizione:} L'utente può eliminare una presentazione;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.3: Conferma eliminazione }
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di eliminare una presentazione;
-	\item \textbf{Postcondizione:} L'utente conferma l'eliminazione concludendo il processo;
-	\item \textbf{Descrizione:} L'utente deve confermare la propria intenzione di eliminare una presentazione;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.4: Condivisione presentazione }
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
-	\item \textbf{Postcondizione:} La presentazione corrente sarà resa accessibile a qualunque utente tramite un URL;
-	\item \textbf{Descrizione:} L'utente può condividere una propria presentazione rendendola accessibile, in lettura, anche a utenti esterni;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.5: Esportazione poster}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
-	\item \textbf{Postcondizione:} Viene generata un'immagine contenente l'intera presentazione;
-	\item \textbf{Descrizione:} L'utente può decidere di esportare, in un formato che sceglierà, l'immagine della presentazione scelta;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.6: Download presentazione$_G$}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha scelto di esportare una presentazione;
-	\item \textbf{Postcondizione:} La presentazione esportata in un formato scelto verrà scaricata;
-	\item \textbf{Descrizione:} L'utente, scegliendo di esportare la presentazione selezionata, scarica il file contenente l'immagine;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.7: Stampa presentazione }
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
-	\item \textbf{Postcondizione:} La richiesta di stampa verrà inviata al sistema operativo;
-	\item \textbf{Descrizione:} L'utente può scegliere di stampare la propria presentazione;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.8: Avvio sessione live}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
-	\item \textbf{Postcondizione:} Viene generato un URL alla presentazione avviata, che gli utenti esterni potranno usare per assistere alla presentazione;
-	\item \textbf{Descrizione:} L'utente può avviare una presentazione remota e tutti gli utenti in possesso dell' URL generato potranno assistere visualizzando in tempo reale il susseguirsi delle slide;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-
-\newpage
-\subsection{ UC5.1.9: Avvio presentazione }
-
-\begin{figure}[h]
-	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC5-1-9.png}
-	\caption{Caso d'uso UC5.1.9}
-	\end{center}
-\end{figure}
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
-	\item \textbf{Postcondizione:} Viene visualizzata la presentazione con la relativa interfaccia;
-	\item \textbf{Descrizione:} L'utente può avviare una presentazione e gestire il susseguirsi delle slides andando avanti o indietro nel percorso di questa;
-	\item \textbf{Attori:} Utente autenticato;
-	\item \textbf{Scenario principale:}
-	\begin{enumerate}
-		\item \textbf{ UC5.1.9.1:} \textit{ Frame$_G$ successivo};
-		\item \textbf{ UC5.1.9.2:} \textit{ Frame$_G$ precedente};
-		\item \textbf{ UC5.1.9.3:} \textit{ Esci dalla presentazione }.
-	\end{enumerate}
-\end{itemize}
-\subsection{ UC5.1.9.1: Frame$_G$ successivo}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha avviato una presentazione;
-	\item \textbf{Postcondizione:} Viene visualizzato il frame$_G$ successivo, su cui viene fatto lo zoom;
-	\item \textbf{Descrizione:} L'utente può avanzare nella presentazione visualizzando il frame$_G$ successivo;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.9.2: Frame$_G$ precedente}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha avviato una presentazione e ha eseguito almeno un avanzamento nel percorso dei frame$_G$;
-	\item \textbf{Postcondizione:} Il frame$_G$ precedente viene visualizzato facendone lo zoom;
-	\item \textbf{Descrizione:} L'utente può retrocedere nella visualizzazione della presentazione;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.1.9.3: Esci dalla presentazione }
-
-\begin{itemize}
-	\item \textbf{Precondizione:} Una presentazione è stata avviata;
-	\item \textbf{Postcondizione:} L'utente torna alla schermata con l'elenco delle presentazioni;
-	\item \textbf{Descrizione:} L'utente può scegliere di terminare la presentazione;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC5.2: Visualizzazione anteprima }
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L'utente ha selezionato una presentazione;
-	\item \textbf{Postcondizione:} Viene visualizzata l'anteprima della presentazione selezionata;
-	\item \textbf{Descrizione:} L'utente può scegliere di visualizzare l'anteprima della presentazione;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-
-\newpage
-\subsection{ UC6: Modifica dati account}
+\subsection{ UC6: Elimina presentazione}
 
 \begin{figure}[h]
 	\begin{center}
@@ -942,109 +742,254 @@ La seguente gerarchia di utenti viene considerata valida in tutti i casi d'uso:
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente autenticato è entrato nel sistema ed ha intenzione di modificare i propri dati dell’account;
-	\item \textbf{Postcondizione:} I dati dell’utente sono stati correttamente modificati;
-	\item \textbf{Descrizione:} L’utente può modificare i propri dati inseriti in fase di registrazione;
+	\item \textbf{Precondizione:} il sistema ha selezionato la presentazione scelta dall'utente, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha eliminato la presentazione e viene visualizzata la modifica;
+	\item \textbf{Descrizione:} l'utente dopo aver selezionato una presentazione può eliminarla;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC6.1:} \textit{ Modifica password};
-		\item \textbf{ UC6.2:} \textit{ Modifica e-mail};
-		\item \textbf{ UC6.3:} \textit{ Conferma modifica};
-		\item \textbf{ UC6.4:} \textit{ Annulla modifica}.
+		\item \textbf{ UC6.1:} \textit{ Conferma eliminazione};
+		\item \textbf{ UC6.2:} \textit{ Annulla eliminazione}.
 	\end{enumerate}
 \end{itemize}
+\subsection{ UC6.1: Conferma eliminazione}
 
-\newpage
-\subsection{ UC6.1: Modifica password}
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema sta per eliminare una presentazione, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha ricevuto la conferma di eliminazione da parte dell'utente;
+	\item \textbf{Descrizione:} l'utente può confermare l'eliminazione di una presentazione;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC6.2: Annulla eliminazione}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema sta per eliminare una presentazione, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha ricevuto l'annullamento dell'eliminazione da parte dell'utente;
+	\item \textbf{Descrizione:} l'utente può annullare l'eliminazione di una presentazione;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC7: Pubblica presentazione}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema ha selezionato la presentazione scelta dall'utente. La presentazione selezionata è privata. Il sistema è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha pubblicato la presentazione, viene generato un link per la presentazione;
+	\item \textbf{Descrizione:} l'utente può rendere pubblica una presentazione;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC8: Visualizza link della presentazione pubblica}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema ha selezionato la presentazione scelta dall'utente, e la presentazione è stata pubblicata;
+	\item \textbf{Postcondizione:} il sistema visualizza il link;
+	\item \textbf{Descrizione:} l'utente può visualizzare un link per la presentazione pubblica;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC9: Rendi privata la presentazione}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema ha selezionato la presentazione scelta dall'utente. La presentazione selezionata è pubblica. Il sistema è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha reso privata la presentazione;
+	\item \textbf{Descrizione:} l'utente può rendere privata una presentazione pubblica;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC10: Rendi live la presentazione}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema ha selezionato la presentazione scelta dall'utente. La presentazione selezionata è pubblica. Il sistema è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha reso live la presentazione;
+	\item \textbf{Descrizione:} l'utente può rendere live la presentazione;
+	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+\subsection{ UC11: Esporta presentazione}
 
 \begin{figure}[h]
 	\begin{center}
-	\includegraphics[scale=0.4]{diagram/UC6-1.png}
-	\caption{Caso d'uso UC6.1}
+	\includegraphics[scale=0.4]{diagram/UC11.png}
+	\caption{Caso d'uso UC11}
 	\end{center}
 \end{figure}
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente è entrato nella sezione dedicata alla modifica dei dati dell’account ed ha deciso di modificare la password. Deve inoltre conoscere la password corrente;
-	\item \textbf{Postcondizione:} La password è stata correttamente modificata;
-	\item \textbf{Descrizione:} L’utente può scegliere di modificare la password una volta entrato nella sezione che permette la modifica dei propri dati;
+	\item \textbf{Precondizione:} il sistema ha selezionato la presentazione scelta dall'utente, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha esportato la presentazione;
+	\item \textbf{Descrizione:} l'utente può esportare la presentazione scelta;
 	\item \textbf{Attori:} Utente autenticato;
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
-		\item \textbf{ UC6.1.1:} \textit{ Inserimento vecchia password};
-		\item \textbf{ UC6.1.2:} \textit{ Inserimento nuova password};
-		\item \textbf{ UC6.1.3:} \textit{ Inserimento conferma nuova password}.
+		\item \textbf{ UC11.1:} \textit{ Esporta in poster};
+		\item \textbf{ UC11.2:} \textit{ Esporta in formato portabile}.
 	\end{enumerate}
 \end{itemize}
-\subsection{ UC6.1.1: Inserimento vecchia password}
+\subsection{ UC11.1: Esporta in poster}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente è entrato nella sezione dedicata alla modifica dei dati dell’account ed ha deciso di modificare la password;
-	\item \textbf{Postcondizione:} L’utente ha correttamente inserito la vecchia password;
-	\item \textbf{Descrizione:} L’utente inserisce la vecchia password nel campo dedicato;
+	\item \textbf{Precondizione:} il sistema ha preso in carico l'esportazione della presentazione scelta dall'utente, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha esportato la presentazione in poster e viene effettuato il download;
+	\item \textbf{Descrizione:} l'utente può scegliere di esportare in poster la presentazione scelta;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC6.1.2: Inserimento nuova password}
+\subsection{ UC11.2: Esporta in formato portabile}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente è entrato nella sezione dedicata alla modifica dei dati dell’account ed ha deciso di modificare la password;
-	\item \textbf{Postcondizione:}  L’utente ha correttamente inserito la nuova password;
-	\item \textbf{Descrizione:} L’utente inserisce la nuova password nel campo dedicato;
+	\item \textbf{Precondizione:} il sistema ha preso in carico l'esportazione della presentazione scelta dall'utente, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha esportato la presentazione in formato portable e viene effettuato il download;
+	\item \textbf{Descrizione:} l'utente può scegliere di esportare in formato portable la presentazione scelta;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC6.1.3: Inserimento conferma nuova password}
+\subsection{ UC12: Partecipa a presentazione live}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente è entrato nella sezione dedicata alla modifica dei dati dell’account ed ha deciso di modificare la password;
-	\item \textbf{Postcondizione:} L’utente ha correttamente inserito la conferma della nuova password;
-	\item \textbf{Descrizione:} L’utente inserisce la conferma della nuova password nel campo dedicato e deve corrispondere a quella inserita nel caso d’uso UC6.1.2;
+	\item \textbf{Precondizione:} il sistema si è collegato alla presentazione scelta dall'utente tramite un link di una presentazione pubblica;
+	\item \textbf{Postcondizione:} il sistema ha visualizzato la presentazione;
+	\item \textbf{Descrizione:} l'utente può collegarsi e visualizzare una presentazione pubblica;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC6.2: Modifica e-mail}
+\subsection{ UC13: Registrazione}
+
+\begin{figure}[h]
+	\begin{center}
+	\includegraphics[scale=0.4]{diagram/UC13.png}
+	\caption{Caso d'uso UC13}
+	\end{center}
+\end{figure}
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha effettuato la registrazione dell'utente;
+	\item \textbf{Descrizione:} l'utente può registrarsi al sistema;
+	\item \textbf{Attori:} Utente non autenticato;
+	\item \textbf{Scenario principale:}
+	\begin{enumerate}
+		\item \textbf{ UC13.1:} \textit{ Inserimento email};
+		\item \textbf{ UC13.2:} \textit{ Inserimento password};
+		\item \textbf{ UC13.3:} \textit{ Conferma password};
+		\item \textbf{ UC13.4:} \textit{ Visualizza errore}.
+	\end{enumerate}
+\end{itemize}
+\subsection{ UC13.1: Inserimento email}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente è entrato nella sezione dedicata alla modifica dei dati dell’account ed ha deciso di modificare l’indirizzo e-mail;
-	\item \textbf{Postcondizione:} L’utente ha correttamente modificato il proprio indirizzo e-mail;
-	\item \textbf{Descrizione:} L’utente inserisce il nuovo indirizzo e-mail al posto di quello precedente;
+	\item \textbf{Precondizione:} il sistema è in fase di registrazione dell'utente, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha inserito l'indirizzo email dell'utente e ha visualizzato le modifiche;
+	\item \textbf{Descrizione:} l'utente deve inserire un indirizzo email;
+	\item \textbf{Attori:} Utente non autenticato.
+\end{itemize}
+\subsection{ UC13.2: Inserimento password}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di registrazione dell'utente, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha inserito la password dell'utente e ha visualizzato le modifiche;
+	\item \textbf{Descrizione:} l'utente deve inserire una password;
+	\item \textbf{Attori:} Utente non autenticato.
+\end{itemize}
+\subsection{ UC13.3: Conferma password}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di registrazione dell'utente, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha inserito la password di conferma dell'utente e ha visualizzato le modifiche;
+	\item \textbf{Descrizione:} l'utente deve inserire una password di conferma;
+	\item \textbf{Attori:} Utente non autenticato.
+\end{itemize}
+\subsection{ UC13.4: Visualizza errore}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di registrazione dell'utente, ed è stato commesso un errore da parte dell'utente nell'inserimento del campo richiesto;
+	\item \textbf{Postcondizione:} il sistema ha visualizzato un errore di inserimento;
+	\item \textbf{Descrizione:} il sistema visualizza un errore di inserimento per il campo compilato dall'utente;
+	\item \textbf{Attori:} Utente non autenticato.
+\end{itemize}
+\subsection{ UC14: Autenticazione}
+
+\begin{figure}[h]
+	\begin{center}
+	\includegraphics[scale=0.4]{diagram/UC14.png}
+	\caption{Caso d'uso UC14}
+	\end{center}
+\end{figure}
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha autenticato l'utente;
+	\item \textbf{Descrizione:} l'utente può autenticarsi al sistema;
+	\item \textbf{Attori:} Utente non autenticato;
+	\item \textbf{Scenario principale:}
+	\begin{enumerate}
+		\item \textbf{ UC14.1:} \textit{ Inserimento email};
+		\item \textbf{ UC14.2:} \textit{ Inserimento password};
+		\item \textbf{ UC14.3:} \textit{ Visualizza errore}.
+	\end{enumerate}
+\end{itemize}
+\subsection{ UC14.1: Inserimento email}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di autenticazione, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha inserito l'indirizzo email dell'utente;
+	\item \textbf{Descrizione:} l'utente deve inserire il proprio indirizzo email;
+	\item \textbf{Attori:} Utente non autenticato.
+\end{itemize}
+\subsection{ UC14.2: Inserimento password}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di autenticazione, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha inserito la password dell'utente;
+	\item \textbf{Descrizione:} l'utente deve inserire una password;
+	\item \textbf{Attori:} Utente non autenticato.
+\end{itemize}
+\subsection{ UC14.3: Visualizza errore}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di autenticazione dell'utente, ed è stato commesso un errore da parte dell'utente nell'inserimento del campo richiesto;
+	\item \textbf{Postcondizione:} il sistema ha visualizzato un errore di inserimento;
+	\item \textbf{Descrizione:} il sistema visualizza un errore di inserimento per il campo compilato dall'utente;
+	\item \textbf{Attori:} Utente non autenticato.
+\end{itemize}
+\subsection{ UC15: Modifica password}
+
+\begin{figure}[h]
+	\begin{center}
+	\includegraphics[scale=0.4]{diagram/UC15.png}
+	\caption{Caso d'uso UC15}
+	\end{center}
+\end{figure}
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha modificato la password dell'utente;
+	\item \textbf{Descrizione:} l'utente può modificare la password;
+	\item \textbf{Attori:} Utente autenticato;
+	\item \textbf{Scenario principale:}
+	\begin{enumerate}
+		\item \textbf{ UC15.1:} \textit{ Inserimento password};
+		\item \textbf{ UC15.2:} \textit{ Inserimento nuova password};
+		\item \textbf{ UC15.3:} \textit{ Conferma nuova password};
+		\item \textbf{ UC15.4:} \textit{ Visualizza errore}.
+	\end{enumerate}
+\end{itemize}
+\subsection{ UC15.1: Inserimento password}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica password, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha inserito la password;
+	\item \textbf{Descrizione:} l'utente deve inserire una password;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC6.3: Conferma modifica}
+\subsection{ UC15.2: Inserimento nuova password}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente è entrato nella sezione dedicata alla modifica dei dati dell’account e ha correttamente compilato i campi che desidera modificare;
-	\item \textbf{Postcondizione:} Vengono correttamente modificati i dati e visualizzato un messaggio che conferma l’avvenuta modifica;
-	\item \textbf{Descrizione:} L’utente conferma che desidera modificare i dati del proprio account con quelli appena inseriti;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica password, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha inserito una nuova password;
+	\item \textbf{Descrizione:} l'utente deve inserire una nuova password;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC6.4: Annulla modifica}
+\subsection{ UC15.3: Conferma nuova password}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente è entrato nella sezione dedicata alla modifica dei dati dell’account;
-	\item \textbf{Postcondizione:} L’utente interrompe la modifica dei dati del proprio account che quindi non vengono modificati;
-	\item \textbf{Descrizione:} L’utente interrompe la modifica dei dati dell’account lasciando la pagina dedicata prima di confermare la modifica;
+	\item \textbf{Precondizione:} il sistema è in fase di modifica password, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha confermato la nuova password;
+	\item \textbf{Descrizione:} l'utente deve inserire la conferma della nuova password;
 	\item \textbf{Attori:} Utente autenticato.
 \end{itemize}
-\subsection{ UC7: Nuova presentazione}
+\subsection{ UC15.4: Visualizza errore}
 
 \begin{itemize}
-	\item \textbf{Precondizione:} L’utente si trova all’interno del sistema;
-	\item \textbf{Postcondizione:} Viene creata una nuova presentazione e aperto l’editor per la modifica, dopo aver chiesto all’utente di selezionare un template$_G$ di partenza;
-	\item \textbf{Descrizione:} L’utente che decide di creare una nuova presentazione deve per prima cosa selezionare un template$_G$ dal quale partire, che all’occorrenza può essere anche vuoto. In seguito viene aperto l’editor con il template$_G$ selezionato e si procede analogamente alla modifica di una presentazione già esistente;
+	\item \textbf{Precondizione:} il sistema è in fase di di modifica password, ed è stato commesso un errore da parte dell'utente nell'inserimento del campo richiesto;
+	\item \textbf{Postcondizione:} il sistema ha visualizzato un errore di inserimento;
+	\item \textbf{Descrizione:} il sistema visualizza un errore di inserimento per il campo compilato dall'utente;
 	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC8: Selezione template$_G$}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L’utente ha scelto di creare una nuova presentazione;
-	\item \textbf{Postcondizione:} Viene selezionato il template$_G$ come base di partenza per la nuova presentazione e aperto l’editor;
-	\item \textbf{Descrizione:} L’utente sceglie un template$_G$ tra quelli resi disponibili dal sistema, tra i quali quello vuoto;
-	\item \textbf{Attori:} Utente autenticato.
-\end{itemize}
-\subsection{ UC9: Visualizza presentazione condivisa}
-
-\begin{itemize}
-	\item \textbf{Precondizione:} L’utente vuole avviare una presentazione. È necessario che l’utente disponga dell'URL corrispondente a tale presentazione;
-	\item \textbf{Postcondizione:} L’utente ha correttamente inserito l'URL nel browser$_G$ e la presentazione è stata avviata;
-	\item \textbf{Descrizione:} L’utente, in possesso dell'URL per la condivisione di una presentazione, lo inserisce nella barra degli indirizzi del browser$_G$ e automaticamente il sistema avvia la presentazione corrispondente all'URL inserito;
-	\item \textbf{Attori:} Utente.
 \end{itemize}

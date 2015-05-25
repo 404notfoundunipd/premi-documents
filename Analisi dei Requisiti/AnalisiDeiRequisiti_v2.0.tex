@@ -1,0 +1,40 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{../style}
+\usepackage{longtable}
+
+\newcommand{\docs}{documents/}
+% Dati inerenti al documento corrente %
+% Da sostituire con i valori corretti %
+\newcommand{\titDoc}{Analisi dei requisiti}
+\newcommand{\dataCreazione}{26 dicembre 2014}
+\newcommand{\versione}{2.0}
+
+% Dati di rilascio del documento corrente %
+\newcommand{\stato}{Formale}
+\newcommand{\uso}{Esterno}
+
+\lfoot{
+	\titDoc \\
+	v. \versione
+}
+\title{\titDoc}
+
+\begin{document}
+\input{\docs first.tex}
+\newpage
+\input{\docs regModifiche.tex}
+\newpage
+\tableofcontents
+\newpage
+\listoftables
+\listoffigures
+
+\newpage
+\input{\docs intro.tex}
+\input{\docs descrizione.tex}
+\input{\docs casi_uso.tex}
+\input{\docs requisiti.tex}
+\newpage
+\bibliography{../bibliography}
+
+\end{document}
