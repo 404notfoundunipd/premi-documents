@@ -49,9 +49,25 @@
 \BOOKMARK [3][-]{subsubsection.4.5.12}{Premi.PresentationManager.NewController}{subsection.4.5}
 \BOOKMARK [3][-]{subsubsection.4.5.13}{Premi.PresentationManager.ListPresView}{subsection.4.5}
 \BOOKMARK [3][-]{subsubsection.4.5.14}{Premi.PresentationManager.ListPresController}{subsection.4.5}
-\BOOKMARK [3][-]{subsubsection.4.5.15}{Premi.}{subsection.4.5}
-\BOOKMARK [3][-]{subsubsection.4.5.16}{Premi.}{subsection.4.5}
-\BOOKMARK [3][-]{subsubsection.4.5.17}{Premi.}{subsection.4.5}
+\BOOKMARK [2][-]{subsection.4.6}{Premi.Editor}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Premi.Editor.View}{subsection.4.6}
+\BOOKMARK [3][-]{subsubsection.4.6.2}{Premi.Editor.EditorCtrl}{subsection.4.6}
+\BOOKMARK [3][-]{subsubsection.4.6.3}{Premi.Editor.TextView}{subsection.4.6}
+\BOOKMARK [3][-]{subsubsection.4.6.4}{Premi.Editor.TextController}{subsection.4.6}
+\BOOKMARK [3][-]{subsubsection.4.6.5}{Premi.Editor.ShapeView}{subsection.4.6}
+\BOOKMARK [3][-]{subsubsection.4.6.6}{Premi.Editor.ShapeController}{subsection.4.6}
+\BOOKMARK [3][-]{subsubsection.4.6.7}{Premi.Editor.ImageView}{subsection.4.6}
+\BOOKMARK [3][-]{subsubsection.4.6.8}{Premi.Editor.ImageController}{subsection.4.6}
+\BOOKMARK [3][-]{subsubsection.4.6.9}{Premi.Editor.StyleView}{subsection.4.6}
+\BOOKMARK [3][-]{subsubsection.4.6.10}{Premi.Editor.StyleController}{subsection.4.6}
+\BOOKMARK [3][-]{subsubsection.4.6.11}{Premi.Editor.FrameListView}{subsection.4.6}
+\BOOKMARK [3][-]{subsubsection.4.6.12}{Premi.Editor.FrameListController}{subsection.4.6}
+\BOOKMARK [2][-]{subsection.4.7}{Premi.Editor.FrameEditor}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.7.1}{Premi.Editor.FrameEditor.View}{subsection.4.7}
+\BOOKMARK [3][-]{subsubsection.4.7.2}{Premi.Editor.FrameEditor.FrameEditorCtrl}{subsection.4.7}
+\BOOKMARK [3][-]{subsubsection.4.7.3}{Premi.}{subsection.4.7}
+\BOOKMARK [3][-]{subsubsection.4.7.4}{Premi.}{subsection.4.7}
+\BOOKMARK [3][-]{subsubsection.4.7.5}{Premi.}{subsection.4.7}
 \BOOKMARK [1][-]{section.5}{Diagrammi delle attivit\340}{}
 \BOOKMARK [1][-]{section.6}{Stime di fattibilit\340 e di bisogno di risorse}{}
 \BOOKMARK [1][-]{section.7}{Tracciamento della relazione componenti - requisiti}{}
