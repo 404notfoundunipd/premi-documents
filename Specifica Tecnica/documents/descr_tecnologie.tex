@@ -1,2 +1,82 @@
+<<<<<<< HEAD
 \section{Tecnologie utilizzate}
 \newpage
+=======
+\section{Descrizione delle tecnologie utilizzate}
+
+\subsection{JavaScript}
+
+JavaScript$_G$ è un linguaggio di scripting lato client$_G$ orientato agli oggetti, comunemente usato nei siti web, ed interpretato dai browser$_G$. Ciò permette di alleggerire il server$_G$ dal peso della computazione, che viene eseguita dal client$_G$. Questo è un aspetto molto importante per lo sviluppo del capitolato Premi. La caratteristica principale di JavaScript$_G$ `e, appunto, quella di essere un linguaggio interpretato: il codice non viene compilato, ma interpretato, dal browser$_G$. Essendo molto popolare e ormai consolidato, JavaScript$_G$ può essere eseguito dalla maggior parte dei browser$_G$, sia desktop che mobile, grazie anche alla sua leggerezza. Uno degli svantaggi di questo linguaggio è che ogni operazione che richieda informazioni che devono essere recuperate da un database$_G$ deve passare attraverso un linguaggio che effettui esplicitamente la transazione, per poi restituire i risultati a JavaScript$_G$. Tale operazione richiede l'aggiornamento totale della pagina, ma grazie ad Meteor è possibile superare questo limite.
+
+\subsection{HTML5}
+
+HTML5$_G$ verrà utilizzato per definire la struttura dell'applicazione web Premi. Tale struttura sarà completamente separata dalla presentazione, che verrà realizzata tramite CSS3$_G$. HTML5$_G$ presenta, rispetto ad HTML|$_G$ 4, diversi vantaggi per lo svolgimento del progetto:
+\begin{itemize}
+\item Introduzione di elementi di controllo per i menu di navigazione (tag <nav>);
+\item Introduzione di elementi specifici per l'inserimento di contenuti multimediali (tag <video> e <audio>)
+\end{itemize}]
+e molti altri.
+
+\subsection{CSS3}
+CSS$_G$ (Cascading Style Sheet) è un linguaggio pensato con lo scopo di definire l'aspetto di pagine HTML$_G$ e non solo, che devono presentare un collegamento al loro foglio di stile nell'header (la parte del documento HTML$_G$ che introduce un gruppo di ausili introduttivi o di navigazione). Grazie ai CSS$_G$, `e possibile una completa separazione tra la presentazione (cioè l'aspetto grafico delle pagine web) ed i contenuti delle pagine stesse. Ciò semplifica la comprensione, la manutenzione e la portabilita`. Rispetto a CSS2, CSS3$_G$ introduce funzionalità grafiche più avanzate.
+
+\subsection{Angular}
+
+Nello sviluppo software AngularJS (più comunemente noto come "Angular") è un framework$_G$  per applicazioni web open-source$_G$ gestito da Google e da una comunità di singoli sviluppatori e aziende per affrontare molte delle sfide incontrate nello sviluppo di applicazioni una sola pagina. Angular mira a 
+semplificare lo sviluppo e la sperimentazione di tali applicazioni , fornendo un quadro di riferimento per l'architettura Model-View-Controller ( MVC ) lato client$_G$, insieme ai componenti comunemente utilizzati in applicazioni.\\
+\\
+Le librerie di AngularJS funzionano leggendo prima la pagina HTML$_G$, che ha incorporati in essa tag attributo personalizzati aggiuntivi. Angular interpreta quegli attributi come direttive per legare parti della pagina (in ingresso o in uscita) a un modello che è rappresentato da variabili JavaScript$_G$ standard. I valori di tali variabili JavaScript$_G$ possono essere impostati manualmente all'interno del codice, o recuperati da risorse JSON$_G$ statiche o dinamiche.\\
+\\
+AngularJS è costruito attorno alla convinzione che la programmazione dichiarativa deve essere utilizzata per la costruzione di interfacce utente e il collegamento dei componenti software, mentre la programmazione imperativa è più adatta per definire la logica di business di un'applicazione. Il  framework$_G$ adatta ed estende il tradizionale HTML$_G$ per presentare contenuti dinamici attraverso il "Two-Way Data Binding" che consente la sincronizzazione automatica di modelli e viste, con il risultato di migliorare la testabilità e le prestazioni.\\
+\\
+\textbf{I nostri obiettivi nella scelta di Angular:
+}
+\begin{itemize}
+	\item Disaccoppiare manipolazione del DOM$_G$ dalla logica dell'applicazione.\\
+	La difficoltà di questo è notevolmente influenzata dal modo in cui il codice è strutturato.
+	\item Disaccoppiare il lato client$_G$  di un'applicazione dal lato server$_G$.\\
+	Questo permette allo sviluppo di progredire in parallelo, e permette il riutilizzo del codice di entrambe le parti.
+	\item Fornire la struttura per il percorso di creazione di un'applicazione:\\
+	dalla progettazione dell'interfaccia utente, attraverso la scrittura della logica, al collaudo.
+	\item Angular implementa il pattern MVC$_G$ per separare la presentazione, i dati e le componenti logiche. Usando la Dependency Injection, che verrà descritta dettagliatamente più avanti, Angular porta servizi  tradizionalmente lato server, come i Controllers dipendenti dalle Viste, al lato client$_G$ delle applicazioni Web. Di conseguenza, la maggior parte del carico sul server può essere ridotto.
+\end{itemize}
+\textbf{Perchè Angular}:
+
+\begin{itemize}
+	\item \textbf{Data Binding}:\\
+	è un modo automatico di aggiornamento della vista ogni volta che il modello cambia, così come l'aggiornamento del modello ogni volta che cambia la vista. Ciò  elimina la manipolazione del DOM$_G$ dalla lista delle cose di cui occuparsi.
+	\item \textbf{Controller}:\\
+	definiscono il comportamento dietro gli elementi del DOM$_G$. AngularJS permette di esprimere il comportamento in una forma leggibile pulita, registrando callback$_G$ o guardando le modifiche dei modelli.
+	\item \textbf{JavaScript}:\\
+	A differenza di altri framework$_G$, non vi è alcuna necessità di ereditare da tipi di proprietà, per wrappare i modelli. I modelli in Angular sono semplici vecchi oggetti JavaScript$_G$. Questo rende il codice facile testare, mantenere,e facilita il riutilizzo..
+	\item \textbf{ Comunicazione con il Server}:\\
+	AngularJS fornisce servizi integrati basati su XHR$_G$, nonché vari altri backends, utilizzando librerie di terze parti. Le Promises semplificano ulteriormente il codice per la gestione di ritorno asincrona dei dati.
+	\item \textbf{ Direttive}:\\
+	Le direttive sono una caratteristica unica e potente disponibile solo in Angular. Consentono di inventare nuova sintassi HTML$_G$, specifica per l'applicazione.
+	\item \textbf{ Componenti Riutilizzabili}:\\
+	Usando le direttive per creare componenti riutilizzabili. Un componente consente di nascondere la complessa struttura del DOM$_G$, CSS$_G$, e il comportamento. Questo permette di concentrarsi sia su ciò che l'applicazione deve fare o su come l'applicazione appare separatamente.
+	\item \textbf{ Integrabile}:\\
+	AngularJS lavora molto bene con altre tecnologie. E' possibile aggiungere tanto o poco di AngularJS a una pagina esistente a seconda delle esigenze. Molte altri framework$_G$ richiedono di essere totalmente inclusi. Poichè AngularJS non ha uno stato globale più applicazioni possono essere eseguite su una singola pagina.
+	\item \textbf{ Iniettabile}:\\
+	La dependency injection in AngularJS consente di descrivere in modo dichiarativo come l'applicazione è collegata. Ciò significa che l'applicazione non ha bisogno del metodo main(). Inoltre ogni componente che non si adatta alle nostre esigenze può essere facilmente sostituita.
+	\item \textbf{ Testabile}:
+	AngularJS è stato progettato da zero per essere verificabile.
+\end{itemize}
+
+\subsection{Meteor}
+
+Sebbene Meteor sia frequentemente comparato a Backbone.js e AngularJS per il suo design reattivo, esso è invece un framework$_G$ completo, in grado di utilizzare entrambi come moduli.\\
+\\
+Le sue principali motivazioni progettuali sono elencate di seguito:
+
+\begin{itemize}
+	\item Al posto di essere il server$_G$ ad inviare interi file HTML al client, Meteor invia solo i dati minimi necessari per rirenderizzare la parte della pagina che è cambiata. Ciò consente la creazione di applicazioni a bassa latenza di una sola pagina che evitano il totale refresh della pagina.
+	\item Unifica il linguaggio (Javascript$_G$) utilizzato sul client$_G$ e sul server$_G$.
+	\item La stessa API può essere utilizzata sia sul server$_G$ e il client$_G$ per interrogare il database.
+	Nel browser$_G$, un'implementazione di MongoDB in memoria chiamata Minimongo permette l'interrogazione una cache di documenti che sono stati inviati al client$_G$. 
+	\item La compensazione di latenza: sul client$_G$, Meteor effettua il prefetch dei dati e simula modelli facendo sembrare che le chiamate di metodo sul server ritornino istantaneamente.
+	\item Assoluta reattività: Tutti i livelli, dal database ai template, si aggiornano automaticamente quando necessario.
+	\item Atmosfera, repository di pacchetti di Meteor, detiene più di 5.200.
+	\item Meteor è stato progettato per essere facile da imparare, anche per i principianti.
+\end{itemize}
+>>>>>>> marco-st

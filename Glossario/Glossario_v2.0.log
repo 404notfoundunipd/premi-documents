@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.13)  27 MAY 2015 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.13)  27 MAY 2015 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**MainDocument.tex
-(./MainDocument.tex
+**Glossario_v2.0.tex
+(./Glossario_v2.0.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
@@ -423,8 +423,43 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 88.
 )
-(./MainDocument.aux)
-\openout1 = `MainDocument.aux'.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrextend.sty
+Package: scrextend 2013/12/19 v3.12 KOMA-Script KOMA-Script package (extend oth
+er classes with features of KOMA-Script classes)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)))
+
+LaTeX Warning: Command \@footnotemark  has changed.
+               Check if current package is valid.
+
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box32
+\beforetitleunit=\skip63
+\aftertitleunit=\skip64
+\ttl@plus=\dimen132
+\ttl@minus=\dimen133
+\ttl@toksa=\toks23
+\titlewidth=\dimen134
+\titlewidthlast=\dimen135
+\titlewidthfirst=\dimen136
+)
+(./Glossario_v2.0.aux)
+\openout1 = `Glossario_v2.0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
@@ -475,16 +510,16 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count128
-\scratchdimen=\dimen132
-\scratchbox=\box32
+\scratchdimen=\dimen137
+\scratchbox=\box33
 \nofMPsegments=\count129
 \nofMParguments=\count130
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks24
 \MPscratchCnt=\count131
-\MPscratchDim=\dimen133
+\MPscratchDim=\dimen138
 \MPnumerator=\count132
 \makeMPintoPDFobject=\count133
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks25
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
@@ -543,7 +578,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box33
+\AtBeginShipoutBox=\box34
 Package hyperref Info: Link coloring ON on input line 23.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -558,16 +593,16 @@ LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
 
-(./MainDocument.out) (./MainDocument.out)
+(./Glossario_v2.0.out) (./Glossario_v2.0.out)
 \@outlinefile=\write3
-\openout3 = `MainDocument.out'.
+\openout3 = `Glossario_v2.0.out'.
 
  (./documents/first.tex
-<../logo/logo404_Extends.png, id=466, 1027.84pt x 433.62pt>
-File: ../logo/logo404_Extends.png Graphic file (type png)
+<img/logo404_Extends.png, id=84, 1027.84pt x 433.62pt>
+File: img/logo404_Extends.png Graphic file (type png)
 
-<use ../logo/logo404_Extends.png>
-Package pdftex.def Info: ../logo/logo404_Extends.png used on input line 16.
+<use img/logo404_Extends.png>
+Package pdftex.def Info: img/logo404_Extends.png used on input line 15.
 (pdftex.def)             Requested size: 359.74939pt x 151.76927pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 26.
@@ -575,15 +610,37 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 26.
- [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../logo
-/logo404_Extends.png>])
-(./documents/regModifiche.tex
-Underfull \vbox (badness 10000) detected at line 14
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+) [1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/l
+ogo404_Extends.png>]) (./documents/regModifiche.tex
+Underfull \hbox (badness 1888) in paragraph at lines 13--14
+[]|\OT1/cmr/m/n/12 Modifica strut-tu-ra e cor-re-zio-ne
  []
 
-) <../logo/logo404.png, id=475, 1027.84pt x 402.50375pt>
+
+Underfull \hbox (badness 5036) in paragraph at lines 15--16
+[]|\OT1/cmr/m/n/12 Inserimento Vo-ci(MVC, De-sing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+\OT1/cmr/m/n/12 Pat-tern, Pac-ka-ge, An-gu-la-r-JS,
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 23--24
+[]|\OT1/cmr/m/n/12 Correzione or-to-gra-fi-ca e in-se-ri-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 32
+ []
+
+) <../logo/logo404.png, id=93, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
@@ -594,713 +651,219 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.27 \newpage
-              [1 <../logo/logo404.png>] (./MainDocument.toc
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 47.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [2]
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 93.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [3])
+              [1 <../logo/logo404.png>] (./Glossario_v2.0.toc)
 \tf@toc=\write4
-\openout4 = `MainDocument.toc'.
+\openout4 = `Glossario_v2.0.toc'.
 
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 29.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [4] (./MainDocument.lot)
-\tf@lot=\write5
-\openout5 = `MainDocument.lot'.
-
- (./MainDocument.lof)
-\tf@lof=\write6
-\openout6 = `MainDocument.lof'.
-
+ [2] (./documents/definizioni.tex
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 33.
+Package pdftex.def Info: ../logo/logo404.png used on input line 17.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [5] (./documents/intro.tex
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-))
-(./documents/defin_prodotto.tex
+ [3
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1.
+Package pdftex.def Info: ../logo/logo404.png used on input line 35.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [6]
+ [4
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
 
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 28.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [7]) (./documents/descr_componenti.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--5
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 31.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [8]
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 60.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [9]
-Overfull \hbox (7.15001pt too wide) in paragraph at lines 89--90
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 con \OT1
-/cmtt/m/n/12 Premi.UserManager.RegistrationView
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 90.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [10]
-Overfull \hbox (19.50002pt too wide) in paragraph at lines 104--105
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 con \OT1
-/cmtt/m/n/12 Premi.UserManager.ChangePasswordView
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 119.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [11]
-Overfull \hbox (64.39697pt too wide) in paragraph at lines 122--123
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 con \OT1
-/cmtt/m/n/12 Premi.Viewer.View\OT1/cmr/m/n/12 , con \OT1/cmtt/m/n/12 Premi.User
-Manager.User
- []
-
-
-Overfull \hbox (15.10118pt too wide) in paragraph at lines 139--140
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 esten-de
- \OT1/cmtt/m/n/12 Premi.Presentation.GraphicObject 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 153.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [12]
-Overfull \hbox (15.10118pt too wide) in paragraph at lines 171--172
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 esten-de
- \OT1/cmtt/m/n/12 Premi.Presentation.GraphicObject
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 187.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [13]
-Overfull \hbox (115.43208pt too wide) in paragraph at lines 189--190
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 pos-sie-
-de una li-sta di og-get-ti \OT1/cmtt/m/n/12 premi.Presentation.GraphicObject
- []
-
-
-Overfull \hbox (99.59607pt too wide) in paragraph at lines 202--203
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 pre-le-v
-a le in-for-ma-zio-ni da \OT1/cmtt/m/n/12 Premi.Presentation.Presentation
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 218.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [14]
-Overfull \hbox (88.52528pt too wide) in paragraph at lines 225--226
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.PresentationManager.View 
- []
-
-
-Overfull \hbox (125.5753pt too wide) in paragraph at lines 240--241
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.PresentationManager.RemoveVi
-ew
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 248.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [15]
-Overfull \hbox (125.5753pt too wide) in paragraph at lines 255--256
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.PresentationManager.PublicVi
-ew
- []
-
-
-Overfull \hbox (174.97533pt too wide) in paragraph at lines 270--271
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.PresentationManager.EditTitl
-eDescrView
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 276.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [16]
-Overfull \hbox (107.0503pt too wide) in paragraph at lines 285--286
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.PresentationManager.NewView
- []
-
-
-Overfull \hbox (137.92531pt too wide) in paragraph at lines 300--301
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.PresentationManager.ListPres
-View
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 307.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [17]
-Overfull \hbox (45.30026pt too wide) in paragraph at lines 316--317
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.EditorView
- []
-
-
-Overfull \hbox (32.95026pt too wide) in paragraph at lines 331--332
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.TextView
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 338.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [18]
-Overfull \hbox (39.12526pt too wide) in paragraph at lines 346--347
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.ShapeView
- []
-
-
-Overfull \hbox (39.12526pt too wide) in paragraph at lines 361--362
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.ImageView
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 373.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [19]
-Overfull \hbox (42.38911pt too wide) in paragraph at lines 376--377
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.StyleView\OT1/cmr/m/n
-/12 ,
- []
-
-
-Overfull \hbox (82.35028pt too wide) in paragraph at lines 402--403
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.FrameEditor.View 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 410.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [20]
-Overfull \hbox (108.2137pt too wide) in paragraph at lines 410--411
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re uno
- dei tre con-trol-ler de-di-ca-ti di \OT1/cmtt/m/n/12 Premi.Editor.FrameListVie
-w
- []
-
-
-Overfull \hbox (119.4003pt too wide) in paragraph at lines 427--428
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.InfoGraphicEditor.Vie
-w 
- []
-
-
-Overfull \hbox (108.2137pt too wide) in paragraph at lines 435--436
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re uno
- dei tre con-trol-ler de-di-ca-ti di \OT1/cmtt/m/n/12 Premi.Editor.FrameListVie
-w
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 442.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [21]
-Overfull \hbox (88.52528pt too wide) in paragraph at lines 452--453
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.TrailsEditor.View
- []
-
-
-Overfull \hbox (108.2137pt too wide) in paragraph at lines 460--461
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re uno
- dei tre con-trol-ler de-di-ca-ti di \OT1/cmtt/m/n/12 Premi.Editor.FrameListVie
-w
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 473.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [22]
-Overfull \hbox (144.10031pt too wide) in paragraph at lines 475--476
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.TrailsEditor.EditTrai
-lView 
- []
-
-
-Overfull \hbox (107.0503pt too wide) in paragraph at lines 490--491
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.TrailsEditor.NewView 
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 505.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [23]
-Overfull \hbox (144.10031pt too wide) in paragraph at lines 505--506
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.TrailsEditor.EditTitl
-eView 
- []
-
-
-Overfull \hbox (125.5753pt too wide) in paragraph at lines 520--521
-[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 ^^Re il 
-con-trol-ler de-di-ca-to di \OT1/cmtt/m/n/12 Premi.Editor.TrailsEditor.RemoveVi
-ew 
- []
-
-) (./documents/attivita.tex
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 4.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [24]
-<img/Premi.jpg, id=776, 1210.5225pt x 1224.575pt>
-File: img/Premi.jpg Graphic file (type jpg)
- <use img/Premi.jpg>
-Package pdftex.def Info: img/Premi.jpg used on input line 10.
-(pdftex.def)             Requested size: 484.20042pt x 489.82132pt.
-
-Overfull \hbox (46.69255pt too wide) in paragraph at lines 10--11
- [][] 
- []
-
-<img/ListaPresentazioni.jpg, id=777, 1116.17pt x 1675.25874pt>
-File: img/ListaPresentazioni.jpg Graphic file (type jpg)
-
-<use img/ListaPresentazioni.jpg>
-Package pdftex.def Info: img/ListaPresentazioni.jpg used on input line 22.
-(pdftex.def)             Requested size: 446.4601pt x 670.09163pt.
-
-Overfull \hbox (8.95222pt too wide) in paragraph at lines 22--23
- [][] 
- []
-
-
-LaTeX Warning: Float too large for page by 6.03491pt on input line 25.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 27.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [25 <./img/Premi.jpg>]
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 27.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-[26 <./img/ListaPresentazioni.jpg>]
-<img/Login.jpg, id=788, 477.785pt x 743.77875pt>
-File: img/Login.jpg Graphic file (type jpg)
- <use img/Login.jpg>
-Package pdftex.def Info: img/Login.jpg used on input line 35.
-(pdftex.def)             Requested size: 238.8919pt x 371.88846pt.
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 42.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [27
-
- <./img/Login.jpg>]
-<img/Registrazione.jpg, id=794, 687.56876pt x 944.52875pt>
-File: img/Registrazione.jpg Graphic file (type jpg)
-
-<use img/Registrazione.jpg>
-Package pdftex.def Info: img/Registrazione.jpg used on input line 48.
-(pdftex.def)             Requested size: 343.78354pt x 472.26321pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 55.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [28 <./img/Registrazione.jpg>] <img/Cambio_password.jpg, id=800, 552.0625pt x 
-815.045pt>
-File: img/Cambio_password.jpg Graphic file (type jpg)
-
-<use img/Cambio_password.jpg>
-Package pdftex.def Info: img/Cambio_password.jpg used on input line 61.
-(pdftex.def)             Requested size: 276.03056pt x 407.5215pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 68.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [29 <./img/Cambio_password.jpg>] <img/Visualizzatore.jpg, id=806, 626.34pt x 8
-44.15375pt>
-File: img/Visualizzatore.jpg Graphic file (type jpg)
-
-<use img/Visualizzatore.jpg>
-Package pdftex.def Info: img/Visualizzatore.jpg used on input line 74.
-(pdftex.def)             Requested size: 313.16922pt x 422.07584pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 81.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [30 <./img/Visualizzatore.jpg>]
-<img/Esegui_presentazione_proprietario.jpg, id=813, 1210.5225pt x 1333.98375pt>
-File: img/Esegui_presentazione_proprietario.jpg Graphic file (type jpg)
-<use img/Esegui_presentazione_proprietario.jpg>
-Package pdftex.def Info: img/Esegui_presentazione_proprietario.jpg used on inpu
-t line 87.
-(pdftex.def)             Requested size: 484.20042pt x 533.58405pt.
-
-Overfull \hbox (46.69255pt too wide) in paragraph at lines 87--88
- [][] 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 99.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [31 <./img/Esegui_presentazione_proprietario.jpg>]
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 104.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [32]
-<img/Esegui_presentazione_non_proprietario.jpg, id=825, 1210.5225pt x 1296.845p
-t>
-File: img/Esegui_presentazione_non_proprietario.jpg Graphic file (type jpg)
- <use img/Esegui_presentazione_non_proprietario.jpg>
-Package pdftex.def Info: img/Esegui_presentazione_non_proprietario.jpg used on 
-input line 110.
-(pdftex.def)             Requested size: 484.20042pt x 518.72882pt.
-
-Overfull \hbox (46.69255pt too wide) in paragraph at lines 110--111
- [][] 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 121.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [33 <./img/Esegui_presentazione_non_proprietario.jpg>] <img/Creazione_presenta
-zione.jpg, id=831, 644.4075pt x 700.6175pt>
-File: img/Creazione_presentazione.jpg Graphic file (type jpg)
-
-<use img/Creazione_presentazione.jpg>
-Package pdftex.def Info: img/Creazione_presentazione.jpg used on input line 130
-.
-(pdftex.def)             Requested size: 322.20296pt x 350.30789pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 137.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [34 <./img/Creazione_presentazione.jpg>]
-<img/Modifica_titolo_e_descrizione_presentazione.jpg, id=837, 643.40375pt x 700
-.6175pt>
-File: img/Modifica_titolo_e_descrizione_presentazione.jpg Graphic file (type jp
-g)
- <use img/Modifica_titolo_e_descrizione_presentazione.jpg>
-Package pdftex.def Info: img/Modifica_titolo_e_descrizione_presentazione.jpg us
-ed on input line 143.
-(pdftex.def)             Requested size: 321.70108pt x 350.30789pt.
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 149.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [35 <./img/Modifica_titolo_e_descrizione_presentazione.jpg>] <img/Pubblica_pre
-sentazione.jpg, id=843, 883.3pt x 809.0225pt>
-File: img/Pubblica_presentazione.jpg Graphic file (type jpg)
-
-<use img/Pubblica_presentazione.jpg>
-Package pdftex.def Info: img/Pubblica_presentazione.jpg used on input line 155.
-
-(pdftex.def)             Requested size: 441.64893pt x 404.51027pt.
-
-Overfull \hbox (4.14105pt too wide) in paragraph at lines 155--156
- [][] 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 162.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [36 <./img/Pubblica_presentazione.jpg>]
-<img/Elimina_presentazione.jpg, id=850, 371.3875pt x 568.1225pt>
-File: img/Elimina_presentazione.jpg Graphic file (type jpg)
-
-<use img/Elimina_presentazione.jpg>
-Package pdftex.def Info: img/Elimina_presentazione.jpg used on input line 168.
-(pdftex.def)             Requested size: 185.69328pt x 284.06055pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 175.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [37 <./img/Elimina_presentazione.jpg>]
-<img/Esporta_presentazione.jpg, id=856, 627.34375pt x 526.96875pt>
-File: img/Esporta_presentazione.jpg Graphic file (type jpg)
-
-<use img/Esporta_presentazione.jpg>
-Package pdftex.def Info: img/Esporta_presentazione.jpg used on input line 181.
-(pdftex.def)             Requested size: 313.6711pt x 263.48372pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 188.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [38 <./img/Esporta_presentazione.jpg>]
-<img/Rendi_portable.jpg, id=862, 631.35875pt x 526.96875pt>
-File: img/Rendi_portable.jpg Graphic file (type jpg)
-
-<use img/Rendi_portable.jpg>
-Package pdftex.def Info: img/Rendi_portable.jpg used on input line 194.
-(pdftex.def)             Requested size: 315.6786pt x 263.48372pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 201.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [39 <./img/Rendi_portable.jpg>] <img/Modifica_presentazione.jpg, id=868, 920.4
-3875pt x 921.4425pt>
-File: img/Modifica_presentazione.jpg Graphic file (type jpg)
-
-<use img/Modifica_presentazione.jpg>
-Package pdftex.def Info: img/Modifica_presentazione.jpg used on input line 207.
-
-(pdftex.def)             Requested size: 460.21825pt x 460.72012pt.
-
-Overfull \hbox (22.71037pt too wide) in paragraph at lines 207--208
- [][] 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 215.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [40 <./img/Modifica_presentazione.jpg>]
-<img/Editor_frame.jpg, id=874, 658.46pt x 1262.7175pt>
-File: img/Editor_frame.jpg Graphic file (type jpg)
-
-<use img/Editor_frame.jpg>
-Package pdftex.def Info: img/Editor_frame.jpg used on input line 221.
-(pdftex.def)             Requested size: 329.2292pt x 631.35721pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 228.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [41]
-
-LaTeX Warning: Text page 42 contains only floats.
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 228.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [42 <./img/Editor_frame.jpg>]
-<img/Modifica_frame.jpg, id=886, 825.0825pt x 941.5175pt>
-File: img/Modifica_frame.jpg Graphic file (type jpg)
-
-<use img/Modifica_frame.jpg>
-Package pdftex.def Info: img/Modifica_frame.jpg used on input line 234.
-(pdftex.def)             Requested size: 412.54024pt x 470.7576pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 247.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [43 <./img/Modifica_frame.jpg>] <img/Editor_infografica.jpg, id=892, 743.77875
-pt x 1300.86pt>
-File: img/Editor_infografica.jpg Graphic file (type jpg)
-
-<use img/Editor_infografica.jpg>
-Package pdftex.def Info: img/Editor_infografica.jpg used on input line 253.
-(pdftex.def)             Requested size: 297.50623pt x 520.3348pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 264.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [44 <./img/Editor_infografica.jpg>]
-<img/Modifica_infografica.jpg, id=898, 825.0825pt x 941.5175pt>
-File: img/Modifica_infografica.jpg Graphic file (type jpg)
-
-<use img/Modifica_infografica.jpg>
-Package pdftex.def Info: img/Modifica_infografica.jpg used on input line 270.
-(pdftex.def)             Requested size: 412.54024pt x 470.7576pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 283.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [45 <./img/Modifica_infografica.jpg>] <img/Editor_percorsi.jpg, id=904, 770.88
-pt x 873.2625pt>
-File: img/Editor_percorsi.jpg Graphic file (type jpg)
-
-<use img/Editor_percorsi.jpg>
-Package pdftex.def Info: img/Editor_percorsi.jpg used on input line 289.
-(pdftex.def)             Requested size: 385.43906pt x 436.63017pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 303.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [46 <./img/Editor_percorsi.jpg>] <img/Modifica_percorso.jpg, id=910, 414.54875
-pt x 1144.275pt>
-File: img/Modifica_percorso.jpg Graphic file (type jpg)
-
-<use img/Modifica_percorso.jpg>
-Package pdftex.def Info: img/Modifica_percorso.jpg used on input line 309.
-(pdftex.def)             Requested size: 207.27386pt x 572.1361pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 316.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [47 <./img/Modifica_percorso.jpg>]
-<img/Aggiungi_frame_al_percorso.jpg, id=916, 511.9125pt x 708.6475pt>
-File: img/Aggiungi_frame_al_percorso.jpg Graphic file (type jpg)
-
-<use img/Aggiungi_frame_al_percorso.jpg>
-Package pdftex.def Info: img/Aggiungi_frame_al_percorso.jpg used on input line 
-322.
-(pdftex.def)             Requested size: 255.95563pt x 354.32289pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 333.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [48 <./img/Aggiungi_frame_al_percorso.jpg>]
-<img/Rimuovi_frame_da_percorso.jpg, id=923, 463.7325pt x 690.58pt>
-File: img/Rimuovi_frame_da_percorso.jpg Graphic file (type jpg)
-
-<use img/Rimuovi_frame_da_percorso.jpg>
-Package pdftex.def Info: img/Rimuovi_frame_da_percorso.jpg used on input line 3
-39.
-(pdftex.def)             Requested size: 231.86568pt x 345.28915pt.
-) (./documents/stime_fattibilita.tex)
-(./documents/tracciam_requisiti.tex) (./documents/descr_tecnologie.tex
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 6.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [49 <./img/Rimuovi_frame_da_percorso.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 21--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--30
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 30.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [50]
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 50.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [51]
-Underfull \hbox (badness 10000) in paragraph at lines 64--67
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 75.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [52]) (./documents/interfaccia.tex)
+ [5
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 143.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [6
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 44.
+Package pdftex.def Info: ../logo/logo404.png used on input line 181.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [53] (./MainDocument.bbl
+ [7
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) 
+]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 198.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [8
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 245.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [9
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 317.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [10
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 335.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [11
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 393.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [12
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 422.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [13
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 440.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [14
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 509.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [15
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 559.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [16]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 577.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [17
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 645.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [18
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 674.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [19
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 723.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [20
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 772.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [21
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 819.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [22
+
+
+])
+
 AED: lastpage setting LastPage
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 47.
+Package pdftex.def Info: ../logo/logo404.png used on input line 32.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [54]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
- (./MainDocument.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
-Package rerunfilecheck Info: File `MainDocument.out' has not changed.
-(rerunfilecheck)             Checksum: 70CEC409A5A29A9D901BF276DF6357A6;9448.
+ [23
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
+ (./Glossario_v2.0.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
+Package rerunfilecheck Info: File `Glossario_v2.0.out' has not changed.
+(rerunfilecheck)             Checksum: 59C9020F3CC224036FD95FB9400FEEC9;768.
  ) 
 Here is how much of TeX's memory you used:
- 11072 strings out of 493117
- 166031 string characters out of 6135433
- 262920 words of memory out of 5000000
- 14135 multiletter control sequences out of 15000+600000
- 9730 words of font info for 34 fonts, out of 8000000 for 9000
+ 11198 strings out of 493117
+ 167449 string characters out of 6135433
+ 295539 words of memory out of 5000000
+ 14455 multiletter control sequences out of 15000+600000
+ 9129 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,16n,47p,1142b,487s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on MainDocument.pdf (55 pages, 1671065 bytes).
+ 43i,15n,47p,830b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pf
+b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Glossario_v2.0.pdf (24 pages, 141623 bytes).
 PDF statistics:
- 1028 PDF objects out of 1200 (max. 8388607)
- 929 compressed objects within 10 object streams
- 199 named destinations out of 1000 (max. 500000)
- 1046 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

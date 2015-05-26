@@ -109,4 +109,9 @@
 \contentsline {section}{\numberline {6}Stime di fattibilit\IeC {\`a} e di bisogno di risorse}{49}{section.6}
 \contentsline {section}{\numberline {7}Tracciamento della relazione componenti - requisiti}{49}{section.7}
 \contentsline {section}{\numberline {8}Descrizione delle tecnologie utilizzate}{49}{section.8}
-\contentsline {section}{\numberline {9}Mockup Interfaccia [FACOLTATIVO]}{50}{section.9}
+\contentsline {subsection}{\numberline {8.1}JavaScript}{49}{subsection.8.1}
+\contentsline {subsection}{\numberline {8.2}HTML5}{50}{subsection.8.2}
+\contentsline {subsection}{\numberline {8.3}CSS3}{50}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.4}Angular}{50}{subsection.8.4}
+\contentsline {subsection}{\numberline {8.5}Meteor}{52}{subsection.8.5}
+\contentsline {section}{\numberline {9}Mockup Interfaccia [FACOLTATIVO]}{53}{section.9}

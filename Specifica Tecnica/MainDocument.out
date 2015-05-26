@@ -107,4 +107,9 @@
 \BOOKMARK [1][-]{section.6}{Stime di fattibilit\340 e di bisogno di risorse}{}% 107
 \BOOKMARK [1][-]{section.7}{Tracciamento della relazione componenti - requisiti}{}% 108
 \BOOKMARK [1][-]{section.8}{Descrizione delle tecnologie utilizzate}{}% 109
-\BOOKMARK [1][-]{section.9}{Mockup Interfaccia [FACOLTATIVO]}{}% 110
+\BOOKMARK [2][-]{subsection.8.1}{JavaScript}{section.8}% 110
+\BOOKMARK [2][-]{subsection.8.2}{HTML5}{section.8}% 111
+\BOOKMARK [2][-]{subsection.8.3}{CSS3}{section.8}% 112
+\BOOKMARK [2][-]{subsection.8.4}{Angular}{section.8}% 113
+\BOOKMARK [2][-]{subsection.8.5}{Meteor}{section.8}% 114
+\BOOKMARK [1][-]{section.9}{Mockup Interfaccia [FACOLTATIVO]}{}% 115
