@@ -1,9 +1,11 @@
 \section{Descrizione dei singoli componenti}
-	Tipo, obiettivo e funzione del componente \\
-	Relazioni d'uso di altre componenti \\
-	Interfacce con le relazioni di uso da altre componenti \\
 \subsection{Premi}
------------------------------premi-class.jpg
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/premi-class.jpg}
+\caption{Diagramma del package Premi}
+\end{center}
+\end{figure}
 
 
 \subsubsection{Premi.Utility}
@@ -32,9 +34,20 @@
 \end{itemize}
 
 \subsection{Premi.UserManager}
------------------------------premi-class.jpg
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/usermanager-class.jpg}
+\caption{Diagramma del package Premi.UserManager}
+\end{center}
+\end{figure}
+\clearpage
 \subsubsection{Premi.UserManager.User}
------------------------------UserManager-class.jpg (mostra le relazioni che possiede ESTERNE al package)
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/Utility_UserManager.jpg}
+\caption{Diagramma delle dipendenze della classe User.}
+\end{center}
+\end{figure}
 \begin{itemize}
   \item \textbf{Nome:} User
   \item \textbf{Tipo:} class
@@ -48,14 +61,14 @@
   \item \textbf{Nome:} View
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.UserManger
-  \item \textbf{Descrizione:} vista generale del package \code{UserManager}. Puo' contenere le view abbinate alle funzionalità di \code{User}
+  \item \textbf{Descrizione:} vista generale del package$_G$ \code{UserManager}. Puo' contenere le view abbinate alle funzionalità di \code{User}
 \end{itemize}
 \subsubsection{Premi.UserManager.UserManagerCtrl}
 \begin{itemize}
   \item \textbf{Nome:} UserManagerCtrl
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.UserManager
-  \item \textbf{Descrizione:} controller generale del package \code{UserManager} dedicato a fornire alla view strumenti per l'interazione con l'utente
+  \item \textbf{Descrizione:} controller generale del package$_G$ \code{UserManager} dedicato a fornire alla view strumenti per l'interazione con l'utente
   \item \textbf{Relazioni con altri componenti:} si collega a \code{Premi.UserManager.View} per mostrare i dati dell'utente che va a prelevare tramite {Premi.UserManager.User}
 \end{itemize}
 \subsubsection{Premi.UserManager.LoginView}
@@ -71,7 +84,7 @@
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.UserManager
   \item \textbf{Descrizione:} fornisce gli strumenti necessari alla view per effettuare la login
-  \item \textbf{Relazioni con altri componenti:} con \code{Premi.UserManager.LoginView} e con \code{Premi.UserManager.User} per trasmettere le informazioni relative al login
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di \code{Premi.UserManager.LoginView} e utilizza \code{Premi.UserManager.User} per trasmettere e ricevere le informazioni relative al login
 \end{itemize}
 \subsubsection{Premi.UserManager.RegistrationView}
 \begin{itemize}
@@ -86,7 +99,7 @@
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.UserManager
   \item \textbf{Descrizione:} fornisce gli strumenti necessari alla view per registrare l'utente
-  \item \textbf{Relazioni con altri componenti:} con \code{Premi.UserManager.RegistrationView} e con \code{Premi.UserManager.User} per trasmettere le informazioni relative alla registrazione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di \code{Premi.UserManager.RegistrationView} e utilizza \code{Premi.UserManager.User} per trasmettere le informazioni relative alla registrazione
 \end{itemize}
 \subsubsection{Premi.UserManager.ChangePasswordView}
 \begin{itemize}
@@ -101,11 +114,20 @@
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.UserManager
   \item \textbf{Descrizione:} fornisce gli strumenti necessari alla view per cambiare la password dell'utente
-  \item \textbf{Relazioni con altri componenti:} con \code{Premi.UserManager.ChangePasswordView} e con \code{Premi.UserManager.User} per trasmettere le informazioni relative al cambio password
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di \code{Premi.UserManager.ChangePasswordView} e utilizza  \code{Premi.UserManager.User} per trasmettere le informazioni relative al cambio password
 \end{itemize}
 
+
+
+\clearpage
 \subsection{Premi.Viewer}
----------------------------viewer-class.jpg
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/viewer-class.jpg}
+\caption{Diagramma del package Premi.Viewer}
+\end{center}
+\end{figure}
+
 \subsubsection{Premi.Viewer.View}
 \begin{itemize}
   \item \textbf{Nome:} View
@@ -119,10 +141,20 @@
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Viewer
   \item \textbf{Descrizione:} abilita funzionalità nella view in base all'utente
-  \item \textbf{Relazioni con altri componenti:} con \code{Premi.Viewer.View}, con \code{Premi.UserManager.User} per verificare se l'utente è il proprietario della presentazione, e con la libreria esterna \code{ImpressJs} per aggiungere animazioni alla presentazione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di \code{Premi.Viewer.View}, utilizza  \code{Premi.UserManager.User} per verificare se l'utente è il proprietario della presentazione, e la libreria$_G$ esterna \code{ImpressJs} per aggiungere animazioni alla presentazione
 \end{itemize}
+
+
+
+
+\clearpage
 \subsection{Premi.Presentation}
--------------------presentation-class.jpg
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/presentation-class.jpg}
+\caption{Diagramma del package Premi.Presentation}
+\end{center}
+\end{figure}
 \subsubsection{Premi.Presentation.GraphicObject}
 \begin{itemize}
   \item \textbf{Nome:} GraphicObject
@@ -167,8 +199,8 @@
   \item \textbf{Nome:} Frame
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Presentation
-  \item \textbf{Descrizione:} rappresenta un frame nella presentazine
-  \item \textbf{Relazioni con altri componenti:} estende \code{Premi.Presentation.GraphicObject} e possiede un insieme di oggetti  \code{Premi.Presentation.GoContent}
+  \item \textbf{Descrizione:} rappresenta un frame$_G$ nella presentazione
+  \item \textbf{Relazioni con altri componenti:} estende \code{Premi.Presentation.GraphicObject} e possiede un insieme di oggetti \code{Premi.Presentation.GoContent}
 \end{itemize}
 \subsubsection{Premi.Presentation.Trail}
 \begin{itemize}
@@ -178,21 +210,31 @@
   \item \textbf{Descrizione:} rappresenta un percorso nella presentazione
   \item \textbf{Relazioni con altri componenti:} possiede una lista di riferimenti ad oggetti di tipo \code{Premi.Presentation.Frame}, ma non è in possesso degli oggetti stessi
 \end{itemize}
--------------------------------dipendenze di presentation.jpg CITARE L'IMMAGINE DELLE DIPENDENZE CON DI PRESENTATION
-Completo-Dettagliato.jpg
 \subsubsection{Premi.Presentation.Presentation}
 \begin{itemize}
   \item \textbf{Nome:} Presentation
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Presentation
   \item \textbf{Descrizione:} rappresenta una presentazione
-  \item \textbf{Relazioni con altri componenti:} possiede una lista di oggetti \code{premi.Presentation.GraphicObject} che possono essere sia Frame che oggetti grafici generici e assieme compongono l'infografica della presentazione, possiede inoltre una lista di percorsi e quindi di oggetti \code{Premi.Presentation.Trail}, identifica l'appartenenza di una presentazione ad un determinato \code{Premi.UserManager.User} e si collega alla base di dati tramite la classe statica \code{Premi.Utility}
+  \item \textbf{Relazioni con altri componenti:} possiede una lista di oggetti \code{premi.Presentation.GraphicObject} che possono essere sia Frame$_G$ che oggetti grafici generici e assieme compongono l'infografica$_G$ della presentazione, possiede inoltre una lista di percorsi e quindi di oggetti \code{Premi.Presentation.Trail}, identifica l'appartenenza di una presentazione ad un determinato \code{Premi.UserManager.User} e si collega alla base di dati tramite la classe statica \code{Premi.Utility}
 \end{itemize}
 
 
-
+\clearpage
 \subsection{Premi.PresentationManager}
--------usermanager-classe.jpg
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.35]{img/diapkg/presentationmanager-class.jpg}
+\caption{Diagramma del package Premi.PresentationManager}
+\end{center}
+\end{figure}
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.35]{img/diapkg/Completo_dettagliato.jpg}
+\caption{Diagramma delle dipendenze delle classi di PresentationManager}
+\end{center}
+\end{figure}
+
 \subsubsection{Premi.PresentationManager.Export}
 \begin{itemize}
   \item \textbf{Nome:} Export 
@@ -206,15 +248,15 @@ Completo-Dettagliato.jpg
   \item \textbf{Nome:} Portable
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.PresentationManager
-  \item \textbf{Descrizione:} permette di rendere portabile una presentazione, e quindi di essere indipendente dal software Premi e di essere caricata come pagina HTML da un browser
-  \item \textbf{Relazioni con altri componenti:} 
+  \item \textbf{Descrizione:} permette di rendere portabile una presentazione, e quindi di essere indipendente dal software Premi e di essere caricata come pagina HTML$_G$ da un browser$_G$
+  \item \textbf{Relazioni con altri componenti:} preleva le informazioni da \code{Premi.Presentation.Presentation} per costruire la pagina HTML$_G$
 \end{itemize}
 \subsubsection{Premi.PresentationManager.View}
 \begin{itemize}
   \item \textbf{Nome:} View
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.PresentationController
-  \item \textbf{Descrizione:} è la view generale delle operazioni che l'utente puo' effettuare sul
+  \item \textbf{Descrizione:} è la view generale delle operazioni che l'utente puo' effettuare sulla sua lista di presentazioni
 \end{itemize}
 \subsubsection{Premi.PresentationManager.PresentationManagerCtrl}
 \begin{itemize}
@@ -237,7 +279,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.PresentationManager
   \item \textbf{Descrizione:} fornisce alla view gli strumenti per rimuovere la presentazione o annullare l'azione
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.RemoveView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per l'eliminazione della presentazione 
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.RemoveView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per l'eliminazione della presentazione
 \end{itemize}
 \subsubsection{Premi.PresentationManager.PublicView}
 \begin{itemize}
@@ -289,7 +331,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Nome:} ListPresView
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.PresentationManager
-  \item \textbf{Descrizione:} mostra all'utente la lista delle sue presentazioni, e bottoni aggiuntivi per accedere alle altre funzionalità del package
+  \item \textbf{Descrizione:} mostra all'utente la lista delle sue presentazioni, e bottoni aggiuntivi per accedere alle altre funzionalità del package$_G$
 \end{itemize}
 \subsubsection{Premi.PresentationManager.ListPresController}
 \begin{itemize}
@@ -299,7 +341,26 @@ Completo-Dettagliato.jpg
   \item \textbf{Descrizione:} fornisce alla view una lista preformata delle presentazioni dell'utente
   \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.PresentationManager.ListPresView} e sfrutta le funzionalità di \code{Premi.Presentation.Presentation} per recuperare la lista delle presentazioni
 \end{itemize}
+
+
+
+\clearpage
 \subsection{Premi.Editor}
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/editor-class.jpg}
+\caption{Diagramma del package Premi.Editor}
+\end{center}
+\end{figure}
+\clearpage
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.40]{img/diapkg/dettaglio_editor_presentation.jpg}
+\caption{Diagramma delle classi di Premi.Editor e delle loro relazioni}
+\end{center}
+\end{figure}
+\clearpage
+
 \subsubsection{Premi.Editor.View}
 \begin{itemize}
   \item \textbf{Nome:} View
@@ -313,7 +374,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor
   \item \textbf{Descrizione:} fornisce alla view le funzionzalità per la modifica di una presentazione
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.EditorView} e sfrutta \code{Premi.Presentation.Presentation} per recuperare la presentazione dalla base di dati
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.View} e sfrutta \code{Premi.Presentation.Presentation} per recuperare la presentazione dalla base di dati
 \end{itemize}
 \subsubsection{Premi.Editor.TextView}
 \begin{itemize}
@@ -335,15 +396,15 @@ Completo-Dettagliato.jpg
   \item \textbf{Nome:} ShapeView
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor
-  \item \textbf{Descrizione:} mostra le opzioni per l'aggiunta di uno shape
+  \item \textbf{Descrizione:} mostra le opzioni per l'aggiunta di una figura
 \end{itemize}
 \subsubsection{Premi.Editor.ShapeController}
 \begin{itemize}
   \item \textbf{Nome:} ShapeController
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor
-  \item \textbf{Descrizione:} fornisce alla view le funzionalità per creare e modificare uno shape
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.ShapeView}  e utilizza la classe \code{Premi.Presentation.Shape} per rappresentare le Shape
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per creare e modificare una figura
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.ShapeView}  e utilizza la classe \code{Premi.Presentation.Shape} per rappresentare le figure
 \end{itemize}
 \subsubsection{Premi.Editor.ImageView}
 \begin{itemize}
@@ -365,7 +426,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Nome:} StyleView
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor
-  \item \textbf{Descrizione:} permette la modifica dello stile di un Frame oppure dello sfondo dell'infografica
+  \item \textbf{Descrizione:} permette la modifica dello stile di un Frame$_G$ oppure dello sfondo dell'infografica$_G$
 \end{itemize}
 \subsubsection{Premi.Editor.StyleController}
 \begin{itemize}
@@ -373,25 +434,32 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor
   \item \textbf{Descrizione:} fornisce alla view le funzionalità per la modifica dello stile
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.StyleView},  e utilizza la classe \code{Premi.Presentation.Frame} per rappresentare lo stile dei Frame e dell'infografica
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.StyleView},  e utilizza la classe \code{Premi.Presentation.Frame} per rappresentare lo stile dei Frame$_G$ e dell'infografica$_G$
 \end{itemize}
 \subsubsection{Premi.Editor.FrameListView}
 \begin{itemize}
   \item \textbf{Nome:} FrameListView
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor
-  \item \textbf{Descrizione:} view di base per la rappresentazione di una lista dei Frame contenuti all'interno della presentazione
+  \item \textbf{Descrizione:} view di base per la rappresentazione di una lista dei Frame$_G$ contenuti all'interno della presentazione
 \end{itemize}
 
 
-
+\clearpage
 \subsection{Premi.Editor.FrameEditor}
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/frameeditor-class.jpg}
+\caption{Diagramma del package Premi.Editor.FrameEditor}
+\end{center}
+\end{figure}
+\clearpage
 \subsubsection{Premi.Editor.FrameEditor.View}
 \begin{itemize}
   \item \textbf{Nome:} View
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor.FrameEditor.View
-  \item \textbf{Descrizione:} è la view generale della fase di modifica dei Frame
+  \item \textbf{Descrizione:} è la view generale della fase di modifica dei Frame$_G$
 \end{itemize}
 \subsubsection{Premi.Editor.FrameEditor.FrameEditorCtrl}
 \begin{itemize}
@@ -399,43 +467,62 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor.FrameEditor.FrameEditorCtrl
   \item \textbf{Descrizione:} fornisce alla view le funzionalità per la gestione delle altre view contenute al suo interno
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.FrameEditor.View} 
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.FrameEditor.View} ed elabora la presentazione tramite \code{Premi.Presentation.Presentation}
 \end{itemize}
 \subsubsection{Premi.Editor.FrameEditor.FrameListController}
 \begin{itemize}
   \item \textbf{Nome:} FrameListController
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor.FrameEditor
-  \item \textbf{Descrizione:} fornisce alla view \code{FrameListView} le funzionalità per rappresentazione della lista dei Frame
-  \item \textbf{Relazioni con altri componenti:} è uno dei tre controller dedicati di  \code{Premi.Editor.FrameListView}  e utilizza la classe \code{Premi.Presentation.Frame} per rappresentare un'anteprima dei Frame
+  \item \textbf{Descrizione:} fornisce alla view \code{FrameListView} le funzionalità per rappresentazione della lista dei Frame$_G$
+  \item \textbf{Relazioni con altri componenti:} è uno dei tre controller dedicati di  \code{Premi.Editor.FrameListView}  e utilizza la classe \code{Premi.Presentation.Presentation} per prelevare i Frame$_G$ e crearne un'anteprima
 \end{itemize}
 
+
+
+
 \subsection{Premi.Editor.InfographicEditor}
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/infographiceditor-class.jpg}
+\caption{Diagramma del package Premi.Editor.InfographicEditor}
+\end{center}
+\end{figure}
+\clearpage
 \subsubsection{Premi.Editor.InfographicEditor.View}
 \begin{itemize}
   \item \textbf{Nome:} View
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor.InfographicEditor
-  \item \textbf{Descrizione:}  è la view generale della fase di creazione o modifica dell'infografica
+  \item \textbf{Descrizione:}  è la view generale della fase di creazione o modifica dell'infografica$_G$
 \end{itemize}
 \subsubsection{Premi.Editor.InfographicEditor.InfographicEditorCtrl}
 \begin{itemize}
   \item \textbf{Nome:} InfographicEditorCtrl
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor.InfographicEditor
-  \item \textbf{Descrizione:} fornisce alla view le funzionalità per la gestione delle altre view contenute al suo interno, che permetteranno all'utente di produrre un'infografica attraverso l'utilizzo di oggetti grafici, tra cui i Frame creati nella fase precedente
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.InfoGraphicEditor.View} 
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per la gestione delle altre view contenute al suo interno, che permetteranno all'utente di produrre un'infografica$_G$ attraverso l'utilizzo di oggetti grafici, tra cui i Frame$_G$ creati nella fase precedente
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.InfoGraphicEditor.View} ed elabora la presentazione tramite \code{Premi.Presentation.Presentation} 
 \end{itemize}
 \subsubsection{Premi.Editor.InfographicEditor.FrameListController}
 \begin{itemize}
   \item \textbf{Nome:} FrameListController
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor.InfographicEditor
-  \item \textbf{Descrizione:} fornisce alla view \code{FrameListView} le funzionalità per rappresentazione della lista dei Frame
-  \item \textbf{Relazioni con altri componenti:} è uno dei tre controller dedicati di  \code{Premi.Editor.FrameListView}  e utilizza la classe \code{Premi.Presentation.Frame} per rappresentare un'anteprima dei Frame
+  \item \textbf{Descrizione:} fornisce alla view \code{FrameListView} le funzionalità per rappresentazione della lista dei Frame$_G$
+  \item \textbf{Relazioni con altri componenti:} è uno dei tre controller dedicati di  \code{Premi.Editor.FrameListView}  e utilizza la classe \code{Premi.Presentation.Presentation} per prelevare i Frame$_G$ e crearne un'anteprima
 \end{itemize}
 
+
+
+\clearpage
 \subsection{Premi.Editor.TrailsEditor}
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/trailseditor-class.jpg}
+\caption{Diagramma del package Premi.Editor.TrailsEditor}
+\end{center}
+\end{figure}
 \subsubsection{Premi.Editor.TrailsEditor.View}
 \begin{itemize}
   \item \textbf{Nome:} View
@@ -456,8 +543,8 @@ Completo-Dettagliato.jpg
   \item \textbf{Nome:} FrameListController
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor.TrailsEditor
-  \item \textbf{Descrizione:} fornisce alla view \code{FrameListView} le funzionalità per rappresentazione della lista dei Frame
-  \item \textbf{Relazioni con altri componenti:} è uno dei tre controller dedicati di  \code{Premi.Editor.FrameListView}  e utilizza la classe \code{Premi.Presentation.Frame} per rappresentare un'anteprima dei Frame
+  \item \textbf{Descrizione:} fornisce alla view \code{FrameListView} le funzionalità per rappresentazione della lista dei Frame$_G$
+  \item \textbf{Relazioni con altri componenti:} è uno dei tre controller dedicati di  \code{Premi.Editor.FrameListView}  e utilizza la classe \code{Premi.Presentation.Presentation} per prelevare i Frame$_G$ e crearne un'anteprima
 \end{itemize}
 \subsubsection{Premi.Editor.TrailsEditor.EditTrailView}
 \begin{itemize}
@@ -472,7 +559,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor.TrailsEditor
   \item \textbf{Descrizione:} fornisce alla view le funzionalità per la gestione delle altre view contenute al suo interno, che permetteranno all'utente di produrre un percorso di presentazione con i Frame da lui creati
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TrailsEditor.EditTrailView} 
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TrailsEditor.EditTrailView} e modifica il percorso sfruttando la classe \code{Premi.Presentation.Trail}
 \end{itemize}
 \subsubsection{Premi.Editor.TrailsEditor.NewView}
 \begin{itemize}
@@ -487,7 +574,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor.TrailsEditor
   \item \textbf{Descrizione:} fornisce alla view le funzionalità per la creazione di un nuovo percorso di presentazione
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TrailsEditor.NewView} 
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TrailsEditor.NewView} e crea il nuovo percorso sfruttando la classe \code{Premi.Presentation.Trail}
 \end{itemize}
 \subsubsection{Premi.Editor.TrailsEditor.EditTitleView}
 \begin{itemize}
@@ -502,7 +589,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor.TrailsEditor
   \item \textbf{Descrizione:} fornisce alla view le funzionalità per la modifica del titolo di un percorso di presentazione
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TrailsEditor.EditTitleView} 
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TrailsEditor.EditTitleView} e modifica il titolo del percorso sfruttando la classe \code{Premi.Presentation.Trail}
 \end{itemize}
 \subsubsection{Premi.Editor.TrailsEditor.RemoveView}
 \begin{itemize}
@@ -518,7 +605,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Package:} Premi.Editor.TrailsEditor
   \item \textbf{Descrizione:} fornisce alla view le funzionalità per la rimozione di un percorso di presentazione
   \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TrailsEditor.RemoveView} 
-\end{itemize}
+\end{itemize} e rimuove il percorso sfruttando la classe \code{Premi.Presentation.Trail}
 
 
 

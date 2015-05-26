@@ -7,21 +7,26 @@ Si illustreranno poi i Design Pattern utilizzati nella fase di progettazione ad 
 
 
 \subsection{Presentazione dell'architettura generale del sistema}
+
 I componenti sono stati suddivisi prima in base al loro contributo a specifiche funzionalità del software e solo successivamente per appartenenza ai ruoli del pattern MVC$_G$. Questo aumenta la chiarezza espositiva dei diagrammi, evita la creazione di package$_G$ contenenti un numero eccessivo di classi e aiuta a compiere verifiche mirate a singoli componenti. \\
 È importante specificare che il framework AngularJS unisce view e controller attraverso una dichiarazione esterna a entrambi, che fa parte del meccanismo detto di \textit{routing} o di reindirizzamento dell'utente; view e controller inoltre non sanno di essere collegati tra loro e comunicano attraverso un oggetto chiamato \textit{\$scope}. Questo rende l'architettura sia di tipo Model-View-Controller$_G$ che di tipo Model-View-ViewModel$_G$. \\
 Per motivi di leggibilità \$scope e routing non verranno rappresentati in modo esplicito nei diagrammi dei package e delle classi di questo documento, ma sono comunque da considerarsi impliciti nelle dipendenze tra i view e controller dei componenti.
 
-
+\newpage
 \section{Diagrammi dei Package}
 Di seguito vengono descritti componenti principali del sistema e le loro dipendenze.
 
------------------------------pkg.jpg
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/pkg.jpg}
+\caption{Diagramma dei package di Premi.}
+\end{center}
+\end{figure}
 
-L'applicazione è costituita da un solo package$_G$ principale chiamato \code{Premi}; al suo interno sono presenti:
+L'applicazione è costituita da un solo package$_G$ principale chiamato \code{Premi}; oltre alla view ed al controller principali, al suo interno sono presenti:
 \begin{itemize}
-\item \code{Premi} racchiude tutti i package$_G$ e la view e il controller principali;
-\item \code{Premi.UserManager} è il package$_G$ di gestione dei dati dell'utente;
-\item \code{Premi.Viewer} racchiude gli elementi necessari alla visualizzazione della presentazione nei vari contesti previsti;
+\item \code{Premi.UserManager} è il package$_G$ di gestione dei dati dell'utente, contiene view e controller per la sua creazione e modifica, e la classe che lo definisce;
+\item \code{Premi.Viewer} racchiude gli elementi necessari alla visualizzazione della presentazione nei vari contesti previsti(presentazione live, pubblica e privata);
 \item \code{Premi.Presentation} racchiude la struttura generale della presentazione;
 \item \code{Premi.PresentationManager} contiene gli elementi necessari alla gestione delle presentazioni da parte dell'utente;
 \item \code{Premi.Editor} è il package$_G$ dedicato alla modifica interna delle presentazioni; possiede al suo interno tre ulteriori package$_G$:
