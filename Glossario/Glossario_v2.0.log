@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.13)  25 MAY 2015 23:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.13)  27 MAY 2015 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -689,7 +689,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 75.
 ]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 133.
+Package pdftex.def Info: ../logo/logo404.png used on input line 143.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [6
 
@@ -698,7 +698,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 133.
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 171.
+Package pdftex.def Info: ../logo/logo404.png used on input line 181.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [7
 
@@ -706,7 +706,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 171.
 ]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 188.
+Package pdftex.def Info: ../logo/logo404.png used on input line 198.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [8
 
@@ -715,7 +715,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 188.
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 235.
+Package pdftex.def Info: ../logo/logo404.png used on input line 245.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [9
 
@@ -723,7 +723,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 235.
 ]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 307.
+Package pdftex.def Info: ../logo/logo404.png used on input line 317.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [10
 
@@ -732,7 +732,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 307.
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 325.
+Package pdftex.def Info: ../logo/logo404.png used on input line 335.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [11
 
@@ -740,7 +740,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 325.
 ]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 383.
+Package pdftex.def Info: ../logo/logo404.png used on input line 393.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [12
 
@@ -749,7 +749,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 383.
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 412.
+Package pdftex.def Info: ../logo/logo404.png used on input line 422.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [13
 
@@ -757,7 +757,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 412.
 ]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 430.
+Package pdftex.def Info: ../logo/logo404.png used on input line 440.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [14
 
@@ -766,7 +766,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 430.
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 499.
+Package pdftex.def Info: ../logo/logo404.png used on input line 509.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [15
 
@@ -774,13 +774,13 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 499.
 ]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 549.
+Package pdftex.def Info: ../logo/logo404.png used on input line 559.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [16]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 567.
+Package pdftex.def Info: ../logo/logo404.png used on input line 577.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [17
 
@@ -788,7 +788,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 567.
 ]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 635.
+Package pdftex.def Info: ../logo/logo404.png used on input line 645.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [18
 
@@ -797,7 +797,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 635.
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 664.
+Package pdftex.def Info: ../logo/logo404.png used on input line 674.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [19
 
@@ -805,7 +805,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 664.
 ]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 713.
+Package pdftex.def Info: ../logo/logo404.png used on input line 723.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [20
 
@@ -814,7 +814,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 713.
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 762.
+Package pdftex.def Info: ../logo/logo404.png used on input line 772.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [21
 
@@ -822,7 +822,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 762.
 ]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 809.
+Package pdftex.def Info: ../logo/logo404.png used on input line 819.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [22
 
@@ -860,7 +860,7 @@ b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
 sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
 r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Glossario_v2.0.pdf (24 pages, 141598 bytes).
+Output written on Glossario_v2.0.pdf (24 pages, 141623 bytes).
 PDF statistics:
  273 PDF objects out of 1000 (max. 8388607)
  236 compressed objects within 3 object streams
