@@ -5,17 +5,6 @@
 \subsection{Premi}
 -----------------------------premi-class.jpg
 
-----template------
-\subsubsection{Premi.}
-\begin{itemize}
-  \item \textbf{Nome:}
-  \item \textbf{Tipo:} class
-  \item \textbf{Package:} Premi.
-  \item \textbf{Descrizione:}
-  \item \textbf{Relazioni con altri componenti:} 
-\end{itemize}
----/template-----
-
 
 \subsubsection{Premi.Utility}
 \begin{itemize}
@@ -197,7 +186,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Presentation
   \item \textbf{Descrizione:} rappresenta una presentazione
-  \item \textbf{Relazioni con altri componenti:} possiede una lista di oggetti \code{premi.Presentation.Frame}, identifica l'appartenenza di una presentazione ad un determinato \code{Premi.UserManager.User} e si collega alla base di dati tramite la classe statica \code{Premi.Utility}
+  \item \textbf{Relazioni con altri componenti:} possiede una lista di oggetti \code{premi.Presentation.GraphicObject} che possono essere sia Frame che oggetti grafici generici e assieme compongono l'infografica della presentazione, possiede inoltre una lista di percorsi e quindi di oggetti \code{Premi.Presentation.Trail}, identifica l'appartenenza di una presentazione ad un determinato \code{Premi.UserManager.User} e si collega alla base di dati tramite la classe statica \code{Premi.Utility}
 \end{itemize}
 
 
@@ -339,7 +328,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor
   \item \textbf{Descrizione:} fornisce alla view le funzionalità per creare e modificare un'area di testo
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TextView}
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TextView} e utilizza la classe \code{Premi.Presentation.Text} per rappresentare le aree di testo
 \end{itemize}
 \subsubsection{Premi.Editor.ShapeView}
 \begin{itemize}
@@ -354,7 +343,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor
   \item \textbf{Descrizione:} fornisce alla view le funzionalità per creare e modificare uno shape
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.ShapeView}
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.ShapeView}  e utilizza la classe \code{Premi.Presentation.Shape} per rappresentare le Shape
 \end{itemize}
 \subsubsection{Premi.Editor.ImageView}
 \begin{itemize}
@@ -369,7 +358,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor
   \item \textbf{Descrizione:} fornisce alla view le funzionalità per aggiungere un'immagine
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.ImageView}
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.ImageView}  e utilizza la classe \code{Premi.Presentation.Image} per rappresentare le immagini
 \end{itemize}
 \subsubsection{Premi.Editor.StyleView}
 \begin{itemize}
@@ -384,7 +373,7 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor
   \item \textbf{Descrizione:} fornisce alla view le funzionalità per la modifica dello stile
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.StyleView}
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.StyleView},  e utilizza la classe \code{Premi.Presentation.Frame} per rappresentare lo stile dei Frame e dell'infografica
 \end{itemize}
 \subsubsection{Premi.Editor.FrameListView}
 \begin{itemize}
@@ -393,15 +382,6 @@ Completo-Dettagliato.jpg
   \item \textbf{Package:} Premi.Editor
   \item \textbf{Descrizione:} view di base per la rappresentazione di una lista dei Frame contenuti all'interno della presentazione
 \end{itemize}
-\subsubsection{Premi.Editor.FrameListController}
-\begin{itemize}
-  \item \textbf{Nome:} FrameListController
-  \item \textbf{Tipo:} class
-  \item \textbf{Package:} Premi.Editor
-  \item \textbf{Descrizione:} fornisce alla view le funzionalità per rappresentazione della lista dei Frame
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.FrameListView} 
-\end{itemize}
-
 
 
 
@@ -419,33 +399,126 @@ Completo-Dettagliato.jpg
   \item \textbf{Tipo:} class
   \item \textbf{Package:} Premi.Editor.FrameEditor.FrameEditorCtrl
   \item \textbf{Descrizione:} fornisce alla view le funzionalità per la gestione delle altre view contenute al suo interno
-  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.FrameEditor.FrameEditor.View} 
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.FrameEditor.View} 
 \end{itemize}
-\subsubsection{Premi.}
+\subsubsection{Premi.Editor.FrameEditor.FrameListController}
 \begin{itemize}
-  \item \textbf{Nome:}
+  \item \textbf{Nome:} FrameListController
   \item \textbf{Tipo:} class
-  \item \textbf{Package:} Premi.
-  \item \textbf{Descrizione:}
-  \item \textbf{Relazioni con altri componenti:} 
-\end{itemize}
-\subsubsection{Premi.}
-\begin{itemize}
-  \item \textbf{Nome:}
-  \item \textbf{Tipo:} class
-  \item \textbf{Package:} Premi.
-  \item \textbf{Descrizione:}
-  \item \textbf{Relazioni con altri componenti:} 
-\end{itemize}
-\subsubsection{Premi.}
-\begin{itemize}
-  \item \textbf{Nome:}
-  \item \textbf{Tipo:} class
-  \item \textbf{Package:} Premi.
-  \item \textbf{Descrizione:}
-  \item \textbf{Relazioni con altri componenti:} 
+  \item \textbf{Package:} Premi.Editor.FrameEditor
+  \item \textbf{Descrizione:} fornisce alla view \code{FrameListView} le funzionalità per rappresentazione della lista dei Frame
+  \item \textbf{Relazioni con altri componenti:} è uno dei tre controller dedicati di  \code{Premi.Editor.FrameListView}  e utilizza la classe \code{Premi.Presentation.Frame} per rappresentare un'anteprima dei Frame
 \end{itemize}
 
+\subsection{Premi.Editor.InfographicEditor}
+\subsubsection{Premi.Editor.InfographicEditor.View}
+\begin{itemize}
+  \item \textbf{Nome:} View
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.InfographicEditor
+  \item \textbf{Descrizione:}  è la view generale della fase di creazione o modifica dell'infografica
+\end{itemize}
+\subsubsection{Premi.Editor.InfographicEditor.InfographicEditorCtrl}
+\begin{itemize}
+  \item \textbf{Nome:} InfographicEditorCtrl
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.InfographicEditor
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per la gestione delle altre view contenute al suo interno, che permetteranno all'utente di produrre un'infografica attraverso l'utilizzo di oggetti grafici, tra cui i Frame creati nella fase precedente
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.InfoGraphicEditor.View} 
+\end{itemize}
+\subsubsection{Premi.Editor.InfographicEditor.FrameListController}
+\begin{itemize}
+  \item \textbf{Nome:} FrameListController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.InfographicEditor
+  \item \textbf{Descrizione:} fornisce alla view \code{FrameListView} le funzionalità per rappresentazione della lista dei Frame
+  \item \textbf{Relazioni con altri componenti:} è uno dei tre controller dedicati di  \code{Premi.Editor.FrameListView}  e utilizza la classe \code{Premi.Presentation.Frame} per rappresentare un'anteprima dei Frame
+\end{itemize}
+
+\subsection{Premi.Editor.TrailsEditor}
+\subsubsection{Premi.Editor.TrailsEditor.View}
+\begin{itemize}
+  \item \textbf{Nome:} View
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.TrailsEditor
+  \item \textbf{Descrizione:} view generale della della fase di creazione o modifica dei percorsi di presentazione
+\end{itemize}
+\subsubsection{Premi.Editor.TrailsEditor.TrailsEditorCtrl}
+\begin{itemize}
+  \item \textbf{Nome:} TrailsEditorCtrl
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.TrailsEditor
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per la gestione delle altre view contenute al suo interno, che permetteranno di gestire i percorsi di presentazione
+  \item \textbf{Relazioni con altri componenti:}  è il controller dedicato di  \code{Premi.Editor.TrailsEditor.View} , si collega a \code{Premi.Presentation.Presentation} per recuperare oggetti di tipo \code{Premi.Presentation.Trail}
+\end{itemize}
+\subsubsection{Premi.Editor.TrailsEditor.FrameListController}
+\begin{itemize}
+  \item \textbf{Nome:} FrameListController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.TrailsEditor
+  \item \textbf{Descrizione:} fornisce alla view \code{FrameListView} le funzionalità per rappresentazione della lista dei Frame
+  \item \textbf{Relazioni con altri componenti:} è uno dei tre controller dedicati di  \code{Premi.Editor.FrameListView}  e utilizza la classe \code{Premi.Presentation.Frame} per rappresentare un'anteprima dei Frame
+\end{itemize}
+\subsubsection{Premi.Editor.TrailsEditor.EditTrailView}
+\begin{itemize}
+  \item \textbf{Nome:} EditTrailView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.TrailsEditor
+  \item \textbf{Descrizione:} view dedicata alla modifica di un percorso di presentazione
+\end{itemize}
+\subsubsection{Premi.Editor.TrailsEditor.EditTrailController}
+\begin{itemize}
+  \item \textbf{Nome:} EditTrailController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.TrailsEditor
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per la gestione delle altre view contenute al suo interno, che permetteranno all'utente di produrre un percorso di presentazione con i Frame da lui creati
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TrailsEditor.EditTrailView} 
+\end{itemize}
+\subsubsection{Premi.Editor.TrailsEditor.NewView}
+\begin{itemize}
+  \item \textbf{Nome:} NewView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.TrailsEditor
+  \item \textbf{Descrizione:} mostra la finestra di creazione di un percorso di presentazione
+\end{itemize}
+\subsubsection{Premi.Editor.TrailsEditor.NewController}
+\begin{itemize}
+  \item \textbf{Nome:} NewController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.TrailsEditor
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per la creazione di un nuovo percorso di presentazione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TrailsEditor.NewView} 
+\end{itemize}
+\subsubsection{Premi.Editor.TrailsEditor.EditTitleView}
+\begin{itemize}
+  \item \textbf{Nome:} EditTitleView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.TrailsEditor
+  \item \textbf{Descrizione:} mostra la finestra di modifica del titolo di un percorso di presentazione
+\end{itemize}
+\subsubsection{Premi.Editor.TrailsEditor.EditTitleController}
+\begin{itemize}
+  \item \textbf{Nome:} EditTileController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.TrailsEditor
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per la modifica del titolo di un percorso di presentazione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TrailsEditor.EditTitleView} 
+\end{itemize}
+\subsubsection{Premi.Editor.TrailsEditor.RemoveView}
+\begin{itemize}
+  \item \textbf{Nome:} RemoveView
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.TrailsEditor
+  \item \textbf{Descrizione:} mostra la finestra di conferma rimozione di un percorso di presentazione
+\end{itemize}
+\subsubsection{Premi.Editor.TrailsEditor.RemoveController}
+\begin{itemize}
+  \item \textbf{Nome:} RemoveController
+  \item \textbf{Tipo:} class
+  \item \textbf{Package:} Premi.Editor.TrailsEditor
+  \item \textbf{Descrizione:} fornisce alla view le funzionalità per la rimozione di un percorso di presentazione
+  \item \textbf{Relazioni con altri componenti:} è il controller dedicato di  \code{Premi.Editor.TrailsEditor.RemoveView} 
+\end{itemize}
 
 
 
