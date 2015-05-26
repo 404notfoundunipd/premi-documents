@@ -6,7 +6,7 @@ Si descrivono di seguito tutti i test di validazione, sistema ed integrazione pr
 
 \subsection {Test di sistema}
 
-In questa sezione vengono descritti i test di sistema che permettono di verificare il comportamento dinamico del sistema completo rispetto ai requisiti descritti nell’\textit{Analisi dei Requisiti v2.0}.
+In questa sezione vengono descritti i test di sistema che permettono di verificare il comportamento dinamico del sistema completo rispetto ai requisiti descritti nell'\textit{Analisi dei Requisiti v2.0}.
 I test di sistema riportati sono quelli relativi ai requisiti software individuati e pertanto meritevoli di un test.
 
 \subsubsection{Descrizione dei test di sistema}
@@ -19,9 +19,9 @@ FOb1 & \teststatus & Si verifica che il sistema permetta  la creazione di una pr
 \hline
 FOb3 & \teststatus & Si testa l'esecuzione di una presentazione, verificando che il percorso seguito sia quello scelto dall'utente ed il corretto avanzamento delle slides& TS3\\
 \hline
-FOb3.5 & \teststatus & Si verifica il funzionamento dei checkpoint, la possibilità per l'utente di impostare un checkpoint e il corretto funzionamento dei percorsi di approfondimento & TS3.5  \\
+FOb3.5 & \teststatus & Si verifica il funzionamento dei checkpoint$_G$, la possibilità per l'utente di impostare un checkpoint$_G$ e il corretto funzionamento dei percorsi di approfondimento & TS3.5  \\
 \hline
-FOb4 & \teststatus  & Si verifica che le modifiche apportate dall'utente ad una presentazione, quali ad esempio inserimento di oggetti grafici, testi o nuovi frame vengano correttamente applicate e salvate dal sistema & TS4 \\
+FOb4 & \teststatus  & Si verifica che le modifiche apportate dall'utente ad una presentazione, quali ad esempio inserimento di oggetti grafici, testi o nuovi frame$_G$ vengano correttamente applicate e salvate dal sistema & TS4 \\
 \hline
 FOb5 & \teststatus  & Viene verificato che il salvataggio della presentazione avvenga con successo e nel formato atteso & TS5 \\
 \hline
@@ -44,11 +44,11 @@ FOb13 & \teststatus  & Si verifica che il sistema permetta all'utente di registr
 \hline
 FOb14 & \teststatus  & Si verifica che il sistema permetta all'utente di autenticarsi & TS14 \\
 \hline
-FOb15 & \teststatus  & Viene verificato il corretto funzionamento di tutti i messaggi di errore da parte del sistema  l'utente deve sapere quando ha commesso un errore & TS15\\
+FOb15 & \teststatus  & Viene verificato il corretto funzionamento di tutti i messaggi di errore da parte del sistema, l'utente deve sapere quando ha commesso un errore & TS15\\
 \hline
 FOb16 & \teststatus  & Viene verificata e provata la procedura di cambio password, assicurandosi che il sistema salvi correttamente le modifiche dell'utente& TS16\\
 \hline
-VOb17 & \teststatus  & Viene testato l'avvio del sistema su browser Chrome da versione 40+& TS17\\
+VOb17 & \teststatus  & Viene testato l'avvio del sistema su browser$_G$ Chrome da versione 40+& TS17\\
 \hline
 \caption{Tabella di tracciamento test di sistema / requisiti}
 	
@@ -84,9 +84,9 @@ Il diagramma seguente non rispetta il formalismo UMLG 2.x ed è utilizzato per 
 	\hline
 	TI.TrailsEditor & \textbf{Edit dei percorsi}: Verifica il corretto funzionamento dei percorsi, e le procedure di creazione, modifica, clonazione ed eliminazione di un persorso & \teststatus \\
 	\hline
-	TI.InfographicEditor & \textbf{Edit dell'Infografica}: Verifica il corretto funzionamento delle infografiche, nello specifico l'aggiunta di frame, immagini, testi e shape all'infografica e la modifica dello stile& \teststatus \\
+	TI.InfographicEditor & \textbf{Edit dell'Infografica}: Verifica il corretto funzionamento delle infografiche, nello specifico l'aggiunta di frame$_G$, immagini, testi e shape$_G$ all'infografica e la modifica dello stile& \teststatus \\
 	\hline
-	TI.FrameEditor & \textbf{Edit dei Frame}: Verifica il corretto funzionamento dei frame, nello specifico l'aggiunta di immagini, testi e shape al frame e la modifica dello stile & \teststatus \\
+	TI.FrameEditor & \textbf{Edit dei Frame}: Verifica il corretto funzionamento dei frame$_G$, nello specifico l'aggiunta di immagini, testi e shape$_G$ al frame$_G$ e la modifica dello stile & \teststatus \\
 	\hline
 	TI.Viewer & \textbf{Visualizzazione della presentazione}: Verifica la corretta riproduzione della presentazione& \teststatus \\
 	\hline
@@ -147,8 +147,6 @@ Nella tabella seguente è riportato il tracciamento delle singole componenti del
     \hline
 	\caption{Tabella tracciamento componente - test di integrazione}
 \end{longtable}
-
-
 
 \subsection {Test di validazione}
 
@@ -223,8 +221,8 @@ All'utente è richiesto di:
 	\begin{itemize}
 		\item Avanzare nel percorso presentativo un passo alla volta (\textbf{TV4.3})
 		\item Retrocedere nel percorso presentativo un passo alla volta(\textbf{TV4.4}) 
-		\item Seguire un percorso di approfondimento a partire da un checkpoint (\textbf{TV4.5})
-		\item Tornare ad un checkpoint dopo aver completato un percorso di approfondimento (\textbf{TV.4.6})
+		\item Seguire un percorso di approfondimento a partire da un checkpoint$_G$ (\textbf{TV4.5})
+		\item Tornare ad un checkpoint$_G$ dopo aver completato un percorso di approfondimento (\textbf{TV.4.6})
 		\end{itemize}
 	\item Interrompere l'esecuzione della presentazione (\textbf{TV4.7})
 \end{itemize}
@@ -249,32 +247,32 @@ All'utente è richiesto di:
 			\item Scegliere un colore per il testo tra quelli disponibili (\textbf{TV5.2.3})
 			\item Scegliere una dimensione diversa da quella di default per il testo (\textbf{TV5.2.4})
 		\end{itemize}
-       \item Provare l'inserimento di un frame  (\textbf{TV5.3}) Fob4.1.2\\
+       \item Provare l'inserimento di un frame$_G$  (\textbf{TV5.3}) Fob4.1.2\\
         All'utente è chiesto di:		
         \begin{itemize}
-        	\item Scegliere una forma tra quelle disponibili per il frame  (\textbf{TV5.3.1})
+        	\item Scegliere una forma tra quelle disponibili per il frame$_G$  (\textbf{TV5.3.1})
         \end{itemize}
         \item Provare l'inserimento di un'immagine  (\textbf{TV5.4})\\
         All'utente è chiesto di:		
         \begin{itemize}
         	\item Scegliere un file immagine da filesystem (\textbf{TV5.4.1})
         \end{itemize}
-        \item Provare l'inserimento di uno shape  (\textbf{TV5.5})\\
+        \item Provare l'inserimento di uno shape$_G$  (\textbf{TV5.5})\\
         All'utente è chiesto di:		
         \begin{itemize}
-        	\item Scegliere una forma tra quelle disponibili per lo shape (\textbf{TV5.5.1})
+        	\item Scegliere una forma tra quelle disponibili per lo shape$_G$ (\textbf{TV5.5.1})
         \end{itemize}
 	\end{itemize}
 	\item Selezionare un oggetto grafico tra quelli precedentemente inseriti (\textbf{TV5.6})
 	\item Provare a modificare un oggetto grafico selezionato (\textbf{TV5.7})\\
 	All'utente è chiesto di:
     \begin{itemize}
-		\item Provare a modificare un frame (\textbf{TV5.8})\\
+		\item Provare a modificare un frame$_G$ (\textbf{TV5.8})\\
 			All'utente è chiesto di:
 			\begin{itemize}
-				\item Ridimensionare il frame (\textbf{TV5.8.1})
-				\item Riposizionare il frame (\textbf{TV5.8.2})
-				\item Modificare lo stile del frame  (\textbf{TV5.8.3})
+				\item Ridimensionare il frame$_G$ (\textbf{TV5.8.1})
+				\item Riposizionare il frame$_G$ (\textbf{TV5.8.2})
+				\item Modificare lo stile del frame$_G$  (\textbf{TV5.8.3})
 		    \end{itemize}
 		 \item Provare a modificare un'area di testo (\textbf{TV5.9})\\
 		 	All'utente è chiesto di:
@@ -288,10 +286,10 @@ All'utente è richiesto di:
 		 \item Provare a modificare uno shape (\textbf{TV5.10})\\
 		 All'utente è chiesto di:
 		 \begin{itemize}
-		 	\item Riposizionare lo shape (\textbf{TV5.10.1})
-		 	\item Ridimensionare lo shape (\textbf{TV5.10.2})
-		 	\item Modificare lo stile dello shape (\textbf{TV5.10.3})
-		 	\item Cambiare il livello dello shape (\textbf{TV5.10.4})
+		 	\item Riposizionare lo shape$_G$ (\textbf{TV5.10.1})
+		 	\item Ridimensionare lo shape$_G$ (\textbf{TV5.10.2})
+		 	\item Modificare lo stile dello shape$_G$ (\textbf{TV5.10.3})
+		 	\item Cambiare il livello dello shape$_G$ (\textbf{TV5.10.4})
 		 \end{itemize}
 		 \item Provare a modificare un'immagine (\textbf{TV5.11})\\
 		 All'utente è chiesto di:
@@ -314,15 +312,15 @@ All'utente è richiesto di:
     \begin{itemize}
     	\item Cambiare il titolo del percorso (\textbf{TV5.18})
     	\item Aggiungere un passo al percorso (\textbf{TV5.19})
-    	\item Modificare l'ordine dei frame del percorso(\textbf{TV5.20})
-    	\item Impostare un frame come checkpoint (\textbf{TV5.21})
-    	\item Rimuovere la marcatura a checkpoint da un frame (\textbf{TV5.22})\\
+    	\item Modificare l'ordine dei frame$_G$ del percorso(\textbf{TV5.20})
+    	\item Impostare un frame$_G$ come checkpoint$_G$ (\textbf{TV5.21})
+    	\item Rimuovere la marcatura a checkpoint$_G$ da un frame$_G$ (\textbf{TV5.22})\\
     	 All'utente è chiesto di:
     	     \begin{itemize}
     	     	\item Verificare che si debba confermare l'azione intrapresa (\textbf{TV5.22.1})
     	     	\item Verificare che si possa annullare l'azione intrapresa (\textbf{TV5.22.2})
     	     \end{itemize}
-    	\item Selezionare un frame del percorso del percorso (\textbf{TV5.23})
+    	\item Selezionare un frame$_G$ del percorso del percorso (\textbf{TV5.23})
     \end{itemize}
     \item Eliminare il percorso selezionato (\textbf{TV5.24})
     \item Modificare il titolo di una presentazione (\textbf{TV5.25})
