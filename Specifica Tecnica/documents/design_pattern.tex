@@ -41,7 +41,7 @@ L'intento del pattern MVC è di disaccoppiare il più possibile tra loro le part
 
 \end{itemize}
 
-\subsubsection{MVVM - Model View VievModel}
+\subsubsection{MVVM - Model View ViewModel}
 
 \begin{figure}[h]
 \begin{center}
@@ -51,7 +51,7 @@ L'intento del pattern MVC è di disaccoppiare il più possibile tra loro le part
 \end{figure}
 
 \begin{itemize}
-\item \textbf{Descrizione:} Il design pattern$_G$ MVVM è una variante del pattern MVC che propone un ruolo più attivo della View, la quale è in grado di gestire eventi, eseguire operazioni ed effettuare il data-binding. In questo contesto, quindi, alcune delle funzionalità del Controller vengono inglobate nella View, la quale si appoggia su un’estensione del Model: il ViewModel. Come per il pattern MVC, anche quì si individuano tre componenti:
+\item \textbf{Descrizione:} Il design pattern$_G$ MVVM è una variante del pattern MVC che propone un ruolo più attivo della View, la quale è in grado di gestire eventi, eseguire operazioni ed effettuare il data-binding. In questo contesto, quindi, alcune delle funzionalità del Controller vengono inglobate nella View, la quale si appoggia su un’estensione del Model: il ViewModel. Come per il pattern MVC, anche qui si individuano tre componenti:
 
 \begin{itemize}
 \item Model: dati di business e regole di accesso;
@@ -59,9 +59,8 @@ L'intento del pattern MVC è di disaccoppiare il più possibile tra loro le part
 \item ViewModel: Model esteso con funzionalità per la manipolazione dei dati e per l’interazione con la View.
 \end{itemize}
 
-\item \textbf{Motivazione:}  Il cuore del funzionamento di questo pattern è la creazione di un componente (ViewModel) che rappresenta, in modo astratto, tutte le informazioni e i comportamenti della corrispondente View; quest'ultima si limita a visualizzare graficamente quanto esposto dal ViewModel, a riflettere i propri cambi di stato nel ViewModel stesso oppure ad attivare suoi comportamenti. 
-L'uso di questo pattern richiede la presenza, nella tecnologia di UI, di un'ottimo meccanismo di data-binding (tipicamente bidirezionale) o, in alternativa, di un strato di sincronizzazione fra la View e il ViewModel.
-E' compito del ViewModel, però, offrire alla View una "superficie esterna" il più possibile ben fruibile, in modo che la sincronizzazione dello stato possa essere fatta senza introdurre logiche decisionali che rendano necessario un test specifico.
+\item \textbf{Motivazione:}  Il cuore del funzionamento di questo pattern è la creazione di un componente (ViewModel) che rappresenta, in modo astratto, tutte le informazioni e i comportamenti della corrispondente View; quest'ultima si limita a visualizzare graficamente quanto esposto dal ViewModel, a riflettere i propri cambi di stato nel ViewModel stesso oppure ad attivare i suoi comportamenti. 
+E' compito del ViewModel, offrire alla View una "superficie esterna" il più possibile ben fruibile, in modo che la sincronizzazione dello stato possa essere fatta senza introdurre logiche decisionali che rendano necessario un test specifico.
 
 \item \textbf{Applicablità:} Il pattern MVVM può essere utilizzato nei seguenti casi:
 
@@ -72,7 +71,7 @@ E' compito del ViewModel, però, offrire alla View una "superficie esterna" il p
 
 \end{itemize}
 
-\subsubsection{Dependecy Injection}
+\subsubsection{Dependency Injection}
 
 \begin{figure}[h]
 \begin{center}
@@ -87,7 +86,7 @@ Il pattern Dependency Injection coinvolge almeno tre elementi:
 
 \begin{itemize}
 \item una componente \textit{dipendente};
-\item la dichiarazione delle \textit{dipendenze} del componente, definite come \textit{interface contracts};
+\item la dichiarazione delle \textit{dipendenze} della componente, definite come \textit{interface contracts};
 \item un \textit{injector} (chiamato anche \textit{provider} o \textit{container}) che crea, a richiesta, le istanze delle classi che implementano delle \textit{dependency interfaces}.
 \end{itemize}
 
@@ -121,7 +120,7 @@ Delega ad una classe derivata (ConcreteCreator) la scelta di quale classe istanz
 \item \textbf{Motivazione:} la creazione di un oggetto può, spesso, richiedere processi complessi la cui collocazione all’interno della classe di composizione potrebbe non essere appropriata.
 Esso può, inoltre, comportare duplicazione di codice, richiedere informazioni non accessibili alla classe di composizione, o non fornire un sufficiente livello di astrazione.
 Il Factory Method indirizza questi problemi definendo un metodo separato per la creazione degli oggetti. Tale metodo può essere ridefinito dalle sottoclassi per definire il tipo derivato di prodotto che verrà effettivamente creato;
-\item \textbf{Applicablità:} Il pattern Factory Method si puù utilizzare nei seguenti casi:
+\item \textbf{Applicablità:} Il pattern Factory Method si può utilizzare nei seguenti casi:
 
 \begin{itemize}
 \item Quando si desidera che la creazione di un oggetto non precluda il suo riuso senza una significativa duplicazione di codice;

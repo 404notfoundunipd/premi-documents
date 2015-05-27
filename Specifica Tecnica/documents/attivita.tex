@@ -11,7 +11,7 @@ Vengono illustrati ora i diagrammi di attività. Viene illustrato il diagramma p
 		\label{fig:Attivita_principali}
 \end{figure}
 
-L'utente nel momento in cui accede nel programma ha la possibilità di effettuare la login o di registrarsi nel sistema. 
+L'utente nel momento in cui accede al programma ha la possibilità di effettuare la login o di registrarsi nel sistema. 
 L'utente loggato può invece effettuare il logout, andare nella lista presentazioni ed effettuare il cambio password.
 
 \subsection{Lista presentazioni}
@@ -36,7 +36,7 @@ Le scelte che ha l'utente una volta entrato nella lista presentazioni sono: Visu
 		\label{fig:Login}
 \end{figure}
 
-L'utente quando accede nella pagina di login inserisce le credenziali che corrispondono a email e password. Se sono corrette viene autenticato altrimenti viene restituito un messaggio d'errore.
+L'utente quando accede alla pagina di login inserisce le credenziali che corrispondono a email e password. Se sono corrette viene autenticato altrimenti viene restituito un messaggio d'errore.
 
 \newpage
 
@@ -49,7 +49,7 @@ L'utente quando accede nella pagina di login inserisce le credenziali che corris
 		\label{fig:Registrazione}
 \end{figure}
 
-L'utente quando accede nella parte di registrazione inserisce l'email e la password. Se l'email non ha un formato valido o se è già presente nel sistema viene restituito un errore altrimenti viene verificato che le password inserite coincidano. In caso affermativo l'utente viene registrato nel sistema, altrimenti viene restituito un messaggio d'errore.
+L'utente quando accede alla parte di registrazione inserisce l'email, la password e la conferma di quest'ultima. Se l'email non ha un formato valido o se è già presente nel sistema viene restituito un errore altrimenti viene verificato che le password inserite coincidano. In caso affermativo l'utente viene registrato nel sistema, altrimenti viene restituito un messaggio d'errore.
 
 \newpage
 
@@ -62,7 +62,7 @@ L'utente quando accede nella parte di registrazione inserisce l'email e la passw
 		\label{fig:Cambio_password}
 \end{figure}
 
-Per effettuare il cambio password l'utente inserisce la nuova password e la conferma della nuova. Se sono coincidenti viene effettuato il cambio password altrimenti viene notificato un errore all'utente.
+Per effettuare il cambio password l'utente inserisce la nuova password e la sua conferma. Se le due password coincidono viene effettuato il cambio password altrimenti viene notificato un errore all'utente.
 
 \newpage
 
@@ -75,7 +75,7 @@ Per effettuare il cambio password l'utente inserisce la nuova password e la conf
 		\label{fig:Visualizzatore}
 \end{figure} 
 
-Se l'utente che visualizza la presentazione è l'utente proprietario viene eseguita la presentazione in modalità proprietario altrimenti viene controllato se la presentazione è pubblica. In caso affermativo viene eseguita la presentazione in modalità non proprietario altrimenti viene notificato un errore, in quanto se la presentazione non è pubblica non può essere visualizzata. L'utente non proprietario per accedere ad una presentazione deve ottenere il link generato dall'utente proprietario nel momento in cui la rende pubblica. L'utente proprietario può rendere privata una presentazione in ogni momento perciò il controllo se è pubblica, deve essere effettuato per controllare se il link è ancora valido.
+Se l'utente che visualizza la presentazione è l'utente proprietario viene eseguita la presentazione in modalità proprietario altrimenti viene controllato se la presentazione è pubblica. In caso affermativo viene eseguita la presentazione in modalità non proprietario altrimenti viene notificato un errore, in quanto se la presentazione non è pubblica non può essere visualizzata. L'utente non proprietario per accedere ad una presentazione deve ottenere il link generato dall'utente proprietario nel momento in cui la rende pubblica. L'utente proprietario può rendere privata una presentazione in ogni momento perciò è importante il controllo sullo stato della presentazione (se pubblica o privata) per verificare la validità del link ad essa associato.
 
 \newpage
 
@@ -91,7 +91,7 @@ Se l'utente che visualizza la presentazione è l'utente proprietario viene esegu
 Se la modalità di visualizzazione presentazione è in modalità proprietario si hanno le seguenti scelte: 
 \begin{itemize}
 \item
-avanti: per andare avanti di una frame; 
+avanti: per andare avanti di un frame; 
 \item 
 indietro: per tornare indietro di un frame;
 \item torna a checkpoint: permette di tornare al frame iniziale o di tornare al checkpoint se si è entrati in un percorso di specializzazione; 
@@ -110,10 +110,10 @@ L'utente ha la possibilità di uscire quando lo desidera.
 		\caption{Esegui presentazione non proprietario}		\label{fig:Esegui_presentazione_non_proprietario}
 \end{figure}
 
-Se la modalità di visualizzazione presentazione è in modalità proprietario si hanno le seguenti scelte: 
+Se la modalità di visualizzazione presentazione è in modalità non proprietario si hanno le seguenti scelte: 
 \begin{itemize}
 \item
-avanti: per andare avanti di una frame; 
+avanti: per andare avanti di un frame; 
 \item 
 indietro: per tornare indietro di un frame;
 \item torna a checkpoint: permette di tornare al frame iniziale o di tornare al checkpoint se si è entrati in un percorso di specializzazione; 
@@ -222,7 +222,7 @@ L'utente può in ogni momento cambiare editor.
 		\label{fig:Frame_editor}
 \end{figure}
 
-L'utente procede alla creazione del frame oppure può selezionarne uno. Una volta selezionato viene visualizzato nell'editor e a questo punto può scegliere se eliminarlo o modificarlo.
+L'utente può procedere alla creazione di un novo frame oppure selezionarne uno esistente. Una volta selezionato un frame questo viene visualizzato nell'editor e a questo punto può scegliere se eliminarlo o modificarlo.
 
 \newpage
 
@@ -256,8 +256,8 @@ L'utente può effettuare le seguenti operazioni:
 
 L'utente può scegliere di: 
 \begin{itemize}
-\item modificare l'infografica 
-\item selezionare un frame e successivamente aggiungierlo all'infografica, eliminarlo dall'infografica o cambiargli la posizione e la grandezza e altezza.
+\item modificare l'infografica;
+\item selezionare un frame e successivamente aggiungierlo all'infografica, eliminarlo dall'infografica o cambiargli posizione, grandezza e altezza.
 \end{itemize}
 
 \newpage
