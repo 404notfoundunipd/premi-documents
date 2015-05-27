@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.13)  26 MAY 2015 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.13)  27 MAY 2015 13:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -606,7 +606,7 @@ been already used, duplicate ignored
                    \relax 
 l.74 \newpage
               [1 <../logo/logo404.png>]
-Underfull \hbox (badness 4634) in paragraph at lines 100--101
+Underfull \hbox (badness 4634) in paragraph at lines 105--106
 []\OT1/cmr/m/n/12 Spostate le Ri-sor-se Ne-ces-sa-rie
  []
 
@@ -933,7 +933,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 16.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [34 <./img/consuntivo-progarc.png (PNG copy)>]
-<img/consuntivo-progarc-tot.png, id=553, 407.5225pt x 569.12625pt>
+<img/consuntivo-progarc-tot.png, id=552, 407.5225pt x 569.12625pt>
 File: img/consuntivo-progarc-tot.png Graphic file (type png)
 
 <use img/consuntivo-progarc-tot.png>
@@ -963,6 +963,10 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `Piano_di_Progetto_v2.0.out' has not changed.
 
 (rerunfilecheck)             Checksum: 209CBC2B2F10785DBA3B9AD6B95D7C0A;3777.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  11161 strings out of 493117
@@ -980,7 +984,7 @@ r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
 local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/lo
 cal/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Piano_di_Progetto_v2.0.pdf (36 pages, 1415481 bytes).
+Output written on Piano_di_Progetto_v2.0.pdf (36 pages, 1415619 bytes).
 PDF statistics:
  611 PDF objects out of 1000 (max. 8388607)
  533 compressed objects within 6 object streams
