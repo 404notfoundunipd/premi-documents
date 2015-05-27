@@ -1,0 +1,54 @@
+\BOOKMARK [1][-]{section.1}{Introduzione}{}
+\BOOKMARK [2][-]{subsection.1.1}{Scopo del documento}{section.1}
+\BOOKMARK [2][-]{subsection.1.2}{Scopo del Prodotto}{section.1}
+\BOOKMARK [2][-]{subsection.1.3}{Glossario}{section.1}
+\BOOKMARK [2][-]{subsection.1.4}{Riferimenti}{section.1}
+\BOOKMARK [3][-]{subsubsection.1.4.1}{Normativi}{subsection.1.4}
+\BOOKMARK [3][-]{subsubsection.1.4.2}{Informativi}{subsection.1.4}
+\BOOKMARK [1][-]{section.2}{Visione Generale della Strategia di Verifica}{}
+\BOOKMARK [2][-]{subsection.2.1}{Organizzazione}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Analisi dei requisiti}{subsection.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Progettazione}{subsection.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Realizzazione}{subsection.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Validazione}{subsection.2.1}
+\BOOKMARK [2][-]{subsection.2.2}{Pianificazione Strategica e Temporale}{section.2}
+\BOOKMARK [2][-]{subsection.2.3}{Responsabilit\340}{section.2}
+\BOOKMARK [2][-]{subsection.2.4}{Risorse}{section.2}
+\BOOKMARK [2][-]{subsection.2.5}{Strumenti, Tecniche e Metodi}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.5.1}{Strumenti}{subsection.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.2}{Tecniche di Analisi}{subsection.2.5}
+\BOOKMARK [3][-]{subsubsection.2.5.3}{Misure e Metriche}{subsection.2.5}
+\BOOKMARK [1][-]{section.3}{Obiettivi di Qualit\340}{}
+\BOOKMARK [2][-]{subsection.3.1}{Qualit\340 dei Processi}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Qualit\340 del Prodotto}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Funzionalit\340}{subsection.3.2}
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Affidabilit\340}{subsection.3.2}
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Efficienza}{subsection.3.2}
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Usabilit\340}{subsection.3.2}
+\BOOKMARK [3][-]{subsubsection.3.2.5}{Manutenibilit\340}{subsection.3.2}
+\BOOKMARK [3][-]{subsubsection.3.2.6}{Portabilit\340}{subsection.3.2}
+\BOOKMARK [1][-]{section.4}{Gestione amministrativa della revisione}{}
+\BOOKMARK [2][-]{subsection.4.1}{Comunicazione e risoluzione di anomalie}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Trattamento delle discrepanze}{section.4}
+\BOOKMARK [2][-]{subsection.4.3}{Procedure di controllo di qualit\340 di processo}{section.4}
+\BOOKMARK [1][-]{appendix.A}{Pianificazione dei test}{}
+\BOOKMARK [2][-]{subsection.A.1}{Test di sistema}{appendix.A}
+\BOOKMARK [3][-]{subsubsection.A.1.1}{Descrizione dei test di sistema}{subsection.A.1}
+\BOOKMARK [2][-]{subsection.A.2}{Test di integrazione}{appendix.A}
+\BOOKMARK [3][-]{subsubsection.A.2.1}{Descrizione dei test di integrazione}{subsection.A.2}
+\BOOKMARK [3][-]{subsubsection.A.2.2}{Tracciamento componenti \205 test di integrazione}{subsection.A.2}
+\BOOKMARK [2][-]{subsection.A.3}{Test di validazione}{appendix.A}
+\BOOKMARK [3][-]{subsubsection.A.3.1}{Test TV1}{subsection.A.3}
+\BOOKMARK [3][-]{subsubsection.A.3.2}{Test TV2}{subsection.A.3}
+\BOOKMARK [3][-]{subsubsection.A.3.3}{Test TV3}{subsection.A.3}
+\BOOKMARK [3][-]{subsubsection.A.3.4}{Test TV4}{subsection.A.3}
+\BOOKMARK [3][-]{subsubsection.A.3.5}{Test TV5}{subsection.A.3}
+\BOOKMARK [3][-]{subsubsection.A.3.6}{Test TV6}{subsection.A.3}
+\BOOKMARK [3][-]{subsubsection.A.3.7}{Test TV7}{subsection.A.3}
+\BOOKMARK [3][-]{subsubsection.A.3.8}{Tracciamento Test di Validazione - Requisiti}{subsection.A.3}
+\BOOKMARK [1][-]{appendix.B}{Resoconto dell' Attivit\340 di Verifica}{}
+\BOOKMARK [2][-]{subsection.B.1}{Revisione della Documentazione}{appendix.B}
+\BOOKMARK [2][-]{subsection.B.2}{Tracciamento requisiti}{appendix.B}
+\BOOKMARK [2][-]{subsection.B.3}{Dettaglio delle verifiche tramite analisi}{appendix.B}
+\BOOKMARK [2][-]{subsection.B.4}{Revisione dei Requisiti}{appendix.B}
+\BOOKMARK [2][-]{subsection.B.5}{Revisione di Progettazione}{appendix.B}
