@@ -106,24 +106,27 @@ Compito dell'applicazione è anche quella di creare il codice {Latex}, sia delle
 
 \subsection{Specifica Tecnica}
 È compito dei \textit{Progettisti} studiare la struttura dei componenti più adatta a soddisfare i requisiti tracciati nella fase di Analisi. \\
-La progettazione dovrebbe essere il più possibile indipendente dai linguaggi di programmazione e dagli ambienti di sviluppo che verranno adottati nella fase di codifica del software, a meno che non vengano richiesti esplicitamente nel capitolato.
+La progettazione dovrebbe essere il più possibile indipendente dai linguaggi di programmazione e dagli ambienti di sviluppo che verranno adottati nella fase di codifica del software, a meno che non vengano richiesti esplicitamente dal proponente.
 Il documento dovrà essere composto da:
 \begin{itemize}
-\item[Tecnologie Utilizzate:] Devono essere esposte le tecnologie ed i design pattern$_G$ su cui si basa la progettazione del software;
-\item[Definizione del Prodotto:] l'architettura generale del sistema deve essere introdotta da una breve descrizione dei metodi e formalismi di specifica adottati durante la fase di progettazione, con particolare attenzione ad eventuali dipendenze dall'ambiente di sviluppo adottato;
-\item[Diagrammi dei Package:] I componenti devono essere rappresentati da package che definiscono i namespace$_G$ per le classi, le librerie o gli oggetti da cui saranno composti. Ogni componente e deve essere seguita da una descrizione che indichi il proprio compito all'interno del software, ed eventuali dipendenze con altri componenti;
-\item[Descrizione dei singoli componenti:] Ogni elemento creato dal gruppo e presente all'interno di un componente deve essere descritto nel modo seguente:
+\item \textbf{Tecnologie Utilizzate:} Devono essere esposte le tecnologie ed i design pattern$_G$ su cui si basa la progettazione del software.
+\item \textbf{Definizione del Prodotto:} l'architettura generale del sistema deve essere introdotta da una breve descrizione dei metodi e formalismi di specifica adottati durante la fase di progettazione, con particolare attenzione ad eventuali dipendenze dall'ambiente di sviluppo adottato.
+\item \textbf{Diagrammi dei Package:} I componenti devono essere rappresentati da package$_G$ che definiscono i namespace$_G$ per le classi, le librerie o gli oggetti da cui saranno composti. Ogni componente deve essere seguita da una descrizione che indichi la propria funzione all'interno del software, ed eventuali dipendenze con altri componenti. Package$_G$ e classi interne devono essere citate con la seguente notazione: \\
+\verb|PackageEsterno.PackageInterno.Classe|
+
+\item\textbf{Descrizione dei singoli componenti:} Ogni elemento proprio del software presente all'interno di un componente deve essere descritto nel modo seguente:
 \begin{itemize}
-\item[Nome:] della classe o dell'elemento
-\item[Tipo:] classe, classe anonima, etc.
-\item[Package:] di appartenenza
-\item[Descrizione:] della classe e delle funzionalità che mette a disposizione
-\item[Relazioni con altri componenti:] Dipendenze, associazioni, relazioni di ereditarietà o implementazione secondo la notazione UML2.0$_G$
+\item \textbf{Nome:} della classe o dell'elemento
+\item \textbf{Tipo:} classe, classe anonima, etc.
+\item \textbf{Package:} di appartenenza, con la notazione scritta sopra
+\item \textbf{Descrizione:} della classe e delle funzionalità che mette a disposizione
+\item \textbf{Relazioni con altri componenti:} Dipendenze, associazioni, relazioni di ereditarietà o implementazione secondo la notazione UML2.0$_G$
 \end{itemize}
-Ogni componente o package deve essere accompagnato da un Diagramma delle Classi con particolare attenzione alle loro relazioni di dipendenza, sia interne che esterne.
-\item[Diagrammi delle attività]
+Ogni componente o package$_G$ deve essere accompagnato da un Diagramma delle Classi con particolare attenzione alle loro relazioni di dipendenza, sia interne che esterne.
+\item \textbf{Diagrammi delle attività:}
 Le azioni che l'utente puo' compiere attraverso i componenti, e la logica procedurale del software, devono essere descritti tramite i Diagrammi delle Attività secondo la notazione UML2.0$_G$. Anche qui ogni diagramma dovrà essere accompagnato da una breve descrizione degli obiettivi che l'attività si propone di raggiungere.
-\item[Stime di Fattibilità] In questa sezione viene confermata la conformità e l'efficienza delle tecnologie utilizzate per lo sviluppo del software.
-\item[Tracciamento delle relazioni classi-requisiti] Ogni classe, ed eventualmente ogni componente, deve corrispondere alla soddisfazione di uno o più requisiti, o di parte di essi. Allo stesso tempo ogni requisito deve essere soddisfatto da una a o più classi o componenti. L'applicazione 404TrackerDB si occuperà di creare il codice Latex delle relazioni inserite nella sua base di dati.
-\item[Design Pattern] Ogni design pattern utilizzato per costruire l'architettura del software deve essere descritto in dettaglio in questa sezione apposita, in modo da fornire ai membri del gruppo e ai lettori del documento una fonte sempre disponibile delle informazioni necessarie a capire i componenti ed il loro modo di interagire con il resto del software.
+\item \textbf{Stime di Fattibilità:} In questa sezione viene appurata la conformità e l'efficienza delle tecnologie utilizzate per lo sviluppo del software.
+\item \textbf{Tracciamento delle relazioni classi-requisiti:} Ogni classe, ed eventualmente ogni componente, deve corrispondere alla soddisfazione di uno o più requisiti, o di parte di essi. Allo stesso tempo ogni requisito deve poter essere soddisfatto da una o più classi o componenti. L'applicazione 404TrackerDB si occuperà di creare il codice Latex delle relazioni inserite nella sua base di dati.
+\item \textbf{Design Pattern:} Ogni design pattern$_G$ utilizzato per costruire l'architettura del software deve essere descritto in dettaglio in questa sezione apposita, in modo da fornire ai membri del gruppo e ai lettori del documento una fonte sempre disponibile delle informazioni necessarie a capire i componenti ed il loro modo di interagire con il resto del software.
+\end{itemize}
 

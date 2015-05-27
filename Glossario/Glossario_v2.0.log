@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.13)  18 MAY 2015 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.5.13)  27 MAY 2015 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**NormeDiProgetto_v1.0.tex
-(./NormeDiProgetto_v1.0.tex
+**Glossario_v2.0.tex
+(./Glossario_v2.0.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
@@ -423,32 +423,67 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 88.
 )
-(./NormeDiProgetto_v1.0.aux)
-\openout1 = `NormeDiProgetto_v1.0.aux'.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrextend.sty
+Package: scrextend 2013/12/19 v3.12 KOMA-Script KOMA-Script package (extend oth
+er classes with features of KOMA-Script classes)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 16.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+)))
+
+LaTeX Warning: Command \@footnotemark  has changed.
+               Check if current package is valid.
+
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box32
+\beforetitleunit=\skip63
+\aftertitleunit=\skip64
+\ttl@plus=\dimen132
+\ttl@minus=\dimen133
+\ttl@toksa=\toks23
+\titlewidth=\dimen134
+\titlewidthlast=\dimen135
+\titlewidthfirst=\dimen136
+)
+(./Glossario_v2.0.aux)
+\openout1 = `Glossario_v2.0.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 23.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Info: Redefining \it@ocap on input line 16.
-LaTeX Info: Redefining \it@ccap on input line 16.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Info: Redefining \it@ocap on input line 23.
+LaTeX Info: Redefining \it@ccap on input line 23.
 
 
 File italian.ldf warning: 
@@ -456,7 +491,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 16.
+italian.ldf    on input line 23.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -475,16 +510,16 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count128
-\scratchdimen=\dimen132
-\scratchbox=\box32
+\scratchdimen=\dimen137
+\scratchbox=\box33
 \nofMPsegments=\count129
 \nofMParguments=\count130
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks24
 \MPscratchCnt=\count131
-\MPscratchDim=\dimen133
+\MPscratchDim=\dimen138
 \MPnumerator=\count132
 \makeMPintoPDFobject=\count133
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks25
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
@@ -492,7 +527,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 16.
+(lastpage)             ! on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -543,8 +578,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring ON on input line 16.
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring ON on input line 23.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -554,21 +589,20 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 
-(./NormeDiProgetto_v1.0.out) (./NormeDiProgetto_v1.0.out)
+(./Glossario_v2.0.out) (./Glossario_v2.0.out)
 \@outlinefile=\write3
-\openout3 = `NormeDiProgetto_v1.0.out'.
+\openout3 = `Glossario_v2.0.out'.
 
+ (./documents/first.tex
+<img/logo404_Extends.png, id=84, 1027.84pt x 433.62pt>
+File: img/logo404_Extends.png Graphic file (type png)
 
-(./documents/first.tex
-<../logo/logo404_Extends.png, id=293, 1027.84pt x 433.62pt>
-File: ../logo/logo404_Extends.png Graphic file (type png)
-
-<use ../logo/logo404_Extends.png>
-Package pdftex.def Info: ../logo/logo404_Extends.png used on input line 15.
+<use img/logo404_Extends.png>
+Package pdftex.def Info: img/logo404_Extends.png used on input line 15.
 (pdftex.def)             Requested size: 359.74939pt x 151.76927pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 26.
@@ -576,261 +610,260 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 26.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 26.
- [1
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../logo
-/logo404_Extends.png>])
-(./documents/regModifiche.tex
-Underfull \hbox (badness 1701) in paragraph at lines 15--16
-\OT1/cmr/m/n/12 to-gra-fi-ci e ste-su-ra am-bien-te di
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+) [1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/l
+ogo404_Extends.png>]) (./documents/regModifiche.tex
+Underfull \hbox (badness 1888) in paragraph at lines 13--14
+[]|\OT1/cmr/m/n/12 Modifica strut-tu-ra e cor-re-zio-ne
  []
 
 
-Underfull \vbox (badness 10000) detected at line 38
+Underfull \hbox (badness 5036) in paragraph at lines 15--16
+[]|\OT1/cmr/m/n/12 Inserimento Vo-ci(MVC, De-sing
  []
 
-) <../logo/logo404.png, id=302, 1027.84pt x 402.50375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+\OT1/cmr/m/n/12 Pat-tern, Pac-ka-ge, An-gu-la-r-JS,
+ []
+
+
+Underfull \hbox (badness 2401) in paragraph at lines 23--24
+[]|\OT1/cmr/m/n/12 Correzione or-to-gra-fi-ca e in-se-ri-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 32
+ []
+
+) <../logo/logo404.png, id=93, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 20.
+Package pdftex.def Info: ../logo/logo404.png used on input line 27.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 \newpage
-              [1 <../logo/logo404.png>] (./NormeDiProgetto_v1.0.toc
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 51.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [2])
+l.27 \newpage
+              [1 <../logo/logo404.png>] (./Glossario_v2.0.toc)
 \tf@toc=\write4
-\openout4 = `NormeDiProgetto_v1.0.toc'.
+\openout4 = `Glossario_v2.0.toc'.
 
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 22.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [3]
-(./documents/intro.tex
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
-File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
-)
-(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
-File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
-))
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 24.
+Package pdftex.def Info: ../logo/logo404.png used on input line 29.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [4] (./documents/collaborazione.tex
-Overfull \hbox (20.81038pt too wide) in paragraph at lines 33--34
-[]\OT1/cmr/bx/n/12 Mail in-ter-ne: \OT1/cmr/m/n/12 il mit-ten-te sar^^Ra l'in-d
-i-riz-zo del grup-po [][]404not-found.unipd@gmail.com[][]; 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 41.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [5]
-Underfull \hbox (badness 10000) in paragraph at lines 59--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--72
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 72.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [6])
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 26.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [7]
-(./documents/documenti.tex
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 41.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [8]
+ [2] (./documents/definizioni.tex
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 77.
+Package pdftex.def Info: ../logo/logo404.png used on input line 17.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [9]
+ [3
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 107.
+Package pdftex.def Info: ../logo/logo404.png used on input line 35.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [10]
+ [4
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 137.
+Package pdftex.def Info: ../logo/logo404.png used on input line 75.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [11]
+ [5
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 171.
+Package pdftex.def Info: ../logo/logo404.png used on input line 143.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [12])
+ [6
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 28.
+Package pdftex.def Info: ../logo/logo404.png used on input line 181.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [13] (./documents/ruoli.tex
-
-LaTeX Warning: Citation `docorganigramma' on page 14 undefined on input line 2.
+ [7
 
 
-
-LaTeX Warning: Citation `docorganigramma' on page 14 undefined on input line 5.
-
-
-)
+]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 30.
+Package pdftex.def Info: ../logo/logo404.png used on input line 198.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [14] (./documents/risorse.tex
+ [8
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 36.
+Package pdftex.def Info: ../logo/logo404.png used on input line 245.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [15])
+ [9
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 32.
+Package pdftex.def Info: ../logo/logo404.png used on input line 317.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [10
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 335.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [11
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 393.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [12
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 422.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [13
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 440.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [14
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 509.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [15
+
+
+]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 559.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [16]
-(./documents/procedure.tex
-Overfull \hbox (7.36781pt too wide) in paragraph at lines 16--19
-\OT1/cmr/m/n/12 Un ticket$[]$ cor-ri-spon-de ad un com-pi-to da por-ta-re a ter
--mi-ne al-l'in-ter-no di una milestone$[]$.
- []
-
 File: ../logo/logo404.png Graphic file (type png)
+
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 31.
+Package pdftex.def Info: ../logo/logo404.png used on input line 577.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [17]
+ [17
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 59.
+Package pdftex.def Info: ../logo/logo404.png used on input line 645.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [18]
+ [18
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 96.
+Package pdftex.def Info: ../logo/logo404.png used on input line 674.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [19])
+ [19
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 34.
+Package pdftex.def Info: ../logo/logo404.png used on input line 723.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [20]
-(./documents/ambientedilavoro.tex
-Underfull \hbox (badness 10000) in paragraph at lines 36--39
+ [20
 
- []
 
+]
 File: ../logo/logo404.png Graphic file (type png)
+
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 39.
+Package pdftex.def Info: ../logo/logo404.png used on input line 772.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [21]
+ [21
+
+
+]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 65.
+Package pdftex.def Info: ../logo/logo404.png used on input line 819.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [22])
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 36.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [23] (./documents/riferimenti.tex
-Overfull \hbox (14.86252pt too wide) in paragraph at lines 3--4
-[]\OT1/cmr/bx/n/12 Specifiche UTF-8$\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 G$\OT1
-/cmr/bx/n/12 : [][]\OT1/cmr/m/n/12 http://www.unicode.org/versions/Unicode6.1.0
-/ch03.pdf[][]; 
- []
+ [22
 
 
-Overfull \hbox (3.22119pt too wide) in paragraph at lines 4--5
-[]\OT1/cmr/bx/n/12 Specifiche HTML5-8$\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 G$\O
-T1/cmr/bx/n/12 : [][]\OT1/cmr/m/n/12 http://www.w3.org/html/wg/drafts/html/mast
-er/[][]. 
- []
+])
 
-No file NormeDiProgetto_v1.0.bbl.
-) 
 AED: lastpage setting LastPage
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 38.
+Package pdftex.def Info: ../logo/logo404.png used on input line 32.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [24]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 38.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 38.
- (./NormeDiProgetto_v1.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 38.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 38.
-Package rerunfilecheck Info: File `NormeDiProgetto_v1.0.out' has not changed.
-(rerunfilecheck)             Checksum: 2F086A93A57FCCB106EED582C09AE06B;5001.
+ [23
 
 
-LaTeX Warning: There were undefined references.
-
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
+ (./Glossario_v2.0.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
+Package rerunfilecheck Info: File `Glossario_v2.0.out' has not changed.
+(rerunfilecheck)             Checksum: 59C9020F3CC224036FD95FB9400FEEC9;768.
  ) 
 Here is how much of TeX's memory you used:
- 10786 strings out of 493117
- 159653 string characters out of 6135433
- 267646 words of memory out of 5000000
- 13974 multiletter control sequences out of 15000+600000
- 10021 words of font info for 35 fonts, out of 8000000 for 9000
+ 11198 strings out of 493117
+ 167449 string characters out of 6135433
+ 295539 words of memory out of 5000000
+ 14455 multiletter control sequences out of 15000+600000
+ 9129 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,16n,47p,814b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on NormeDiProgetto_v1.0.pdf (25 pages, 213996 bytes).
+ 43i,15n,47p,830b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pf
+b></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Glossario_v2.0.pdf (24 pages, 141623 bytes).
 PDF statistics:
- 588 PDF objects out of 1000 (max. 8388607)
- 542 compressed objects within 6 object streams
- 106 named destinations out of 1000 (max. 500000)
- 587 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 
