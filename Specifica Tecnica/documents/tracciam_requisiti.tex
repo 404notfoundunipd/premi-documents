@@ -1,2 +1,162 @@
-\section{Tracciamento della relazione componenti - requisiti}
 \newpage
+\section{Tracciamento requisiti-componenti}	
+\begin{longtable}{|l|p{5cm}|p{4cm}|}
+\hline
+\textbf{Requisito}  & \textbf{Descrizione} & \textbf{Componenti} \\
+\hline
+FOb1 & l'utente deve poter creare una presentazione & Premi.- \linebreak PresentationManager.- \linebreak NewView \linebreak Premi.- \linebreak PresentationManager.- \linebreak NewController \linebreak \\
+\hline
+FOb1.1 & l'utente deve poter scegliere un titolo per una presentazione & Premi.- \linebreak PresentationManager.- \linebreak NewView \linebreak Premi.- \linebreak PresentationManager.- \linebreak NewController \linebreak \\
+\hline
+FOb1.2 & l'utente deve poter inserire una descrizione della presentazione & Premi.- \linebreak PresentationManager.- \linebreak NewView \linebreak Premi.- \linebreak PresentationManager.- \linebreak NewController \linebreak \\
+\hline
+FOp10 & l'utente deve poter rendere live una presentazione pubblica & Premi.- \linebreak PresentationManager.- \linebreak View \linebreak Premi.- \linebreak PresentationManager.- \linebreak PresentationManagerCtrl \linebreak \\
+\hline
+FOp11 & l'utente deve poter esportare una presentazione & Premi.- \linebreak PresentationManager.- \linebreak Export \linebreak Premi.- \linebreak PresentationManager.- \linebreak Portable \linebreak \\
+\hline
+FOp11.1 & l'utente deve poter esportare la presentazione come poster & Premi.- \linebreak PresentationManager.- \linebreak Export \linebreak Premi.- \linebreak PresentationManager.- \linebreak Portable \linebreak \\
+\hline
+FOp11.2 & l'utente deve poter esportare la presentazione in formato portabile & Premi.- \linebreak PresentationManager.- \linebreak Export \linebreak \\
+\hline
+FOp12 & l'utente deve poter partecipare ad una presentazione resa live & Premi.- \linebreak Viewer.- \linebreak View \linebreak Premi.- \linebreak Viewer.- \linebreak ViewerCtrl \linebreak \\
+\hline
+FOb13 & l'utente deve poter registrarsi al sistema & Premi.- \linebreak UserManager.- \linebreak User \linebreak Premi.- \linebreak UserManager.- \linebreak View \linebreak Premi.- \linebreak UserManager.- \linebreak UserManagerCtrl \linebreak Premi.- \linebreak UserManager.- \linebreak RegistrationView \linebreak Premi.- \linebreak UserManager.- \linebreak RegistrationController \linebreak \\
+\hline
+FOb14 & l'utente deve potersi autenticare & Premi.- \linebreak UserManager.- \linebreak User \linebreak Premi.- \linebreak UserManager.- \linebreak View \linebreak Premi.- \linebreak UserManager.- \linebreak UserManagerCtrl \linebreak Premi.- \linebreak UserManager.- \linebreak LoginView \linebreak Premi.- \linebreak UserManager.- \linebreak LoginController \linebreak \\
+\hline
+FOb15 & l'utente deve sapere quando ha commesso un errore & Premi.- \linebreak View \linebreak Premi.- \linebreak PremiCtrl \linebreak \\
+\hline
+FOb16 & l'utente deve poter modificare la propria password & Premi.- \linebreak UserManager.- \linebreak User \linebreak Premi.- \linebreak UserManager.- \linebreak View \linebreak Premi.- \linebreak UserManager.- \linebreak UserManagerCtrl \linebreak Premi.- \linebreak UserManager.- \linebreak ChangePasswordView \linebreak Premi.- \linebreak UserManager.- \linebreak ChangePasswordController \linebreak \\
+\hline
+FOb2 & l'utente deve poter selezionare una sua presentazione & Premi.- \linebreak Viewer.- \linebreak View \linebreak Premi.- \linebreak Viewer.- \linebreak ViewerCtrl \linebreak Premi.- \linebreak Presentation.- \linebreak Presentation \linebreak Premi.- \linebreak PresentationManager.- \linebreak ListPresView \linebreak Premi.- \linebreak PresentationManager.- \linebreak ListPresController \linebreak \\
+\hline
+FOb3 & l'utente deve poter eseguire una sua presentazione & Premi.- \linebreak Viewer.- \linebreak View \linebreak Premi.- \linebreak Viewer.- \linebreak ViewerCtrl \linebreak \\
+\hline
+FDe3.1 & l'utente deve poter scegliere un percorso presentativo precedentemente creato & Premi.- \linebreak Viewer.- \linebreak View \linebreak Premi.- \linebreak Viewer.- \linebreak ViewerCtrl \linebreak \\
+\hline
+FOb3.2 & l'utente deve poter avanzare nel percorso presentativo scelto & Premi.- \linebreak Viewer.- \linebreak View \linebreak Premi.- \linebreak Viewer.- \linebreak ViewerCtrl \linebreak \\
+\hline
+FOb3.3 & l'utente deve poter retrocedere nel percorso presentativo scelto & Premi.- \linebreak Viewer.- \linebreak View \linebreak Premi.- \linebreak Viewer.- \linebreak ViewerCtrl \linebreak \\
+\hline
+FDe3.4 & l'utente deve poter seguire un percorso di approndimento & Premi.- \linebreak Viewer.- \linebreak View \linebreak Premi.- \linebreak Viewer.- \linebreak ViewerCtrl \linebreak \\
+\hline
+FOb3.5 & l'utente deve poter tornare ad un checkpoint & Premi.- \linebreak Viewer.- \linebreak View \linebreak Premi.- \linebreak Viewer.- \linebreak ViewerCtrl \linebreak \\
+\hline
+FOb3.6 & l'utente deve poter interrompere l'esecuzione della presentazione & Premi.- \linebreak Viewer.- \linebreak View \linebreak Premi.- \linebreak Viewer.- \linebreak ViewerCtrl \linebreak \\
+\hline
+FOb4 & l'utente deve poter modificare una presentazione & Premi.- \linebreak Editor.- \linebreak View \linebreak Premi.- \linebreak Editor.- \linebreak EditorCtrl \linebreak \\
+\hline
+FOb4.1 & l'utente deve poter inserire un oggetto grafico & Premi.- \linebreak Editor.- \linebreak View \linebreak Premi.- \linebreak Editor.- \linebreak EditorCtrl \linebreak \\
+\hline
+FOb4.1.1 & l'utente deve poter inserire un'area di testo & Premi.- \linebreak Presentation.- \linebreak GraphicObject \linebreak \\
+\hline
+FOb4.1.1.1 & l'utente deve poter inserire del testo & Premi.- \linebreak Presentation.- \linebreak Text \linebreak Premi.- \linebreak Editor.- \linebreak TextView \linebreak Premi.- \linebreak Editor.- \linebreak TextController \linebreak \\
+\hline
+FOb4.1.1.2 & l'utente deve poter scegliere il tipo di font per il testo & Premi.- \linebreak Editor.- \linebreak TextView \linebreak Premi.- \linebreak Editor.- \linebreak TextController \linebreak \\
+\hline
+FOb4.1.1.3 & l'utente deve poter scegliere il colore del testo & Premi.- \linebreak Editor.- \linebreak TextView \linebreak Premi.- \linebreak Editor.- \linebreak TextController \linebreak \\
+\hline
+FOb4.1.1.4 & l'utente deve poter scegliere la dimensione del testo & Premi.- \linebreak Editor.- \linebreak TextView \linebreak Premi.- \linebreak Editor.- \linebreak TextController \linebreak \\
+\hline
+FOb4.1.2 & l'utente deve poter inserire un frame nella presentazione & Premi.- \linebreak Presentation.- \linebreak Text \linebreak Premi.- \linebreak Editor.- \linebreak TextView \linebreak Premi.- \linebreak Editor.- \linebreak TextController \linebreak \\
+\hline
+FOp4.1.2.1 & l'utente deve poter scegliere la forma del frame & Premi.- \linebreak Presentation.- \linebreak Frame \linebreak \\
+\hline
+FOb4.1.3 & l'utente deve poter inserire un immagine nella presentazione & Premi.- \linebreak Presentation.- \linebreak Frame \linebreak \\
+\hline
+FOb4.1.3.1 & l'utente deve poter scegliere un'immagine da filesystem & Premi.- \linebreak Presentation.- \linebreak Image \linebreak Premi.- \linebreak Editor.- \linebreak ImageView \linebreak Premi.- \linebreak Editor.- \linebreak ImageController \linebreak \\
+\hline
+FOb4.1.4 & l'utente deve poter inserire uno shape nella presentazione & Premi.- \linebreak Presentation.- \linebreak Image \linebreak Premi.- \linebreak Editor.- \linebreak ImageView \linebreak Premi.- \linebreak Editor.- \linebreak ImageController \linebreak \\
+\hline
+FOb4.1.4.1 & l'utente deve poter scegliere la forma di uno shape & Premi.- \linebreak Presentation.- \linebreak Shape \linebreak Premi.- \linebreak Editor.- \linebreak ShapeView \linebreak Premi.- \linebreak Editor.- \linebreak ShapeController \linebreak \\
+\hline
+FOb4.10 & l'utente deve poter modificare la descrizione di una presentazione & Premi.- \linebreak Presentation.- \linebreak GraphicObject \linebreak \\
+\hline
+FOb4.2 & l'utente deve poter selezionare un oggetto grafico & Premi.- \linebreak PresentationManager.- \linebreak EditTitleDescrView \linebreak Premi.- \linebreak PresentationManager.- \linebreak EditTitleDescrController \linebreak \\
+\hline
+FOb4.3 & l'utente deve poter modificare un oggetto grafico nella presentazione & Premi.- \linebreak Presentation.- \linebreak GraphicObject \linebreak \\
+\hline
+FOb4.3.1 & l'utente deve poter modificare un frame & Premi.- \linebreak Presentation.- \linebreak GraphicObject \linebreak \\
+\hline
+FOb4.3.1.1 & l'utente deve poter ridimensionare un frame della presentazione & Premi.- \linebreak Presentation.- \linebreak Frame \linebreak Premi.- \linebreak Editor.- \linebreak FrameEditor.- \linebreak View \linebreak Premi.- \linebreak Editor.- \linebreak FrameEditor.- \linebreak FrameEditorCtrl \linebreak \\
+\hline
+FOb4.3.1.2 & l'utente deve poter riposizionare un frame nella presentazione & Premi.- \linebreak Editor.- \linebreak InfographicEditor.- \linebreak View \linebreak Premi.- \linebreak Editor.- \linebreak InfographicEditor.- \linebreak InfographicEditorCtrl \linebreak \\
+\hline
+FOb4.3.1.3 & l'utente deve poter modificare lo stile di un frame della presentazione & Premi.- \linebreak Editor.- \linebreak InfographicEditor.- \linebreak View \linebreak Premi.- \linebreak Editor.- \linebreak InfographicEditor.- \linebreak InfographicEditorCtrl \linebreak \\
+\hline
+FOb4.3.2 & l'utente deve poter modificare il contenuto di un'area di testo della presentazione & Premi.- \linebreak Presentation.- \linebreak Frame \linebreak Premi.- \linebreak Editor.- \linebreak FrameEditor.- \linebreak View \linebreak Premi.- \linebreak Editor.- \linebreak FrameEditor.- \linebreak FrameEditorCtrl \linebreak \\
+\hline
+FOb4.3.2.1 & l'utente deve poter ridimensionare un area di testo della presentazione & Premi.- \linebreak Presentation.- \linebreak Text \linebreak Premi.- \linebreak Editor.- \linebreak TextView \linebreak Premi.- \linebreak Editor.- \linebreak TextController \linebreak \\
+\hline
+FOb4.3.2.2 & l'utente deve poter riposizionare un area di testo nella presentazione & Premi.- \linebreak Editor.- \linebreak TextView \linebreak Premi.- \linebreak Editor.- \linebreak TextController \linebreak \\
+\hline
+FOb4.3.2.3 & l'utente deve poter modificare lo stile dell'area di testo della presentazione & Premi.- \linebreak Editor.- \linebreak TextView \linebreak Premi.- \linebreak Editor.- \linebreak TextController \linebreak \\
+\hline
+FOb4.3.2.4 & l'utente deve poter modificare il contenuto di un'area di testo della presentazione & Premi.- \linebreak Editor.- \linebreak TextView \linebreak Premi.- \linebreak Editor.- \linebreak TextController \linebreak \\
+\hline
+FOb4.3.2.5 & l'utente deve poter cambiare il livello di un'area di testo & Premi.- \linebreak Editor.- \linebreak TextView \linebreak Premi.- \linebreak Editor.- \linebreak TextController \linebreak \\
+\hline
+FOb4.3.3 & l'utente deve poter modificare una shape & Premi.- \linebreak Presentation.- \linebreak Text \linebreak Premi.- \linebreak Editor.- \linebreak TextView \linebreak Premi.- \linebreak Editor.- \linebreak TextController \linebreak \\
+\hline
+FOb4.3.3.1 & l'utente deve poter riposizionare una shape & Premi.- \linebreak Presentation.- \linebreak Shape \linebreak Premi.- \linebreak Editor.- \linebreak ShapeView \linebreak Premi.- \linebreak Editor.- \linebreak ShapeController \linebreak \\
+\hline
+FOb4.3.3.2 & l'utente deve poter cambiare lo stile di una shape & Premi.- \linebreak Editor.- \linebreak ShapeView \linebreak Premi.- \linebreak Editor.- \linebreak ShapeController \linebreak \\
+\hline
+FOb4.3.3.3 & l'utente deve poter ridimensionare una shape & Premi.- \linebreak Editor.- \linebreak ShapeView \linebreak Premi.- \linebreak Editor.- \linebreak ShapeController \linebreak \\
+\hline
+FOb4.3.3.4 & l'utente deve poter cambiare livello ad una shape & Premi.- \linebreak Editor.- \linebreak ShapeView \linebreak Premi.- \linebreak Editor.- \linebreak ShapeController \linebreak \\
+\hline
+FOb4.3.4 & l'utente deve poter modificare un'immagine della presentazione & Premi.- \linebreak Presentation.- \linebreak Shape \linebreak Premi.- \linebreak Editor.- \linebreak ShapeView \linebreak Premi.- \linebreak Editor.- \linebreak ShapeController \linebreak \\
+\hline
+FOb4.3.4.1 & l'utente deve poter riposizionare un'immagine nella presentazione & Premi.- \linebreak Presentation.- \linebreak Image \linebreak Premi.- \linebreak Editor.- \linebreak ImageView \linebreak Premi.- \linebreak Editor.- \linebreak ImageController \linebreak \\
+\hline
+FOb4.3.4.2 & l'utente deve poter ridimensionare un'immagine della presentazione & Premi.- \linebreak Editor.- \linebreak ImageView \linebreak Premi.- \linebreak Editor.- \linebreak ImageController \linebreak \\
+\hline
+FOb4.3.4.3 & l'utente deve poter cambiare il livello di un immagine & Premi.- \linebreak Editor.- \linebreak ImageView \linebreak Premi.- \linebreak Editor.- \linebreak ImageController \linebreak \\
+\hline
+FOb4.4 & l'utente deve poter eliminare un oggetto grafico dalla presentazione & Premi.- \linebreak Presentation.- \linebreak GraphicObject \linebreak \\
+\hline
+FDe4.5 & l'utente deve poter creare un percorso per la presentazione & Premi.- \linebreak Editor.- \linebreak TextView \linebreak \\
+\hline
+FDe4.5.1 & l'utente deve poter inserire un titolo per un percorso & Premi.- \linebreak Presentation.- \linebreak Trail \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak NewView \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak NewController \linebreak \\
+\hline
+FDe4.5.2 & l'utente deve poter clonare un percorso esistente della presentazione & Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak NewView \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak NewController \linebreak \\
+\hline
+FDe4.6 & l'utente deve poter selezionare un percorso della presentazione & Premi.- \linebreak Presentation.- \linebreak Trail \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak NewView \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak NewController \linebreak \\
+\hline
+FOb4.7 & l'utente deve poter modificare un percorso della presentazione & Premi.- \linebreak Presentation.- \linebreak Trail \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak View \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak TrailsEditorCtrl \linebreak \\
+\hline
+FDe4.7.1 & l'utente deve poter modificare il titolo del percorso & Premi.- \linebreak Presentation.- \linebreak Trail \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak View \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak TrailsEditorCtrl \linebreak \\
+\hline
+FOb4.7.2 & l'utente deve poter aggiungere un passo ad un cammino della presentazione & Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTitleView \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTitleController \linebreak \\
+\hline
+FOb4.7.3 & l'utente deve poter modificare l'ordine dei frame nel percorso & Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak FrameListController \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTrailView \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTrailController \linebreak \\
+\hline
+FDe4.7.4 & l'utente deve poter rendere checkpoint un frame & Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTrailView \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTrailController \linebreak \\
+\hline
+FDe4.7.5 & l'utente deve poter rimuovere la marcatura a checkpoint di un frame & Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTrailView \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTrailController \linebreak \\
+\hline
+FDe4.7.5.1 & l'utente deve confermare l'eliminazione di una marcatura a checkpoint & Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTrailView \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTrailController \linebreak \\
+\hline
+FDe4.7.5.2 & l'utente deve poter annullare la rimozione di una marcatura a checkpoint & Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTrailView \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTrailController \linebreak \\
+\hline
+FOb4.7.6 & l'utente deve poter selezionare un frame del percorso & Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTrailView \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak EditTrailController \linebreak \\
+\hline
+FOb4.8 & l'utente deve poter modificare il titolo di una presentazione & Premi.- \linebreak Presentation.- \linebreak Trail \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak View \linebreak Premi.- \linebreak Editor.- \linebreak TrailsEditor.- \linebreak TrailsEditorCtrl \linebreak \\
+\hline
+FDe4.9 & l'utente deve poter eliminare un percorso & Premi.- \linebreak PresentationManager.- \linebreak EditTitleDescrView \linebreak Premi.- \linebreak PresentationManager.- \linebreak EditTitleDescrController \linebreak \\
+\hline
+FOb5 & l'utente deve poter salvare una presentazione & Premi.- \linebreak Utility \linebreak \\
+\hline
+FOb6 & l'utente deve poter eliminare una presentazione & Premi.- \linebreak PresentationManager.- \linebreak RemoveView \linebreak Premi.- \linebreak PresentationManager.- \linebreak RemoveController \linebreak \\
+\hline
+FOb6.1 & l'utente deve poter scegliere di annullare l'operazione di eliminazione di una presentazione & Premi.- \linebreak PresentationManager.- \linebreak RemoveView \linebreak Premi.- \linebreak PresentationManager.- \linebreak RemoveController \linebreak \\
+\hline
+FOp7 & l'utente deve poter rendere pubblica una presentazione & Premi.- \linebreak PresentationManager.- \linebreak PublicView \linebreak Premi.- \linebreak PresentationManager.- \linebreak PublicController \linebreak \\
+\hline
+FOp8 & il sistema deve poter generare un link per una presentazione live & Premi.- \linebreak PresentationManager.- \linebreak View \linebreak Premi.- \linebreak PresentationManager.- \linebreak PresentationManagerCtrl \linebreak \\
+\hline
+FOp9 & l'utente deve poter rendere privata una presentazione publica & Premi.- \linebreak PresentationManager.- \linebreak PublicView \linebreak Premi.- \linebreak PresentationManager.- \linebreak PublicController \linebreak \\
+\hline
+\caption{Tracciamento requisiti-componeni}
+\end{longtable}
