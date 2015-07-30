@@ -1,7 +1,149 @@
-\section{Procedure e supporto dei processi}
-\subsection{Procedura per lo sviluppo dell'applicazione}
+\section{Procedure e supporto dei processi} \label{procedure}
+Le seguenti norme regolano i processi principali del ciclo di vita del software. Ogni ruolo di progetto è tenuto a seguirli per il raggiungimento degli obiettivi fissati nel \textit{Piano di Qualifica.}
+
+\subsection{Rotazione dei ruoli}
+Da regolamento\cite{docorganigramma} ogni componente del gruppo può occupare più di un ruolo nelle varie fasi del progetto, garantendo però l'assenza di conflitto di interessi tra i ruoli assunti. Questo richiede che le seguenti norme vengano attuate nell'assegnazione dei ruoli:
+\begin{itemize}
+\item rotazione del ruolo di \ruoloResponsabile{} ad ogni macro-fase per non lasciare in mano allo stesso componente il coordinamento delle attività per tutto l'arco temporale del progetto;
+\item la verifica di un documento o di parte del codice dev'essere sempre eseguita da componenti che non hanno scritto quel documento o codificato quella parte di software.
+\end{itemize}
+Per facilitare lo sviluppo del software vengono inoltre suggerite le seguenti raccomandazioni:
+\begin{itemize}
+\item separazione del ruolo di \ruoloResponsabile{} nei suoi incarichi di redattore di documenti (che potranno essere scritti da più componenti) e di coordinatore di attività (insieme di incarichi che dovranno essere svolti dal Responsabile assegnato per la macro-fase corrente);
+\item specializzazione di componenti del gruppo, quando ritenuto opportuno, nella stesura di determinati documenti per una maggiore efficienza nella loro elaborazione e verifiche incrociate su tali documenti per assicurare che ognuno li conosca in dettaglio.
+\end{itemize}
+Per la lista dei compiti previsti per i sei ruoli del progetto si rimanda al Regolamento dell'Organigramma\cite{docorganigramma}.
+\subsection{Gestione di Progetto}
+La gestione del progetto, dalla nascita alla conclusione, spetta al \ruoloResponsabile . Egli ha il compito di:
+\subsubsection{Pianificazione delle attività}
+\textit{(Pianificare in anticipo le attività e tenere traccia del loro corretto svolgimento)} \\ \\
+Questa attività è eseguita attraverso lo studio dei processi e la stima delle ore richieste per portare a termine le attività da cui sono composti. Servirsi dei dati ricavati dalle attività compatibili già portate a termine dal gruppo o, quando non presenti, utilizzare dati provenienti da fonti esterne attendibili. \\
+Una volta creato un piano di lavoro per una macro-fase, il \ruoloResponsabile{}  deve realizzare un diagramma di Gantt$_G$ con il software ProjectLibre$_G$, il cui compito è quello di mostrare la distribuzione temporale delle attività. Il calcolo delle ore viene invece eseguito con l'aiuto di un foglio elettronico; per questo scopo è stato realizzato un template$_G$, disponibile nella Repository$_G$ del progetto. Tutte informazioni ricavate devono essere disponibili all'interno del \textit{Piano di Progetto}, che dovrà essere sempre aggiornato e riportare ogni modifica effettuata sulla pianificazione delle attività.
+
+\subsubsection{Assegnare attività a risorse}
+\textit{(Collocare e gestire le risorse necessarie e sufficienti allo svolgimento delle attività)}\\ \\
+Per l'assegnazione delle attività alle risorse, e per il controllo periodico del loro progresso, il \ruoloResponsabile{} ha a disposizione il sistema di ticketing$_G$ di GitHub, descritto nella sezione \ref{procedureticket}.
+\subsubsection{Studio dei rischi}
+\textit{(Studiare i possibili rischi a cui il progetto puo' andare incontro, controllare periodicamente la possibilità che si verifichino e gestire quelli che si sono verificati)}\\ \\
+I rischi, il loro grado di pericolosità, la loro probabilità di avverarsi e le contromisure da adottare per prevenirli o correggerli vengono descritti in dettaglio nel \textit{Piano di Progetto}.
+Tutte queste attività devono essere il più possibile automatizzate o supportate da strumenti in grado di tenere traccia dei compiti portati a termine. Tali strumenti vengono descritti nella sezione \ref{ambientedilavoro}.
+
+
+\subsection{Analisi dei Requisiti}
+\subsubsection{Studio di Fattibilità}
+In seguito alla scelta del capitolato da parte del gruppo è necessario che gli \textit{Analisti} redigano uno \textit{Studio di Fattibilità}. Questo documento dovrà focalizzarsi su:
+\begin{itemize}
+\item \textbf{Dominio applicativo e tecnologico:} la conoscenza, da parte dei componenti del gruppo, del dominio applicativo e delle tecnologie richieste nel capitolato scelto; 
+\item \textbf{Guadagno:} rapporto tra costi per la realizzazione e dei benefici ricavati dal prodotto completo;
+\item \textbf{Analisi dei rischi:} individuazione dei rischi derivati da lacune di conoscenza del dominio e dalle tecnologie richieste;
+\item \textbf{Confronto con gli altri capitolati}: elenco delle ragioni che hanno portato a scartare gli altri capitolati.
+\end{itemize}
+\subsubsection{Requisiti}
+In seguito allo studio di fattibilità gli \textit{Analisti} dovranno identificare e classificare i Requisiti. \\
+I Requisiti devono essere individuati attraverso lo studio delle seguenti fonti:
+\begin{itemize}
+\item il capitolato d'appalto;
+\item il dominio applicativo;
+\item i documenti ufficiali del committente;
+\item i resoconti dell'interazione col fornitore (vedi \ref{collaborazioneriunioniesterne});
+\item i resoconti delle riunioni con il committente;
+\item i resoconti delle riunioni di gruppo (brainstorming$_G$);
+\item la prototipazione di alcune parti del prodotto;
+\end{itemize}
+La classificazione verrà operata sui seguenti attributi:
+\begin{itemize}
+\item \textbf{Tipo del Requisito} i cui valori possono essere:
+\begin{itemize}
+\item[F] Funzionale;
+\item[Q] di Qualità;
+\item[V] di Vincolo;
+\item[P] Prestazionale.
+\end{itemize}
+\item \textbf{Valore del Requisito} i cui valori possono essere:
+\begin{itemize}
+\item[Ob] Obbligatorio;
+\item[De] Desiderabile;
+\item[Op] Opzionale.
+\end{itemize}
+\item \textbf{Codice univoco} è il codice espresso in modo gerarchico come segue.
+\begin{center}
+[codice del padre].[numero unico rispetto ai fratelli]
+\end{center}
+\end{itemize} 
+Oltre a questa classificazione è necessario aggiungere una breve descrizione ad ogni requisito
+\subsubsection{Casi d'Uso}
+In seguito alla classificazione dei requisiti gli \textit{Analisti} dovranno identificare i \textit{casi d'uso} o \textit{use case}.
+Di ogni caso d'uso interessa:
+\begin{itemize}
+\item \textbf{Titolo} breve titolo che identifica lo UC;
+\item \textbf{Pre e Post Condizione};
+\item \textbf{Attori} principali e secondari;
+\item \textbf{Scenari} principali e alternativi definendo per ognuno titolo, attori coinvolti, una breve descrizione e il caso d'uso a cui si riferiscono se presente;
+\item \textbf{Descrizione} breve descrizione dello UC;
+\item \textbf{Requisiti Dedotti}.
+\end{itemize} 
+\subsubsection{Tracciamento}
+I requisiti, i casi d'uso e le fonti dovranno essere inseriti, dagli \textit{Analisti}, in un database$_G$ appositamente creato. Per facilitare le operazioni necessarie è stata creata un'applicazione web il cui nome è 404TrackerDB.
+Compito dell'applicazione è anche quella di creare il codice {Latex}, sia delle tabelle per il tracciamento sia delle generalità di fonti e requisiti, in modo automatico per velocizzare la stesura del documento \textit{Analisi dei Requisiti}. 
+
+
+\subsection{Progettazione Architetturale}
+È compito dei \textit{Progettisti} studiare la struttura dei componenti più adatta a soddisfare i requisiti tracciati nella fase di Analisi. \\
+La progettazione dovrebbe essere il più possibile indipendente dai linguaggi di programmazione e dagli ambienti di sviluppo che verranno adottati nella fase di codifica del software, a meno che non vengano richiesti esplicitamente dal proponente.
+\subsubsection{Specifica Tecnica}
+Il documento che raccoglie le informazioni ricavate durante la progettazione architetturale è la \textit{Specifica Tecnica}, e deve essere composto dalle seguenti sezioni:
+\begin{itemize}
+\item \textbf{Tecnologie Utilizzate:} Devono essere esposte le tecnologie ed i design pattern$_G$ su cui si basa la progettazione del software.
+\item \textbf{Descrizione dell'Architettura:} l'architettura generale del sistema deve essere introdotta da una breve descrizione dei metodi e formalismi di specifica adottati durante la fase di progettazione, con particolare attenzione ad eventuali dipendenze dall'ambiente di sviluppo adottato.
+\item \textbf{Diagrammi dei Package:} I componenti devono essere rappresentati da package$_G$ che definiscono i namespace$_G$ per le classi, le librerie o gli oggetti da cui saranno composti. Ogni componente deve essere rappresentata seguendo lo standard UML$_G$ 2.0, e seguita da una descrizione che indichi la propria funzione all'interno del software, ed eventuali dipendenze con altri componenti. Package$_G$ e classi interne devono essere citate con la seguente notazione: \\
+\verb|PackageEsterno.PackageInterno.Classe|
+
+\item\textbf{Descrizione dei singoli componenti:} Ogni elemento proprio del software presente all'interno di un componente deve essere descritto nel modo seguente:
+\begin{itemize}
+\item \textbf{Nome:} della classe o dell'elemento
+\item \textbf{Tipo:} classe, classe anonima, etc.
+\item \textbf{Package:} di appartenenza, con la notazione scritta sopra
+\item \textbf{Descrizione:} della classe e delle funzionalità che mette a disposizione
+\item \textbf{Relazioni con altri componenti:} Dipendenze, associazioni, relazioni di ereditarietà o implementazione secondo la notazione UML2.0$_G$.
+\end{itemize}
+Suddividere le classi per package e accompagnare ogni package da un Diagramma delle Classi utilizzando la notazione UML$_G$ 2.0. Evidenziare in particolar modo le relazioni di dipendenza, sia interne che esterne.
+\item \textbf{Diagrammi delle attività:}
+Le azioni che l'utente puo' compiere attraverso i componenti, e la logica procedurale del software, devono essere descritti tramite i Diagrammi delle Attività secondo la notazione UML$_G$ 2.0. Anche qui ogni diagramma dovrà essere accompagnato da una breve descrizione degli obiettivi che l'attività si propone di raggiungere.
+\item \textbf{Stime di Fattibilità:} In questa sezione viene appurata la conformità e l'efficienza delle tecnologie utilizzate per lo sviluppo del software.
+\item \textbf{Tracciamento delle relazioni classi-requisiti:} Ogni classe, ed eventualmente ogni componente, deve corrispondere alla soddisfazione di uno o più requisiti, o di parte di essi. Allo stesso tempo ogni requisito deve poter essere soddisfatto da una o più classi o componenti. L'applicazione 404TrackerDB si occuperà di creare il codice Latex delle relazioni inserite nella sua base di dati, e di verificare che tali norme vengano rispettate.
+\item \textbf{Design Pattern:} Ogni design pattern$_G$ utilizzato per costruire l'architettura del software deve essere descritto in dettaglio in questa sezione apposita, in modo da fornire ai membri del gruppo e ai lettori del documento una fonte sempre disponibile delle informazioni necessarie a capire i componenti ed il loro modo di interagire con il resto del software.
+\end{itemize}
+
+\subsection{Progettazione di Dettaglio}
+È compito dei \textit{Progettisti} utilizzare quanto scritto nella \textit{Specifica Tecnica} per definire in dettaglio nella \textit{Definizione di Prodotto} tutte le unità di cui è formato il sistema.
+\subsubsection{Definizione di Prodotto}
+Il documento dev'essere composto dalle seguenti sezioni:
+\begin{itemize}
+\item \textbf{Definizione delle classi}
+Ogni classe deve essere descritta nei minimi dettagli affinchè la programmazione possa procedere in modo corretto e disciplinato. \\
+La descrizione è composta da:
+\begin{itemize}
+\item \textbf{Diagramma della Classe:} secondo il formalismo UML$_G$ 2.0;
+\item \textbf{Descrizione:} deve spiegare lo scopo della classe e quali funzionalità i requisiti essa modella;
+\item \textbf{Classi ereditate:} la gerarchia a cui appartiene la classe;
+\item \textbf{Attributi:} propri della classe, con una lista formata da: \\ \textit{Nome} scritto come \verb|accesso nome : tipo|, \textit{Accesso}, \textit{Tipo}, \textit{Descrizione};
+\item \textbf{Metodi:} propri della classe o ridefiniti, con una lista formata da: \\ \textit{Nome} scritto come \verb|accesso nome(tipoAtt1 attributo1) : tipoRitorno|, \textit{Accesso}, \textit{Tipo di ritorno}, \textit{Parametri}, \textit{Descrizione}
+\end{itemize}
+\item \textbf{Tracciamento requisiti - classi:} Ogni classe deve soddisfare un requisito o parte di esso. Allo stesso tempo ogni requisito deve essere soddisfatto da una o più classi.
+Le classi vanno inserite nel database gestito dal software 404TrackerDB, il quale si occuperà di verificare la soddisfacibilità dei requisiti e di generare il codice {Latex} appropriato.
+\end{itemize}
+\subsubsection{Test di unità}
+Durante la \textit{Progettazione di Dettaglio} i \textit{Progettisti} hanno inoltre il compito di definire i test di unità per assicurarsi che i componenti realizzati siano privi di difetti.
+
+\subsection{Verifica e Validazione}
+
+
+
+
+
+\subsection{Procedure per l'utilizzo del repository} \label{procedureticket}
 Vengono qui elencate le norme per l'utilizzo degli strumenti di sviluppo del sito web GitHub$_G$. \\
-Per una guida completa sull'uso di GitHub$_G$ si consiglia il sito: \\
+Per una guida completa all'uso di GitHub$_G$ si consiglia il sito: \\
 \url{https://guides.github.com/}\\
 Per una guida completa sull'uso di git$_G$ da terminale si consiglia il sito: \\
 \url{http://git-scm.com/doc/}
@@ -40,7 +182,7 @@ Quando il lavoro è concluso inviare una \textit{pull request}$_G$, ossia la ric
     \item \textit{commento:} deve contenere almeno l'id del ticket$_G$(\textit{issue}) del compito eseguito nella forma \texttt{\#id} e preceduto dalla parola chiave \texttt{Fixes }, per rendere automatica la chiusura del ticket una volta accettata la richiesta. 
 \end{itemize}
 
-\subsubsection{Fase di Verifica}
+\subsubsection{Verifica del compito}
 Il \ruoloVerificatore\ ha il compito di esaminare le \textit{pull request}$_G$ proposte dai membri del gruppo.\\
 Dopo aver verificato il lavoro svolto, dal menu \textit{Pull Requests}$_G$ ha tre possibilità:
 \begin{itemize}
@@ -52,81 +194,3 @@ Dopo aver verificato il lavoro svolto, dal menu \textit{Pull Requests}$_G$ ha tr
 \subsubsection{Chiudere una milestone}
 Quando tutti i ticket$_G$ sono stati chiusi il \ruoloResponsabile\ può chiudere la milestone$_G$ in corso. \\
 Dalla pagina della repository$_G$ accedere al menu \textit{issues}, andare sulla sezione \textit{Milestones} e selezionare quella che si intende chiudere; infine premere su \textit{close}.
-
-
-
-
-\subsection{Analisi dei Requisiti}
-\subsubsection{Studio di Fattibilità}
-In seguito alla scelta del capitolato da parte del gruppo è necessario che gli \textit{Analisti} redigano uno \textit{Studio di Fattibilità}. Questo documento dovrà focalizzarsi su:
-\begin{itemize}
-\item \textbf{Dominio applicativo e tecnologico:} la conoscenza, da parte dei componenti del gruppo, del dominio applicativo e delle tecnologie richieste nel  ; 
-\item \textbf{Guadagno:} rapporto tra costi per la realizzazione e dei benefici ricavati dal prodotto completo;
-\item \textbf{Analisi dei rischi:} individuazione dei rischi derivati da lacune di conoscenza del dominio e dalle tecnologie richieste.  
-\end{itemize}
-\subsubsection{Requisiti}
-In seguito allo studio di fattibilità gli \ruoloAnalista dovranno identificare e classificare i Requisiti.
-La classificazione verrà operata sui seguenti attributi:
-\begin{itemize}
-\item \textbf{Tipo del Requisito} i cui valori possono essere:
-\begin{itemize}
-\item[F] Funzionale;
-\item[Q] di Qualità;
-\item[V] di Vincolo;
-\item[P] Prestazionale.
-\end{itemize}
-\item \textbf{Valore del Requisito} i cui valori possono essere:
-\begin{itemize}
-\item[Ob] Obbligatorio;
-\item[De] Desiderabile;
-\item[Op] Opzionale.
-\end{itemize}
-\item \textbf{Codice univoco} è il codice espresso in modo gerarchico come segue.
-\begin{center}
-[codice del padre].[numero unico rispetto ai fratelli]
-\end{center}
-\end{itemize} 
-Oltre a questa classificazione è necessario aggiungere una breve descrizione ad ogni requisito
-\subsubsection{Casi d'Uso}
-In seguito alla classificazione dei requisiti gli \textit{Analisti} dovranno identificare i \textit{casi d'uso} o \textit{use case}.
-Di ogni caso d'uso interessa:
-\begin{itemize}
-\item \textbf{Titolo} breve titolo che identifica lo UC;
-\item \textbf{Pre e Post Condizione};
-\item \textbf{Attori} principali e secondari;
-\item \textbf{Scenari} principali e alternativi definendo per ognuno titolo, attori coinvolti, una breve descrizione e il caso d'uso a cui si riferiscono se presente;
-\item \textbf{Descrizione} breve descrizione dello UC;
-\item \textbf{Requisiti Dedotti}.
-\end{itemize} 
-\subsubsection{Tracciamento}
-Sia i requisiti che le fonti dovranno essere inseriti, dagli \textit{Analisti}, in un database$_G$ appositamente creato. Per facilitare le operazioni necessarie è stata creata un'applicazione web il cui nome è 404TrackerDB.
-Compito dell'applicazione è anche quella di creare il codice {Latex}, sia delle tabelle per il tracciamento sia delle generalità di fonti e requisiti, in modo automatico per velocizzare la stesura del documento \textit{Analisi dei Requisiti}. 
-
-
-
-\subsection{Specifica Tecnica}
-È compito dei \textit{Progettisti} studiare la struttura dei componenti più adatta a soddisfare i requisiti tracciati nella fase di Analisi. \\
-La progettazione dovrebbe essere il più possibile indipendente dai linguaggi di programmazione e dagli ambienti di sviluppo che verranno adottati nella fase di codifica del software, a meno che non vengano richiesti esplicitamente dal proponente.
-Il documento dovrà essere composto da:
-\begin{itemize}
-\item \textbf{Tecnologie Utilizzate:} Devono essere esposte le tecnologie ed i design pattern$_G$ su cui si basa la progettazione del software.
-\item \textbf{Definizione del Prodotto:} l'architettura generale del sistema deve essere introdotta da una breve descrizione dei metodi e formalismi di specifica adottati durante la fase di progettazione, con particolare attenzione ad eventuali dipendenze dall'ambiente di sviluppo adottato.
-\item \textbf{Diagrammi dei Package:} I componenti devono essere rappresentati da package$_G$ che definiscono i namespace$_G$ per le classi, le librerie o gli oggetti da cui saranno composti. Ogni componente deve essere seguita da una descrizione che indichi la propria funzione all'interno del software, ed eventuali dipendenze con altri componenti. Package$_G$ e classi interne devono essere citate con la seguente notazione: \\
-\verb|PackageEsterno.PackageInterno.Classe|
-
-\item\textbf{Descrizione dei singoli componenti:} Ogni elemento proprio del software presente all'interno di un componente deve essere descritto nel modo seguente:
-\begin{itemize}
-\item \textbf{Nome:} della classe o dell'elemento
-\item \textbf{Tipo:} classe, classe anonima, etc.
-\item \textbf{Package:} di appartenenza, con la notazione scritta sopra
-\item \textbf{Descrizione:} della classe e delle funzionalità che mette a disposizione
-\item \textbf{Relazioni con altri componenti:} Dipendenze, associazioni, relazioni di ereditarietà o implementazione secondo la notazione UML2.0$_G$
-\end{itemize}
-Ogni componente o package$_G$ deve essere accompagnato da un Diagramma delle Classi con particolare attenzione alle loro relazioni di dipendenza, sia interne che esterne.
-\item \textbf{Diagrammi delle attività:}
-Le azioni che l'utente puo' compiere attraverso i componenti, e la logica procedurale del software, devono essere descritti tramite i Diagrammi delle Attività secondo la notazione UML2.0$_G$. Anche qui ogni diagramma dovrà essere accompagnato da una breve descrizione degli obiettivi che l'attività si propone di raggiungere.
-\item \textbf{Stime di Fattibilità:} In questa sezione viene appurata la conformità e l'efficienza delle tecnologie utilizzate per lo sviluppo del software.
-\item \textbf{Tracciamento delle relazioni classi-requisiti:} Ogni classe, ed eventualmente ogni componente, deve corrispondere alla soddisfazione di uno o più requisiti, o di parte di essi. Allo stesso tempo ogni requisito deve poter essere soddisfatto da una o più classi o componenti. L'applicazione 404TrackerDB si occuperà di creare il codice Latex delle relazioni inserite nella sua base di dati.
-\item \textbf{Design Pattern:} Ogni design pattern$_G$ utilizzato per costruire l'architettura del software deve essere descritto in dettaglio in questa sezione apposita, in modo da fornire ai membri del gruppo e ai lettori del documento una fonte sempre disponibile delle informazioni necessarie a capire i componenti ed il loro modo di interagire con il resto del software.
-\end{itemize}
-

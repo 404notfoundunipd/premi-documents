@@ -1,62 +1,12 @@
 \newpage
-\section{Ciclo di vita}
-Il modello di ciclo di vita adottato per Premi è il \textbf{modello incrementale}, per le sue proprietà qui elencate:
-
-\begin{itemize}
-	\item sposta le attività principali di sviluppo, analisi e progettazione architetturale ad alto livello all'inizio del ciclo garantendo una codifica allo stesso tempo controllata e snella. Anche gli incrementi vengono pianificati e questo aiuta a stimare costi e tempi di produzione;
-	\item favorisce la creazione di prototipi che consentono una maggiore visione di insieme e migliorano il dialogo con il committente;
-	\item ogni incremento riduce il rischio di fallimento perchè consolida la sezione coinvolta (ogni incremento produce una base da considerarsi stabile);
-	\item le risorse umane possono essere distribuite a rotazione su di un numero limitato di attività, per brevi periodi di tempo, assumendo ruoli diversi. Questo è in linea con la richiesta dei docenti di far ricoprire più ruoli ai componenti del gruppo, garantendo però assenza di conflitto di interessi tra i ruoli assunti;
-	\item la creazione di un'applicazione web, suddivisa in pagine, gerarchie e funzionalità si presta naturalmente ad una costruzione di tipo incrementale.
-\end{itemize}	
-
-\section{Scadenze}
-Qui vengono presentate le date di consegna delle revisioni che il gruppo 404NotFound ha deciso di rispettare per lo sviluppo del software:
-
-\begin{itemize}
-	\item \textit{Revisione dei Requisiti} (RR): 2015-02-16 \\
-	Data di consegna della documentazione: 2015-01-23;
-	\item \textit{Revisione di Progetto} (RP): 2015-05-29 \\
-	Data di consegna della documentazione: 2015-05-27;
-	\item \textit{Revisione di Qualifica} (RQ): 2015-07-03 \\
-	Data di consegna della documentazione: 2015-07-06;
-	\item \textit{Revisione di Accettazione} (RA): 2015-08-23 \\
-	Data di consegna della documentazione: 2015-08-21.
-\end{itemize}
-\section{Ruoli}
-
-I ruoli previsti per la realizzazione del progetto sono i sei descritti dal Committente nel Regolamento dell'Organigramma. \\
-
-\begin{table}[h]
-\begin{center}
-\begin{tabular}{|l|l|}
-\hline
-\textbf{Ruolo} & \textbf{€/ora} \\
-\hline
-\ruoloResponsabile & 30 \\
-\ruoloAnalista & 25 \\
-\ruoloProgettista & 22 \\
-\ruoloAmministratore & 20 \\
-\ruoloProgrammatore & 15 \\
-\ruoloVerificatore & 15 \\
-\hline
-\end{tabular}
-\clearpage
-\caption{Ruoli previsti e costo per ruolo.}
-\end{center}
-\end{table}
-Anziché effettuare una ripartizione dei ruoli casuale si è preferito specializzare le Risorse Umane nella stesura di determinati documenti, pur mantenendo una quasi assoluta assenza di conflitto di interessi. Si potrà comunque notare che ogni membro del gruppo assume quasi tutti i ruoli nel corso del progetto, e che attività come la Codifica sono state spartite equamente per non causare sovraccarichi di lavoro nei periodi di sviluppo più intensi. Per ulteriori informazioni consultare le tabelle delle macro-fasi nella sezione Pianificazione delle attività.
-
-
-\newpage
-\section{Pianificazione delle attività}
+\section{Pianificazione delle attività} \label{pianificazione}
 Lo sviluppo di Premi, in linea con le scadenze sopra elencate, viene diviso in quattro macro-fasi:
 
 \begin{itemize}
 \item \textbf{Analisi} (AN) dal 2014-12-01 al 2015-01-22;
 \item \textbf{Progettazione Architetturale} (PA) dal 2015-02-17 al 2015-05-27;
-\item \textbf{Progettazione di Dettaglio e Codifica} (PDC) dal 2015-06-01 al 2015-07-03;
-\item \textbf{Verifica Finale e Validazione} (VV) dal 2015-07-07 al 2015-08-21.
+\item \textbf{Progettazione di Dettaglio e Codifica} (PDC) dal 2015-06-01 al 2015-08-22;
+\item \textbf{Verifica Finale e Validazione} (VV) dal 2015-08-25 al 2015-09-08.
 \end{itemize}
 Ogni macro-fase è a sua volta divisa nelle sue attività essenziali, e ogni attività è composta da sotto-attività che ne disciplinano la realizzazione.\\
 La durata di ogni attività è stata tracciata con diagrammi di Gantt$_{G}$, disegnati dal software \href{http://www.projectlibre.org/}{ProjectLibre}$_{G}$, dai quali si possono visualizzare le dipendenze e le principali milestone$_{G}$. Per calcolare le ore e i costi di lavoro invece si è preferito utilizzare un foglio elettronico per la facilità con cui si possono ricavare automaticamente le somme totali (attraverso le funzioni) e aggiornare i dati in caso di modifiche future al documento.
@@ -160,7 +110,7 @@ I ruoli coinvolti sono quelli del \ruoloResponsabile{}, \ruoloAmministratore{}, 
 
 \newpage
 \subsection{Progettazione di Dettaglio e Codifica}
-\textbf{Periodo:} dal 2015-06-1 al 2015-07-03 \\
+\textbf{Periodo:} dal 2015-06-1 al 2015-08-22 \\
 \textbf{Responsabile:} \CoMa \\
 La macro-fase di Progettazione Architetturale inizia dalla Revisione di Progetto e prosegue fino alla consegna del prodotto per la Revisione di Qualifica. \\
 L'attività di codifica viene divisa in due parti: la prima produce un prototipo contenente le funzionalità di base, la seconda incrementa il prototipo e crea un prodotto completo. \\
@@ -208,7 +158,7 @@ Anche in questa fase è prevista la stesura e la verifica di documenti:
 
 \newpage
 \subsection{Verifica Finale e Validazione}
-\textbf{Periodo:} dal 2015-07-07 al 2015-08-21 \\
+\textbf{Periodo:} dal 2015-08-25 al 2015-09-08 \\
 \textbf{Responsabile:} \CaMa \\
 La macro-fase di Verifica Finale e Validazione inizia dalla Revisione di Qualifica e conclude le attività di sviluppo del software. \\
 In queste tre settimane verrà corretta, incrementata e verificata tutta la documentazione prodotta fino a quel momento con l'obiettivo di rilasciarne una versione da definirsi completa. \\
@@ -245,18 +195,5 @@ I ruoli coinvolti sono quelli del \ruoloResponsabile{}, \ruoloAmministratore{}, 
 \caption{Tabella persone/ore/costi della macro-fase di Verifica Finale e Validazione.}
 \end{center}
 \end{figure}
-
-\newpage
-
-\section{Totale Costi e Ore}
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[scale=0.50]{img/totali.png}
-\caption{Tabelle dei costi e delle ore totali.}
-\end{center}
-\end{figure}
-
-Dalla sezione precedente si ricava un costo totale del progetto di \textbf{14327€}, e 104 ore complessive di lavoro per ciascun membro del gruppo.
 
 
