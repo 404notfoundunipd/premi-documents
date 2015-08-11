@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{../style}
+
+
+\newcommand{\docs}{documents/}
+% Dati inerenti al documento corrente %
+% Da sostituire con i valori corretti %
+\newcommand{\titDoc}{Definizione di Prodotto}
+\newcommand{\dataCreazione}{18 giugno 2015}
+\newcommand{\versione}{1.0}
+
+% Dati di rilascio del documento corrente %
+\newcommand{\stato}{Formale}
+\newcommand{\uso}{Esterno}
+
+\lfoot{
+	\titDoc \\
+	v. \versione
+}
+\title{\titDoc}
+
+\begin{document}
+\input{\docs first.tex}
+\newpage
+\input{\docs regModifiche.tex}
+\newpage
+\tableofcontents
+\newpage
+\listoftables
+\listoffigures
+
+\newpage
+\input{\docs intro.tex}
+\input{\docs standard.tex}
+\input{\docs server.tex}
+\input{\docs client.tex}
+\input{\docs header.tex}
+\input{\docs presentation.tex}
+\input{\docs presentationManager.tex}
+\input{\docs editor.tex}
+\input{\docs frameEditor.tex}
+\input{\docs infographicEditor.tex}
+\input{\docs trailsEditor.tex}
+\input{\docs userManager.tex}
+\input{\docs viewer.tex}
+\input{\docs tracciamento.tex}
+\input{\docs diagrammi_sequenza.tex}
+
+
+\newpage
+\bibliography{../bibliography}
+
+\end{document}
