@@ -256,6 +256,97 @@
   \item[] \textbf{Relazioni con altri componenti:} la view generata da questo template è collegata allo \textit{\$scope} di premi/client/presentationManager/controllers/removePresentationCtrl per rimuovere una presentazione dal database
 \end{itemize}
 
+\clearpage
+\subsection{Premi/client/editor}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/editor.png}
+\caption{Diagramma del package premi/client/editor}
+\end{center}
+\end{figure}
+\subsubsection{Premi/client/editor/lib/gObject}
+\begin{itemize}
+  \item[] \textbf{Nome:} gObject
+  \item[] \textbf{Tipo:} \textit{abstract class}
+  \item[] \textbf{Package:} Premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici nella presentazione
+\end{itemize}
+\subsubsection{Premi/client/editor/lib/gOContainer}
+\begin{itemize}
+  \item[] \textbf{Nome:} GOContainer
+  \item[] \textbf{Tipo:} \textit{abstract class}
+  \item[] \textbf{Package:} Premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici che possono essere contenuti in un frame 
+  \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gObject} e dipende anche da:
+  \begin{itemize} 
+	\item \textit{Premi/client/editor/lib/image} per interagire con gli oggetti di tipo image;
+	\item \textit{Premi/client/editor/lib/text} per interagire con gli oggetti di tipo testo;
+	\item \textit{Premi/client/editor/lib/shape} per interagire con gli oggetti di tipo shape;
+\end{itemize}  
+\end{itemize}
+\subsubsection{Premi/client/editor/lib/text}
+\begin{itemize}
+  \item[] \textbf{Nome:} text
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta un'area di testo nella presentazione
+  \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gObject}
+\end{itemize}
+\subsubsection{Premi/client/editor/lib/image}
+\begin{itemize}
+  \item[] \textbf{Nome:} image
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta un'immagine nella presentazione
+  \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gObject}
+\end{itemize}
+\subsubsection{Premi/client/editor/lib/shape}
+\begin{itemize}
+  \item[] \textbf{Nome:} shape
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta una figura nella presentazione. Uno shape può avere forme diverse come un quadrato, un cerchio, una freccia. Può diventare un elemento di abbellimento o di aumento dell' informazione che si vuole rappresentare. 
+  \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gObject}
+\end{itemize}
+\subsubsection{Premi/client/editor/lib/frame}
+\begin{itemize}
+  \item[] \textbf{Nome:} frame
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta un frame$_G$ nella presentazione
+  \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gObject} e contiene un insieme di oggetti \code{Premi/client/editor/gObject}. Nonostante la classe frame$_G$ estenda gObject, un frame$_G$ non può contenere altri frame$_G$. Tuttavia si è scelto di lasciare che un frame$_G$ possa contenere tutti gli gObject perchè si prevede in futuro che un frame$_G$ potrà contenere altri frame$_G$. Dipende anche da: 
+\begin{itemize} 
+	\item \textit{Premi/client/editor/lib/image} per interagire con gli oggetti di tipo image;
+	\item \textit{Premi/client/editor/lib/text} per interagire con gli oggetti di tipo testo;
+	\item \textit{Premi/client/editor/lib/shape} per interagire con gli oggetti di tipo shape;
+	\item \textit{Premi/client/editor/lib/saver} per interagire con il database e salvare e modificare gli oggetti di un frame;
+\end{itemize}  
+\end{itemize}
+\subsubsection{Premi/client/editor/lib/infographic}
+\begin{itemize}
+  \item[] \textbf{Nome:} infographic
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta l'infografica di una presentazione
+  \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gOContainer} e dipende da:
+\begin{itemize} 
+	\item \textit{Premi/client/editor/lib/frame} per interagire con gli oggetti di tipo frame;
+	\item \textit{Premi/client/editor/lib/saver} per interagire con il database, salvare e modificare gli oggetti dell'infografica;
+\end{itemize}  
+\end{itemize}
+\subsubsection{Premi/client/editor/lib/saver}
+\begin{itemize}
+  \item[] \textbf{Nome:} saver
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/editor/lib
+  \item[] \textbf{Descrizione:} classe che permette di effettuare le modifiche degli oggetti sul database
+  \item[] \textbf{Relazioni con altri componenti:} Dipende da:
+\begin{itemize} 
+	\item \textit{Premi/client/editor/lib/saver} per interagire con il database.
+\end{itemize}  
+\end{itemize}
+
+
 \subsection{Premi/client/frameEditor}
 \begin{figure}[!h]
 \begin{center}
