@@ -478,6 +478,122 @@
   \end{itemize}
 \end{itemize}
 
+\subsection{Premi/client/trailsEditor}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/trailsEditor.png}
+\caption{Diagramma del package premi/client/trailsEditor}
+\end{center}
+\end{figure}
+\subsubsection{Premi/client/trailsEditor/views/basicToolbar.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} basicToolbar.ng
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/views
+  \item[] \textbf{Descrizione:} template della parte di pagina che mostra la toolbar che contiene tutte le funzionalità disponibili per la modifica di un trail$_G$
+\end{itemize}
+\subsubsection{Premi/client/trailsEditor/views/editTrail.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} editTrail.ng
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/views
+  \item[] \textbf{Descrizione:}  template della parte di pagina per la modifica del titolo di un trail$_G$
+\end{itemize}
+\subsubsection{Premi/client/trailsEditor/views/listTrail.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} listTrail.ng
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/views
+  \item[] \textbf{Descrizione:}  template della parte di pagina per la visualizzazione della lista dei trail$_G$ esistenti
+\end{itemize}
+\subsubsection{Premi/client/trailsEditor/views/modTrail.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} modTrail.ng
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/views
+  \item[] \textbf{Descrizione:}  template della parte di pagina per la modifica di un trail$_G$
+\end{itemize}
+\subsubsection{Premi/client/trailsEditor/views/newTrail.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} newTrail.ng
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/views
+  \item[] \textbf{Descrizione:}  template della parte di pagina per l'aggiunta un nuovo trail$_G$
+\end{itemize}
+\subsubsection{Premi/client/trailsEditor/views/removeTrail.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} removeTrail.ng
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/views
+  \item[] \textbf{Descrizione:}  template della parte di pagina per la rimozione di un trail$_G$
+\end{itemize}
+\subsubsection{Premi/client/trailsEditor/controllers/basicToolbarCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} basicToolbarCtrl
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/basicToolbar.ng   
+\end{itemize}
+\subsubsection{Premi/client/trailsEditor/controllers/editTrailCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} editTrailCtrl
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/editTrail.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/editTrail.ng e dipende da:   
+  \begin{itemize}
+  \item[] \textit{Premi/client/presentation/lib/databaseAPI} per interagire con il database;    
+  \end{itemize}
+\end{itemize}
+\subsubsection{Premi/client/trailsEditor/controllers/listTrailCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} listTrailCtrl
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/listTrail.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/listTrail.ng
+\end{itemize}
+\subsubsection{Premi/client/trailsEditor/controllers/modTrailCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} modTrailCtrl
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/modTrail.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/modTrail.ng e dipende da:
+  \begin{itemize}
+  	\item \textit{Premi/client/presentation/lib/trail} per interagire con i metodi per gestire un trail.
+  \end{itemize}
+\end{itemize}
+\subsubsection{Premi/client/trailsEditor/controllers/newTrailCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} newTrailCtrl
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/newTrail.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/newTrail.ng e dipende da:
+  \begin{itemize}
+  	\item \textit{Premi/client/presentation/lib/databaseAPI} per interagire con il database.
+  \end{itemize}
+\end{itemize}
+\subsubsection{Premi/client/trailsEditor/controllers/removeTrailCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} removeTrailCtrl
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/removeTrail.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/removeTrail.ng e dipende da:
+  \begin{itemize}
+  	\item \textit{Premi/client/presentation/lib/databaseAPI} per interagire con il database.
+  \end{itemize}
+\end{itemize}
+\subsubsection{Premi/client/trailsEditor/controllers/trailsCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} trailsCtrl
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller generale che gestisce le view di Premi/client/trailsEditor/views
+\end{itemize}
+
 
 
 \subsubsection{premi/client}
