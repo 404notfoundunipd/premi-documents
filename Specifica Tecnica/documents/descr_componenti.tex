@@ -256,6 +256,62 @@
   \item[] \textbf{Relazioni con altri componenti:} la view generata da questo template è collegata allo \textit{\$scope} di premi/client/presentationManager/controllers/removePresentationCtrl per rimuovere una presentazione dal database
 \end{itemize}
 
+\subsubsection{premi/client/presentationManager/controllers/editPresentationCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} editPresentationCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/presentationManager/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/presentationManager/views/editPresentation.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/presentationManager/views/editPresentation.ng e dipende anche da:
+ \begin{itemize}
+ \item \textit{premi/client/presentation/lib/databaseAPI} per l'accesso al database per la modifica dei campi dati della presentazione
+ \end{itemize}
+\end{itemize}
+
+\subsubsection{premi/client/presentationManager/controllers/newPresentationCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} newPresentationCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/presentationManager/controllers/
+  \item[] \textbf{Descrizione:} controller di premi/client/presentationManager/views/newPresentation.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/presentationManager/views/newPresentation.ng e dipende anche da:
+ \begin{itemize}
+ \item \textit{premi/client/presentation/lib/databaseAPI} per l'accesso al database per l'aggiunta di una nuova presentazione
+ \end{itemize}
+\end{itemize}
+
+\subsubsection{premi/client/presentationManager/controllers/PresentationManagerCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} presentationManagerCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/presentationManager/controllers
+  \item[] \textbf{Descrizione:}  controller di premi/client/presentationManager/views/presentationManager.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/presentationManager/views/presentationManager.ng
+\end{itemize}
+
+\subsubsection{premi/client/presentationManager/controllers/presentationsCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} presentationsCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/presentationManager/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/presentationManager/views/presentationManager.ng, fornisce alla vista la lista delle presentazioni dell'utente pubblicate dal server
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/presentationManager/views/presentations.ng
+\end{itemize}
+
+\subsubsection{premi/client/presentationManager/controllers/removePresentationCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} removePresentationCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/presentationManager/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/presentationManager/views/removePresentation.ng, fornisce alla vista dei metodi per la rimozione della presentazione selezionata
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/presentationManager/views/removePresentation.ng e dipende anche da:
+ \begin{itemize}
+ \item \textit{premi/client/presentation/lib/databaseAPI} per l'accesso al database per la rimozione della presentazione selezionata
+\end{itemize}
+\end{itemize}
+
+
+
 \clearpage
 \subsection{Premi/client/editor}
 \begin{figure}[!h]

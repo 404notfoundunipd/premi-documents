@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.20)  10 AUG 2015 18:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.20)  11 AUG 2015 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -563,7 +563,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 
 
 (./documents/first.tex
-<../logo/logo404_Extends.png, id=337, 1027.84pt x 433.62pt>
+<../logo/logo404_Extends.png, id=426, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
@@ -600,7 +600,7 @@ Underfull \vbox (badness 10000) detected at line 47
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 ))
-<../logo/logo404.png, id=346, 1027.84pt x 402.50375pt>
+<../logo/logo404.png, id=435, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
@@ -617,11 +617,39 @@ Overfull \hbox (2.58202pt too wide) in paragraph at lines 42--42
 Manager.ng[][] [][]  
  []
 
+
+Overfull \hbox (9.6014pt too wide) in paragraph at lines 45--45
+ [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/editPr
+esentationCtrl[][] [][]  
+ []
+
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 46.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [2])
+ [2]
+Overfull \hbox (10.25417pt too wide) in paragraph at lines 46--46
+ [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/newPre
+sentationCtrl[][] [][]  
+ []
+
+
+Overfull \hbox (34.72891pt too wide) in paragraph at lines 47--47
+ [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/Presen
+tationManagerCtrl[][] [][]  
+ []
+
+
+Overfull \hbox (26.24706pt too wide) in paragraph at lines 49--49
+ [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/remove
+PresentationCtrl[][] [][]  
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 92.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [3])
 \tf@toc=\write4
 \openout4 = `SpecificaTecnica_v2.0.toc'.
 
@@ -629,7 +657,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 30.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [3]
+ [4]
 (./SpecificaTecnica_v2.0.lot)
 \tf@lot=\write5
 \openout5 = `SpecificaTecnica_v2.0.lot'.
@@ -643,7 +671,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 34.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [4] (./documents/intro.tex
+ [5] (./documents/intro.tex
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ))
@@ -652,7 +680,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 10.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [5]
+ [6]
 Overfull \hbox (21.93733pt too wide) in paragraph at lines 21--30
 \OT1/cmr/m/n/12 Nello svi-lup-po soft-ware An-gu-la-r-JS (pi^^Ru co-mu-ne-men-t
 e no-to co-me -An-gu-lar) ^^Re un framework$[]$
@@ -677,12 +705,12 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 33.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [6]
+ [7]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 56.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [7]
+ [8]
 Underfull \hbox (badness 10000) in paragraph at lines 64--67
 
  []
@@ -692,12 +720,12 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [8]
+ [9]
 Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
  []
 
-<img/meteor_architettura.jpg, id=554, 569.12625pt x 369.38pt>
+<img/meteor_architettura.jpg, id=676, 569.12625pt x 369.38pt>
 File: img/meteor_architettura.jpg Graphic file (type jpg)
 
 <use img/meteor_architettura.jpg>
@@ -707,13 +735,13 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 25.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [9 <./img/meteor_architettura.jpg>]
+ [10 <./img/meteor_architettura.jpg>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 25.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [10]
-<img/diapkg/package.png, id=567, 885.3075pt x 814.54312pt>
+ [11]
+<img/diapkg/package.png, id=689, 885.3075pt x 814.54312pt>
 File: img/diapkg/package.png Graphic file (type png)
 
 <use img/diapkg/package.png>
@@ -723,26 +751,26 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 44.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [11
+ [12
 
  <./img/diapkg/package.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 53.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [12]) (./documents/descr_componenti.tex
+ [13]) (./documents/descr_componenti.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 2.
 
-<img/diapkg/server.png, id=582, 130.23656pt x 115.18031pt>
+<img/diapkg/server.png, id=704, 130.23656pt x 115.18031pt>
 File: img/diapkg/server.png Graphic file (type png)
 
 <use img/diapkg/server.png>
 Package pdftex.def Info: img/diapkg/server.png used on input line 15.
 (pdftex.def)             Requested size: 58.6059pt x 51.83064pt.
 
-<img/diapkg/client.png, id=583, 353.82187pt x 334.24875pt>
+<img/diapkg/client.png, id=705, 353.82187pt x 334.24875pt>
 File: img/diapkg/client.png Graphic file (type png)
 
 <use img/diapkg/client.png>
@@ -756,7 +784,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 54.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [13
+ [14
 
  <./img/diapkg/server.png>]
 File: ../logo/logo404.png Graphic file (type png)
@@ -764,13 +792,13 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 83.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [14 <./img/diapkg/client.png>]
+ [15 <./img/diapkg/client.png>]
 Overfull \hbox (4.52126pt too wide) in paragraph at lines 116--117
 []\OT1/cmr/m/it/12 premi/client/header/lib/Header \OT1/cmr/m/n/12 per la ge-sti
 o-ne del-l'hea-der del-la pa-gi-na prin-
  []
 
-<img/diapkg/header.png, id=596, 340.27126pt x 242.40562pt>
+<img/diapkg/header.png, id=718, 340.27126pt x 242.40562pt>
 File: img/diapkg/header.png Graphic file (type png)
 
 <use img/diapkg/header.png>
@@ -784,8 +812,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 135.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [15]
-<img/diapkg/presentation.png, id=602, 349.305pt x 154.32657pt>
+ [16]
+<img/diapkg/presentation.png, id=724, 349.305pt x 154.32657pt>
 File: img/diapkg/presentation.png Graphic file (type png)
 
 <use img/diapkg/presentation.png>
@@ -795,8 +823,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 171.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [16 <./img/diapkg/header.png>]
-<img/diapkg/presentationManager.png, id=609, 560.0925pt x 395.22656pt>
+ [17 <./img/diapkg/header.png>]
+<img/diapkg/presentationManager.png, id=731, 560.0925pt x 395.22656pt>
 File: img/diapkg/presentationManager.png Graphic file (type png)
 
 <use img/diapkg/presentationManager.png>
@@ -811,31 +839,131 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 218.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [17 <./img/diapkg/presentation.png>]
+ [18 <./img/diapkg/presentation.png>]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 236.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [18 <./img/diapkg/presentationManager.png>]
+ [19 <./img/diapkg/presentationManager.png>]
+Overfull \hbox (5.0297pt too wide) in paragraph at lines 259--259
+[]\OT1/cmr/bx/n/12 premi/client/presentationManager/controllers/editPresentatio
+nCtrl 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 266.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [20]
+Overfull \hbox (5.7797pt too wide) in paragraph at lines 271--271
+[]\OT1/cmr/bx/n/12 premi/client/presentationManager/controllers/newPresentation
+Ctrl 
+ []
+
+
+Overfull \hbox (34.22417pt too wide) in paragraph at lines 283--283
+[]\OT1/cmr/bx/n/12 premi/client/presentationManager/controllers/PresentationMan
+agerCtrl 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 299.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [21]
+Overfull \hbox (31.32831pt too wide) in paragraph at lines 301--301
+[]\OT1/cmr/bx/n/12 premi/client/presentationManager/controllers/removePresentat
+ionCtrl 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 315.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [22]
+<img/diapkg/editor.png, id=761, 642.90187pt x 461.47406pt>
+File: img/diapkg/editor.png Graphic file (type png)
+
+<use img/diapkg/editor.png>
+Package pdftex.def Info: img/diapkg/editor.png used on input line 319.
+(pdftex.def)             Requested size: 289.30316pt x 207.66139pt.
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 347.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [23
+
+ <./img/diapkg/editor.png>]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 376.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [24]
+Overfull \hbox (8.92618pt too wide) in paragraph at lines 387--388
+[]\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 esten-de
+ $\OT1/cmtt/m/n/12 Premi / client / editor / gOContainer$
+ []
+
+<img/diapkg/frameEditor.png, id=774, 395.22656pt x 206.27063pt>
+File: img/diapkg/frameEditor.png Graphic file (type png)
+
+<use img/diapkg/frameEditor.png>
+Package pdftex.def Info: img/diapkg/frameEditor.png used on input line 409.
+(pdftex.def)             Requested size: 177.8503pt x 92.8209pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 424.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [25]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 443.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [26 <./img/diapkg/frameEditor.png>]
+<img/diapkg/infographicEditor.png, id=786, 453.19313pt x 208.52907pt>
+File: img/diapkg/infographicEditor.png Graphic file (type png)
+
+<use img/diapkg/infographicEditor.png>
+Package pdftex.def Info: img/diapkg/infographicEditor.png used on input line 44
+7.
+(pdftex.def)             Requested size: 203.93501pt x 93.8372pt.
+
+Overfull \hbox (37.17949pt too wide) in paragraph at lines 456--457
+[]\OT1/cmr/bx/n/12 Descrizione: \OT1/cmr/m/n/12 tem-pla-te del-la par-te di pa-
+gi-na per la crea-zio-ne o mo-di-fi-ca dell'infografica$[]$ 
+ []
+
+
+Overfull \hbox (153.3638pt too wide) in paragraph at lines 471--472
+\OT1/cmr/m/n/12 ge-ne-ra-te da Pre-mi.client.InfographicEditor.views.frame.ng e
+ di Pre-mi.client.InfographicEditor.views.toolbar.ng
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 477.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [27
+
+ <./img/diapkg/infographicEditor.png>]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 271.
+Package pdftex.def Info: ../logo/logo404.png used on input line 522.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [19]
+ [28]) (./documents/attivita.tex
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 311.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [20])
-(./documents/attivita.tex
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [21]
-<img/attivita/Premi.jpg, id=639, 1210.5225pt x 1224.575pt>
+ [29]
+<img/attivita/Premi.jpg, id=803, 1210.5225pt x 1224.575pt>
 File: img/attivita/Premi.jpg Graphic file (type jpg)
 
 <use img/attivita/Premi.jpg>
@@ -846,7 +974,7 @@ Overfull \hbox (46.69255pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
-<img/attivita/ListaPresentazioni.jpg, id=640, 1116.17pt x 1675.25874pt>
+<img/attivita/ListaPresentazioni.jpg, id=804, 1116.17pt x 1675.25874pt>
 File: img/attivita/ListaPresentazioni.jpg Graphic file (type jpg)
 
 <use img/attivita/ListaPresentazioni.jpg>
@@ -857,12 +985,12 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 24.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [22 <./img/attivita/Premi.jpg>]
+ [30 <./img/attivita/Premi.jpg>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 26.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [23 <./img/attivita/ListaPresentazioni.jpg>] <img/attivita/Login.jpg, id=651, 
+ [31 <./img/attivita/ListaPresentazioni.jpg>] <img/attivita/Login.jpg, id=816, 
 477.785pt x 743.77875pt>
 File: img/attivita/Login.jpg Graphic file (type jpg)
 
@@ -873,9 +1001,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 41.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [24
+ [32
 
- <./img/attivita/Login.jpg>] <img/attivita/Registrazione.jpg, id=658, 687.56876
+ <./img/attivita/Login.jpg>] <img/attivita/Registrazione.jpg, id=822, 687.56876
 pt x 944.52875pt>
 File: img/attivita/Registrazione.jpg Graphic file (type jpg)
 
@@ -886,8 +1014,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 54.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [25 <./img/attivita/Registrazione.jpg>]
-<img/attivita/Cambio_password.jpg, id=664, 552.0625pt x 815.045pt>
+ [33 <./img/attivita/Registrazione.jpg>]
+<img/attivita/Cambio_password.jpg, id=828, 552.0625pt x 815.045pt>
 File: img/attivita/Cambio_password.jpg Graphic file (type jpg)
 
 <use img/attivita/Cambio_password.jpg>
@@ -898,8 +1026,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 67.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [26 <./img/attivita/Cambio_password.jpg>]
-<img/attivita/Visualizzatore.jpg, id=670, 626.34pt x 844.15375pt>
+ [34 <./img/attivita/Cambio_password.jpg>]
+<img/attivita/Visualizzatore.jpg, id=834, 626.34pt x 844.15375pt>
 File: img/attivita/Visualizzatore.jpg Graphic file (type jpg)
 
 <use img/attivita/Visualizzatore.jpg>
@@ -910,8 +1038,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 80.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [27 <./img/attivita/Visualizzatore.jpg>]
-<img/attivita/Esegui_presentazione_proprietario.jpg, id=676, 1210.5225pt x 1333
+ [35 <./img/attivita/Visualizzatore.jpg>]
+<img/attivita/Esegui_presentazione_proprietario.jpg, id=841, 1210.5225pt x 1333
 .98375pt>
 File: img/attivita/Esegui_presentazione_proprietario.jpg Graphic file (type jpg
 )
@@ -928,13 +1056,13 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 98.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [28 <./img/attivita/Esegui_presentazione_proprietario.jpg>]
+ [36 <./img/attivita/Esegui_presentazione_proprietario.jpg>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 103.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [29]
-<img/attivita/Esegui_presentazione_non_proprietario.jpg, id=687, 1210.5225pt x 
+ [37]
+<img/attivita/Esegui_presentazione_non_proprietario.jpg, id=853, 1210.5225pt x 
 1296.845pt>
 File: img/attivita/Esegui_presentazione_non_proprietario.jpg Graphic file (type
  jpg)
@@ -951,8 +1079,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 120.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [30 <./img/attivita/Esegui_presentazione_non_proprietario.jpg>]
-<img/attivita/Creazione_presentazione.jpg, id=694, 644.4075pt x 700.6175pt>
+ [38 <./img/attivita/Esegui_presentazione_non_proprietario.jpg>]
+<img/attivita/Creazione_presentazione.jpg, id=859, 644.4075pt x 700.6175pt>
 File: img/attivita/Creazione_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Creazione_presentazione.jpg>
@@ -964,8 +1092,8 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 136.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-[31 <./img/attivita/Creazione_presentazione.jpg>]
-<img/attivita/Modifica_titolo_e_descrizione_presentazione.jpg, id=700, 643.4037
+[39 <./img/attivita/Creazione_presentazione.jpg>]
+<img/attivita/Modifica_titolo_e_descrizione_presentazione.jpg, id=865, 643.4037
 5pt x 700.6175pt>
 File: img/attivita/Modifica_titolo_e_descrizione_presentazione.jpg Graphic file
  (type jpg)
@@ -979,8 +1107,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 148.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [32 <./img/attivita/Modifica_titolo_e_descrizione_presentazione.jpg>]
-<img/attivita/Pubblica_presentazione.jpg, id=707, 883.3pt x 809.0225pt>
+ [40 <./img/attivita/Modifica_titolo_e_descrizione_presentazione.jpg>]
+<img/attivita/Pubblica_presentazione.jpg, id=871, 883.3pt x 809.0225pt>
 File: img/attivita/Pubblica_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Pubblica_presentazione.jpg>
@@ -996,8 +1124,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 161.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [33 <./img/attivita/Pubblica_presentazione.jpg>]
-<img/attivita/Elimina_presentazione.jpg, id=713, 371.3875pt x 568.1225pt>
+ [41 <./img/attivita/Pubblica_presentazione.jpg>]
+<img/attivita/Elimina_presentazione.jpg, id=877, 371.3875pt x 568.1225pt>
 File: img/attivita/Elimina_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Elimina_presentazione.jpg>
@@ -1008,8 +1136,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 174.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [34 <./img/attivita/Elimina_presentazione.jpg>]
-<img/attivita/Esporta_presentazione.jpg, id=719, 627.34375pt x 526.96875pt>
+ [42 <./img/attivita/Elimina_presentazione.jpg>]
+<img/attivita/Esporta_presentazione.jpg, id=884, 627.34375pt x 526.96875pt>
 File: img/attivita/Esporta_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Esporta_presentazione.jpg>
@@ -1020,8 +1148,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 187.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [35 <./img/attivita/Esporta_presentazione.jpg>]
-<img/attivita/Rendi_portable.jpg, id=725, 631.35875pt x 526.96875pt>
+ [43 <./img/attivita/Esporta_presentazione.jpg>]
+<img/attivita/Rendi_portable.jpg, id=890, 631.35875pt x 526.96875pt>
 File: img/attivita/Rendi_portable.jpg Graphic file (type jpg)
 
 <use img/attivita/Rendi_portable.jpg>
@@ -1032,8 +1160,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 200.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [36 <./img/attivita/Rendi_portable.jpg>]
-<img/attivita/Modifica_presentazione.jpg, id=732, 920.43875pt x 921.4425pt>
+ [44 <./img/attivita/Rendi_portable.jpg>]
+<img/attivita/Modifica_presentazione.jpg, id=896, 920.43875pt x 921.4425pt>
 File: img/attivita/Modifica_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Modifica_presentazione.jpg>
@@ -1049,8 +1177,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 214.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [37 <./img/attivita/Modifica_presentazione.jpg>]
-<img/attivita/Editor_frame.jpg, id=738, 658.46pt x 1262.7175pt>
+ [45 <./img/attivita/Modifica_presentazione.jpg>]
+<img/attivita/Editor_frame.jpg, id=902, 658.46pt x 1262.7175pt>
 File: img/attivita/Editor_frame.jpg Graphic file (type jpg)
 
 <use img/attivita/Editor_frame.jpg>
@@ -1060,8 +1188,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 227.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [38 <./img/attivita/Editor_frame.jpg>]
-<img/attivita/Modifica_frame.jpg, id=744, 825.0825pt x 941.5175pt>
+ [46 <./img/attivita/Editor_frame.jpg>]
+<img/attivita/Modifica_frame.jpg, id=908, 825.0825pt x 941.5175pt>
 File: img/attivita/Modifica_frame.jpg Graphic file (type jpg)
 
 <use img/attivita/Modifica_frame.jpg>
@@ -1072,8 +1200,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 246.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [39 <./img/attivita/Modifica_frame.jpg>]
-<img/attivita/Editor_infografica.jpg, id=750, 743.77875pt x 1300.86pt>
+ [47 <./img/attivita/Modifica_frame.jpg>]
+<img/attivita/Editor_infografica.jpg, id=914, 743.77875pt x 1300.86pt>
 File: img/attivita/Editor_infografica.jpg Graphic file (type jpg)
 
 <use img/attivita/Editor_infografica.jpg>
@@ -1084,8 +1212,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 263.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [40 <./img/attivita/Editor_infografica.jpg>]
-<img/attivita/Modifica_infografica.jpg, id=756, 825.0825pt x 941.5175pt>
+ [48 <./img/attivita/Editor_infografica.jpg>]
+<img/attivita/Modifica_infografica.jpg, id=921, 825.0825pt x 941.5175pt>
 File: img/attivita/Modifica_infografica.jpg Graphic file (type jpg)
 
 <use img/attivita/Modifica_infografica.jpg>
@@ -1096,8 +1224,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 282.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [41 <./img/attivita/Modifica_infografica.jpg>]
-<img/attivita/Editor_percorsi.jpg, id=762, 770.88pt x 873.2625pt>
+ [49 <./img/attivita/Modifica_infografica.jpg>]
+<img/attivita/Editor_percorsi.jpg, id=927, 770.88pt x 873.2625pt>
 File: img/attivita/Editor_percorsi.jpg Graphic file (type jpg)
 
 <use img/attivita/Editor_percorsi.jpg>
@@ -1108,8 +1236,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 302.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [42 <./img/attivita/Editor_percorsi.jpg>]
-<img/attivita/Modifica_percorso.jpg, id=769, 414.54875pt x 1144.275pt>
+ [50 <./img/attivita/Editor_percorsi.jpg>]
+<img/attivita/Modifica_percorso.jpg, id=933, 414.54875pt x 1144.275pt>
 File: img/attivita/Modifica_percorso.jpg Graphic file (type jpg)
 
 <use img/attivita/Modifica_percorso.jpg>
@@ -1120,8 +1248,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 315.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [43 <./img/attivita/Modifica_percorso.jpg>]
-<img/attivita/Aggiungi_frame_al_percorso.jpg, id=775, 511.9125pt x 708.6475pt>
+ [51 <./img/attivita/Modifica_percorso.jpg>]
+<img/attivita/Aggiungi_frame_al_percorso.jpg, id=939, 511.9125pt x 708.6475pt>
 File: img/attivita/Aggiungi_frame_al_percorso.jpg Graphic file (type jpg)
 
 <use img/attivita/Aggiungi_frame_al_percorso.jpg>
@@ -1133,8 +1261,8 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 332.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-[44 <./img/attivita/Aggiungi_frame_al_percorso.jpg>]
-<img/attivita/Rimuovi_frame_da_percorso.jpg, id=781, 463.7325pt x 690.58pt>
+[52 <./img/attivita/Aggiungi_frame_al_percorso.jpg>]
+<img/attivita/Rimuovi_frame_da_percorso.jpg, id=946, 463.7325pt x 690.58pt>
 File: img/attivita/Rimuovi_frame_da_percorso.jpg Graphic file (type jpg)
 
 <use img/attivita/Rimuovi_frame_da_percorso.jpg>
@@ -1147,14 +1275,14 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [45 <./img/attivita/Rimuovi_frame_da_percorso.jpg>]) (./documents/tracciam_req
+ [53 <./img/attivita/Rimuovi_frame_da_percorso.jpg>]) (./documents/tracciam_req
 uisiti.tex
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [46]
+ [54]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 []|\OT1/cmr/m/n/12 Premi.-
  []
@@ -2672,23 +2800,23 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [47]
+ [55]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [48]
+ [56]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [49]
+ [57]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [50]
+ [58]
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 []|\OT1/cmr/m/n/12 Premi.-
  []
@@ -3422,18 +3550,18 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [51]
+ [59]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [52]
+ [60]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [53]
+ [61]
 Underfull \hbox (badness 3635) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/12 l'utente de-ve po-ter se-le-
  []
@@ -4262,57 +4390,57 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [54]
+ [62]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [55]
+ [63]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [56]
+ [64]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [57]
+ [65]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [58]
+ [66]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [59]
+ [67]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [60]
+ [68]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [61]
+ [69]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [62]) (./documents/tracciam_componenti.tex
+ [70]) (./documents/tracciam_componenti.tex
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [63]
+ [71]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []|\OT1/cmr/m/n/12 FOb5
  []
@@ -4710,7 +4838,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [64]
+ [72]
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 []|\OT1/cmr/m/n/12 FOb2
  []
@@ -5019,7 +5147,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [65]
+ [73]
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 []|\OT1/cmr/m/n/12 FDe4.6
  []
@@ -5158,35 +5286,36 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 152.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [66]
+ [74]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 152.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [67]
+ [75]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 152.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [68]) (./documents/design_pattern.tex
+ [76]) (./documents/design_pattern.tex
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [69] <img/MVC.jpg, id=912, 552.0625pt x 386.44376pt>
+ [77]
+<img/MVC.jpg, id=1077, 552.0625pt x 386.44376pt>
 File: img/MVC.jpg Graphic file (type jpg)
-
-<use img/MVC.jpg>
+ <use img/MVC.jpg>
 Package pdftex.def Info: img/MVC.jpg used on input line 9.
 (pdftex.def)             Requested size: 220.82108pt x 154.57475pt.
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 32.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [70 <./img/MVC.jpg>]
-<img/MVVM.png, id=918, 436.63126pt x 304.13625pt>
+ [78 <./img/MVC.jpg>]
+<img/MVVM.png, id=1084, 436.63126pt x 304.13625pt>
 File: img/MVVM.png Graphic file (type png)
  <use img/MVVM.png>
 Package pdftex.def Info: img/MVVM.png used on input line 49.
@@ -5196,8 +5325,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 65.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [71 <./img/MVVM.png (PNG copy)>]
-<img/dependency.png, id=924, 352.31625pt x 158.84344pt>
+ [79 <./img/MVVM.png (PNG copy)>]
+<img/dependency.png, id=1090, 352.31625pt x 158.84344pt>
 File: img/dependency.png Graphic file (type png)
 
 <use img/dependency.png>
@@ -5207,8 +5336,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 98.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [72 <./img/dependency.png>]
-<img/Factory.png, id=933, 575.14874pt x 202.7575pt>
+ [80 <./img/dependency.png>]
+<img/Factory.png, id=1097, 575.14874pt x 202.7575pt>
 File: img/Factory.png Graphic file (type png)
  <use img/Factory.png>
 Package pdftex.def Info: img/Factory.png used on input line 113.
@@ -5218,13 +5347,13 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 129.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [73 <./img/Factory.png>]
+ [81 <./img/Factory.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 134.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-[74])
+[82])
 No file SpecificaTecnica_v2.0.bbl.
 
 AED: lastpage setting LastPage
@@ -5234,13 +5363,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `SpecificaTecnica_v2.0.out' has not changed.
-(rerunfilecheck)             Checksum: A7904E0EF0FF30CCE423B9B12D46F1D6;6366.
+(rerunfilecheck)             Checksum: B504A0006559571F92E9588651C1F389;8601.
  ) 
 Here is how much of TeX's memory you used:
- 11110 strings out of 494976
- 166781 string characters out of 6180006
- 288190 words of memory out of 5000000
- 13916 multiletter control sequences out of 15000+600000
+ 11180 strings out of 494976
+ 168155 string characters out of 6180006
+ 288192 words of memory out of 5000000
+ 13950 multiletter control sequences out of 15000+600000
  9730 words of font info for 34 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  43i,16n,47p,1244b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -5251,10 +5380,10 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmtt12.pfb>
-Output written on SpecificaTecnica_v2.0.pdf (75 pages, 2140768 bytes).
+Output written on SpecificaTecnica_v2.0.pdf (83 pages, 2270134 bytes).
 PDF statistics:
- 1018 PDF objects out of 1200 (max. 8388607)
- 880 compressed objects within 9 object streams
- 199 named destinations out of 1000 (max. 500000)
- 845 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1191 PDF objects out of 1200 (max. 8388607)
+ 1037 compressed objects within 11 object streams
+ 232 named destinations out of 1000 (max. 500000)
+ 1036 words of extra memory for PDF output out of 10000 (max. 10000000)
 
