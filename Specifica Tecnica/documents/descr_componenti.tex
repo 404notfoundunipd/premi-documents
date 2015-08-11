@@ -256,6 +256,72 @@
   \item[] \textbf{Relazioni con altri componenti:} la view generata da questo template è collegata allo \textit{\$scope} di premi/client/presentationManager/controllers/removePresentationCtrl per rimuovere una presentazione dal database
 \end{itemize}
 
+\subsection{Premi/client/frameEditor}
+\subsubsection{Premi/client/frameEditor/views/frame.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} frame.ng
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/frameEditor/views
+  \item[] \textbf{Descrizione:} template della parte di pagina che permette la modifica dei Frame$_G$ e degli oggetti in esso contenuti.
+\end{itemize}
+\subsubsection{Premi/client/frameEditor/views/toolbar.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} toolbar.ng
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/frameEditor/views
+  \item[] \textbf{Descrizione:} template della parte di pagina che mostra la toolbar che contiene tutte le funzionalità disponibili per la modifica di un frame e degli oggetti in esso contenuti.
+\end{itemize}
+\subsubsection{Premi/client/frameEditor/controllers/frameEditorCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} FrameEditorCtrl
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/frameEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/frameEditor/views/toolbar.ng e di premi/client/frameEditor/views/frame.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con le views generate da premi/client/frameEditor/views/toolbar.ng e premi/client/frameEditor/views/frame.ng dipende anche da:
+ \begin{itemize} 
+	\item \textit{Premi/client/presentation/lib/databaseAPI} per interagire con il database;  
+	\item \textit{Premi/client/editor/lib/interactInit} per interagire con la libreria Interactjs;
+	\item \textit{Premi/client/editor/lib/frame} per interagire con la libreria frame e usare i metodi per la modifica, aggiunta, cancellazione di un frame;
+	\item \textit{Premi/client/editor/lib/Observer} per interagire con la libreria observer; 
+	\item \textit{Premi/presentation/lib/orderedGOList} per interagire con la libreria orderedGOList per ordinare la lista dei frame. 
+  \end{itemize} 
+\end{itemize}
+
+\clearpage
+\subsection{Premi/client/InfographicEditor}
+
+\subsubsection{Premi/client/infographicEditor/views/infographic.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} infographic.ng
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/infographicEditor/views
+  \item[] \textbf{Descrizione:}  template della parte di pagina per la creazione o modifica dell'infografica$_G$
+\end{itemize}
+\subsubsection{Premi/client/infographicEditor/views/frameList.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} frameList.ng
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi.client.InfographicEditor.views
+  \item[] \textbf{Descrizione:} template della parte di pagina che mostra la lista dei frame creati che possono essere inseriti nell'infografica.
+\end{itemize}
+\subsubsection{Premi/client/infographicEditor/controllers/infographicEditorCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} infographicEditorCtrl
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/infographicEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/infographicEditor/views/frameList.ng e premi/client/infographicEditor/views/infographic.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con le views generate da Premi.client.InfographicEditor.views.frame.ng e di Premi.client.InfographicEditor.views.toolbar.ng e dipende da: 
+  \begin{itemize}  
+  \item[] \textit{Premi/client/presentation/lib/databaseAPI} per interagire con il database;
+  \item[] \textit{Premi/client/editor/lib/interactInit} per interagire con la libreria interactjs;
+  \item[] \textit{Premi/client/editor/lib/infographic} per interagire con la libreria infografica e usare i metodi per la gestione dell'infografica;
+  \item[] \textit{Premi/client/editor/lib/observer} per interagire con la libreria observer;
+  \item[] \textit{Premi/presentation/lib/orderedGOList} per interagire con la libreria orderedGOList per ordinare la lista dei frame. 
+  \end{itemize}
+\end{itemize}
+
+
+
 \subsubsection{premi/client}
 \begin{itemize}
   \item[] \textbf{Nome:}
