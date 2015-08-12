@@ -8,15 +8,16 @@
 \BOOKMARK [1][-]{section.2}{Standard di Progetto}{}% 8
 \BOOKMARK [1][-]{section.3}{Specifica componenti}{}% 9
 \BOOKMARK [2][-]{subsection.3.1}{premi/server}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.2}{premi/client}{section.3}% 11
-\BOOKMARK [2][-]{subsection.3.3}{premi/client/header}{section.3}% 12
-\BOOKMARK [2][-]{subsection.3.4}{premi/client/presentation}{section.3}% 13
-\BOOKMARK [2][-]{subsection.3.5}{premi/client/presentationManager}{section.3}% 14
-\BOOKMARK [2][-]{subsection.3.6}{premi/client/editor}{section.3}% 15
-\BOOKMARK [2][-]{subsection.3.7}{premi/client/frameEditor}{section.3}% 16
-\BOOKMARK [2][-]{subsection.3.8}{premi/client/infographicEditor}{section.3}% 17
-\BOOKMARK [2][-]{subsection.3.9}{premi/client/trailsEditor}{section.3}% 18
-\BOOKMARK [2][-]{subsection.3.10}{premi/client/userManager}{section.3}% 19
-\BOOKMARK [2][-]{subsection.3.11}{premi/client/viewer}{section.3}% 20
-\BOOKMARK [1][-]{section.4}{Tracciamento}{}% 21
-\BOOKMARK [1][-]{section.5}{Diagrammi di Sequenza}{}% 22
+\BOOKMARK [3][-]{subsubsection.3.1.1}{premi/client/}{subsection.3.1}% 11
+\BOOKMARK [2][-]{subsection.3.2}{premi/client}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{premi/client/header}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{premi/client/presentation}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.5}{premi/client/presentationManager}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.6}{premi/client/editor}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.7}{premi/client/frameEditor}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.8}{premi/client/infographicEditor}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.9}{premi/client/trailsEditor}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.10}{premi/client/userManager}{section.3}% 20
+\BOOKMARK [2][-]{subsection.3.11}{premi/client/viewer}{section.3}% 21
+\BOOKMARK [1][-]{section.4}{Tracciamento}{}% 22
+\BOOKMARK [1][-]{section.5}{Diagrammi di Sequenza}{}% 23
