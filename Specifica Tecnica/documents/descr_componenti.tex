@@ -1,13 +1,4 @@
 \section{Descrizione dei singoli componenti}
-\subsubsection{premi/client}
-\begin{itemize}
-  \item[] \textbf{Nome:}
-  \item[] \textbf{Tipo:}
-  \item[] \textbf{Package:} 
-  \item[] \textbf{Descrizione:} 
-  \item[] \textbf{Relazioni con altri componenti:} 
-\end{itemize}
-
 
 \subsection{premi/server}
 \begin{figure}[h]
@@ -85,6 +76,13 @@
   \item[] \textbf{Descrizione:} template "contenitore" di supporto ad altre viste
 \end{itemize}
 
+\subsubsection{premi/client/views/header.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} header.ng
+  \item[] \textbf{Tipo:} template
+  \item[] \textbf{Package:} premi/client/views
+  \item[] \textbf{Descrizione:} template dell'header della pagina principale dell'applicazione
+\end{itemize}
 
 \subsubsection{premi/client/controllers/homeCtrl}
 \begin{itemize}
@@ -116,48 +114,6 @@
  \item \textit{premi/client/header/lib/Header} per la gestione dell'header della pagina principale
  \end{itemize}
 \end{itemize}
-
-
-
-\subsection{premi/client/header}
-
-\begin{figure}[h]
-\begin{center}
-\includegraphics[scale=0.45]{img/diapkg/header.png}
-\caption{Diagramma del package premi/client/header}
-\end{center}
-\end{figure}
-
-\subsubsection{premi/client/header/views/header.ng}
-\begin{itemize}
-  \item[] \textbf{Nome:} header.ng
-  \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} premi/client/header/views
-  \item[] \textbf{Descrizione:} template dell'header della pagina principale dell'applicazione
-  \item[] \textbf{Relazioni con altri componenti:} a view generata da questo template è collegata allo \textit{\$scope} di premi/client/header/controllers/headerCtrl per l'aggiornamento in tempo reale dell'header
-\end{itemize}
-
-
-\subsubsection{premi/client/header/controllers/headerCtrl}
-\begin{itemize}
-  \item[] \textbf{Nome:} headerCtrl
-  \item[] \textbf{Tipo:} controller
-  \item[] \textbf{Package:} premi/client/header/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/header/views/header.ng
-  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/header/views/header.ng e dipende anche da:
- \begin{itemize}
- \item \textit{premi/client/header/lib/Header} per la creazione dell'header della pagina principale
- \end{itemize}
-\end{itemize}
-
-
-\subsubsection{premi/client/header/lib/Header}
-\begin{itemize}
-  \item[] \textbf{Nome:} Header
-  \item[] \textbf{Tipo:} class
-  \item[] \textbf{Package:} premi/client/header/lib
-  \item[] \textbf{Descrizione:} classe dell'header della pagina principale di Premi. Fornisce dei metodi per gestire la propria visualizzazione e per quella dello username, dello stato dell'applicazione e della barra di navigazione
-\end{itemize} 
 
 \subsection{premi/client/userManager}
 \begin{figure}[h]
