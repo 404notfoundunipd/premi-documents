@@ -159,8 +159,87 @@
   \item[] \textbf{Descrizione:} classe dell'header della pagina principale di Premi. Fornisce dei metodi per gestire la propria visualizzazione e per quella dello username, dello stato dell'applicazione e della barra di navigazione
 \end{itemize} 
 
+\subsection{premi/client/userManager}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/userManager.png}
+\caption{Diagramma del package premi/client/userManager}
+\end{center}
+\end{figure}
 
+\subsubsection{premi/client/userManager/views/signin.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} signin.ng
+  \item[] \textbf{Tipo:} template
+  \item[] \textbf{Package:} premi/client/userManager/views
+  \item[] \textbf{Descrizione:} template dell'userManager per effettuare il login utente.
+  \item[] \textbf{Relazioni con altri componenti:} la view generata da questo template è collegata allo \textit{\$scope} di premi/client/userManager/controllers/signinCtrl per effettuare il login utente.
+\end{itemize}
 
+\subsubsection{premi/client/userManager/views/signup.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} signup.ng
+  \item[] \textbf{Tipo:} template
+  \item[] \textbf{Package:} premi/client/userManager/views
+  \item[] \textbf{Descrizione:} template dell'userManager per effettuare la registrazione dell' utente.
+  \item[] \textbf{Relazioni con altri componenti:} la view generata da questo template è collegata allo \textit{\$scope} di premi/client/userManager/controllers/signupCtrl per effettuare la registrazione utente.
+\end{itemize}
+
+\subsubsection{premi/client/userManager/views/changePassword.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} changePassword.ng
+  \item[] \textbf{Tipo:} template
+  \item[] \textbf{Package:} premi/client/userManager/views
+  \item[] \textbf{Descrizione:} template dell'userManager per effettuare il cambio password.
+  \item[] \textbf{Relazioni con altri componenti:} la view generata da questo template è collegata allo \textit{\$scope} di premi/client/userManager/controllers/changePasswordCtrl per effettuare il cambio password.
+\end{itemize}
+
+\subsubsection{premi/client/userManager/views/user.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} user.ng
+  \item[] \textbf{Tipo:} template
+  \item[] \textbf{Package:} premi/client/userManager/views
+  \item[] \textbf{Descrizione:} template principale dell'userManager che serve a contenere altre view.
+  \item[] \textbf{Relazioni con altri componenti:} la view generata da questo template è collegata allo \textit{\$scope} di premi/client/userManager/controllers/userCtrl per eseguire gli altri controller.
+\end{itemize}
+
+\subsubsection{premi/client/userManager/controllers/signinCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} signinCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/userManager/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/userManager/views/signin.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/userManager/views/signin.ng
+\end{itemize}
+
+\subsubsection{premi/client/userManager/controllers/signupCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} signupCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/userManager/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/userManager/views/signup.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/userManager/views/signup.ng e dipende da:
+  \begin{itemize}
+   \item \textit{premi/client/presentation/lib/databaseAPI} per interagire con il database e salvare l'utente registrato.
+  \end{itemize}
+\end{itemize}
+
+\subsubsection{premi/client/userManager/controllers/signoutCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} signoutCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/userManager/controllers
+  \item[] \textbf{Descrizione:} permette ad un utente loggato di effettuare il logout.
+\end{itemize}
+
+\subsubsection{premi/client/userManager/controllers/userManagerCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} userManagerCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/userManager/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/userManager/views/user.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/userManager/views/user.ng
+\end{itemize}
 
 \subsection{premi/client/presentation}
 \begin{figure}[!h]
@@ -413,21 +492,21 @@
 \subsubsection{Premi/client/frameEditor/views/frame.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} frame.ng
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} template
   \item[] \textbf{Package:} Premi/client/frameEditor/views
   \item[] \textbf{Descrizione:} template della parte di pagina che permette la modifica dei Frame$_G$ e degli oggetti in esso contenuti.
 \end{itemize}
 \subsubsection{Premi/client/frameEditor/views/toolbar.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} toolbar.ng
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} template
   \item[] \textbf{Package:} Premi/client/frameEditor/views
   \item[] \textbf{Descrizione:} template della parte di pagina che mostra la toolbar che contiene tutte le funzionalità disponibili per la modifica di un frame e degli oggetti in esso contenuti.
 \end{itemize}
 \subsubsection{Premi/client/frameEditor/controllers/frameEditorCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} FrameEditorCtrl
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} Premi/client/frameEditor/controllers
   \item[] \textbf{Descrizione:} controller di premi/client/frameEditor/views/toolbar.ng e di premi/client/frameEditor/views/frame.ng
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con le views generate da premi/client/frameEditor/views/toolbar.ng e premi/client/frameEditor/views/frame.ng dipende anche da:
@@ -451,21 +530,21 @@
 \subsubsection{Premi/client/infographicEditor/views/infographic.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} infographic.ng
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} template
   \item[] \textbf{Package:} Premi/client/infographicEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per la creazione o modifica dell'infografica$_G$
 \end{itemize}
 \subsubsection{Premi/client/infographicEditor/views/frameList.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} frameList.ng
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} template
   \item[] \textbf{Package:} Premi.client.InfographicEditor.views
   \item[] \textbf{Descrizione:} template della parte di pagina che mostra la lista dei frame creati che possono essere inseriti nell'infografica.
 \end{itemize}
 \subsubsection{Premi/client/infographicEditor/controllers/infographicEditorCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} infographicEditorCtrl
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} Premi/client/infographicEditor/controllers
   \item[] \textbf{Descrizione:} controller di premi/client/infographicEditor/views/frameList.ng e premi/client/infographicEditor/views/infographic.ng
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con le views generate da Premi.client.InfographicEditor.views.frame.ng e di Premi.client.InfographicEditor.views.toolbar.ng e dipende da: 
@@ -488,56 +567,56 @@
 \subsubsection{Premi/client/trailsEditor/views/basicToolbar.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} basicToolbar.ng
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} template
   \item[] \textbf{Package:} Premi/client/trailsEditor/views
   \item[] \textbf{Descrizione:} template della parte di pagina che mostra la toolbar che contiene tutte le funzionalità disponibili per la modifica di un trail$_G$
 \end{itemize}
 \subsubsection{Premi/client/trailsEditor/views/editTrail.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} editTrail.ng
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} template
   \item[] \textbf{Package:} Premi/client/trailsEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per la modifica del titolo di un trail$_G$
 \end{itemize}
 \subsubsection{Premi/client/trailsEditor/views/listTrail.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} listTrail.ng
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} template
   \item[] \textbf{Package:} Premi/client/trailsEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per la visualizzazione della lista dei trail$_G$ esistenti
 \end{itemize}
 \subsubsection{Premi/client/trailsEditor/views/modTrail.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} modTrail.ng
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} template
   \item[] \textbf{Package:} Premi/client/trailsEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per la modifica di un trail$_G$
 \end{itemize}
 \subsubsection{Premi/client/trailsEditor/views/newTrail.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} newTrail.ng
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} template
   \item[] \textbf{Package:} Premi/client/trailsEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per l'aggiunta un nuovo trail$_G$
 \end{itemize}
 \subsubsection{Premi/client/trailsEditor/views/removeTrail.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} removeTrail.ng
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} template
   \item[] \textbf{Package:} Premi/client/trailsEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per la rimozione di un trail$_G$
 \end{itemize}
 \subsubsection{Premi/client/trailsEditor/controllers/basicToolbarCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} basicToolbarCtrl
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
   \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/basicToolbar.ng   
 \end{itemize}
 \subsubsection{Premi/client/trailsEditor/controllers/editTrailCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} editTrailCtrl
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
   \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/editTrail.ng
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/editTrail.ng e dipende da:   
@@ -548,7 +627,7 @@
 \subsubsection{Premi/client/trailsEditor/controllers/listTrailCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} listTrailCtrl
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
   \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/listTrail.ng
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/listTrail.ng
@@ -556,7 +635,7 @@
 \subsubsection{Premi/client/trailsEditor/controllers/modTrailCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} modTrailCtrl
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
   \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/modTrail.ng
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/modTrail.ng e dipende da:
@@ -567,7 +646,7 @@
 \subsubsection{Premi/client/trailsEditor/controllers/newTrailCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} newTrailCtrl
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
   \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/newTrail.ng
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/newTrail.ng e dipende da:
@@ -578,7 +657,7 @@
 \subsubsection{Premi/client/trailsEditor/controllers/removeTrailCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} removeTrailCtrl
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
   \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/removeTrail.ng
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/removeTrail.ng e dipende da:
@@ -589,77 +668,50 @@
 \subsubsection{Premi/client/trailsEditor/controllers/trailsCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} trailsCtrl
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
   \item[] \textbf{Descrizione:} controller generale che gestisce le view di Premi/client/trailsEditor/views
 \end{itemize}
 
-
-
-\subsubsection{premi/client}
+\subsection{Premi/client/viewer}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/viewer.png}
+\caption{Diagramma del package premi/client/viewer}
+\end{center}
+\end{figure}
+\subsubsection{Premi/client/viewer/views/trails.ng}
 \begin{itemize}
-  \item[] \textbf{Nome:}
-  \item[] \textbf{Tipo:}
-  \item[] \textbf{Package:} 
-  \item[] \textbf{Descrizione:} 
-  \item[] \textbf{Relazioni con altri componenti:} 
+  \item[] \textbf{Nome:} trails.ng
+  \item[] \textbf{Tipo:} template
+  \item[] \textbf{Package:} Premi/client/viewer/views
+  \item[] \textbf{Descrizione:} template del viewer che permette di visualizzare i trail disponibili per la scelta del percorso da visualizzare
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/viewer/views/trails.ng
 \end{itemize}
-
-\subsubsection{premi/client}
+\subsubsection{Premi/client/viewer/views/viewer.ng}
 \begin{itemize}
-  \item[] \textbf{Nome:}
-  \item[] \textbf{Tipo:}
-  \item[] \textbf{Package:} 
-  \item[] \textbf{Descrizione:} 
-  \item[] \textbf{Relazioni con altri componenti:} 
+  \item[] \textbf{Nome:} viewer.ng
+  \item[] \textbf{Tipo:} template
+  \item[] \textbf{Package:} Premi/client/viewer/views
+  \item[] \textbf{Descrizione:} template del viewer che permette di visualizzare la presentazione.
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/viewer/views/viewer.ng
 \end{itemize}
-
-\subsubsection{premi/client}
+\subsubsection{premi/client/viewer/controllers/trailsCtrl}
 \begin{itemize}
-  \item[] \textbf{Nome:}
-  \item[] \textbf{Tipo:}
-  \item[] \textbf{Package:} 
-  \item[] \textbf{Descrizione:} 
-  \item[] \textbf{Relazioni con altri componenti:} 
+  \item[] \textbf{Nome:} trailsCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/viewer/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/viewer/views/trails.ng per fornire le funzionalità per la visualizzazione dei trails
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/viewer/views/trails.ng
 \end{itemize}
-
-\subsubsection{premi/client}
+\subsubsection{premi/client/viewer/controllers/viewerCtrl}
 \begin{itemize}
-  \item[] \textbf{Nome:}
-  \item[] \textbf{Tipo:}
-  \item[] \textbf{Package:} 
-  \item[] \textbf{Descrizione:} 
-  \item[] \textbf{Relazioni con altri componenti:} 
+  \item[] \textbf{Nome:} viewerCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/viewer/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/userManager/views/viewer.ng fornisce le funzionalità per la visualizzazione della presentazione
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/viewer/views/viewer.ng per visualizzare la presentazione
 \end{itemize}
-
-\subsubsection{premi/client}
-\begin{itemize}
-  \item[] \textbf{Nome:}
-  \item[] \textbf{Tipo:}
-  \item[] \textbf{Package:} 
-  \item[] \textbf{Descrizione:} 
-  \item[] \textbf{Relazioni con altri componenti:} 
-\end{itemize}
-
-\subsubsection{premi/client}
-\begin{itemize}
-  \item[] \textbf{Nome:}
-  \item[] \textbf{Tipo:}
-  \item[] \textbf{Package:} 
-  \item[] \textbf{Descrizione:} 
-  \item[] \textbf{Relazioni con altri componenti:} 
-\end{itemize}
-
-\subsubsection{premi/client}
-\begin{itemize}
-  \item[] \textbf{Nome:}
-  \item[] \textbf{Tipo:}
-  \item[] \textbf{Package:} 
-  \item[] \textbf{Descrizione:} 
-  \item[] \textbf{Relazioni con altri componenti:} 
-\end{itemize}
-
-
 
 
 
