@@ -551,15 +551,17 @@
 				\begin{itemize}
 				
 					\item \texttt{idGO : String			} \hfill \\
-					Codice identificativo del Frame da modificare
+					Codice identificativo dell'oggetto grafico da modificare
+					\item \texttt{update : Collection			} \hfill \\
+					Collezione di dati modificati dell'oggetto grafico
+					\item \texttt{idFrame :  String		} \hfill \\
+					Codice identificativo del Frame che contiene l'oggetto grafico
 					
 				\end{itemize}
 			% -- note aggiuntive sul metodo -- %
 			\item[Note] \hfill \\
 			\begin{itemize}
-					\item Deve essere esplicitamente marcato come costante (?)
-					\item Deve possedere qualche caratteristica
-					\item Metodo ridefinito
+					\item Dev'essere inserito nel servizio \texttt{\$meteor} attraverso il comando Meteor.methods
 				\end{itemize}
 		\end{description}
 	\end{description}
@@ -567,24 +569,362 @@
 	
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\texttt{+ void operation0()			}] \hfill \\
-			Descrizione del metodo
+		\item[\texttt{+ insertGOContentFrame(GO : Collection, idFrame : String) : void			}] \hfill \\
+			Inserisce un oggetto grafico all'interno di un frame
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \texttt{nomeArgomento : tipoArgomento			} \hfill \\
-					Descrizione argomento
+					\item \texttt{GO : Collection			} \hfill \\
+					Oggetto grafico convertito in JSON
+					\item \texttt{idFrame : String		} \hfill \\
+					Codice identificativo del frame in cui inserire l'oggetto grafico
+					
 					
 				\end{itemize}
 			% -- note aggiuntive sul metodo -- %
 			\item[Note] \hfill \\
 			\begin{itemize}
-					\item Deve essere esplicitamente marcato come costante (?)
-					\item Deve possedere qualche caratteristica
-					\item Metodo ridefinito
+					\item Dev'essere inserito nel servizio \texttt{\$meteor} attraverso il comando Meteor.methods
+					\item Ogni oggetto grafico possiede dei metodi per la conversione in JSON. Quest'operazione va sempre effettuata dal client
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ removeGOContentFrame(idGO : String, idFrame : String) : void			}] \hfill \\
+			Rimuove un oggetto grafico dal frame che lo contiene
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{idGO : String		} \hfill \\
+					Codice identificativo dell'oggetto grafico
+					\item \texttt{idFrame : String		} \hfill \\
+					Codice identificativo del frame che contiene l'oggetto grafico
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito nel servizio \texttt{\$meteor} attraverso il comando Meteor.methods
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ updateGOContentInfographic(idGO : String, update : Collection, idInf : String) : void			}] \hfill \\
+			Aggiorna un oggetto grafico contenuto all'interno di un'infografica
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{idGO :  String			} \hfill \\
+					Codice identificativo dell'oggetto grafico
+					\item \texttt{update : Collection			} \hfill \\
+					Collezione di dati dell'oggetto grafico modificati dall'utente
+					\item \texttt{idInf :  String			} \hfill \\
+					Codice identificativo dell'infografica
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito nel servizio \texttt{\$meteor} attraverso il comando Meteor.methods
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ insertGOContentInfographic(GO : Collection, idInf : String) : void			}] \hfill \\
+			Inserisce un oggetto grafico all'interno di un'infografica
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{GO : Collection			} \hfill \\
+					Oggetto grafico convertito in JSON
+					\item \texttt{idInf :  String			} \hfill \\
+					Codice identificativo dell'infografica
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito nel servizio \texttt{\$meteor} attraverso il comando Meteor.methods
+					\item Ogni oggetto grafico possiede dei metodi per la conversione in JSON. Quest'operazione va sempre effettuata dal client
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ removeGOContentInfographic(idGO : String, idInf : String) : void			}] \hfill \\
+			Rimuove un oggetto grafico da un'infografica
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{idGO : String			} \hfill \\
+					Codice identificativo dell'oggetto grafico
+					\item \texttt{idInf : String			} \hfill \\
+					Codice identificativo dell'infografica
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito nel servizio \texttt{\$meteor} attraverso il comando Meteor.methods
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ insertFrameInfographic(idFrame : String, idInf : String) : void			}] \hfill \\
+			Inserisce un frame all'interno di un'infografica
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{idFrame : String			} \hfill \\
+					Codice identificativo del frame
+					\item \texttt{idInf : String			} \hfill \\
+					Codice identificativo dell'infografica
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito nel servizio \texttt{\$meteor} attraverso il comando Meteor.methods
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ removeFrameInfographics(idFrame : String, idInf : String) : void			}] \hfill \\
+			Rimuove un frame da un'infografica
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{idFrame : String			} \hfill \\
+					Codice identificativo del frame
+					\item \texttt{idInf : String			} \hfill \\
+					Codice identificativo dell'infografica
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito nel servizio \texttt{\$meteor} attraverso il comando Meteor.methods
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ checkUsername(username : String) : boolean			}] \hfill \\
+			Verifica che l'username ricevuto sia presente tra quelli registrati nel database.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{username : String			} \hfill \\
+					Il codice identificativo dell'username da verificare
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito nel servizio \texttt{\$meteor} attraverso il comando Meteor.methods
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ getInfographicByPresId(id : String) : Collection			}] \hfill \\
+			Pubblica una lista di infografiche associate ad una presentazione
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{id : String			} \hfill \\
+					Il codice identificativo della presentazione associata alle infografiche
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \texttt{publishfunction} in Meteor.publish
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ getFramesByPresId(id : String) : Collection			}] \hfill \\
+			Pubblica una lista di frames associati ad una presentazione
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{id : String			} \hfill \\
+					Il codice identificativo della presentazione associata ai frame
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \texttt{publishfunction} in Meteor.publish
+					\item La presentazione deve appartenere all'utente che ha effettuato la richiesta
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ getInfographicFrames(presid : String) : Collection			}] \hfill \\
+			Pubblica una lista di tutti i frames delle infografiche di una presentazione
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{presid : String			} \hfill \\
+					Il codice identificativo della presentazione associata alle infografiche
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \texttt{publishfunction} in Meteor.publish
+					\item La presentazione deve appartenere all'utente che ne ha effettuato la richiesta
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ getTrailsByPresId(id : String) : Collection			}] \hfill \\
+			Pubblica una lista di trails associati ad una presentazione
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{id : String			} \hfill \\
+					Il codice identificativo della presentazione associata ai trails
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \texttt{publishfunction} in Meteor.publish
+					\item La presentazione deve appartenere all'utente che ne ha effettuato la richiesta
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ getPresentationsById(id : String) : Collection			}] \hfill \\
+			Pubblica una presentazione all'utente
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{id : String			} \hfill \\
+					Il codice identificativo della presentazione
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \texttt{publishfunction} in Meteor.publish
+					\item La presentazione deve appartenere all'utente che ne ha effettuato la richiesta
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ getPresentations() : Collection			}] \hfill \\
+			Pubblica una lista di tutte le presentazioni che l'utente possiede
+			
+		\begin{description}
+			
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \texttt{publishfunction} in Meteor.publish
+					\item Le presentazioni devono appartenere all'utente che ne ha effettuato la richiesta
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\texttt{+ getTrailsById(id : String) : Collection			}] \hfill \\
+			Pubblica un trail all'utente che ne ha effettuato la richiesta
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \texttt{id : String			} \hfill \\
+					Il codice identificativo del trail da pubblicare
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \texttt{publishfunction} in Meteor.publish
+					\item Il trail deve appartenere all'utente che ne ha effettuato la richiesta
 				\end{itemize}
 		\end{description}
 	\end{description}
