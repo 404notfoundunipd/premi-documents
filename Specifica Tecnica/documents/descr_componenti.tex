@@ -355,24 +355,35 @@
 \caption{Diagramma del package premi/client/editor}
 \end{center}
 \end{figure}
-\subsubsection{Premi/client/editor/lib/gObject}
+\subsubsection{Premi/client/editor/lib/GObject}
 \begin{itemize}
-  \item[] \textbf{Nome:} gObject
+  \item[] \textbf{Nome:} GObject
   \item[] \textbf{Tipo:} \textit{abstract class}
   \item[] \textbf{Package:} Premi/client/editor/lib
   \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici nella presentazione
 \end{itemize}
-\subsubsection{Premi/client/editor/lib/gOContainer}
+\subsubsection{Premi/client/editor/lib/GOProvider}
 \begin{itemize}
-  \item[] \textbf{Nome:} GOContainer
-  \item[] \textbf{Tipo:} \textit{abstract class}
-  \item[] \textbf{Package:} Premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici che possono essere contenuti in un frame 
+  \item[] \textbf{Nome:} GOProvider;
+  \item[] \textbf{Tipo:} class;
+  \item[] \textbf{Package:} Premi/client/editor/lib;
+  \item[] \textbf{Descrizione:} permette di interfacciarsi con gli oggetti image, text, shape accedendo ai loro metodi pubblici;
+  \item[] \textbf{Relazioni con altri componenti:} GOProvider dipende da:
+  \begin{itemize}
+  	\item \textit{Premi/client/editor/lib/text} per accedere ai metodi di text;
+  	\item \textit{Premi/client/editor/lib/image} per accedere ai metodi di image;
+  	\item \textit{Premi/client/editor/lib/shape} per accedere ai metodi di shape.
+  \end{itemize}
+\end{itemize}
+\subsubsection{Premi/client/editor/lib/GOContainer}
+\begin{itemize}
+  \item[] \textbf{Nome:} GOContainer;
+  \item[] \textbf{Tipo:} \textit{abstract class};
+  \item[] \textbf{Package:} Premi/client/editor/lib;
+  \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici che possono essere contenuti in un frame; 
   \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gObject} e dipende anche da:
   \begin{itemize} 
-	\item \textit{Premi/client/editor/lib/image} per interagire con gli oggetti di tipo image;
-	\item \textit{Premi/client/editor/lib/text} per interagire con gli oggetti di tipo testo;
-	\item \textit{Premi/client/editor/lib/shape} per interagire con gli oggetti di tipo shape;
+	\item \textit{Premi/client/editor/lib/GOProvider} per accedere ai metodi pubblici degli oggetti image, text e shape.
 \end{itemize}  
 \end{itemize}
 \subsubsection{Premi/client/editor/lib/text}
