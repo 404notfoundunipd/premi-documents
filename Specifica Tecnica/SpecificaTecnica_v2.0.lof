@@ -1,39 +1,40 @@
 \select@language {italian}
-\select@language {italian}
 \contentsline {figure}{\numberline {1}{\ignorespaces Schema archittetura\relax }}{10}{figure.caption.5}
 \contentsline {figure}{\numberline {2}{\ignorespaces Diagramma dei package di Premi.\relax }}{12}{figure.caption.6}
 \contentsline {figure}{\numberline {3}{\ignorespaces Diagramma del package premi/server\relax }}{14}{figure.caption.7}
-\contentsline {figure}{\numberline {4}{\ignorespaces Diagramma dei package views e controllers di premi\relax }}{15}{figure.caption.8}
-\contentsline {figure}{\numberline {5}{\ignorespaces Diagramma del package premi/client/header\relax }}{17}{figure.caption.9}
-\contentsline {figure}{\numberline {6}{\ignorespaces Diagramma del package premi/client/presentation\relax }}{18}{figure.caption.10}
-\contentsline {figure}{\numberline {7}{\ignorespaces Diagramma del package premi/client/presentation\relax }}{19}{figure.caption.11}
-\contentsline {figure}{\numberline {8}{\ignorespaces Diagramma del package premi/client/editor\relax }}{23}{figure.caption.12}
-\contentsline {figure}{\numberline {9}{\ignorespaces Diagramma del package premi/client/frameEditor\relax }}{26}{figure.caption.13}
-\contentsline {figure}{\numberline {10}{\ignorespaces Diagramma del package premi/client/infographicEditor\relax }}{27}{figure.caption.14}
-\contentsline {figure}{\numberline {11}{\ignorespaces Attivit\IeC {\`a} principali\relax }}{30}{figure.caption.15}
-\contentsline {figure}{\numberline {12}{\ignorespaces Lista presentazioni\relax }}{31}{figure.caption.16}
-\contentsline {figure}{\numberline {13}{\ignorespaces Login utente\relax }}{32}{figure.caption.17}
-\contentsline {figure}{\numberline {14}{\ignorespaces Registrazione utente\relax }}{33}{figure.caption.18}
-\contentsline {figure}{\numberline {15}{\ignorespaces Cambio password\relax }}{34}{figure.caption.19}
-\contentsline {figure}{\numberline {16}{\ignorespaces Visualizzatore\relax }}{35}{figure.caption.20}
-\contentsline {figure}{\numberline {17}{\ignorespaces Esegui presentazione proprietario\relax }}{36}{figure.caption.21}
-\contentsline {figure}{\numberline {18}{\ignorespaces Esegui presentazione non proprietario\relax }}{38}{figure.caption.22}
-\contentsline {figure}{\numberline {19}{\ignorespaces Creazione presentazione\relax }}{39}{figure.caption.23}
-\contentsline {figure}{\numberline {20}{\ignorespaces Modifica titolo e descrizione della presentazione\relax }}{40}{figure.caption.24}
-\contentsline {figure}{\numberline {21}{\ignorespaces Pubblicazione presentazione\relax }}{41}{figure.caption.25}
-\contentsline {figure}{\numberline {22}{\ignorespaces Elimina presentazione\relax }}{42}{figure.caption.26}
-\contentsline {figure}{\numberline {23}{\ignorespaces Esportazione presentazione\relax }}{43}{figure.caption.27}
-\contentsline {figure}{\numberline {24}{\ignorespaces Rendi portable\relax }}{44}{figure.caption.28}
-\contentsline {figure}{\numberline {25}{\ignorespaces Modifica presentazione\relax }}{45}{figure.caption.29}
-\contentsline {figure}{\numberline {26}{\ignorespaces Frame editor\relax }}{46}{figure.caption.30}
-\contentsline {figure}{\numberline {27}{\ignorespaces Modifica frame\relax }}{47}{figure.caption.31}
-\contentsline {figure}{\numberline {28}{\ignorespaces Infographic editor\relax }}{48}{figure.caption.32}
-\contentsline {figure}{\numberline {29}{\ignorespaces Modifica infografica\relax }}{49}{figure.caption.33}
-\contentsline {figure}{\numberline {30}{\ignorespaces Editor percorsi\relax }}{50}{figure.caption.34}
-\contentsline {figure}{\numberline {31}{\ignorespaces Modifica percorso\relax }}{51}{figure.caption.35}
-\contentsline {figure}{\numberline {32}{\ignorespaces Aggiungi frame\relax }}{52}{figure.caption.36}
-\contentsline {figure}{\numberline {33}{\ignorespaces Rimuovi frame dal percorso\relax }}{53}{figure.caption.37}
-\contentsline {figure}{\numberline {34}{\ignorespaces Diagramma del design pattern MVC\relax }}{78}{figure.caption.38}
-\contentsline {figure}{\numberline {35}{\ignorespaces Diagramma del design pattern MVVM\relax }}{79}{figure.caption.39}
-\contentsline {figure}{\numberline {36}{\ignorespaces Diagramma del design pattern Dependency Injection\relax }}{80}{figure.caption.40}
-\contentsline {figure}{\numberline {37}{\ignorespaces Diagramma del design pattern Factory Method\relax }}{81}{figure.caption.41}
+\contentsline {figure}{\numberline {4}{\ignorespaces Diagramma dei package views e controllers di premi\relax }}{14}{figure.caption.8}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagramma del package premi/client/userManager\relax }}{17}{figure.caption.9}
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagramma del package premi/client/presentation\relax }}{19}{figure.caption.10}
+\contentsline {figure}{\numberline {7}{\ignorespaces Diagramma del package premi/client/presentation\relax }}{20}{figure.caption.11}
+\contentsline {figure}{\numberline {8}{\ignorespaces Diagramma del package premi/client/editor\relax }}{24}{figure.caption.12}
+\contentsline {figure}{\numberline {9}{\ignorespaces Diagramma del package premi/client/frameEditor\relax }}{27}{figure.caption.13}
+\contentsline {figure}{\numberline {10}{\ignorespaces Diagramma del package premi/client/infographicEditor\relax }}{28}{figure.caption.14}
+\contentsline {figure}{\numberline {11}{\ignorespaces Diagramma del package premi/client/trailsEditor\relax }}{29}{figure.caption.15}
+\contentsline {figure}{\numberline {12}{\ignorespaces Diagramma del package premi/client/viewer\relax }}{32}{figure.caption.16}
+\contentsline {figure}{\numberline {13}{\ignorespaces Attivit\IeC {\`a} principali\relax }}{34}{figure.caption.17}
+\contentsline {figure}{\numberline {14}{\ignorespaces Lista presentazioni\relax }}{35}{figure.caption.18}
+\contentsline {figure}{\numberline {15}{\ignorespaces Login utente\relax }}{36}{figure.caption.19}
+\contentsline {figure}{\numberline {16}{\ignorespaces Registrazione utente\relax }}{37}{figure.caption.20}
+\contentsline {figure}{\numberline {17}{\ignorespaces Cambio password\relax }}{38}{figure.caption.21}
+\contentsline {figure}{\numberline {18}{\ignorespaces Visualizzatore\relax }}{39}{figure.caption.22}
+\contentsline {figure}{\numberline {19}{\ignorespaces Esegui presentazione proprietario\relax }}{40}{figure.caption.23}
+\contentsline {figure}{\numberline {20}{\ignorespaces Esegui presentazione non proprietario\relax }}{42}{figure.caption.24}
+\contentsline {figure}{\numberline {21}{\ignorespaces Creazione presentazione\relax }}{43}{figure.caption.25}
+\contentsline {figure}{\numberline {22}{\ignorespaces Modifica titolo e descrizione della presentazione\relax }}{44}{figure.caption.26}
+\contentsline {figure}{\numberline {23}{\ignorespaces Pubblicazione presentazione\relax }}{45}{figure.caption.27}
+\contentsline {figure}{\numberline {24}{\ignorespaces Elimina presentazione\relax }}{46}{figure.caption.28}
+\contentsline {figure}{\numberline {25}{\ignorespaces Esportazione presentazione\relax }}{47}{figure.caption.29}
+\contentsline {figure}{\numberline {26}{\ignorespaces Rendi portable\relax }}{48}{figure.caption.30}
+\contentsline {figure}{\numberline {27}{\ignorespaces Modifica presentazione\relax }}{49}{figure.caption.31}
+\contentsline {figure}{\numberline {28}{\ignorespaces Frame editor\relax }}{50}{figure.caption.32}
+\contentsline {figure}{\numberline {29}{\ignorespaces Modifica frame\relax }}{51}{figure.caption.33}
+\contentsline {figure}{\numberline {30}{\ignorespaces Infographic editor\relax }}{52}{figure.caption.34}
+\contentsline {figure}{\numberline {31}{\ignorespaces Modifica infografica\relax }}{53}{figure.caption.35}
+\contentsline {figure}{\numberline {32}{\ignorespaces Editor percorsi\relax }}{54}{figure.caption.36}
+\contentsline {figure}{\numberline {33}{\ignorespaces Modifica percorso\relax }}{55}{figure.caption.37}
+\contentsline {figure}{\numberline {34}{\ignorespaces Aggiungi frame\relax }}{56}{figure.caption.38}
+\contentsline {figure}{\numberline {35}{\ignorespaces Rimuovi frame dal percorso\relax }}{57}{figure.caption.39}
+\contentsline {figure}{\numberline {36}{\ignorespaces Diagramma del design pattern MVC\relax }}{82}{figure.caption.40}
+\contentsline {figure}{\numberline {37}{\ignorespaces Diagramma del design pattern MVVM\relax }}{83}{figure.caption.41}
+\contentsline {figure}{\numberline {38}{\ignorespaces Diagramma del design pattern Dependency Injection\relax }}{84}{figure.caption.42}
+\contentsline {figure}{\numberline {39}{\ignorespaces Diagramma del design pattern Factory Method\relax }}{85}{figure.caption.43}

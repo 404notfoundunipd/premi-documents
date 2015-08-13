@@ -1,14 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.20)  11 AUG 2015 12:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.11)  13 AUG 2015 10:34
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **SpecificaTecnica_v2.0.tex
-(./SpecificaTecnica_v2.0.tex
+
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\SpecificaTec
+nica_v2.0.tex"
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 5 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,87 +31,83 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (../style.sty
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
+)
+(C:\Users\Ismaele\Documents\git\premi-documents\style.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-italian/italian.ldf
-Language: italian 2013/11/22 v1.3f Italian support from the babel system
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\italian.ldf"
+Language: italian 2008/03/14 v1.2t Italian support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
-\it@lettering=\count88
-Package babel Info: Making " an active character on input line 98.
-\Virgola=\count89
+Package babel Info: Making " an active character on input line 94.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
-
-(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count90
-)
-\etb@tempcnta=\count91
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/utf8x.def
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucs.sty
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\ucs.sty
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-global.def
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
-\uc@secondtry=\count92
+\uc@secondtry=\count88
 \uc@combtoks=\toks16
 \uc@combtoksb=\toks17
 \uc@temptokena=\toks18
 )
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-\lst@mode=\count93
+\lst@mode=\count89
 \lst@gtempboxa=\box26
 \lst@token=\toks20
-\lst@length=\count94
+\lst@length=\count90
 \lst@currlwidth=\dimen104
-\lst@column=\count95
-\lst@pos=\count96
+\lst@column=\count91
+\lst@pos=\count92
 \lst@lostspace=\dimen105
 \lst@width=\dimen106
-\lst@newlines=\count97
-\lst@lineno=\count98
+\lst@newlines=\count93
+\lst@lineno=\count94
 \lst@maxwidth=\dimen107
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
-\c@lstnumber=\count99
-\lst@skipnumbers=\count100
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
 \lst@framebox=\box27
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2013/08/26 1.5b listings configuration
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen108
@@ -113,52 +118,54 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen113
 \caption@hangindent=\dimen114
 )
-\c@ContinuedFloat=\count101
+\c@ContinuedFloat=\count97
 Package caption Info: listings package is loaded.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip43
 \subfigcapskip=\skip44
 \subfigcaptopadj=\dimen115
 \subfigbottomskip=\skip45
 \subfigcapmargin=\dimen116
 \subfiglabelskip=\skip46
-\c@subfigure=\count102
-\c@lofdepth=\count103
-\c@subtable=\count104
-\c@lotdepth=\count105
+\c@subfigure=\count98
+\c@lofdepth=\count99
+\c@subtable=\count100
+\c@lotdepth=\count101
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg)
 \subfig@top=\skip47
 \subfig@bottom=\skip48
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count106
+\Gread@gobject=\count102
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\lastpage\lastpage.sty
+
+LaTeX Warning: You have requested release `2014/05/01' of LaTeX,
+               but only release `2011/06/27' is available.
+
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -173,7 +180,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -239,7 +246,7 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip49
 \f@ncyO@elh=\skip50
 \f@ncyO@erh=\skip51
@@ -250,23 +257,23 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 \f@ncyO@olf=\skip56
 \f@ncyO@orf=\skip57
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count107
-\Gm@cntv=\count108
-\c@Gm@tempcnt=\count109
+\Gm@cnth=\count103
+\Gm@cntv=\count104
+\c@Gm@tempcnt=\count105
 \Gm@bindingoffset=\dimen117
 \Gm@wd@mp=\dimen118
 \Gm@odd@mp=\dimen119
@@ -276,34 +283,35 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen123
 \Gm@layoutvoffset=\dimen124
 \Gm@dimlist=\toks21
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -332,29 +340,30 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
 Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen127
-\Hy@linkcounter=\count110
-\Hy@pagecounter=\count111
+\Hy@linkcounter=\count106
+\Hy@pagecounter=\count107
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count112
+\Hy@SavedSpaceFactor=\count108
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
@@ -365,10 +374,10 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count113
+\c@Hy@tempcnt=\count109
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen128
-\Fld@menulength=\count114
+\Fld@menulength=\count110
 \Field@Width=\dimen129
 \Fld@charsize=\dimen130
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -380,51 +389,50 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count115
-\c@Item=\count116
-\c@Hfootnote=\count117
+\Hy@abspage=\count111
+\c@Item=\count112
+\c@Hfootnote=\count113
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count118
-\c@bookmark@seq@number=\count119
+\Fld@listcount=\count114
+\c@bookmark@seq@number=\count115
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip58
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/makeidx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\makeidx.sty"
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip59
 \LTright=\skip60
 \LTpre=\skip61
 \LTpost=\skip62
-\LTchunksize=\count120
+\LTchunksize=\count116
 \LTcapwidth=\dimen131
 \LT@head=\box28
 \LT@firsthead=\box29
 \LT@foot=\box30
 \LT@lastfoot=\box31
-\LT@cols=\count121
-\LT@rows=\count122
-\c@LT@tables=\count123
-\c@LT@chunks=\count124
+\LT@cols=\count117
+\LT@rows=\count118
+\c@LT@tables=\count119
+\c@LT@chunks=\count120
 \LT@p@ftn=\toks22
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 101.
 )
-(./SpecificaTecnica_v2.0.aux)
-\openout1 = `SpecificaTecnica_v2.0.aux'.
-
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\SpecificaTec
+nica_v2.0.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
@@ -437,60 +445,53 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 24.
+
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\cbfonts-fd\lgrcmr.fd
+File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
+)
+LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
-LaTeX Info: Redefining \it@ocap on input line 24.
-LaTeX Info: Redefining \it@ccap on input line 24.
 
-
-File italian.ldf warning: 
-italian.ldf    With OT1 encoding guillemets are poorly faked
-italian.ldf    Use T1 encoding
-italian.ldf    or specify a font with command \CaporaliFrom
-italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 24.
-
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+
+fontencoding LGR patched
 )
-\c@lstlisting=\count125
+\c@lstlisting=\count121
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
-
-(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+ (C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count126
+\scratchcounter=\count122
 \scratchdimen=\dimen132
 \scratchbox=\box32
-\nofMPsegments=\count127
-\nofMParguments=\count128
+\nofMPsegments=\count123
+\nofMParguments=\count124
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count129
+\MPscratchCnt=\count125
 \MPscratchDim=\dimen133
-\MPnumerator=\count130
-\makeMPintoPDFobject=\count131
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
 \everyMPtoPDFconversion=\toks24
 )
 Package lastpage Info: Please have a look at the pageslts package at
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             macros/latex/contrib/pageslts/ 
-(lastpage)             or
-(lastpage)             http://www.ctan.org/tex-archive/ 
-(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 24.
 
 *geometry* driver: auto-detecting
@@ -527,43 +528,28 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-)
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 \AtBeginShipoutBox=\box33
 Package hyperref Info: Link coloring ON on input line 24.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count132
+\c@section@level=\count128
 )
 LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
 LaTeX Info: Redefining \nameref on input line 24.
 
-(./SpecificaTecnica_v2.0.out) (./SpecificaTecnica_v2.0.out)
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\SpecificaTec
+nica_v2.0.out")
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\SpecificaTec
+nica_v2.0.out")
 \@outlinefile=\write3
-\openout3 = `SpecificaTecnica_v2.0.out'.
 
-
-(./documents/first.tex
-<../logo/logo404_Extends.png, id=426, 1027.84pt x 433.62pt>
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/fi
+rst.tex" <../logo/logo404_Extends.png, id=491, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
@@ -577,8 +563,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 26.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../logo/logo404_Extends.pn
-g>]) (./documents/regModifiche.tex
+{C:/Users/Ismaele/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/
+Ismaele/Documents/git/premi-documents/logo/logo404_Extends.png>])
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/re
+gModifiche.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 []|\OT1/cmr/m/n/12 Fine ste-su-ra trac-cia-men-to
  []
@@ -597,10 +585,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 Underfull \vbox (badness 10000) detected at line 47
  []
 
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-0.def
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 ))
-<../logo/logo404.png, id=435, 1027.84pt x 402.50375pt>
+<../logo/logo404.png, id=500, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
@@ -611,79 +599,81 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.28 \newpage
-              [1 <../logo/logo404.png>] (./SpecificaTecnica_v2.0.toc
-Overfull \hbox (2.58202pt too wide) in paragraph at lines 42--42
+              [1 <C:/Users/Ismaele/Documents/git/premi-documents/logo/logo404.p
+ng>]
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\SpecificaTec
+nica_v2.0.toc"
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 45.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [2]
+Overfull \hbox (2.58202pt too wide) in paragraph at lines 46--46
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/views/presentation
 Manager.ng[][] [][]  
  []
 
 
-Overfull \hbox (9.6014pt too wide) in paragraph at lines 45--45
+Overfull \hbox (9.6014pt too wide) in paragraph at lines 49--49
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/editPr
 esentationCtrl[][] [][]  
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 46.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [2]
-Overfull \hbox (10.25417pt too wide) in paragraph at lines 46--46
+
+Overfull \hbox (10.25417pt too wide) in paragraph at lines 50--50
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/newPre
 sentationCtrl[][] [][]  
  []
 
 
-Overfull \hbox (34.72891pt too wide) in paragraph at lines 47--47
+Overfull \hbox (34.72891pt too wide) in paragraph at lines 51--51
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/Presen
 tationManagerCtrl[][] [][]  
  []
 
 
-Overfull \hbox (26.24706pt too wide) in paragraph at lines 49--49
+Overfull \hbox (26.24706pt too wide) in paragraph at lines 53--53
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/remove
 PresentationCtrl[][] [][]  
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 92.
+Package pdftex.def Info: ../logo/logo404.png used on input line 91.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [3])
 \tf@toc=\write4
-\openout4 = `SpecificaTecnica_v2.0.toc'.
-
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 30.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [4]
-(./SpecificaTecnica_v2.0.lot)
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\SpecificaTec
+nica_v2.0.lot")
 \tf@lot=\write5
-\openout5 = `SpecificaTecnica_v2.0.lot'.
 
- (./SpecificaTecnica_v2.0.lof)
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\SpecificaTec
+nica_v2.0.lof")
 \tf@lof=\write6
-\openout6 = `SpecificaTecnica_v2.0.lof'.
-
 File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
+ <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 34.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [5] (./documents/intro.tex
-(/usr/share/texlive/texmf-dist/tex/latex/ucs/data/uni-32.def
+ [5]
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/in
+tro.tex" (C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ))
-(./documents/descr_tecnologie.tex
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/de
+scr_tecnologie.tex"
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 10.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [6]
 Overfull \hbox (21.93733pt too wide) in paragraph at lines 21--30
-\OT1/cmr/m/n/12 Nello svi-lup-po soft-ware An-gu-la-r-JS (pi^^Ru co-mu-ne-men-t
-e no-to co-me -An-gu-lar) ^^Re un framework$[]$
+\OT1/cmr/m/n/12 Nello svi-lup-po soft-ware An-gu-la-r-JS (piu co-mu-ne-men-te 
+no-to co-me -An-gu-lar) e un framework$[]$
  []
 
 
@@ -715,7 +705,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--67
 
  []
 
-) (./documents/defin_prodotto.tex
+)
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/de
+fin_prodotto.tex"
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
@@ -725,7 +717,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
  []
 
-<img/meteor_architettura.jpg, id=676, 569.12625pt x 369.38pt>
+<img/meteor_architettura.jpg, id=760, 569.12625pt x 369.38pt>
 File: img/meteor_architettura.jpg Graphic file (type jpg)
 
 <use img/meteor_architettura.jpg>
@@ -735,181 +727,186 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 25.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [10 <./img/meteor_architettura.jpg>]
+ [10 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/mete
+or_architettura.jpg>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 25.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [11]
-<img/diapkg/package.png, id=689, 885.3075pt x 814.54312pt>
+<img/diapkg/package.png, id=773, 885.3075pt x 834.86906pt>
 File: img/diapkg/package.png Graphic file (type png)
 
 <use img/diapkg/package.png>
 Package pdftex.def Info: img/diapkg/package.png used on input line 33.
-(pdftex.def)             Requested size: 354.11671pt x 325.81146pt.
+(pdftex.def)             Requested size: 354.11671pt x 333.94171pt.
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 44.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [12
 
- <./img/diapkg/package.png>]
+ <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diapkg/p
+ackage.png>]
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 53.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [13]) (./documents/descr_componenti.tex
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 2.
-
-<img/diapkg/server.png, id=704, 130.23656pt x 115.18031pt>
+ [13])
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/de
+scr_componenti.tex" <img/diapkg/server.png, id=788, 130.23656pt x 115.18031pt>
 File: img/diapkg/server.png Graphic file (type png)
 
 <use img/diapkg/server.png>
-Package pdftex.def Info: img/diapkg/server.png used on input line 15.
+Package pdftex.def Info: img/diapkg/server.png used on input line 6.
 (pdftex.def)             Requested size: 58.6059pt x 51.83064pt.
 
-<img/diapkg/client.png, id=705, 353.82187pt x 334.24875pt>
+<img/diapkg/client.png, id=789, 353.82187pt x 334.24875pt>
 File: img/diapkg/client.png Graphic file (type png)
 
 <use img/diapkg/client.png>
-Package pdftex.def Info: img/diapkg/client.png used on input line 36.
+Package pdftex.def Info: img/diapkg/client.png used on input line 27.
 (pdftex.def)             Requested size: 159.21837pt x 150.41054pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 54.
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 40.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [14
 
- <./img/diapkg/server.png>]
+ <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diapkg/s
+erver.png> <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/im
+g/diapkg/client.png>]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 83.
+Package pdftex.def Info: ../logo/logo404.png used on input line 82.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [15 <./img/diapkg/client.png>]
-Overfull \hbox (4.52126pt too wide) in paragraph at lines 116--117
+ [15]
+Overfull \hbox (4.52126pt too wide) in paragraph at lines 114--115
 []\OT1/cmr/m/it/12 premi/client/header/lib/Header \OT1/cmr/m/n/12 per la ge-sti
 o-ne del-l'hea-der del-la pa-gi-na prin-
  []
 
-<img/diapkg/header.png, id=718, 340.27126pt x 242.40562pt>
-File: img/diapkg/header.png Graphic file (type png)
+<img/diapkg/userManager.png, id=802, 542.77782pt x 368.87813pt>
+File: img/diapkg/userManager.png Graphic file (type png)
 
-<use img/diapkg/header.png>
-Package pdftex.def Info: img/diapkg/header.png used on input line 126.
-(pdftex.def)             Requested size: 153.12064pt x 109.08151pt.
+<use img/diapkg/userManager.png>
+Package pdftex.def Info: img/diapkg/userManager.png used on input line 121.
+(pdftex.def)             Requested size: 244.24776pt x 165.9936pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 135.
+Package pdftex.def Info: ../logo/logo404.png used on input line 130.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [16]
-<img/diapkg/presentation.png, id=724, 349.305pt x 154.32657pt>
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 150.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [17 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diap
+kg/userManager.png>]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 187.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [18]
+<img/diapkg/presentation.png, id=820, 349.305pt x 154.32657pt>
 File: img/diapkg/presentation.png Graphic file (type png)
 
 <use img/diapkg/presentation.png>
-Package pdftex.def Info: img/diapkg/presentation.png used on input line 168.
+Package pdftex.def Info: img/diapkg/presentation.png used on input line 203.
 (pdftex.def)             Requested size: 157.18579pt x 69.4463pt.
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 171.
+Package pdftex.def Info: ../logo/logo404.png used on input line 227.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [17 <./img/diapkg/header.png>]
-<img/diapkg/presentationManager.png, id=731, 560.0925pt x 395.22656pt>
+ [19 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diap
+kg/presentation.png>] <img/diapkg/presentationManager.png, id=827, 560.0925pt x
+ 395.22656pt>
 File: img/diapkg/presentationManager.png Graphic file (type png)
 
 <use img/diapkg/presentationManager.png>
 Package pdftex.def Info: img/diapkg/presentationManager.png used on input line 
-208.
+243.
 (pdftex.def)             Requested size: 252.03929pt x 177.8503pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 218.
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 256.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [18 <./img/diapkg/presentation.png>]
+ [20 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diap
+kg/presentationManager.png>]
 File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 236.
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 290.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [19 <./img/diapkg/presentationManager.png>]
-Overfull \hbox (5.0297pt too wide) in paragraph at lines 259--259
+ [21]
+Overfull \hbox (5.0297pt too wide) in paragraph at lines 294--294
 []\OT1/cmr/bx/n/12 premi/client/presentationManager/controllers/editPresentatio
 nCtrl 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 266.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [20]
-Overfull \hbox (5.7797pt too wide) in paragraph at lines 271--271
+
+Overfull \hbox (5.7797pt too wide) in paragraph at lines 306--306
 []\OT1/cmr/bx/n/12 premi/client/presentationManager/controllers/newPresentation
 Ctrl 
  []
 
 
-Overfull \hbox (34.22417pt too wide) in paragraph at lines 283--283
+Overfull \hbox (34.22417pt too wide) in paragraph at lines 318--318
 []\OT1/cmr/bx/n/12 premi/client/presentationManager/controllers/PresentationMan
 agerCtrl 
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 299.
+Package pdftex.def Info: ../logo/logo404.png used on input line 322.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [21]
-Overfull \hbox (31.32831pt too wide) in paragraph at lines 301--301
+ [22]
+Overfull \hbox (31.32831pt too wide) in paragraph at lines 336--336
 []\OT1/cmr/bx/n/12 premi/client/presentationManager/controllers/removePresentat
 ionCtrl 
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 315.
+Package pdftex.def Info: ../logo/logo404.png used on input line 350.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [22]
-<img/diapkg/editor.png, id=761, 642.90187pt x 461.47406pt>
+ [23]
+<img/diapkg/editor.png, id=849, 642.90187pt x 461.47406pt>
 File: img/diapkg/editor.png Graphic file (type png)
 
 <use img/diapkg/editor.png>
-Package pdftex.def Info: img/diapkg/editor.png used on input line 319.
+Package pdftex.def Info: img/diapkg/editor.png used on input line 354.
 (pdftex.def)             Requested size: 289.30316pt x 207.66139pt.
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 347.
+Package pdftex.def Info: ../logo/logo404.png used on input line 382.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [23
+ [24
 
- <./img/diapkg/editor.png>]
+ <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diapkg/e
+ditor.png>]
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 376.
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 411.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [24]
-Overfull \hbox (8.92618pt too wide) in paragraph at lines 387--388
+ [25]
+Overfull \hbox (8.92618pt too wide) in paragraph at lines 422--423
 []\OT1/cmr/bx/n/12 Relazioni con al-tri com-po-nen-ti: \OT1/cmr/m/n/12 esten-de
  $\OT1/cmtt/m/n/12 Premi / client / editor / gOContainer$
  []
 
-<img/diapkg/frameEditor.png, id=774, 395.22656pt x 206.27063pt>
+<img/diapkg/frameEditor.png, id=862, 395.22656pt x 206.27063pt>
 File: img/diapkg/frameEditor.png Graphic file (type png)
 
 <use img/diapkg/frameEditor.png>
-Package pdftex.def Info: img/diapkg/frameEditor.png used on input line 409.
+Package pdftex.def Info: img/diapkg/frameEditor.png used on input line 444.
 (pdftex.def)             Requested size: 177.8503pt x 92.8209pt.
 
 
@@ -917,53 +914,84 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 424.
+Package pdftex.def Info: ../logo/logo404.png used on input line 459.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [25]
+ [26]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 443.
+Package pdftex.def Info: ../logo/logo404.png used on input line 478.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [26 <./img/diapkg/frameEditor.png>]
-<img/diapkg/infographicEditor.png, id=786, 453.19313pt x 208.52907pt>
+ [27 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diap
+kg/frameEditor.png>]
+<img/diapkg/infographicEditor.png, id=874, 453.19313pt x 208.52907pt>
 File: img/diapkg/infographicEditor.png Graphic file (type png)
 
 <use img/diapkg/infographicEditor.png>
-Package pdftex.def Info: img/diapkg/infographicEditor.png used on input line 44
-7.
+Package pdftex.def Info: img/diapkg/infographicEditor.png used on input line 48
+2.
 (pdftex.def)             Requested size: 203.93501pt x 93.8372pt.
 
-Overfull \hbox (37.17949pt too wide) in paragraph at lines 456--457
+Overfull \hbox (37.17949pt too wide) in paragraph at lines 491--492
 []\OT1/cmr/bx/n/12 Descrizione: \OT1/cmr/m/n/12 tem-pla-te del-la par-te di pa-
 gi-na per la crea-zio-ne o mo-di-fi-ca dell'infografica$[]$ 
  []
 
 
-Overfull \hbox (153.3638pt too wide) in paragraph at lines 471--472
+Overfull \hbox (153.3638pt too wide) in paragraph at lines 506--507
 \OT1/cmr/m/n/12 ge-ne-ra-te da Pre-mi.client.InfographicEditor.views.frame.ng e
  di Pre-mi.client.InfographicEditor.views.toolbar.ng
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 477.
+Package pdftex.def Info: ../logo/logo404.png used on input line 512.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [27
+ [28
 
- <./img/diapkg/infographicEditor.png>]
+ <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diapkg/i
+nfographicEditor.png>]
+<img/diapkg/trailsEditor.png, id=881, 467.49657pt x 476.53032pt>
+File: img/diapkg/trailsEditor.png Graphic file (type png)
+
+<use img/diapkg/trailsEditor.png>
+Package pdftex.def Info: img/diapkg/trailsEditor.png used on input line 519.
+(pdftex.def)             Requested size: 210.3715pt x 214.43666pt.
 File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 522.
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 540.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [28]) (./documents/attivita.tex
+ [29 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diap
+kg/trailsEditor.png>]
 File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 577.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [30]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 611.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [31]
+<img/diapkg/viewer.png, id=899, 364.36125pt x 206.27063pt>
+File: img/diapkg/viewer.png Graphic file (type png)
 
-<use ../logo/logo404.png>
+<use img/diapkg/viewer.png>
+Package pdftex.def Info: img/diapkg/viewer.png used on input line 635.
+(pdftex.def)             Requested size: 163.96104pt x 92.8209pt.
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 645.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [32 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diap
+kg/viewer.png>])
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/at
+tivita.tex"
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [29]
-<img/attivita/Premi.jpg, id=803, 1210.5225pt x 1224.575pt>
+ [33]
+<img/attivita/Premi.jpg, id=911, 1210.5225pt x 1224.575pt>
 File: img/attivita/Premi.jpg Graphic file (type jpg)
 
 <use img/attivita/Premi.jpg>
@@ -974,7 +1002,7 @@ Overfull \hbox (46.69255pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
-<img/attivita/ListaPresentazioni.jpg, id=804, 1116.17pt x 1675.25874pt>
+<img/attivita/ListaPresentazioni.jpg, id=912, 1116.17pt x 1675.25874pt>
 File: img/attivita/ListaPresentazioni.jpg Graphic file (type jpg)
 
 <use img/attivita/ListaPresentazioni.jpg>
@@ -985,13 +1013,15 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 24.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [30 <./img/attivita/Premi.jpg>]
+ [34 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Premi.jpg>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 26.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [31 <./img/attivita/ListaPresentazioni.jpg>] <img/attivita/Login.jpg, id=816, 
-477.785pt x 743.77875pt>
+ [35 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/ListaPresentazioni.jpg>]
+<img/attivita/Login.jpg, id=923, 477.785pt x 743.77875pt>
 File: img/attivita/Login.jpg Graphic file (type jpg)
 
 <use img/attivita/Login.jpg>
@@ -1001,10 +1031,11 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 41.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [32
+ [36
 
- <./img/attivita/Login.jpg>] <img/attivita/Registrazione.jpg, id=822, 687.56876
-pt x 944.52875pt>
+ <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/attivita
+/Login.jpg>]
+<img/attivita/Registrazione.jpg, id=930, 687.56876pt x 944.52875pt>
 File: img/attivita/Registrazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Registrazione.jpg>
@@ -1014,8 +1045,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 54.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [33 <./img/attivita/Registrazione.jpg>]
-<img/attivita/Cambio_password.jpg, id=828, 552.0625pt x 815.045pt>
+ [37 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Registrazione.jpg>] <img/attivita/Cambio_password.jpg, id=936, 552.0625pt 
+x 815.045pt>
 File: img/attivita/Cambio_password.jpg Graphic file (type jpg)
 
 <use img/attivita/Cambio_password.jpg>
@@ -1026,8 +1058,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 67.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [34 <./img/attivita/Cambio_password.jpg>]
-<img/attivita/Visualizzatore.jpg, id=834, 626.34pt x 844.15375pt>
+ [38 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Cambio_password.jpg>] <img/attivita/Visualizzatore.jpg, id=942, 626.34pt x
+ 844.15375pt>
 File: img/attivita/Visualizzatore.jpg Graphic file (type jpg)
 
 <use img/attivita/Visualizzatore.jpg>
@@ -1038,8 +1071,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 80.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [35 <./img/attivita/Visualizzatore.jpg>]
-<img/attivita/Esegui_presentazione_proprietario.jpg, id=841, 1210.5225pt x 1333
+ [39 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Visualizzatore.jpg>]
+<img/attivita/Esegui_presentazione_proprietario.jpg, id=948, 1210.5225pt x 1333
 .98375pt>
 File: img/attivita/Esegui_presentazione_proprietario.jpg Graphic file (type jpg
 )
@@ -1056,13 +1090,15 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 98.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [36 <./img/attivita/Esegui_presentazione_proprietario.jpg>]
+ [40 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Esegui_presentazione_proprietario.jpg>]
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 103.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [37]
-<img/attivita/Esegui_presentazione_non_proprietario.jpg, id=853, 1210.5225pt x 
+ [41]
+<img/attivita/Esegui_presentazione_non_proprietario.jpg, id=959, 1210.5225pt x 
 1296.845pt>
 File: img/attivita/Esegui_presentazione_non_proprietario.jpg Graphic file (type
  jpg)
@@ -1079,8 +1115,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 120.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [38 <./img/attivita/Esegui_presentazione_non_proprietario.jpg>]
-<img/attivita/Creazione_presentazione.jpg, id=859, 644.4075pt x 700.6175pt>
+ [42 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Esegui_presentazione_non_proprietario.jpg>]
+<img/attivita/Creazione_presentazione.jpg, id=966, 644.4075pt x 700.6175pt>
 File: img/attivita/Creazione_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Creazione_presentazione.jpg>
@@ -1092,8 +1129,9 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 136.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-[39 <./img/attivita/Creazione_presentazione.jpg>]
-<img/attivita/Modifica_titolo_e_descrizione_presentazione.jpg, id=865, 643.4037
+[43 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/attiv
+ita/Creazione_presentazione.jpg>]
+<img/attivita/Modifica_titolo_e_descrizione_presentazione.jpg, id=972, 643.4037
 5pt x 700.6175pt>
 File: img/attivita/Modifica_titolo_e_descrizione_presentazione.jpg Graphic file
  (type jpg)
@@ -1107,8 +1145,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 148.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [40 <./img/attivita/Modifica_titolo_e_descrizione_presentazione.jpg>]
-<img/attivita/Pubblica_presentazione.jpg, id=871, 883.3pt x 809.0225pt>
+ [44 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Modifica_titolo_e_descrizione_presentazione.jpg>] <img/attivita/Pubblica_p
+resentazione.jpg, id=978, 883.3pt x 809.0225pt>
 File: img/attivita/Pubblica_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Pubblica_presentazione.jpg>
@@ -1124,8 +1163,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 161.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [41 <./img/attivita/Pubblica_presentazione.jpg>]
-<img/attivita/Elimina_presentazione.jpg, id=877, 371.3875pt x 568.1225pt>
+ [45 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Pubblica_presentazione.jpg>]
+<img/attivita/Elimina_presentazione.jpg, id=984, 371.3875pt x 568.1225pt>
 File: img/attivita/Elimina_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Elimina_presentazione.jpg>
@@ -1136,8 +1176,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 174.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [42 <./img/attivita/Elimina_presentazione.jpg>]
-<img/attivita/Esporta_presentazione.jpg, id=884, 627.34375pt x 526.96875pt>
+ [46 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Elimina_presentazione.jpg>]
+<img/attivita/Esporta_presentazione.jpg, id=990, 627.34375pt x 526.96875pt>
 File: img/attivita/Esporta_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Esporta_presentazione.jpg>
@@ -1148,8 +1189,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 187.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [43 <./img/attivita/Esporta_presentazione.jpg>]
-<img/attivita/Rendi_portable.jpg, id=890, 631.35875pt x 526.96875pt>
+ [47 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Esporta_presentazione.jpg>]
+<img/attivita/Rendi_portable.jpg, id=996, 631.35875pt x 526.96875pt>
 File: img/attivita/Rendi_portable.jpg Graphic file (type jpg)
 
 <use img/attivita/Rendi_portable.jpg>
@@ -1160,8 +1202,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 200.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [44 <./img/attivita/Rendi_portable.jpg>]
-<img/attivita/Modifica_presentazione.jpg, id=896, 920.43875pt x 921.4425pt>
+ [48 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Rendi_portable.jpg>]
+<img/attivita/Modifica_presentazione.jpg, id=1003, 920.43875pt x 921.4425pt>
 File: img/attivita/Modifica_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Modifica_presentazione.jpg>
@@ -1177,8 +1220,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 214.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [45 <./img/attivita/Modifica_presentazione.jpg>]
-<img/attivita/Editor_frame.jpg, id=902, 658.46pt x 1262.7175pt>
+ [49 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Modifica_presentazione.jpg>]
+<img/attivita/Editor_frame.jpg, id=1009, 658.46pt x 1262.7175pt>
 File: img/attivita/Editor_frame.jpg Graphic file (type jpg)
 
 <use img/attivita/Editor_frame.jpg>
@@ -1188,8 +1232,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 227.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [46 <./img/attivita/Editor_frame.jpg>]
-<img/attivita/Modifica_frame.jpg, id=908, 825.0825pt x 941.5175pt>
+ [50 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Editor_frame.jpg>] <img/attivita/Modifica_frame.jpg, id=1015, 825.0825pt x
+ 941.5175pt>
 File: img/attivita/Modifica_frame.jpg Graphic file (type jpg)
 
 <use img/attivita/Modifica_frame.jpg>
@@ -1200,8 +1245,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 246.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [47 <./img/attivita/Modifica_frame.jpg>]
-<img/attivita/Editor_infografica.jpg, id=914, 743.77875pt x 1300.86pt>
+ [51 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Modifica_frame.jpg>]
+<img/attivita/Editor_infografica.jpg, id=1021, 743.77875pt x 1300.86pt>
 File: img/attivita/Editor_infografica.jpg Graphic file (type jpg)
 
 <use img/attivita/Editor_infografica.jpg>
@@ -1212,8 +1258,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 263.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [48 <./img/attivita/Editor_infografica.jpg>]
-<img/attivita/Modifica_infografica.jpg, id=921, 825.0825pt x 941.5175pt>
+ [52 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Editor_infografica.jpg>]
+<img/attivita/Modifica_infografica.jpg, id=1027, 825.0825pt x 941.5175pt>
 File: img/attivita/Modifica_infografica.jpg Graphic file (type jpg)
 
 <use img/attivita/Modifica_infografica.jpg>
@@ -1224,8 +1271,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 282.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [49 <./img/attivita/Modifica_infografica.jpg>]
-<img/attivita/Editor_percorsi.jpg, id=927, 770.88pt x 873.2625pt>
+ [53 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Modifica_infografica.jpg>]
+<img/attivita/Editor_percorsi.jpg, id=1033, 770.88pt x 873.2625pt>
 File: img/attivita/Editor_percorsi.jpg Graphic file (type jpg)
 
 <use img/attivita/Editor_percorsi.jpg>
@@ -1236,8 +1284,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 302.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [50 <./img/attivita/Editor_percorsi.jpg>]
-<img/attivita/Modifica_percorso.jpg, id=933, 414.54875pt x 1144.275pt>
+ [54 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Editor_percorsi.jpg>]
+<img/attivita/Modifica_percorso.jpg, id=1040, 414.54875pt x 1144.275pt>
 File: img/attivita/Modifica_percorso.jpg Graphic file (type jpg)
 
 <use img/attivita/Modifica_percorso.jpg>
@@ -1248,10 +1297,10 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 315.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [51 <./img/attivita/Modifica_percorso.jpg>]
-<img/attivita/Aggiungi_frame_al_percorso.jpg, id=939, 511.9125pt x 708.6475pt>
+ [55 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Modifica_percorso.jpg>]
+<img/attivita/Aggiungi_frame_al_percorso.jpg, id=1046, 511.9125pt x 708.6475pt>
 File: img/attivita/Aggiungi_frame_al_percorso.jpg Graphic file (type jpg)
-
 <use img/attivita/Aggiungi_frame_al_percorso.jpg>
 Package pdftex.def Info: img/attivita/Aggiungi_frame_al_percorso.jpg used on in
 put line 321.
@@ -1261,8 +1310,9 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 332.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-[52 <./img/attivita/Aggiungi_frame_al_percorso.jpg>]
-<img/attivita/Rimuovi_frame_da_percorso.jpg, id=946, 463.7325pt x 690.58pt>
+[56 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/attiv
+ita/Aggiungi_frame_al_percorso.jpg>]
+<img/attivita/Rimuovi_frame_da_percorso.jpg, id=1052, 463.7325pt x 690.58pt>
 File: img/attivita/Rimuovi_frame_da_percorso.jpg Graphic file (type jpg)
 
 <use img/attivita/Rimuovi_frame_da_percorso.jpg>
@@ -1270,19 +1320,21 @@ Package pdftex.def Info: img/attivita/Rimuovi_frame_da_percorso.jpg used on inp
 ut line 338.
 (pdftex.def)             Requested size: 231.86568pt x 345.28915pt.
 )
-(./documents/stime_fattibilita.tex
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/st
+ime_fattibilita.tex"
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [53 <./img/attivita/Rimuovi_frame_da_percorso.jpg>]) (./documents/tracciam_req
-uisiti.tex
+ [57 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
+vita/Rimuovi_frame_da_percorso.jpg>])
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/tr
+acciam_requisiti.tex"
 File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
+ <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [54]
+ [58]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 []|\OT1/cmr/m/n/12 Premi.-
  []
@@ -2800,23 +2852,23 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [55]
+ [59]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [56]
+ [60]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [57]
+ [61]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [58]
+ [62]
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 []|\OT1/cmr/m/n/12 Premi.-
  []
@@ -3550,18 +3602,18 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [59]
+ [63]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [60]
+ [64]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [61]
+ [65]
 Underfull \hbox (badness 3635) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/12 l'utente de-ve po-ter se-le-
  []
@@ -4390,28 +4442,6 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [62]
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 162.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [63]
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 162.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [64]
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 162.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [65]
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 162.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [66]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
@@ -4434,13 +4464,36 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [70]) (./documents/tracciam_componenti.tex
+ [70]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 162.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [71]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 162.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [72]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 162.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [73]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 162.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [74])
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/tr
+acciam_componenti.tex"
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [71]
+ [75]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []|\OT1/cmr/m/n/12 FOb5
  []
@@ -4838,7 +4891,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [72]
+ [76]
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 []|\OT1/cmr/m/n/12 FOb2
  []
@@ -5147,7 +5200,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [73]
+ [77]
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 []|\OT1/cmr/m/n/12 FDe4.6
  []
@@ -5286,25 +5339,26 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 152.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [74]
+ [78]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 152.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [75]
+ [79]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 152.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [76]) (./documents/design_pattern.tex
+ [80])
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/de
+sign_pattern.tex"
 File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
+ <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [77]
-<img/MVC.jpg, id=1077, 552.0625pt x 386.44376pt>
+ [81]
+<img/MVC.jpg, id=1182, 552.0625pt x 386.44376pt>
 File: img/MVC.jpg Graphic file (type jpg)
  <use img/MVC.jpg>
 Package pdftex.def Info: img/MVC.jpg used on input line 9.
@@ -5314,8 +5368,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 32.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [78 <./img/MVC.jpg>]
-<img/MVVM.png, id=1084, 436.63126pt x 304.13625pt>
+ [82 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/MVC.
+jpg>]
+<img/MVVM.png, id=1188, 436.63126pt x 304.13625pt>
 File: img/MVVM.png Graphic file (type png)
  <use img/MVVM.png>
 Package pdftex.def Info: img/MVVM.png used on input line 49.
@@ -5325,8 +5380,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 65.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [79 <./img/MVVM.png (PNG copy)>]
-<img/dependency.png, id=1090, 352.31625pt x 158.84344pt>
+ [83 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/MVVM
+.png (PNG copy)>]
+<img/dependency.png, id=1194, 352.31625pt x 158.84344pt>
 File: img/dependency.png Graphic file (type png)
 
 <use img/dependency.png>
@@ -5336,8 +5392,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 98.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [80 <./img/dependency.png>]
-<img/Factory.png, id=1097, 575.14874pt x 202.7575pt>
+ [84 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/depe
+ndency.png>]
+<img/Factory.png, id=1202, 575.14874pt x 202.7575pt>
 File: img/Factory.png Graphic file (type png)
  <use img/Factory.png>
 Package pdftex.def Info: img/Factory.png used on input line 113.
@@ -5347,43 +5404,46 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 129.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [81 <./img/Factory.png>]
+ [85 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/Fact
+ory.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 134.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-[82])
+ [86])
 No file SpecificaTecnica_v2.0.bbl.
 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
-(./SpecificaTecnica_v2.0.aux)
+
+("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\SpecificaTec
+nica_v2.0.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `SpecificaTecnica_v2.0.out' has not changed.
-(rerunfilecheck)             Checksum: B504A0006559571F92E9588651C1F389;8601.
+(rerunfilecheck)             Checksum: AA68E569AD56EB12F69EC077D856C850;10769.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 11180 strings out of 494976
- 168155 string characters out of 6180006
- 288192 words of memory out of 5000000
- 13950 multiletter control sequences out of 15000+600000
- 9730 words of font info for 34 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 43i,16n,47p,1244b,654s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/ismaele/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcti1200.600pk> </home
-/ismaele/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmtt12.pfb>
-Output written on SpecificaTecnica_v2.0.pdf (83 pages, 2270134 bytes).
+ 11027 strings out of 493921
+ 173609 string characters out of 3144870
+ 275780 words of memory out of 3000000
+ 13856 multiletter control sequences out of 15000+200000
+ 9730 words of font info for 34 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 43i,16n,47p,1244b,654s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Ismaele\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\tcti1200.pk> <C:\Users\Ismaele\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\tcrm1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmtt12.pfb>
+Output written on SpecificaTecnica_v2.0.pdf (87 pages, 2482522 bytes).
 PDF statistics:
- 1191 PDF objects out of 1200 (max. 8388607)
- 1037 compressed objects within 11 object streams
- 232 named destinations out of 1000 (max. 500000)
- 1036 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1298 PDF objects out of 1440 (max. 8388607)
+ 255 named destinations out of 1000 (max. 500000)
+ 1182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
