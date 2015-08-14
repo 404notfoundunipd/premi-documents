@@ -22,7 +22,7 @@
 %-------  lista degli Attributi%	
 \item[Attributi] \hfill \\
 	\begin{description}
-		\item[\texttt{- info : Collection			}] \hfill \\
+		\item[\textbf{- info : Collection			}] \hfill \\
 			info è un oggetto JSON che contiene i seguenti campi:
 				\begin{itemize}
 					\item \textit{\_id:} rappresenta l'id che identifica l'oggetto;
@@ -44,7 +44,7 @@
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\texttt{+ set(field : String, value : String) : void			}] \hfill \\
+		\item[\textbf{+ set(field : String, value : String) : void			}] \hfill \\
 			permette di settare un campo dell'attributo info.
 			
 		\begin{description}
@@ -52,9 +52,9 @@
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \texttt{field : String			} \hfill \\
+					\item \textbf{field : String			} \hfill \\
 					field identifica il campo da settare di info;
-					\item \texttt{value : String			} \hfill \\
+					\item \textbf{value : String			} \hfill \\
 					value rappresenta il valore del campo da settare su l'attributo info.
 				\end{itemize}
 		\end{description}
@@ -62,7 +62,7 @@
 \end{description}
 
 \begin{description}
-		\item[\texttt{+ get(field : String) : String			}] \hfill \\
+		\item[\textbf{+ get(field : String) : String			}] \hfill \\
 			restituisce il valore di un campo dell'attributo info.
 			
 		\begin{description}
@@ -70,7 +70,7 @@
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \texttt{field : String			} \hfill \\
+					\item \textbf{field : String			} \hfill \\
 					field identifica l'attributo info di cui si vuole venga restituito il valore.
 				\end{itemize}
 		\end{description}
@@ -78,7 +78,7 @@
 \end{description}
 
 \begin{description}
-		\item[\texttt{+ update(update : Collection) : GObject			}] \hfill \\
+		\item[\textbf{+ update(update : Collection) : GObject			}] \hfill \\
 			permette di aggiornare i campi dell'attributo info.
 			
 		\begin{description}
@@ -86,7 +86,7 @@
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \texttt{update : Collection			} \hfill \\
+					\item \textbf{update : Collection			} \hfill \\
 					update è un oggetto JSON che contiene chiave e valore dei campi che devono essere aggiornati. 
 				\end{itemize}
 		\end{description}
@@ -94,7 +94,7 @@
 \end{description}
 
 \begin{description}
-		\item[\texttt{+ initByJSON(JSONiniter : Collection) : GObject			}] \hfill \\
+		\item[\textbf{+ initByJSON(JSONiniter : Collection) : GObject			}] \hfill \\
 			permette di inizializzare l'attributo info tramite un oggetto JSON. 
 			
 		\begin{description}
@@ -102,7 +102,7 @@
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \texttt{JSONiniter : Collection			} \hfill \\
+					\item \textbf{JSONiniter : Collection			} \hfill \\
 					è un oggetto JSON che contiene chiave e valore di inizializzazione dei campi dell'attributo info. 
 				\end{itemize}
 		\end{description}
@@ -110,19 +110,19 @@
 \end{description}
 
 \begin{description}
-		\item[\texttt{+ initByDefault() : GObject			}] \hfill \\
+		\item[\textbf{+ initByDefault() : GObject			}] \hfill \\
 			permette di inizializzare i campi dell'attributo info con i parametri di default. 
 
 \end{description}
 
 \begin{description}
-		\item[\texttt{+ getJSON() : String			}] \hfill \\
+		\item[\textbf{+ getJSON() : String			}] \hfill \\
 			restituisce la collection dell'attributo info.
 
 \end{description}
 
 \begin{description}
-		\item[\texttt{+ resize(height : String, width : String) : GObject			}] \hfill \\
+		\item[\textbf{+ resize(height : String, width : String) : GObject			}] \hfill \\
 			permette di settare l'altezza e la larghezza del'oggetto.
 			
 		\begin{description}
@@ -130,9 +130,9 @@
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \texttt{height : String			} \hfill \\
+					\item \textbf{height : String			} \hfill \\
 					identifica il valore dell'altezza da settare sul campo height dell'attributo info;
-					\item \texttt{width : String			} \hfill \\
+					\item \textbf{width : String			} \hfill \\
 					identifica il valore dell'altezza da settare sul campo width dell'attributo info;				
 				\end{itemize}
 		\end{description}
@@ -140,7 +140,7 @@
 \end{description}
 
 \begin{description}
-		\item[\texttt{+ drag(deltaX : String, deltaY : String) : GObject			}] \hfill \\
+		\item[\textbf{+ drag(deltaX : String, deltaY : String) : GObject			}] \hfill \\
 			permette di settare la posizione dell'oggetto sull'asse x e y.
 			
 		\begin{description}
@@ -148,9 +148,9 @@
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \texttt{deltaX : String			} \hfill \\
+					\item \textbf{deltaX : String			} \hfill \\
 					identifica il valore della posizione sull'asse x da settare sul campo deltaX dell'attributo info.
-					\item \texttt{deltaY : String			} \hfill \\
+					\item \textbf{deltaY : String			} \hfill \\
 					identifica il valore della posizione sull'asse y da settare sul campo deltaY dell'attributo info;				
 				\end{itemize}
 		\end{description}
@@ -158,7 +158,7 @@
 \end{description}
 
 \begin{description}
-		\item[\texttt{+ setId(id : String) : GObject			}] \hfill \\
+		\item[\textbf{+ setId(id : String) : GObject			}] \hfill \\
 			permette di modificare o di settare l'id dell'oggetto
 			
 		\begin{description}
@@ -166,7 +166,7 @@
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \texttt{id : String			} \hfill \\
+					\item \textbf{id : String			} \hfill \\
 					identifica il valore dell'id da settare sul campo \_id dell'attributo info.
 				\end{itemize}
 		\end{description}
@@ -174,7 +174,7 @@
 \end{description}
 
 \begin{description}
-		\item[\texttt{+ getId()			}] \hfill \\
+		\item[\textbf{+ getId()			}] \hfill \\
 			restituisce l'id dell'oggetto.
 \end{description}
 
@@ -199,7 +199,7 @@
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\texttt{+ init(type : String) : GObject			}] \hfill \\
+		\item[\textbf{+ init(type : String) : GObject			}] \hfill \\
 			inizializza con i parametri di default un oggetto image, shape o text e ne restituisce il riferimento.
 			
 		\begin{description}
@@ -207,7 +207,7 @@
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \texttt{type : String			} \hfill \\
+					\item \textbf{type : String			} \hfill \\
 					identifica il tipo di oggetto da inizializzare.
 				\end{itemize}
 		\end{description}
@@ -216,7 +216,7 @@
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\texttt{+ initByJSON(GO : Collection) : GObject			}] \hfill \\
+		\item[\textbf{+ initByJSON(GO : Collection) : GObject			}] \hfill \\
 			inizializza con un oggetto JSON, un oggetto image, text o shape e ne restituisce il riferimento.
 			
 		\begin{description}
@@ -224,7 +224,7 @@
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \texttt{GO : Collection			} \hfill \\
+					\item \textbf{GO : Collection			} \hfill \\
 					è un oggetto JSON che serve per inizializzare l'oggetto da resituire come riferimento.
 				\end{itemize}
 		\end{description}
@@ -255,7 +255,7 @@
 %-------  lista degli Attributi%	
 \item[Attributi] \hfill \\
 	\begin{description}
-		\item[\texttt{- info : Collection			}] \hfill \\
+		\item[\textbf{- info : Collection			}] \hfill \\
 			l'attributo info è un oggetto JSON che estende l'attributo info ereditato da GObject. I campi aggiuntivi sono:
 	\begin{itemize}
 		\item \textit{backgroundColor:} rappresenta il colore di Background del frame;
@@ -264,11 +264,11 @@
 	\end{itemize}
 	\end{description}
 	\begin{description}
-		\item[\texttt{- selectedGO : GObject			}] \hfill \\
+		\item[\textbf{- selectedGO : GObject			}] \hfill \\
 			contiene l'oggetto GObject contenuto nel frame corrente selezionato dall'utente.  
 	\end{description}
 	\begin{description}
-		\item[\texttt{- saver : Saver			}] \hfill \\
+		\item[\textbf{- saver : Saver			}] \hfill \\
 			contiene un oggetto saver che permette di interfacciarsi con il database.  
 	\end{description}
 	
@@ -277,29 +277,597 @@
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\texttt{- findNewId() : String			}] \hfill \\
+		\item[\textbf{- findNewId() : String			}] \hfill \\
 			trova un nuovo id valido per il frame corrente.
 
 \end{description}
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\texttt{+ initByJSON(GO : Collection) : GObject			}] \hfill \\
-			inizializza con un oggetto JSON, un oggetto image, text o shape e ne restituisce il riferimento.
+		\item[\textbf{+ set(field : String, value : String) : void			}] \hfill \\
+			permette di settare un campo dell'attributo info.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \texttt{GO : Collection			} \hfill \\
-					è un oggetto JSON che serve per inizializzare l'oggetto da resituire come riferimento.
+					\item \textbf{field : String			} \hfill \\
+					field identifica il campo da settare di info;
+					\item \textbf{value : String			} \hfill \\
+					value rappresenta il valore del campo da settare su l'attributo info.
 				\end{itemize}
 		\end{description}
 
 \end{description}
 
+\begin{description}
+		\item[\textbf{+ get(field : String) : String			}] \hfill \\
+			restituisce il valore di un campo dell'attributo info.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{field : String			} \hfill \\
+					field identifica l'attributo info di cui si vuole venga restituito il valore.
+				\end{itemize}
+		\end{description}
+
 \end{description}
+
+\begin{description}
+		\item[\textbf{+ update(update : Collection) : frame			}] \hfill \\
+			permette di aggiornare i campi dell'attributo info.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{update : Collection			} \hfill \\
+					update è un oggetto JSON che contiene chiave e valore dei campi che devono essere aggiornati. 
+				\end{itemize}
+		\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ initByJSON(frameJSON : Collection, disableSaver: boolean) : frame			}] \hfill \\
+			permette di inizializzare l'attributo info tramite un oggetto JSON. 
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{frameJSON : Collection			} \hfill \\
+					è un oggetto JSON che contiene chiave e valore di inizializzazione dei campi dell'attributo info. 
+					\item \textbf{disableSaver : boolean			} \hfill \\
+					se è uguale a false il contenuto di frame non viene salvato. %da chiedere%  				
+				\end{itemize}
+		\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ initByDefault(disableSaver) : frame			}] \hfill \\
+			permette di inizializzare i campi dell'attributo info con i parametri di default. 
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{disableSaver : boolean			} \hfill \\
+					se è uguale a false il contenuto di frame non viene salvato. %da chiedere%  				
+				\end{itemize}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ getJSON() : String			}] \hfill \\
+			restituisce la collection dell'attributo info.
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ getType() : String			}] \hfill \\
+			restituisce la stringa "frame" per indicare che il tipo dell'oggetto è frame.
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ getGOContent() : Collection			}] \hfill \\
+			restituisce il contenuto della collezione content che è un insieme di oggetti JSON che fanno parte del frame.
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ selectGO(idGO) : GObject			}] \hfill \\
+			restituisce l'oggetto grafico con id = idGO contenuto all'interno del frame. 
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{idGO : String			} \hfill \\
+					valore dell'id dell'oggetto grafico da restituire.  				
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ deselectGO() : void			}] \hfill \\
+			deseleziona l'oggetto grafico portando a null l'attributo selectedGo. 
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ getSelectedGOType() : String			}] \hfill \\
+			restituisce il tipo dell'oggetto grafico selezionato.
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ addGO(GO : Collection, type : String) : frame			}] \hfill \\
+			aggiunge un oggetto di tipo type al frame e restituisce il riferimento del frame.  
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{GO : Collection			} \hfill \\
+					un oggetto JSON che serve per inizializzare l'oggetto da aggiungere al frame;
+					  	\item \textbf{type : String			} \hfill \\
+					  	contiene il tipo dell'oggetto da inserire nel frame.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+%da chiarire {%
+\begin{description}
+		\item[\textbf{+ removeSelectedGO(idGO : String) : frame			}] \hfill \\
+			deseleziona  
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{idGO : Collection			} \hfill \\
+					un oggetto JSON che serve per inizializzare l'oggetto da aggiungere al frame;
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+%}%
+
+\begin{description}
+		\item[\textbf{+ getGOJSON(idGO : String) : Collection			}] \hfill \\
+			restituisce l'oggetto JSON con id= idGO appartenente al frame.   
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{idGO : String			} \hfill \\
+					contiene l'id dell'oggetto che dev'essere restituito.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ updateSelectedGO(update : Collection) : Collection			}] \hfill \\
+			aggiorna i campi dell'oggetto selezionato.   
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{update : Collection			} \hfill \\
+					è un oggetto JSON che contiene chiave e valore dei campi da aggiornare dell'oggetto selezionato.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ resizeGO(resize : Collection, idGO : String) : void			}] \hfill \\
+			aggiorna i campi dell'oggetto con un determinato id, per permettere il ridimensionamento dell'oggetto.    
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+					\item \textbf{resize : Collection			} \hfill \\
+					è un oggetto JSON che contiene chiave e valore dei campi height, width, dataX e dataY per permettere di ridimensionare l'oggetto appartenente al frame;
+					\item \textbf{idGO : String			} \hfill \\
+					contiene l'id dell'oggetto da ridimensionare.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ dragGO(drag : Collection, idGO : String) : void			}] \hfill \\
+			aggiorna i campi dell'oggetto con un determinato id, per permettere lo spostamento dell'oggetto nel template grafico.    
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+					\item \textbf{drag : Collection			} \hfill \\
+					è un oggetto JSON che contiene chiave e valore dei campi dataX e dataY per permettere lo spostamento dell'oggetto appartenente al frame;
+					\item \textbf{idGO : String			} \hfill \\
+					contiene l'id dell'oggetto da spostare.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ updateGO(update : Collection, idGO : String) : void			}] \hfill \\
+			aggiorna i campi dell'oggetto con un determinato id appartenente al frame.  
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{update : Collection			} \hfill \\
+					è un oggetto JSON che contiene chiave e valore dei campi da aggiornare dell'oggetto con un determinato id;
+					\item \textbf{idGO : String			} \hfill \\
+					contiene l'id dell'oggetto da aggiornare.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description} % da chiarire %
+		\item[\textbf{+ save() : void			}] \hfill \\
+			salva le operazioni pendenti nel database.  
+
+\end{description}
+
+\begin{description} % da chiarire %
+		\item[\textbf{+ getBackgroundColor() : String			}] \hfill \\
+			restituisce il colore in formato esadecimale dello sfondo del frame.     
+
+\end{description}
+
+
+
+\end{description}
+
+\end{description}
+
+
+\subsubsection{premi/client/editor/lib/GOContainer}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.40]{img/diacla/GObject.png}
+\caption{Diagramma della classe premi/client/editor/GOContainer}
+\end{center}
+\end{figure}
+
+\begin{description}
+%-------  descrizione della classe%
+\item[Descrizione] \hfill \\
+	è una classe che rappresenta il contenitore degli oggetti che possono essere inseriti in un frame.
+	
+	\item[Classi ereditate] \hfill \\
+	\begin{itemize}
+		\item GObject
+	\end{itemize}
+	
+%-------  lista degli Attributi%	
+\item[Attributi] \hfill \\
+	\begin{description}
+		\item[\textbf{- info : Collection			}] \hfill \\
+			l'attributo info è un oggetto JSON che estende l'attributo info ereditato da GObject. I campi aggiuntivi sono:
+	\begin{itemize}
+		\item \textit{background:} è un oggetto JSON che contiene i seguenti campi:
+		\begin{itemize}
+			\item \textit{image:} definisce il percorso dell'immagine di background;
+			\item \textit{size:} definisce la grandezza dell'immagine di background;
+			\item \textit{color:} definisce il colore di background;
+			\item \textit{repeat:} definisce il metodo di ripetizione dello sfondo di background;
+			\item \textit{type:} definisce il nome del tipo dell'oggetto.
+		\end{itemize}		
+		\item \textit{content:} è un oggetto JSON che contiene gli oggetti che fanno parte del frame;
+		\item \textit{idpres:} identifica l'id della presentazione a cui si riferisce.
+		\item \textit{owner:} %da chiarire%;
+	\end{itemize}
+	\end{description}
+	\begin{description}
+		\item[\textbf{- selectedGO : GObject			}] \hfill \\
+			contiene l'oggetto GObject contenuto nel frame corrente selezionato dall'utente.  
+	\end{description}
+	
+%-------  lista dei metodi
+\item[Metodi] \hfill \\
+
+\begin{description}
+		\item[\textbf{- findNewId() : String			}] \hfill \\
+			trova un nuovo id valido per il frame corrente.
+
+\end{description}
+
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{+ set(field : String, value : String) : void			}] \hfill \\
+			permette di settare un campo dell'attributo info.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{field : String			} \hfill \\
+					field identifica il campo da settare di info;
+					\item \textbf{value : String			} \hfill \\
+					value rappresenta il valore del campo da settare su l'attributo info.
+				\end{itemize}
+		\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ get(field : String) : String			}] \hfill \\
+			restituisce il valore di un campo dell'attributo info.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{field : String			} \hfill \\
+					field identifica l'attributo info di cui si vuole venga restituito il valore.
+				\end{itemize}
+		\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ update(update : Collection) : frame			}] \hfill \\
+			permette di aggiornare i campi dell'attributo info.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{update : Collection			} \hfill \\
+					update è un oggetto JSON che contiene chiave e valore dei campi che devono essere aggiornati. 
+				\end{itemize}
+		\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ initByJSON(frameJSON : Collection, disableSaver: boolean) : frame			}] \hfill \\
+			permette di inizializzare l'attributo info tramite un oggetto JSON. 
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{frameJSON : Collection			} \hfill \\
+					è un oggetto JSON che contiene chiave e valore di inizializzazione dei campi dell'attributo info. 
+					\item \textbf{disableSaver : boolean			} \hfill \\
+					se è uguale a false il contenuto di frame non viene salvato. %da chiedere%  				
+				\end{itemize}
+		\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ initByDefault(disableSaver) : frame			}] \hfill \\
+			permette di inizializzare i campi dell'attributo info con i parametri di default. 
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{disableSaver : boolean			} \hfill \\
+					se è uguale a false il contenuto di frame non viene salvato. %da chiedere%  				
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ getGOContent() : Collection			}] \hfill \\
+			restituisce il contenuto della collezione content che è un insieme di oggetti JSON che fanno parte del frame.
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ selectGO(idGO) : GObject			}] \hfill \\
+			restituisce l'oggetto grafico con id = idGO contenuto all'interno del frame. 
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{idGO : String			} \hfill \\
+					valore dell'id dell'oggetto grafico da restituire.  				
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ deselectGO() : void			}] \hfill \\
+			deseleziona l'oggetto grafico portando a null l'attributo selectedGo. 
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ getSelectedGOId() : String			}] \hfill \\
+			restituisce l'id dell'oggetto grafico selezionato.
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ getSelectedGOType() : String			}] \hfill \\
+			restituisce il tipo dell'oggetto grafico selezionato.
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ getSelectedGO() : String			}] \hfill \\
+			restituisce l'oggetto grafico selezionato.
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ setSelectedGO(concreteGObj : GObject) : frame			}] \hfill \\
+			setta l'oggetto concreteGObj come oggetto selezionato.  
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{concreteGObj : GObject			} \hfill \\
+					oggetto GObject.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ addGO(GO : Collection, type : String) : frame			}] \hfill \\
+			aggiunge un oggetto di tipo type al frame e restituisce il riferimento del frame.  
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{GO : Collection			} \hfill \\
+					un oggetto JSON che serve per inizializzare l'oggetto da aggiungere al frame;
+					  	\item \textbf{type : String			} \hfill \\
+					  	contiene il tipo dell'oggetto da inserire nel frame.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+%da chiarire {%
+\begin{description}
+		\item[\textbf{+ removeSelectedGO(idGO : String) : frame			}] \hfill \\
+			deseleziona  
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{idGO : Collection			} \hfill \\
+					un oggetto JSON che serve per inizializzare l'oggetto da aggiungere al frame;
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+%}%
+
+\begin{description}
+		\item[\textbf{+ getGOJSON(idGO : String) : Collection			}] \hfill \\
+			restituisce l'oggetto JSON con id= idGO appartenente al frame.   
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{idGO : String			} \hfill \\
+					contiene l'id dell'oggetto che dev'essere restituito.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ updateSelectedGO(update : Collection) : Collection			}] \hfill \\
+			aggiorna i campi dell'oggetto selezionato.   
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{update : Collection			} \hfill \\
+					è un oggetto JSON che contiene chiave e valore dei campi da aggiornare dell'oggetto selezionato.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ resizeGO(resize : Collection, idGO : String) : void			}] \hfill \\
+			aggiorna i campi dell'oggetto con un determinato id, per permettere il ridimensionamento dell'oggetto.    
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+					\item \textbf{resize : Collection			} \hfill \\
+					è un oggetto JSON che contiene chiave e valore dei campi height, width, dataX e dataY per permettere di ridimensionare l'oggetto appartenente al frame;
+					\item \textbf{idGO : String			} \hfill \\
+					contiene l'id dell'oggetto da ridimensionare.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ dragGO(drag : Collection, idGO : String) : void			}] \hfill \\
+			aggiorna i campi dell'oggetto con un determinato id, per permettere lo spostamento dell'oggetto nel template grafico.    
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+					\item \textbf{drag : Collection			} \hfill \\
+					è un oggetto JSON che contiene chiave e valore dei campi dataX e dataY per permettere lo spostamento dell'oggetto appartenente al frame;
+					\item \textbf{idGO : String			} \hfill \\
+					contiene l'id dell'oggetto da spostare.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+\begin{description}
+		\item[\textbf{+ updateGO(update : Collection, idGO : String) : void			}] \hfill \\
+			aggiorna i campi dell'oggetto con un determinato id appartenente al frame.  
+
+\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+						\item \textbf{update : Collection			} \hfill \\
+					è un oggetto JSON che contiene chiave e valore dei campi da aggiornare dell'oggetto con un determinato id;
+					\item \textbf{idGO : String			} \hfill \\
+					contiene l'id dell'oggetto da aggiornare.
+				\end{itemize}
+
+\end{description}
+
+\end{description}
+
+
+
+\end{description}
+
+
 
 
 

@@ -1,4 +1,5 @@
 \select@language {italian}
+\select@language {italian}
 \contentsline {section}{\numberline {1}Introduzione}{6}{section.1}
 \contentsline {subsection}{\numberline {1.1}Scopo del documento}{6}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Scopo del prodotto}{6}{subsection.1.2}
@@ -52,72 +53,73 @@
 \contentsline {subsubsection}{\numberline {5.5.9}premi/client/presentationManager/controllers/presentationsCtrl}{23}{subsubsection.5.5.9}
 \contentsline {subsubsection}{\numberline {5.5.10}premi/client/presentationManager/controllers/removePresentationCtrl}{23}{subsubsection.5.5.10}
 \contentsline {subsection}{\numberline {5.6}Premi/client/editor}{24}{subsection.5.6}
-\contentsline {subsubsection}{\numberline {5.6.1}Premi/client/editor/lib/gObject}{24}{subsubsection.5.6.1}
-\contentsline {subsubsection}{\numberline {5.6.2}Premi/client/editor/lib/gOContainer}{24}{subsubsection.5.6.2}
-\contentsline {subsubsection}{\numberline {5.6.3}Premi/client/editor/lib/text}{25}{subsubsection.5.6.3}
-\contentsline {subsubsection}{\numberline {5.6.4}Premi/client/editor/lib/image}{25}{subsubsection.5.6.4}
-\contentsline {subsubsection}{\numberline {5.6.5}Premi/client/editor/lib/shape}{25}{subsubsection.5.6.5}
-\contentsline {subsubsection}{\numberline {5.6.6}Premi/client/editor/lib/frame}{25}{subsubsection.5.6.6}
-\contentsline {subsubsection}{\numberline {5.6.7}Premi/client/editor/lib/infographic}{26}{subsubsection.5.6.7}
-\contentsline {subsubsection}{\numberline {5.6.8}Premi/client/editor/lib/saver}{26}{subsubsection.5.6.8}
-\contentsline {subsection}{\numberline {5.7}Premi/client/frameEditor}{26}{subsection.5.7}
-\contentsline {subsubsection}{\numberline {5.7.1}Premi/client/frameEditor/views/frame.ng}{26}{subsubsection.5.7.1}
+\contentsline {subsubsection}{\numberline {5.6.1}Premi/client/editor/lib/GObject}{24}{subsubsection.5.6.1}
+\contentsline {subsubsection}{\numberline {5.6.2}Premi/client/editor/lib/GOProvider}{24}{subsubsection.5.6.2}
+\contentsline {subsubsection}{\numberline {5.6.3}Premi/client/editor/lib/GOContainer}{25}{subsubsection.5.6.3}
+\contentsline {subsubsection}{\numberline {5.6.4}Premi/client/editor/lib/text}{25}{subsubsection.5.6.4}
+\contentsline {subsubsection}{\numberline {5.6.5}Premi/client/editor/lib/image}{25}{subsubsection.5.6.5}
+\contentsline {subsubsection}{\numberline {5.6.6}Premi/client/editor/lib/shape}{25}{subsubsection.5.6.6}
+\contentsline {subsubsection}{\numberline {5.6.7}Premi/client/editor/lib/frame}{26}{subsubsection.5.6.7}
+\contentsline {subsubsection}{\numberline {5.6.8}Premi/client/editor/lib/infographic}{26}{subsubsection.5.6.8}
+\contentsline {subsubsection}{\numberline {5.6.9}Premi/client/editor/lib/saver}{26}{subsubsection.5.6.9}
+\contentsline {subsection}{\numberline {5.7}Premi/client/frameEditor}{27}{subsection.5.7}
+\contentsline {subsubsection}{\numberline {5.7.1}Premi/client/frameEditor/views/frame.ng}{27}{subsubsection.5.7.1}
 \contentsline {subsubsection}{\numberline {5.7.2}Premi/client/frameEditor/views/toolbar.ng}{27}{subsubsection.5.7.2}
 \contentsline {subsubsection}{\numberline {5.7.3}Premi/client/frameEditor/controllers/frameEditorCtrl}{27}{subsubsection.5.7.3}
-\contentsline {subsection}{\numberline {5.8}Premi/client/infographicEditor}{28}{subsection.5.8}
-\contentsline {subsubsection}{\numberline {5.8.1}Premi/client/infographicEditor/views/infographic.ng}{28}{subsubsection.5.8.1}
-\contentsline {subsubsection}{\numberline {5.8.2}Premi/client/infographicEditor/views/frameList.ng}{28}{subsubsection.5.8.2}
-\contentsline {subsubsection}{\numberline {5.8.3}Premi/client/infographicEditor/controllers/infographicEditorCtrl}{28}{subsubsection.5.8.3}
-\contentsline {subsection}{\numberline {5.9}Premi/client/trailsEditor}{29}{subsection.5.9}
-\contentsline {subsubsection}{\numberline {5.9.1}Premi/client/trailsEditor/views/basicToolbar.ng}{29}{subsubsection.5.9.1}
-\contentsline {subsubsection}{\numberline {5.9.2}Premi/client/trailsEditor/views/editTrail.ng}{29}{subsubsection.5.9.2}
-\contentsline {subsubsection}{\numberline {5.9.3}Premi/client/trailsEditor/views/listTrail.ng}{30}{subsubsection.5.9.3}
-\contentsline {subsubsection}{\numberline {5.9.4}Premi/client/trailsEditor/views/modTrail.ng}{30}{subsubsection.5.9.4}
-\contentsline {subsubsection}{\numberline {5.9.5}Premi/client/trailsEditor/views/newTrail.ng}{30}{subsubsection.5.9.5}
-\contentsline {subsubsection}{\numberline {5.9.6}Premi/client/trailsEditor/views/removeTrail.ng}{30}{subsubsection.5.9.6}
-\contentsline {subsubsection}{\numberline {5.9.7}Premi/client/trailsEditor/controllers/basicToolbarCtrl}{30}{subsubsection.5.9.7}
-\contentsline {subsubsection}{\numberline {5.9.8}Premi/client/trailsEditor/controllers/editTrailCtrl}{31}{subsubsection.5.9.8}
-\contentsline {subsubsection}{\numberline {5.9.9}Premi/client/trailsEditor/controllers/listTrailCtrl}{31}{subsubsection.5.9.9}
-\contentsline {subsubsection}{\numberline {5.9.10}Premi/client/trailsEditor/controllers/modTrailCtrl}{31}{subsubsection.5.9.10}
-\contentsline {subsubsection}{\numberline {5.9.11}Premi/client/trailsEditor/controllers/newTrailCtrl}{31}{subsubsection.5.9.11}
-\contentsline {subsubsection}{\numberline {5.9.12}Premi/client/trailsEditor/controllers/removeTrailCtrl}{32}{subsubsection.5.9.12}
-\contentsline {subsubsection}{\numberline {5.9.13}Premi/client/trailsEditor/controllers/trailsCtrl}{32}{subsubsection.5.9.13}
-\contentsline {subsection}{\numberline {5.10}Premi/client/viewer}{32}{subsection.5.10}
-\contentsline {subsubsection}{\numberline {5.10.1}Premi/client/viewer/views/trails.ng}{33}{subsubsection.5.10.1}
-\contentsline {subsubsection}{\numberline {5.10.2}Premi/client/viewer/views/viewer.ng}{33}{subsubsection.5.10.2}
-\contentsline {subsubsection}{\numberline {5.10.3}premi/client/viewer/controllers/trailsCtrl}{33}{subsubsection.5.10.3}
-\contentsline {subsubsection}{\numberline {5.10.4}premi/client/viewer/controllers/viewerCtrl}{33}{subsubsection.5.10.4}
-\contentsline {section}{\numberline {6}Diagrammi delle attivit\IeC {\`a}}{34}{section.6}
-\contentsline {subsection}{\numberline {6.1}Attivit\IeC {\`a} principali}{34}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Lista presentazioni}{35}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Login}{36}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Registrazione}{37}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Cambio password}{38}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Visualizzatore}{39}{subsection.6.6}
-\contentsline {subsection}{\numberline {6.7}Esegui presentazione proprietario}{40}{subsection.6.7}
-\contentsline {subsection}{\numberline {6.8}Esegui presentazione non proprietario}{42}{subsection.6.8}
-\contentsline {subsection}{\numberline {6.9}Creazione presentazione}{43}{subsection.6.9}
-\contentsline {subsection}{\numberline {6.10}Modifica titolo e descrizione presentazione}{44}{subsection.6.10}
-\contentsline {subsection}{\numberline {6.11}Pubblicazione presentazione}{45}{subsection.6.11}
-\contentsline {subsection}{\numberline {6.12}Elimina presentazione}{46}{subsection.6.12}
-\contentsline {subsection}{\numberline {6.13}Esportazione presentazione}{47}{subsection.6.13}
-\contentsline {subsection}{\numberline {6.14}Rendi portable}{48}{subsection.6.14}
-\contentsline {subsection}{\numberline {6.15}Modifica presentazione}{49}{subsection.6.15}
-\contentsline {subsection}{\numberline {6.16}Frame editor}{50}{subsection.6.16}
-\contentsline {subsection}{\numberline {6.17}Modifica frame}{51}{subsection.6.17}
-\contentsline {subsection}{\numberline {6.18}Infografica editor}{52}{subsection.6.18}
-\contentsline {subsection}{\numberline {6.19}Modifica infografica}{53}{subsection.6.19}
-\contentsline {subsection}{\numberline {6.20}Editor percorsi}{54}{subsection.6.20}
-\contentsline {subsection}{\numberline {6.21}Modifica percorso}{55}{subsection.6.21}
-\contentsline {subsection}{\numberline {6.22}Aggiungi frame}{56}{subsection.6.22}
-\contentsline {subsection}{\numberline {6.23}Rimuovi frame da percorso}{57}{subsection.6.23}
-\contentsline {section}{\numberline {7}Stime di fattibilit\IeC {\`a} e di bisogno di risorse}{58}{section.7}
-\contentsline {section}{\numberline {8}Tracciamento requisiti-componenti}{59}{section.8}
-\contentsline {section}{\numberline {9}Tracciamento componenti-requisiti}{76}{section.9}
-\contentsline {section}{\numberline {10}Design Pattern}{82}{section.10}
-\contentsline {subsection}{\numberline {10.1}Design Pattern Architetturali}{82}{subsection.10.1}
-\contentsline {subsubsection}{\numberline {10.1.1}MVC - Model View Controller}{82}{subsubsection.10.1.1}
-\contentsline {subsubsection}{\numberline {10.1.2}MVVM - Model View ViewModel}{83}{subsubsection.10.1.2}
-\contentsline {subsubsection}{\numberline {10.1.3}Dependency Injection}{84}{subsubsection.10.1.3}
-\contentsline {subsection}{\numberline {10.2}Design Pattern Creazionali}{85}{subsection.10.2}
-\contentsline {subsubsection}{\numberline {10.2.1}Factory Method}{85}{subsubsection.10.2.1}
+\contentsline {subsection}{\numberline {5.8}Premi/client/infographicEditor}{29}{subsection.5.8}
+\contentsline {subsubsection}{\numberline {5.8.1}Premi/client/infographicEditor/views/infographic.ng}{29}{subsubsection.5.8.1}
+\contentsline {subsubsection}{\numberline {5.8.2}Premi/client/infographicEditor/views/frameList.ng}{29}{subsubsection.5.8.2}
+\contentsline {subsubsection}{\numberline {5.8.3}Premi/client/infographicEditor/controllers/infographicEditorCtrl}{29}{subsubsection.5.8.3}
+\contentsline {subsection}{\numberline {5.9}Premi/client/trailsEditor}{30}{subsection.5.9}
+\contentsline {subsubsection}{\numberline {5.9.1}Premi/client/trailsEditor/views/basicToolbar.ng}{30}{subsubsection.5.9.1}
+\contentsline {subsubsection}{\numberline {5.9.2}Premi/client/trailsEditor/views/editTrail.ng}{30}{subsubsection.5.9.2}
+\contentsline {subsubsection}{\numberline {5.9.3}Premi/client/trailsEditor/views/listTrail.ng}{31}{subsubsection.5.9.3}
+\contentsline {subsubsection}{\numberline {5.9.4}Premi/client/trailsEditor/views/modTrail.ng}{31}{subsubsection.5.9.4}
+\contentsline {subsubsection}{\numberline {5.9.5}Premi/client/trailsEditor/views/newTrail.ng}{31}{subsubsection.5.9.5}
+\contentsline {subsubsection}{\numberline {5.9.6}Premi/client/trailsEditor/views/removeTrail.ng}{31}{subsubsection.5.9.6}
+\contentsline {subsubsection}{\numberline {5.9.7}Premi/client/trailsEditor/controllers/basicToolbarCtrl}{31}{subsubsection.5.9.7}
+\contentsline {subsubsection}{\numberline {5.9.8}Premi/client/trailsEditor/controllers/editTrailCtrl}{32}{subsubsection.5.9.8}
+\contentsline {subsubsection}{\numberline {5.9.9}Premi/client/trailsEditor/controllers/listTrailCtrl}{32}{subsubsection.5.9.9}
+\contentsline {subsubsection}{\numberline {5.9.10}Premi/client/trailsEditor/controllers/modTrailCtrl}{32}{subsubsection.5.9.10}
+\contentsline {subsubsection}{\numberline {5.9.11}Premi/client/trailsEditor/controllers/newTrailCtrl}{32}{subsubsection.5.9.11}
+\contentsline {subsubsection}{\numberline {5.9.12}Premi/client/trailsEditor/controllers/removeTrailCtrl}{33}{subsubsection.5.9.12}
+\contentsline {subsubsection}{\numberline {5.9.13}Premi/client/trailsEditor/controllers/trailsCtrl}{33}{subsubsection.5.9.13}
+\contentsline {subsection}{\numberline {5.10}Premi/client/viewer}{33}{subsection.5.10}
+\contentsline {subsubsection}{\numberline {5.10.1}Premi/client/viewer/views/trails.ng}{34}{subsubsection.5.10.1}
+\contentsline {subsubsection}{\numberline {5.10.2}Premi/client/viewer/views/viewer.ng}{34}{subsubsection.5.10.2}
+\contentsline {subsubsection}{\numberline {5.10.3}premi/client/viewer/controllers/trailsCtrl}{34}{subsubsection.5.10.3}
+\contentsline {subsubsection}{\numberline {5.10.4}premi/client/viewer/controllers/viewerCtrl}{34}{subsubsection.5.10.4}
+\contentsline {section}{\numberline {6}Diagrammi delle attivit\IeC {\`a}}{35}{section.6}
+\contentsline {subsection}{\numberline {6.1}Attivit\IeC {\`a} principali}{35}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Lista presentazioni}{36}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Login}{37}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Registrazione}{38}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Cambio password}{39}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Visualizzatore}{40}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Esegui presentazione proprietario}{41}{subsection.6.7}
+\contentsline {subsection}{\numberline {6.8}Esegui presentazione non proprietario}{43}{subsection.6.8}
+\contentsline {subsection}{\numberline {6.9}Creazione presentazione}{44}{subsection.6.9}
+\contentsline {subsection}{\numberline {6.10}Modifica titolo e descrizione presentazione}{45}{subsection.6.10}
+\contentsline {subsection}{\numberline {6.11}Pubblicazione presentazione}{46}{subsection.6.11}
+\contentsline {subsection}{\numberline {6.12}Elimina presentazione}{47}{subsection.6.12}
+\contentsline {subsection}{\numberline {6.13}Esportazione presentazione}{48}{subsection.6.13}
+\contentsline {subsection}{\numberline {6.14}Rendi portable}{49}{subsection.6.14}
+\contentsline {subsection}{\numberline {6.15}Modifica presentazione}{50}{subsection.6.15}
+\contentsline {subsection}{\numberline {6.16}Frame editor}{51}{subsection.6.16}
+\contentsline {subsection}{\numberline {6.17}Modifica frame}{52}{subsection.6.17}
+\contentsline {subsection}{\numberline {6.18}Infografica editor}{53}{subsection.6.18}
+\contentsline {subsection}{\numberline {6.19}Modifica infografica}{54}{subsection.6.19}
+\contentsline {subsection}{\numberline {6.20}Editor percorsi}{55}{subsection.6.20}
+\contentsline {subsection}{\numberline {6.21}Modifica percorso}{56}{subsection.6.21}
+\contentsline {subsection}{\numberline {6.22}Aggiungi frame}{57}{subsection.6.22}
+\contentsline {subsection}{\numberline {6.23}Rimuovi frame da percorso}{58}{subsection.6.23}
+\contentsline {section}{\numberline {7}Stime di fattibilit\IeC {\`a} e di bisogno di risorse}{59}{section.7}
+\contentsline {section}{\numberline {8}Tracciamento requisiti-componenti}{60}{section.8}
+\contentsline {section}{\numberline {9}Tracciamento componenti-requisiti}{77}{section.9}
+\contentsline {section}{\numberline {10}Design Pattern}{83}{section.10}
+\contentsline {subsection}{\numberline {10.1}Design Pattern Architetturali}{83}{subsection.10.1}
+\contentsline {subsubsection}{\numberline {10.1.1}MVC - Model View Controller}{83}{subsubsection.10.1.1}
+\contentsline {subsubsection}{\numberline {10.1.2}MVVM - Model View ViewModel}{84}{subsubsection.10.1.2}
+\contentsline {subsubsection}{\numberline {10.1.3}Dependency Injection}{85}{subsubsection.10.1.3}
+\contentsline {subsection}{\numberline {10.2}Design Pattern Creazionali}{86}{subsection.10.2}
+\contentsline {subsubsection}{\numberline {10.2.1}Factory Method}{86}{subsubsection.10.2.1}
