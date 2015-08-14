@@ -9,16 +9,19 @@
 \contentsline {section}{\numberline {2}Standard di Progetto}{5}{section.2}
 \contentsline {section}{\numberline {3}Specifica componenti}{5}{section.3}
 \contentsline {subsection}{\numberline {3.1}premi/server}{5}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}premi/client/}{5}{subsubsection.3.1.1}
-\contentsline {subsection}{\numberline {3.2}premi/client}{6}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}premi/client/header}{6}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}premi/client/presentation}{6}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}premi/client/presentationManager}{6}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}premi/client/editor}{6}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}premi/client/frameEditor}{6}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}premi/client/infographicEditor}{6}{subsection.3.8}
-\contentsline {subsection}{\numberline {3.9}premi/client/trailsEditor}{6}{subsection.3.9}
-\contentsline {subsection}{\numberline {3.10}premi/client/userManager}{6}{subsection.3.10}
-\contentsline {subsection}{\numberline {3.11}premi/client/viewer}{6}{subsection.3.11}
-\contentsline {section}{\numberline {4}Tracciamento}{6}{section.4}
-\contentsline {section}{\numberline {5}Diagrammi di Sequenza}{6}{section.5}
+\contentsline {subsubsection}{\numberline {3.1.1}premi/server/publish}{5}{subsubsection.3.1.1}
+\contentsline {subsection}{\numberline {3.2}premi/client}{19}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}premi/client/header}{19}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}premi/client/presentation}{19}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}premi/client/presentationManager}{19}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}premi/client/editor}{19}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}premi/client/editor/lib/GObject}{19}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}premi/client/editor/lib/GOProvider}{21}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}premi/client/editor/lib/frame}{22}{subsubsection.3.6.3}
+\contentsline {subsection}{\numberline {3.7}premi/client/frameEditor}{23}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}premi/client/infographicEditor}{23}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}premi/client/trailsEditor}{23}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10}premi/client/userManager}{23}{subsection.3.10}
+\contentsline {subsection}{\numberline {3.11}premi/client/viewer}{23}{subsection.3.11}
+\contentsline {section}{\numberline {4}Tracciamento}{23}{section.4}
+\contentsline {section}{\numberline {5}Diagrammi di Sequenza}{23}{section.5}
