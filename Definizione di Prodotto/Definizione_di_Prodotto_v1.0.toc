@@ -13,15 +13,24 @@
 \contentsline {subsection}{\numberline {3.2}premi/client}{19}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}premi/client/presentation}{19}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}premi/client/presentationManager}{19}{subsection.3.4}
-\contentsline {subsubsection}{\numberline {3.4.1}premi/client/}{19}{subsubsection.3.4.1}
-\contentsline {subsection}{\numberline {3.5}premi/client/editor}{21}{subsection.3.5}
-\contentsline {subsubsection}{\numberline {3.5.1}premi/client/editor/lib/GObject}{21}{subsubsection.3.5.1}
-\contentsline {subsubsection}{\numberline {3.5.2}premi/client/editor/lib/GOProvider}{24}{subsubsection.3.5.2}
-\contentsline {subsubsection}{\numberline {3.5.3}premi/client/editor/lib/frame}{25}{subsubsection.3.5.3}
-\contentsline {subsection}{\numberline {3.6}premi/client/frameEditor}{26}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}premi/client/infographicEditor}{26}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}premi/client/trailsEditor}{26}{subsection.3.8}
-\contentsline {subsection}{\numberline {3.9}premi/client/userManager}{26}{subsection.3.9}
-\contentsline {subsection}{\numberline {3.10}premi/client/viewer}{26}{subsection.3.10}
-\contentsline {section}{\numberline {4}Tracciamento}{26}{section.4}
-\contentsline {section}{\numberline {5}Diagrammi di Sequenza}{26}{section.5}
+\contentsline {subsubsection}{\numberline {3.4.1}premi/client/presentationManager/views/editPresentation.ng}{19}{subsubsection.3.4.1}
+\contentsline {subsubsection}{\numberline {3.4.2}premi/client/presentationManager/views/newPresentation.ng}{20}{subsubsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.3}premi/client/presentationManager/views/presentationManager.ng}{20}{subsubsection.3.4.3}
+\contentsline {subsubsection}{\numberline {3.4.4}premi/client/presentationManager/views/presentations.ng}{20}{subsubsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.5}premi/client/presentationManager/views/removePresentation.ng}{21}{subsubsection.3.4.5}
+\contentsline {subsubsection}{\numberline {3.4.6}premi/client/presentationManager/controllers/editPresentationCtrl}{21}{subsubsection.3.4.6}
+\contentsline {subsubsection}{\numberline {3.4.7}premi/client/presentationManager/controllers/newPresentationCtrl}{22}{subsubsection.3.4.7}
+\contentsline {subsubsection}{\numberline {3.4.8}premi/client/presentationManager/controllers/presentationManagerCtrl}{23}{subsubsection.3.4.8}
+\contentsline {subsubsection}{\numberline {3.4.9}premi/client/presentationManager/controllers/presentationsCtrl}{24}{subsubsection.3.4.9}
+\contentsline {subsubsection}{\numberline {3.4.10}premi/client/presentationManager/controllers/removePresentationCtrl}{24}{subsubsection.3.4.10}
+\contentsline {subsection}{\numberline {3.5}premi/client/editor}{25}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}premi/client/editor/lib/GObject}{26}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}premi/client/editor/lib/GOProvider}{28}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}premi/client/editor/lib/frame}{29}{subsubsection.3.5.3}
+\contentsline {subsection}{\numberline {3.6}premi/client/frameEditor}{31}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}premi/client/infographicEditor}{31}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}premi/client/trailsEditor}{31}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}premi/client/userManager}{31}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10}premi/client/viewer}{31}{subsection.3.10}
+\contentsline {section}{\numberline {4}Tracciamento}{31}{section.4}
+\contentsline {section}{\numberline {5}Diagrammi di Sequenza}{31}{section.5}

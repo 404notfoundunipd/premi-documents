@@ -1,9 +1,13 @@
 \select@language {italian}
 \contentsline {figure}{\numberline {1}{\ignorespaces Diagramma del package premi/client\relax }}{5}{figure.caption.5}
 \contentsline {figure}{\numberline {2}{\ignorespaces Diagramma della classe premi/server/publish\relax }}{5}{figure.caption.6}
-\contentsline {figure}{\numberline {3}{\ignorespaces Diagramma del package premi/client\relax }}{19}{figure.caption.7}
-\contentsline {figure}{\numberline {4}{\ignorespaces Diagramma della classe premi/client/\relax }}{20}{figure.caption.8}
-\contentsline {figure}{\numberline {5}{\ignorespaces Diagramma della classe premi/client/editor\relax }}{21}{figure.caption.9}
-\contentsline {figure}{\numberline {6}{\ignorespaces Diagramma della classe premi/client/editor/GObject\relax }}{21}{figure.caption.10}
-\contentsline {figure}{\numberline {7}{\ignorespaces Diagramma della classe premi/client/editor/GObject\relax }}{24}{figure.caption.11}
-\contentsline {figure}{\numberline {8}{\ignorespaces Diagramma della classe premi/client/editor/GObject\relax }}{25}{figure.caption.12}
+\contentsline {figure}{\numberline {3}{\ignorespaces Diagramma del package premi/client/presentationManager\relax }}{19}{figure.caption.7}
+\contentsline {figure}{\numberline {4}{\ignorespaces Diagramma della classe premi/client/presentationManager/editPresentationCtrl\relax }}{21}{figure.caption.8}
+\contentsline {figure}{\numberline {5}{\ignorespaces Diagramma della classe premi/client/presentationManager/newPresentationCtrl\relax }}{22}{figure.caption.9}
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagramma della classe premi/client/presentationManager/controllers/presentationManagerCtrl\relax }}{23}{figure.caption.10}
+\contentsline {figure}{\numberline {7}{\ignorespaces Diagramma della classe premi/client/presentationManager/controllers/presentationsCtrl\relax }}{24}{figure.caption.11}
+\contentsline {figure}{\numberline {8}{\ignorespaces Diagramma della classe premi/client/presentationManager/removePresentationCtrl\relax }}{24}{figure.caption.12}
+\contentsline {figure}{\numberline {9}{\ignorespaces Diagramma della classe premi/client/editor\relax }}{25}{figure.caption.13}
+\contentsline {figure}{\numberline {10}{\ignorespaces Diagramma della classe premi/client/editor/GObject\relax }}{26}{figure.caption.14}
+\contentsline {figure}{\numberline {11}{\ignorespaces Diagramma della classe premi/client/editor/GObject\relax }}{29}{figure.caption.15}
+\contentsline {figure}{\numberline {12}{\ignorespaces Diagramma della classe premi/client/editor/GObject\relax }}{29}{figure.caption.16}

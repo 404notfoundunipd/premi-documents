@@ -12,15 +12,24 @@
 \BOOKMARK [2][-]{subsection.3.2}{premi/client}{section.3}% 12
 \BOOKMARK [2][-]{subsection.3.3}{premi/client/presentation}{section.3}% 13
 \BOOKMARK [2][-]{subsection.3.4}{premi/client/presentationManager}{section.3}% 14
-\BOOKMARK [3][-]{subsubsection.3.4.1}{premi/client/}{subsection.3.4}% 15
-\BOOKMARK [2][-]{subsection.3.5}{premi/client/editor}{section.3}% 16
-\BOOKMARK [3][-]{subsubsection.3.5.1}{premi/client/editor/lib/GObject}{subsection.3.5}% 17
-\BOOKMARK [3][-]{subsubsection.3.5.2}{premi/client/editor/lib/GOProvider}{subsection.3.5}% 18
-\BOOKMARK [3][-]{subsubsection.3.5.3}{premi/client/editor/lib/frame}{subsection.3.5}% 19
-\BOOKMARK [2][-]{subsection.3.6}{premi/client/frameEditor}{section.3}% 20
-\BOOKMARK [2][-]{subsection.3.7}{premi/client/infographicEditor}{section.3}% 21
-\BOOKMARK [2][-]{subsection.3.8}{premi/client/trailsEditor}{section.3}% 22
-\BOOKMARK [2][-]{subsection.3.9}{premi/client/userManager}{section.3}% 23
-\BOOKMARK [2][-]{subsection.3.10}{premi/client/viewer}{section.3}% 24
-\BOOKMARK [1][-]{section.4}{Tracciamento}{}% 25
-\BOOKMARK [1][-]{section.5}{Diagrammi di Sequenza}{}% 26
+\BOOKMARK [3][-]{subsubsection.3.4.1}{premi/client/presentationManager/views/editPresentation.ng}{subsection.3.4}% 15
+\BOOKMARK [3][-]{subsubsection.3.4.2}{premi/client/presentationManager/views/newPresentation.ng}{subsection.3.4}% 16
+\BOOKMARK [3][-]{subsubsection.3.4.3}{premi/client/presentationManager/views/presentationManager.ng}{subsection.3.4}% 17
+\BOOKMARK [3][-]{subsubsection.3.4.4}{premi/client/presentationManager/views/presentations.ng}{subsection.3.4}% 18
+\BOOKMARK [3][-]{subsubsection.3.4.5}{premi/client/presentationManager/views/removePresentation.ng}{subsection.3.4}% 19
+\BOOKMARK [3][-]{subsubsection.3.4.6}{premi/client/presentationManager/controllers/editPresentationCtrl}{subsection.3.4}% 20
+\BOOKMARK [3][-]{subsubsection.3.4.7}{premi/client/presentationManager/controllers/newPresentationCtrl}{subsection.3.4}% 21
+\BOOKMARK [3][-]{subsubsection.3.4.8}{premi/client/presentationManager/controllers/presentationManagerCtrl}{subsection.3.4}% 22
+\BOOKMARK [3][-]{subsubsection.3.4.9}{premi/client/presentationManager/controllers/presentationsCtrl}{subsection.3.4}% 23
+\BOOKMARK [3][-]{subsubsection.3.4.10}{premi/client/presentationManager/controllers/removePresentationCtrl}{subsection.3.4}% 24
+\BOOKMARK [2][-]{subsection.3.5}{premi/client/editor}{section.3}% 25
+\BOOKMARK [3][-]{subsubsection.3.5.1}{premi/client/editor/lib/GObject}{subsection.3.5}% 26
+\BOOKMARK [3][-]{subsubsection.3.5.2}{premi/client/editor/lib/GOProvider}{subsection.3.5}% 27
+\BOOKMARK [3][-]{subsubsection.3.5.3}{premi/client/editor/lib/frame}{subsection.3.5}% 28
+\BOOKMARK [2][-]{subsection.3.6}{premi/client/frameEditor}{section.3}% 29
+\BOOKMARK [2][-]{subsection.3.7}{premi/client/infographicEditor}{section.3}% 30
+\BOOKMARK [2][-]{subsection.3.8}{premi/client/trailsEditor}{section.3}% 31
+\BOOKMARK [2][-]{subsection.3.9}{premi/client/userManager}{section.3}% 32
+\BOOKMARK [2][-]{subsection.3.10}{premi/client/viewer}{section.3}% 33
+\BOOKMARK [1][-]{section.4}{Tracciamento}{}% 34
+\BOOKMARK [1][-]{section.5}{Diagrammi di Sequenza}{}% 35
