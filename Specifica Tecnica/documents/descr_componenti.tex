@@ -1,4 +1,4 @@
-\section{Descrizione dei singoli componenti}
+section{Descrizione dei singoli componenti}
 
 \subsection{premi/server}
 \begin{figure}[h]
@@ -361,6 +361,24 @@
   \item[] \textbf{Tipo:} \textit{abstract class}
   \item[] \textbf{Package:} Premi/client/editor/lib
   \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici nella presentazione
+\end{itemize}
+\subsubsection{Premi/client/editor/lib/Observer}
+\begin{itemize}
+  \item[] \textbf{Nome:} GObject
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/editor/lib
+  \item[] \textbf{Descrizione:} si occupa di osservare degli oggetti grafici impostando e inviando dei segnali.
+\end{itemize}
+\subsubsection{Premi/client/editor/lib/InteractInit}
+\begin{itemize}
+  \item[] \textbf{Nome:} GObject
+  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Package:} Premi/client/editor/lib
+  \item[] \textbf{Descrizione:} classe che contiene i metodi per la gestione del ridimensionamento e dello spostamento degli oggetti.
+  \item[] \textbf{Relazioni con altri componenti:} GOProvider dipende da:
+  \begin{itemize}
+  	\item \textit{Premi/client/editor/lib/Observer} per osservare gli oggetti grafici;
+  \end{itemize}
 \end{itemize}
 \subsubsection{Premi/client/editor/lib/GOProvider}
 \begin{itemize}
