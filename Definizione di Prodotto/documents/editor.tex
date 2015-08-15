@@ -44,8 +44,8 @@
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ set(field : String, value : String) : void			}] \hfill \\
-			permette di settare un campo dell'attributo info.
+		\item[\textbf{\color{blue}+ set(field : String, value : String) : GObject			}] \hfill \\
+			permette di settare un campo dell'attributo info. Restituisce un riferimento di GObject.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -63,7 +63,7 @@
 
 \begin{description}
 		\item[\textbf{+ get(field : String) : String			}] \hfill \\
-			restituisce il valore di un campo dell'attributo info.
+			restituisce il valore di un campo dell'attributo info. Restituisce un valore del campo info richiesto.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -79,7 +79,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ update(update : Collection) : GObject			}] \hfill \\
-			permette di aggiornare i campi dell'attributo info.
+			permette di aggiornare i campi dell'attributo info. Restituisce un riferimento di GObject.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -94,8 +94,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ initByJSON(JSONiniter : Collection) : GObject			}] \hfill \\
-			permette di inizializzare l'attributo info tramite un oggetto JSON. 
+		\item[\textbf{\color{blue}+ initByJSON(JSONiniter : Collection) : Gobject			}] \hfill \\
+			permette di inizializzare l'attributo info tramite un oggetto JSON. Restituisce un riferimento di GObject. 
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -111,7 +111,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ initByDefault() : GObject			}] \hfill \\
-			permette di inizializzare i campi dell'attributo info con i parametri di default. 
+			permette di inizializzare i campi dell'attributo info con i parametri di default. Restituisce un riferimento di GObject.
 
 \end{description}
 
@@ -123,7 +123,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ resize(height : String, width : String) : GObject			}] \hfill \\
-			permette di settare l'altezza e la larghezza del'oggetto.
+			permette di settare l'altezza e la larghezza del'oggetto. Restituisce un riferimento di GObject.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -141,7 +141,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ drag(deltaX : String, deltaY : String) : GObject			}] \hfill \\
-			permette di settare la posizione dell'oggetto sull'asse x e y.
+			permette di settare la posizione dell'oggetto sull'asse x e y. Restituisce un riferimento di GObject.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -159,7 +159,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ setId(id : String) : GObject			}] \hfill \\
-			permette di modificare o di settare l'id dell'oggetto
+			permette di modificare o di settare l'id dell'oggetto. Restituisce un riferimento di GObject.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -174,7 +174,7 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ getId()			}] \hfill \\
+		\item[\textbf{\color{blue}+ getId() : String			}] \hfill \\
 			restituisce l'id dell'oggetto.
 \end{description}
 
@@ -184,22 +184,29 @@
 \subsubsection{premi/client/editor/lib/GOProvider}
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=0.40]{img/diacla/GObject.png}
-\caption{Diagramma della classe premi/client/editor/GObject}
+\includegraphics[scale=0.40]{img/diacla/GOProvider.png}
+\caption{Diagramma della classe premi/client/editor/GOProvider}
 \end{center}
 \end{figure}
 
 \begin{description}
 %-------  descrizione della classe%
 \item[Descrizione] \hfill \\
-	GOProvider è una classe statica contiene i metodi per inizializzare gli oggetti image, text, shape che possono essere inseriti in un frame.
+	E' una classe statica contiene i metodi per inizializzare gli oggetti image, text, shape che possono essere inseriti in un frame.
+	
+	\item[Dipendenze] \hfill \\
+	\begin{itemize}
+		\item \textbf{Image}: per inizializzare le immagini;
+		\item \textbf{Shape}: per inizializzare gli shape;
+		\item \textbf{Text}: per inizializzare i testi.
+	\end{itemize}
 	
 %-------  lista dei metodi
 \item[Metodi] \hfill \\
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ init(type : String) : GObject			}] \hfill \\
+		\item[\textbf{\color{blue}+ init(type : String) : Collection			}] \hfill \\
 			inizializza con i parametri di default un oggetto image, shape o text e ne restituisce il riferimento.
 			
 		\begin{description}
@@ -216,7 +223,7 @@
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ initByJSON(GO : Collection) : GObject			}] \hfill \\
+		\item[\textbf{\color{blue}+ initByJSON(GO : Collection) : Collection			}] \hfill \\
 			inizializza con un oggetto JSON, un oggetto image, text o shape e ne restituisce il riferimento.
 			
 		\begin{description}
@@ -233,25 +240,31 @@
 
 \end{description}
 
-\subsubsection{premi/client/editor/lib/frame}
+\subsubsection{premi/client/editor/lib/Frame}
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=0.40]{img/diacla/GObject.png}
-\caption{Diagramma della classe premi/client/editor/GObject}
+\includegraphics[scale=0.40]{img/diacla/frame.png}
+\caption{Diagramma della classe premi/client/editor/frame}
 \end{center}
 \end{figure}
 
 \begin{description}
 %-------  descrizione della classe%
 \item[Descrizione] \hfill \\
-	frame è una classe che rappresenta un frame di una presentazione. E' un oggetto che può essere rappresentato nella presentazione. 
+	frame è una classe che rappresenta un frame di una presentazione. E' un oggetto che può essere rappresentato nella presentazione. Per inizializzare gli oggetti image, shape, text si utilizzano i metodi di GOProvider \textit{initByJSON(GO)} e \textit{init(type)}
 	
 %-------  lista delle classi ereditate%	
 \item[Classi ereditate] \hfill \\
 	\begin{itemize}
 		\item GObject
 	\end{itemize}
-	
+
+\item[Dipendenze] \hfill \\
+	\begin{itemize}
+		\item \textbf{GOProvider}: per inizializzare gli oggetti image, shape e text;
+		\item \textbf{Saver}: per effettuare le modifiche del frame nel database.
+	\end{itemize}
+
 %-------  lista degli Attributi%	
 \item[Attributi] \hfill \\
 	\begin{description}
@@ -264,7 +277,7 @@
 	\end{itemize}
 	\end{description}
 	\begin{description}
-		\item[\textbf{- selectedGO : GObject			}] \hfill \\
+		\item[\textbf{- selectedGO : Collection			}] \hfill \\
 			contiene l'oggetto GObject contenuto nel frame corrente selezionato dall'utente.  
 	\end{description}
 	\begin{description}
@@ -318,8 +331,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ update(update : Collection) : frame			}] \hfill \\
-			permette di aggiornare i campi dell'attributo info.
+		\item[\textbf{\color{blue}+ update(update : Collection) : Frame			}] \hfill \\
+			permette di aggiornare i campi dell'attributo info. Restituisce un riferimento di Frame.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -334,8 +347,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ initByJSON(frameJSON : Collection, disableSaver: boolean) : frame			}] \hfill \\
-			permette di inizializzare l'attributo info tramite un oggetto JSON. 
+		\item[\textbf{\color{blue}+ initByJSON(frameJSON : Collection, disableSaver: boolean) : Frame			}] \hfill \\
+			permette di inizializzare l'attributo info tramite un oggetto JSON. Se disableSaver è uguale a false viene utilizzato il metodo di Saver \textit{setContainer(id,type)} e \textit{init()} per impostare il frame come contenitore per il salvataggio dei dati sul database. Restituisce un riferimento di Frame.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -345,15 +358,15 @@
 					\item \textbf{frameJSON : Collection			} \hfill \\
 					è un oggetto JSON che contiene chiave e valore di inizializzazione dei campi dell'attributo info. 
 					\item \textbf{disableSaver : boolean			} \hfill \\
-					se è uguale a false il contenuto di frame non viene salvato. %da chiedere%  				
+					se è uguale a false il contenuto di frame non viene salvato.  				
 				\end{itemize}
 		\end{description}
 
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ initByDefault(disableSaver) : frame			}] \hfill \\
-			permette di inizializzare i campi dell'attributo info con i parametri di default. 
+		\item[\textbf{\color{blue}+ initByDefault(disableSaver) : Frame			}] \hfill \\
+			permette di inizializzare i campi dell'attributo info con i parametri di default. Se disableSaver è uguale a false viene utilizzato il metodo di Saver \textit{setContainer(id,type)} e \textit{init()} per impostare il frame come contenitore per il salvataggio dei dati sul database. Restituisce un riferimento di Frame.
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -382,7 +395,7 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ selectGO(idGO) : GObject			}] \hfill \\
+		\item[\textbf{\color{blue}+ selectGO(idGO) : Collection			}] \hfill \\
 			restituisce l'oggetto grafico con id = idGO contenuto all'interno del frame. 
 
 \begin{description}
@@ -408,8 +421,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ addGO(GO : Collection, type : String) : frame			}] \hfill \\
-			aggiunge un oggetto di tipo type al frame e restituisce il riferimento del frame.  
+		\item[\textbf{\color{blue}+ addGO(GO : Collection, type : String) : Frame			}] \hfill \\
+			aggiunge un oggetto di tipo type al frame e restituisce il riferimento del frame. Per  salvare sul database viene usato il metodo di Saver \textit{insert(GOJSON)} che permette di appendere un operazione di inserimento nell'oggetto Saver. Restituisce un riferimento di Frame.  
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -427,15 +440,15 @@
 
 %da chiarire {%
 \begin{description}
-		\item[\textbf{\color{blue}+ removeSelectedGO(idGO : String) : frame			}] \hfill \\
-			se l'oggetto con id = idGO è selezionato lo deseleziona.  
+		\item[\textbf{\color{blue}+ removeSelectedGO(idGO : String) : Frame			}] \hfill \\
+			se l'oggetto con id = idGO è selezionato lo elimina. Viene utilizzato il metodo \textit{remove(idGO,type)} che permette di appendere un operazione di rimozione nell'oggetto Saver. Restituisce un riferimento di Frame.
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 						\item \textbf{idGO : Collection			} \hfill \\
-						rappresenta l'id dell'oggetto da selezionare.
+						rappresenta l'id dell'oggetto da eliminare.
 				\end{itemize}
 
 \end{description}
@@ -468,7 +481,7 @@
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 						\item \textbf{update : Collection			} \hfill \\
-					è un oggetto JSON che contiene chiave e valore dei campi da aggiornare dell'oggetto selezionato.
+					è un oggetto JSON che contiene chiave e valore dei campi da aggiornare dell'oggetto selezionato. Viene utilizzato il metodo \textit{update(idGO,type,update)} per appendere un operazione di modifica nell'oggetto Saver.
 				\end{itemize}
 
 \end{description}
@@ -477,7 +490,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ resizeGO(resize : Collection, idGO : String) : void			}] \hfill \\
-			aggiorna i campi dell'oggetto con un determinato id, per permettere il ridimensionamento dell'oggetto.    
+			aggiorna i campi dell'oggetto con un determinato id, per permettere il ridimensionamento dell'oggetto. Viene utilizzato il metodo \textit{update(idGO,type,update)} per appendere le operazioni di modifica nell'oggetto Saver.    
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -495,7 +508,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ dragGO(drag : Collection, idGO : String) : void			}] \hfill \\
-			aggiorna i campi dell'oggetto con un determinato id, per permettere lo spostamento dell'oggetto nel template grafico.    
+			aggiorna i campi dell'oggetto con un determinato id, per permettere lo spostamento dell'oggetto nel template grafico. Viene utilizzato il metodo \textit{update(idGO,type,update)} per appendere le operazioni di modifica nell'oggetto Saver.    
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -513,7 +526,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ updateGO(update : Collection, idGO : String) : void			}] \hfill \\
-			aggiorna i campi dell'oggetto con un determinato id appartenente al frame.  
+			aggiorna i campi dell'oggetto con un determinato id appartenente al frame. Viene utilizzato il metodo \textit{update(idGO,type,update)} per appendere un operazione di modifica nell'oggetto Saver. 
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -529,13 +542,13 @@
 
 \end{description}
 
-\begin{description} % da chiarire %
+\begin{description}
 		\item[\textbf{\color{blue}+ save() : void			}] \hfill \\
-			salva le operazioni pendenti nel database.  
+			salva le operazioni pendenti nel database. Viene utilizzato il metodo \textit{save()} che si occupa di inserire le operazioni di inserimento, modifica, rimozione presenti nell'oggetto Saver nel database. 
 
 \end{description}
 
-\begin{description} % da chiarire %
+\begin{description} 
 		\item[\textbf{\color{blue}+ getBackgroundColor() : String			}] \hfill \\
 			restituisce il colore in formato esadecimale dello sfondo del frame.     
 
@@ -551,7 +564,7 @@
 \subsubsection{premi/client/editor/lib/GOContainer}
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=0.40]{img/diacla/GObject.png}
+\includegraphics[scale=0.40]{img/diacla/GOContainer.png}
 \caption{Diagramma della classe premi/client/editor/GOContainer}
 \end{center}
 \end{figure}
@@ -559,11 +572,16 @@
 \begin{description}
 %-------  descrizione della classe%
 \item[Descrizione] \hfill \\
-	è una classe che rappresenta il contenitore degli oggetti che possono essere inseriti in un frame.
+	è una classe che rappresenta il contenitore degli oggetti che possono essere inseriti in un frame. Per inizializzare gli oggetti image, shape, text si utilizzano i metodi di GOProvider \textit{initByJSON(GO)} e \textit{init(type)}. 
 	
 	\item[Classi ereditate] \hfill \\
 	\begin{itemize}
 		\item GObject
+	\end{itemize}
+	
+	\item[Dipendenze] \hfill \\
+	\begin{itemize}
+		\item \textbf{GOProvider}: per inizializzare gli oggetti image, shape e text.
 	\end{itemize}
 	
 %-------  lista degli Attributi%	
@@ -581,8 +599,8 @@
 			\item \textit{type:} definisce il nome del tipo dell'oggetto.
 		\end{itemize}		
 		\item \textit{content:} è un oggetto JSON che contiene gli oggetti che fanno parte del frame;
-		\item \textit{idpres:} identifica l'id della presentazione a cui si riferisce.
-		\item \textit{owner:} %da chiarire%;
+		\item \textit{idpres:} identifica l'id della presentazione a cui si riferisce;
+		\item \textit{owner:} identifica l'id dell'utente che ha creato la presentazione.
 	\end{itemize}
 	\end{description}
 	\begin{description}
@@ -635,8 +653,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ update(update : Collection) : frame			}] \hfill \\
-			permette di aggiornare i campi dell'attributo info.
+		\item[\textbf{\color{blue}+ update(update : Collection) : GOContainer			}] \hfill \\
+			permette di aggiornare i campi dell'attributo info. Restituisce un riferimento di GOContainer.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -669,8 +687,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ initByDefault(disableSaver) : frame			}] \hfill \\
-			permette di inizializzare i campi dell'attributo info con i parametri di default. 
+		\item[\textbf{\color{blue}+ initByDefault(disableSaver) : GOContainer			}] \hfill \\
+			permette di inizializzare i campi dell'attributo info con i parametri di default. Restituisce un riferimento di GOContainer. 
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -691,7 +709,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ selectGO(idGO) : GObject			}] \hfill \\
-			restituisce l'oggetto grafico con id = idGO contenuto all'interno del frame. 
+			restituisce l'oggetto grafico con id = idGO contenuto all'interno del GOContainer. 
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -726,14 +744,14 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ setSelectedGO(concreteGObj : GObject) : frame			}] \hfill \\
+		\item[\textbf{\color{blue}+ setSelectedGO(concreteGObj : Collection) : frame			}] \hfill \\
 			setta l'oggetto concreteGObj come oggetto selezionato.  
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
-						\item \textbf{concreteGObj : GObject			} \hfill \\
+						\item \textbf{concreteGObj : Collection			} \hfill \\
 					oggetto GObject.
 				\end{itemize}
 
@@ -759,27 +777,26 @@
 
 \end{description}
 
-%da chiarire {%
 \begin{description}
 		\item[\textbf{\color{blue}+ removeSelectedGO(idGO : String) : GOContainer			}] \hfill \\
-			deseleziona l'oggetto con id = idGO se non è deselezionato.  
+			se l'oggetto con id = idGO è selezionato lo elimina. Restituisce un riferimento di GOContainer. 
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 						\item \textbf{idGO : Collection			} \hfill \\
-					rappresenta l'id dell'oggetto da deselezionare.
+					rappresenta l'id dell'oggetto da eliminare.
 				\end{itemize}
 
 \end{description}
 
 \end{description}
-%}%
+
 
 \begin{description}
 		\item[\textbf{\color{blue}+ getGOJSON(idGO : String) : Collection			}] \hfill \\
-			restituisce l'oggetto JSON con id= idGO appartenente al frame.   
+			restituisce l'oggetto JSON con id= idGO appartenente al GOContainer.   
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -818,7 +835,7 @@
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 					\item \textbf{resize : Collection			} \hfill \\
-					è un oggetto JSON che contiene chiave e valore dei campi height, width, dataX e dataY per permettere di ridimensionare l'oggetto appartenente al frame;
+					è un oggetto JSON che contiene chiave e valore dei campi height, width, dataX e dataY per permettere di ridimensionare l'oggetto appartenente al GOContainer;
 					\item \textbf{idGO : String			} \hfill \\
 					contiene l'id dell'oggetto da ridimensionare.
 				\end{itemize}
@@ -836,7 +853,7 @@
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 					\item \textbf{drag : Collection			} \hfill \\
-					è un oggetto JSON che contiene chiave e valore dei campi dataX e dataY per permettere lo spostamento dell'oggetto appartenente al frame;
+					è un oggetto JSON che contiene chiave e valore dei campi dataX e dataY per permettere lo spostamento dell'oggetto appartenente al GOContainer;
 					\item \textbf{idGO : String			} \hfill \\
 					contiene l'id dell'oggetto da spostare.
 				\end{itemize}
@@ -847,7 +864,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ updateGO(update : Collection, idGO : String) : void			}] \hfill \\
-			aggiorna i campi dell'oggetto con un determinato id appartenente al frame.  
+			aggiorna i campi dell'oggetto con un determinato id appartenente al GOContainer.  
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -869,8 +886,8 @@
 \subsubsection{premi/client/editor/lib/Image}
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=0.40]{img/diacla/GObject.png}
-\caption{Diagramma della classe premi/client/editor/GObject}
+\includegraphics[scale=0.40]{img/diacla/Image.png}
+\caption{Diagramma della classe premi/client/editor/Image}
 \end{center}
 \end{figure}
 
@@ -895,7 +912,7 @@
 	\end{itemize}
 	\end{description}
 	\begin{description}
-		\item[\textbf{- selectedGO : GObject			}] \hfill \\
+		\item[\textbf{- selectedGO : Collection			}] \hfill \\
 			contiene l'oggetto GObject contenuto nel frame corrente selezionato dall'utente.  
 	\end{description}	
 	
@@ -921,8 +938,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ update(update : Collection) : image			}] \hfill \\
-			permette di aggiornare i campi dell'attributo info.
+		\item[\textbf{\color{blue}+ update(update : Collection) : Image			}] \hfill \\
+			permette di aggiornare i campi dell'attributo info. Restituisce un riferimento di Image.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -937,8 +954,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ initByJSON(imageJSON : Collection) : GObject			}] \hfill \\
-			permette di inizializzare l'attributo info tramite un oggetto JSON. 
+		\item[\textbf{\color{blue}+ initByJSON(imageJSON : Collection) : Image			}] \hfill \\
+			permette di inizializzare l'attributo info tramite un oggetto JSON. Restituisce un riferimento di Image.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -953,14 +970,14 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ initByDefault() : GObject			}] \hfill \\
-			permette di inizializzare i campi dell'attributo info con i parametri di default. 
+		\item[\textbf{\color{blue}+ initByDefault() : Image			}] \hfill \\
+			permette di inizializzare i campi dell'attributo info con i parametri di default. Restituisce un riferimento di Image. 
 
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ setImage(src : String) : GObject			}] \hfill \\
-			setta l'url(percorso) dell'immagine. 
+		\item[\textbf{\color{blue}+ setImage(src : String) : Image			}] \hfill \\
+			setta l'url(percorso) dell'immagine. Restituisce un riferimento di Image.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -994,8 +1011,8 @@
 \subsubsection{premi/client/editor/lib/Infographic}
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=0.40]{img/diacla/GObject.png}
-\caption{Diagramma della classe premi/client/editor/GObject}
+\includegraphics[scale=0.40]{img/diacla/Infographic.png}
+\caption{Diagramma della classe premi/client/editor/lib/infographic}
 \end{center}
 \end{figure}
 
@@ -1008,6 +1025,12 @@
 	\begin{itemize}
 		\item GOContainer
 	\end{itemize}
+	
+\item[Dipendenze] \hfill \\
+	\begin{itemize}
+		\item \textbf{Frame}: per gestire i frame nell'infografica;
+		\item \textbf{Saver}: per apportare le modifiche sul database.
+	\end{itemize}	
 	
 %-------  lista degli Attributi%	
 \item[Attributi] \hfill \\
@@ -1044,74 +1067,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ update(update : Collection) : image			}] \hfill \\
-			permette di aggiornare i campi dell'attributo info.
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill \\
-				\begin{itemize}
-				
-					\item \textbf{update : Collection			} \hfill \\
-					update è un oggetto JSON che contiene chiave e valore dei campi che devono essere aggiornati. 
-				\end{itemize}
-		\end{description}
-
-\end{description}
-
-\begin{description}
-		\item[\textbf{\color{blue}+ initByJSON(imageJSON : Collection) : GObject			}] \hfill \\
-			permette di inizializzare l'attributo info tramite un oggetto JSON. 
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill \\
-				\begin{itemize}
-				
-					\item \textbf{imageJSON : Collection			} \hfill \\
-					è un oggetto JSON che contiene chiave e valore di inizializzazione dei campi dell'attributo info. 
-				\end{itemize}
-		\end{description}
-
-\end{description}
-
-\begin{description}
-		\item[\textbf{\color{blue}+ initByDefault() : GObject			}] \hfill \\
-			permette di inizializzare i campi dell'attributo info con i parametri di default. 
-
-\end{description}
-
-\begin{description}
-		\item[\textbf{\color{blue}+ setImage(src : String) : GObject			}] \hfill \\
-			setta l'url(percorso) dell'immagine. 
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill \\
-				\begin{itemize}
-				
-					\item \textbf{src : String			} \hfill \\
-					identifica l'url(percorso) dell'immagine.
-				\end{itemize}
-		\end{description}
-
-\end{description}
-
-\begin{description}
-		\item[\textbf{\color{blue}+ getImage() : String			}] \hfill \\
-			restituisce l'url(percorso) dell'immagine. 
-
-\end{description}
-
-\begin{description}
-		\item[\textbf{\color{blue}+ getType() : String			}] \hfill \\
-			restituisce la stringa "image" per identificare che il tipo dell'oggetto è image. 
-
-\end{description}
-
-\begin{description}
-		\item[\textbf{\color{blue}+ initByJSON(infJSON : Collection,framesId : String[],frames : Collection) : infographic			}] \hfill \\
-			permette di inizializzare l'oggetto infografica 
+		\item[\textbf{\color{blue}+ initByJSON(infJSON : Collection,framesId : String[],frames : Collection) : Infographic			}] \hfill \\
+			permette di inizializzare l'oggetto infografica. Viene utilizzato il metodo \textit{setContainer(id,type)} per selezionare l'oggetto infographic come contenitore dell'oggetto Saver. Restituisce un riferimento di Infographic.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1130,8 +1087,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ initByDefault() : infographic			}] \hfill \\
-			permette di inizializzare i campi dell'attributo info con i parametri di default e di lasciare vuoti l'attributo framesId e frames. 
+		\item[\textbf{\color{blue}+ initByDefault() : Infographic			}] \hfill \\
+			permette di inizializzare i campi dell'attributo info con i parametri di default e di lasciare vuoti l'attributo framesId e frames. Viene utilizzato il metodo \textit{setContainer(id,type)} per selezionare l'oggetto infographic come contenitore dell'oggetto Saver. Restituisce un riferimento di Infographic.
 
 \end{description}
 
@@ -1148,7 +1105,7 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ getFramesId() : String			}] \hfill \\
+		\item[\textbf{\color{blue}+ getArrayFrameId() : Arrays			}] \hfill \\
 			restituisce un array in cui ciascun elemento identifica un frame appartenente all'infografica.
 
 \end{description}
@@ -1160,8 +1117,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ setSelectedGO(concreteGObj : Collection) : infographic			}] \hfill \\
-			imposta su selezionato un oggetto dell'infografica.
+		\item[\textbf{\color{blue}+ setSelectedGO(concreteGObj : Collection) : Infographic			}] \hfill \\
+			imposta su selezionato un oggetto dell'infografica. Restituisce un riferimento di Infographic.
 
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1176,8 +1133,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ selectedGO(idGO : String) : infographic			}] \hfill \\
-			seleziona un oggetto dell'infografica.
+		\item[\textbf{\color{blue}+ selectedGO(idGO : String) : Infographic			}] \hfill \\
+			seleziona un oggetto dell'infografica. Restituisce un riferimento di Infographic.
 
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1192,8 +1149,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ addGO(GO : Collection, type : String) : infographic			}] \hfill \\
-			aggiunge un oggetto di tipo type all'infografica e restituisce il riferimento dell'infografica.  
+		\item[\textbf{\color{blue}+ addGO(GO : Collection, type : String) : Infographic			}] \hfill \\
+			aggiunge un oggetto di tipo type all'infografica e restituisce il riferimento dell'infografica. Viene utilizzato il metodo \textit{insert(GOJSON)} di Saver per appendere un operazione di inserimento nell'oggetto saver. Restituisce un riferimento di Infographic. 
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1209,23 +1166,22 @@
 
 \end{description}
 
-%da chiarire {%
+
 \begin{description}
-		\item[\textbf{\color{blue}+ removeSelectedGO(idGO : String) : infographic			}] \hfill \\
-			se l'oggetto con id = idGO è selezionato lo deseleziona.
+		\item[\textbf{\color{blue}+ removeSelectedGO(idGO : String) : Infographic			}] \hfill \\
+			se l'oggetto con id = idGO è selezionato lo elimina. Viene utilizzato il metodo \textit{remove(idGO,type)} di Saver per appendere un operazione di rimozione nell'oggetto saver. Restituisce un riferimento di Infographic.
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 						\item \textbf{idGO : Collection			} \hfill \\
-					rappresenta l'id dell'oggetto da selezionare.
+					rappresenta l'id dell'oggetto da eliminare.
 				\end{itemize}
 
 \end{description}
 
 \end{description}
-%}%
 
 \begin{description}
 		\item[\textbf{\color{blue}+ getGOJSON(idGO : String) : Collection			}] \hfill \\
@@ -1244,8 +1200,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ updateSelectedGO(update : Collection) : infographic			}] \hfill \\
-			aggiorna i campi dell'oggetto selezionato.   
+		\item[\textbf{\color{blue}+ updateSelectedGO(update : Collection) : Infographic			}] \hfill \\
+			aggiorna i campi dell'oggetto selezionato. Viene utilizzato il metodo \textit{update(idGO,type,update)} di Saver per appendere un operazione di aggiornamento nell'oggetto saver. Restituisce un riferimento di Infographic.  
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1260,8 +1216,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ updateGO(update : Collection, idGO : String) : infographic			}] \hfill \\
-			aggiorna i campi di un oggetto dell'infografica.   
+		\item[\textbf{\color{blue}+ updateGO(update : Collection, idGO : String) : Infographic			}] \hfill \\
+			aggiorna i campi di un oggetto dell'infografica. Viene utilizzato il metodo \textit{update(idGO,type,update)} di Saver per appendere un operazione di aggiornamento nell'oggetto saver. Restituisce un riferimento di Infographic.   
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1279,7 +1235,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ resizeGO(resize : Collection, idGO : String) : void			}] \hfill \\
-			aggiorna i campi dell'oggetto con un determinato id, per permettere il ridimensionamento dell'oggetto.    
+			aggiorna i campi dell'oggetto con un determinato id, per permettere il ridimensionamento dell'oggetto. Viene utilizzato il metodo \textit{update(idGO,type,update)} di Saver per appendere un operazione di aggiornamento nell'oggetto saver.     
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1297,7 +1253,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ dragGO(drag : Collection, idGO : String) : void			}] \hfill \\
-			aggiorna i campi dell'oggetto con un determinato id, per permettere lo spostamento dell'oggetto nel template grafico.    
+			aggiorna i campi dell'oggetto con un determinato id, per permettere lo spostamento dell'oggetto nel template grafico. Viene utilizzato il metodo \textit{update(idGO,type,update)} di Saver per appendere un operazione di aggiornamento nell'oggetto saver.     
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1329,9 +1285,9 @@
 
 \end{description}
 
-\begin{description} %da chiarire%
+\begin{description} 
 		\item[\textbf{\color{blue}+ save() : void			}] \hfill \\
-			salva le operazioni pendenti nel database.
+			esegue le operazioni pendenti di inserimento, modifica e rimozione sul database. Restituisce un riferimento dell'oggetto Saver.
 
 \end{description}
 
@@ -1341,13 +1297,22 @@
 
 
 \subsubsection{premi/client/editor/lib/interactInit}
-
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.90]{img/diacla/InteractInit.png}
+\caption{Diagramma della classe premi/client/lib/InteractInit}
+\end{center}
+\end{figure}
 
 \begin{description}
 %-------  descrizione della classe%
 \item[Descrizione] \hfill \\
 	classe che contiene i metodi per la gestione del ridimensionamento e dello spostamento degli oggetti. 
 	
+	\item[Dipendenze] \hfill \\
+	\begin{itemize}
+		\item \textbf{Observer}: per osservare l'oggetto inizializzato con interactjs. In molti metodi vengono usati le funzioni \textit{on(signal,func)} e \textit{emit(signal,param1,param2,param3,param4)} di Observer per emettere dei segnali.
+	\end{itemize}
 	
 %-------  lista degli Attributi%	
 \item[Attributi] \hfill \\
@@ -1505,7 +1470,12 @@
 
 %-------  diagramma della classe%
 \subsubsection{premi/client/client/lib/Observer}
-
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.70]{img/diacla/Observer.png}
+\caption{Diagramma della classe premi/client/lib/Observer}
+\end{center}
+\end{figure}
 
 \begin{description}
 %-------  descrizione della classe%
@@ -1525,8 +1495,8 @@
 \item[Metodi] \hfill \\
 
 	\begin{description}
-		\item[\textbf{\color{blue}+ on(signal : String, func : String)			}] \hfill \\
-			assegna la funzione func al segnale signal.
+		\item[\textbf{\color{blue}+ on(signal : String, func : String) : Observer			}] \hfill \\
+			assegna la funzione func al segnale signal. Restituisce un riferimento di Observer.
 			
 		\begin{description}
 			\item[Argomenti] \hfill \\
@@ -1541,8 +1511,8 @@
 	\end{description}		
 	
 	\begin{description}
-		\item[\textbf{\color{blue}+ emit(signal : String, param1 : String, param2 : String, param3 : String, param4 : String)			}] \hfill \\
-			assegna i parametri ad un determinato segnale.
+		\item[\textbf{\color{blue}+ emit(signal : String, param1 : String, param2 : String, param3 : String, param4 : String) : String			}] \hfill \\
+			Restituisce lo slot con un determinato segnale e con determinati parametri.
 			
 		\begin{description}
 			\item[Argomenti] \hfill \\
@@ -1551,7 +1521,7 @@
 					\item \textbf{signal : String			} \hfill \\
 					identifica il nome del segnale;
 					\item \textbf{param1,param2,param3,param4 : String			} \hfill \\
-					identificano i parametri da attribuire al segnale signal;			
+					identificano i parametri del segnale signal;			
 				\end{itemize}
 		\end{description}
 	\end{description}		
@@ -1561,11 +1531,17 @@
 
 %-------  diagramma della classe%
 \subsubsection{premi/client/editor/lib/saver}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.90]{img/diacla/Saver.png}
+\caption{Diagramma della classe premi/client/lib/Saver}
+\end{center}
+\end{figure} 
  
 \begin{description}
 %-------  descrizione della classe%
 \item[Descrizione] \hfill \\
-	rappresenta un oggetto che permette ad un contenitore di oggetti di interfacciarsi con il database ed effettuare le modifiche.
+	rappresenta un oggetto che permette ad un contenitore di oggetti di interfacciarsi con il database ed effettuare le modifiche. L'oggetto saver riceve dal contenitore una serie di operazioni da eseguire sul database e le esegue rispettando i suoi tempi di risposta.
 	
 	
 %-------  lista degli Attributi%	
@@ -1576,11 +1552,60 @@
 		\item[\textbf{- containerType : String			}] \hfill \\
 			identifica il tipo dell'oggetto da interfacciare con il database;
 		\item[\textbf{- updates : Collection			}] \hfill \\
-			oggetto JSON che contiene i seguenti campi:
+			contiene le operazioni di aggiornamento da eseguire nel db. E' un oggetto JSON che contiene i seguenti campi:
 			\begin{itemize}
-				\item \textit{image:}  
+				\item \textit{image:} oggetto JSON che contiene le modifiche sugli oggetti image;
+				\item \textit{shape:} oggetto JSON che contiene le modifiche sugli oggetti shape;
+				\item \textit{text:} oggetto JSON che contiene le modifiche sugli oggetti text;
+				\item \textit{frame:} oggetto JSON che contiene le modifiche sugli oggetti frame;
+				\item \textit{infographic:} oggetto JSON che contiene le modifiche sugli oggetti infographic.
 			\end{itemize}
-			
+		\item[\textbf{- saveFunctions : Collection			}] \hfill \\
+			contiene i nomi delle funzioni che si occupano di salvare degli oggetti nel database. I campi che contiene sono:
+			\begin{itemize}
+				\item \textit{image:} contiene la funzione che si occupa di salvare le image;
+				\item \textit{shape:} contiene la funzione che si occupa di salvare gli shape;
+				\item \textit{text:} contiene la funzione che si occupa di salvare i text;
+				\item \textit{frame:} contiene la funzione che si occupa di salvare i frame;
+				\item \textit{infographic:} contiene la funzione che si occupa di salvare le infographic.
+			\end{itemize}		
+	\item[\textbf{- removed : Collection			}] \hfill \\
+			contiene le operazioni di rimozione da eseguire nel db. E' un oggetto JSON che contiene i seguenti campi:
+			\begin{itemize}
+				\item \textit{image:} oggetto JSON che contiene le operazioni di rimozione degli oggetti image;
+				\item \textit{shape:} oggetto JSON che contiene le operazioni di rimozione degli oggetti shape;
+				\item \textit{text:} oggetto JSON che contiene le operazioni di rimozione degli oggetti text;
+				\item \textit{frame:} oggetto JSON che contiene le operazioni di rimozione degli oggetti frame;
+				\item \textit{infographic:} oggetto JSON che contiene le operazioni di rimozione degli oggetti infographic.
+			\end{itemize}		
+	\item[\textbf{- removeFunctions : Collection			}] \hfill \\
+			contiene i nomi delle funzioni che si occupano di rimuovere degli oggetti dal database. I campi che contiene sono:
+			\begin{itemize}
+				\item \textit{image:} contiene la funzione che si occupa di rimuovere le image;
+				\item \textit{shape:} contiene la funzione che si occupa di rimuovere gli shape;
+				\item \textit{text:} contiene la funzione che si occupa di rimuovere i text;
+				\item \textit{frame:} contiene la funzione che si occupa di rimuovere i frame;
+				\item \textit{infographic:} contiene la funzione che si occupa di rimuovere l'infographic.
+			\end{itemize}		
+	\item[\textbf{- inserted : Collection			}] \hfill \\
+			contiene le operazioni di inserimento da eseguire nel db. E' un oggetto JSON che contiene i seguenti campi:
+			\begin{itemize}
+				\item \textit{image:} oggetto JSON che contiene le operazioni di inserimento degli oggetti image;
+				\item \textit{shape:} oggetto JSON che contiene le operazioni di inserimento degli oggetti shape;
+				\item \textit{text:} oggetto JSON che contiene le operazioni di inserimento degli oggetti text;
+				\item \textit{frame:} oggetto JSON che contiene le operazioni di inserimento degli oggetti frame;
+				\item \textit{infographic:} oggetto JSON che contiene le operazioni di inserimento degli oggetti infographic.
+			\end{itemize}
+			\item[\textbf{- insertFunctions : Collection			}] \hfill \\
+			contiene i nomi delle funzioni che si occupano di inserire degli oggetti sul database. I campi che contiene sono:
+			\begin{itemize}
+				\item \textit{image:} contiene la funzione che si occupa di inserire le image;
+				\item \textit{shape:} contiene la funzione che si occupa di inserire gli shape;
+				\item \textit{text:} contiene la funzione che si occupa di inserire i text;
+				\item \textit{frame:} contiene la funzione che si occupa di inserire i frame;
+				\item \textit{infographic:} contiene la funzione che si occupa di inserire l'infographic.
+			\end{itemize}		
+		
 	\end{description}
 	
 	
@@ -1589,30 +1614,82 @@
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ void operation0()			}] \hfill \\
-			Descrizione del metodo
+		\item[\textbf{\color{blue}+ setContainer(id : String, type : String) : Saver			}] \hfill \\
+			imposta il container da interfacciare con il Saver. Restituisce un riferimento dell'oggetto Saver.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \textbf{nomeArgomento : tipoArgomento			} \hfill \\
-					Descrizione argomento
-					
+					\item \textbf{id : String			} \hfill \\
+					identificativo del container;
+					\item \textbf{type : String			} \hfill \\
+					definisce il tipo del container.
 				\end{itemize}
-			% -- note aggiuntive sul metodo -- %
-			\item[Note] \hfill \\
-			\begin{itemize}
-					\item Deve essere esplicitamente marcato come costante (?)
-					\item Deve possedere qualche caratteristica
-					\item Metodo ridefinito
+		\end{description}
+	\end{description}	
+
+	\begin{description}
+		\item[\textbf{\color{blue}+ insert(GOJSON : Collection) : Saver			}] \hfill \\
+			inserisce un operazione di inserimento da eseguire nel campo inserted. Restituisce un riferimento dell'oggetto Saver.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{GOJSON : Collection			} \hfill \\
+					oggetto JSON che dev'essere inserito nel database.
+				\end{itemize}
+		\end{description}
+	\end{description}	
+
+	\begin{description}
+		\item[\textbf{\color{blue}+ update(idGO : String, type : String, update : Collection) : Saver			}] \hfill \\
+			inserisce un operazione di modifica, nel campo updates. Restituisce un riferimento dell'oggetto Saver.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idGO : String			} \hfill \\
+					identifica l'id dell'oggetto da modificare;
+					\item \textbf{type : String			} \hfill \\
+					identifica il tipo dell'oggetto da modificare;
+					\item \textbf{update : Collection			} \hfill \\
+					oggetto JSON che contiene le modifiche da apportare sul db. 
 				\end{itemize}
 		\end{description}
 	\end{description}
-	% -- fine metodo -- %		
+
+	\begin{description}
+		\item[\textbf{\color{blue}+ remove(idGO : String, type : String) : Saver			}] \hfill \\
+			inserisce un operazione di rimozione di un oggetto, nel campo removed. Restituisce un riferimento dell'oggetto Saver.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idGO : String			} \hfill \\
+					identifica l'id dell'oggetto da rimuovere;
+					\item \textbf{type : String			} \hfill \\
+					identifica il tipo dell'oggetto da rimuovere;
+				\end{itemize}
+		\end{description}
+	\end{description}
 	
-	
+		\begin{description}
+		\item[\textbf{\color{blue}+ save() : Saver			}] \hfill \\
+			esegue le operazioni pendenti di inserimento, modifica e rimozione sul database. Restituisce un riferimento dell'oggetto Saver.
+		\end{description}
+
+		\begin{description}
+		\item[\textbf{\color{blue}+ init() : Saver			}] \hfill \\
+			inizializza i campi dell'oggetto Saver. Restituisce un riferimento dell'oggetto Saver.
+		\end{description}	
 	
 \end{description}
 
@@ -1620,8 +1697,8 @@
 \subsubsection{premi/client/editor/lib/Shape}
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=0.40]{img/diacla/GObject.png}
-\caption{Diagramma della classe premi/client/editor/GObject}
+\includegraphics[scale=0.40]{img/diacla/shape.png}
+\caption{Diagramma della classe premi/client/editor/lib/shape}
 \end{center}
 \end{figure}
 
@@ -1671,8 +1748,8 @@
 
 
 		\begin{description}
-		\item[\textbf{\color{blue}+ set(field : String, value : String) : shape			}] \hfill \\
-			permette di settare un campo dell'attributo info.
+		\item[\textbf{\color{blue}+ set(field : String, value : String) : Shape			}] \hfill \\
+			permette di settare un campo dell'attributo info. Restituisce un riferimento dell'oggetto Shape.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1689,8 +1766,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ update(update : Collection) : shape			}] \hfill \\
-			permette di aggiornare i campi dell'attributo info.
+		\item[\textbf{\color{blue}+ update(update : Collection) : Shape			}] \hfill \\
+			permette di aggiornare i campi dell'attributo info. Restituisce un riferimento dell'oggetto Shape.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1705,9 +1782,9 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ initByJSON(shapeJSON : Collection) : shape			}] \hfill \\
-			permette di inizializzare l'attributo info tramite un oggetto JSON. 
-			
+		\item[\textbf{\color{blue}+ initByJSON(shapeJSON : Collection) : Shape			}] \hfill \\
+			permette di inizializzare l'attributo info tramite un oggetto JSON.  
+			Restituisce un riferimento dell'oggetto Shape.
 		\begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill \\
@@ -1721,14 +1798,14 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ initByDefault() : shape			}] \hfill \\
-			permette di inizializzare i campi dell'attributo info con i parametri di default. 
+		\item[\textbf{\color{blue}+ initByDefault() : Shape			}] \hfill \\
+			permette di inizializzare i campi dell'attributo info con i parametri di default. Restituisce un riferimento dell'oggetto Shape. 
 
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ setShape(src : String) : GObject			}] \hfill \\
-			setta l'url(percorso) dello shape. 
+		\item[\textbf{\color{blue}+ setShape(src : String) : Shape			}] \hfill \\
+			setta l'url(percorso) dello shape. Restituisce un riferimento dell'oggetto Shape.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1762,8 +1839,8 @@
 \subsubsection{premi/client/editor/lib/Text}
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=0.40]{img/diacla/GObject.png}
-\caption{Diagramma della classe premi/client/editor/GObject}
+\includegraphics[scale=0.40]{img/diacla/text.png}
+\caption{Diagramma della classe premi/client/editor/lib/text.png}
 \end{center}
 \end{figure}
 
@@ -1814,8 +1891,8 @@
 
 
 		\begin{description}
-		\item[\textbf{\color{blue}+ set(field : String, value : String) : shape			}] \hfill \\
-			permette di settare un campo dell'attributo info.
+		\item[\textbf{\color{blue}+ set(field : String, value : String) : Text			}] \hfill \\
+			permette di settare un campo dell'attributo info. Restituisce un riferimento dell'oggetto Text.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1832,8 +1909,8 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ update(update : Collection) : shape			}] \hfill \\
-			permette di aggiornare i campi dell'attributo info.
+		\item[\textbf{\color{blue}+ update(update : Collection) : Text			}] \hfill \\
+			permette di aggiornare i campi dell'attributo info. Restituisce un riferimento dell'oggetto Text.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1848,15 +1925,15 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ initByJSON(shapeJSON : Collection) : shape			}] \hfill \\
-			permette di inizializzare l'attributo info tramite un oggetto JSON. 
+		\item[\textbf{\color{blue}+ initByJSON(textJSON : Collection) : Text			}] \hfill \\
+			permette di inizializzare l'attributo info tramite un oggetto JSON. Restituisce un riferimento dell'oggetto Text. 
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \textbf{shapeJSON : Collection			} \hfill \\
+					\item \textbf{textJSON : Collection			} \hfill \\
 					è un oggetto JSON che contiene chiave e valore di inizializzazione dei campi dell'attributo info. 
 				\end{itemize}
 		\end{description}
@@ -1864,13 +1941,13 @@
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ initByDefault() : shape			}] \hfill \\
-			permette di inizializzare i campi dell'attributo info con i parametri di default. 
+		\item[\textbf{\color{blue}+ initByDefault() : Text			}] \hfill \\
+			permette di inizializzare i campi dell'attributo info con i parametri di default. Restituisce un riferimento dell'oggetto Text. 
 
 \end{description}
 
 \begin{description}
-		\item[\textbf{\color{blue}+ setText(text : String) : GObject			}] \hfill \\
+		\item[\textbf{\color{blue}+ setText(text : String) : Collection			}] \hfill \\
 			setta il testo del text.
 			
 		\begin{description}
