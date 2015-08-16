@@ -47,7 +47,11 @@
 \BOOKMARK [3][-]{subsubsection.3.9.4}{premi/client/trailsEditor/views/modTrail.ng}{subsection.3.9}% 47
 \BOOKMARK [3][-]{subsubsection.3.9.5}{premi/client/trailsEditor/views/newTrail.ng}{subsection.3.9}% 48
 \BOOKMARK [3][-]{subsubsection.3.9.6}{premi/client/trailsEditor/views/removeTrail.ng}{subsection.3.9}% 49
-\BOOKMARK [2][-]{subsection.3.10}{premi/client/userManager}{section.3}% 50
-\BOOKMARK [2][-]{subsection.3.11}{premi/client/viewer}{section.3}% 51
-\BOOKMARK [1][-]{section.4}{Tracciamento}{}% 52
-\BOOKMARK [1][-]{section.5}{Diagrammi di Sequenza}{}% 53
+\BOOKMARK [3][-]{subsubsection.3.9.7}{premi/client/trailsEditor/controllers/basicToolbarCtrl}{subsection.3.9}% 50
+\BOOKMARK [3][-]{subsubsection.3.9.8}{premi/client/trailsEditor/controllers/editTrailCtrl}{subsection.3.9}% 51
+\BOOKMARK [3][-]{subsubsection.3.9.9}{premi/client/trailsEditor/controllers/listTrailCtrl}{subsection.3.9}% 52
+\BOOKMARK [3][-]{subsubsection.3.9.10}{premi/client/trailsEditor/controllers/modTrailCtrl}{subsection.3.9}% 53
+\BOOKMARK [2][-]{subsection.3.10}{premi/client/userManager}{section.3}% 54
+\BOOKMARK [2][-]{subsection.3.11}{premi/client/viewer}{section.3}% 55
+\BOOKMARK [1][-]{section.4}{Tracciamento}{}% 56
+\BOOKMARK [1][-]{section.5}{Diagrammi di Sequenza}{}% 57

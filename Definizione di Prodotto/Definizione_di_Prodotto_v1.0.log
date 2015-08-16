@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.16)  16 AUG 2015 14:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.11)  16 AUG 2015 18:55
 entering extended mode
 **Definizione_di_Prodotto_v1.0.tex
 
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\Definizion
-e_di_Prodotto_v1.0.tex"
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\Defini
+zione_di_Prodotto_v1.0.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -32,7 +32,7 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(C:\Users\Gobbo\Ismaele\git\premi-documents\style.sty
+(C:\Users\Ismaele\Documents\git\premi-documents\style.sty
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
@@ -57,13 +57,13 @@ Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\utf8x.def"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\utf8x.def
 File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\ucs.sty"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\ucs.sty
 Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-global.def"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-global.def
 File: uni-global.def 2013/05/13 UCS: Unicode global data
 )
 \uc@secondtry=\count88
@@ -71,11 +71,11 @@ File: uni-global.def 2013/05/13 UCS: Unicode global data
 \uc@combtoksb=\toks17
 \uc@temptokena=\toks18
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks19
@@ -93,21 +93,21 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \lst@lineno=\count94
 \lst@maxwidth=\dimen107
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count95
 \lst@skipnumbers=\count96
 \lst@framebox=\box27
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen108
@@ -121,7 +121,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \c@ContinuedFloat=\count97
 Package caption Info: listings package is loaded.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip43
 \subfigcapskip=\skip44
@@ -137,11 +137,10 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg)
 \subfig@top=\skip47
 \subfig@bottom=\skip48
-)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
@@ -160,7 +159,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count102
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\lastpage\lastpage.sty
 
 LaTeX Warning: You have requested release `2014/05/01' of LaTeX,
                but only release `2011/06/27' is available.
@@ -247,7 +246,7 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\fancyhdr\fancyhdr.sty
 \fancy@headwidth=\skip49
 \f@ncyO@elh=\skip50
 \f@ncyO@erh=\skip51
@@ -432,7 +431,7 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 101.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip63
 \enit@outerparindent=\dimen132
@@ -440,8 +439,8 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box32
 \enitdp@description=\count121
 )
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\Definizion
-e_di_Prodotto_v1.0.aux")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\Defini
+zione_di_Prodotto_v1.0.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
@@ -457,7 +456,7 @@ LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 27.
 LaTeX Font Info:    Try loading font information for LGR+cmr on input line 27.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cbfonts-fd\lgrcmr.fd"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\cbfonts-fd\lgrcmr.fd
 File: lgrcmr.fd 2013/09/01 v1.0 Greek European Computer Regular
 )
 LaTeX Font Info:    ... okay on input line 27.
@@ -471,7 +470,7 @@ LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\ucsencs.def"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 
 fontencoding LGR patched
@@ -480,13 +479,12 @@ fontencoding LGR patched
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+ (C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty
 Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 )
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count123
 \scratchdimen=\dimen133
@@ -552,14 +550,14 @@ LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
 LaTeX Info: Redefining \nameref on input line 27.
 
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\Definizion
-e_di_Prodotto_v1.0.out")
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\Definizion
-e_di_Prodotto_v1.0.out")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\Defini
+zione_di_Prodotto_v1.0.out")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\Defini
+zione_di_Prodotto_v1.0.out")
 \@outlinefile=\write3
 
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-first.tex" <../logo/logo404_Extends.png, id=215, 1027.84pt x 433.62pt>
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/first.tex" <../logo/logo404_Extends.png, id=231, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
@@ -573,14 +571,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 26.
  [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Gobbo/Ismaele/gi
-t/premi-documents/logo/logo404_Extends.png>])
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-regModifiche.tex"
+{C:/Users/Ismaele/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/
+Ismaele/Documents/git/premi-documents/logo/logo404_Extends.png>])
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/regModifiche.tex"
 Underfull \vbox (badness 10000) detected at line 14
  []
 
-) <../logo/logo404.png, id=224, 1027.84pt x 402.50375pt>
+) <../logo/logo404.png, id=240, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
@@ -591,10 +589,10 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.31 \newpage
-              [1 <C:/Users/Gobbo/Ismaele/git/premi-documents/logo/logo404.png>]
-
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\Definizion
-e_di_Prodotto_v1.0.toc"
+              [1 <C:/Users/Ismaele/Documents/git/premi-documents/logo/logo404.p
+ng>]
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\Defini
+zione_di_Prodotto_v1.0.toc"
 Overfull \hbox (2.58202pt too wide) in paragraph at lines 21--21
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/views/presentation
 Manager.ng[][] [][]  
@@ -635,29 +633,54 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 33.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [3]
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\Definizion
-e_di_Prodotto_v1.0.lot")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\Defini
+zione_di_Prodotto_v1.0.lot")
 \tf@lot=\write5
 
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\Definizion
-e_di_Prodotto_v1.0.lof")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\Defini
+zione_di_Prodotto_v1.0.lof"
+Overfull \hbox (2.9779pt too wide) in paragraph at lines 28--28
+ [][] [][][]\OT1/cmr/m/n/12 Diagramma del-la clas-se pre-mi/-clien-t/-trail-sE-
+di-to-r/-con-trol-ler-s/-ba-sic-Tool- 
+ []
+
+
+Overfull \hbox (7.15564pt too wide) in paragraph at lines 29--29
+ [][] [][][]\OT1/cmr/m/n/12 Diagramma del-la clas-se pre-mi/-clien-t/-trail-sE-
+di-to-r/-con-trol-ler-s/e-dit-TrailC- 
+ []
+
+
+Overfull \hbox (3.30429pt too wide) in paragraph at lines 30--30
+ [][] [][][]\OT1/cmr/m/n/12 Diagramma del-la clas-se pre-mi/-clien-t/-trail-sE-
+di-to-r/-con-trol-ler-s/-list-TrailC- 
+ []
+
+
+Overfull \hbox (10.09311pt too wide) in paragraph at lines 31--31
+ [][] [][][]\OT1/cmr/m/n/12 Diagramma del-la clas-se pre-mi/-clien-t/-trail-sE-
+di-to-r/-con-trol-ler-s/-mod-TrailC- 
+ []
+
+)
 \tf@lof=\write6
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 37.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [4]
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-intro.tex" ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-0.def"
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/intro.tex"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-32.def"
+(C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ))
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-standard.tex")
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-server.tex" <img/diapkg/server.png, id=362, 130.23656pt x 115.18031pt>
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/standard.tex")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/server.tex" <img/diapkg/server.png, id=394, 130.23656pt x 115.18031pt>
 File: img/diapkg/server.png Graphic file (type png)
 
 <use img/diapkg/server.png>
@@ -668,7 +691,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 10.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [5]
-<img/diacla/publish.png, id=373, 596.2275pt x 591.71063pt>
+<img/diacla/publish.png, id=405, 596.2275pt x 591.71063pt>
 File: img/diacla/publish.png Graphic file (type png)
 
 <use img/diacla/publish.png>
@@ -683,9 +706,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 29.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [6 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/dia
-pkg/server.png> <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prod
-otto/img/diacla/publish.png>]
+ [6 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/img
+/diapkg/server.png> <C:/Users/Ismaele/Documents/git/premi-documents/Definizione
+ di Prodotto/img/diacla/publish.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
@@ -1645,16 +1668,16 @@ li-sh-func-tion \OT1/cmr/m/n/12 in Me-teor.publish
  []
 
 )
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-client.tex" <img/diapkg/client.png, id=450, 353.82187pt x 334.24875pt>
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/client.tex" <img/diapkg/client.png, id=482, 353.82187pt x 334.24875pt>
 File: img/diapkg/client.png Graphic file (type png)
 
 <use img/diapkg/client.png>
 Package pdftex.def Info: img/diapkg/client.png used on input line 4.
 (pdftex.def)             Requested size: 318.43674pt x 300.82109pt.
 )
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-presentation.tex"
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/presentation.tex"
 Overfull \hbox (55.987pt too wide) in paragraph at lines 9--1
 []\OT1/cmr/m/n/12 ````````````````````````````````````````````````````````` pac
 -ka-ge an-co-ra in-com-ple-to `````````````````````````````````````````````````
@@ -1712,16 +1735,16 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [20 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-apkg/client.png>]
-<img/diapkg/presentation.png, id=457, 349.305pt x 154.32657pt>
+ [20 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diapkg/client.png>]
+<img/diapkg/presentation.png, id=489, 349.305pt x 154.32657pt>
 File: img/diapkg/presentation.png Graphic file (type png)
 
 <use img/diapkg/presentation.png>
 Package pdftex.def Info: img/diapkg/presentation.png used on input line 4.
 (pdftex.def)             Requested size: 314.37158pt x 138.89261pt.
 
-<img/diacla/databaseAPI.png, id=458, 641.39626pt x 335.00156pt>
+<img/diacla/databaseAPI.png, id=490, 641.39626pt x 335.00156pt>
 File: img/diacla/databaseAPI.png Graphic file (type png)
 
 <use img/diacla/databaseAPI.png>
@@ -1746,9 +1769,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 28.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [21 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-apkg/presentation.png> <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione 
-di Prodotto/img/diacla/databaseAPI.png>]
+ [21 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diapkg/presentation.png> <C:/Users/Ismaele/Documents/git/premi-documents/Defi
+nizione di Prodotto/img/diacla/databaseAPI.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
@@ -2251,7 +2274,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 501--503
 
  []
 
-<img/diacla/OrderedGOList.png, id=503, 374.14781pt x 335.00156pt>
+<img/diacla/OrderedGOList.png, id=535, 374.14781pt x 335.00156pt>
 File: img/diacla/OrderedGOList.png Graphic file (type png)
 
 <use img/diacla/OrderedGOList.png>
@@ -2344,8 +2367,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 610.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [30 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/OrderedGOList.png>]
+ [30 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/OrderedGOList.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 613--615
 
  []
@@ -2533,7 +2556,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 820--822
 
  []
 
-<img/diacla/Trail.png, id=526, 338.01282pt x 531.48563pt>
+<img/diacla/Trail.png, id=558, 338.01282pt x 531.48563pt>
 File: img/diacla/Trail.png Graphic file (type png)
 
 <use img/diacla/Trail.png>
@@ -2590,8 +2613,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 888.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [34 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/Trail.png>]
+ [34 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/Trail.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 888--890
 
  []
@@ -2952,9 +2975,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 1293--1295
  []
 
 )
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-presentationManager.tex"
-<img/diapkg/presentationManager.png, id=565, 560.0925pt x 395.22656pt>
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/presentationManager.tex"
+<img/diapkg/presentationManager.png, id=597, 560.0925pt x 395.22656pt>
 File: img/diapkg/presentationManager.png Graphic file (type png)
 
 <use img/diapkg/presentationManager.png>
@@ -3008,8 +3031,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 59.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [41 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-apkg/presentationManager.png>]
+ [41 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diapkg/presentationManager.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
@@ -3045,7 +3068,7 @@ Overfull \hbox (5.0297pt too wide) in paragraph at lines 123--123
 nCtrl 
  []
 
-<img/diacla/editPresentationCtrl.png, id=577, 204.765pt x 106.89937pt>
+<img/diacla/editPresentationCtrl.png, id=609, 204.765pt x 106.89937pt>
 File: img/diacla/editPresentationCtrl.png Graphic file (type png)
 
 <use img/diacla/editPresentationCtrl.png>
@@ -3116,7 +3139,7 @@ Overfull \hbox (5.7797pt too wide) in paragraph at lines 174--174
 Ctrl 
  []
 
-<img/diacla/newPresentationCtrl.png, id=584, 207.77625pt x 121.95563pt>
+<img/diacla/newPresentationCtrl.png, id=616, 207.77625pt x 121.95563pt>
 File: img/diacla/newPresentationCtrl.png Graphic file (type png)
 
 <use img/diacla/newPresentationCtrl.png>
@@ -3146,8 +3169,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 194.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [43 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/editPresentationCtrl.png>]
+ [43 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/editPresentationCtrl.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 199--201
 
  []
@@ -3193,7 +3216,7 @@ Overfull \hbox (32.50194pt too wide) in paragraph at lines 233--233
 agerCtrl 
  []
 
-<img/diacla/presentationManagerCtrl.png, id=591, 232.61906pt x 61.73062pt>
+<img/diacla/presentationManagerCtrl.png, id=623, 232.61906pt x 61.73062pt>
 File: img/diacla/presentationManagerCtrl.png Graphic file (type png)
 
 <use img/diacla/presentationManagerCtrl.png>
@@ -3213,9 +3236,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 245.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [44 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/newPresentationCtrl.png>]
-<img/diacla/presentationsCtrl.png, id=598, 191.21437pt x 76.78688pt>
+ [44 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/newPresentationCtrl.png>]
+<img/diacla/presentationsCtrl.png, id=630, 191.21437pt x 76.78688pt>
 File: img/diacla/presentationsCtrl.png Graphic file (type png)
 
 <use img/diacla/presentationsCtrl.png>
@@ -3248,7 +3271,7 @@ Overfull \hbox (31.32831pt too wide) in paragraph at lines 279--279
 ionCtrl 
  []
 
-<img/diacla/removePresentationCtrl.png, id=599, 226.59656pt x 106.89937pt>
+<img/diacla/removePresentationCtrl.png, id=631, 226.59656pt x 106.89937pt>
 File: img/diacla/removePresentationCtrl.png Graphic file (type png)
 
 <use img/diacla/removePresentationCtrl.png>
@@ -3278,9 +3301,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 299.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [45 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/presentationManagerCtrl.png> <C:/Users/Gobbo/Ismaele/git/premi-documents/D
-efinizione di Prodotto/img/diacla/presentationsCtrl.png>]
+ [45 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/presentationManagerCtrl.png> <C:/Users/Ismaele/Documents/git/premi-doc
+uments/Definizione di Prodotto/img/diacla/presentationsCtrl.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 304--306
 
  []
@@ -3316,8 +3339,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--325
  []
 
 )
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-editor.tex" <img/diapkg/editor.png, id=607, 858.20625pt x 507.39563pt>
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/editor.tex" <img/diapkg/editor.png, id=639, 858.20625pt x 507.39563pt>
 File: img/diapkg/editor.png Graphic file (type png)
 
 <use img/diapkg/editor.png>
@@ -3327,7 +3350,7 @@ Package pdftex.def Info: img/diapkg/editor.png used on input line 4.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/diacla/GObject.png, id=608, 362.10281pt x 292.09125pt>
+<img/diacla/GObject.png, id=640, 362.10281pt x 292.09125pt>
 File: img/diacla/GObject.png Graphic file (type png)
 
 <use img/diacla/GObject.png>
@@ -3346,8 +3369,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 21.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [46 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/removePresentationCtrl.png>]
+ [46 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/removePresentationCtrl.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
@@ -3366,9 +3389,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 36.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [47 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-apkg/editor.png> <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Pro
-dotto/img/diacla/GObject.png>]
+ [47 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diapkg/editor.png> <C:/Users/Ismaele/Documents/git/premi-documents/Definizion
+e di Prodotto/img/diacla/GObject.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -3506,7 +3529,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
-<img/diacla/GOProvider.png, id=633, 288.3272pt x 91.84312pt>
+<img/diacla/GOProvider.png, id=665, 288.3272pt x 91.84312pt>
 File: img/diacla/GOProvider.png Graphic file (type png)
 
 <use img/diacla/GOProvider.png>
@@ -3561,8 +3584,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 228.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [50 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/GOProvider.png>]
+ [50 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/GOProvider.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 231--233
 
  []
@@ -3572,7 +3595,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--233
 
  []
 
-<img/diacla/frame.png, id=640, 475.7775pt x 444.15938pt>
+<img/diacla/frame.png, id=672, 475.7775pt x 444.15938pt>
 File: img/diacla/frame.png Graphic file (type png)
 
 <use img/diacla/frame.png>
@@ -3617,8 +3640,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 271.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [51 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/frame.png>]
+ [51 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/frame.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 271--274
 
  []
@@ -3894,7 +3917,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 552--554
 
  []
 
-<img/diacla/GOContainer.png, id=668, 485.56406pt x 444.15938pt>
+<img/diacla/GOContainer.png, id=700, 485.56406pt x 444.15938pt>
 File: img/diacla/GOContainer.png Graphic file (type png)
 
 <use img/diacla/GOContainer.png>
@@ -3972,8 +3995,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 617.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [57 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/GOContainer.png>]
+ [57 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/GOContainer.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 622--624
 
  []
@@ -4220,7 +4243,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 871--873
 
  []
 
-<img/diacla/Image.png, id=696, 317.68687pt x 167.12437pt>
+<img/diacla/Image.png, id=728, 317.68687pt x 167.12437pt>
 File: img/diacla/Image.png Graphic file (type png)
 
 <use img/diacla/Image.png>
@@ -4298,8 +4321,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 935.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [62 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/Image.png>]
+ [62 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/Image.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 941--943
 
  []
@@ -4359,7 +4382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1001--1003
 
  []
 
-<img/diacla/Infographic.png, id=708, 570.63188pt x 350.81062pt>
+<img/diacla/Infographic.png, id=740, 570.63188pt x 350.81062pt>
 File: img/diacla/Infographic.png Graphic file (type png)
 
 <use img/diacla/Infographic.png>
@@ -4423,8 +4446,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1048.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [64 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/Infographic.png>]
+ [64 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/Infographic.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1051--1052
 
  []
@@ -4662,7 +4685,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1289--1291
 
  []
 
-<img/diacla/InteractInit.png, id=736, 365.11406pt x 216.05719pt>
+<img/diacla/InteractInit.png, id=768, 365.11406pt x 216.05719pt>
 File: img/diacla/InteractInit.png Graphic file (type png)
 
 <use img/diacla/InteractInit.png>
@@ -4733,8 +4756,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1334.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [69 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/InteractInit.png>]
+ [69 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/InteractInit.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1336--1338
 
  []
@@ -4868,7 +4891,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1456--1458
 
  []
 
-<img/diacla/Observer.png, id=753, 642.90187pt x 97.86563pt>
+<img/diacla/Observer.png, id=785, 642.90187pt x 97.86563pt>
 File: img/diacla/Observer.png Graphic file (type png)
 
 <use img/diacla/Observer.png>
@@ -4947,9 +4970,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1523.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [72 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/Observer.png>]
-<img/diacla/Saver.png, id=766, 442.65375pt x 251.43938pt>
+ [72 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/Observer.png>]
+<img/diacla/Saver.png, id=798, 442.65375pt x 251.43938pt>
 File: img/diacla/Saver.png Graphic file (type png)
 
 <use img/diacla/Saver.png>
@@ -4989,8 +5012,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1558.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [73 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/Saver.png>]
+ [73 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/Saver.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1563--1566
 
  []
@@ -5103,7 +5126,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1690--1692
 
  []
 
-<img/diacla/shape.png, id=783, 321.45094pt x 265.74281pt>
+<img/diacla/shape.png, id=815, 321.45094pt x 265.74281pt>
 File: img/diacla/shape.png Graphic file (type png)
 
 <use img/diacla/shape.png>
@@ -5191,8 +5214,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1759.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [77 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/shape.png>]
+ [77 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/shape.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1769--1771
 
  []
@@ -5257,7 +5280,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 1831.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [78]
-<img/diacla/text.png, id=801, 310.15875pt x 280.04625pt>
+<img/diacla/text.png, id=833, 310.15875pt x 280.04625pt>
 File: img/diacla/text.png Graphic file (type png)
 
 <use img/diacla/text.png>
@@ -5307,8 +5330,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1875.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [79 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/text.png>]
+ [79 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/text.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1877--1879
 
  []
@@ -5403,13 +5426,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1972--1974
  []
 
 )
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-frameEditor.tex")
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-infographicEditor.tex")
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-trailsEditor.tex"
-<img/diapkg/trailsEditor.png, id=813, 467.49657pt x 476.53032pt>
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/frameEditor.tex")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/infographicEditor.tex")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/trailsEditor.tex"
+<img/diapkg/trailsEditor.png, id=845, 467.49657pt x 476.53032pt>
 File: img/diapkg/trailsEditor.png Graphic file (type png)
 
 <use img/diapkg/trailsEditor.png>
@@ -5457,8 +5480,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 36.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [82 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-apkg/trailsEditor.png>]
+ [82 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diapkg/trailsEditor.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
@@ -5512,56 +5535,410 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
+<img/diacla/basicToolbarCtrl.png, id=862, 213.79875pt x 76.78688pt>
+File: img/diacla/basicToolbarCtrl.png Graphic file (type png)
+
+<use img/diacla/basicToolbarCtrl.png>
+Package pdftex.def Info: img/diacla/basicToolbarCtrl.png used on input line 137
+.
+(pdftex.def)             Requested size: 117.58966pt x 42.2329pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
+
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 165.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [84 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/basicToolbarCtrl.png>]
+<img/diacla/editTrailCtrl.png, id=870, 156.585pt x 106.89937pt>
+File: img/diacla/editTrailCtrl.png Graphic file (type png)
+
+<use img/diacla/editTrailCtrl.png>
+Package pdftex.def Info: img/diacla/editTrailCtrl.png used on input line 182.
+(pdftex.def)             Requested size: 86.12201pt x 58.79482pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--197
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--222
+
+ []
+
+<img/diacla/listTrailCtrl.png, id=871, 152.06813pt x 76.78688pt>
+File: img/diacla/listTrailCtrl.png Graphic file (type png)
+
+<use img/diacla/listTrailCtrl.png>
+Package pdftex.def Info: img/diacla/listTrailCtrl.png used on input line 234.
+(pdftex.def)             Requested size: 83.63773pt x 42.2329pt.
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 237.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [85 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/editTrailCtrl.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 242--244
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
+
+ []
+
+<img/diacla/modTrailCtrl.png, id=878, 280.04625pt x 456.20438pt>
+File: img/diacla/modTrailCtrl.png Graphic file (type png)
+
+<use img/diacla/modTrailCtrl.png>
+Package pdftex.def Info: img/diacla/modTrailCtrl.png used on input line 265.
+(pdftex.def)             Requested size: 154.0259pt x 250.91318pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
+
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 275.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [86 <C:/Users/Ismaele/Documents/git/premi-documents/Definizione di Prodotto/im
+g/diacla/listTrailCtrl.png> <C:/Users/Ismaele/Documents/git/premi-documents/Def
+inizione di Prodotto/img/diacla/modTrailCtrl.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--293
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--295
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--303
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--305
+
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 305.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [87]
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--336
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--343
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--364
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--369
+
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 369.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [88]
+Underfull \hbox (badness 10000) in paragraph at lines 381--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--397
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--416
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--431
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--438
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--445
+
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 445.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [89]
+Underfull \hbox (badness 10000) in paragraph at lines 450--452
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--465
+
+ []
+
 )
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-userManager.tex")
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-viewer.tex")
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-tracciamento.tex")
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-diagrammi_sequenza.tex")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/userManager.tex")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/viewer.tex")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/tracciamento.tex")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\docume
+nts/diagrammi_sequenza.tex")
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 54.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [84]
+ [90]
 No file Definizione_di_Prodotto_v1.0.bbl.
 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
 
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\Definizion
-e_di_Prodotto_v1.0.aux")
+("C:\Users\Ismaele\Documents\git\premi-documents\Definizione di Prodotto\Defini
+zione_di_Prodotto_v1.0.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `Definizione_di_Prodotto_v1.0.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 72705076FE1465FB39A8FB0CBDF0EB75;4739.
+(rerunfilecheck)             Checksum: 4A126351469A6E96AF6A933FFFE51832;5190.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 11094 strings out of 493921
- 173336 string characters out of 3144876
+ 11132 strings out of 493921
+ 174922 string characters out of 3144870
  248830 words of memory out of 3000000
- 14009 multiletter control sequences out of 15000+200000
+ 14029 multiletter control sequences out of 15000+200000
  10071 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,16n,47p,642b,826s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Gobbo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
-tcti1200.pk> <C:\Users\Gobbo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\tcbx1200.pk> <C:\Users\Gobbo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\tcrm1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmtt12.pfb>
-Output written on Definizione_di_Prodotto_v1.0.pdf (85 pages, 1476644 bytes).
+ 43i,16n,47p,642b,830s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Ismaele\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\tcti1200.pk> <C:\Users\Ismaele\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\tcbx1200.pk> <C:\Users\Ismaele\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\tcrm1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmtt12.pfb>
+Output written on Definizione_di_Prodotto_v1.0.pdf (91 pages, 1722881 bytes).
 PDF statistics:
- 908 PDF objects out of 1000 (max. 8388607)
- 169 named destinations out of 1000 (max. 500000)
- 565 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 982 PDF objects out of 1000 (max. 8388607)
+ 183 named destinations out of 1000 (max. 500000)
+ 617 words of extra memory for PDF output out of 10000 (max. 10000000)
 

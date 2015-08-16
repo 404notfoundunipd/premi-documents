@@ -48,7 +48,11 @@
 \contentsline {subsubsection}{\numberline {3.9.4}premi/client/trailsEditor/views/modTrail.ng}{83}{subsubsection.3.9.4}
 \contentsline {subsubsection}{\numberline {3.9.5}premi/client/trailsEditor/views/newTrail.ng}{83}{subsubsection.3.9.5}
 \contentsline {subsubsection}{\numberline {3.9.6}premi/client/trailsEditor/views/removeTrail.ng}{84}{subsubsection.3.9.6}
-\contentsline {subsection}{\numberline {3.10}premi/client/userManager}{84}{subsection.3.10}
-\contentsline {subsection}{\numberline {3.11}premi/client/viewer}{84}{subsection.3.11}
-\contentsline {section}{\numberline {4}Tracciamento}{84}{section.4}
-\contentsline {section}{\numberline {5}Diagrammi di Sequenza}{84}{section.5}
+\contentsline {subsubsection}{\numberline {3.9.7}premi/client/trailsEditor/controllers/basicToolbarCtrl}{84}{subsubsection.3.9.7}
+\contentsline {subsubsection}{\numberline {3.9.8}premi/client/trailsEditor/controllers/editTrailCtrl}{85}{subsubsection.3.9.8}
+\contentsline {subsubsection}{\numberline {3.9.9}premi/client/trailsEditor/controllers/listTrailCtrl}{86}{subsubsection.3.9.9}
+\contentsline {subsubsection}{\numberline {3.9.10}premi/client/trailsEditor/controllers/modTrailCtrl}{86}{subsubsection.3.9.10}
+\contentsline {subsection}{\numberline {3.10}premi/client/userManager}{90}{subsection.3.10}
+\contentsline {subsection}{\numberline {3.11}premi/client/viewer}{90}{subsection.3.11}
+\contentsline {section}{\numberline {4}Tracciamento}{90}{section.4}
+\contentsline {section}{\numberline {5}Diagrammi di Sequenza}{90}{section.5}

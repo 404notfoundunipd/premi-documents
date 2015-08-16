@@ -25,3 +25,7 @@
 \contentsline {figure}{\numberline {24}{\ignorespaces Diagramma della classe premi/client/editor/lib/Shape\relax }}{77}{figure.caption.28}
 \contentsline {figure}{\numberline {25}{\ignorespaces Diagramma della classe premi/client/editor/lib/Text\relax }}{79}{figure.caption.29}
 \contentsline {figure}{\numberline {26}{\ignorespaces Diagramma del package premi/client/trailsEditor\relax }}{82}{figure.caption.30}
+\contentsline {figure}{\numberline {27}{\ignorespaces Diagramma della classe premi/client/trailsEditor/controllers/basicToolbarCtrl\relax }}{84}{figure.caption.31}
+\contentsline {figure}{\numberline {28}{\ignorespaces Diagramma della classe premi/client/trailsEditor/controllers/editTrailCtrl\relax }}{85}{figure.caption.32}
+\contentsline {figure}{\numberline {29}{\ignorespaces Diagramma della classe premi/client/trailsEditor/controllers/listTrailCtrl\relax }}{86}{figure.caption.33}
+\contentsline {figure}{\numberline {30}{\ignorespaces Diagramma della classe premi/client/trailsEditor/controllers/modTrailCtrl\relax }}{86}{figure.caption.34}
