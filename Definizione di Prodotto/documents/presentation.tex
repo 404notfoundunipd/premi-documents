@@ -828,3 +828,309 @@
 
 \end{description}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%-------  diagramma della classe%
+\subsubsection{premi/client/presentation/lib/Trail}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.55]{img/diacla/Trail.png}
+\caption{Diagramma della classe premi/client/presentation/lib/Trail}
+\end{center}
+\end{figure}
+
+
+\begin{description}
+%-------  descrizione della classe%
+\item[Descrizione] \hfill \\
+	Trail modella un percorso di presentazione, attraverso una lista delle slide contenute al suo interno, e una matrice che rappresenta la struttura del percorso e segnala la presenza di percorsi di specializzazione.
+	
+	
+
+	
+	
+%-------  lista degli Attributi%	
+\item[Attributi] \hfill \\
+	\begin{description}
+		\item[\textbf{- slidesIndex : Hash			}] \hfill \\
+			Lista di tutte le slide contenute all'interno della presentazione create dall'utente. Contiene quindi anche quelle non aggiunte al percorso. È una lista di valori \{ \texttt{id_slide} : \texttt{posizione nell'array di slide} \}
+		\item[\textbf{- path : Array			}] \hfill \\
+			Matrice rettangolare che rappresenta il percorso di specializzazione. Contiene i codici identificativi delle slide presenti nel percorso; se non esistono percorsi di specializzazione la matrice sarà composta da una sola riga e tante colonne quante sono le slide presenti al suo interno, la prima collocata nella posizione [0][0]. Ogni riga aggiuntiva indicherà quindi un percorso di specializzazione, che parte dalla slide il cui codice identificativo è inserito nella posizione [riga][0]
+			\item[\textbf{- currentChkPnt : int			}] \hfill \\
+			Il checkpoint nel quale l'utente sta lavorando
+			\item[\textbf{- currentStep : int			}] \hfill \\
+			Il punto del percorso di specializzazione nel quale l'utente sta lavorando
+			\item[\textbf{- hashSlidePos : Hash			}] \hfill \\
+			Lista di codici identificativi delle slide di cui è composto il percorso di presentazione. Sono associati a due integer: \textit{row} indica la riga in cui si trova la slide all'interno della matrice path, mentre \textit{col} indica la colonna
+			\item[\textbf{- checkPointHash : Hash		}] \hfill \\
+			Lista delle slide che fungono da checkpoint. È una lista di valori  \{ \texttt{id_slide} : \texttt{riga nella matrice del percorso} \}
+	\end{description}
+	
+	
+%-------  lista dei metodi%	
+\item[Metodi] \hfill \\
+
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- findChkPntRow(checkPointSlide : String) : int			}] \hfill \\
+			Trova la posizione corrispondente della slide che funge da checkpoint all'interno della matrice di presentazione.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{checkPointSlide : String		} \hfill \\
+					Codice identificativo della slide
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Utilizza checkPointHash per restituire il valore. Non è quindi necessario consultare la matrice path
+					\item Se la slide non è stata trovata, e non è quindi un checkpoint, restituisce \texttt{-1}
+			\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %		
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- findSlideInPath(Slide : String, path : Array) : Collection			}] \hfill \\
+			Trova le coordinate della slide all'interno di una matrice di codici identificativi. Restituisce un hash composto da: \texttt{row}: riga in cui si trova la slide, \texttt{col}: colonna in cui si trova la slide, \texttt{chkRow}: riga in cui si trova la slide se funge anche da checkpoint
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{Slide : String		} \hfill \\
+					Codice identificativo della slide
+					\item \textbf{path : Array		} \hfill \\
+					La matrice in cui cercare la slide
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item row, col, chkRow vanno inizializzati a \texttt{-1} e restituiti con questo valore se la slide non viene trovata
+			\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- insertSlide(lvl : int, pos : int, what : String) : Trail			}] \hfill \\
+			Inserisce il codice identificativo della slide in path, nella posizione indicata dalle coordinate inviate. Restituisce un riferimento al this per consentire chiamate consecutive ai metodi della classe
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{lvl : int		} \hfill \\
+					Indica la riga in cui si intende inserire la slide
+					\item \textbf{pos : int		} \hfill \\
+					Indica la colonna in cui si intende inserire la slide
+					\item \textbf{what : String		} \hfill \\
+					È il codice identificativo della slide 
+					
+				\end{itemize}
+			
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- removeSlide(idSlide : String) : Trail			}] \hfill \\
+			Rimuove una slide dal percorso di presentazione. Restituisce un riferimento al this per consentire chiamate consecutive ai metodi della classe
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+					\item \textbf{idSlide : String		} \hfill \\
+					È il codice identificativo della slide 
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\	
+				\begin{itemize}
+					\item se la slide da rimuovere è quella nella posizione [0][0], allora l'intero percorso andrà rimosso e hashSlidePos e checkPointHash azzerati
+					\item la slide va rimossa da hashSlidePos, e da checkPointHash se fungeva da checkpoint (come vanno rimosse anche le slide incluse nel suo percorso di specializzazione, e se anche qualcuna di queste slide fungeva da checkpoint andranno rimosse ricorsivamente anche le altre slide che dipendevano da essa, etc)
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- makeCheckPoint(idSlide : String) : Trail			}] \hfill \\
+			Imposta la slide come checkpoint. Restituisce un riferimento al this per consentire chiamate consecutive ai metodi della classe
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idSlide : String		} \hfill \\
+					È il codice identificativo della slide 
+					
+				\end{itemize}
+			
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- removeCheckPoint(idSlide : String) : Trail			}] \hfill \\
+			Rimuove il percorso di specializzazione associato alla slide. Restituisce un riferimento al this per consentire chiamate consecutive ai metodi della classe
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idSlide : String		} \hfill \\
+					È il codice identificativo della slide 
+					
+				\end{itemize}
+			
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- findSlideIndex(IdSlide : String) : int			}] \hfill \\
+			Restituisce la posizione della slide all'interno della lista di tutte le slide create dall'utente nella presentazione in cui sta lavorando.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idSlide : String		} \hfill \\
+					È il codice identificativo della slide 
+					
+				\end{itemize}
+			
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ initPath(Slides : Collection, inPath : Array) : Trail			}] \hfill \\
+			Data una lista di slides ed una matrice rettangolare, inizializza i tre hash slidesIndex, hashSlidePos e checkPointHash.  Restituisce un riferimento al this per consentire chiamate consecutive ai metodi della classe
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{Slides : Collection		} \hfill \\
+					È una collezione di tutte le slides create dall'utente nella presentazione in cui sta lavorando
+					\item \textbf{inPath :  Array		} \hfill \\
+					È la matrice rettangolare che rappresenta il percorso della presentazione
+					
+				\end{itemize}
+			
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	\begin{description}
+		\item[\textbf{\color{blue}+ nextSlide() : int			}] \hfill \\
+			Restituisce la posizione (all'interno della lista di tutte le slides create dall'utente nella presentazione corrente) della prossima slide rispetto alla posizione in cui l'utente si trova nel percorso che sta visualizzando.
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	\begin{description}
+		\item[\textbf{\color{blue}+ prevSlide() : int			}] \hfill \\
+			Restituisce la posizione (all'interno della lista di tutte le slides create dall'utente nella presentazione corrente) della slide precedente rispetto alla posizione in cui l'utente si trova nel percorso che sta visualizzando.
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- fine metodo -- %
+	
+	\begin{description}
+		\item[\textbf{\color{blue+ enterInCheckPoint() : int			}] \hfill \\
+			Restituisce la riga in cui si trova il percorso di specializzazione della slide che l'utente sta visualizzando, solo se la slide funge da checkpoint
+			
+		\begin{description}
+			
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\	
+				\begin{itemize}
+					\item restituisce -1 se la slide non è un checkpoint o se è la slide nella posizione [0][0]
+				\end{itemize}
+		\end{description}
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	
+
+\end{description}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
