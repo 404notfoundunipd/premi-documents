@@ -880,7 +880,7 @@
 \item[Attributi] \hfill \\
 	\begin{description}
 		\item[\textbf{- slidesIndex : Hash			}] \hfill \\
-			Lista di tutte le slide contenute all'interno della presentazione create dall'utente. Contiene quindi anche quelle non aggiunte al percorso. È una lista di valori \{ \texttt{id_slide} : \texttt{posizione nell'array di slide} \}
+			Lista di tutte le slide contenute all'interno della presentazione create dall'utente. Contiene quindi anche quelle non aggiunte al percorso. È una lista di valori \{ \texttt{id\_{}slide} : \texttt{posizione nell'array di slide} \}
 		\item[\textbf{- path : Array			}] \hfill \\
 			Matrice rettangolare che rappresenta il percorso di specializzazione. Contiene i codici identificativi delle slide presenti nel percorso; se non esistono percorsi di specializzazione la matrice sarà composta da una sola riga e tante colonne quante sono le slide presenti al suo interno, la prima collocata nella posizione [0][0]. Ogni riga aggiuntiva indicherà quindi un percorso di specializzazione, che parte dalla slide il cui codice identificativo è inserito nella posizione [riga][0]
 			\item[\textbf{- currentChkPnt : int			}] \hfill \\
@@ -890,7 +890,7 @@
 			\item[\textbf{- hashSlidePos : Hash			}] \hfill \\
 			Lista di codici identificativi delle slide di cui è composto il percorso di presentazione. Sono associati a due integer: \textit{row} indica la riga in cui si trova la slide all'interno della matrice path, mentre \textit{col} indica la colonna
 			\item[\textbf{- checkPointHash : Hash		}] \hfill \\
-			Lista delle slide che fungono da checkpoint. È una lista di valori  \{ \texttt{id_slide} : \texttt{riga nella matrice del percorso} \}
+			Lista delle slide che fungono da checkpoint. È una lista di valori  \{ \texttt{id\_{}slide} : \texttt{riga nella matrice del percorso} \}
 	\end{description}
 	
 	
@@ -1070,6 +1070,7 @@
 	\end{description}
 	% -- fine metodo -- %
 	
+	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ nextSlide() : int			}] \hfill \\
 			Restituisce la posizione (all'interno della lista di tutte le slides create dall'utente nella presentazione corrente) della prossima slide rispetto alla posizione in cui l'utente si trova nel percorso che sta visualizzando.
@@ -1077,6 +1078,7 @@
 	\end{description}
 	% -- fine metodo -- %
 	
+	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ prevSlide() : int			}] \hfill \\
 			Restituisce la posizione (all'interno della lista di tutte le slides create dall'utente nella presentazione corrente) della slide precedente rispetto alla posizione in cui l'utente si trova nel percorso che sta visualizzando.
@@ -1084,10 +1086,10 @@
 	\end{description}
 	% -- fine metodo -- %
 	
-	% -- fine metodo -- %
 	
+	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue+ enterInCheckPoint() : int			}] \hfill \\
+		\item[\textbf{\color{blue}+ enterInCheckPoint() : int			}] \hfill \\
 			Restituisce la riga in cui si trova il percorso di specializzazione della slide che l'utente sta visualizzando, solo se la slide funge da checkpoint
 			
 		\begin{description}
@@ -1098,6 +1100,198 @@
 					\item restituisce -1 se la slide non è un checkpoint o se è la slide nella posizione [0][0]
 				\end{itemize}
 		\end{description}
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ returnToCheckPoint() : int			}] \hfill \\
+			Ritorna al percorso in cui l'utente si trovava prima di di accedere ad un percorso di specializzazione
+			
+		\begin{description}
+			
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\	
+				\begin{itemize}
+					\item restituisce -1 se l'utente non si trova in un percorso di specializzazione
+				\end{itemize}
+		\end{description}
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ goToSlide(idSlide : String) : int			}] \hfill \\
+			Sposta la visualizzazione sulla slide ricevuta, se presente all'interno del percorso, e restituisce la posizione della slide all'interno di slidesIndex
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idSlie : String	} \hfill \\
+					È il codice identificativo della slide
+					
+				\end{itemize}
+			
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ isCurrentSlideChkPnt() : boolean			}] \hfill \\
+			Restituisce \textit{true} se la slide in cui l'utente si trova è un checkpoint, \textit{false} altrimenti
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ isCheckPoint(idSlide : String) : boolean			}] \hfill \\
+			Restituisce \textit{true} se la slide corrispondente al codice identificativo rievuto è un checkpoint, \textit{false} altrimenti
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idSlie : String	} \hfill \\
+					È il codice identificativo della slide
+					
+				\end{itemize}
+			
+		\end{description}
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ isSlideInTrail(idSlide : String) : boolean			}] \hfill \\
+			Restituisce \textit{true} se la slide corrispondente al codice identificativo rievuto è presente all'interno del percorso, \textit{false} altrimenti
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idSlie : String	} \hfill \\
+					È il codice identificativo della slide
+					
+				\end{itemize}
+			
+		\end{description}
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getCurrentIndex() : int			}] \hfill \\
+			Restituisce la posizione in slidesIndex della slide attualmente selezionata
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getCurrentId() : String			}] \hfill \\
+			Restituisce il codice identificativo della slide attualmente selezionata
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ insertSlideAfterCurrent(idSlide : String) : boolean			}] \hfill \\
+			Inserisce la slide ricevuta nella posizione successiva a quella attualmente selezionata. Restituisce \textit{true} se l'operazione ha avuto successo, \textit{false} altrimenti
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idSlide : String	} \hfill \\
+					È il codice identificativo della slide
+					
+				\end{itemize}
+			
+		\end{description}
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ insertSlideAfterCurrent(idSlide : String) : boolean			}] \hfill \\
+			Inserisce la slide ricevuta nella posizione precedente a quella attualmente selezionata. Restituisce \textit{true} se l'operazione ha avuto successo, \textit{false} altrimenti
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idSlie : String	} \hfill \\
+					È il codice identificativo della slide
+					
+				\end{itemize}
+			
+		\end{description}
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ insertSlideAfterCurrent(idSlide : String) : boolean			}] \hfill \\
+			Inserisce la slide ricevuta nel percorso di specializzazione correlato alla slide attualmente selezionata. Se la slide non era un checkpoint viene impostata come tale. Restituisce \textit{true} se l'operazione ha avuto successo, \textit{false} altrimenti
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idSlie : String	} \hfill \\
+					È il codice identificativo della slide
+					
+				\end{itemize}
+			
+		\end{description}
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ removeCurrentSlde() : boolean			}] \hfill \\
+			Rimuove la slide attualmente selezionata. Restituisce \textit{true} se l'operazione ha avuto successo, \textit{false} altrimenti 
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ removeCheckPoint() : void			}] \hfill \\
+			Toglie il percorso di specializzazione dalla slide attualmente selezionata, che non sarà più un checkpoint
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getTrail() : Array			}] \hfill \\
+			Restituisce l'array path
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ isTrailEmpty() : Boolean			}] \hfill \\
+			Restituisce \textit{true} se il percorso è vuoto, \textit{false} altrimenti
 			
 	\end{description}
 	% -- fine metodo -- %
