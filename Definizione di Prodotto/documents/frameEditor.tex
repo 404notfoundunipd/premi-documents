@@ -379,7 +379,7 @@
 	\end{description}
 	% -- fine metodo -- %
 	
-	 -- inizio metodo -- %
+	%-- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ removeSelection() : void	}] \hfill \\
 			Annulla la selezione del frame, azzerando tutti gli attributi interessati alla selezione
@@ -391,25 +391,268 @@
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ addGObject(type : String, params : Collection) : void 	}] \hfill \\
-			Prepara l'editor alla modifica dell'oggetto grafico in base al suo tipo
+			Aggiunge un nuovo frame, oppure un nuovo oggetto grafico al frame selezionato, e prepara l'editor alla sua modifica
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \textbf{\$event : Event	} \hfill \\
-					l'evento che ha portato alla chiamata del metodo. I suoi segnali devono essere interrotti attraverso il metodo stopPropagation()		
-					\item \textbf{idGO : String	} \hfill \\
-					Il codice identificativo dell'oggetto grafico che l'utente ha scelto di modificare
 					\item \textbf{type : String	} \hfill \\
-					Il tipo dell'oggetto grafico da rappresentare
+					Il tipo di oggetto grafico che si sta aggiungendo
+					\item \textbf{params : Collection	} \hfill \\
+					Collezione di attributi del nuovo oggetto grafico
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ setTextDimensionByText(textareaInput : String) : void	 	}] \hfill \\
+			Cambia la dimensione dell'input di testo in base al numero di righe inserite finora
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{textareaInput : String	} \hfill \\
+					Il testo inserito dall'utente all'interno dell'input
 				\end{itemize}
 				
 		\end{description}
 	\end{description}
 	% -- fine metodo -- %
 	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ changeInputTetarea(textareaInput : String) : void	 	}] \hfill \\
+			Cambia la dimensione dell'input di testo in base al numero di righe inserite finora, richiamando il metodo setTextDimensionByText, e aggiorna l'oggetto grafico associato all'input attraverso il metodo updateSelectedGO di currentFrame
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{textareaInput : String	} \hfill \\
+					Il testo inserito dall'utente all'interno dell'input
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ clickDropZone() : void	}] \hfill \\
+			Deseleziona il frame attualmente selezionato (utilizzato quando si preme un'area vuota dell'editor)
+		
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getColorText() : String	}] \hfill \\
+			Restituisce il colore attualmente impostato per l'inserimento del testo (restituisce colorTextSelected)
+		
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ changeImageShape(srcShape : String) : void	 	}] \hfill \\
+			Cambia lo shape attualmente selezionato, sostituendo la sua immagine con quella rappresentata dalla stringa ricevuta
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{srcShape : String	} \hfill \\
+					Il nome della nuova immagine scelta per lo shape
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ changeWeight(valueWeight : int) : void	 	}] \hfill \\
+			Cambia la "grossezza" del testo attualmente selezionato dall'utente
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{valueWeight : int	} \hfill \\
+					Il nuovo valore di "grossezza" del testo
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ changeFontStyle(valueFontStyle : String) : void	 	}] \hfill \\
+		Cambia lo stile del testo attualmente selezionato
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{valueFontStyle : String} \hfill \\
+					Il nuovo stile del testo
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ changeTextDecoration(vaueTextDecoration : String) : void	 	}] \hfill \\
+		Cambia l'aspetto del testo attualmente selezionato
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{valueTextDecoration : String} \hfill \\
+					Il nuovo aspetto del testo
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ changeColorText(colorText : String) : void	 	}] \hfill \\
+		Cambia il colore del testo attualmente selezionato
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{colorText : String} \hfill \\
+					Il nuovo colore del testo
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ changeFontSizeText(sizeFontText : int) : void	 	}] \hfill \\
+		Cambia la dimensione del testo attualmente selezionato
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{sizeFontText : int} \hfill \\
+					La nuova dimensione del testo
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ resetChange() : void 	}] \hfill \\
+		Annulla le modifiche apportate all'oggetto grafico attualmente selezionando, azzerando i suoi attributi
+
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getBackgroundColorDropzone() : String 	}] \hfill \\
+		Restituisce il colore di background del frame attualmente selezionato
+
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ changeBackgroundColorDropzone(colorText : String) : void	 	}] \hfill \\
+		Cambia il colore di background del frame attualmente selezionato
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{colorText : String} \hfill \\
+					Il nuovo colore dello sfondo, in formato esadecimale
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ changeBackgroundColorDropzone(colorText : String) : void	 	}] \hfill \\
+		Cambia il colore di background del frame attualmente selezionato
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{colorText : String} \hfill \\
+					Il nuovo colore dello sfondo, in formato esadecimale
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ changeFontFamilyText(fontFamily : String) : void	 	}] \hfill \\
+		Cambia il carattere del testo attualmente selezionato
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{fontFamily : String} \hfill \\
+					Il nuovo tipo di carattere del testo
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ + dragTextEnable() : void 	}] \hfill \\
+		Consente di visualizzare il testo spostato nell'oggetto grafico selezionato. Utilizza il metodo initializeText di interactIniter
+
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ + dragTextEnable() : void 	}] \hfill \\
+		Annulla la visualizzazione del testo spostato nell'oggetto grafico selezionato. Utilizza il metodo unset di interactIniter
+
+	\end{description}
+	% -- fine metodo -- %
 	
 	
 \end{description}
