@@ -25,9 +25,231 @@
 \begin{description}
 %-------  descrizione della classe%
 \item[Descrizione] \hfill \\
-	Lista di metodi che permettono al client di interagire con il database del server. I metodi marcati \textbf{[Meteor.methods]} devono essere inseriti nel servizio \$meteor per permettere poi al client di accedervi attraverso il pattern Dependency Injection$_G$, mentre quelli marcati \textbf{[Meteor.publish]} hanno lo scopo di pubblicare al client soltanto le informazioni a cui esso puo' accedere.
+	Lista di metodi che pubblicano al client solamente le informazioni a cui esso puo' accedere. Utilizzano tutti  \textbf{[Meteor.publish]} per rendere reperibili i metodi attraverso Meteor
+
 	
 	
+%-------  lista dei metodi%	
+\item[Metodi] \hfill \\
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getInfographicByPresId(id : String) : Collection			}] \hfill \\
+			Pubblica una lista di infografiche associate ad una presentazione
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{id : String			} \hfill \\
+					Il codice identificativo della presentazione associata alle infografiche
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getFramesByPresId(id : String) : Collection			}] \hfill \\
+			Pubblica una lista di frames associati ad una presentazione
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{id : String			} \hfill \\
+					Il codice identificativo della presentazione associata ai frame
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
+					\item La presentazione deve appartenere all'utente che ha effettuato la richiesta
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getInfographicFrames(presid : String) : Collection			}] \hfill \\
+			Pubblica una lista di tutti i frames delle infografiche di una presentazione
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{presid : String			} \hfill \\
+					Il codice identificativo della presentazione associata alle infografiche
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
+					\item La presentazione deve appartenere all'utente che ne ha effettuato la richiesta
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getTrailsByPresId(id : String) : Collection			}] \hfill \\
+			Pubblica una lista di trails associati ad una presentazione
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{id : String			} \hfill \\
+					Il codice identificativo della presentazione associata ai trails
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
+					\item La presentazione deve appartenere all'utente che ne ha effettuato la richiesta
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getPresentationsById(id : String) : Collection			}] \hfill \\
+			Pubblica una presentazione all'utente
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{id : String			} \hfill \\
+					Il codice identificativo della presentazione
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
+					\item La presentazione deve appartenere all'utente che ne ha effettuato la richiesta
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getPresentations() : Collection			}] \hfill \\
+			Pubblica una lista di tutte le presentazioni che l'utente possiede
+			
+		\begin{description}
+			
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
+					\item Le presentazioni devono appartenere all'utente che ne ha effettuato la richiesta
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getTrailsById(id : String) : Collection			}] \hfill \\
+			Pubblica un trail all'utente che ne ha effettuato la richiesta
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{id : String			} \hfill \\
+					Il codice identificativo del trail da pubblicare
+					
+				\end{itemize}
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
+					\item Il trail deve appartenere all'utente che ne ha effettuato la richiesta
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	
+	
+	
+\end{description}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%-------  diagramma della classe%
+\subsubsection{premi/server/methods}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.55]{img/diacla/methods.png}
+\caption{Diagramma della classe premi/server/methods}
+\end{figure}
+
+
+
+
+\begin{description}
+%-------  descrizione della classe%
+\item[Descrizione] \hfill \\
+	Lista di metodi che permettono al client di interagire con il database del server. I metodi marcati \textbf{[Meteor.methods]} devono essere inseriti nel servizio \$meteor per permettere poi al client di accedervi attraverso il pattern Dependency Injection$_G$
+
+
+
+
+
+
 %-------  lista dei metodi%	
 \item[Metodi] \hfill \\
 
@@ -769,168 +991,5 @@
 		\end{description}
 	\end{description}
 	% -- fine metodo -- %
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ getInfographicByPresId(id : String) : Collection			}] \hfill \\
-			Pubblica una lista di infografiche associate ad una presentazione
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill \\
-				\begin{itemize}
-				
-					\item \textbf{id : String			} \hfill \\
-					Il codice identificativo della presentazione associata alle infografiche
-					
-				\end{itemize}
-			% -- note aggiuntive sul metodo -- %
-			\item[Note] \hfill \\
-			\begin{itemize}
-					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-				\end{itemize}
-		\end{description}
-	\end{description}
-	% -- fine metodo -- %
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ getFramesByPresId(id : String) : Collection			}] \hfill \\
-			Pubblica una lista di frames associati ad una presentazione
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill \\
-				\begin{itemize}
-				
-					\item \textbf{id : String			} \hfill \\
-					Il codice identificativo della presentazione associata ai frame
-					
-				\end{itemize}
-			% -- note aggiuntive sul metodo -- %
-			\item[Note] \hfill \\
-			\begin{itemize}
-					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-					\item La presentazione deve appartenere all'utente che ha effettuato la richiesta
-				\end{itemize}
-		\end{description}
-	\end{description}
-	% -- fine metodo -- %
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ getInfographicFrames(presid : String) : Collection			}] \hfill \\
-			Pubblica una lista di tutti i frames delle infografiche di una presentazione
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill \\
-				\begin{itemize}
-				
-					\item \textbf{presid : String			} \hfill \\
-					Il codice identificativo della presentazione associata alle infografiche
-					
-				\end{itemize}
-			% -- note aggiuntive sul metodo -- %
-			\item[Note] \hfill \\
-			\begin{itemize}
-					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-					\item La presentazione deve appartenere all'utente che ne ha effettuato la richiesta
-				\end{itemize}
-		\end{description}
-	\end{description}
-	% -- fine metodo -- %
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ getTrailsByPresId(id : String) : Collection			}] \hfill \\
-			Pubblica una lista di trails associati ad una presentazione
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill \\
-				\begin{itemize}
-				
-					\item \textbf{id : String			} \hfill \\
-					Il codice identificativo della presentazione associata ai trails
-					
-				\end{itemize}
-			% -- note aggiuntive sul metodo -- %
-			\item[Note] \hfill \\
-			\begin{itemize}
-					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-					\item La presentazione deve appartenere all'utente che ne ha effettuato la richiesta
-				\end{itemize}
-		\end{description}
-	\end{description}
-	% -- fine metodo -- %
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ getPresentationsById(id : String) : Collection			}] \hfill \\
-			Pubblica una presentazione all'utente
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill \\
-				\begin{itemize}
-				
-					\item \textbf{id : String			} \hfill \\
-					Il codice identificativo della presentazione
-					
-				\end{itemize}
-			% -- note aggiuntive sul metodo -- %
-			\item[Note] \hfill \\
-			\begin{itemize}
-					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-					\item La presentazione deve appartenere all'utente che ne ha effettuato la richiesta
-				\end{itemize}
-		\end{description}
-	\end{description}
-	% -- fine metodo -- %
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ getPresentations() : Collection			}] \hfill \\
-			Pubblica una lista di tutte le presentazioni che l'utente possiede
-			
-		\begin{description}
-			
-			% -- note aggiuntive sul metodo -- %
-			\item[Note] \hfill \\
-			\begin{itemize}
-					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-					\item Le presentazioni devono appartenere all'utente che ne ha effettuato la richiesta
-				\end{itemize}
-		\end{description}
-	\end{description}
-	% -- fine metodo -- %
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ getTrailsById(id : String) : Collection			}] \hfill \\
-			Pubblica un trail all'utente che ne ha effettuato la richiesta
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill \\
-				\begin{itemize}
-				
-					\item \textbf{id : String			} \hfill \\
-					Il codice identificativo del trail da pubblicare
-					
-				\end{itemize}
-			% -- note aggiuntive sul metodo -- %
-			\item[Note] \hfill \\
-			\begin{itemize}
-					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-					\item Il trail deve appartenere all'utente che ne ha effettuato la richiesta
-				\end{itemize}
-		\end{description}
-	\end{description}
-	% -- fine metodo -- %
-	
-	
-	
 	
 \end{description}

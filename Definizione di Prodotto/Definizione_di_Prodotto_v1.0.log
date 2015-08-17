@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.16)  16 AUG 2015 14:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.16)  17 AUG 2015 15:29
 entering extended mode
 **Definizione_di_Prodotto_v1.0.tex
 
@@ -559,7 +559,7 @@ e_di_Prodotto_v1.0.out")
 \@outlinefile=\write3
 
 ("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-first.tex" <../logo/logo404_Extends.png, id=215, 1027.84pt x 433.62pt>
+first.tex" <../logo/logo404_Extends.png, id=199, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
@@ -580,7 +580,7 @@ regModifiche.tex"
 Underfull \vbox (badness 10000) detected at line 14
  []
 
-) <../logo/logo404.png, id=224, 1027.84pt x 402.50375pt>
+) <../logo/logo404.png, id=208, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
@@ -595,38 +595,38 @@ l.31 \newpage
 
 ("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\Definizion
 e_di_Prodotto_v1.0.toc"
-Overfull \hbox (2.58202pt too wide) in paragraph at lines 21--21
+Overfull \hbox (2.58202pt too wide) in paragraph at lines 18--18
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/views/presentation
 Manager.ng[][] [][]  
  []
 
 
-Overfull \hbox (9.6014pt too wide) in paragraph at lines 24--24
+Overfull \hbox (9.6014pt too wide) in paragraph at lines 21--21
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/editPr
 esentationCtrl[][] [][]  
  []
 
 
-Overfull \hbox (10.25417pt too wide) in paragraph at lines 25--25
+Overfull \hbox (10.25417pt too wide) in paragraph at lines 22--22
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/newPre
 sentationCtrl[][] [][]  
  []
 
 
-Overfull \hbox (33.26225pt too wide) in paragraph at lines 26--26
+Overfull \hbox (33.26225pt too wide) in paragraph at lines 23--23
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/presen
 tationManagerCtrl[][] [][]  
  []
 
 
-Overfull \hbox (26.24706pt too wide) in paragraph at lines 28--28
+Overfull \hbox (26.24706pt too wide) in paragraph at lines 25--25
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/remove
 PresentationCtrl[][] [][]  
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 47.
+Package pdftex.def Info: ../logo/logo404.png used on input line 48.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [2])
 \tf@toc=\write4
@@ -657,1008 +657,23 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
 standard.tex")
 ("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-server.tex" <img/diapkg/server.png, id=362, 130.23656pt x 115.18031pt>
-File: img/diapkg/server.png Graphic file (type png)
-
-<use img/diapkg/server.png>
-Package pdftex.def Info: img/diapkg/server.png used on input line 7.
-(pdftex.def)             Requested size: 91.16496pt x 80.62564pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 10.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [5]
-<img/diacla/publish.png, id=373, 596.2275pt x 591.71063pt>
-File: img/diacla/publish.png Graphic file (type png)
-
-<use img/diacla/publish.png>
-Package pdftex.def Info: img/diacla/publish.png used on input line 17.
-(pdftex.def)             Requested size: 327.92613pt x 325.44185pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 29.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [6 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/dia
-pkg/server.png> <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prod
-otto/img/diacla/publish.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--82
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 92.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 144.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [8]
-Underfull \hbox (badness 10000) in paragraph at lines 154--156
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--186
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--186
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--206
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 215.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [9]
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--219
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--230
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--235
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--235
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--243
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--243
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 251--253
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 256--258
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 256--258
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--285
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 285.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 288--290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--300
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--300
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 308--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 313--315
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--323
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 321--323
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 331--333
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--338
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 336--338
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 344--346
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 354--356
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 356.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [11]
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 369--371
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 369--371
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 379--381
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--386
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 384--386
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 392--394
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 417--419
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 419.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [12]
-Underfull \hbox (badness 10000) in paragraph at lines 422--424
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 422--424
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 432--434
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 432--434
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 442--444
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 455--457
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 455--457
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 466--468
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--473
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 471--473
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 479--481
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 479--481
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--491
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 491.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [13]
-Underfull \hbox (badness 10000) in paragraph at lines 494--496
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 494--496
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 502--504
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 502--504
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 520--522
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--527
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--527
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--537
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--537
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 545--547
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--552
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--552
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 552.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [14]
-Underfull \hbox (badness 10000) in paragraph at lines 562--564
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 562--564
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 572--574
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 577--579
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 577--579
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 588--590
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 588--590
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 599--601
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 604--606
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 604--606
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 614--616
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 614--616
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 617.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [15]
-Underfull \hbox (badness 10000) in paragraph at lines 624--626
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 629--631
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 629--631
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 641--643
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 641--643
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 651--653
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 656--658
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 656--658
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 666--668
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 666--668
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 677--679
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 682--684
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 682--684
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 687.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [16]
-Underfull \hbox (badness 10000) in paragraph at lines 692--694
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 692--694
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 702--704
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 707--709
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 707--709
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 717--719
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 717--719
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 727--729
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 732--734
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 732--734
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 742--744
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 742--744
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 752--754
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 757--759
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 757--759
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 759.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [17]
-Underfull \hbox (badness 10000) in paragraph at lines 765--767
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 765--767
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 775--777
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 780--782
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 780--782
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 788--790
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 788--790
-
- []
-
-
-Overfull \hbox (13.04271pt too wide) in paragraph at lines 790--791
-[]\OT1/cmr/m/n/12 Dev'essere in-se-ri-to co-me fun-zio-ne \OT1/cmr/bx/n/12 pu-b
-li-sh-func-tion \OT1/cmr/m/n/12 in Me-teor.publish 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 798--800
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 803--805
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 803--805
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 811--813
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 811--813
-
- []
-
-
-Overfull \hbox (13.04271pt too wide) in paragraph at lines 813--814
-[]\OT1/cmr/m/n/12 Dev'essere in-se-ri-to co-me fun-zio-ne \OT1/cmr/bx/n/12 pu-b
-li-sh-func-tion \OT1/cmr/m/n/12 in Me-teor.publish 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 822--824
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 827--829
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 827--829
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 835.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [18]
-Underfull \hbox (badness 10000) in paragraph at lines 835--837
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 835--837
-
- []
-
-
-Overfull \hbox (13.04271pt too wide) in paragraph at lines 837--838
-[]\OT1/cmr/m/n/12 Dev'essere in-se-ri-to co-me fun-zio-ne \OT1/cmr/bx/n/12 pu-b
-li-sh-func-tion \OT1/cmr/m/n/12 in Me-teor.publish 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 846--848
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 851--853
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 851--853
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 859--861
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 859--861
-
- []
-
-
-Overfull \hbox (13.04271pt too wide) in paragraph at lines 861--862
-[]\OT1/cmr/m/n/12 Dev'essere in-se-ri-to co-me fun-zio-ne \OT1/cmr/bx/n/12 pu-b
-li-sh-func-tion \OT1/cmr/m/n/12 in Me-teor.publish 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 870--872
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 875--877
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 875--877
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 883--885
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 883--885
-
- []
-
-
-Overfull \hbox (13.04271pt too wide) in paragraph at lines 885--886
-[]\OT1/cmr/m/n/12 Dev'essere in-se-ri-to co-me fun-zio-ne \OT1/cmr/bx/n/12 pu-b
-li-sh-func-tion \OT1/cmr/m/n/12 in Me-teor.publish 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 894--896
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 900--902
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 900--902
-
- []
-
-
-Overfull \hbox (13.04271pt too wide) in paragraph at lines 902--903
-[]\OT1/cmr/m/n/12 Dev'essere in-se-ri-to co-me fun-zio-ne \OT1/cmr/bx/n/12 pu-b
-li-sh-func-tion \OT1/cmr/m/n/12 in Me-teor.publish 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 904.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [19]
-Underfull \hbox (badness 10000) in paragraph at lines 911--913
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 916--918
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 916--918
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 924--926
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 924--926
-
- []
-
-
-Overfull \hbox (13.04271pt too wide) in paragraph at lines 926--927
-[]\OT1/cmr/m/n/12 Dev'essere in-se-ri-to co-me fun-zio-ne \OT1/cmr/bx/n/12 pu-b
-li-sh-func-tion \OT1/cmr/m/n/12 in Me-teor.publish 
- []
-
-)
-("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-client.tex" <img/diapkg/client.png, id=450, 353.82187pt x 334.24875pt>
+client.tex" <img/diapkg/client.png, id=338, 353.82187pt x 334.24875pt>
 File: img/diapkg/client.png Graphic file (type png)
 
 <use img/diapkg/client.png>
 Package pdftex.def Info: img/diapkg/client.png used on input line 4.
 (pdftex.def)             Requested size: 318.43674pt x 300.82109pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 )
 ("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
 presentation.tex"
-Overfull \hbox (55.987pt too wide) in paragraph at lines 9--1
-[]\OT1/cmr/m/n/12 ````````````````````````````````````````````````````````` pac
--ka-ge an-co-ra in-com-ple-to `````````````````````````````````````````````````
-````````
+Overfull \hbox (38.36218pt too wide) in paragraph at lines 9--1
+\OT1/cmr/m/n/12 ````````````````````````````````````````````````````````` pac-k
+a-ge an-co-ra in-com-ple-to ```````````````````````````````````````````````````
+``````
  []
 
 
@@ -1712,22 +727,27 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [20 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-apkg/client.png>]
-<img/diapkg/presentation.png, id=457, 349.305pt x 154.32657pt>
+ [5]
+<img/diapkg/presentation.png, id=349, 349.305pt x 154.32657pt>
 File: img/diapkg/presentation.png Graphic file (type png)
 
 <use img/diapkg/presentation.png>
 Package pdftex.def Info: img/diapkg/presentation.png used on input line 4.
 (pdftex.def)             Requested size: 314.37158pt x 138.89261pt.
 
-<img/diacla/databaseAPI.png, id=458, 641.39626pt x 335.00156pt>
+<img/diacla/databaseAPI.png, id=350, 641.39626pt x 335.00156pt>
 File: img/diacla/databaseAPI.png Graphic file (type png)
 
 <use img/diacla/databaseAPI.png>
 Package pdftex.def Info: img/diacla/databaseAPI.png used on input line 14.
 (pdftex.def)             Requested size: 352.76903pt x 184.25142pt.
-
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 17.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [6 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/dia
+pkg/client.png> <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prod
+otto/img/diapkg/presentation.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
@@ -1742,13 +762,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 28.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [21 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-apkg/presentation.png> <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione 
-di Prodotto/img/diacla/databaseAPI.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 31--33
 
  []
@@ -1778,7 +792,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 62.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [7 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/dia
+cla/databaseAPI.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
@@ -1813,11 +832,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 96.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [22]
+
 Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
@@ -1852,7 +867,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 128.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [8]
 Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
@@ -1877,11 +896,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 157.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [23]
+
 Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
@@ -1921,7 +936,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 199.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [9]
 Underfull \hbox (badness 10000) in paragraph at lines 202--204
 
  []
@@ -1961,11 +980,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 234--236
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 239.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [24]
+
 Underfull \hbox (badness 10000) in paragraph at lines 239--241
 
  []
@@ -2000,7 +1015,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--265
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 269.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [10]
 Underfull \hbox (badness 10000) in paragraph at lines 272--274
 
  []
@@ -2035,11 +1054,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--298
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 299.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [25]
+
 Underfull \hbox (badness 10000) in paragraph at lines 307--309
 
  []
@@ -2069,7 +1084,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--333
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 333.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [11]
 Underfull \hbox (badness 10000) in paragraph at lines 336--338
 
  []
@@ -2104,11 +1123,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 362--364
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 364.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [26]
+
 Underfull \hbox (badness 10000) in paragraph at lines 375--377
 
  []
@@ -2123,7 +1138,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 385--387
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 387.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [12]
 Underfull \hbox (badness 10000) in paragraph at lines 390--392
 
  []
@@ -2148,11 +1167,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 413--415
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 415.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [27]
+
 Underfull \hbox (badness 10000) in paragraph at lines 418--420
 
  []
@@ -2177,7 +1192,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--441
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 441.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [13]
 Underfull \hbox (badness 10000) in paragraph at lines 444--446
 
  []
@@ -2222,11 +1241,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 477--479
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 479.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [28]
+
 Underfull \hbox (badness 10000) in paragraph at lines 487--489
 
  []
@@ -2251,16 +1266,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 501--503
 
  []
 
-<img/diacla/OrderedGOList.png, id=503, 374.14781pt x 335.00156pt>
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 504.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [14]
+<img/diacla/OrderedGOList.png, id=402, 374.14781pt x 335.00156pt>
 File: img/diacla/OrderedGOList.png Graphic file (type png)
 
 <use img/diacla/OrderedGOList.png>
 Package pdftex.def Info: img/diacla/OrderedGOList.png used on input line 552.
 (pdftex.def)             Requested size: 336.7299pt x 301.49861pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 560--562
 
@@ -2291,7 +1307,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 574--576
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 576.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [15 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/OrderedGOList.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 576--578
 
  []
@@ -2301,11 +1322,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 578--580
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 580.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [29]
+
 Underfull \hbox (badness 10000) in paragraph at lines 580--582
 
  []
@@ -2340,12 +1357,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 608--610
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 610.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [30 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/OrderedGOList.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 613--615
 
  []
@@ -2360,7 +1372,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 628--630
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 633.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [16]
 Underfull \hbox (badness 10000) in paragraph at lines 633--635
 
  []
@@ -2405,11 +1421,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 682--684
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 684.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [31]
+
 Underfull \hbox (badness 10000) in paragraph at lines 687--689
 
  []
@@ -2429,7 +1441,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 708--710
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 711.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [17]
 Underfull \hbox (badness 10000) in paragraph at lines 716--718
 
  []
@@ -2474,11 +1490,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 757--759
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 759.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [32]
+
 Underfull \hbox (badness 10000) in paragraph at lines 770--772
 
  []
@@ -2503,7 +1515,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 784--786
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 786.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [18]
 Underfull \hbox (badness 10000) in paragraph at lines 795--797
 
  []
@@ -2533,7 +1549,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 820--822
 
  []
 
-<img/diacla/Trail.png, id=526, 338.01282pt x 531.48563pt>
+<img/diacla/Trail.png, id=425, 338.01282pt x 531.48563pt>
 File: img/diacla/Trail.png Graphic file (type png)
 
 <use img/diacla/Trail.png>
@@ -2558,13 +1574,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 880--882
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 882.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [33]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 883.
-
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
@@ -2581,17 +1591,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 884--886
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 886.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [19]
 Underfull \hbox (badness 10000) in paragraph at lines 886--888
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 888.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [34 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/Trail.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 888--890
 
  []
@@ -2616,7 +1625,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 898--899
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 902.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [20 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/Trail.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 902--904
 
  []
@@ -2656,11 +1670,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 931--933
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 936.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [35]
+
 Underfull \hbox (badness 10000) in paragraph at lines 941--943
 
  []
@@ -2685,7 +1695,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 956--958
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 961.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [21]
 Underfull \hbox (badness 10000) in paragraph at lines 974--976
 
  []
@@ -2715,11 +1729,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 997--999
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 999.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [36]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1002--1004
 
  []
@@ -2749,7 +1759,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1035--1037
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1037.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [22]
 Underfull \hbox (badness 10000) in paragraph at lines 1040--1042
 
  []
@@ -2779,11 +1793,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1075--1077
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1077.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [37]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1083--1085
 
  []
@@ -2803,7 +1813,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1098--1100
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1101.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [23]
 Underfull \hbox (badness 10000) in paragraph at lines 1109--1111
 
  []
@@ -2843,11 +1857,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1153--1155
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1155.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [38]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1158--1160
 
  []
@@ -2877,7 +1887,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1193--1195
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1195.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [24]
 Underfull \hbox (badness 10000) in paragraph at lines 1201--1203
 
  []
@@ -2912,11 +1926,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1234--1236
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1240.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [39]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1249--1251
 
  []
@@ -2936,7 +1946,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1269--1271
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1277.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [25]
 Underfull \hbox (badness 10000) in paragraph at lines 1277--1279
 
  []
@@ -2954,17 +1968,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1293--1295
 )
 ("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
 presentationManager.tex"
-<img/diapkg/presentationManager.png, id=565, 560.0925pt x 395.22656pt>
+<img/diapkg/presentationManager.png, id=464, 560.0925pt x 395.22656pt>
 File: img/diapkg/presentationManager.png Graphic file (type png)
 
 <use img/diapkg/presentationManager.png>
 Package pdftex.def Info: img/diapkg/presentationManager.png used on input line 
 5.
 (pdftex.def)             Requested size: 280.04556pt x 197.6128pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
@@ -2982,9 +1992,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 32.
+Package pdftex.def Info: ../logo/logo404.png used on input line 30.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [40]
+ [26 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+apkg/presentationManager.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 41--43
 
  []
@@ -3004,12 +2015,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 59.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [41 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-apkg/presentationManager.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
@@ -3024,7 +2030,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--72
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 74.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [27]
 Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
@@ -3045,17 +2055,13 @@ Overfull \hbox (5.0297pt too wide) in paragraph at lines 123--123
 nCtrl 
  []
 
-<img/diacla/editPresentationCtrl.png, id=577, 204.765pt x 106.89937pt>
+<img/diacla/editPresentationCtrl.png, id=476, 204.765pt x 106.89937pt>
 File: img/diacla/editPresentationCtrl.png Graphic file (type png)
 
 <use img/diacla/editPresentationCtrl.png>
 Package pdftex.def Info: img/diacla/editPresentationCtrl.png used on input line
  126.
 (pdftex.def)             Requested size: 184.28677pt x 96.20853pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
@@ -3071,21 +2077,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
+
+ []
+
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 141.
+Package pdftex.def Info: ../logo/logo404.png used on input line 147.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [42]
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
-
- []
-
-
+ [28 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/editPresentationCtrl.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
@@ -3116,17 +2123,13 @@ Overfull \hbox (5.7797pt too wide) in paragraph at lines 174--174
 Ctrl 
  []
 
-<img/diacla/newPresentationCtrl.png, id=584, 207.77625pt x 121.95563pt>
+<img/diacla/newPresentationCtrl.png, id=483, 207.77625pt x 121.95563pt>
 File: img/diacla/newPresentationCtrl.png Graphic file (type png)
 
 <use img/diacla/newPresentationCtrl.png>
 Package pdftex.def Info: img/diacla/newPresentationCtrl.png used on input line 
 177.
 (pdftex.def)             Requested size: 186.99687pt x 109.75902pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 187--189
 
@@ -3144,10 +2147,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 192--194
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 194.
+Package pdftex.def Info: ../logo/logo404.png used on input line 195.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [43 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/editPresentationCtrl.png>]
+ [29 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/newPresentationCtrl.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 199--201
 
  []
@@ -3193,7 +2196,7 @@ Overfull \hbox (32.50194pt too wide) in paragraph at lines 233--233
 agerCtrl 
  []
 
-<img/diacla/presentationManagerCtrl.png, id=591, 232.61906pt x 61.73062pt>
+<img/diacla/presentationManagerCtrl.png, id=490, 232.61906pt x 61.73062pt>
 File: img/diacla/presentationManagerCtrl.png Graphic file (type png)
 
 <use img/diacla/presentationManagerCtrl.png>
@@ -3201,21 +2204,11 @@ Package pdftex.def Info: img/diacla/presentationManagerCtrl.png used on input l
 ine 236.
 (pdftex.def)             Requested size: 209.35521pt x 55.55702pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 245.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [44 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/newPresentationCtrl.png>]
-<img/diacla/presentationsCtrl.png, id=598, 191.21437pt x 76.78688pt>
+<img/diacla/presentationsCtrl.png, id=491, 191.21437pt x 76.78688pt>
 File: img/diacla/presentationsCtrl.png Graphic file (type png)
 
 <use img/diacla/presentationsCtrl.png>
@@ -3223,11 +2216,20 @@ Package pdftex.def Info: img/diacla/presentationsCtrl.png used on input line 25
 4.
 (pdftex.def)             Requested size: 172.09134pt x 69.10754pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 261--263
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 263.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [30 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/presentationManagerCtrl.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 266--268
 
  []
@@ -3248,17 +2250,13 @@ Overfull \hbox (31.32831pt too wide) in paragraph at lines 279--279
 ionCtrl 
  []
 
-<img/diacla/removePresentationCtrl.png, id=599, 226.59656pt x 106.89937pt>
+<img/diacla/removePresentationCtrl.png, id=499, 226.59656pt x 106.89937pt>
 File: img/diacla/removePresentationCtrl.png Graphic file (type png)
 
 <use img/diacla/removePresentationCtrl.png>
 Package pdftex.def Info: img/diacla/removePresentationCtrl.png used on input li
 ne 282.
 (pdftex.def)             Requested size: 203.935pt x 96.20853pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 292--294
 
@@ -3276,11 +2274,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--299
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 299.
+Package pdftex.def Info: ../logo/logo404.png used on input line 300.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [45 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/presentationManagerCtrl.png> <C:/Users/Gobbo/Ismaele/git/premi-documents/D
-efinizione di Prodotto/img/diacla/presentationsCtrl.png>]
+ [31 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/presentationsCtrl.png> <C:/Users/Gobbo/Ismaele/git/premi-documents/Definiz
+ione di Prodotto/img/diacla/removePresentationCtrl.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 304--306
 
  []
@@ -3317,37 +2315,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--325
 
 )
 ("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
-editor.tex" <img/diapkg/editor.png, id=607, 858.20625pt x 507.39563pt>
+editor.tex" <img/diapkg/editor.png, id=507, 858.20625pt x 507.39563pt>
 File: img/diapkg/editor.png Graphic file (type png)
 
 <use img/diapkg/editor.png>
 Package pdftex.def Info: img/diapkg/editor.png used on input line 4.
 (pdftex.def)             Requested size: 343.27641pt x 202.95465pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<img/diacla/GObject.png, id=608, 362.10281pt x 292.09125pt>
+<img/diacla/GObject.png, id=508, 362.10281pt x 292.09125pt>
 File: img/diacla/GObject.png Graphic file (type png)
 
 <use img/diacla/GObject.png>
 Package pdftex.def Info: img/diacla/GObject.png used on input line 12.
 (pdftex.def)             Requested size: 144.83855pt x 116.83441pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 15.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [32 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+apkg/editor.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 21.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [46 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/removePresentationCtrl.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
@@ -3362,13 +2353,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--28
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 36.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [47 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-apkg/editor.png> <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Pro
-dotto/img/diacla/GObject.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -3393,7 +2378,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 57.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [33 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/GObject.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
@@ -3438,11 +2428,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--104
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 105.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [48]
+
 Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
@@ -3457,7 +2443,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 127.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [34]
 Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
  []
@@ -3497,27 +2487,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--168
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 168.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [49]
+
 Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
-<img/diacla/GOProvider.png, id=633, 288.3272pt x 91.84312pt>
+<img/diacla/GOProvider.png, id=526, 288.3272pt x 91.84312pt>
 File: img/diacla/GOProvider.png Graphic file (type png)
 
 <use img/diacla/GOProvider.png>
 Package pdftex.def Info: img/diacla/GOProvider.png used on input line 187.
 (pdftex.def)             Requested size: 115.32883pt x 36.73659pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 194--196
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 197.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [35]
 Underfull \hbox (badness 10000) in paragraph at lines 197--199
 
  []
@@ -3557,12 +2551,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--228
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 228.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [50 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/GOProvider.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 231--233
 
  []
@@ -3572,53 +2561,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--233
 
  []
 
-<img/diacla/frame.png, id=640, 475.7775pt x 444.15938pt>
+<img/diacla/frame.png, id=532, 475.7775pt x 444.15938pt>
 File: img/diacla/frame.png Graphic file (type png)
 
 <use img/diacla/frame.png>
 Package pdftex.def Info: img/diacla/frame.png used on input line 246.
 (pdftex.def)             Requested size: 190.30762pt x 177.6606pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 253--255
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--264
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--264
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--271
 
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 271.
+Package pdftex.def Info: ../logo/logo404.png used on input line 255.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [51 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/frame.png>]
+ [36 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/GOProvider.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--271
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 271--274
 
  []
@@ -3628,7 +2621,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--282
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 282.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [37 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/frame.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
@@ -3678,11 +2676,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--325
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 328.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [52]
+
 Underfull \hbox (badness 10000) in paragraph at lines 334--336
 
  []
@@ -3702,7 +2696,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 350--352
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 352.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [38]
 Underfull \hbox (badness 10000) in paragraph at lines 355--357
 
  []
@@ -3732,11 +2730,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 382--384
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 385.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [53]
+
 Underfull \hbox (badness 10000) in paragraph at lines 388--390
 
  []
@@ -3766,7 +2760,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 414--416
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 416.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [39]
 Underfull \hbox (badness 10000) in paragraph at lines 419--421
 
  []
@@ -3801,11 +2799,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 448--450
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 450.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [54]
+
 Underfull \hbox (badness 10000) in paragraph at lines 460--462
 
  []
@@ -3835,7 +2829,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 481--483
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 483.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [40]
 Underfull \hbox (badness 10000) in paragraph at lines 492--494
 
  []
@@ -3865,11 +2863,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 515--517
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 517.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [55]
+
 Underfull \hbox (badness 10000) in paragraph at lines 528--530
 
  []
@@ -3884,7 +2878,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 533--535
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 537.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [41]
 Underfull \hbox (badness 10000) in paragraph at lines 546--548
 
  []
@@ -3894,16 +2892,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 552--554
 
  []
 
-<img/diacla/GOContainer.png, id=668, 485.56406pt x 444.15938pt>
+<img/diacla/GOContainer.png, id=566, 485.56406pt x 444.15938pt>
 File: img/diacla/GOContainer.png Graphic file (type png)
 
 <use img/diacla/GOContainer.png>
 Package pdftex.def Info: img/diacla/GOContainer.png used on input line 567.
 (pdftex.def)             Requested size: 194.22217pt x 177.6606pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 574--576
 
@@ -3933,7 +2927,8 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 585.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [56]
+ [42 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/GOContainer.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 588--590
 
  []
@@ -3968,12 +2963,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 615--617
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 617.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [57 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/GOContainer.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 622--624
 
  []
@@ -4003,7 +2993,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 645--647
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 647.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [43]
 Underfull \hbox (badness 10000) in paragraph at lines 656--658
 
  []
@@ -4033,11 +3027,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 677--679
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 684.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [58]
+
 Underfull \hbox (badness 10000) in paragraph at lines 690--692
 
  []
@@ -4057,7 +3047,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 706--708
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 708.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [44]
 Underfull \hbox (badness 10000) in paragraph at lines 711--713
 
  []
@@ -4107,11 +3101,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 752--754
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 754.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [59]
+
 Underfull \hbox (badness 10000) in paragraph at lines 763--765
 
  []
@@ -4126,7 +3116,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 768--770
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 774.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [45]
 Underfull \hbox (badness 10000) in paragraph at lines 781--783
 
  []
@@ -4176,21 +3170,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 830--832
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 835--837
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 835--837
+
+ []
+
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 832.
+Package pdftex.def Info: ../logo/logo404.png used on input line 841.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [60]
-Underfull \hbox (badness 10000) in paragraph at lines 835--837
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 835--837
-
- []
-
-
+ [46]
 Underfull \hbox (badness 10000) in paragraph at lines 848--850
 
  []
@@ -4220,36 +3214,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 871--873
 
  []
 
-<img/diacla/Image.png, id=696, 317.68687pt x 167.12437pt>
+<img/diacla/Image.png, id=594, 317.68687pt x 167.12437pt>
 File: img/diacla/Image.png Graphic file (type png)
 
 <use img/diacla/Image.png>
 Package pdftex.def Info: img/diacla/Image.png used on input line 889.
 (pdftex.def)             Requested size: 127.07248pt x 66.84856pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 896--898
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 899--901
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 899--901
 
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 898.
+Package pdftex.def Info: ../logo/logo404.png used on input line 901.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [61]
-Underfull \hbox (badness 10000) in paragraph at lines 899--901
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 899--901
-
- []
-
-
+ [47 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/Image.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 905--907
 
  []
@@ -4294,12 +3285,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 928--930
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 935.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [62 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/Image.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 941--943
 
  []
@@ -4319,7 +3305,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 957--959
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 959.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [48]
 Underfull \hbox (badness 10000) in paragraph at lines 962--964
 
  []
@@ -4359,17 +3349,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1001--1003
 
  []
 
-<img/diacla/Infographic.png, id=708, 570.63188pt x 350.81062pt>
+<img/diacla/Infographic.png, id=607, 570.63188pt x 350.81062pt>
 File: img/diacla/Infographic.png Graphic file (type png)
 
 <use img/diacla/Infographic.png>
 Package pdftex.def Info: img/diacla/Infographic.png used on input line 1014.
 (pdftex.def)             Requested size: 228.2487pt x 140.32175pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1017.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [63]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1021--1023
 
  []
@@ -4394,7 +3384,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1029--1031
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1032.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [49]
 Underfull \hbox (badness 10000) in paragraph at lines 1036--1038
 
  []
@@ -4419,12 +3413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1046--1048
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1048.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [64 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/Infographic.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1051--1052
 
  []
@@ -4454,7 +3443,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1070--1072
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1072.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [50 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/Infographic.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1075--1077
 
  []
@@ -4479,11 +3473,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1102--1104
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1104.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [65]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1108--1110
 
  []
@@ -4498,7 +3488,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1120--1122
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1122.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [51]
 Underfull \hbox (badness 10000) in paragraph at lines 1125--1127
 
  []
@@ -4543,11 +3537,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1171--1173
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1173.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [66]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1176--1178
 
  []
@@ -4562,7 +3552,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1187--1189
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1189.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [52]
 Underfull \hbox (badness 10000) in paragraph at lines 1192--1194
 
  []
@@ -4602,11 +3596,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1224--1226
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1230.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [67]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1237--1239
 
  []
@@ -4627,7 +3617,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1242--1244
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1248.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [53]
 Underfull \hbox (badness 10000) in paragraph at lines 1255--1257
 
  []
@@ -4662,17 +3656,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1289--1291
 
  []
 
-<img/diacla/InteractInit.png, id=736, 365.11406pt x 216.05719pt>
+<img/diacla/InteractInit.png, id=634, 365.11406pt x 216.05719pt>
 File: img/diacla/InteractInit.png Graphic file (type png)
 
 <use img/diacla/InteractInit.png>
 Package pdftex.def Info: img/diacla/InteractInit.png used on input line 1302.
 (pdftex.def)             Requested size: 328.59961pt x 194.44965pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1305.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [68]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 1309--1311
 
  []
@@ -4704,7 +3698,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1318--1320
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1320.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [54]
 Underfull \hbox (badness 10000) in paragraph at lines 1320--1322
 
  []
@@ -4729,12 +3727,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1332--1334
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1334.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [69 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/InteractInit.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1336--1338
 
  []
@@ -4759,7 +3752,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1351--1353
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1353.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [55 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/InteractInit.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1362--1364
 
  []
@@ -4804,11 +3802,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1396--1398
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1398.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [70]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1407--1409
 
  []
@@ -4828,7 +3822,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1422--1424
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1424.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [56]
 Underfull \hbox (badness 10000) in paragraph at lines 1426--1428
 
  []
@@ -4868,7 +3866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1456--1458
 
  []
 
-<img/diacla/Observer.png, id=753, 642.90187pt x 97.86563pt>
+<img/diacla/Observer.png, id=652, 642.90187pt x 97.86563pt>
 File: img/diacla/Observer.png Graphic file (type png)
 
 <use img/diacla/Observer.png>
@@ -4879,11 +3877,7 @@ Overfull \hbox (12.52037pt too wide) in paragraph at lines 1475--1476
  [] 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1478.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [71]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1482--1484
 
  []
@@ -4898,7 +3892,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1487--1489
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1489.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [57 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/Observer.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1489--1491
 
  []
@@ -4943,18 +3942,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 1518--1520
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1523.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [72 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/Observer.png>]
-<img/diacla/Saver.png, id=766, 442.65375pt x 251.43938pt>
+<img/diacla/Saver.png, id=659, 442.65375pt x 251.43938pt>
 File: img/diacla/Saver.png Graphic file (type png)
 
 <use img/diacla/Saver.png>
 Package pdftex.def Info: img/diacla/Saver.png used on input line 1536.
 (pdftex.def)             Requested size: 398.38467pt x 226.29333pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 1543--1545
 
@@ -4975,7 +3972,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1550--1552
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1552.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [58]
 Underfull \hbox (badness 10000) in paragraph at lines 1552--1554
 
  []
@@ -4985,12 +3986,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1554--1557
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1558.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [73 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/Saver.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1563--1566
 
  []
@@ -5000,7 +3996,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1572--1575
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1575.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [59 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/Saver.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1581--1584
 
  []
@@ -5010,16 +4011,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 1590--1593
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1594.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [74]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1599--1602
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1605.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [60]
 Underfull \hbox (badness 10000) in paragraph at lines 1613--1614
 
  []
@@ -5064,11 +4065,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1649--1651
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1651.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [75]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1654--1656
 
  []
@@ -5083,7 +4080,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1668--1670
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1673.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [61]
 Underfull \hbox (badness 10000) in paragraph at lines 1673--1675
 
  []
@@ -5103,16 +4104,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1690--1692
 
  []
 
-<img/diacla/shape.png, id=783, 321.45094pt x 265.74281pt>
+<img/diacla/shape.png, id=682, 321.45094pt x 265.74281pt>
 File: img/diacla/shape.png Graphic file (type png)
 
 <use img/diacla/shape.png>
 Package pdftex.def Info: img/diacla/shape.png used on input line 1700.
 (pdftex.def)             Requested size: 128.5781pt x 106.29523pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 1707--1709
 
@@ -5138,16 +4135,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1716--1718
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1718.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [76]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1718--1721
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1721.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [62 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/shape.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1731--1732
 
  []
@@ -5187,12 +4185,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1756--1758
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1759.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [77 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/shape.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1769--1771
 
  []
@@ -5207,7 +4200,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1774--1776
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1779.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [63]
 Underfull \hbox (badness 10000) in paragraph at lines 1785--1790
 
  []
@@ -5252,17 +4249,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 1829--1831
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1831.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [78]
-<img/diacla/text.png, id=801, 310.15875pt x 280.04625pt>
+<img/diacla/text.png, id=694, 310.15875pt x 280.04625pt>
 File: img/diacla/text.png Graphic file (type png)
 
 <use img/diacla/text.png>
 Package pdftex.def Info: img/diacla/text.png used on input line 1842.
 (pdftex.def)             Requested size: 124.0613pt x 112.0165pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 1849--1851
 
@@ -5278,7 +4274,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1852--1854
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1854.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [64]
 Underfull \hbox (badness 10000) in paragraph at lines 1858--1860
 
  []
@@ -5303,12 +4303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1874--1875
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1875.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [79 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
-acla/text.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1877--1879
 
  []
@@ -5328,7 +4323,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 1894--1896
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1896.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [65 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+acla/text.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1899--1901
 
  []
@@ -5373,11 +4373,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1944--1946
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 1946.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [80]
+
 Underfull \hbox (badness 10000) in paragraph at lines 1950--1952
 
  []
@@ -5397,7 +4393,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1966--1968
 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1968.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [66]
 Underfull \hbox (badness 10000) in paragraph at lines 1972--1974
 
  []
@@ -5409,110 +4409,110 @@ frameEditor.tex")
 infographicEditor.tex")
 ("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
 trailsEditor.tex"
-<img/diapkg/trailsEditor.png, id=813, 467.49657pt x 476.53032pt>
+<img/diapkg/trailsEditor.png, id=712, 467.49657pt x 476.53032pt>
 File: img/diapkg/trailsEditor.png Graphic file (type png)
 
 <use img/diapkg/trailsEditor.png>
-Package pdftex.def Info: img/diapkg/trailsEditor.png used on input line 5.
+Package pdftex.def Info: img/diapkg/trailsEditor.png used on input line 4.
 (pdftex.def)             Requested size: 420.74303pt x 428.87332pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--17
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 31.
+Package pdftex.def Info: ../logo/logo404.png used on input line 46.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [81]
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+ [67]
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--61
 
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 36.
+Package pdftex.def Info: ../logo/logo404.png used on input line 61.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [82 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
+ [68 <C:/Users/Gobbo/Ismaele/git/premi-documents/Definizione di Prodotto/img/di
 apkg/trailsEditor.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 45--47
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--62
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 83.
+Package pdftex.def Info: ../logo/logo404.png used on input line 97.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [83]
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
-
- []
-
-)
+ [69])
 ("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
 userManager.tex")
 ("C:\Users\Gobbo\Ismaele\git\premi-documents\Definizione di Prodotto\documents/
@@ -5525,7 +4525,7 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 54.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [84]
+ [70]
 No file Definizione_di_Prodotto_v1.0.bbl.
 
 AED: lastpage setting LastPage
@@ -5538,30 +4538,33 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `Definizione_di_Prodotto_v1.0.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 72705076FE1465FB39A8FB0CBDF0EB75;4739.
+(rerunfilecheck)             Checksum: 54FC9F478C6C6436CBD624B4AD4DD5D1;4460.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 11094 strings out of 493921
- 173336 string characters out of 3144876
- 248830 words of memory out of 3000000
- 14009 multiletter control sequences out of 15000+200000
- 10071 words of font info for 35 fonts, out of 3000000 for 9000
+ 11056 strings out of 493921
+ 172652 string characters out of 3144876
+ 249830 words of memory out of 3000000
+ 13996 multiletter control sequences out of 15000+200000
+ 9730 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 43i,16n,47p,642b,826s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 43i,16n,47p,642b,846s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Gobbo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
 tcti1200.pk> <C:\Users\Gobbo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
-ec\dpi600\tcbx1200.pk> <C:\Users\Gobbo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
-\jknappen\ec\dpi600\tcrm1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmtt12.pfb>
-Output written on Definizione_di_Prodotto_v1.0.pdf (85 pages, 1476644 bytes).
+ec\dpi600\tcrm1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
+t12.pfb>
+Output written on Definizione_di_Prodotto_v1.0.pdf (71 pages, 1294768 bytes).
 PDF statistics:
- 908 PDF objects out of 1000 (max. 8388607)
- 169 named destinations out of 1000 (max. 500000)
- 565 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 797 PDF objects out of 1000 (max. 8388607)
+ 149 named destinations out of 1000 (max. 500000)
+ 523 words of extra memory for PDF output out of 10000 (max. 10000000)
 
