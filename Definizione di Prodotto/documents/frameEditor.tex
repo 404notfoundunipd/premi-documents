@@ -87,27 +87,329 @@
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ void operation0()			}] \hfill \\
-			Descrizione del metodo
+		\item[\textbf{\color{blue}- init() : void			}] \hfill \\
+			Inizializza gli attributi della classe.
+			
+		\begin{description}
+			
+			% -- note aggiuntive sul metodo -- %
+			\item[Note] \hfill \\
+			\begin{itemize}
+					\item chiama la classe setObserver()
+					\item imposta l'Observer in interactIniter
+					\item inizializza framesId e frames, prelevando le informazioni da framesCollection
+					\item carica il primo frame, inizializzando list e currentFrame, e preparando la visualizzazione attraverso initInteract
+			\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
+	
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- initInteract(GO : Collection) : void			}] \hfill \\
+			Rappresenta in modo visivo all'utente l'oggetto grafico ricevuto, attraverso la libreria esterna Interact.JS. Utilizza i metodi initializeImage, initializeShape o initializeText di interactIniter, in base al tipo dell'oggetto grafico ricevuto.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill \\
 				\begin{itemize}
 				
-					\item \textbf{nomeArgomento : tipoArgomento			} \hfill \\
-					Descrizione argomento
+					\item \textbf{GO : Collection		} \hfill \\
+					Collezione di attributi dell'oggetto grafico da rappresentare
 					
 				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- removeFrameFromIdarray(idFrame : String) : int			}] \hfill \\
+			Rimuove il frame rappresentato dal codice identificativo ricevuto da framesId. Restituisce la posizione in cui si trovava il frame
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String		} \hfill \\
+					Il codice identificativo del frame da rimuovere
+					
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %				
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- getIdGoByWrapper() : String			}] \hfill \\
+			Restituisce il codice identificativo dell'oggetto grafico estraendolo dal codice identificativo del wrapper (che sarà composto dall'unione tra wraPrefix e il codice identificativo dell'oggetto)
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idWrapper : String		} \hfill \\
+					Il codice identificativo del wrapper
+					
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- setObserver() : void		}] \hfill \\
+			Imposta l'observer per reagire agli eventi select, resize, drag, update e changeLvl inviati dalla vista, per l'aggiornamento degli attributi dell'oggetto grafico che sta venendo modificato dall'utente 
+		
+	\end{description}
+	% -- fine metodo -- %		
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- imageIsLoaded(e : Collection) : void			}] \hfill \\
+			Aggiorna il frame appena modificato con nuovi attributi
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{e : Collection		} \hfill \\
+					Collezione di attributi modificati dall'utente
+					
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ disableAllStateMenu() : void	}] \hfill \\
+			Imposta currentState a states.noSelection 
+		
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ enableStateMenu(stateMenu : String) : void		}] \hfill \\
+			Cambia currentState in base allo stato ricevuto
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{stateMenu : String		} \hfill \\
+					Lo stato in cui si trova l'editor
+					
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ goToState(state : String) : void  	}] \hfill \\
+			Ridireziona il browser in base allo stato ricevuto
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{state : String		} \hfill \\
+					Il nuovo stato. In questo caso rappresenta una posizione, o pagina, all'interno dell'applicazione					
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getCurrentId() : String	}] \hfill \\
+			Restituisce il codice identificativo del frame contenuto in currentFrame
+		
+	\end{description}
+	% -- fine metodo -- %
+	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getFramesId() : Hash	}] \hfill \\
+			Restituisce i codici identificativi di tutti i frames creati dall'utente per la presentazione (restituisce l'attributo frames)
+		
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getGOContent() : Collection	}] \hfill \\
+			Restituisce la lista degli oggetti grafici presenti nel frame che l'utente sta modificando, sfruttando il metodo getList() di list
+		
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getSelectedGOid() : String	}] \hfill \\
+			Restituisce il codice identificativo dell'oggetto grafico attualmente selezionato, sfruttando il metodo getSelectedGOId() di currentFrame
+		
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ changeImage(file : Collection) : void  	}] \hfill \\
+			Riceve una collezione di files, preleva da essa l'immagine inviata dall'utente e la interpreta attraverso il metodo FileReader() di JavaScript$_G$
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{file : Collection		} \hfill \\
+					Collezione rappresentante il file inviato dall'utente, che si troverà nell'attributo files[0]					
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ selectFrame(idFrame : String) : void  	}] \hfill \\
+			Seleziona il frame associato al codice identificativo ricevuto
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String	} \hfill \\
+					Codice identificativo del frame da selezionare			
+				\end{itemize}
+			
 			% -- note aggiuntive sul metodo -- %
 			\item[Note] \hfill \\
 			\begin{itemize}
-					\item Deve essere esplicitamente marcato come costante (?)
-					\item Deve possedere qualche caratteristica
-					\item Metodo ridefinito
+					\item il frame viene cercato in frames e caricato in currentFrames. Quest'ultimo va salvato prima di essere sovrascritto
+					\item list va inizializzato caricando gli oggetti grafici contenuti nel frame
+					\item inizializza framesId e frames, prelevando le informazioni da framesCollection
+					\item prepara la visualizzazione di ogni oggetto grafico attraverso initInteract
 			\end{itemize}
+				
 		\end{description}
 	\end{description}
-	% -- fine metodo -- %		
-
+	% -- fine metodo -- %
+	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue} + saveFrame() : void	}] \hfill \\
+			Richiama il metodo save() di currentFrame per aggiornare il database con le modifiche apportate dall'utente
+		
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ removeGO() : void	}] \hfill \\
+			Rimuove l'oggetto grafico attualmente selezionato dal frame che l'utente sta modificando
+		
+	\end{description}
+	% -- fine metodo -- %
+	
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ removeFrame(idFrame : String) : void 	}] \hfill \\
+			Rimuove il frame rappresentato dal codice identificativo ricevuto. Se il codice identificativo è vuoto rimuove il frame contenuto in currentFrame
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String	} \hfill \\
+					Codice identificativo del frame da rimuovere		
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ addGO() : void	}] \hfill \\
+			Imposta currentState come states.addingGO, per avvertire la vista della scelta effettuata dall'utente
+		
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ selectGO(\$event : Event, idGo : String, type : String) : void 	}] \hfill \\
+			Prepara l'editor alla modifica dell'oggetto grafico in base al suo tipo
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{\$event : Event	} \hfill \\
+					l'evento che ha portato alla chiamata del metodo. I suoi segnali devono essere interrotti attraverso il metodo stopPropagation()		
+					\item \textbf{idGO : String	} \hfill \\
+					Il codice identificativo dell'oggetto grafico che l'utente ha scelto di modificare
+					\item \textbf{type : String	} \hfill \\
+					Il tipo dell'oggetto grafico da rappresentare
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	 -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ removeSelection() : void	}] \hfill \\
+			Annulla la selezione del frame, azzerando tutti gli attributi interessati alla selezione
+		
+	\end{description}
+	% -- fine metodo -- %
+	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ addGObject(type : String, params : Collection) : void 	}] \hfill \\
+			Prepara l'editor alla modifica dell'oggetto grafico in base al suo tipo
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{\$event : Event	} \hfill \\
+					l'evento che ha portato alla chiamata del metodo. I suoi segnali devono essere interrotti attraverso il metodo stopPropagation()		
+					\item \textbf{idGO : String	} \hfill \\
+					Il codice identificativo dell'oggetto grafico che l'utente ha scelto di modificare
+					\item \textbf{type : String	} \hfill \\
+					Il tipo dell'oggetto grafico da rappresentare
+				\end{itemize}
+				
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	
+	
 \end{description}
