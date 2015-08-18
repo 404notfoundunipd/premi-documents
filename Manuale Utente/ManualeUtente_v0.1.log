@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  17 AUG 2015 23:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  18 AUG 2015 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -626,21 +626,53 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 27.
+Package pdftex.def Info: ../logo/logo404.png used on input line 26.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [4]) (./documents/descrizione.tex)
-(./documents/istruzioni.tex
+(./documents/istruzioni.tex <img/signup.png, id=242, 941.5175pt x 587.19376pt>
+File: img/signup.png Graphic file (type png)
+
+<use img/signup.png>
+Package pdftex.def Info: img/signup.png used on input line 12.
+(pdftex.def)             Requested size: 376.60033pt x 234.87334pt.
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 32.
+Package pdftex.def Info: ../logo/logo404.png used on input line 24.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [5])
+ [5 <./img/signup.png>]
+<img/signin.png, id=251, 963.6pt x 579.16376pt>
+File: img/signin.png Graphic file (type png)
+ <use img/signin.png>
+Package pdftex.def Info: img/signin.png used on input line 30.
+(pdftex.def)             Requested size: 385.43317pt x 231.66139pt.
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 35.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [6 <./img/signin.png>]
+<img/dashboard_guide.png, id=259, 1284.8pt x 627.34375pt>
+File: img/dashboard_guide.png Graphic file (type png)
+
+<use img/dashboard_guide.png>
+Package pdftex.def Info: img/dashboard_guide.png used on input line 40.
+(pdftex.def)             Requested size: 449.68674pt x 219.5736pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 40--41
+ [] 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 69.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [7 <./img/dashboard_guide.png>])
 (./documents/appendice.tex)
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 56.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [6]
+ [8]
 No file ManualeUtente_v0.1.bbl.
 
 AED: lastpage setting LastPage
@@ -650,23 +682,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
 Package rerunfilecheck Info: File `ManualeUtente_v0.1.out' has not changed.
-(rerunfilecheck)             Checksum: 126A790BFC389DBF9D20107B6021FAF2;2795.
+(rerunfilecheck)             Checksum: 23EE66F0AE03B7238756A4F2CABCC176;2798.
  ) 
 Here is how much of TeX's memory you used:
- 10687 strings out of 493117
- 158014 string characters out of 6135432
- 259937 words of memory out of 5000000
- 13941 multiletter control sequences out of 15000+600000
- 8500 words of font info for 30 fonts, out of 8000000 for 9000
+ 10715 strings out of 493117
+ 158460 string characters out of 6135432
+ 259896 words of memory out of 5000000
+ 13956 multiletter control sequences out of 15000+600000
+ 8837 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,15n,47p,812b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on ManualeUtente_v0.1.pdf (7 pages, 94251 bytes).
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on ManualeUtente_v0.1.pdf (9 pages, 440551 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 323 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 305 PDF objects out of 1000 (max. 8388607)
+ 279 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 338 words of extra memory for PDF output out of 10000 (max. 10000000)
 
