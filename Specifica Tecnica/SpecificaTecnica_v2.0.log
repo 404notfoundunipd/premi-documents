@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.11)  18 AUG 2015 11:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.11)  18 AUG 2015 16:08
 entering extended mode
 **SpecificaTecnica_v2.0.tex
 
@@ -937,13 +937,13 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 508.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [29]
-<img/diapkg/infographicEditor.png, id=892, 453.19313pt x 208.52907pt>
+<img/diapkg/infographicEditor.png, id=892, 411.03563pt x 147.55125pt>
 File: img/diapkg/infographicEditor.png Graphic file (type png)
 
 <use img/diapkg/infographicEditor.png>
 Package pdftex.def Info: img/diapkg/infographicEditor.png used on input line 51
 2.
-(pdftex.def)             Requested size: 203.93501pt x 93.8372pt.
+(pdftex.def)             Requested size: 184.96432pt x 66.39743pt.
 
 Overfull \hbox (37.17949pt too wide) in paragraph at lines 521--522
 []\OT1/cmr/bx/n/12 Descrizione: \OT1/cmr/m/n/12 tem-pla-te del-la par-te di pa-
@@ -951,50 +951,55 @@ gi-na per la crea-zio-ne o mo-di-fi-ca dell'infografica$[]$
  []
 
 
-Overfull \hbox (153.3638pt too wide) in paragraph at lines 536--537
+Overfull \hbox (153.3638pt too wide) in paragraph at lines 530--531
 \OT1/cmr/m/n/12 ge-ne-ra-te da Pre-mi.client.InfographicEditor.views.frame.ng e
  di Pre-mi.client.InfographicEditor.views.toolbar.ng
  []
 
+<img/diapkg/trailsEditor.png, id=893, 467.49657pt x 476.53032pt>
+File: img/diapkg/trailsEditor.png Graphic file (type png)
+
+<use img/diapkg/trailsEditor.png>
+Package pdftex.def Info: img/diapkg/trailsEditor.png used on input line 543.
+(pdftex.def)             Requested size: 210.3715pt x 214.43666pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 542.
+Package pdftex.def Info: ../logo/logo404.png used on input line 552.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [30
 
  <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diapkg/i
 nfographicEditor.png>]
-<img/diapkg/trailsEditor.png, id=900, 467.49657pt x 476.53032pt>
-File: img/diapkg/trailsEditor.png Graphic file (type png)
-
-<use img/diapkg/trailsEditor.png>
-Package pdftex.def Info: img/diapkg/trailsEditor.png used on input line 549.
-(pdftex.def)             Requested size: 210.3715pt x 214.43666pt.
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 570.
+Package pdftex.def Info: ../logo/logo404.png used on input line 571.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [31 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diap
-kg/trailsEditor.png>]
+
+[31 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diapk
+g/trailsEditor.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 607.
+Package pdftex.def Info: ../logo/logo404.png used on input line 610.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [32]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 641.
+Package pdftex.def Info: ../logo/logo404.png used on input line 646.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [33]
-<img/diapkg/viewer.png, id=917, 364.36125pt x 206.27063pt>
+
+[33] <img/diapkg/viewer.png, id=917, 364.36125pt x 206.27063pt>
 File: img/diapkg/viewer.png Graphic file (type png)
 
 <use img/diapkg/viewer.png>
-Package pdftex.def Info: img/diapkg/viewer.png used on input line 665.
+Package pdftex.def Info: img/diapkg/viewer.png used on input line 659.
 (pdftex.def)             Requested size: 163.96104pt x 92.8209pt.
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 675.
+Package pdftex.def Info: ../logo/logo404.png used on input line 678.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [34 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diap
 kg/viewer.png>])
@@ -5435,8 +5440,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
 nica_v2.0.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
-Package rerunfilecheck Info: File `SpecificaTecnica_v2.0.out' has not changed.
-(rerunfilecheck)             Checksum: 1707AAD6EACA3A1B60913FE4336505B9;10953.
+
+
+Package rerunfilecheck Warning: File `SpecificaTecnica_v2.0.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `SpecificaTecnica_v2.0.out':
+(rerunfilecheck)             Before: 1707AAD6EACA3A1B60913FE4336505B9;10953
+(rerunfilecheck)             After:  8EB709839F633CA40357890732EF2C18;10842.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
@@ -5447,15 +5459,18 @@ Here is how much of TeX's memory you used:
  9730 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  43i,16n,47p,1401b,654s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Ismaele\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
-0\tcti1200.pk> <C:\Users\Ismaele\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
-pen\ec\dpi600\tcrm1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmtt12.pfb>
-Output written on SpecificaTecnica_v2.0.pdf (89 pages, 2498978 bytes).
+pdfTeX warning (dest): name{subsubsection.4.8.3} has been referenced but does
+ not exist, replaced by a fixed one
+
+ <C:\Users\Ismaele\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+tcti1200.pk> <C:\Users\Ismaele\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\tcrm1200.pk><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmtt12.pfb>
+Output written on SpecificaTecnica_v2.0.pdf (89 pages, 2483347 bytes).
 PDF statistics:
  1317 PDF objects out of 1440 (max. 8388607)
  259 named destinations out of 1000 (max. 500000)
