@@ -42,7 +42,7 @@
 \BOOKMARK [3][-]{subsubsection.3.6.1}{premi/client/frameEditor/views/frame.ng}{subsection.3.6}% 42
 \BOOKMARK [3][-]{subsubsection.3.6.2}{premi/client/frameEditor/controllers/frameEditorCtrl}{subsection.3.6}% 43
 \BOOKMARK [2][-]{subsection.3.7}{premi/client/infographicEditor}{section.3}% 44
-\BOOKMARK [3][-]{subsubsection.3.7.1}{premi/client/infographicEditor/views/}{subsection.3.7}% 45
+\BOOKMARK [3][-]{subsubsection.3.7.1}{premi/client/infographicEditor/views/infographic.ng}{subsection.3.7}% 45
 \BOOKMARK [3][-]{subsubsection.3.7.2}{premi/client/infographicEditor/controllers/infographicEditorCtrl}{subsection.3.7}% 46
 \BOOKMARK [2][-]{subsection.3.8}{premi/client/trailsEditor}{section.3}% 47
 \BOOKMARK [3][-]{subsubsection.3.8.1}{premi/client/trailsEditor/views/basicToolbar.ng}{subsection.3.8}% 48
@@ -59,6 +59,15 @@
 \BOOKMARK [3][-]{subsubsection.3.8.12}{premi/client/trailsEditor/controllers/removeTrailCtrl}{subsection.3.8}% 59
 \BOOKMARK [3][-]{subsubsection.3.8.13}{premi/client/trailsEditor/controllers/trailsEditorCtrl}{subsection.3.8}% 60
 \BOOKMARK [2][-]{subsection.3.9}{premi/client/userManager}{section.3}% 61
-\BOOKMARK [2][-]{subsection.3.10}{premi/client/viewer}{section.3}% 62
-\BOOKMARK [1][-]{section.4}{Tracciamento}{}% 63
-\BOOKMARK [1][-]{section.5}{Diagrammi di Sequenza}{}% 64
+\BOOKMARK [3][-]{subsubsection.3.9.1}{premi/client/userManager/views/changePassword.ng}{subsection.3.9}% 62
+\BOOKMARK [3][-]{subsubsection.3.9.2}{premi/client/userManager/views/signin.ng}{subsection.3.9}% 63
+\BOOKMARK [3][-]{subsubsection.3.9.3}{premi/client/userManager/views/signup.ng}{subsection.3.9}% 64
+\BOOKMARK [3][-]{subsubsection.3.9.4}{premi/client/userManager/views/userManager.ng}{subsection.3.9}% 65
+\BOOKMARK [3][-]{subsubsection.3.9.5}{premi/client/userManager/controllers/changePasswordCtrl}{subsection.3.9}% 66
+\BOOKMARK [3][-]{subsubsection.3.9.6}{premi/client/userManager/controllers/signinCtrl}{subsection.3.9}% 67
+\BOOKMARK [3][-]{subsubsection.3.9.7}{premi/client/userManager/controllers/signinCtrl}{subsection.3.9}% 68
+\BOOKMARK [3][-]{subsubsection.3.9.8}{premi/client/userManager/controllers/signoutCtrl}{subsection.3.9}% 69
+\BOOKMARK [3][-]{subsubsection.3.9.9}{premi/client/userManager/controllers/signupCtrl}{subsection.3.9}% 70
+\BOOKMARK [2][-]{subsection.3.10}{premi/client/viewer}{section.3}% 71
+\BOOKMARK [1][-]{section.4}{Tracciamento}{}% 72
+\BOOKMARK [1][-]{section.5}{Diagrammi di Sequenza}{}% 73

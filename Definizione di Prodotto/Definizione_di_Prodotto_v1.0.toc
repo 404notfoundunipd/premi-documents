@@ -43,7 +43,7 @@
 \contentsline {subsubsection}{\numberline {3.6.1}premi/client/frameEditor/views/frame.ng}{85}{subsubsection.3.6.1}
 \contentsline {subsubsection}{\numberline {3.6.2}premi/client/frameEditor/controllers/frameEditorCtrl}{85}{subsubsection.3.6.2}
 \contentsline {subsection}{\numberline {3.7}premi/client/infographicEditor}{95}{subsection.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}premi/client/infographicEditor/views/}{95}{subsubsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.1}premi/client/infographicEditor/views/infographic.ng}{95}{subsubsection.3.7.1}
 \contentsline {subsubsection}{\numberline {3.7.2}premi/client/infographicEditor/controllers/infographicEditorCtrl}{95}{subsubsection.3.7.2}
 \contentsline {subsection}{\numberline {3.8}premi/client/trailsEditor}{103}{subsection.3.8}
 \contentsline {subsubsection}{\numberline {3.8.1}premi/client/trailsEditor/views/basicToolbar.ng}{103}{subsubsection.3.8.1}
@@ -60,6 +60,15 @@
 \contentsline {subsubsection}{\numberline {3.8.12}premi/client/trailsEditor/controllers/removeTrailCtrl}{112}{subsubsection.3.8.12}
 \contentsline {subsubsection}{\numberline {3.8.13}premi/client/trailsEditor/controllers/trailsEditorCtrl}{113}{subsubsection.3.8.13}
 \contentsline {subsection}{\numberline {3.9}premi/client/userManager}{115}{subsection.3.9}
-\contentsline {subsection}{\numberline {3.10}premi/client/viewer}{116}{subsection.3.10}
-\contentsline {section}{\numberline {4}Tracciamento}{116}{section.4}
-\contentsline {section}{\numberline {5}Diagrammi di Sequenza}{116}{section.5}
+\contentsline {subsubsection}{\numberline {3.9.1}premi/client/userManager/views/changePassword.ng}{115}{subsubsection.3.9.1}
+\contentsline {subsubsection}{\numberline {3.9.2}premi/client/userManager/views/signin.ng}{115}{subsubsection.3.9.2}
+\contentsline {subsubsection}{\numberline {3.9.3}premi/client/userManager/views/signup.ng}{116}{subsubsection.3.9.3}
+\contentsline {subsubsection}{\numberline {3.9.4}premi/client/userManager/views/userManager.ng}{116}{subsubsection.3.9.4}
+\contentsline {subsubsection}{\numberline {3.9.5}premi/client/userManager/controllers/changePasswordCtrl}{116}{subsubsection.3.9.5}
+\contentsline {subsubsection}{\numberline {3.9.6}premi/client/userManager/controllers/signinCtrl}{117}{subsubsection.3.9.6}
+\contentsline {subsubsection}{\numberline {3.9.7}premi/client/userManager/controllers/signinCtrl}{118}{subsubsection.3.9.7}
+\contentsline {subsubsection}{\numberline {3.9.8}premi/client/userManager/controllers/signoutCtrl}{120}{subsubsection.3.9.8}
+\contentsline {subsubsection}{\numberline {3.9.9}premi/client/userManager/controllers/signupCtrl}{120}{subsubsection.3.9.9}
+\contentsline {subsection}{\numberline {3.10}premi/client/viewer}{122}{subsection.3.10}
+\contentsline {section}{\numberline {4}Tracciamento}{122}{section.4}
+\contentsline {section}{\numberline {5}Diagrammi di Sequenza}{122}{section.5}

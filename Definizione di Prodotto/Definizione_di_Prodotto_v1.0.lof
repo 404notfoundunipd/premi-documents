@@ -37,3 +37,9 @@
 \contentsline {figure}{\numberline {36}{\ignorespaces Diagramma della classe premi/client/trailsEditor/controllers/newTrailCtrl\relax }}{111}{figure.caption.40}
 \contentsline {figure}{\numberline {37}{\ignorespaces Diagramma della classe premi/client/trailsEditor/controllers/removeTrailCtrl\relax }}{112}{figure.caption.41}
 \contentsline {figure}{\numberline {38}{\ignorespaces Diagramma della classe premi/client/trailsEditor/controllers/trailsEditorCtrl\relax }}{113}{figure.caption.42}
+\contentsline {figure}{\numberline {39}{\ignorespaces Diagramma del package premi/client/userManager\relax }}{115}{figure.caption.43}
+\contentsline {figure}{\numberline {40}{\ignorespaces Diagramma della classe premi/client/userManager/controllers/changePasswordCtrl\relax }}{116}{figure.caption.44}
+\contentsline {figure}{\numberline {41}{\ignorespaces Diagramma della classe premi/client/userManager/controllers/signinCtrl\relax }}{117}{figure.caption.45}
+\contentsline {figure}{\numberline {42}{\ignorespaces Diagramma della classe premi/client/userManager/controllers/signinCtrl\relax }}{119}{figure.caption.46}
+\contentsline {figure}{\numberline {43}{\ignorespaces Diagramma della classe premi/client/userManager/controllers/signoutCtrl\relax }}{120}{figure.caption.47}
+\contentsline {figure}{\numberline {44}{\ignorespaces Diagramma della classe premi/client/userManager/controllers/signupCtrl\relax }}{120}{figure.caption.48}
