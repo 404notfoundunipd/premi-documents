@@ -1,7 +1,8 @@
+\clearpage
 \subsection{premi/client/trailsEditor}
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=0.90]{img/diapkg/trailsEditor.png}
+\includegraphics[scale=0.55]{img/diapkg/trailsEditor.png}
 \caption{Diagramma del package premi/client/trailsEditor}
 \end{center}
 \end{figure}
@@ -471,6 +472,211 @@
 	\end{description}
 	% -- fine metodo -- %	
 	
+\end{description}	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	%-------  diagramma della classe%
+\subsubsection{premi/client/trailsEditor/controllers/newTrailCtrl}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.55]{img/diacla/newTrailCtrl.png}
+\caption{Diagramma della classe premi/client/trailsEditor/controllers/newTrailCtrl}
+\end{center}
+\end{figure}
+
+
+\begin{description}
+%-------  descrizione della classe%
+\item[Descrizione] \hfill \\
+	Controller della view \textit{newTrail.ng}. Fornisce, tramite lo \textit{\$scope}, metodi e attributi necessari alla creazione di un nuovo trail
+	
+	
+%-------  lista delle classi associate%	
+\item[Dipendenze] \hfill \\
+	\begin{itemize}
+		\item \textbf{premi/client/presentation/lib/databaseAPI}: per i metodi necessari al salvataggio del nuovo trail nel database
+	\end{itemize}
+	
+	
+%-------  lista dei metodi%	
+\item[Metodi] \hfill \\
+
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ save() : void			}] \hfill \\
+			Utilizza il metodo \textit{+ insertTrail} di databaseAPI per il salvataggio del nuovo Trail nel database. Aggiorna poi la pagina con il cambiamento apportato al database
+	\end{description}
+	% -- fine metodo -- %		
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ discard() : void			}] \hfill \\
+			Annulla il processo di creazione del trail. Aggiorna poi la pagina riportandola allo stato precedente
+	\end{description}
+	% -- fine metodo -- %	
+
+\end{description}
+	
+
+
+
+
+
+
+	%-------  diagramma della classe%
+\subsubsection{premi/client/trailsEditor/controllers/removeTrailCtrl}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.55]{img/diacla/removeTrailCtrl.png}
+\caption{Diagramma della classe premi/client/trailsEditor/controllers/removeTrailCtrl}
+\end{center}
+\end{figure}
+
+
+\begin{description}
+%-------  descrizione della classe%
+\item[Descrizione] \hfill \\
+	Controller della view \textit{removeTrail.ng}. Fornisce, tramite lo \textit{\$scope}, metodi e attributi necessari all'eliminazione di un trail
+	
+	
+%-------  lista delle classi associate%	
+\item[Dipendenze] \hfill \\
+	\begin{itemize}
+		\item \textbf{premi/client/presentation/lib/databaseAPI}: per i metodi necessari all'eliminazione del trail dal database
+	\end{itemize}
+	
+	
+%-------  lista dei metodi%	
+\item[Metodi] \hfill \\
+
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ remove() : void			}] \hfill \\
+			Utilizza il metodo \textit{+ removeTrail} di databaseAPI per la rimozione del trail dal database. Aggiorna poi la pagina con il cambiamento apportato al database
+	\end{description}
+	% -- fine metodo -- %		
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ discard() : void			}] \hfill \\
+			Annulla il processo di eliminazione del trail. Aggiorna poi la pagina riportandola allo stato precedente
+	\end{description}
+	% -- fine metodo -- %	
+
+\end{description}
+	
+
+
+
+
+
+
+
+%-------  diagramma della classe%
+\subsubsection{premi/client/trailsEditor/controllers/trailsEditorCtrl}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.55]{img/diacla/trailsEditorCtrl.png}
+\caption{Diagramma della classe premi/client/trailsEditor/controllers/trailsEditorCtrl}
+\end{center}
+\end{figure}
+
+
+\begin{description}
+%-------  descrizione della classe%
+\item[Descrizione] \hfill \\
+	Controller generale dell'editor dei trail. Prepara lo \textit{\$scope} con attributi e metodi utili alle viste e ai controller interni a questo editor.
+	
+	
+%-------  lista degli Attributi%	
+\item[Attributi] \hfill \\
+	\begin{description}
+		\item[\textbf{+ idPres : String			}] \hfill \\
+			Codice identificativo della presentazione che l'utente sta modificando, è prelevato da \textit{\$stateParams}
+		\item[\textbf{+ framesAddedMenu	: String		}] \hfill \\
+			Indica se il menu dei frames aggiunti finora al trail è visualizzato (\textit{enabled}) o meno (\textit{disabled}
+		\item[\textbf{+ framesToBeAddedMenu	: String		}] \hfill \\
+			Indica se il menu di tutti i frames della presentazione è visualizzato (\textit{enabled}) o meno (\textit{disabled}
+	\end{description}
+	
+	
+%-------  lista dei metodi%	
+\item[Metodi] \hfill \\
+
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ disableAllStateMenu() : void			}] \hfill \\
+			Disabilita i menu dei frame e aggiorna la pagina
+
+	\end{description}
+	% -- fine metodo -- %	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ switchEnabled(state : String) : void			}] \hfill \\
+			Se lo stato ricevuto è '\textit{enabled}' lo rende '\textit{disabled}', e viceversa
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{state : String			} \hfill \\
+					Lo stato da abilitare/disabilitare
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ enableStateMenu(stateMenu : String) : void			}] \hfill \\
+			Abilita il menu rappresentato da stateMenu
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{stateMenu : String			} \hfill \\
+					Il menu da abilitare, può essere: 
+					\begin{itemize}
+						\item frameAddedMenu
+						\item framesToBeAddedMenu
+					\end{itemize}
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ goToState(state : String) : void			}] \hfill \\
+			Rimanda l'utente alla vista rappresentata dallo stato ricevuto
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill \\
+				\begin{itemize}
+				
+					\item \textbf{state : String			} \hfill \\
+					Lo stato che rappresenta la vista da mostrare all'utente
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+			
 
 \end{description}

@@ -64,9 +64,8 @@
 \contentsline {subsubsection}{\numberline {4.6.10}Premi/client/editor/lib/infographic}{28}{subsubsection.4.6.10}
 \contentsline {subsubsection}{\numberline {4.6.11}Premi/client/editor/lib/saver}{28}{subsubsection.4.6.11}
 \contentsline {subsection}{\numberline {4.7}Premi/client/frameEditor}{28}{subsection.4.7}
-\contentsline {subsubsection}{\numberline {4.7.1}Premi/client/frameEditor/views/frame.ng}{29}{subsubsection.4.7.1}
-\contentsline {subsubsection}{\numberline {4.7.2}Premi/client/frameEditor/views/toolbar.ng}{29}{subsubsection.4.7.2}
-\contentsline {subsubsection}{\numberline {4.7.3}Premi/client/frameEditor/controllers/frameEditorCtrl}{29}{subsubsection.4.7.3}
+\contentsline {subsubsection}{\numberline {4.7.1}Premi/client/frameEditor/views/frame.ng}{28}{subsubsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.2}Premi/client/frameEditor/controllers/frameEditorCtrl}{29}{subsubsection.4.7.2}
 \contentsline {subsection}{\numberline {4.8}Premi/client/infographicEditor}{30}{subsection.4.8}
 \contentsline {subsubsection}{\numberline {4.8.1}Premi/client/infographicEditor/views/infographic.ng}{30}{subsubsection.4.8.1}
 \contentsline {subsubsection}{\numberline {4.8.2}Premi/client/infographicEditor/views/frameList.ng}{30}{subsubsection.4.8.2}
