@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.11)  19 AUG 2015 16:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.11)  19 AUG 2015 16:11
 entering extended mode
 **Glossario_v2.0.tex
 (C:\Users\Ismaele\Documents\git\premi-documents\Glossario\Glossario_v2.0.tex
@@ -598,37 +598,42 @@ File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 Ismaele/Documents/git/premi-documents/Glossario/img/logo404_Extends.png>])
 (C:\Users\Ismaele\Documents\git\premi-documents\Glossario\documents/regModifich
 e.tex
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
+Underfull \hbox (badness 1783) in paragraph at lines 9--10
+[]|\OT1/cmr/m/n/12 Inserimento Brain-stor-ming, No-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
 []|\OT1/cmr/m/n/12 Inserimento Vo-ci(Namespace,
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 15--16
+Underfull \hbox (badness 7133) in paragraph at lines 17--18
 []|\OT1/cmr/m/n/12 Inserimento Vo-ci(Interact, Im-
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 21--22
+Underfull \hbox (badness 1888) in paragraph at lines 23--24
 []|\OT1/cmr/m/n/12 Modifica strut-tu-ra e cor-re-zio-ne
  []
 
 
-Underfull \hbox (badness 5036) in paragraph at lines 23--24
+Underfull \hbox (badness 5036) in paragraph at lines 25--26
 []|\OT1/cmr/m/n/12 Inserimento Vo-ci(MVC, De-sing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 \OT1/cmr/m/n/12 Pat-tern, Pac-ka-ge, An-gu-la-r-JS,
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 31--32
+Underfull \hbox (badness 2401) in paragraph at lines 33--34
 []|\OT1/cmr/m/n/12 Correzione or-to-gra-fi-ca e in-se-ri-
  []
 
 
-Underfull \vbox (badness 10000) detected at line 40
+Underfull \vbox (badness 10000) detected at line 42
  []
 
 ) <../logo/logo404.png, id=100, 1027.84pt x 402.50375pt>
@@ -874,7 +879,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 32.
 Here is how much of TeX's memory you used:
  11307 strings out of 493921
  173415 string characters out of 3144870
- 284902 words of memory out of 3000000
+ 285902 words of memory out of 3000000
  14395 multiletter control sequences out of 15000+200000
  9466 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -887,7 +892,7 @@ mmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 2.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pf
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Glossario_v2.0.pdf (28 pages, 190734 bytes).
+Output written on Glossario_v2.0.pdf (28 pages, 190879 bytes).
 PDF statistics:
  310 PDF objects out of 1000 (max. 8388607)
  52 named destinations out of 1000 (max. 500000)
