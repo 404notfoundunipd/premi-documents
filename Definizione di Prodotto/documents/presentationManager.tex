@@ -23,9 +23,9 @@
 
 \begin{description}
 %-------  descrizione del template%
-\item[Descrizione] \hfill \\
+\item[Descrizione] \hfill
 	Template della vista associata allo \textit{\$scope} di \textit{editPresentationCtrl}. Permette all'utente di modificare titolo e descrizione di una presentazione.
-\item[Note] \hfill \\
+\item[Note] \hfill
 	\begin{itemize}
 			\item Mostra il titolo della presentazione in un input HTML$_G$, modificabile, attraverso l'attributo dello \textit{\$scope} Presentation.title
 			\item Mostra la descrizione della presentazione in un input HTML$_G$, modificabile, attraverso l'attributo dello scope Presentation.description
@@ -39,9 +39,9 @@
 
 \begin{description}
 %-------  descrizione del template%
-\item[Descrizione] \hfill \\
+\item[Descrizione] \hfill
 	Template della vista associata allo \textit{\$scope} di \textit{newPresentationCtrl}. Permette all'utente di creare una nuova presentazione, fornendo un titolo e una descrizione.
-\item[Note] \hfill \\
+\item[Note] \hfill
 	\begin{itemize}
 			\item Mostra un input HTML nel quale inserire il titolo della presentazione, che va associato all'attributo \textit{title} dello \textit{\$scope}
 			\item Mostra un input HTML nel quale inserire la descrizione della presentazione, che va associata all'attributo \textit{description} dello \textit{\$scope}
@@ -55,7 +55,7 @@
 
 \begin{description}
 %-------  descrizione del template%
-\item[Descrizione] \hfill \\
+\item[Descrizione] \hfill
 	Template della vista associata allo \textit{\$scope} di \textit{presentationmagerCtrl}. Fornisce uno scheletro per le altre viste dedicate alla gestione delle presentazioni
 \end{description}
 
@@ -66,9 +66,9 @@
 
 \begin{description}
 %-------  descrizione del template%
-\item[Descrizione] \hfill \\
+\item[Descrizione] \hfill
 	Template della vista associata allo \textit{\$scope} di \textit{presentationsCtrl}. Mostra una lista di tutte le presentazioni dell'utente
-\item[Note] \hfill \\
+\item[Note] \hfill
 	\begin{itemize}
 			\item Mostra la lista delle presentazioni, le quali sono contenute nell'attributo \textit{Presentations} dello \textit{\$scope}
 			\item Per ogni presentazione fornisce dei link per sua la modifica e rimozione
@@ -82,9 +82,9 @@
 
 \begin{description}
 %-------  descrizione del template%
-\item[Descrizione] \hfill \\
+\item[Descrizione] \hfill
 	Template della vista associata allo \textit{\$scope} di \textit{removePresentationCtrl}. Permette all'utente di rimuovere una presentazione dal database.
-\item[Note] \hfill \\
+\item[Note] \hfill
 	\begin{itemize}
 			\item Mostra un messaggio di conferma prima di rimuovere la presentazione
 			\item Dopo il messaggio di conferma mostra un tasto associato al metodo \textit{remove()} dello \textit{\$scope} per la rimozione definitiva della presentazione
@@ -131,38 +131,38 @@
 
 \begin{description}
 %-------  descrizione della classe%
-\item[Descrizione] \hfill \\
+\item[Descrizione] \hfill
 	Controller della view \textit{editPresentation.ng}. Permette all'utente di modificare titolo e descrizione di una presentazione.
 	
 
 %-------  lista delle classi associate%	
-\item[Associazioni] \hfill \\
+\item[Associazioni] \hfill
 	\begin{itemize}
 		\item \textbf{client/presentation/lib/databaseAPI}: per salvare la presentazione modificata
 	\end{itemize}
 
 	
 %-------  lista degli Attributi%	
-\item[Attributi] \hfill \\
+\item[Attributi] \hfill
 	\begin{description}
-		\item[\textbf{+ Presentation : Collection			}] \hfill \\
+		\item[\textbf{+ Presentation : Collection			}] \hfill
 			Presentazione che l'utente intende modificare. Viene inizializzata dal controller tramite il codice identificativo passato come parametro dal browser (servizio \$stateParams di AngularJS)
 	\end{description}
 	
 	
 %-------  lista dei metodi%	
-\item[Metodi] \hfill \\
+\item[Metodi] \hfill
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ save() : void			}] \hfill \\
+		\item[\textbf{\color{blue}+ save() : void			}] \hfill
 			Utilizza il metodo \textit{+ updatePresentation(id, title, description)} di databaseAPI per il salvataggio della presentazione nel database. Rimanda poi alla lista delle presentazioni utilizzando l'oggetto \textit{\$state} di \textit{\$stateProvider}
 	\end{description}
 	% -- fine metodo -- %		
 	
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ discard() : void			}] \hfill \\
+		\item[\textbf{\color{blue}+ discard() : void			}] \hfill
 			Annulla le modifiche effettuate dall'utente sul titolo e sulla descrizione della presentazione. Rimanda poi alla lista delle presentazioni utilizzando l'oggetto \textit{\$state} di \textit{\$stateProvider}
 	\end{description}
 	% -- fine metodo -- %	
@@ -185,40 +185,40 @@
 
 \begin{description}
 %-------  descrizione della classe%
-\item[Descrizione] \hfill \\
+\item[Descrizione] \hfill
 	Controller della view \textit{editPresentation.ng}. Permette all'utente di creare una nuova presentazione e di salvarla nel database.
 	
 
 %-------  lista delle classi associate%	
-\item[Associazioni] \hfill \\
+\item[Associazioni] \hfill
 	\begin{itemize}
 		\item \textbf{client/presentation/lib/databaseAPI}: per salvare la presentazione nel database
 	\end{itemize}
 
 	
 %-------  lista degli Attributi%	
-\item[Attributi] \hfill \\
+\item[Attributi] \hfill
 	\begin{description}
-		\item[\textbf{+ title : String			}] \hfill \\
+		\item[\textbf{+ title : String			}] \hfill
 		Il titolo della nuova presentazione
-		\item[\textbf{+ description : String			}] \hfill \\	
+		\item[\textbf{+ description : String			}] \hfill	
 		La descrizione della nuova presentazione
 	\end{description}
 	
 	
 %-------  lista dei metodi%	
-\item[Metodi] \hfill \\
+\item[Metodi] \hfill
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ save() : void			}] \hfill \\
+		\item[\textbf{\color{blue}+ save() : void			}] \hfill
 			Utilizza il metodo \textit{+ insertNewPresentation(title, description)} di databaseAPI per il salvataggio della presentazione nel database. Rimanda poi alla lista delle presentazioni utilizzando l'oggetto \textit{\$state} di \textit{\$stateProvider}
 	\end{description}
 	% -- fine metodo -- %		
 	
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ discard() : void			}] \hfill \\
+		\item[\textbf{\color{blue}+ discard() : void			}] \hfill
 			Annulla le modifiche effettuate dall'utente sul titolo e sulla descrizione della presentazione. Rimanda poi alla lista delle presentazioni utilizzando l'oggetto \textit{\$state} di \textit{\$stateProvider}
 	\end{description}
 	% -- fine metodo -- %	
@@ -241,7 +241,7 @@
 
 \begin{description}
 %-------  descrizione della classe%
-\item[Descrizione] \hfill \\
+\item[Descrizione] \hfill
 	Questo controller non è al momento provvisto di funzionalità. Si appoggia alla vista associata \textit{presentationManager.ng}, la quale funge da scheletro per le viste necessarie alla gestione delle presentazioni dell'utente.
 \end{description}
 
@@ -259,14 +259,14 @@
 
 \begin{description}
 %-------  descrizione della classe%
-\item[Descrizione] \hfill \\
+\item[Descrizione] \hfill
 	Fornisce alla vista associata \textit{presentations.ng} una lista di tutte le presentazioni in possesso dell'utente
 	
 	
 %-------  lista degli Attributi%	
-\item[Attributi] \hfill \\
+\item[Attributi] \hfill
 	\begin{description}
-		\item[\textbf{+ Presentations : Collection			}] \hfill \\
+		\item[\textbf{+ Presentations : Collection			}] \hfill
 			Collezione MongoDB di presentazioni. Viene inizializzata dal controller prelevando le presentazioni pubblicate al client.
 	\end{description}
 
@@ -290,38 +290,38 @@
 
 \begin{description}
 %-------  descrizione della classe%
-\item[Descrizione] \hfill \\
+\item[Descrizione] \hfill
 	Controller della view \textit{removePresentation.ng}. Permette all'utente di eliminare una presentazione da lui creata in precedenza.
 	
 
 %-------  lista delle classi associate%	
-\item[Associazioni] \hfill \\
+\item[Associazioni] \hfill
 	\begin{itemize}
 		\item \textbf{client/presentation/lib/databaseAPI}: per effettuare la rimozione sul database
 	\end{itemize}
 
 	
 %-------  lista degli Attributi%	
-\item[Attributi] \hfill \\
+\item[Attributi] \hfill
 	\begin{description}
-		\item[\textbf{+ Presentation : Collection			}] \hfill \\
+		\item[\textbf{+ Presentation : Collection			}] \hfill
 			Presentazione che l'utente intende rimuovere. Viene inizializzata dal controller tramite il codice identificativo passato come parametro dal browser (servizio \$stateParams di AngularJS)
 	\end{description}
 	
 	
 %-------  lista dei metodi%	
-\item[Metodi] \hfill \\
+\item[Metodi] \hfill
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ remove() : void			}] \hfill \\
+		\item[\textbf{\color{blue}+ remove() : void			}] \hfill
 			Utilizza il metodo \textit{+ removePresentation(id, title, description)} di databaseAPI per la rimozione della presentazione dal database. Rimanda poi alla lista delle presentazioni utilizzando l'oggetto \textit{\$state} di \textit{\$stateProvider}
 	\end{description}
 	% -- fine metodo -- %		
 	
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ discard() : void			}] \hfill \\
+		\item[\textbf{\color{blue}+ discard() : void			}] \hfill
 			Annulla le modifiche effettuate dall'utente sulla presentazione. Rimanda poi alla lista delle presentazioni utilizzando l'oggetto \textit{\$state} di \textit{\$stateProvider}
 	\end{description}
 	% -- fine metodo -- %	
