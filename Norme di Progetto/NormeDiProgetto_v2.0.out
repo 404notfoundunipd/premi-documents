@@ -62,20 +62,31 @@
 \BOOKMARK [3][-]{subsubsection.5.5.1}{Definizione di Prodotto}{subsection.5.5}% 62
 \BOOKMARK [3][-]{subsubsection.5.5.2}{Test di unit\340}{subsection.5.5}% 63
 \BOOKMARK [2][-]{subsection.5.6}{Verifica e Validazione}{section.5}% 64
-\BOOKMARK [2][-]{subsection.5.7}{Procedure per l'utilizzo del repository}{section.5}% 65
-\BOOKMARK [3][-]{subsubsection.5.7.1}{Creare una milestone}{subsection.5.7}% 66
-\BOOKMARK [3][-]{subsubsection.5.7.2}{Creare un ticket}{subsection.5.7}% 67
-\BOOKMARK [3][-]{subsubsection.5.7.3}{Eseguire il compito}{subsection.5.7}% 68
-\BOOKMARK [3][-]{subsubsection.5.7.4}{Verifica del compito}{subsection.5.7}% 69
-\BOOKMARK [3][-]{subsubsection.5.7.5}{Chiudere una milestone}{subsection.5.7}% 70
-\BOOKMARK [1][-]{section.6}{Ambiente di Lavoro}{}% 71
-\BOOKMARK [2][-]{subsection.6.1}{Coordinamento}{section.6}% 72
-\BOOKMARK [2][-]{subsection.6.2}{Ambiente Documentale}{section.6}% 73
-\BOOKMARK [2][-]{subsection.6.3}{Linee Guida}{section.6}% 74
-\BOOKMARK [2][-]{subsection.6.4}{Framework}{section.6}% 75
-\BOOKMARK [2][-]{subsection.6.5}{Ambiente di Sviluppo}{section.6}% 76
-\BOOKMARK [2][-]{subsection.6.6}{Ambiente di Verifica}{section.6}% 77
-\BOOKMARK [3][-]{subsubsection.6.6.1}{Ambiente Desktop}{subsection.6.6}% 78
-\BOOKMARK [3][-]{subsubsection.6.6.2}{Ambiente Mobile}{subsection.6.6}% 79
-\BOOKMARK [3][-]{subsubsection.6.6.3}{Ambiente Server}{subsection.6.6}% 80
-\BOOKMARK [1][-]{section.7}{Riferimenti}{}% 81
+\BOOKMARK [3][-]{subsubsection.5.6.1}{Verifica dei documenti}{subsection.5.6}% 65
+\BOOKMARK [3][-]{subsubsection.5.6.2}{Verifica dei diagrammi UML}{subsection.5.6}% 66
+\BOOKMARK [3][-]{subsubsection.5.6.3}{Verifica del codice}{subsection.5.6}% 67
+\BOOKMARK [3][-]{subsubsection.5.6.4}{Gestione delle anomalie}{subsection.5.6}% 68
+\BOOKMARK [3][-]{subsubsection.5.6.5}{Strumenti}{subsection.5.6}% 69
+\BOOKMARK [2][-]{subsection.5.7}{Codifica}{section.5}% 70
+\BOOKMARK [3][-]{subsubsection.5.7.1}{Codifica e convenzioni}{subsection.5.7}% 71
+\BOOKMARK [3][-]{subsubsection.5.7.2}{Nomi e norme stilistiche}{subsection.5.7}% 72
+\BOOKMARK [3][-]{subsubsection.5.7.3}{Ricorsione}{subsection.5.7}% 73
+\BOOKMARK [3][-]{subsubsection.5.7.4}{Documentazione}{subsection.5.7}% 74
+\BOOKMARK [3][-]{subsubsection.5.7.5}{Strumenti}{subsection.5.7}% 75
+\BOOKMARK [2][-]{subsection.5.8}{Procedure per l'utilizzo del repository}{section.5}% 76
+\BOOKMARK [3][-]{subsubsection.5.8.1}{Creare una milestone}{subsection.5.8}% 77
+\BOOKMARK [3][-]{subsubsection.5.8.2}{Creare un ticket}{subsection.5.8}% 78
+\BOOKMARK [3][-]{subsubsection.5.8.3}{Eseguire il compito}{subsection.5.8}% 79
+\BOOKMARK [3][-]{subsubsection.5.8.4}{Verifica del compito}{subsection.5.8}% 80
+\BOOKMARK [3][-]{subsubsection.5.8.5}{Chiudere una milestone}{subsection.5.8}% 81
+\BOOKMARK [1][-]{section.6}{Ambiente di Lavoro}{}% 82
+\BOOKMARK [2][-]{subsection.6.1}{Coordinamento}{section.6}% 83
+\BOOKMARK [2][-]{subsection.6.2}{Ambiente Documentale}{section.6}% 84
+\BOOKMARK [2][-]{subsection.6.3}{Linee Guida}{section.6}% 85
+\BOOKMARK [2][-]{subsection.6.4}{Framework}{section.6}% 86
+\BOOKMARK [2][-]{subsection.6.5}{Ambiente di Sviluppo}{section.6}% 87
+\BOOKMARK [2][-]{subsection.6.6}{Ambiente di Verifica}{section.6}% 88
+\BOOKMARK [3][-]{subsubsection.6.6.1}{Ambiente Desktop}{subsection.6.6}% 89
+\BOOKMARK [3][-]{subsubsection.6.6.2}{Ambiente Mobile}{subsection.6.6}% 90
+\BOOKMARK [3][-]{subsubsection.6.6.3}{Ambiente Server}{subsection.6.6}% 91
+\BOOKMARK [1][-]{section.7}{Riferimenti}{}% 92
