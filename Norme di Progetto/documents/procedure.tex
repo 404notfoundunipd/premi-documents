@@ -115,24 +115,42 @@ Le azioni che l'utente puo' compiere attraverso i componenti, e la logica proced
 \end{itemize}
 
 \subsection{Progettazione di Dettaglio}
-È compito dei \textit{Progettisti} utilizzare quanto scritto nella \textit{Specifica Tecnica} per definire in dettaglio nella \textit{Definizione di Prodotto} tutte le unità di cui è formato il sistema.
+
+
 \subsubsection{Definizione di Prodotto}
-Il documento dev'essere composto dalle seguenti sezioni:
+È compito dei \textit{Progettisti} utilizzare quanto scritto nella \textit{Specifica Tecnica} per produrre la \textit{Definizione di Prodotto} dove viene descritta la
+progettazione di dettaglio del sistema. Lo scopo di questo documento è quello di definire dettagliatamente ogni singola unità di cui è composto il sistema in modo da semplificare l’attività di codifica e allo stesso tempo di non fornire alcun grado di libertà al \ruoloProgrammatore.
+
+\paragraph{5.5.1.1 Diagrammi UML \\}
+
+Devono essere redatti i seguenti diagrammi:
+
 \begin{itemize}
-\item \textbf{Definizione delle classi}
-Ogni classe deve essere descritta nei minimi dettagli affinchè la programmazione possa procedere in modo corretto e disciplinato. \\
-La descrizione è composta da:
+	\item diagrammi delle classi;
+	\item diagrammi di attività;
+	\item diagrammi di sequenza.
+\end{itemize}
+
+\paragraph{5.5.1.2 Definizione di classe \\}
+Ogni classe progettata deve essere descritta all’interno della “Definizione di
+Prodotto”. Tale descrizione deve comprendere una spiegazione sullo scopo della classe e
+deve specificare quale funzionalità essa modella. Nella descrizione devono inoltre essere
+presenti l’elenco di metodi e attributi della classe.
+La descrizione di ogni classe deve essere composta da:
+
 \begin{itemize}
+
 \item \textbf{Diagramma della Classe:} secondo il formalismo UML$_G$ 2.0;
-\item \textbf{Descrizione:} deve spiegare lo scopo della classe e quali funzionalità i requisiti essa modella;
 \item \textbf{Classi ereditate:} la gerarchia a cui appartiene la classe;
 \item \textbf{Attributi:} propri della classe, con una lista formata da: \\ \textit{Nome} scritto come \verb|accesso nome : tipo|, \textit{Accesso}, \textit{Tipo}, \textit{Descrizione};
 \item \textbf{Metodi:} propri della classe o ridefiniti, con una lista formata da: \\ \textit{Nome} scritto come \verb|accesso nome(tipoAtt1 attributo1) : tipoRitorno|, \textit{Accesso}, \textit{Tipo di ritorno}, \textit{Parametri}, \textit{Descrizione}
 \end{itemize}
-\item \textbf{Tracciamento requisiti - classi:} Ogni classe deve soddisfare un requisito o parte di esso. Allo stesso tempo ogni requisito deve essere soddisfatto da una o più classi.
+
+\paragraph{5.5.1.3 Tracciamento requisiti - classi \\}
+Ogni classe deve soddisfare un requisito o parte di esso. Allo stesso tempo ogni requisito deve essere soddisfatto da una o più classi.
 Le classi vanno inserite nel database gestito dal software 404TrackerDB, il quale si occuperà di verificare la soddisfacibilità dei requisiti e di generare il codice {Latex} appropriato.
-\end{itemize}
-\subsubsection{Test di unità}
+
+\paragraph{5.5.1.4 Test di unità \\}
 Durante la \textit{Progettazione di Dettaglio} i \textit{Progettisti} hanno inoltre il compito di definire i test di unità per assicurarsi che i componenti realizzati siano privi di difetti.
 
 \subsection{Verifica e Validazione}
@@ -166,7 +184,7 @@ Al \ruoloVerificatore\ è richiesto il controllo dei diagrammi UML$_G$ prodotti:
 
 \begin{itemize}
  	\item \textbf{Diagrammi dei casi d'uso:} Il \ruoloVerificatore\ deve controllare il rispetto delle specifiche UML$_G$ 2.4 e il corretto uso delle relazioni di inclusione ed estensione. Il diagramma di caso d'uso deve rappresentare fedelmente quanto descritto dal caso d'uso;
-	\item \textbf{Diagrammi delle classi:} Il \ruoloVerificatore\ ha il compito di controllare il rispetto del formalismo UMLG 2.0 e la corrispondenza tra progettazione e diagrammi delle classi.
+	\item \textbf{Diagrammi delle classi:} Il \ruoloVerificatore\ ha il compito di controllare il rispetto del formalismo UML$_G$ 2.0 e la corrispondenza tra progettazione e diagrammi delle classi.
 \end{itemize}
 
 \subsubsection{Verifica del codice}
