@@ -111,11 +111,11 @@
 \contentsline {subsection}{\numberline {5.23}Rimuovi frame da percorso}{58}{subsection.5.23}
 \contentsline {section}{\numberline {6}Stime di fattibilit\IeC {\`a} e di bisogno di risorse}{59}{section.6}
 \contentsline {section}{\numberline {7}Tracciamento requisiti-componenti}{60}{section.7}
-\contentsline {section}{\numberline {8}Tracciamento componenti-requisiti}{77}{section.8}
-\contentsline {section}{\numberline {9}Design Pattern}{83}{section.9}
-\contentsline {subsection}{\numberline {9.1}Design Pattern Architetturali}{83}{subsection.9.1}
-\contentsline {subsubsection}{\numberline {9.1.1}MVC - Model View Controller}{83}{subsubsection.9.1.1}
-\contentsline {subsubsection}{\numberline {9.1.2}MVVM - Model View ViewModel}{84}{subsubsection.9.1.2}
-\contentsline {subsubsection}{\numberline {9.1.3}Dependency Injection}{85}{subsubsection.9.1.3}
-\contentsline {subsection}{\numberline {9.2}Design Pattern Creazionali}{86}{subsection.9.2}
-\contentsline {subsubsection}{\numberline {9.2.1}Factory Method}{86}{subsubsection.9.2.1}
+\contentsline {section}{\numberline {8}Tracciamento componenti-requisiti}{75}{section.8}
+\contentsline {section}{\numberline {9}Design Pattern}{81}{section.9}
+\contentsline {subsection}{\numberline {9.1}Design Pattern Architetturali}{81}{subsection.9.1}
+\contentsline {subsubsection}{\numberline {9.1.1}MVC - Model View Controller}{81}{subsubsection.9.1.1}
+\contentsline {subsubsection}{\numberline {9.1.2}MVVM - Model View ViewModel}{82}{subsubsection.9.1.2}
+\contentsline {subsubsection}{\numberline {9.1.3}Dependency Injection}{83}{subsubsection.9.1.3}
+\contentsline {subsection}{\numberline {9.2}Design Pattern Creazionali}{84}{subsection.9.2}
+\contentsline {subsubsection}{\numberline {9.2.1}Factory Method}{84}{subsubsection.9.2.1}

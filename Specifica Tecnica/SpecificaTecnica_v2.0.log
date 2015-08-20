@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.11)  18 AUG 2015 19:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.8.11)  20 AUG 2015 11:54
 entering extended mode
 **SpecificaTecnica_v2.0.tex
 
@@ -549,7 +549,7 @@ nica_v2.0.out")
 \@outlinefile=\write3
 
 ("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/fi
-rst.tex" <../logo/logo404_Extends.png, id=479, 1027.84pt x 433.62pt>
+rst.tex" <../logo/logo404_Extends.png, id=483, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
@@ -588,7 +588,7 @@ Underfull \vbox (badness 10000) detected at line 47
 (C:\Users\Ismaele\AppData\Roaming\MiKTeX\2.9\tex\latex\ucs\uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 ))
-<../logo/logo404.png, id=488, 1027.84pt x 402.50375pt>
+<../logo/logo404.png, id=492, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
@@ -603,15 +603,9 @@ l.28 \newpage
 ng>]
 ("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\SpecificaTec
 nica_v2.0.toc"
-Overfull \hbox (2.58202pt too wide) in paragraph at lines 42--42
+Overfull \hbox (2.58202pt too wide) in paragraph at lines 43--43
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/views/presentation
 Manager.ng[][] [][]  
- []
-
-
-Overfull \hbox (9.6014pt too wide) in paragraph at lines 45--45
- [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/editPr
-esentationCtrl[][] [][]  
  []
 
 File: ../logo/logo404.png Graphic file (type png)
@@ -619,19 +613,25 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 46.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [2]
-Overfull \hbox (10.25417pt too wide) in paragraph at lines 46--46
+Overfull \hbox (9.6014pt too wide) in paragraph at lines 46--46
+ [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/editPr
+esentationCtrl[][] [][]  
+ []
+
+
+Overfull \hbox (10.25417pt too wide) in paragraph at lines 47--47
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/newPre
 sentationCtrl[][] [][]  
  []
 
 
-Overfull \hbox (34.72891pt too wide) in paragraph at lines 47--47
+Overfull \hbox (34.72891pt too wide) in paragraph at lines 48--48
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/Presen
 tationManagerCtrl[][] [][]  
  []
 
 
-Overfull \hbox (26.24706pt too wide) in paragraph at lines 49--49
+Overfull \hbox (26.24706pt too wide) in paragraph at lines 50--50
  [][] [][][]\OT1/cmr/m/n/12 premi/client/presentationManager/controllers/remove
 PresentationCtrl[][] [][]  
  []
@@ -716,7 +716,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
  []
 
-<img/meteor_architettura.jpg, id=743, 569.12625pt x 369.38pt>
+<img/meteor_architettura.jpg, id=748, 569.12625pt x 369.38pt>
 File: img/meteor_architettura.jpg Graphic file (type jpg)
 
 <use img/meteor_architettura.jpg>
@@ -737,7 +737,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 25.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [11 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/mete
 or_architettura.jpg>]
-<img/diapkg/package.png, id=756, 885.3075pt x 834.86906pt>
+<img/diapkg/package.png, id=761, 885.3075pt x 834.86906pt>
 File: img/diapkg/package.png Graphic file (type png)
 
 <use img/diapkg/package.png>
@@ -758,19 +758,19 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 53.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [13])
 ("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/de
-scr_componenti.tex" <img/diapkg/server.png, id=771, 205.5178pt x 112.92188pt>
+scr_componenti.tex" <img/diapkg/server.png, id=776, 205.5178pt x 112.92188pt>
 File: img/diapkg/server.png Graphic file (type png)
 
 <use img/diapkg/server.png>
 Package pdftex.def Info: img/diapkg/server.png used on input line 6.
 (pdftex.def)             Requested size: 92.48215pt x 50.81436pt.
 
-<img/diapkg/client.png, id=772, 504.38437pt x 263.48438pt>
+<img/diapkg/client.png, id=777, 502.87875pt x 262.73157pt>
 File: img/diapkg/client.png Graphic file (type png)
 
 <use img/diapkg/client.png>
 Package pdftex.def Info: img/diapkg/client.png used on input line 35.
-(pdftex.def)             Requested size: 226.97086pt x 118.56686pt.
+(pdftex.def)             Requested size: 226.29333pt x 118.2281pt.
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 44.
@@ -786,7 +786,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 89.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [15]
-<img/diapkg/userManager.png, id=785, 542.77782pt x 368.87813pt>
+<img/diapkg/userManager.png, id=790, 542.77782pt x 368.87813pt>
 File: img/diapkg/userManager.png Graphic file (type png)
 
 <use img/diapkg/userManager.png>
@@ -804,7 +804,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 149.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [17]
-<img/diapkg/presentation.png, id=798, 349.305pt x 154.32657pt>
+<img/diapkg/presentation.png, id=802, 349.305pt x 154.32657pt>
 File: img/diapkg/presentation.png Graphic file (type png)
 
 <use img/diapkg/presentation.png>
@@ -815,7 +815,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 186.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [18 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/diap
-kg/presentation.png>] <img/diapkg/presentationManager.png, id=806, 560.0925pt x
+kg/presentation.png>] <img/diapkg/presentationManager.png, id=810, 560.0925pt x
  395.22656pt>
 File: img/diapkg/presentationManager.png Graphic file (type png)
 
@@ -875,7 +875,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 323.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [23]
-<img/diapkg/editor.png, id=833, 858.20625pt x 507.39563pt>
+<img/diapkg/editor.png, id=837, 858.20625pt x 507.39563pt>
 File: img/diapkg/editor.png Graphic file (type png)
 
 <use img/diapkg/editor.png>
@@ -905,7 +905,7 @@ Overfull \hbox (8.92618pt too wide) in paragraph at lines 424--425
  $\OT1/cmtt/m/n/12 Premi / client / editor / gOContainer$
  []
 
-<img/diapkg/frameEditor.png, id=851, 402.00188pt x 143.03438pt>
+<img/diapkg/frameEditor.png, id=855, 402.00188pt x 143.03438pt>
 File: img/diapkg/frameEditor.png Graphic file (type png)
 
 <use img/diapkg/frameEditor.png>
@@ -923,7 +923,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 473.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [28]
-<img/diapkg/infographicEditor.png, id=863, 411.03563pt x 147.55125pt>
+<img/diapkg/infographicEditor.png, id=867, 411.03563pt x 147.55125pt>
 File: img/diapkg/infographicEditor.png Graphic file (type png)
 
 <use img/diapkg/infographicEditor.png>
@@ -942,7 +942,7 @@ Overfull \hbox (153.3638pt too wide) in paragraph at lines 495--496
  di Pre-mi.client.InfographicEditor.views.toolbar.ng
  []
 
-<img/diapkg/trailsEditor.png, id=864, 467.49657pt x 476.53032pt>
+<img/diapkg/trailsEditor.png, id=868, 467.49657pt x 476.53032pt>
 File: img/diapkg/trailsEditor.png Graphic file (type png)
 
 <use img/diapkg/trailsEditor.png>
@@ -977,7 +977,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 611.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-[32] <img/diapkg/viewer.png, id=888, 364.36125pt x 206.27063pt>
+[32] <img/diapkg/viewer.png, id=892, 364.36125pt x 206.27063pt>
 File: img/diapkg/viewer.png Graphic file (type png)
 
 <use img/diapkg/viewer.png>
@@ -996,7 +996,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [34]
-<img/attivita/Premi.jpg, id=900, 1210.5225pt x 1224.575pt>
+<img/attivita/Premi.jpg, id=904, 1210.5225pt x 1224.575pt>
 File: img/attivita/Premi.jpg Graphic file (type jpg)
 
 <use img/attivita/Premi.jpg>
@@ -1007,7 +1007,7 @@ Overfull \hbox (46.69255pt too wide) in paragraph at lines 9--10
  [][] 
  []
 
-<img/attivita/ListaPresentazioni.jpg, id=901, 1116.17pt x 1675.25874pt>
+<img/attivita/ListaPresentazioni.jpg, id=905, 1116.17pt x 1675.25874pt>
 File: img/attivita/ListaPresentazioni.jpg Graphic file (type jpg)
 
 <use img/attivita/ListaPresentazioni.jpg>
@@ -1026,7 +1026,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 26.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [36 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/ListaPresentazioni.jpg>]
-<img/attivita/Login.jpg, id=913, 477.785pt x 743.77875pt>
+<img/attivita/Login.jpg, id=917, 477.785pt x 743.77875pt>
 File: img/attivita/Login.jpg Graphic file (type jpg)
 
 <use img/attivita/Login.jpg>
@@ -1040,7 +1040,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 41.
 
  <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/attivita
 /Login.jpg>]
-<img/attivita/Registrazione.jpg, id=919, 687.56876pt x 944.52875pt>
+<img/attivita/Registrazione.jpg, id=923, 687.56876pt x 944.52875pt>
 File: img/attivita/Registrazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Registrazione.jpg>
@@ -1051,7 +1051,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 54.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [38 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
-vita/Registrazione.jpg>] <img/attivita/Cambio_password.jpg, id=925, 552.0625pt 
+vita/Registrazione.jpg>] <img/attivita/Cambio_password.jpg, id=929, 552.0625pt 
 x 815.045pt>
 File: img/attivita/Cambio_password.jpg Graphic file (type jpg)
 
@@ -1064,7 +1064,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 67.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [39 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
-vita/Cambio_password.jpg>] <img/attivita/Visualizzatore.jpg, id=931, 626.34pt x
+vita/Cambio_password.jpg>] <img/attivita/Visualizzatore.jpg, id=935, 626.34pt x
  844.15375pt>
 File: img/attivita/Visualizzatore.jpg Graphic file (type jpg)
 
@@ -1078,7 +1078,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 80.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [40 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Visualizzatore.jpg>]
-<img/attivita/Esegui_presentazione_proprietario.jpg, id=937, 1210.5225pt x 1333
+<img/attivita/Esegui_presentazione_proprietario.jpg, id=941, 1210.5225pt x 1333
 .98375pt>
 File: img/attivita/Esegui_presentazione_proprietario.jpg Graphic file (type jpg
 )
@@ -1103,7 +1103,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 103.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [42]
-<img/attivita/Esegui_presentazione_non_proprietario.jpg, id=949, 1210.5225pt x 
+<img/attivita/Esegui_presentazione_non_proprietario.jpg, id=953, 1210.5225pt x 
 1296.845pt>
 File: img/attivita/Esegui_presentazione_non_proprietario.jpg Graphic file (type
  jpg)
@@ -1122,7 +1122,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 120.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [43 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Esegui_presentazione_non_proprietario.jpg>]
-<img/attivita/Creazione_presentazione.jpg, id=955, 644.4075pt x 700.6175pt>
+<img/attivita/Creazione_presentazione.jpg, id=959, 644.4075pt x 700.6175pt>
 File: img/attivita/Creazione_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Creazione_presentazione.jpg>
@@ -1136,7 +1136,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 136.
 
 [44 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/attiv
 ita/Creazione_presentazione.jpg>]
-<img/attivita/Modifica_titolo_e_descrizione_presentazione.jpg, id=961, 643.4037
+<img/attivita/Modifica_titolo_e_descrizione_presentazione.jpg, id=965, 643.4037
 5pt x 700.6175pt>
 File: img/attivita/Modifica_titolo_e_descrizione_presentazione.jpg Graphic file
  (type jpg)
@@ -1152,7 +1152,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 148.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [45 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Modifica_titolo_e_descrizione_presentazione.jpg>] <img/attivita/Pubblica_p
-resentazione.jpg, id=967, 883.3pt x 809.0225pt>
+resentazione.jpg, id=971, 883.3pt x 809.0225pt>
 File: img/attivita/Pubblica_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Pubblica_presentazione.jpg>
@@ -1170,7 +1170,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 161.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [46 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Pubblica_presentazione.jpg>]
-<img/attivita/Elimina_presentazione.jpg, id=973, 371.3875pt x 568.1225pt>
+<img/attivita/Elimina_presentazione.jpg, id=977, 371.3875pt x 568.1225pt>
 File: img/attivita/Elimina_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Elimina_presentazione.jpg>
@@ -1183,7 +1183,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 174.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [47 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Elimina_presentazione.jpg>]
-<img/attivita/Esporta_presentazione.jpg, id=979, 627.34375pt x 526.96875pt>
+<img/attivita/Esporta_presentazione.jpg, id=983, 627.34375pt x 526.96875pt>
 File: img/attivita/Esporta_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Esporta_presentazione.jpg>
@@ -1196,7 +1196,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 187.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [48 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Esporta_presentazione.jpg>]
-<img/attivita/Rendi_portable.jpg, id=986, 631.35875pt x 526.96875pt>
+<img/attivita/Rendi_portable.jpg, id=990, 631.35875pt x 526.96875pt>
 File: img/attivita/Rendi_portable.jpg Graphic file (type jpg)
 
 <use img/attivita/Rendi_portable.jpg>
@@ -1209,7 +1209,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 200.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [49 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Rendi_portable.jpg>]
-<img/attivita/Modifica_presentazione.jpg, id=992, 920.43875pt x 921.4425pt>
+<img/attivita/Modifica_presentazione.jpg, id=996, 920.43875pt x 921.4425pt>
 File: img/attivita/Modifica_presentazione.jpg Graphic file (type jpg)
 
 <use img/attivita/Modifica_presentazione.jpg>
@@ -1227,7 +1227,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 214.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [50 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Modifica_presentazione.jpg>]
-<img/attivita/Editor_frame.jpg, id=998, 658.46pt x 1262.7175pt>
+<img/attivita/Editor_frame.jpg, id=1002, 658.46pt x 1262.7175pt>
 File: img/attivita/Editor_frame.jpg Graphic file (type jpg)
 
 <use img/attivita/Editor_frame.jpg>
@@ -1238,7 +1238,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 227.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [51 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
-vita/Editor_frame.jpg>] <img/attivita/Modifica_frame.jpg, id=1004, 825.0825pt x
+vita/Editor_frame.jpg>] <img/attivita/Modifica_frame.jpg, id=1008, 825.0825pt x
  941.5175pt>
 File: img/attivita/Modifica_frame.jpg Graphic file (type jpg)
 
@@ -1252,7 +1252,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 246.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [52 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Modifica_frame.jpg>]
-<img/attivita/Editor_infografica.jpg, id=1010, 743.77875pt x 1300.86pt>
+<img/attivita/Editor_infografica.jpg, id=1014, 743.77875pt x 1300.86pt>
 File: img/attivita/Editor_infografica.jpg Graphic file (type jpg)
 
 <use img/attivita/Editor_infografica.jpg>
@@ -1265,7 +1265,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 263.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [53 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Editor_infografica.jpg>]
-<img/attivita/Modifica_infografica.jpg, id=1016, 825.0825pt x 941.5175pt>
+<img/attivita/Modifica_infografica.jpg, id=1020, 825.0825pt x 941.5175pt>
 File: img/attivita/Modifica_infografica.jpg Graphic file (type jpg)
 
 <use img/attivita/Modifica_infografica.jpg>
@@ -1278,7 +1278,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 282.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [54 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Modifica_infografica.jpg>]
-<img/attivita/Editor_percorsi.jpg, id=1023, 770.88pt x 873.2625pt>
+<img/attivita/Editor_percorsi.jpg, id=1027, 770.88pt x 873.2625pt>
 File: img/attivita/Editor_percorsi.jpg Graphic file (type jpg)
 
 <use img/attivita/Editor_percorsi.jpg>
@@ -1291,7 +1291,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 302.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [55 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Editor_percorsi.jpg>]
-<img/attivita/Modifica_percorso.jpg, id=1029, 414.54875pt x 1144.275pt>
+<img/attivita/Modifica_percorso.jpg, id=1033, 414.54875pt x 1144.275pt>
 File: img/attivita/Modifica_percorso.jpg Graphic file (type jpg)
 
 <use img/attivita/Modifica_percorso.jpg>
@@ -1304,7 +1304,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 315.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [56 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/atti
 vita/Modifica_percorso.jpg>]
-<img/attivita/Aggiungi_frame_al_percorso.jpg, id=1035, 511.9125pt x 708.6475pt>
+<img/attivita/Aggiungi_frame_al_percorso.jpg, id=1039, 511.9125pt x 708.6475pt>
 File: img/attivita/Aggiungi_frame_al_percorso.jpg Graphic file (type jpg)
 <use img/attivita/Aggiungi_frame_al_percorso.jpg>
 Package pdftex.def Info: img/attivita/Aggiungi_frame_al_percorso.jpg used on in
@@ -1317,7 +1317,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 332.
 
 [57 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/attiv
 ita/Aggiungi_frame_al_percorso.jpg>]
-<img/attivita/Rimuovi_frame_da_percorso.jpg, id=1041, 463.7325pt x 690.58pt>
+<img/attivita/Rimuovi_frame_da_percorso.jpg, id=1045, 463.7325pt x 690.58pt>
 File: img/attivita/Rimuovi_frame_da_percorso.jpg Graphic file (type jpg)
 
 <use img/attivita/Rimuovi_frame_da_percorso.jpg>
@@ -1341,12 +1341,12 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [59]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
-[]|\OT1/cmr/m/n/12 Premi.-
+[]| \OT1/cmr/m/n/12 pre-mi/-clien-t/-pre-sen-ta-tion-Ma-na-
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 7--8
-\OT1/cmr/m/n/12 PresentationManager.-
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+\OT1/cmr/m/n/12 ge-r/-view-s/-new-Pre-se-na-tion.ng
  []
 
 
@@ -1356,27 +1356,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
-\OT1/cmr/m/n/12 New-View
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-\OT1/cmr/m/n/12 Premi.-
- []
-
-
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 7--8
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-\OT1/cmr/m/n/12 New-Con-trol-ler
+\OT1/cmr/m/n/12 pre-mi/-clien-t/-pre-sen-ta-tion-Ma-na-ge-
  []
 
 
@@ -1391,12 +1371,12 @@ Underfull \hbox (badness 2573) in paragraph at lines 9--9
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
-[]|\OT1/cmr/m/n/12 Premi.-
+[]| \OT1/cmr/m/n/12 pre-mi/-clien-t/-pre-sen-ta-tion-Ma-na-
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 9--10
-\OT1/cmr/m/n/12 PresentationManager.-
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+\OT1/cmr/m/n/12 ge-r/-view-s/-new-Pre-se-na-tion.ng
  []
 
 
@@ -1406,27 +1386,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
-\OT1/cmr/m/n/12 New-View
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-\OT1/cmr/m/n/12 Premi.-
- []
-
-
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 9--10
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-\OT1/cmr/m/n/12 New-Con-trol-ler
+\OT1/cmr/m/n/12 pre-mi/-clien-t/-pre-sen-ta-tion-Ma-na-ge-
  []
 
 
@@ -1441,12 +1401,12 @@ Underfull \hbox (badness 1424) in paragraph at lines 11--11
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
-[]|\OT1/cmr/m/n/12 Premi.-
+[]| \OT1/cmr/m/n/12 pre-mi/-clien-t/-pre-sen-ta-tion-Ma-na-
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 11--12
-\OT1/cmr/m/n/12 PresentationManager.-
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+\OT1/cmr/m/n/12 ge-r/-view-s/-new-Pre-se-na-tion.ng
  []
 
 
@@ -1456,27 +1416,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
-\OT1/cmr/m/n/12 New-View
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-\OT1/cmr/m/n/12 Premi.-
- []
-
-
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 11--12
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-\OT1/cmr/m/n/12 New-Con-trol-ler
+\OT1/cmr/m/n/12 pre-mi/-clien-t/-pre-sen-ta-tion-Ma-na-ge-
  []
 
 
@@ -1490,13 +1430,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 13--14
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -1510,23 +1445,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 13--14
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 \OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-\OT1/cmr/m/n/12 Pre-sen-ta-tion-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-\OT1/cmr/m/n/12 Ma-na-gerC-trl
+\OT1/cmr/m/n/12 Pre-sen-ta-tion-Ma-na-gerC-trl
  []
 
 
@@ -1535,13 +1460,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 15--16
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -1555,13 +1475,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 15--16
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -1575,13 +1490,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 17--18
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -1595,13 +1505,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 17--18
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -1620,13 +1525,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 19--20
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -1741,12 +1641,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
-\OT1/cmr/m/n/12 Re-gi-stra-tion-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-\OT1/cmr/m/n/12 Con-trol-ler
+\OT1/cmr/m/n/12 Re-gi-stra-tion-Con-trol-ler
  []
 
 
@@ -1916,12 +1811,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
-\OT1/cmr/m/n/12 Chan-ge-Pas-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-\OT1/cmr/m/n/12 swor-d-Con-trol-ler
+\OT1/cmr/m/n/12 Chan-ge-Pas-swor-d-Con-trol-ler
  []
 
 
@@ -1975,13 +1865,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -1995,13 +1880,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 31--32
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 31--32
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -2674,13 +2554,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 75--76
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -2694,23 +2569,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 75--76
+Underfull \hbox (badness 10000) in paragraph at lines 75--76
 \OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-\OT1/cmr/m/n/12 Edit-Ti-tle-De-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-\OT1/cmr/m/n/12 scr-Con-trol-ler
+\OT1/cmr/m/n/12 Edit-Ti-tle-De-scr-Con-trol-ler
  []
 
 
@@ -2869,11 +2734,6 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [62]
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 84.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [63]
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 []|\OT1/cmr/m/n/12 Premi.-
  []
@@ -3607,18 +3467,18 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [64]
+ [63]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [65]
+ [64]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [66]
+ [65]
 Underfull \hbox (badness 3635) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/12 l'utente de-ve po-ter se-le-
  []
@@ -4179,13 +4039,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 147--148
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -4199,23 +4054,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 147--148
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 \OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-\OT1/cmr/m/n/12 Edit-Ti-tle-De-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-\OT1/cmr/m/n/12 scr-Con-trol-ler
+\OT1/cmr/m/n/12 Edit-Ti-tle-De-scr-Con-trol-ler
  []
 
 
@@ -4234,13 +4079,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--152
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 151--152
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -4254,13 +4094,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--152
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 151--152
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -4274,13 +4109,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 153--154
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -4294,13 +4124,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 153--154
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -4314,13 +4139,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 155--156
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 155--156
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -4334,13 +4154,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 155--156
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 155--156
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -4364,13 +4179,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--158
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 157--158
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -4384,23 +4194,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--158
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
 \OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-\OT1/cmr/m/n/12 Pre-sen-ta-tion-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-\OT1/cmr/m/n/12 Ma-na-gerC-trl
+\OT1/cmr/m/n/12 Pre-sen-ta-tion-Ma-na-gerC-trl
  []
 
 
@@ -4409,13 +4209,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 159--160
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -4429,13 +4224,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--160
  []
 
 
-Overfull \hbox (2.60445pt too wide) in paragraph at lines 159--160
-\OT1/cmr/m/n/12 PresentationManager.-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
+\OT1/cmr/m/n/12 PresentationManager.-
  []
 
 
@@ -4447,58 +4237,52 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [67]
+ [66]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 162.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [67]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [68]
 File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
+ <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [69]
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [70]
 File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
+ <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [71]
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [72]
 File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 162.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [73]
-File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 162.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [74]
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 162.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [75])
+ [73])
 ("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/tr
 acciam_componenti.tex"
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [76]
+ [74]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 []|\OT1/cmr/m/n/12 FOb5
  []
@@ -4896,7 +4680,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 84.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [77]
+ [75]
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 []|\OT1/cmr/m/n/12 FOb2
  []
@@ -5205,7 +4989,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 124.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [78]
+ [76]
 Underfull \hbox (badness 10000) in paragraph at lines 129--130
 []|\OT1/cmr/m/n/12 FDe4.6
  []
@@ -5344,26 +5128,26 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 152.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [79]
+ [77]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 152.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [80]
+ [78]
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 152.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [81])
+ [79])
 ("C:\Users\Ismaele\Documents\git\premi-documents\Specifica Tecnica\documents/de
 sign_pattern.tex"
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [82]
-<img/MVC.jpg, id=1171, 552.0625pt x 386.44376pt>
+ [80]
+<img/MVC.jpg, id=1165, 552.0625pt x 386.44376pt>
 File: img/MVC.jpg Graphic file (type jpg)
  <use img/MVC.jpg>
 Package pdftex.def Info: img/MVC.jpg used on input line 9.
@@ -5373,9 +5157,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 32.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [83 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/MVC.
+ [81 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/MVC.
 jpg>]
-<img/MVVM.png, id=1177, 436.63126pt x 304.13625pt>
+<img/MVVM.png, id=1171, 436.63126pt x 304.13625pt>
 File: img/MVVM.png Graphic file (type png)
  <use img/MVVM.png>
 Package pdftex.def Info: img/MVVM.png used on input line 49.
@@ -5385,9 +5169,9 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 65.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [84 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/MVVM
+ [82 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/MVVM
 .png (PNG copy)>]
-<img/dependency.png, id=1184, 352.31625pt x 158.84344pt>
+<img/dependency.png, id=1177, 352.31625pt x 158.84344pt>
 File: img/dependency.png Graphic file (type png)
 
 <use img/dependency.png>
@@ -5397,9 +5181,9 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 98.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [85 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/depe
+ [83 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/depe
 ndency.png>]
-<img/Factory.png, id=1191, 575.14874pt x 202.7575pt>
+<img/Factory.png, id=1184, 575.14874pt x 202.7575pt>
 File: img/Factory.png Graphic file (type png)
  <use img/Factory.png>
 Package pdftex.def Info: img/Factory.png used on input line 113.
@@ -5409,13 +5193,13 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 129.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [86 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/Fact
+ [84 <C:/Users/Ismaele/Documents/git/premi-documents/Specifica Tecnica/img/Fact
 ory.png>]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 134.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [87])
+ [85])
 No file SpecificaTecnica_v2.0.bbl.
 
 AED: lastpage setting LastPage
@@ -5426,25 +5210,15 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
 nica_v2.0.aux")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
-
-
-Package rerunfilecheck Warning: File `SpecificaTecnica_v2.0.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `SpecificaTecnica_v2.0.out':
-(rerunfilecheck)             Before: 25A17F9711FB0721160CEAAC90C0FEFF;10476
-(rerunfilecheck)             After:  C9CAABC3A6343F2BDD3BEC16FB4A2584;10574.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `SpecificaTecnica_v2.0.out' has not changed.
+(rerunfilecheck)             Checksum: C9CAABC3A6343F2BDD3BEC16FB4A2584;10574.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 11023 strings out of 493921
- 173525 string characters out of 3144870
+ 11022 strings out of 493921
+ 173532 string characters out of 3144870
  275780 words of memory out of 3000000
- 13853 multiletter control sequences out of 15000+200000
+ 13854 multiletter control sequences out of 15000+200000
  9730 words of font info for 34 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  43i,16n,47p,1401b,654s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -5456,9 +5230,9 @@ msfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmtt12.pfb>
-Output written on SpecificaTecnica_v2.0.pdf (88 pages, 2472846 bytes).
+Output written on SpecificaTecnica_v2.0.pdf (86 pages, 2470795 bytes).
 PDF statistics:
- 1287 PDF objects out of 1440 (max. 8388607)
- 254 named destinations out of 1000 (max. 500000)
- 1158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1279 PDF objects out of 1440 (max. 8388607)
+ 252 named destinations out of 1000 (max. 500000)
+ 1166 words of extra memory for PDF output out of 10000 (max. 10000000)
 
