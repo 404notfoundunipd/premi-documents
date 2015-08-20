@@ -26,7 +26,6 @@
 \contentsline {subsection}{\numberline {3.8}Infographic editor}{9}{subsection.3.8}
 \contentsline {subsection}{\numberline {3.9}Trails editor}{9}{subsection.3.9}
 \contentsline {subsubsection}{\numberline {3.9.1}Creazione percorso presentativo}{9}{subsubsection.3.9.1}
-\contentsline {subsubsection}{\numberline {3.9.2}...........}{9}{subsubsection.3.9.2}
 \contentsline {subsection}{\numberline {3.10}Gestione presentazioni}{9}{subsection.3.10}
 \contentsline {subsubsection}{\numberline {3.10.1}Eliminazione}{9}{subsubsection.3.10.1}
 \contentsline {subsubsection}{\numberline {3.10.2}Modifica}{9}{subsubsection.3.10.2}
