@@ -1,0 +1,44 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {1}Introduzione}{4}{section.1}
+\contentsline {subsection}{\numberline {1.1}Scopo del documento}{4}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Utente finale del prodotto}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Scopo del prodotto}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Come leggere il manuale}{4}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Come segnalare problemi e malfunzionamenti}{4}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Glossario}{4}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7}Riferimenti}{4}{subsection.1.7}
+\contentsline {subsubsection}{\numberline {1.7.1}Informativi}{4}{subsubsection.1.7.1}
+\contentsline {section}{\numberline {2}Descrizione generale}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Interfaccia grafica e layout}{5}{subsection.2.1}
+\contentsline {section}{\numberline {3}Istruzioni per l'uso}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Requisiti di sistema}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Guida all'installazione???}{5}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Primo accesso}{5}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Pannello di controllo dell'utente}{7}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Creare una nuova presentazione}{8}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Editor}{9}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Frame editor}{9}{subsection.3.7}
+\contentsline {subsubsection}{\numberline {3.7.1}Aggiunta frame}{9}{subsubsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.2}Aggiunta elemento shape}{9}{subsubsection.3.7.2}
+\contentsline {subsubsection}{\numberline {3.7.3}Aggiunta testo}{9}{subsubsection.3.7.3}
+\contentsline {subsubsection}{\numberline {3.7.4}Modifica degli elementi}{9}{subsubsection.3.7.4}
+\contentsline {subsection}{\numberline {3.8}Infographic editor}{9}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}Trails editor}{9}{subsection.3.9}
+\contentsline {subsubsection}{\numberline {3.9.1}Creazione percorso presentativo}{9}{subsubsection.3.9.1}
+\contentsline {subsubsection}{\numberline {3.9.2}...........}{9}{subsubsection.3.9.2}
+\contentsline {subsection}{\numberline {3.10}Gestione presentazioni}{9}{subsection.3.10}
+\contentsline {subsubsection}{\numberline {3.10.1}Eliminazione}{9}{subsubsection.3.10.1}
+\contentsline {subsubsection}{\numberline {3.10.2}Modifica}{9}{subsubsection.3.10.2}
+\contentsline {subsection}{\numberline {3.11}Esportazione}{9}{subsection.3.11}
+\contentsline {subsubsection}{\numberline {3.11.1}Formato 1 (portable?)}{9}{subsubsection.3.11.1}
+\contentsline {subsubsection}{\numberline {3.11.2}Formato 2 (poster?)}{10}{subsubsection.3.11.2}
+\contentsline {subsection}{\numberline {3.12}Avvio di una presentazione}{10}{subsection.3.12}
+\contentsline {subsubsection}{\numberline {3.12.1}Sessione locale}{10}{subsubsection.3.12.1}
+\contentsline {subsubsection}{\numberline {3.12.2}Sessione remota}{10}{subsubsection.3.12.2}
+\contentsline {subsection}{\numberline {3.13}Condivisione di una presentazione}{10}{subsection.3.13}
+\contentsline {subsection}{\numberline {3.14}Gestione dati account}{10}{subsection.3.14}
+\contentsline {subsection}{\numberline {3.15}Errori e loro cause}{10}{subsection.3.15}
+\contentsline {subsection}{\numberline {3.16}Appendice}{10}{subsection.3.16}
+\contentsline {subsubsection}{\numberline {3.16.1}Codici errore}{10}{subsubsection.3.16.1}
+\contentsline {subsubsection}{\numberline {3.16.2}Glossario}{10}{subsubsection.3.16.2}

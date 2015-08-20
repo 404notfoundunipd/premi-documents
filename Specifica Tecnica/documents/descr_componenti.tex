@@ -44,26 +44,6 @@ section{Descrizione dei singoli componenti}
   \item[] \textbf{Tipo:} template
   \item[] \textbf{Package:} premi/client/views
   \item[] \textbf{Descrizione:} template della pagina principale dell'applicazione
-  \item[] \textbf{Relazioni con altri componenti:} la view generata da questo template è collegata allo \textit{\$scope} di premi/client/controllers/homeCtrl per l'aggiornamento in tempo reale dei dati visualizzati e modificati
-\end{itemize}
-
-\subsubsection{premi/client/views/info.ng}
-\begin{itemize}
-  \item[] \textbf{Nome:} info.ng
-  \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} premi/client/views
-  \item[] \textbf{Descrizione:} template della view che mostra all'utente informazioni sull'applicazione nella pagina principale
-  \item[] \textbf{Relazioni con altri componenti:} la view generata da questo template è collegata allo \textit{\$scope} di premi/client/controllers/infoCtrl per l'aggiornamento in tempo reale dei dati visualizzati e modificati 
-\end{itemize}
-
-
-\subsubsection{premi/client/views/view.ng}
-\begin{itemize}
-  \item[] \textbf{Nome:} view.ng
-  \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} premi/client/views
-  \item[] \textbf{Descrizione:} template della view di supporto all'header della pagina principale dell'applicazione
-  \item[] \textbf{Relazioni con altri componenti:} la view generata da questo template è collegata allo \textit{\$scope} di premi/client/controllers/premi per la gestione dell'header
 \end{itemize}
 
 
@@ -92,35 +72,20 @@ section{Descrizione dei singoli componenti}
   \item[] \textbf{Descrizione:} template dell'header della pagina principale dell'applicazione
 \end{itemize}
 
-\subsubsection{premi/client/controllers/homeCtrl}
-\begin{itemize}
-  \item[] \textbf{Nome:} homeCtrl
-  \item[] \textbf{Tipo:} controller
-  \item[] \textbf{Package:} premi/client/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/views/home.ng
-   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/views/home.ng
-\end{itemize}
-
-
-\subsubsection{premi/client/controllers/infoCtrl}
-\begin{itemize}
-  \item[] \textbf{Nome:} infoCtrl
-  \item[] \textbf{Tipo:} controller
-  \item[] \textbf{Package:} premi/client/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/views/info.ng
-  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/views/info.ng 
-\end{itemize}
-
 \subsubsection{premi/client/controllers/premi}
 \begin{itemize}
   \item[] \textbf{Nome:} premi
   \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} premi/client/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/views/view.ng
-  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/views/info.ng e dipende anche da:
- \begin{itemize}
- \item \textit{premi/client/header/lib/Header} per la gestione dell'header della pagina principale
- \end{itemize}
+  \item[] \textbf{Descrizione:} controller generale della pagina principale dell'applicazione
+\end{itemize}
+
+\subsubsection{premi/client/lib/toastMessageFactory}
+\begin{itemize}
+  \item[] \textbf{Nome:} toastMessageFactory
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/lib
+  \item[] \textbf{Descrizione:} fornisce una semplice funzione per l'invio di notifiche o messaggi di errore all'utente
 \end{itemize}
 
 \subsection{premi/client/userManager}
@@ -489,13 +454,6 @@ section{Descrizione dei singoli componenti}
   \item[] \textbf{Package:} Premi/client/frameEditor/views
   \item[] \textbf{Descrizione:} template della parte di pagina che permette la modifica dei Frame$_G$ e degli oggetti in esso contenuti.
 \end{itemize}
-\subsubsection{Premi/client/frameEditor/views/toolbar.ng}
-\begin{itemize}
-  \item[] \textbf{Nome:} toolbar.ng
-  \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} Premi/client/frameEditor/views
-  \item[] \textbf{Descrizione:} template della parte di pagina che mostra la toolbar che contiene tutte le funzionalità disponibili per la modifica di un frame e degli oggetti in esso contenuti.
-\end{itemize}
 \subsubsection{Premi/client/frameEditor/controllers/frameEditorCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} FrameEditorCtrl
@@ -527,13 +485,7 @@ section{Descrizione dei singoli componenti}
   \item[] \textbf{Package:} Premi/client/infographicEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per la creazione o modifica dell'infografica$_G$
 \end{itemize}
-\subsubsection{Premi/client/infographicEditor/views/frameList.ng}
-\begin{itemize}
-  \item[] \textbf{Nome:} frameList.ng
-  \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} Premi.client.InfographicEditor.views
-  \item[] \textbf{Descrizione:} template della parte di pagina che mostra la lista dei frame creati che possono essere inseriti nell'infografica.
-\end{itemize}
+
 \subsubsection{Premi/client/infographicEditor/controllers/infographicEditorCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} infographicEditorCtrl
