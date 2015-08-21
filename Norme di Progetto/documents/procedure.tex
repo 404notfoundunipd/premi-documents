@@ -257,7 +257,59 @@ La ricorsione va evitata quando possibile. Per ogni funzione ricorsiva è necess
 fornire una prova di terminazione. È inoltre necessario valutare il costo in termini di
 occupazione della memoria. Nel caso in cui l’utilizzo di memoria risulti troppo elevato, la ricorsione verrà rimossa.
 
-\subsubsection{Documentazione}
+\subsubsection{Intestazione File}
+Tutti i file di codice sorgente devono iniziare con la seguente intestazione:
+\color{blue}\begin{lstlisting}[frame=single]
+/**	
+	* Name: 		[nome del file]
+	* Package: 		[directory completa]
+	* Author: 		[creatore del file]
+	* Date: 		AAAA-MM-GG [data di creazione del file]
+
+	* Use:
+	[cosa fa questo file??]
+	
+	* Changes:
+	Version		Date		Who 			Changes				Reason
+	----------------------------------------------------------------------------
+	[x].[y]		AAAA-MM-GG					[cambiamento]		[motivazione]
+	----------------------------------------------------------------------------
+	[x].[y]		AAAA-MM-GG					[cambiamento]		[motivazione]
+	----------------------------------------------------------------------------
+
+	* Created by 404Notfound for Premi - Better than Prezi!
+
+	* Premi is a free software: you can redistribute it and/or modify
+	* it under the terms of the GNU General Public License as published by
+	* the Free Software Foundation, either version 3 of the License, or
+	* (at your option) any later version.
+
+	* This program is distributed in the hope that it will be useful,
+	* but WITHOUT ANY WARRANTY; without even the implied warranty of
+	* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+	* GNU General Public License for more details.
+
+	* You should have received a copy of the GNU General Public License
+	* along with this program. If not, see <http://www.gnu.org/licenses/>
+*/
+
+\end{lstlisting}\color{black}
+I campi andranno aggiornati ad ogni modifica del codice. Cercare di adeguarsi il più possibile alla tabulazione basilare dell'intestazione.
+\begin{itemize}
+\item \textbf{Name:} il nome e l'estensione del file;
+\item \textbf{Package:} la directory in cui è stato inserito il file, partendo dalla cartella premi. Esempio: \texttt{premi/server/};
+\item \textbf{Author:} il creatore del file.;
+\item \textbf{Date:} la data di creazione del file;
+\item \textbf{Use:} il perché dell'esistenza del file;
+\item \textbf{Changes:} il registro delle modifiche del file. La modifica più recente si trova in cima alla lista, mentre quella meno recente alla fine:
+	\begin{itemize}
+		\item \textit{Version:} versione del file;
+		\item \textit{Date:} data di modifica del file;
+		\item \textit{Who:} chi ha modificato il file;
+		\item \textit{Changes:} dove sono state effettuate le modifiche;
+		\item \textit{Reason:} le ragioni della modifica.
+	\end{itemize}
+\end{itemize}
 
 \subsubsection{Strumenti}
 \begin{itemize}
