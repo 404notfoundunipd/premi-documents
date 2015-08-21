@@ -1,0 +1,19 @@
+\section{Standard di Progetto}
+\subsection{Standard di progettazione architetturale}
+I diagrammi inseriti in questo documento seguono lo standard UML$_G$ 2.x. Per ulteriori informazioni sugli standard utilizzati si rimanda ai documenti \ST{} e \NdP{}.
+\subsection{Standard di documentazione del codice}
+Per gli standard di documentazione del codice consultare la sezione apposita delle \NdP{}.
+\subsection{Standard di denominazione di entità e relazioni}
+Ogni package, classe, metodo, attributo, template o semplice file di codice deve avere un nome chiaro ed esplicito che rappresenti la funzione che esso svolge all'interno del software. \\
+In particolare:
+\begin{itemize}
+	\item i package dei componenti principali del client devono avere le loro classi interne suddivise in tre ulteriori package interni: \texttt{views} per i template delle viste, \texttt{controllers} per i controllers, e \texttt{lib} per le classi che fungono da modello per i dati dell'applicazione
+	\item componenti marcati \texttt{template} sono denominati con uno o due termini che indicano la loro funzione, seguiti da \texttt{.ng}
+	\item componenti marcati \texttt{controller} hanno il nome del template ad essi associato seguito da \texttt{Ctrl}
+\end{itemize}
+I termini scelti devono essere in lingua inglese, ed è preferibile non utilizzare abbreviazioni se la lunghezza del nome non risulta eccessiva. \\
+Per ulteriori informazioni si rimanda al documento \NdP{}.
+\subsection{Standard di programmazione}
+Per gli standard di programmazione consultare il documento \NdP{} nella sezione apposita. 
+\subsection{Strumenti di lavoro}
+Gli strumenti di lavoro utilizzati sono descritti in dettaglio nel documento \NdP{}.
