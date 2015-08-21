@@ -5,50 +5,57 @@
 \BOOKMARK [2][-]{subsection.1.4}{Riferimenti}{section.1}% 5
 \BOOKMARK [3][-]{subsubsection.1.4.1}{Normativi}{subsection.1.4}% 6
 \BOOKMARK [3][-]{subsubsection.1.4.2}{Informativi}{subsection.1.4}% 7
-\BOOKMARK [1][-]{section.2}{Visione Generale della Strategia di Verifica}{}% 8
-\BOOKMARK [2][-]{subsection.2.1}{Organizzazione}{section.2}% 9
-\BOOKMARK [3][-]{subsubsection.2.1.1}{Analisi dei requisiti}{subsection.2.1}% 10
-\BOOKMARK [3][-]{subsubsection.2.1.2}{Progettazione}{subsection.2.1}% 11
-\BOOKMARK [3][-]{subsubsection.2.1.3}{Realizzazione}{subsection.2.1}% 12
-\BOOKMARK [3][-]{subsubsection.2.1.4}{Validazione}{subsection.2.1}% 13
-\BOOKMARK [2][-]{subsection.2.2}{Pianificazione Strategica e Temporale}{section.2}% 14
-\BOOKMARK [2][-]{subsection.2.3}{Responsabilit\340}{section.2}% 15
-\BOOKMARK [2][-]{subsection.2.4}{Risorse}{section.2}% 16
-\BOOKMARK [2][-]{subsection.2.5}{Strumenti, Tecniche e Metodi}{section.2}% 17
-\BOOKMARK [3][-]{subsubsection.2.5.1}{Strumenti}{subsection.2.5}% 18
-\BOOKMARK [3][-]{subsubsection.2.5.2}{Tecniche di Analisi}{subsection.2.5}% 19
-\BOOKMARK [3][-]{subsubsection.2.5.3}{Misure e Metriche}{subsection.2.5}% 20
-\BOOKMARK [1][-]{section.3}{Obiettivi di Qualit\340}{}% 21
-\BOOKMARK [2][-]{subsection.3.1}{Qualit\340 dei Processi}{section.3}% 22
-\BOOKMARK [2][-]{subsection.3.2}{Qualit\340 del Prodotto}{section.3}% 23
-\BOOKMARK [3][-]{subsubsection.3.2.1}{Funzionalit\340}{subsection.3.2}% 24
-\BOOKMARK [3][-]{subsubsection.3.2.2}{Affidabilit\340}{subsection.3.2}% 25
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Efficienza}{subsection.3.2}% 26
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Usabilit\340}{subsection.3.2}% 27
-\BOOKMARK [3][-]{subsubsection.3.2.5}{Manutenibilit\340}{subsection.3.2}% 28
-\BOOKMARK [3][-]{subsubsection.3.2.6}{Portabilit\340}{subsection.3.2}% 29
-\BOOKMARK [1][-]{section.4}{Gestione amministrativa della revisione}{}% 30
-\BOOKMARK [2][-]{subsection.4.1}{Comunicazione e risoluzione di anomalie}{section.4}% 31
-\BOOKMARK [2][-]{subsection.4.2}{Trattamento delle discrepanze}{section.4}% 32
-\BOOKMARK [2][-]{subsection.4.3}{Procedure di controllo di qualit\340 di processo}{section.4}% 33
-\BOOKMARK [1][-]{appendix.Alph1}{Pianificazione dei test}{}% 34
-\BOOKMARK [2][-]{subsection.Alph1.1}{Test di sistema}{appendix.Alph1}% 35
-\BOOKMARK [3][-]{subsubsection.Alph1.1.1}{Descrizione dei test di sistema}{subsection.Alph1.1}% 36
-\BOOKMARK [2][-]{subsection.Alph1.2}{Test di integrazione}{appendix.Alph1}% 37
-\BOOKMARK [3][-]{subsubsection.Alph1.2.1}{Descrizione dei test di integrazione}{subsection.Alph1.2}% 38
-\BOOKMARK [3][-]{subsubsection.Alph1.2.2}{Tracciamento componenti \205 test di integrazione}{subsection.Alph1.2}% 39
-\BOOKMARK [2][-]{subsection.Alph1.3}{Test di validazione}{appendix.Alph1}% 40
-\BOOKMARK [3][-]{subsubsection.Alph1.3.1}{Test TV1}{subsection.Alph1.3}% 41
-\BOOKMARK [3][-]{subsubsection.Alph1.3.2}{Test TV2}{subsection.Alph1.3}% 42
-\BOOKMARK [3][-]{subsubsection.Alph1.3.3}{Test TV3}{subsection.Alph1.3}% 43
-\BOOKMARK [3][-]{subsubsection.Alph1.3.4}{Test TV4}{subsection.Alph1.3}% 44
-\BOOKMARK [3][-]{subsubsection.Alph1.3.5}{Test TV5}{subsection.Alph1.3}% 45
-\BOOKMARK [3][-]{subsubsection.Alph1.3.6}{Test TV6}{subsection.Alph1.3}% 46
-\BOOKMARK [3][-]{subsubsection.Alph1.3.7}{Test TV7}{subsection.Alph1.3}% 47
-\BOOKMARK [3][-]{subsubsection.Alph1.3.8}{Tracciamento Test di Validazione - Requisiti}{subsection.Alph1.3}% 48
-\BOOKMARK [1][-]{appendix.Alph2}{Resoconto dell' Attivit\340 di Verifica}{}% 49
-\BOOKMARK [2][-]{subsection.Alph2.1}{Revisione della Documentazione}{appendix.Alph2}% 50
-\BOOKMARK [2][-]{subsection.Alph2.2}{Tracciamento requisiti}{appendix.Alph2}% 51
-\BOOKMARK [2][-]{subsection.Alph2.3}{Dettaglio delle verifiche tramite analisi}{appendix.Alph2}% 52
-\BOOKMARK [2][-]{subsection.Alph2.4}{Revisione dei Requisiti}{appendix.Alph2}% 53
-\BOOKMARK [2][-]{subsection.Alph2.5}{Revisione di Progettazione}{appendix.Alph2}% 54
+\BOOKMARK [1][-]{section.2}{Obiettivi di Qualit\340}{}% 8
+\BOOKMARK [2][-]{subsection.2.1}{Qualit\340 dei Processi}{section.2}% 9
+\BOOKMARK [2][-]{subsection.2.2}{Qualit\340 del Prodotto}{section.2}% 10
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Funzionalit\340}{subsection.2.2}% 11
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Affidabilit\340}{subsection.2.2}% 12
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Efficienza}{subsection.2.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Usabilit\340}{subsection.2.2}% 14
+\BOOKMARK [3][-]{subsubsection.2.2.5}{Manutenibilit\340}{subsection.2.2}% 15
+\BOOKMARK [3][-]{subsubsection.2.2.6}{Portabilit\340}{subsection.2.2}% 16
+\BOOKMARK [1][-]{section.3}{Visione Generale della Strategia di Verifica}{}% 17
+\BOOKMARK [2][-]{subsection.3.1}{Definizione obiettivi}{section.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Qualit\340 di Processo}{subsection.3.1}% 19
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Qualit\340 di Prodotto}{subsection.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.2}{Controllo di qualit\340}{section.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Procedure di controllo di qualit\340 di processo}{subsection.3.2}% 22
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Procedure di controllo di qualit\340 di prodotto}{subsection.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.3}{Organizzazione}{section.3}% 24
+\BOOKMARK [2][-]{subsection.3.4}{Pianificazione Strategica e Temporale}{section.3}% 25
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Analisi dei Requisiti}{subsection.3.4}% 26
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Progettazione Architetturale}{subsection.3.4}% 27
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Programmazione di dettaglio e codifica}{subsection.3.4}% 28
+\BOOKMARK [3][-]{subsubsection.3.4.4}{Test e Validazione}{subsection.3.4}% 29
+\BOOKMARK [2][-]{subsection.3.5}{Responsabilit\340}{section.3}% 30
+\BOOKMARK [2][-]{subsection.3.6}{Risorse}{section.3}% 31
+\BOOKMARK [2][-]{subsection.3.7}{Strumenti, Tecniche e Metodi}{section.3}% 32
+\BOOKMARK [3][-]{subsubsection.3.7.1}{Strumenti}{subsection.3.7}% 33
+\BOOKMARK [3][-]{subsubsection.3.7.2}{Tecniche di Analisi}{subsection.3.7}% 34
+\BOOKMARK [3][-]{subsubsection.3.7.3}{Misure e Metriche}{subsection.3.7}% 35
+\BOOKMARK [1][-]{section.4}{Gestione amministrativa della revisione}{}% 36
+\BOOKMARK [2][-]{subsection.4.1}{Comunicazione e risoluzione di anomalie}{section.4}% 37
+\BOOKMARK [2][-]{subsection.4.2}{Trattamento delle discrepanze}{section.4}% 38
+\BOOKMARK [2][-]{subsection.4.3}{Procedure di controllo di qualit\340 di processo}{section.4}% 39
+\BOOKMARK [1][-]{appendix.Alph1}{Pianificazione dei test}{}% 40
+\BOOKMARK [2][-]{subsection.Alph1.1}{Test di sistema}{appendix.Alph1}% 41
+\BOOKMARK [3][-]{subsubsection.Alph1.1.1}{Descrizione dei test di sistema}{subsection.Alph1.1}% 42
+\BOOKMARK [2][-]{subsection.Alph1.2}{Test di integrazione}{appendix.Alph1}% 43
+\BOOKMARK [3][-]{subsubsection.Alph1.2.1}{Descrizione dei test di integrazione}{subsection.Alph1.2}% 44
+\BOOKMARK [3][-]{subsubsection.Alph1.2.2}{Tracciamento componenti \205 test di integrazione}{subsection.Alph1.2}% 45
+\BOOKMARK [2][-]{subsection.Alph1.3}{Test di validazione}{appendix.Alph1}% 46
+\BOOKMARK [3][-]{subsubsection.Alph1.3.1}{Test TV1}{subsection.Alph1.3}% 47
+\BOOKMARK [3][-]{subsubsection.Alph1.3.2}{Test TV2}{subsection.Alph1.3}% 48
+\BOOKMARK [3][-]{subsubsection.Alph1.3.3}{Test TV3}{subsection.Alph1.3}% 49
+\BOOKMARK [3][-]{subsubsection.Alph1.3.4}{Test TV4}{subsection.Alph1.3}% 50
+\BOOKMARK [3][-]{subsubsection.Alph1.3.5}{Test TV5}{subsection.Alph1.3}% 51
+\BOOKMARK [3][-]{subsubsection.Alph1.3.6}{Test TV6}{subsection.Alph1.3}% 52
+\BOOKMARK [3][-]{subsubsection.Alph1.3.7}{Test TV7}{subsection.Alph1.3}% 53
+\BOOKMARK [3][-]{subsubsection.Alph1.3.8}{Tracciamento Test di Validazione - Requisiti}{subsection.Alph1.3}% 54
+\BOOKMARK [1][-]{appendix.Alph2}{Resoconto dell'Attivit\340 di Verifica}{}% 55
+\BOOKMARK [2][-]{subsection.Alph2.1}{Revisione della Documentazione}{appendix.Alph2}% 56
+\BOOKMARK [2][-]{subsection.Alph2.2}{Tracciamento requisiti}{appendix.Alph2}% 57
+\BOOKMARK [2][-]{subsection.Alph2.3}{Dettaglio delle verifiche tramite analisi}{appendix.Alph2}% 58
+\BOOKMARK [2][-]{subsection.Alph2.4}{Revisione dei Requisiti}{appendix.Alph2}% 59
+\BOOKMARK [2][-]{subsection.Alph2.5}{Revisione di Progettazione}{appendix.Alph2}% 60
+\BOOKMARK [2][-]{subsection.Alph2.6}{Revisione di Qualifica}{appendix.Alph2}% 61
