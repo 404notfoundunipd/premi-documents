@@ -1,0 +1,1229 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.8.5)  5 AUG 2015 15:50
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**PianoDiQualifica_v2.0.tex
+(./PianoDiQualifica_v2.0.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (../style.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-italian/italian.ldf
+Language: italian 2014/03/29 v1.3k Italian support from the babel system
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\it@lettering=\count88
+\it@doublequoteactive=\count89
+\it@ISOcompliance=\count90
+\Virgola=\count91
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count92
+)
+\etb@tempcnta=\count93
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count94
+\uc@combtoks=\toks16
+\uc@combtoksb=\toks17
+\uc@temptokena=\toks18
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\lst@mode=\count95
+\lst@gtempboxa=\box26
+\lst@token=\toks20
+\lst@length=\count96
+\lst@currlwidth=\dimen104
+\lst@column=\count97
+\lst@pos=\count98
+\lst@lostspace=\dimen105
+\lst@width=\dimen106
+\lst@newlines=\count99
+\lst@lineno=\count100
+\lst@maxwidth=\dimen107
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count101
+\lst@skipnumbers=\count102
+\lst@framebox=\box27
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen108
+\captionmargin@=\dimen109
+\captionwidth=\dimen110
+\caption@tempdima=\dimen111
+\caption@indent=\dimen112
+\caption@parindent=\dimen113
+\caption@hangindent=\dimen114
+)
+\c@ContinuedFloat=\count103
+Package caption Info: listings package is loaded.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen115
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen116
+\subfiglabelskip=\skip46
+\c@subfigure=\count104
+\c@lofdepth=\count105
+\c@subtable=\count106
+\c@lotdepth=\count107
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2014/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 137.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count108
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count109
+\Gm@cntv=\count110
+\c@Gm@tempcnt=\count111
+\Gm@bindingoffset=\dimen117
+\Gm@wd@mp=\dimen118
+\Gm@odd@mp=\dimen119
+\Gm@even@mp=\dimen120
+\Gm@layoutwidth=\dimen121
+\Gm@layoutheight=\dimen122
+\Gm@layouthoffset=\dimen123
+\Gm@layoutvoffset=\dimen124
+\Gm@dimlist=\toks21
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen127
+\Hy@linkcounter=\count112
+\Hy@pagecounter=\count113
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count114
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count115
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen128
+\Fld@menulength=\count116
+\Field@Width=\dimen129
+\Fld@charsize=\dimen130
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count117
+\c@Item=\count118
+\c@Hfootnote=\count119
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count120
+\c@bookmark@seq@number=\count121
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip58
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count122
+\LTcapwidth=\dimen131
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count123
+\LT@rows=\count124
+\c@LT@tables=\count125
+\c@LT@chunks=\count126
+\LT@p@ftn=\toks22
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 101.
+)
+(./PianoDiQualifica_v2.0.aux)
+\openout1 = `PianoDiQualifica_v2.0.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 17.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Info: Redefining \it@ocap on input line 17.
+LaTeX Info: Redefining \it@ccap on input line 17.
+
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting 
+italian.ldf    on input line 17.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+\c@lstlisting=\count127
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count128
+\scratchdimen=\dimen132
+\scratchbox=\box32
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen133
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks24
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 17.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(80.0pt, 437.50787pt, 80.0pt)
+* v-part:(T,H,B)=(42.67912pt, 688.5567pt, 113.81102pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=437.50787pt
+* \textheight=688.5567pt
+* \oddsidemargin=7.73001pt
+* \evensidemargin=7.73001pt
+* \topmargin=-66.59087pt
+* \headheight=56.9055pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring ON on input line 17.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count134
+)
+LaTeX Info: Redefining \ref on input line 17.
+LaTeX Info: Redefining \pageref on input line 17.
+LaTeX Info: Redefining \nameref on input line 17.
+
+(./PianoDiQualifica_v2.0.out) (./PianoDiQualifica_v2.0.out)
+\@outlinefile=\write3
+\openout3 = `PianoDiQualifica_v2.0.out'.
+
+
+(./documents/first.tex
+<../logo/logo404_Extends.png, id=221, 1027.84pt x 433.62pt>
+File: ../logo/logo404_Extends.png Graphic file (type png)
+
+<use ../logo/logo404_Extends.png>
+Package pdftex.def Info: ../logo/logo404_Extends.png used on input line 15.
+(pdftex.def)             Requested size: 359.74939pt x 151.76927pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 26.
+ [1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../logo
+/logo404_Extends.png>])
+(./documents/regModifiche.tex
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+Underfull \hbox (badness 1997) in paragraph at lines 33--34
+[]|\OT1/cmr/m/n/12 Stesura ge-stio-ne am-mi-ni-stra-ti-va
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 35--36
+[]|\OT1/cmr/m/n/12 Stesura Ver-sio-ne ge-ne-ra-le del-la
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 42
+ []
+
+) <../logo/logo404.png, id=230, 1027.84pt x 402.50375pt>
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 21.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 \newpage
+              [1 <../logo/logo404.png>] (./PianoDiQualifica_v2.0.toc
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 46.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [2])
+\tf@toc=\write4
+\openout4 = `PianoDiQualifica_v2.0.toc'.
+
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 23.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [3]
+(./PianoDiQualifica_v2.0.lot)
+\tf@lot=\write5
+\openout5 = `PianoDiQualifica_v2.0.lot'.
+
+ (./PianoDiQualifica_v2.0.lof)
+\tf@lof=\write6
+\openout6 = `PianoDiQualifica_v2.0.lof'.
+
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 26.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [4] (./documents/intro.tex
+Overfull \hbox (16.26332pt too wide) in paragraph at lines 27--28
+[]\OT1/cmr/bx/n/12 Complessit^^Ra ci-clo-ma-ti-ca\OT1/cmr/m/n/12 : [][]http://i
+t.wikipedia.org/wiki/Complessit^^Ra[]ciclomatica[][]; 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 30.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [5])
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 28.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [6]
+(./documents/strategiadiverifica.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--14
+
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 27.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 49.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [8]
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-3.def
+File: uni-3.def 2013/05/13 UCS: Unicode data U+0300..U+03FF
+)
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 ...biettivi qualitativi vengano raggiunti è
+                                                   necessario l'utilizzo di ...
+
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 83.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [9]
+Overfull \hbox (22.23184pt too wide) in paragraph at lines 84--86
+[]\OT1/cmr/bx/n/12 Chrome De-ve-lo-per Tools \OT1/cmr/m/n/12 ([][]https://devel
+opers.google.com/chrome-developer-
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 109.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 112--116
+
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 129.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [11])
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 30.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [12]
+(./documents/obiettiviqualita.tex
+<img/Spy.png, id=388, 490.83376pt x 334.24875pt>
+File: img/Spy.png Graphic file (type png)
+ <use img/Spy.png>
+Package pdftex.def Info: img/Spy.png used on input line 8.
+(pdftex.def)             Requested size: 294.50252pt x 200.55078pt.
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 21.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [13 <./img/Spy.png>]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 44.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+
+[14]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 67.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [15]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 90.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [16])
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 32.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [17] (./documents/gestioneamministrativa.tex
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 18.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [18]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.18 \newpage\right
+                   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \par 
+l.19 \subsection
+                {Procedure di controllo di qualità di processo}
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Extra \right.
+<to be read again> 
+                   \par 
+l.19 \subsection
+                {Procedure di controllo di qualità di processo}
+I'm ignoring a \right that had no matching \left.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.19 \subsection
+                {Procedure di controllo di qualità di processo}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+<img/2000px-PDCA_Cycle.png, id=431, 2007.5pt x 1367.1075pt>
+File: img/2000px-PDCA_Cycle.png Graphic file (type png)
+
+<use img/2000px-PDCA_Cycle.png>
+Package pdftex.def Info: img/2000px-PDCA_Cycle.png used on input line 23.
+(pdftex.def)             Requested size: 401.49289pt x 273.41666pt.
+)
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 34.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [19 <./img/2000px-PDCA_Cycle.png>] (./documents/test.tex
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ... aggiornamento futuro per i test di unità
+                                                  . Per le tempistiche di es...
+
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 ...ostanti lo stato dei test "Pianificato" è
+                                                   da intendersi come non ap...
+
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\OT1/cmr/m/n/12 pre-sen-ta-zio-ne, ve-ri-fi-can-do
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\OT1/cmr/m/n/12 quel-lo scel-to dal-l'u-ten-te
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che le mo-di-fi-
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 32--32
+[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che il si-ste-ma
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 32--32
+\OT1/cmr/m/n/12 per-met-ta la pub-bli-ca-zio-ne
+ []
+
+
+Underfull \hbox (badness 3965) in paragraph at lines 34--34
+\OT1/cmr/m/n/12 ne-ra-re un link per una
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che il for-ma-to
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 42--42
+[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che il si-ste-ma
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 45--45
+[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che il si-ste-
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 47--47
+[]|\OT1/cmr/m/n/12 Viene ve-ri-fi-ca-to il cor-ret-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 55
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 55.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [20]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 55.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [21]
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 56.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [22]
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 ...o dei dati all'interno del sistema. Si è
+                                                   scelta una strategia di i...
+
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 ...non rispetta il formalismo UMLG 2.x ed è
+                                                   utilizzato per semplifica...
+
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+<img/integrationTests.png, id=454, 1048.91875pt x 719.68875pt>
+File: img/integrationTests.png Graphic file (type png)
+
+<use img/integrationTests.png>
+Package pdftex.def Info: img/integrationTests.png used on input line 66.
+(pdftex.def)             Requested size: 472.00908pt x 323.85695pt.
+
+Overfull \hbox (34.5012pt too wide) in paragraph at lines 66--67
+ [][] 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 70.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [23 <./img/integrationTests.png>]
+Underfull \hbox (badness 4036) in paragraph at lines 77--77
+[]|\OT1/cmr/m/n/12 Test di in-te-gra-zio-ne fi-na-le per le
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 83--83
+[]|\OT1/cmr/m/n/12 Test di in-te-gra-zio-ne fi-na-le per le
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 94
+ []
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-32.def
+File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
+)
+Underfull \vbox (badness 10000) detected at line 141
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 149.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [24]
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 All'utente è
+                     richiesto di:
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 All'utente è
+                     richiesto di:
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 176.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [25]
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.197 All'utente è
+                     richiesto di:
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 All'utente è
+                     richiesto di:
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 216.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [26]
+Overfull \hbox (7.05437pt too wide) in paragraph at lines 224--225
+[]\OT1/cmr/m/n/12 Seguire un per-cor-so di ap-pro-fon-di-men-to a par-ti-re da 
+un checkpoint$[]$ (\OT1/cmr/bx/n/12 TV4.5\OT1/cmr/m/n/12 ) 
+ []
+
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 All'utente è
+                     richiesto di:
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+Overfull \hbox (17.1936pt too wide) in paragraph at lines 248--249
+[]\OT1/cmr/m/n/12 Scegliere una di-men-sio-ne di-ver-sa da quel-la di de-fault 
+per il te-sto (\OT1/cmr/bx/n/12 TV5.2.4\OT1/cmr/m/n/12 ) 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 267.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [27]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 316.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [28]
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.334 All'utente è
+                     richiesto di:
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.355 All'utente è
+                     richiesto di:
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 363.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [29]
+Underfull \vbox (badness 10000) detected at line 407
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 514.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [30])
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 37.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [31]
+(./documents/resocontoverifca.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 35.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [32]
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 L'analisi statica è
+                           stata applicata secondo i criteri e le modalità ...
+
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 Noti gli errori, si è
+                             provveduto a:
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...Segnalare gli errori più frequenti.Si è
+                                                   quindi applicato il ciclo...
+
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 È
+         stata in seguito applicata l'inspection utilizzando la lista di con...
+
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 ...quisiti - fonti, use-case - requisiti) è
+                                                   stato effettuato tramite ...
+
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 57.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [33])
+No file PianoDiQualifica_v2.0.bbl.
+
+AED: lastpage setting LastPage
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 40.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [34]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
+ (./PianoDiQualifica_v2.0.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
+Package rerunfilecheck Info: File `PianoDiQualifica_v2.0.out' has not changed.
+(rerunfilecheck)             Checksum: E09ECF47459F39B5327D64279EB88FBE;4157.
+ ) 
+Here is how much of TeX's memory you used:
+ 11171 strings out of 493117
+ 163819 string characters out of 6135434
+ 284252 words of memory out of 5000000
+ 14347 multiletter control sequences out of 15000+600000
+ 9493 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,16n,47p,1141b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on PianoDiQualifica_v2.0.pdf (35 pages, 665596 bytes).
+PDF statistics:
+ 575 PDF objects out of 1000 (max. 8388607)
+ 516 compressed objects within 6 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 458 words of extra memory for PDF output out of 10000 (max. 10000000)
+
