@@ -1,8 +1,8 @@
-\newcommand{\teststatus}{Pianificato}
+\newcommand{\teststatus}{Success}
 
 \section {Pianificazione dei test}
 
-Si descrivono di seguito tutti i test di validazione, sistema ed integrazione previsti, prevedendo un aggiornamento futuro per i test di unità. Per le tempistiche di esecuzione dei test si faccia riferimento al \textit{PianoDiProgetto_v3.0.pdf} Nelle tabelle sottostanti lo stato dei test "Pianificato" è da intendersi come non applicato in quanto tali test saranno applicati successivamente, come descritto nel \textit{Piano di Progetto}.
+Si descrivono di seguito tutti i test di validazione, sistema ed integrazione previsti, prevedendo un aggiornamento futuro per i test di unità. Per le tempistiche di esecuzione dei test si faccia riferimento al \textit{PianoDiProgetto\_v3.0.pdf} Nelle tabelle sottostanti lo stato dei test "Pianificato" è da intendersi come non applicato in quanto tali test saranno applicati successivamente, come descritto nel \textit{Piano di Progetto}.
 
 \subsection {Test di sistema}
 
@@ -94,7 +94,6 @@ Il diagramma seguente non rispetta il formalismo UMLG 2.x ed è utilizzato per 
 \end{longtable}
 
 \subsubsection{Tracciamento componenti – test di integrazione}
-
 Nella tabella seguente è riportato il tracciamento delle singole componenti del sistema con il relativo test di integrazione. Si noti che l'integrazione di Views e Controllers sono garantite dall'architettura del sistema.
 
 \begin{longtable}{|l|l|}
@@ -149,6 +148,102 @@ Nella tabella seguente è riportato il tracciamento delle singole componenti del
 \end{longtable}
 
 \subsection {Test di unità}
+
+Di seguito vengono riportati i test di unità previsti per l'applicazione. La tabella riporta anche il tracciamento dei test con le componenti. Si è scelto di scrivere dei test di sistema solo per i metodi e le componenti principali dell'applicazione Premi, tralasciando tutti i metodi il cui test sarebbe risultato ovvio o banale come ad esempio i metodi \textit{get} e \textit{set} di ogni classe.
+
+\begin{longtable}{|p{1cm}|p{6cm}|p{3.5cm}|p{1.8cm}|p{1.5cm}|}
+	    \hline
+	    \textbf{Test} & \textbf{Componente} & \textbf{Descrizione} & \textbf{Metodi} & \textbf{Stato}\\ 
+	    \hline
+	    TU1 & Premi.Editor.graphicObject  & Si verifica che l'inizializzazione dei campi dati di default avvenga con i valori attesi. & initByDefault() & \teststatus
+	    \hline
+ 	    TU2 & Premi.Editor.graphicObject  & Si verifica che inizializzando un oggetto grafico a partire da un oggetto JSON il nuovo oggetto creato sia effettivamente un riferimento all'oggetto JSON passato. & initByJSON() & \teststatus
+ 	    \hline
+  	    TU3 & Premi.Editor.graphicObject  & desc & getJSON() & \teststatus
+	    \hline
+	    TU4 & Premi.Editor.graphicObject  & desc & resize() & \teststatus
+	    \hline
+	    TU5 & Premi.Editor.graphicObject  & desc & drag() & \teststatus
+	    %Image
+		\hline
+		TU6 &  Premi.Editor.Image  & descrizione & initByDefault() & \teststatus
+		\hline
+		TU7 &  Premi.Editor.Image  & descrizione & initByJSON() & \teststatus
+	    %Shape
+		\hline
+		TU8 &  Premi.Editor.Shape  & descrizione & initByDefault() & \teststatus
+   		\hline
+   		TU9 &  Premi.Editor.Shape  & descrizione & initByJSON() & \teststatus
+   		%Text
+   		\hline
+   		TU10 &  Premi.Editor.Text  & descrizione & initByDefault() & \teststatus
+   		\hline
+   		TU11 &  Premi.Editor.Text & descrizione & initByJSON() & \teststatus
+		%Frame
+   		\hline
+   		TU12 &  Premi.Editor.Frame & descrizione & initByDefault() & \teststatus
+   		\hline
+   		TU13 &  Premi.Editor.Frame & descrizione & initByJSON() & \teststatus
+   		\hline
+   		TU14 &  Premi.Editor.Frame & descrizione & selectGO() deselectGO() & \teststatus
+   		\hline
+   		TU15 &  Premi.Editor.Frame & descrizione & addGo() & \teststatus
+   		\hline
+   		TU16 &  Premi.Editor.Frame & descrizione & removeSelectedGO() & \teststatus   		
+   		\hline
+   		TU17 &  Premi.Editor.Frame & descrizione & resizeGO() & \teststatus   		
+   		\hline
+   		TU18 &  Premi.Editor.Frame & descrizione & dragGO() & \teststatus
+	    %Infographic
+	    \hline
+   		TU19 &  Premi.Editor.Infographic & descrizione & initByDefault() & \teststatus
+   		\hline
+   		TU20 &  Premi.Editor.Infographic & descrizione & initByJSON() & \teststatus
+   		\hline
+   		TU21 &  Premi.Editor.Infographic & descrizione & selectGO() deselectGO() & \teststatus
+   		\hline
+   		TU22 &  Premi.Editor.Infographic & descrizione & addGo() & \teststatus
+   		\hline
+   		TU23 &  Premi.Editor.Infographic & descrizione & removeSelectedGO() & \teststatus   		
+   		\hline
+   		TU24 &  Premi.Editor.Infographic & descrizione & resizeGO() & \teststatus   		
+   		\hline
+   		TU25 &  Premi.Editor.Infographic & descrizione & dragGO() & \teststatus
+   		%FrameEditorController
+   		\hline
+  		TU26 & Premi.Editor.FrameEditorController & Si controlla che a seconda che dell'oggetto passato alla funzione venga effettivamente aggiunto un oggetto di quel tipo& addGObject() & \teststatus
+  		\hline
+  		TU27 &  Premi.Editor.FrameEditorController & Si controlla che a seconda che dell'oggetto passato alla funzione venga effettivamente aggiunto un oggetto di quel tipo& addGObject() & \teststatus
+  		
+	    %InfographicEditorController
+	    \hline
+   		TU28 &  Premi.Editor.InfographicEditorController & desc & changeImage() & \teststatus
+   		\hline
+   		TU29 &  Premi.Editor.InfographicEditorController & desc & saveInfographic() & \teststatus
+   		%Trail
+   		\hline
+   		TU30 &  Premi.Trail & desc & nextSlide() prevSlide() & \teststatus
+   		\hline
+   		TU31 &  Premi.Trail & desc & enterInCheckPoint() returnToCheckPoint() & \teststatus
+   		\hline
+   		TU32 &  Premi.Trail & desc & goToSlide() returnToCheckPoint() & \teststatus
+   		\hline
+  		TU33 &  Premi.Trail & desc & insertSlideAfterCurrent() insertSlideBeforeCurrent() & \teststatus
+  		\hline
+  		TU34 &  Premi.Trail & desc & removeCurrentSlide() & \teststatus
+   		%UserManager
+   		\hline
+		TU35 &  Premi.UserManager() & desc & signUp() & \teststatus
+   		\hline
+   		TU36 &  Premi.UserManager() & desc & signIn() & \teststatus
+   		\hline
+   		TU37 &  Premi.UserManager() & desc & signOut() & \teststatus
+   		\hline
+  		TU38 &  Premi.UserManager() & desc & changePassword() & \teststatus
+		
+	    \hline
+	    \caption{Tabella test di unità}
+\end{longtable}
 
 \subsection {Test di validazione}
 

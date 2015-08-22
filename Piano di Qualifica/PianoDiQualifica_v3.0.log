@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.8.5)  21 AUG 2015 21:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.8.5)  22 AUG 2015 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**PianoDiQualifica_v2.0.tex
-(./PianoDiQualifica_v2.0.tex
+**PianoDiQualifica_v3.0.tex
+(./PianoDiQualifica_v3.0.tex
 LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
@@ -423,8 +423,8 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 101.
 )
-(./PianoDiQualifica_v2.0.aux)
-\openout1 = `PianoDiQualifica_v2.0.aux'.
+(./PianoDiQualifica_v3.0.aux)
+\openout1 = `PianoDiQualifica_v3.0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
@@ -558,9 +558,9 @@ LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
 LaTeX Info: Redefining \nameref on input line 17.
 
-(./PianoDiQualifica_v2.0.out) (./PianoDiQualifica_v2.0.out)
+(./PianoDiQualifica_v3.0.out) (./PianoDiQualifica_v3.0.out)
 \@outlinefile=\write3
-\openout3 = `PianoDiQualifica_v2.0.out'.
+\openout3 = `PianoDiQualifica_v3.0.out'.
 
 
 (./documents/first.tex
@@ -650,28 +650,28 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 21.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-[2] (./PianoDiQualifica_v2.0.toc
+[2] (./PianoDiQualifica_v3.0.toc
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 46.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [3])
 \tf@toc=\write4
-\openout4 = `PianoDiQualifica_v2.0.toc'.
+\openout4 = `PianoDiQualifica_v3.0.toc'.
 
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 23.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [4] (./PianoDiQualifica_v2.0.lot)
+ [4] (./PianoDiQualifica_v3.0.lot)
 \tf@lot=\write5
-\openout5 = `PianoDiQualifica_v2.0.lot'.
+\openout5 = `PianoDiQualifica_v3.0.lot'.
 
 
-(./PianoDiQualifica_v2.0.lof)
+(./PianoDiQualifica_v3.0.lof)
 \tf@lof=\write6
-\openout6 = `PianoDiQualifica_v2.0.lof'.
+\openout6 = `PianoDiQualifica_v3.0.lof'.
 
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
@@ -695,7 +695,7 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 28.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [7]
 (./documents/obiettiviqualita.tex
-<img/Spy.png, id=404, 490.83376pt x 334.24875pt>
+<img/Spy.png, id=406, 490.83376pt x 334.24875pt>
 File: img/Spy.png Graphic file (type png)
  <use img/Spy.png>
 Package pdftex.def Info: img/Spy.png used on input line 8.
@@ -823,7 +823,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 70.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [15]
-<img/schema_RR.png, id=460, 887.315pt x 488.82625pt>
+<img/schema_RR.png, id=462, 887.315pt x 488.82625pt>
 File: img/schema_RR.png Graphic file (type png)
  <use img/schema_RR.png>
 Package pdftex.def Info: img/schema_RR.png used on input line 83.
@@ -839,19 +839,19 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 113.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-[17] <img/schema_RP.png, id=473, 868.24374pt x 734.745pt>
+[17] <img/schema_RP.png, id=475, 868.24374pt x 734.745pt>
 File: img/schema_RP.png Graphic file (type png)
 
 <use img/schema_RP.png>
 Package pdftex.def Info: img/schema_RP.png used on input line 117.
 (pdftex.def)             Requested size: 390.70607pt x 330.63219pt.
- <img/schema_AR.png, id=474, 700.6175pt x 391.4625pt>
+ <img/schema_AR.png, id=476, 700.6175pt x 391.4625pt>
 File: img/schema_AR.png Graphic file (type png)
 
 <use img/schema_AR.png>
 Package pdftex.def Info: img/schema_AR.png used on input line 123.
 (pdftex.def)             Requested size: 315.27496pt x 176.1565pt.
- <img/schema_ST.png, id=475, 901.3675pt x 404.51125pt>
+ <img/schema_ST.png, id=477, 901.3675pt x 404.51125pt>
 File: img/schema_ST.png Graphic file (type png)
 
 <use img/schema_ST.png>
@@ -861,7 +861,7 @@ Package pdftex.def Info: img/schema_ST.png used on input line 129.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<img/schema_UML.png, id=476, 847.165pt x 700.6175pt>
+<img/schema_UML.png, id=478, 847.165pt x 700.6175pt>
 File: img/schema_UML.png Graphic file (type png)
  <use img/schema_UML.png>
 Package pdftex.def Info: img/schema_UML.png used on input line 135.
@@ -881,7 +881,7 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 146.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [19 <./img/schema_ST.png> <./img/schema_UML.png>]
-<img/schema_Test.png, id=492, 571.13374pt x 583.17876pt>
+<img/schema_Test.png, id=494, 571.13374pt x 583.17876pt>
 File: img/schema_Test.png Graphic file (type png)
 
 <use img/schema_Test.png>
@@ -922,72 +922,15 @@ l.193 ...iettivi qualitativi vengano raggiunti è
 Composed characters can only be rendered correctly, when the option 'combine' i
 s activated
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.193 ...to alle \textit{NormeDiProgetto_v3.0.pdf}
-                                                  . Per risorse tecniche e t...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.193 ...to alle \textit{NormeDiProgetto_v3.0.pdf}
-                                                  . Per risorse tecniche e t...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 193.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.193 ...tende utilizzare per attuare le attività
-                                                   di verifica su processi e...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.193 ...tende utilizzare per attuare le attività
-                                                   di verifica su processi e...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.194 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-Missing character: There is no � in font cmex10!
-
-Overfull \hbox (565.29805pt too wide) in paragraph at lines 193--194
-\OT1/cmr/m/it/12 NormeDiProgetto$[]\OT1/cmr/m/n/12 3\OML/cmm/m/it/12 :\OT1/cmr/
-m/n/12 0\OML/cmm/m/it/12 :pdf:Perrisorsetecnicheetecnologichesonodaintendersitu
-ttiglistrumentisoftwareehardwarecheilgruppointendeutilizzareperattuareleattivit
-[]diverificasuprocessieprodotti:$ 
- []
-
-
-Overfull \hbox (17.9174pt too wide) in paragraph at lines 222--224
-[]\OT1/cmr/bx/it/12 Chrome De-ve-lo-per Tools \OT1/cmr/m/it/12 ([][]https://dev
-elopers.google.com/chrome-developer-
+Overfull \hbox (22.23184pt too wide) in paragraph at lines 222--224
+[]\OT1/cmr/bx/n/12 Chrome De-ve-lo-per Tools \OT1/cmr/m/n/12 ([][]https://devel
+opers.google.com/chrome-developer-
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 230.
+Package pdftex.def Info: ../logo/logo404.png used on input line 229.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [22]
 Underfull \hbox (badness 10000) in paragraph at lines 249--253
@@ -1017,7 +960,7 @@ l.274 ...ocarsi la misurazione. Tale range non è
 Composed characters can only be rendered correctly, when the option 'combine' i
 s activated
 
-<img/tabella_CC.png, id=534, 1010.77625pt x 243.91125pt>
+<img/tabella_CC.png, id=533, 1010.77625pt x 243.91125pt>
 File: img/tabella_CC.png Graphic file (type png)
 
 <use img/tabella_CC.png>
@@ -1240,7 +1183,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<img/2000px-PDCA_Cycle.png, id=567, 2007.5pt x 1367.1075pt>
+<img/2000px-PDCA_Cycle.png, id=565, 2007.5pt x 1367.1075pt>
 File: img/2000px-PDCA_Cycle.png Graphic file (type png)
 
 <use img/2000px-PDCA_Cycle.png>
@@ -1251,7 +1194,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
  []
 
-<img/schema_VAL.png, id=568, 401.5pt x 719.68875pt>
+<img/schema_VAL.png, id=566, 401.5pt x 719.68875pt>
 File: img/schema_VAL.png Graphic file (type png)
  <use img/schema_VAL.png>
 Package pdftex.def Info: img/schema_VAL.png used on input line 78.
@@ -1280,25 +1223,6 @@ l.5 ... aggiornamento futuro per i test di unità
 Composed characters can only be rendered correctly, when the option 'combine' i
 s activated
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.5 ...imento al \textit{PianoDiProgetto_v3.0.pdf}
-                                                   Nelle tabelle sottostanti...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.5 ...imento al \textit{PianoDiProgetto_v3.0.pdf}
-                                                   Nelle tabelle sottostanti...
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 
 ! Package ucs Error: Please activate option 'combine'.
 
@@ -1313,146 +1237,53 @@ Composed characters can only be rendered correctly, when the option 'combine' i
 s activated
 
 
-LaTeX Warning: Command \` invalid in math mode on input line 5.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.5 ...ostanti lo stato dei test "Pianificato" è
-                                                   da intendersi come non ap...
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! Missing { inserted.
-<to be read again> 
-                   \egroup 
-l.5 ...ostanti lo stato dei test "Pianificato" è
-                                                   da intendersi come non ap...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.5 ...ostanti lo stato dei test "Pianificato" è
-                                                   da intendersi come non ap...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.6 
-    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.6 
-    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no � in font cmex10!
-
-Overfull \hbox (719.9053pt too wide) in paragraph at lines 5--6
-\OT1/cmr/m/it/12 dei te-st si fac-cia ri-fe-ri-men-to al PianoDiProgetto$[]\OT1
-/cmr/m/n/12 3\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0\OML/cmm/m/it/12 :pdfNelletabel
-lesottostantilostatodeitest\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 Pianificato\OT1/cm
-r/m/n/12 "\OML/cmm/m/it/12 e[]$ 
- []
-
-
-Underfull \hbox (badness 1314) in paragraph at lines 18--18
-[]|\OT1/cmr/m/it/12 Si ve-ri-fi-ca che il si-ste-ma
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\OT1/cmr/m/n/12 pre-sen-ta-zio-ne, ve-ri-fi-can-do
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 20--20
-\OT1/cmr/m/it/12 pre-sen-ta-zio-ne, ve-ri-fi-can-do
+\OT1/cmr/m/n/12 quel-lo scel-to dal-l'u-ten-te
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--20
-\OT1/cmr/m/it/12 il cor-ret-to avan-za-men-to
+Underfull \hbox (badness 1400) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che le mo-di-fi-
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 24--24
-[]|\OT1/cmr/m/it/12 Si ve-ri-fi-ca che le mo-di-fi-
+Underfull \hbox (badness 1442) in paragraph at lines 32--32
+[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che il si-ste-ma
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 24--24
-\OT1/cmr/m/it/12 get-ti gra-fi-ci, te-sti o nuo-
+Underfull \hbox (badness 1122) in paragraph at lines 32--32
+\OT1/cmr/m/n/12 per-met-ta la pub-bli-ca-zio-ne
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 28--28
-\OT1/cmr/m/it/12 eli-mi-na-zio-ne da par-te di
+Underfull \hbox (badness 3965) in paragraph at lines 34--34
+\OT1/cmr/m/n/12 ne-ra-re un link per una
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 32--32
-[]|\OT1/cmr/m/it/12 Si ve-ri-fi-ca che il si-ste-ma
+Underfull \hbox (badness 1005) in paragraph at lines 40--40
+[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che il for-ma-to
  []
 
 
-Underfull \hbox (badness 4859) in paragraph at lines 32--32
-\OT1/cmr/m/it/12 una pre-sen-ta-zio-ne e che
+Underfull \hbox (badness 1442) in paragraph at lines 42--42
+[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che il si-ste-ma
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 34--34
-[]|\OT1/cmr/m/it/12 Il si-ste-ma de-ve po-ter ge-
+Underfull \hbox (badness 6094) in paragraph at lines 45--45
+[]|\OT1/cmr/m/n/12 Si ve-ri-fi-ca che il si-ste-
  []
 
 
-Underfull \hbox (badness 5388) in paragraph at lines 34--34
-\OT1/cmr/m/it/12 ne-ra-re un link per una
- []
-
-
-Underfull \hbox (badness 2310) in paragraph at lines 36--36
-\OT1/cmr/m/it/12 pri-va-ta una pre-sen-ta-zio-ne
- []
-
-
-Underfull \hbox (badness 1314) in paragraph at lines 42--42
-[]|\OT1/cmr/m/it/12 Si ve-ri-fi-ca che il si-ste-ma
- []
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 42--42
-\OT1/cmr/m/it/12 per-met-ta al-l'u-ten-te di re-
- []
-
-
-Underfull \hbox (badness 6141) in paragraph at lines 45--45
-[]|\OT1/cmr/m/it/12 Si ve-ri-fi-ca che il si-ste-
- []
-
-
-Underfull \hbox (badness 1152) in paragraph at lines 45--45
-\OT1/cmr/m/it/12 ma per-met-ta al-l'u-ten-te di
- []
-
-
-Underfull \hbox (badness 1418) in paragraph at lines 47--47
-[]|\OT1/cmr/m/it/12 Viene ve-ri-fi-ca-to il cor-ret-
- []
-
-
-Underfull \vbox (badness 10000) detected at line 55
+Underfull \hbox (badness 1348) in paragraph at lines 47--47
+[]|\OT1/cmr/m/n/12 Viene ve-ri-fi-ca-to il cor-ret-
  []
 
 File: ../logo/logo404.png Graphic file (type png)
@@ -1460,8 +1291,10 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 55.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [31 <./img/schema_VAL.png>]
-File: ../logo/logo404.png Graphic file (type png)
+Underfull \vbox (badness 10000) detected at line 55
+ []
 
+File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 55.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
@@ -1497,7 +1330,7 @@ l.62 ...non rispetta il formalismo UMLG 2.x ed è
 Composed characters can only be rendered correctly, when the option 'combine' i
 s activated
 
-<img/integrationTests.png, id=592, 1048.91875pt x 719.68875pt>
+<img/integrationTests.png, id=590, 1048.91875pt x 719.68875pt>
 File: img/integrationTests.png Graphic file (type png)
 
 <use img/integrationTests.png>
@@ -1513,23 +1346,13 @@ File: ../logo/logo404.png Graphic file (type png)
 Package pdftex.def Info: ../logo/logo404.png used on input line 70.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [34 <./img/integrationTests.png>]
-Underfull \hbox (badness 5460) in paragraph at lines 77--77
-[]|\OT1/cmr/m/it/12 Test di in-te-gra-zio-ne fi-na-le per le
+Underfull \hbox (badness 4036) in paragraph at lines 77--77
+[]|\OT1/cmr/m/n/12 Test di in-te-gra-zio-ne fi-na-le per le
  []
 
 
-Underfull \hbox (badness 1107) in paragraph at lines 79--79
-\OT1/cmr/m/it/12 ni di re-gi-stra-zio-ne, au-ten-ti-ca-zio-ne e
- []
-
-
-Underfull \hbox (badness 5460) in paragraph at lines 83--83
-[]|\OT1/cmr/m/it/12 Test di in-te-gra-zio-ne fi-na-le per le
- []
-
-
-Underfull \hbox (badness 2351) in paragraph at lines 91--91
-[]|\OT1/cmr/bx/it/12 Visualizzazione del-la pre-sen-ta-
+Underfull \hbox (badness 4036) in paragraph at lines 83--83
+[]|\OT1/cmr/m/n/12 Test di in-te-gra-zio-ne fi-na-le per le
  []
 
 
@@ -1537,58 +1360,1380 @@ Underfull \vbox (badness 10000) detected at line 94
  []
 
 
-Underfull \vbox (badness 10000) detected at line 141
+Underfull \vbox (badness 10000) detected at line 140
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 149.
+Package pdftex.def Info: ../logo/logo404.png used on input line 148.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [35]
+Underfull \hbox (badness 5711) in paragraph at lines 158--158
+\OT1/cmr/m/n/12 ni-zia-liz-za-zio-ne dei
+ []
 
-! Package ucs Error: Please activate option 'combine'.
 
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.159 All'utente è
-                     richiesto di:
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
+Overfull \hbox (28.09248pt too wide) in paragraph at lines 158--158
+[]|\OT1/cmr/m/n/12 initByDefault()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.159 	    \hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.160  	    T
+             U2 & Premi.Editor.graphicObject  & Si verifica che inizializzan...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.160  	    T
+             U2 & Premi.Editor.graphicObject  & Si verifica che inizializzan...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (20.58145pt too wide) in paragraph at lines 160--160
+[]|\OT1/cmr/m/n/12 initByJSON()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.161  	    \hline
+                  
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.162   	    T
+              U3 & Premi.Editor.graphicObject  & desc & getJSON() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.162   	    T
+              U3 & Premi.Editor.graphicObject  & desc & getJSON() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (4.10106pt too wide) in paragraph at lines 162--162
+[]|\OT1/cmr/m/n/12 getJSON()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.163 	    \hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.164 	    T
+            U4 & Premi.Editor.graphicObject  & desc & resize() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.164 	    T
+            U4 & Premi.Editor.graphicObject  & desc & resize() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.165 	    \hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.166 	    T
+            U5 & Premi.Editor.graphicObject  & desc & drag() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.166 	    T
+            U5 & Premi.Editor.graphicObject  & desc & drag() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.168 		\hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.169 		T
+         U6 &  Premi.Editor.Image  & descrizione & initByDefault() & \testst...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.169 		T
+         U6 &  Premi.Editor.Image  & descrizione & initByDefault() & \testst...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (28.09248pt too wide) in paragraph at lines 169--169
+[]|\OT1/cmr/m/n/12 initByDefault()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.170 		\hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.171 		T
+         U7 &  Premi.Editor.Image  & descrizione & initByJSON() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.171 		T
+         U7 &  Premi.Editor.Image  & descrizione & initByJSON() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (20.58145pt too wide) in paragraph at lines 171--171
+[]|\OT1/cmr/m/n/12 initByJSON()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.173 		\hline
+              
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.174 		T
+         U8 &  Premi.Editor.Shape  & descrizione & initByDefault() & \testst...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.174 		T
+         U8 &  Premi.Editor.Shape  & descrizione & initByDefault() & \testst...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (28.09248pt too wide) in paragraph at lines 174--174
+[]|\OT1/cmr/m/n/12 initByDefault()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.175    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.176    		T
+            U9 &  Premi.Editor.Shape  & descrizione & initByJSON() & \testst...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.176    		T
+            U9 &  Premi.Editor.Shape  & descrizione & initByJSON() & \testst...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (20.58145pt too wide) in paragraph at lines 176--176
+[]|\OT1/cmr/m/n/12 initByJSON()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.178    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.179    		T
+            U10 &  Premi.Editor.Text  & descrizione & initByDefault() & \tes...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.179    		T
+            U10 &  Premi.Editor.Text  & descrizione & initByDefault() & \tes...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 179--179
+[]|\OT1/cmr/m/n/12 TU10| 
+ []
+
+
+Overfull \hbox (28.09248pt too wide) in paragraph at lines 179--179
+[]|\OT1/cmr/m/n/12 initByDefault()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.180    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.181    		T
+            U11 &  Premi.Editor.Text & descrizione & initByJSON() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.181    		T
+            U11 &  Premi.Editor.Text & descrizione & initByJSON() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 181--181
+[]|\OT1/cmr/m/n/12 TU11| 
+ []
+
+
+Overfull \hbox (20.58145pt too wide) in paragraph at lines 181--181
+[]|\OT1/cmr/m/n/12 initByJSON()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.183    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.184    		T
+            U12 &  Premi.Editor.Frame & descrizione & initByDefault() & \tes...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.184    		T
+            U12 &  Premi.Editor.Frame & descrizione & initByDefault() & \tes...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 184--184
+[]|\OT1/cmr/m/n/12 TU12| 
+ []
+
+
+Overfull \hbox (28.09248pt too wide) in paragraph at lines 184--184
+[]|\OT1/cmr/m/n/12 initByDefault()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.185    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.186    		T
+            U13 &  Premi.Editor.Frame & descrizione & initByJSON() & \testst...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.186    		T
+            U13 &  Premi.Editor.Frame & descrizione & initByJSON() & \testst...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 186--186
+[]|\OT1/cmr/m/n/12 TU13| 
+ []
+
+
+Overfull \hbox (20.58145pt too wide) in paragraph at lines 186--186
+[]|\OT1/cmr/m/n/12 initByJSON()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.187    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.188    		T
+            U14 &  Premi.Editor.Frame & descrizione & selectGO() deselectGO(...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.188    		T
+            U14 &  Premi.Editor.Frame & descrizione & selectGO() deselectGO(...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 188--188
+[]|\OT1/cmr/m/n/12 TU14| 
+ []
+
+
+Overfull \hbox (4.41634pt too wide) in paragraph at lines 188--188
+[]|\OT1/cmr/m/n/12 selectGO()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+\OT1/cmr/m/n/12 de-se-lect-
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.189    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.190    		T
+            U15 &  Premi.Editor.Frame & descrizione & addGo() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.190    		T
+            U15 &  Premi.Editor.Frame & descrizione & addGo() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 190--190
+[]|\OT1/cmr/m/n/12 TU15| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.191    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.192    		T
+            U16 &  Premi.Editor.Frame & descrizione & removeSelectedGO() & \...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.192    		T
+            U16 &  Premi.Editor.Frame & descrizione & removeSelectedGO() & \...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 192--192
+[]|\OT1/cmr/m/n/12 TU16| 
+ []
+
+
+Overfull \hbox (54.28804pt too wide) in paragraph at lines 192--192
+[]|\OT1/cmr/m/n/12 removeSelectedGO()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.193    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.194    		T
+            U17 &  Premi.Editor.Frame & descrizione & resizeGO() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.194    		T
+            U17 &  Premi.Editor.Frame & descrizione & resizeGO() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 194--194
+[]|\OT1/cmr/m/n/12 TU17| 
+ []
+
+
+Overfull \hbox (4.41634pt too wide) in paragraph at lines 194--194
+[]|\OT1/cmr/m/n/12 resizeGO()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.195    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.196    		T
+            U18 &  Premi.Editor.Frame & descrizione & dragGO() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.196    		T
+            U18 &  Premi.Editor.Frame & descrizione & dragGO() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 196--196
+[]|\OT1/cmr/m/n/12 TU18| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.198 	    \hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.199    		T
+            U19 &  Premi.Editor.Infographic & descrizione & initByDefault() ...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.199    		T
+            U19 &  Premi.Editor.Infographic & descrizione & initByDefault() ...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 199--199
+[]|\OT1/cmr/m/n/12 TU19| 
+ []
+
+
+Overfull \hbox (28.09248pt too wide) in paragraph at lines 199--199
+[]|\OT1/cmr/m/n/12 initByDefault()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.200    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.201    		T
+            U20 &  Premi.Editor.Infographic & descrizione & initByJSON() & \...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.201    		T
+            U20 &  Premi.Editor.Infographic & descrizione & initByJSON() & \...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 201--201
+[]|\OT1/cmr/m/n/12 TU20| 
+ []
+
+
+Overfull \hbox (20.58145pt too wide) in paragraph at lines 201--201
+[]|\OT1/cmr/m/n/12 initByJSON()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.202    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.203    		T
+            U21 &  Premi.Editor.Infographic & descrizione & selectGO() desel...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.203    		T
+            U21 &  Premi.Editor.Infographic & descrizione & selectGO() desel...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 203--203
+[]|\OT1/cmr/m/n/12 TU21| 
+ []
+
+
+Overfull \hbox (4.41634pt too wide) in paragraph at lines 203--203
+[]|\OT1/cmr/m/n/12 selectGO()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+\OT1/cmr/m/n/12 de-se-lect-
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.204    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.205    		T
+            U22 &  Premi.Editor.Infographic & descrizione & addGo() & \tests...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.205    		T
+            U22 &  Premi.Editor.Infographic & descrizione & addGo() & \tests...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 205--205
+[]|\OT1/cmr/m/n/12 TU22| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.206    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.207    		T
+            U23 &  Premi.Editor.Infographic & descrizione & removeSelectedGO...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.207    		T
+            U23 &  Premi.Editor.Infographic & descrizione & removeSelectedGO...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 207--207
+[]|\OT1/cmr/m/n/12 TU23| 
+ []
+
+
+Overfull \hbox (54.28804pt too wide) in paragraph at lines 207--207
+[]|\OT1/cmr/m/n/12 removeSelectedGO()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.208    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.209    		T
+            U24 &  Premi.Editor.Infographic & descrizione & resizeGO() & \te...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.209    		T
+            U24 &  Premi.Editor.Infographic & descrizione & resizeGO() & \te...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 209--209
+[]|\OT1/cmr/m/n/12 TU24| 
+ []
+
+
+Overfull \hbox (4.41634pt too wide) in paragraph at lines 209--209
+[]|\OT1/cmr/m/n/12 resizeGO()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.210    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.211    		T
+            U25 &  Premi.Editor.Infographic & descrizione & dragGO() & \test...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.211    		T
+            U25 &  Premi.Editor.Infographic & descrizione & dragGO() & \test...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 211--211
+[]|\OT1/cmr/m/n/12 TU25| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.213    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.214   		T
+           U26 & Premi.Editor.FrameEditorController & Si controlla che a sec...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.214   		T
+           U26 & Premi.Editor.FrameEditorController & Si controlla che a sec...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 214--214
+[]|\OT1/cmr/m/n/12 TU26| 
+ []
+
+
+Overfull \hbox (16.29407pt too wide) in paragraph at lines 214--214
+[]|\OT1/cmr/m/n/12 Premi.Editor.FrameEditorController| 
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 214--214
+\OT1/cmr/m/n/12 get-to pas-sa-to al-
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 214--214
+\OT1/cmr/m/n/12 la fun-zio-ne ven-ga
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 214--214
+\OT1/cmr/m/n/12 ef-fet-ti-va-men-te ag-
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 214--214
+\OT1/cmr/m/n/12 giun-to un og-get-to
+ []
+
+
+Overfull \hbox (20.99672pt too wide) in paragraph at lines 214--214
+[]|\OT1/cmr/m/n/12 addGObject()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.215   		\hline
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.216   		T
+           U27 &  Premi.Editor.FrameEditorController & Si controlla che a se...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.216   		T
+           U27 &  Premi.Editor.FrameEditorController & Si controlla che a se...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 216--216
+[]|\OT1/cmr/m/n/12 TU27| 
+ []
+
+
+Overfull \hbox (16.29407pt too wide) in paragraph at lines 216--216
+[]|\OT1/cmr/m/n/12 Premi.Editor.FrameEditorController| 
+ []
+
+
+Underfull \hbox (badness 5161) in paragraph at lines 216--216
+\OT1/cmr/m/n/12 get-to pas-sa-to al-
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 216--216
+\OT1/cmr/m/n/12 la fun-zio-ne ven-ga
+ []
+
+
+Underfull \hbox (badness 6477) in paragraph at lines 216--216
+\OT1/cmr/m/n/12 ef-fet-ti-va-men-te ag-
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 216--216
+\OT1/cmr/m/n/12 giun-to un og-get-to
+ []
+
+
+Overfull \hbox (20.99672pt too wide) in paragraph at lines 216--216
+[]|\OT1/cmr/m/n/12 addGObject()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.219 	    \hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.220    		T
+            U28 &  Premi.Editor.InfographicEditorController & desc & changeI...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.220    		T
+            U28 &  Premi.Editor.InfographicEditorController & desc & changeI...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 220--220
+[]|\OT1/cmr/m/n/12 TU28| 
+ []
+
+
+Overfull \hbox (42.23962pt too wide) in paragraph at lines 220--220
+[]|\OT1/cmr/m/n/12 Premi.Editor.InfographicEditorController| 
+ []
+
+
+Overfull \hbox (23.84946pt too wide) in paragraph at lines 220--220
+[]|\OT1/cmr/m/n/12 changeImage()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.221    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.222    		T
+            U29 &  Premi.Editor.InfographicEditorController & desc & saveInf...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.222    		T
+            U29 &  Premi.Editor.InfographicEditorController & desc & saveInf...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 222--222
+[]|\OT1/cmr/m/n/12 TU29| 
+ []
+
+
+Overfull \hbox (42.23962pt too wide) in paragraph at lines 222--222
+[]|\OT1/cmr/m/n/12 Premi.Editor.InfographicEditorController| 
+ []
+
+
+Overfull \hbox (37.29654pt too wide) in paragraph at lines 222--222
+[]|\OT1/cmr/m/n/12 saveInfographic()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.224    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.225    		T
+            U30 &  Premi.Trail & desc & nextSlide() prevSlide() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.225    		T
+            U30 &  Premi.Trail & desc & nextSlide() prevSlide() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 225--225
+[]|\OT1/cmr/m/n/12 TU30| 
+ []
+
+
+Overfull \hbox (5.24965pt too wide) in paragraph at lines 225--225
+[]|\OT1/cmr/m/n/12 nextSlide()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--225
+\OT1/cmr/m/n/12 pre-v-Sli-
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.226    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.227    		T
+            U31 &  Premi.Trail & desc & enterInCheckPoint() returnToCheckPoi...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.227    		T
+            U31 &  Premi.Trail & desc & enterInCheckPoint() returnToCheckPoi...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 227--227
+[]|\OT1/cmr/m/n/12 TU31| 
+ []
+
+
+Overfull \hbox (53.38527pt too wide) in paragraph at lines 227--227
+[]|\OT1/cmr/m/n/12 enterInCheckPoint()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+\OT1/cmr/m/n/12 re-turn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--227
+\OT1/cmr/m/n/12 To-Chec-k-
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.228    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.229    		T
+            U32 &  Premi.Trail & desc & goToSlide() returnToCheckPoint() & \...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.229    		T
+            U32 &  Premi.Trail & desc & goToSlide() returnToCheckPoint() & \...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 229--229
+[]|\OT1/cmr/m/n/12 TU32| 
+ []
+
+
+Overfull \hbox (7.86073pt too wide) in paragraph at lines 229--229
+[]|\OT1/cmr/m/n/12 goToSlide()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+\OT1/cmr/m/n/12 re-turn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
+\OT1/cmr/m/n/12 To-Chec-k-
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.230    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.231   		T
+           U33 &  Premi.Trail & desc & insertSlideAfterCurrent() insertSlide...
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.231   		T
+           U33 &  Premi.Trail & desc & insertSlideAfterCurrent() insertSlide...
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 231--231
+[]|\OT1/cmr/m/n/12 TU33| 
+ []
+
+
+Overfull \hbox (78.42111pt too wide) in paragraph at lines 231--231
+[]|\OT1/cmr/m/n/12 insertSlideAfterCurrent()
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+\OT1/cmr/m/n/12 in-sertS-li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--231
+\OT1/cmr/m/n/12 de-Be-fo-re-
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.232   		\hline
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.233   		T
+           U34 &  Premi.Trail & desc & removeCurrentSlide() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.233   		T
+           U34 &  Premi.Trail & desc & removeCurrentSlide() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 233--233
+[]|\OT1/cmr/m/n/12 TU34| 
+ []
+
+
+Overfull \hbox (59.10326pt too wide) in paragraph at lines 233--233
+[]|\OT1/cmr/m/n/12 removeCurrentSlide()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.235    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.236 		T
+         U35 &  Premi.UserManager() & desc & signUp() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.236 		T
+         U35 &  Premi.UserManager() & desc & signUp() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 236--236
+[]|\OT1/cmr/m/n/12 TU35| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.237    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.238    		T
+            U36 &  Premi.UserManager() & desc & signIn() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.238    		T
+            U36 &  Premi.UserManager() & desc & signIn() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 238--238
+[]|\OT1/cmr/m/n/12 TU36| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.239    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.240    		T
+            U37 &  Premi.UserManager() & desc & signOut() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.240    		T
+            U37 &  Premi.UserManager() & desc & signOut() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 240--240
+[]|\OT1/cmr/m/n/12 TU37| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.241    		\hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.242   		T
+           U38 &  Premi.UserManager() & desc & changePassword() & \teststatus
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.242   		T
+           U38 &  Premi.UserManager() & desc & changePassword() & \teststatus
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (0.5914pt too wide) in paragraph at lines 242--242
+[]|\OT1/cmr/m/n/12 TU38| 
+ []
+
+
+Overfull \hbox (40.79095pt too wide) in paragraph at lines 242--242
+[]|\OT1/cmr/m/n/12 changePassword()| 
+ []
+
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
+l.244 	    \hline
+                 
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Misplaced \omit.
+\multispan ->\omit 
+                   \@multispan 
+l.245 	    \caption
+                   {Tabella test di unità}
+I expect to see \omit only after tab marks or the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.245 	    \caption
+                   {Tabella test di unità}
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Overfull \hbox (15.1402pt too wide) in alignment at lines 154--246
+ [] [] [] [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 246
+ []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 172.
+Package pdftex.def Info: ../logo/logo404.png used on input line 246.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [36]
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.176 All'utente è
-                     richiesto di:
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
-
-! Package ucs Error: Please activate option 'combine'.
-
-See the ucs package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.199 All'utente è
-                     richiesto di:
-Composed characters can only be rendered correctly, when the option 'combine' i
-s activated
-
 File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 210.
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 246.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [37]
 
@@ -1598,16 +2743,10 @@ See the ucs package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.215 All'utente è
+l.254 All'utente è
                      richiesto di:
 Composed characters can only be rendered correctly, when the option 'combine' i
 s activated
-
-
-Overfull \hbox (6.13596pt too wide) in paragraph at lines 226--227
-[]\OT1/cmr/m/it/12 Seguire un per-cor-so di ap-pro-fon-di-men-to a par-ti-re da
- un checkpoint$[]$ (\OT1/cmr/bx/it/12 TV4.5\OT1/cmr/m/it/12 ) 
- []
 
 
 ! Package ucs Error: Please activate option 'combine'.
@@ -1616,27 +2755,16 @@ See the ucs package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.235 All'utente è
+l.271 All'utente è
                      richiesto di:
 Composed characters can only be rendered correctly, when the option 'combine' i
 s activated
 
-
-Overfull \hbox (19.89459pt too wide) in paragraph at lines 250--251
-[]\OT1/cmr/m/it/12 Scegliere una di-men-sio-ne di-ver-sa da quel-la di de-fault
- per il te-sto (\OT1/cmr/bx/it/12 TV5.2.4\OT1/cmr/m/it/12 ) 
- []
-
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 259.
+Package pdftex.def Info: ../logo/logo404.png used on input line 273.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [38]
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 312.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [39]
 
 ! Package ucs Error: Please activate option 'combine'.
 
@@ -1644,7 +2772,7 @@ See the ucs package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.336 All'utente è
+l.294 All'utente è
                      richiesto di:
 Composed characters can only be rendered correctly, when the option 'combine' i
 s activated
@@ -1656,34 +2784,91 @@ See the ucs package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.357 All'utente è
+l.310 All'utente è
                      richiesto di:
 Composed characters can only be rendered correctly, when the option 'combine' i
 s activated
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 363.
+Package pdftex.def Info: ../logo/logo404.png used on input line 313.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [39]
+Overfull \hbox (7.05437pt too wide) in paragraph at lines 321--322
+[]\OT1/cmr/m/n/12 Seguire un per-cor-so di ap-pro-fon-di-men-to a par-ti-re da 
+un checkpoint$[]$ (\OT1/cmr/bx/n/12 TV4.5\OT1/cmr/m/n/12 ) 
+ []
+
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.330 All'utente è
+                     richiesto di:
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+Overfull \hbox (17.1936pt too wide) in paragraph at lines 345--346
+[]\OT1/cmr/m/n/12 Scegliere una di-men-sio-ne di-ver-sa da quel-la di de-fault 
+per il te-sto (\OT1/cmr/bx/n/12 TV5.2.4\OT1/cmr/m/n/12 ) 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 364.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [40]
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 365.
+Package pdftex.def Info: ../logo/logo404.png used on input line 413.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [41]
-Underfull \vbox (badness 10000) detected at line 409
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.431 All'utente è
+                     richiesto di:
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+
+! Package ucs Error: Please activate option 'combine'.
+
+See the ucs package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.452 All'utente è
+                     richiesto di:
+Composed characters can only be rendered correctly, when the option 'combine' i
+s activated
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 460.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [42]
+Underfull \vbox (badness 10000) detected at line 504
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 516.
+Package pdftex.def Info: ../logo/logo404.png used on input line 611.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [42])
+ [43])
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 37.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [43]
+ [44]
 (./documents/resocontoverifca.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
@@ -1693,7 +2878,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 35.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [44]
+ [45]
 
 ! Package ucs Error: Please activate option 'combine'.
 
@@ -1707,25 +2892,6 @@ l.49 L'analisi statica è
 Composed characters can only be rendered correctly, when the option 'combine' i
 s activated
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.49 ...ne delle \textit{NormeDiProgetto_v3.0.pdf}
-                                                  .
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.49 ...ne delle \textit{NormeDiProgetto_v3.0.pdf}
-                                                  .
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 
 ! Package ucs Error: Please activate option 'combine'.
 
@@ -1737,103 +2903,6 @@ l.50 Noti gli errori, si è
                              provveduto a:
 Composed characters can only be rendered correctly, when the option 'combine' i
 s activated
-
-
-LaTeX Warning: Command \` invalid in math mode on input line 50.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.50 Noti gli errori, si è
-                             provveduto a:
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! Missing { inserted.
-<to be read again> 
-                   \egroup 
-l.50 Noti gli errori, si è
-                             provveduto a:
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.50 Noti gli errori, si è
-                             provveduto a:
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.51 \begin{itemize}
-                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.51 \begin{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.51 \begin{itemize}
-                    
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no � in font cmex10!
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.52 	\item C
-             orreggere le imperfezioni rilevate;
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 52
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 	\item S
-             egnalare gli errori più frequenti.Si è quindi applicato il c...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 53
-[][]
- []
 
 
 ! Package ucs Error: Please activate option 'combine'.
@@ -1847,59 +2916,6 @@ l.53 ...Segnalare gli errori più frequenti.Si è
 
 Composed characters can only be rendered correctly, when the option 'combine' i
 s activated
-
-
-! LaTeX Error: \begin{document} ended by \end{itemize}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 \end{itemize}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.54 \end{itemize}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.54 \end{itemize}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.54 \end{itemize}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.54 \end{itemize}
-                  
-Things are pretty mixed up, but I think the worst is over.
 
 
 ! Package ucs Error: Please activate option 'combine'.
@@ -1931,7 +2947,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 57.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [45]
+ [46]
 Overfull \hbox (2.61298pt too wide) in paragraph at lines 72--73
 []\OT1/cmr/m/n/12 Rimossa se-zio-ne ri-sor-se e spo-sta-ta nel do-cu-men-to \OT
 1/cmr/m/it/12 Nor-me-Di-Pro-get-to[]v3.0.pdf 
@@ -1941,53 +2957,50 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 101.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [46]
+ [47]
 Overfull \hbox (0.6278pt too wide) in paragraph at lines 116--117
 []\OT1/cmr/m/n/12 Approfondito l'u-so del-le me-tri-che adot-ta-te per ren-de-r
 e quan-ti-ta-ti-vi gli obiet-
  []
 
 )
-No file PianoDiQualifica_v2.0.bbl.
+No file PianoDiQualifica_v3.0.bbl.
 
 AED: lastpage setting LastPage
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 40.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [47]
+ [48]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 40.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 40.
- (./PianoDiQualifica_v2.0.aux)
+ (./PianoDiQualifica_v3.0.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 40.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 40.
-Package rerunfilecheck Info: File `PianoDiQualifica_v2.0.out' has not changed.
+Package rerunfilecheck Info: File `PianoDiQualifica_v3.0.out' has not changed.
 (rerunfilecheck)             Checksum: 5E3D085389189F154E1ECE2D78A65536;4883.
  ) 
 Here is how much of TeX's memory you used:
- 12123 strings out of 493117
- 174719 string characters out of 6135434
- 284315 words of memory out of 5000000
- 15250 multiletter control sequences out of 15000+600000
- 10631 words of font info for 36 fonts, out of 8000000 for 9000
+ 12121 strings out of 493117
+ 174676 string characters out of 6135434
+ 319398 words of memory out of 5000000
+ 15248 multiletter control sequences out of 15000+600000
+ 9493 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,16n,47p,998b,655s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,16n,47p,998b,637s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
-></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on PianoDiQualifica_v2.0.pdf (48 pages, 1102008 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
+l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on PianoDiQualifica_v3.0.pdf (49 pages, 1051526 bytes).
 PDF statistics:
- 740 PDF objects out of 1000 (max. 8388607)
- 648 compressed objects within 7 object streams
- 146 named destinations out of 1000 (max. 500000)
+ 736 PDF objects out of 1000 (max. 8388607)
+ 646 compressed objects within 7 object streams
+ 148 named destinations out of 1000 (max. 500000)
  562 words of extra memory for PDF output out of 10000 (max. 10000000)
 
