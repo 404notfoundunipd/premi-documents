@@ -130,8 +130,16 @@
 	\item \textbf{Scenario principale:}
 	\begin{enumerate}
 		\item \textbf{ UC4.1:} \textit{ Inserimento oggetto grafico};
+		\item \textbf{ UC4.1.1:} \textit{ Inserimento area di testo};
+		\item \textbf{ UC4.1.2:} \textit{ Inserimento frame$_G$};
+		\item \textbf{ UC4.1.3:} \textit{ Inserimento immagine};
+		\item \textbf{ UC4.1.4:} \textit{ Inserimento shape$_G$};
 		\item \textbf{ UC4.2:} \textit{ Seleziona oggetto grafico};
 		\item \textbf{ UC4.3:} \textit{ Modifica oggetto grafico};
+		\item \textbf{ UC4.3.1:} \textit{ Modifica frame$_G$};
+		\item \textbf{ UC4.3.2:} \textit{ Modifica immagine};
+		\item \textbf{ UC4.3.3:} \textit{ Modifica area di testo};
+		\item \textbf{ UC4.3.4:} \textit{ Modifica shape$_G$}.
 		\item \textbf{ UC4.4:} \textit{ Elimina oggetto grafico};
 		\item \textbf{ UC4.5:} \textit{ Crea percorso};
 		\item \textbf{ UC4.6:} \textit{ Seleziona percorso};
@@ -154,13 +162,6 @@
 	\item \textbf{Postcondizione:} il sistema ha aggiunto un oggetto grafico all'interno della presentazione, la modifica viene visualizzata;
 	\item \textbf{Descrizione:} l'utente può aggiungere un oggetto grafico alla presentazione nella posizione predefinita;
 	\item \textbf{Attori:} Utente autenticato;
-	\item \textbf{Scenario principale:}
-	\begin{enumerate}
-		\item \textbf{ UC4.1.1:} \textit{ Inserimento area di testo};
-		\item \textbf{ UC4.1.2:} \textit{ Inserimento frame$_G$};
-		\item \textbf{ UC4.1.3:} \textit{ Inserimento immagine};
-		\item \textbf{ UC4.1.4:} \textit{ Inserimento shape$_G$}.
-	\end{enumerate}
 \end{itemize}
 \subsection{ UC4.1.1: Inserimento area di testo}
 
@@ -314,13 +315,6 @@
 	\item \textbf{Postcondizione:} il sistema ha modificato un oggetto grafico all'interno della presentazione, la modifica viene visualizzata;
 	\item \textbf{Descrizione:} l'utente può modificare un oggetto grafico;
 	\item \textbf{Attori:} Utente autenticato;
-	\item \textbf{Scenario principale:}
-	\begin{enumerate}
-		\item \textbf{ UC4.3.1:} \textit{ Modifica frame$_G$};
-		\item \textbf{ UC4.3.2:} \textit{ Modifica immagine};
-		\item \textbf{ UC4.3.3:} \textit{ Modifica area di testo};
-		\item \textbf{ UC4.3.4:} \textit{ Modifica shape$_G$}.
-	\end{enumerate}
 \end{itemize}
 \subsection{ UC4.3.1: Modifica frame$_G$}
 
@@ -861,6 +855,8 @@
 		\item \textbf{ UC13.1:} \textit{ Inserimento email};
 		\item \textbf{ UC13.2:} \textit{ Inserimento password};
 		\item \textbf{ UC13.3:} \textit{ Conferma password};
+		\item \textbf{ UC13.5:} \textit{ Conferma};
+		\item \textbf{ UC13.6:} \textit{ Annulla};
 	\end{enumerate}
 	\item \textbf{Scenario alternativo:}
 	\begin{enumerate}
@@ -897,6 +893,22 @@
 	\item \textbf{Precondizione:} il sistema è in fase di registrazione dell'utente, ed è stato commesso un errore da parte dell'utente nell'inserimento del campo richiesto;
 	\item \textbf{Postcondizione:} il sistema ha visualizzato un errore di inserimento;
 	\item \textbf{Descrizione:} il sistema visualizza un errore di inserimento per il campo compilato dall'utente;
+	\item \textbf{Attori:} Utente non autenticato.
+\end{itemize}
+\subsection{ UC13.5: Conferma}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di registrazione dell'utente, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha ricevuto la richiesta di registrazione da parte dell'utente;
+	\item \textbf{Descrizione:} l'utente può confermare la richiesta di registrazione;
+	\item \textbf{Attori:} Utente non autenticato.
+\end{itemize}
+\subsection{ UC13.6: Annulla}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di registrazione dell'utente, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha ricevuto la richiesta di annullamento della registrazione;
+	\item \textbf{Descrizione:} l'utente può annullare una richiesta di registrazione;
 	\item \textbf{Attori:} Utente non autenticato.
 \end{itemize}
 \subsection{ UC14: Autenticazione}
@@ -945,6 +957,22 @@
 	\item \textbf{Precondizione:} il sistema è in fase di autenticazione dell'utente, ed è stato commesso un errore da parte dell'utente nell'inserimento del campo richiesto;
 	\item \textbf{Postcondizione:} il sistema ha visualizzato un errore di inserimento;
 	\item \textbf{Descrizione:} il sistema visualizza un errore di inserimento per il campo compilato dall'utente;
+	\item \textbf{Attori:} Utente non autenticato.
+\end{itemize}
+\subsection{ UC14.4: Conferma}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di autenticazione dell'utente, ed è stato commesso un errore da parte dell'utente nell'inserimento del campo richiesto;
+	\item \textbf{Postcondizione:} il sistema ha ricevuto la richiesta di autenticazione da parte dell'utente;
+	\item \textbf{Descrizione:} l'utente può confermare la richiesta di autenticazione;
+	\item \textbf{Attori:} Utente non autenticato.
+\end{itemize}
+\subsection{ UC14.5: Annulla}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di autenticazione dell'utente, ed è stato commesso un errore da parte dell'utente nell'inserimento del campo richiesto;
+	\item \textbf{Postcondizione:} il sistema ha ricevuto la richiesta di annullamento dell'autenticazione;
+	\item \textbf{Descrizione:} l'utente può annullare una richiesta di autenticazione;
 	\item \textbf{Attori:} Utente non autenticato.
 \end{itemize}
 \subsection{ UC15: Modifica password}
@@ -1002,4 +1030,21 @@
 	\item \textbf{Postcondizione:} il sistema ha visualizzato un errore di inserimento;
 	\item \textbf{Descrizione:} il sistema visualizza un errore di inserimento per il campo compilato dall'utente;
 	\item \textbf{Attori:} Utente autenticato.
+\end{itemize}
+
+\subsection{ UC15.5: Conferma}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica password, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha ricevuto la richiesta di modifica della password da parte dell'utente;
+	\item \textbf{Descrizione:} l'utente può confermare la richiesta di modifica della password;
+	\item \textbf{Attori:} Utente non autenticato.
+\end{itemize}
+\subsection{ UC15.6: Annulla}
+
+\begin{itemize}
+	\item \textbf{Precondizione:} il sistema è in fase di modifica password, ed è in attesa di un'operazione da parte dell'utente;
+	\item \textbf{Postcondizione:} il sistema ha ricevuto l'annullamento di modifica della password da parte dell'utente;
+	\item \textbf{Descrizione:} l'utente può annullare una richiesta di modifica della password;
+	\item \textbf{Attori:} Utente non autenticato.
 \end{itemize}
