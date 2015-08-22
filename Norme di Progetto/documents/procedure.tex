@@ -1,18 +1,6 @@
-\section{Procedure e supporto dei processi} \label{procedure}
+\section{Procedure a supporto dei processi} \label{procedure}
 Le seguenti norme regolano i processi principali del ciclo di vita del software. Ogni ruolo di progetto è tenuto a seguirli per il raggiungimento degli obiettivi fissati nel \textit{Piano di Qualifica.}
 
-\subsection{Rotazione dei ruoli}
-Da regolamento\cite{docorganigramma} ogni componente del gruppo può occupare più di un ruolo nelle varie fasi del progetto, garantendo però l'assenza di conflitto di interessi tra i ruoli assunti. Questo richiede che le seguenti norme vengano attuate nell'assegnazione dei ruoli:
-\begin{itemize}
-\item rotazione del ruolo di \ruoloResponsabile{} ad ogni macro-fase per non lasciare in mano allo stesso componente il coordinamento delle attività per tutto l'arco temporale del progetto;
-\item la verifica di un documento o di parte del codice dev'essere sempre eseguita da componenti che non hanno scritto quel documento o codificato quella parte di software.
-\end{itemize}
-Per facilitare lo sviluppo del software vengono inoltre suggerite le seguenti raccomandazioni:
-\begin{itemize}
-\item separazione del ruolo di \ruoloResponsabile{} nei suoi incarichi di redattore di documenti (che potranno essere scritti da più componenti) e di coordinatore di attività (insieme di incarichi che dovranno essere svolti dal Responsabile assegnato per la macro-fase corrente);
-\item specializzazione di componenti del gruppo, quando ritenuto opportuno, nella stesura di determinati documenti per una maggiore efficienza nella loro elaborazione e verifiche incrociate su tali documenti per assicurare che ognuno li conosca in dettaglio.
-\end{itemize}
-Per la lista dei compiti previsti per i sei ruoli del progetto si rimanda al Regolamento dell'Organigramma\cite{docorganigramma}.
 \subsection{Gestione di Progetto}
 La gestione del progetto, dalla nascita alla conclusione, spetta al \ruoloResponsabile . Egli ha il compito di:
 \subsubsection{Pianificazione delle attività}
@@ -153,7 +141,7 @@ Le classi vanno inserite nel database gestito dal software 404TrackerDB, il qual
 \paragraph{5.5.1.4 Test di unità \\}
 Durante la \textit{Progettazione di Dettaglio} i \textit{Progettisti} hanno inoltre il compito di definire i test di unità per assicurarsi che i componenti realizzati siano privi di difetti.
 
-\subsection{Verifica e Validazione}
+\subsection{Verifica}
 
 La verifica di processi, documenti e prodotti è un'attività da eseguire continuamente
 durante lo sviluppo del Progetto. Di conseguenza, servono modalità operative chiare
@@ -199,43 +187,6 @@ Lo strumento scelto per la gestione delle anomalie è la sezione ``Issue'' messa
 	\item Grazie all'approccio ``Broken Window Theory'' (\textit{PianoDiQualifica\_v2.0.pdf} sezione 2.1), chiunque in qualunque momento è incentivato alla ricerca di possibili anomalie.
 \end{itemize}
 Nel caso in cui un \ruoloVerificatore\ o un membro del gruppo individui un anomalia dovrà segnalarlo aprendo un ticket$_G$ (vedi sezione 5.2). Un \ruoloVerificatore\ ha il compito di controllare le pull request quindi nel caso trovasse un anomalia deve impedire la pull request con le modalità descritte nella sezione 5.4.
-
-\subsubsection{Strumenti}
-Per lo svolgimento del processo di verifica faremo uso dei seguenti strumenti:
-\begin{itemize}
-	\item \textbf{Correttore automatico di TeXMaker$_G$}: per la scrittura di documenti si è scelto di utilizzare l'ambiente grafico TeXMaker$_G$. Tale strumento integra i dizionari di OpenOffice.org e segnala i potenziali errori ortografici presenti nel testo;
-	
-	\item \textbf{404TrackerDB}: Strumento software realizzato dal gruppo \gruppo\ che contiene ed associa:
-	\begin{itemize}
-		\item Requisiti individuati durante l'analisi;
-		\item Fonti di requisiti individuate, inclusi anche i casi d'uso.
-	\end{itemize}
-	Permette inoltre di esportare automaticamente:
-	\begin{itemize}
-		\item Codice \LaTeX\ per la descrizione dei casi d'uso;
-		\item Tabella in \LaTeX\ per il tracciamento fonti-requisiti.
-	\end{itemize}
-
-	\item Strumenti W3C$_G$ (\href{www.w3.org}{www.w3.org}) per la validazione:
-	    \begin{itemize}
-	    	\item \textbf{validatore HTML5$_G$} (\href{http://validator.w3.org}{http://validator.w3.org});
-	    	\item \textbf{validatore CSS$_G$}
-	    	(\href{http://jigsaw.w3.org/css-validator/}{http://jigsaw.w3.org/css-validator/}).
-	    \end{itemize}
-	
-	\item Strumenti per debugging$_G$ HTML$_G$, CSS$_G$ e JavaScript$_G$ messi a disposizione dai vari browser$_G$:
-	    \begin{itemize}
-	    	\item \textbf{Chrome Developer Tools} (\href{https://developers.google.com/chrome-developer-tools}
-	    	{https://developers.google.com/chrome-developer-tools});
-	    	\item \textbf{Firebug}
-	    	(\href{http://getfirebug.com/}{http://getfirebug.com/}).
-	    \end{itemize};
-	\item \textbf{JSLint} Ambiente di test (\href{http://www.junit.org}{http://www.junit.org}): tool per la validazione di codice JavaScript$_G$;
-	\item \textbf{JUnit} (\href{http://www.junit.org}{http://www.junit.org}): semplice framework per eseguire test ripetibili;
-	\item \textbf{BrowserStack} (\href{http://www.browserstack.com/}{http://www.browserstack.com/}):  per eseguire il test comparato sui vari browser$_G$;
-	\item \textbf{WebStorm} (\href{https://www.jetbrains.com/webstorm/}{https://www.jetbrains.com/webstorm/}): IDE JavaScript$_G$ scelto come ambiente di sviluppo.
-\end{itemize}
-
 
 \subsection{Codifica}
 \subsubsection{Codifica e convenzioni}
@@ -310,13 +261,6 @@ I campi andranno aggiornati ad ogni modifica del codice. Cercare di adeguarsi il
 		\item \textit{Reason:} le ragioni della modifica.
 	\end{itemize}
 \end{itemize}
-
-\subsubsection{Strumenti}
-\begin{itemize}
-
-	\item \textbf{WebStorm:} L’IDE JetBrains WebStorm 7.0.3 è utilizzato per scrivere codice nel linguaggio di programmazione JavaScript e AngularJS.
-\end{itemize}
-
 
 \subsection{Procedure per l'utilizzo del repository} \label{procedureticket}
 Vengono qui elencate le norme per l'utilizzo degli strumenti di sviluppo del sito web GitHub$_G$. \\
