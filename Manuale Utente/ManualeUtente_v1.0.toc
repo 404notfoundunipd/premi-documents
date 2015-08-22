@@ -13,20 +13,19 @@
 \contentsline {subsection}{\numberline {2.1}Interfaccia grafica e layout}{6}{subsection.2.1}
 \contentsline {section}{\numberline {3}Istruzioni per l'uso}{6}{section.3}
 \contentsline {subsection}{\numberline {3.1}Requisiti di sistema}{6}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Guida all'installazione}{6}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Primo accesso}{6}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Pannello di controllo dell'utente}{8}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Creare una nuova presentazione}{9}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Editor$_G$}{10}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Frame$_G$ editor$_G$}{10}{subsection.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}Aggiunta frame$_G$}{10}{subsubsection.3.7.1}
-\contentsline {subsubsection}{\numberline {3.7.2}Aggiunta elemento forma}{10}{subsubsection.3.7.2}
-\contentsline {subsubsection}{\numberline {3.7.3}Aggiunta testo}{11}{subsubsection.3.7.3}
-\contentsline {subsubsection}{\numberline {3.7.4}Modifica degli elementi}{11}{subsubsection.3.7.4}
-\contentsline {subsection}{\numberline {3.8}Infographic editor$_G$}{13}{subsection.3.8}
-\contentsline {subsection}{\numberline {3.9}Trails editor$_G$}{13}{subsection.3.9}
-\contentsline {subsubsection}{\numberline {3.9.1}Creazione percorso presentativo}{14}{subsubsection.3.9.1}
-\contentsline {subsection}{\numberline {3.10}Avvio di una presentazione}{16}{subsection.3.10}
-\contentsline {subsection}{\numberline {3.11}Errori e loro cause}{17}{subsection.3.11}
-\contentsline {subsection}{\numberline {3.12}Appendice}{19}{subsection.3.12}
-\contentsline {subsubsection}{\numberline {3.12.1}Glossario}{19}{subsubsection.3.12.1}
+\contentsline {subsection}{\numberline {3.2}Primo accesso}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Pannello di controllo dell'utente}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Creare una nuova presentazione}{9}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Editor$_G$}{10}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Frame$_G$ editor$_G$}{10}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Aggiunta frame$_G$}{10}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}Aggiunta elemento forma}{10}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}Aggiunta testo}{11}{subsubsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.4}Modifica degli elementi}{11}{subsubsection.3.6.4}
+\contentsline {subsection}{\numberline {3.7}Infographic editor$_G$}{13}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Trails editor$_G$}{13}{subsection.3.8}
+\contentsline {subsubsection}{\numberline {3.8.1}Creazione percorso presentativo}{14}{subsubsection.3.8.1}
+\contentsline {subsection}{\numberline {3.9}Avvio di una presentazione}{16}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10}Errori e loro cause}{17}{subsection.3.10}
+\contentsline {subsection}{\numberline {3.11}Appendice}{19}{subsection.3.11}
+\contentsline {subsubsection}{\numberline {3.11.1}Glossario}{19}{subsubsection.3.11.1}
