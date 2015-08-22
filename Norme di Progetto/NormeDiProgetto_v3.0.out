@@ -68,32 +68,31 @@
 \BOOKMARK [3][-]{subsubsection.5.6.2}{Nomi e norme stilistiche}{subsection.5.6}% 68
 \BOOKMARK [3][-]{subsubsection.5.6.3}{Ricorsione}{subsection.5.6}% 69
 \BOOKMARK [3][-]{subsubsection.5.6.4}{Intestazione File}{subsection.5.6}% 70
-\BOOKMARK [3][-]{subsubsection.5.6.5}{Strumenti}{subsection.5.6}% 71
-\BOOKMARK [2][-]{subsection.5.7}{Procedure per l'utilizzo del repository}{section.5}% 72
-\BOOKMARK [3][-]{subsubsection.5.7.1}{Creare una milestone}{subsection.5.7}% 73
-\BOOKMARK [3][-]{subsubsection.5.7.2}{Creare un ticket}{subsection.5.7}% 74
-\BOOKMARK [3][-]{subsubsection.5.7.3}{Eseguire il compito}{subsection.5.7}% 75
-\BOOKMARK [3][-]{subsubsection.5.7.4}{Verifica del compito}{subsection.5.7}% 76
-\BOOKMARK [3][-]{subsubsection.5.7.5}{Chiudere una milestone}{subsection.5.7}% 77
-\BOOKMARK [1][-]{section.6}{Ambiente di Lavoro}{}% 78
-\BOOKMARK [2][-]{subsection.6.1}{Coordinamento}{section.6}% 79
-\BOOKMARK [3][-]{subsubsection.6.1.1}{Software di versionamento}{subsection.6.1}% 80
-\BOOKMARK [3][-]{subsubsection.6.1.2}{Condivisione dei file}{subsection.6.1}% 81
-\BOOKMARK [3][-]{subsubsection.6.1.3}{Google Calendar}{subsection.6.1}% 82
-\BOOKMARK [3][-]{subsubsection.6.1.4}{Mozilla Thunderbird}{subsection.6.1}% 83
-\BOOKMARK [2][-]{subsection.6.2}{Pianificazione}{section.6}% 84
-\BOOKMARK [3][-]{subsubsection.6.2.1}{Modalit\340 di utilizzo}{subsection.6.2}% 85
-\BOOKMARK [2][-]{subsection.6.3}{Strumenti per la documentazione}{section.6}% 86
-\BOOKMARK [3][-]{subsubsection.6.3.1}{Stesura documenti}{subsection.6.3}% 87
-\BOOKMARK [3][-]{subsubsection.6.3.2}{Verifica}{subsection.6.3}% 88
-\BOOKMARK [3][-]{subsubsection.6.3.3}{Diagrammi UML}{subsection.6.3}% 89
-\BOOKMARK [2][-]{subsection.6.4}{Strumenti di sviluppo}{section.6}% 90
-\BOOKMARK [3][-]{subsubsection.6.4.1}{Ambiente}{subsection.6.4}% 91
-\BOOKMARK [3][-]{subsubsection.6.4.2}{Framework}{subsection.6.4}% 92
-\BOOKMARK [3][-]{subsubsection.6.4.3}{Linee Guida}{subsection.6.4}% 93
-\BOOKMARK [2][-]{subsection.6.5}{Strmenti di codifica}{section.6}% 94
-\BOOKMARK [3][-]{subsubsection.6.5.1}{Stesura}{subsection.6.5}% 95
-\BOOKMARK [2][-]{subsection.6.6}{Strumenti di Verifica}{section.6}% 96
-\BOOKMARK [3][-]{subsubsection.6.6.1}{Ambiente Desktop}{subsection.6.6}% 97
-\BOOKMARK [3][-]{subsubsection.6.6.2}{Ambiente Mobile}{subsection.6.6}% 98
-\BOOKMARK [3][-]{subsubsection.6.6.3}{Ambiente Server}{subsection.6.6}% 99
+\BOOKMARK [2][-]{subsection.5.7}{Procedure per l'utilizzo del repository}{section.5}% 71
+\BOOKMARK [3][-]{subsubsection.5.7.1}{Creare una milestone}{subsection.5.7}% 72
+\BOOKMARK [3][-]{subsubsection.5.7.2}{Creare un ticket}{subsection.5.7}% 73
+\BOOKMARK [3][-]{subsubsection.5.7.3}{Eseguire il compito}{subsection.5.7}% 74
+\BOOKMARK [3][-]{subsubsection.5.7.4}{Verifica del compito}{subsection.5.7}% 75
+\BOOKMARK [3][-]{subsubsection.5.7.5}{Chiudere una milestone}{subsection.5.7}% 76
+\BOOKMARK [1][-]{section.6}{Ambiente di Lavoro}{}% 77
+\BOOKMARK [2][-]{subsection.6.1}{Coordinamento}{section.6}% 78
+\BOOKMARK [3][-]{subsubsection.6.1.1}{Software di versionamento}{subsection.6.1}% 79
+\BOOKMARK [3][-]{subsubsection.6.1.2}{Condivisione dei file}{subsection.6.1}% 80
+\BOOKMARK [3][-]{subsubsection.6.1.3}{Google Calendar}{subsection.6.1}% 81
+\BOOKMARK [3][-]{subsubsection.6.1.4}{Mozilla Thunderbird}{subsection.6.1}% 82
+\BOOKMARK [2][-]{subsection.6.2}{Pianificazione}{section.6}% 83
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Modalit\340 di utilizzo}{subsection.6.2}% 84
+\BOOKMARK [2][-]{subsection.6.3}{Strumenti per la documentazione}{section.6}% 85
+\BOOKMARK [3][-]{subsubsection.6.3.1}{Stesura documenti}{subsection.6.3}% 86
+\BOOKMARK [3][-]{subsubsection.6.3.2}{Verifica}{subsection.6.3}% 87
+\BOOKMARK [3][-]{subsubsection.6.3.3}{Diagrammi UML}{subsection.6.3}% 88
+\BOOKMARK [2][-]{subsection.6.4}{Strumenti di sviluppo}{section.6}% 89
+\BOOKMARK [3][-]{subsubsection.6.4.1}{Ambiente}{subsection.6.4}% 90
+\BOOKMARK [3][-]{subsubsection.6.4.2}{Framework}{subsection.6.4}% 91
+\BOOKMARK [3][-]{subsubsection.6.4.3}{Linee Guida}{subsection.6.4}% 92
+\BOOKMARK [2][-]{subsection.6.5}{Strmenti di codifica}{section.6}% 93
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Stesura}{subsection.6.5}% 94
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Verifica}{subsection.6.5}% 95
+\BOOKMARK [3][-]{subsubsection.6.5.3}{Ambiente Desktop}{subsection.6.5}% 96
+\BOOKMARK [3][-]{subsubsection.6.5.4}{Ambiente Mobile}{subsection.6.5}% 97
+\BOOKMARK [3][-]{subsubsection.6.5.5}{Ambiente Server}{subsection.6.5}% 98
