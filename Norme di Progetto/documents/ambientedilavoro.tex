@@ -1,50 +1,130 @@
 \section{Ambiente di Lavoro} \label{ambientedilavoro}
 \subsection{Coordinamento}
-Il coordinamento del gruppo avverrà tramite i seguenti strumenti:
+\subsubsection{Software di versionamento}
+E' stato scelto di utilizzare GitHub$_G$ come software di versionamento. I motivi principali della scelta sono:
 \begin{itemize}
-	\item \textbf{Account Google}:
-	\begin{itemize}
-		\item[-] Mailing List;
-		\item[-] Google Calendar$_G$.
-	\end{itemize}
+	\item \textbf{Flessibilità:} Git$_G$ è un repository$_G$ distribuito con la possibilità di commit$_G$ e revert locali;
+	\item \textbf{Esperienza del team:} Git$_G$ è già stato usato da alcuni componenti del gruppo.
+\end{itemize}
+Inoltre Git$_G$ mette a disposizione un'interfaccia grafica (SmartGit$_G$) e un sistema di integrazione con WebStorm.
+Nella sezione 5.7 del documento corrente sono specificate alcune procedure di utilizzo del repository$_G$.
+
+\subsubsection{Condivisione dei file}
+
+\paragraph{6.1.2.1 Mega \\}
+Per la condivisione delle esportazioni delle Virtual Machine$_G$ con Ubuntu Desktop$_G$ è stato scelto il servizio cloud$_G$ Mega, che dà a disposizione 50GB di spazio gratuito.
+
+\paragraph{6.1.2.2 Google Drive\\}
+Google Drive$_G$ permette una facile condivisione di documenti informali e di tutte quelle risorse utili al progetto che non sono soggette a versionamento. \\
+Per sfruttare nel modo migliore le potenzialità della piattaforma si raccomanda di attenersi alla suddivisione intuitiva in cartelle dei file e di utilizzare, quando possibile, formati compatibili con gli editor$_G$ testuali del sito.
+
+\subsubsection{Google Calendar}
+Google Calendar$_G$ viene utilizzato come promemoria per le date degli incontri e per segnalare le fasce orarie in cui un membro non è disponibile in caso di impegni settimanali inderogabili.
+
+\subsubsection{Mozilla Thunderbird}
 	E' stato scelto Mozilla Thunderbird$_G$ come client di posta, in quanto è uno strumento utilizzato quotidianamente da molti componenti del gruppo, e inoltre è già presente nell'installazione base di Ubuntu desktop. Questo client, permette l'installazione di un plugin a noi necessario: Lightning$_G$. Quest'ultimo verrà utilizzato per sincronizzare i calendari di Google Calendar$_G$.
-	\item \textbf{GitHub$_G$}:
-	\begin{itemize}
-		\item[-] Versionamento di GitHub$_G$;
-		\item[-] Interfaccia Grafica SmartGit$_G$;
-		\item[-] Integrazione di GitHub$_G$ in WebStorm;
-		\item[-] Ticketing.
-	\end{itemize}
-\end{itemize}
-\subsection{Ambiente Documentale}
+
+\subsection{Pianificazione}
+Per pianificare le attività legate allo sviluppo del progetto e la gestione delle risorse si è scelto di utilizzare \textbf{ProjectLibre}.
+ProjectLibre è un programma open source per il project management basato su
+Java$_G$ e quindi eseguibile su ogni sistema operativo. Le principali caratteristiche di tale software sono:
 \begin{itemize}
-	\item \textbf{Documenti}:\\
-	Per la stesura dei documenti si è scelto di usare il linguaggio di markup$_G$ \LaTeX. Il team \gruppo\ si avvarrà del software \textit{TexMaker} versione 4.4.1 per la redazione, la compilazione e l'esportazione dei file in \LaTeX;
-	\item \textbf{Diagrammi UML}:
-	Per la creazione dei diagrammi UML$_G$ è stato scelto di usare il software \textit{Astah} versione community 6.9.0, disponibile per il sistema operativo Linux installato nella Virtual Machine$_G$.
+	\item Portabilità, essendo basto su Java$_G$;
+	\item Open-source;
+	\item Genera diagrammi Gantt$_G$;
+	\item Genera automaticamente diagrammi Program Evaluation and Review Technique(PERT$_G$), a partire dal Gantt$_G$;
+	\item Salvataggio su file XML$_G$: essendo un file testuale è possibile effettuare il merge$_G$ di più file in caso di conflitti sul repository$_G$.
+
 \end{itemize}
-\subsection{Linee Guida}
-La linea guida grafica che si è scelto di utilizzare nella realizzazione del progetto Premi è quella ispirata da Google del Material Design$_G$. Questo in accordo con i desideri del Proponente \Zucchetti.
-\subsection{Framework}
-Come emerso dalla riunione con il proponente (vedi documento allegato \textit{Verbale18-12-2014\_v2.0.pdf}), è stato scelto di utilizzare \textit{MeteorJS} come framework open-source$_G$ per JavaScript$_G$. All'interno questo framework integra il database MongoDB$_G$.
 
-\subsection{Ambiente di Sviluppo}
+\subsubsection{Modalità di utilizzo}
+Il \ruoloResponsabile{} ha il compito di creare un progetto per ogni macro-fase indicata nella sezione Pianificazione delle attività del Piano di Progetto v2.0 e procedere nel modo seguente:
 
+\begin{enumerate}
+	\item Creare un calendario lavorativo per il progetto;
+	\item Inserire le attività da svolgere e le corrispondenti sotto-attività;
+	\item Inserire le dipendenze temporali tra le attività;
+	\item Inserire i periodi di slack dove previsto;
+	\item Inserire la milestoneG per indicare il termine previsto delle attività;
+	\item Creare le risorse e suddividerle adeguatamente tra le attività definite.
+\end{enumerate}
+
+
+\subsection{Strumenti per la documentazione}
+\subsubsection{Stesura documenti}
+Per la stesura dei documenti si è scelto di usare il linguaggio di markup$_G$ \LaTeX.
+Il motivo principale che ha portato a questa scelta è la facilità di separazione tra contenuto e formattazione: con \LaTeX è possibile definire l’aspetto delle pagine in un file template condiviso da tutti i documenti, cosa che non sarebbe stata possibile optando per altre soluzioni come Microsoft Office o LibreOffice. Inoltre permette la definizione di funzioni e variabili globali garantendo una formattazione del testo uniforme a tutti i documenti e la scrittura del contenuto più corretta da un punto di vista semantico.
+Il team \gruppo\ si avvarrà del software \textit{TexMaker} versione 4.4.1 per la redazione, la compilazione e l'esportazione dei file in \LaTeX;
+
+\subsubsection{Verifica}
+Per il processo di verifica dei documenti si è scelto di utilizzare i seguenti strumenti:
+\begin{itemize}
+
+\item \textbf{Correttore automatico di TeXMaker$_G$:} l'ambiente grafi TeXMaker$_G$, già utilizzato per la stesura dei documenti, integra i dizionari di OpenOffice.org e segnala i potenziali errori ortografici presenti nel testo;
+
+\item \textbf{404TrackerDB}: Strumento software realizzato dal gruppo \gruppo\ che contiene ed associa:
+	\begin{itemize}
+		\item Requisiti individuati durante l'analisi;
+		\item Fonti di requisiti individuate, inclusi anche i casi d'uso.
+	\end{itemize}
+	Permette inoltre di esportare automaticamente:
+	\begin{itemize}
+		\item Codice \LaTeX\ per la descrizione dei casi d'uso;
+		\item Tabella in \LaTeX\ per il tracciamento fonti-requisiti.
+	\end{itemize}
+
+\end{itemize}
+\subsubsection{Diagrammi UML}
+Per la creazione dei diagrammi UML$_G$ è stato scelto di usare il software \textit{Astah} versione community 6.9.0, disponibile per il sistema operativo Linux installato nella Virtual Machine$_G$.
+
+\subsection{Strumenti di sviluppo}
+
+\subsubsection{Ambiente}
 \begin{itemize}
 	\item \textbf{Virtual Machine$_G$}:
 	\smallbreak
 	Come ambiente di sviluppo si è scelto di creare una macchina virtuale$_G$ (VM) con Ubuntu Desktop 14.04, per avere a disposizione un ambiente uniforme per tutti i componenti del gruppo \gruppo. La VM sarà disponibile per il download ai componenti del team nell'account Mega$_G$
 	\\ \\
-	\textbf{Virtual Box versione 4.3.20}: è il software utilizzato per far girare la macchina virtuale sui personal computer de vari componenti del gruppo di lavoro;
+	\item \textbf{Virtual Box versione 4.3.20}: è il software utilizzato per far girare la macchina virtuale sui personal computer de vari componenti del gruppo di lavoro;
 	\item \textbf{Server dedicato}:
 	\gruppo\ si avvale dell'uso di un server dedicato gestito da un applicazione creata dai membri del team di sviluppo denominata 404TrackerDB. Questo strumento servirà a contenere ed associare i requisiti individuati in fase di analisi;
-    \item \textbf{WebStorm versione 9.0}: WebStrom è l'IDE che verrà utilizzato per lo sviluppo del progetto. Nasce come IDE per applicazioni web, quindi basate su HTML$_G$, CSS$_G$ e JavaScript$_G$. E' stato scelto principalmente perchè supporta nativamente lo sviluppo su MeteorJS$_G$ e integra git$_G$ per semplificare i commit$_G$ sul repository$_G$. Ogni membro del gruppo ha installato sul suo computer la versione per studenti dell'IDE che è disponibile in licenza gratuita per un anno associando il proprio account alla e-mail universitaria personale;
-    
     \item \textbf{Inkscape versione 0.48}: Software scelto su suggerimento del \textit{Proponente} per la creazione dei file SVG$_G$.
 \end{itemize}
 
-\subsection{Ambiente di Verifica}
-Gli strumenti di cui il team si avvarrà in fase di verifica sono descritti alla sezione 2.4.1 del documento \textit{PianoDiQualifica\_v2.0.pdf}.
+\subsubsection{Framework}
+Come emerso dalla riunione con il proponente (vedi documento allegato \textit{Verbale18-12-2014\_v2.0.pdf}), è stato scelto di utilizzare \textit{MeteorJS} come framework open-source$_G$ per JavaScript$_G$. All'interno questo framework integra il database MongoDB$_G$.
+	
+\subsubsection{Linee Guida}
+La linea guida grafica che si è scelto di utilizzare nella realizzazione del progetto Premi è quella ispirata da Google del Material Design$_G$. Questo in accordo con i desideri del Proponente \Zucchetti.
+
+
+\subsection{Strmenti di codifica}
+\subsubsection{Stesura}
+    Per lo sviluppo del progetto si è scelto di utilizzare L’IDE JetBrains WebStorm 7.0.3. Questo strumento nasce come IDE per applicazioni web, quindi basate su HTML$_G$, CSS$_G$ e JavaScript$_G$. E' stato scelto principalmente perchè supporta nativamente lo sviluppo su MeteorJS$_G$ e integra git$_G$ per semplificare i commit$_G$ sul repository$_G$. Ogni membro del gruppo ha installato sul suo computer la versione per studenti dell'IDE che è disponibile in licenza gratuita per un anno associando il proprio account alla e-mail universitaria personale; 
+
+
+\subsection{Strumenti di Verifica}
+Per lo svolgimento del processo di verifica faremo uso dei seguenti strumenti:
+\begin{itemize}
+	\item Strumenti W3C$_G$ (\href{www.w3.org}{www.w3.org}) per la validazione:
+	    \begin{itemize}
+	    	\item \textbf{validatore HTML5$_G$} (\href{http://validator.w3.org}{http://validator.w3.org});
+	    	\item \textbf{validatore CSS$_G$}
+	    	(\href{http://jigsaw.w3.org/css-validator/}{http://jigsaw.w3.org/css-validator/}).
+	    \end{itemize}
+	
+	\item Strumenti per debugging$_G$ HTML$_G$, CSS$_G$ e JavaScript$_G$ messi a disposizione dai vari browser$_G$:
+	    \begin{itemize}
+	    	\item \textbf{Chrome Developer Tools} (\href{https://developers.google.com/chrome-developer-tools}
+	    	{https://developers.google.com/chrome-developer-tools});
+	    	\item \textbf{Firebug}
+	    	(\href{http://getfirebug.com/}{http://getfirebug.com/}).
+	    \end{itemize}
+	\item \textbf{JSLint} Ambiente di test (\href{http://www.junit.org}{http://www.junit.org}): tool per la validazione di codice JavaScript$_G$;
+	\item \textbf{JUnit} (\href{http://www.junit.org}{http://www.junit.org}): semplice framework per eseguire test ripetibili;
+	\item \textbf{BrowserStack} (\href{http://www.browserstack.com/}{http://www.browserstack.com/}):  per eseguire il test comparato sui vari browser$_G$;
+	\item \textbf{WebStorm} (\href{https://www.jetbrains.com/webstorm/}{https://www.jetbrains.com/webstorm/}): IDE JavaScript$_G$ scelto come ambiente di sviluppo.
+\end{itemize}
 Il gruppo dovrà inoltre avere a disposizione i seguenti sistemi operativi:
 
 \subsubsection{Ambiente Desktop}

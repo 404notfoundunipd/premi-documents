@@ -1,5 +1,4 @@
 \select@language {italian}
-\select@language {italian}
 \contentsline {section}{\numberline {1}Introduzione}{4}{section.1}
 \contentsline {subsection}{\numberline {1.1}Scopo del documento}{4}{subsection.1.1}
 \contentsline {subsection}{\numberline {1.2}Utente finale del prodotto}{4}{subsection.1.2}
@@ -7,27 +6,25 @@
 \contentsline {subsection}{\numberline {1.4}Come leggere il manuale}{4}{subsection.1.4}
 \contentsline {subsection}{\numberline {1.5}Come segnalare problemi e malfunzionamenti}{4}{subsection.1.5}
 \contentsline {subsection}{\numberline {1.6}Glossario}{4}{subsection.1.6}
-\contentsline {subsection}{\numberline {1.7}Riferimenti}{4}{subsection.1.7}
-\contentsline {subsubsection}{\numberline {1.7.1}Informativi}{4}{subsubsection.1.7.1}
-\contentsline {section}{\numberline {2}Descrizione generale}{5}{section.2}
-\contentsline {subsection}{\numberline {2.1}Interfaccia grafica e layout}{5}{subsection.2.1}
-\contentsline {section}{\numberline {3}Istruzioni per l'uso}{5}{section.3}
-\contentsline {subsection}{\numberline {3.1}Requisiti di sistema}{5}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Guida all'installazione???}{5}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Primo accesso}{5}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Pannello di controllo dell'utente}{7}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Creare una nuova presentazione}{8}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Editor}{9}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Frame editor}{9}{subsection.3.7}
-\contentsline {subsubsection}{\numberline {3.7.1}Aggiunta frame}{9}{subsubsection.3.7.1}
-\contentsline {subsubsection}{\numberline {3.7.2}Aggiunta elemento forma}{9}{subsubsection.3.7.2}
-\contentsline {subsubsection}{\numberline {3.7.3}Aggiunta testo}{10}{subsubsection.3.7.3}
-\contentsline {subsubsection}{\numberline {3.7.4}Modifica degli elementi}{10}{subsubsection.3.7.4}
-\contentsline {subsection}{\numberline {3.8}Infographic editor}{12}{subsection.3.8}
-\contentsline {subsection}{\numberline {3.9}Trails editor}{12}{subsection.3.9}
-\contentsline {subsubsection}{\numberline {3.9.1}Creazione percorso presentativo}{13}{subsubsection.3.9.1}
-\contentsline {subsection}{\numberline {3.10}Avvio di una presentazione}{15}{subsection.3.10}
-\contentsline {subsection}{\numberline {3.11}Gestione dati account}{15}{subsection.3.11}
-\contentsline {subsection}{\numberline {3.12}Errori e loro cause}{15}{subsection.3.12}
-\contentsline {subsection}{\numberline {3.13}Appendice}{16}{subsection.3.13}
-\contentsline {subsubsection}{\numberline {3.13.1}Glossario}{16}{subsubsection.3.13.1}
+\contentsline {subsection}{\numberline {1.7}Riferimenti}{5}{subsection.1.7}
+\contentsline {subsubsection}{\numberline {1.7.1}Informativi}{5}{subsubsection.1.7.1}
+\contentsline {section}{\numberline {2}Descrizione generale}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Interfaccia grafica e layout}{6}{subsection.2.1}
+\contentsline {section}{\numberline {3}Istruzioni per l'uso}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Requisiti di sistema}{6}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Primo accesso}{6}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Pannello di controllo dell'utente}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Creare una nuova presentazione}{9}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Editor$_G$}{10}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Frame$_G$ editor$_G$}{10}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}Aggiunta frame$_G$}{10}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}Aggiunta elemento forma}{10}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}Aggiunta testo}{11}{subsubsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.4}Modifica degli elementi}{11}{subsubsection.3.6.4}
+\contentsline {subsection}{\numberline {3.7}Infographic editor$_G$}{13}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Trails editor$_G$}{13}{subsection.3.8}
+\contentsline {subsubsection}{\numberline {3.8.1}Creazione percorso presentativo}{14}{subsubsection.3.8.1}
+\contentsline {subsection}{\numberline {3.9}Avvio di una presentazione}{15}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10}Errori e loro cause}{18}{subsection.3.10}
+\contentsline {subsection}{\numberline {3.11}Appendice}{20}{subsection.3.11}
+\contentsline {subsubsection}{\numberline {3.11.1}Glossario}{20}{subsubsection.3.11.1}
