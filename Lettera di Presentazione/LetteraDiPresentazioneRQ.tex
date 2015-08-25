@@ -1,0 +1,113 @@
+\documentclass[a4paper,10pt]{letter}
+\usepackage[a4paper,top=3cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{color} 
+\usepackage{hyperref}
+\usepackage{tabularx}
+%\pagestyle{fancy}
+
+\newcommand{\gruppo}{404NotFound}
+\newcommand{\premi}{Premi: Better Than Prezi}
+\newcommand{\mailGruppo}{404notfound.unipd@gmail.com}
+\newcommand{\uni}{Universit\`{a} degli studi di Padova}
+\newcommand{\uniAA}{2014/2015}
+\newcommand{\Cardin}{Prof. Riccardo Cardin}
+\newcommand{\Vardanega}{Prof. Tullio Vardanega}
+\newcommand{\Zucchetti}{Zucchetti S.p.A.}
+
+\newcommand{\docsImg}{./imgs/}
+\newcommand{\VeFe}{Vegro Federico}
+\newcommand{\CaMa}{Camborata Marco}
+\newcommand{\GoIs}{Gobbo Ismaele}
+\newcommand{\DeEn}{De Lazzari Enrico}
+\newcommand{\CoMa}{Cossu Mattia}
+\newcommand{\ReAn}{Rettore Andrea}
+\newcommand{\MaMo}{Manuto Monica}
+
+\newcommand{\licenza}{Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.}
+
+
+%	Logo intestazione
+\lhead{\includegraphics[scale=0.1]{../logo/logo404.png}}
+\hypersetup
+{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=blue,
+	citecolor=blue
+}
+%
+
+\cfoot{
+\uni \ - \uniAA \\
+\href{mailto:\mailGruppo}{\mailGruppo}\\
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\address{
+			\Vardanega\\
+				Università degli Studi di Padova\\
+				%Dipartimento di Matematica Pura e Applicata\\
+				Via Trieste 63\\
+				35121 Padova  
+		}
+\signature{
+Cossu Mattia \\	
+il Responsabile del gruppo\\
+\gruppo. \\
+ }
+ 	
+\begin{document}	
+	\begin{letter}{Oggetto: \textbf{Consegna Revisione di Qualifica (\textit{RQ})}}
+	\opening {Egregio \Vardanega ,}
+	Con la presente, il gruppo \textit{\gruppo} costituito dagli studenti: 
+%begin{table}[h]
+		\begin{center}
+		%\rowcolors{2}{light}{}
+		%\begin{tabular}{p{0.30\textwidth} p{0.15\textwidth} p{0.45\textwidth}}	
+		\begin{tabular}{l c l c}					
+		\CaMa & 1004964 & marco.camborata@studenti.unipd.it \\
+		\CoMa & 1080862 & mattia.cossu@studenti.unipd.it\\
+		\DeEn & 610915  & enrico.delazzari@studenti.unipd.it\\ 
+		\GoIs & 1028902 & ismaele.gobbo@studenti.unipd.it\\
+		\MaMo & 615401  & monica.manuto@studenti.unipd.it\\
+		\ReAn & 1053898 & andrea.rettore@studenti.unipd.it\\
+		\VeFe & 1009448 & federico.vegro@studenti.unipd.it\\
+		\end{tabular}
+		\end{center}
+	intende inviarLe i documenti necessari alla presentazione della Revisione di Qualifica (\textit{RQ}) in data 2015-08-22.\\
+    Alla presente si allegano i seguenti documenti:
+			\begin{itemize}
+				\item \textbf{Interni}
+					\begin{itemize}
+						\item Norme di Progetto - v3.0;
+						\item Studio di Fattibilità - v1.0;
+					\end{itemize}
+				\item \textbf{Esterni}
+					\begin{itemize}
+						\item Analisi dei Requisiti - v3.0;
+						\item Piano di Qualifica - v3.0;
+						\item Piano di Progetto - v3.0;
+						\item Specifica Tecnica - v2.0;	
+						\item Definizione di Prodotto - v1.0
+						\item Manuale Utente - v.1.0									
+						\item Glossario - v3.0.
+						\item Verbale riunione esterna del 2014-12-18;	
+					\end{itemize}
+			\end{itemize} 
+		I dettagli di analisi del prodotto, nonché dei costi previsti, sono trattati in maniera approfondita nei documenti allegati. Rimaniamo a Sua completa disposizione per ogni ulteriore chiarimento.\\ 
+		La ringraziamo per la Sua cortese attenzione.
+\thispagestyle{fancy}
+\closing{Distinti saluti.}
+%	\vspace{-5}
+   \end{letter}
+\end{document}
+
+
