@@ -263,6 +263,45 @@ I campi andranno aggiornati ad ogni modifica del codice. Cercare di adeguarsi il
 	\end{itemize}
 \end{itemize}
 
+\subsubsection{Commenti nel codice}
+Lo scopo di ogni metodo e ogni attributo di classi, view e controller dovrebbe essere comprensibile anche ad un programmatore esterno al progetto.
+Quando metodi e attributi non sono di facile comprensione, inserire dei commenti che ne descrivano il funzionamento, l'utilizzo, e le ragioni della loro creazione. Servirsi di commenti "inline" e blocchi di commenti come da esempio:
+
+\color{blue}\begin{lstlisting}[frame=single]
+angular.module("esempio.commenti")
+	.factory('Classe', [
+		function() {
+            return klass(function () {
+                this.info = {
+                    campo1 : "stringa", // scopo dell'attributo
+                    campo2 : 0, // scopo dell'attributo
+                };
+            })        
+            .methods({
+                /*  metodoDifficile
+                    perche' questo metodo e' stato creato?
+                    cosa fa? come lo fa?*/
+                metodoDifficile : function(field,value){
+                    if(field == 'id'){
+                        this.info._id = value;
+                    }
+                    if(this.info.hasOwnProperty(field)){
+                        this.info[field] = value;
+                    }
+                    return this; // restituisce un riferimento all'oggetto
+                },
+                /* metodoSemplice
+                    questo metodo e' di facile comprensione e 
+                    non andrebbe commentato */
+                metodoSemplice : function(){
+                    return campo1;
+                },
+\end{lstlisting}\color{black}
+
+\subsubsection{Formattazione del Codice}
+Per la formattazione del codice utilizzare la formattazione automatica del software WebStorm$_G$, ad ogni modifica apportata e ad ogni nuovo file aggiunto.
+
+
 \subsection{Procedure per l'utilizzo del repository} \label{procedureticket}
 Vengono qui elencate le norme per l'utilizzo degli strumenti di sviluppo del sito web GitHub$_G$. \\
 Per una guida completa all'uso di GitHub$_G$ si consiglia il sito: \\
