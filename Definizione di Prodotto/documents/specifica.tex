@@ -1,0 +1,19 @@
+\clearpage
+\section{Specifica componenti}
+Vengono qui descritti i metodi e gli attributi di ogni componente dell'applicazione. \\
+\subsection{Template}
+Componenti marcati come \textit{template} sono speciali pagine HTML che non possiedono metodi e attributi propri, ma utilizzano quelli forniti dal loro controller dedicato attraverso lo \textit{\$scope} (l'oggetto di AngularJS$_G$ che funge da ViewModel$_G$); per questo motivo saranno solamente descritti tramite note e raccomandazioni che specificano come essi devano essere costruiti.
+\subsection{Servizi di AngularJS$_G$}
+I servizi di AngularJS sono oggetti intercambiabili che vengono collegati tra loro attraverso il pattern Dependency Injection$_G$. Sono quasi sempre dei Singleton$_G$, e vengono istanziati solo quando un componente dipende da loro.
+I principali servizi utilizzati per lo sviluppo di questa applicazione sono:
+\begin{itemize}
+\item \textbf{\$scope} è il collegamento tra i controller e le view dell'applicazione. Il controller modella lo \$scope con attributi e metodi pubblici, che la view utilizza per mostrare e modificare il database in tempo reale;
+\item \textbf{\$rootScope} è lo \$scope "radice" da cui discendono tutti gli altri \$scope dell'applicazione;
+\item \textbf{\$meteor} è un servizio creato da Urigo: Angular-Meteor$_G$ per permettere di accedere alle funzionalità di Meteor all'interno dei moduli di AngularJS;
+\item \textbf{\$state} rappresenta lo stato, o la posizione, in cui l'utente si trova all'interno dell'applicazione. Viene fornito dal package esterno AngularUI Router per AngularJS, che vede il re-indirizzamento dell'utente all'interno dell'applicazione come lo spostamento attraverso una macchina a stati;
+\item \textbf{\$stateProvider} è il servizio dentro cui vengono registrati gli stati dell'applicazione;
+\item \textbf{\$stateParams} è una lista di parametri passati dallo stato precedente a quello corrente;
+\item \textbf{\$location} rende l'URL nella barra degli indirizzi del browser disponibile all'applicazione: modifiche all'URL nella barra degl indirizzi si riflettono dentro \$location e viceversa;
+\item \textbf{\$locationProvider} permette la configurazione del servizio \$locationProvider.
+
+\end{itemize}
