@@ -7,6 +7,31 @@
 \end{center}
 \end{figure}
 
+%-------  diagramma di un template %
+\subsubsection{premi/client/editor/views/editor.ng}
+
+\begin{description}
+%-------  descrizione del template%
+\item[Descrizione] \hfill
+	Template della vista associata allo \textit{\$scope} di \textit{editorCtrl}. Fornisce uno scheletro per le altre viste dedicate alla gestione dell'editor. 
+\end{description}
+
+
+\subsubsection{premi/client/editor/controllers/editorCtrl}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.40]{img/diacla/editorCtrl.png}
+\caption{Diagramma della classe premi/client/editor/controllers/editorCtrl}
+\end{center}
+\end{figure}
+
+\begin{description}
+%-------  descrizione della classe%
+\item[Descrizione] \hfill
+	Questo controller non è al momento provvisto di funzionalità. Si appoggia alla vista associata \textit{editor.ng}, la quale funge da scheletro per le viste necessarie alla gestione dei vari editor a disposizione dell'utente. 
+\end{description}
+
+
 \subsubsection{premi/client/editor/lib/GObject}
 \begin{figure}[h]
 \begin{center}
@@ -417,8 +442,18 @@
 \end{description}
 
 \begin{description}
+		\item[\textbf{\color{blue}+ getSelectedGOId() : String			}] \hfill
+			restituisce l'id dell'oggetto grafico selezionato.
+\end{description}
+
+\begin{description}
 		\item[\textbf{\color{blue}+ getSelectedGOType() : String			}] \hfill
 			restituisce il tipo dell'oggetto grafico selezionato.
+\end{description}
+
+\begin{description}
+		\item[\textbf{\color{blue}+ getSelectedGO() : String			}] \hfill
+			restituisce l'oggetto grafico selezionato.
 \end{description}
 
 \begin{description}
