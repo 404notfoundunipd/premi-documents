@@ -1,0 +1,1559 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  30 AUG 2015 22:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**ManualeUtente_v1.0.tex
+(./ManualeUtente_v1.0.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (../style.sty
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2014/03/24 3.9k The Babel package
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel-italian/italian.ldf
+Language: italian 2014/03/29 v1.3k Italian support from the babel system
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2014/03/24 3.9k Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\it@lettering=\count88
+\it@doublequoteactive=\count89
+\it@ISOcompliance=\count90
+\Virgola=\count91
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count92
+)
+\etb@tempcnta=\count93
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2014/04/30 v1.2b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/utf8x.def
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucs.sty
+Package: ucs 2013/05/11 v2.2 UCS: Unicode input support
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-global.def
+File: uni-global.def 2013/05/13 UCS: Unicode global data
+)
+\uc@secondtry=\count94
+\uc@combtoks=\toks16
+\uc@combtoksb=\toks17
+\uc@temptokena=\toks18
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+\lst@mode=\count95
+\lst@gtempboxa=\box26
+\lst@token=\toks20
+\lst@length=\count96
+\lst@currlwidth=\dimen104
+\lst@column=\count97
+\lst@pos=\count98
+\lst@lostspace=\dimen105
+\lst@width=\dimen106
+\lst@newlines=\count99
+\lst@lineno=\count100
+\lst@maxwidth=\dimen107
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count101
+\lst@skipnumbers=\count102
+\lst@framebox=\box27
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen108
+\captionmargin@=\dimen109
+\captionwidth=\dimen110
+\caption@tempdima=\dimen111
+\caption@indent=\dimen112
+\caption@parindent=\dimen113
+\caption@hangindent=\dimen114
+)
+\c@ContinuedFloat=\count103
+Package caption Info: listings package is loaded.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen115
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen116
+\subfiglabelskip=\skip46
+\c@subfigure=\count104
+\c@lofdepth=\count105
+\c@subtable=\count106
+\c@lotdepth=\count107
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2014/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2014/04/23 v1.1a Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 137.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count108
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2013/01/28 v1.2l Refers to last page's name (HMM; JPG)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count109
+\Gm@cntv=\count110
+\c@Gm@tempcnt=\count111
+\Gm@bindingoffset=\dimen117
+\Gm@wd@mp=\dimen118
+\Gm@odd@mp=\dimen119
+\Gm@even@mp=\dimen120
+\Gm@layoutwidth=\dimen121
+\Gm@layoutheight=\dimen122
+\Gm@layouthoffset=\dimen123
+\Gm@layoutvoffset=\dimen124
+\Gm@dimlist=\toks21
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen125
+\Gin@req@width=\dimen126
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen127
+\Hy@linkcounter=\count112
+\Hy@pagecounter=\count113
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count114
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count115
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen128
+\Fld@menulength=\count116
+\Field@Width=\dimen129
+\Fld@charsize=\dimen130
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count117
+\c@Item=\count118
+\c@Hfootnote=\count119
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count120
+\c@bookmark@seq@number=\count121
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip58
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count122
+\LTcapwidth=\dimen131
+\LT@head=\box28
+\LT@firsthead=\box29
+\LT@foot=\box30
+\LT@lastfoot=\box31
+\LT@cols=\count123
+\LT@rows=\count124
+\c@LT@tables=\count125
+\c@LT@chunks=\count126
+\LT@p@ftn=\toks22
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 101.
+)
+(./ManualeUtente_v1.0.aux)
+\openout1 = `ManualeUtente_v1.0.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Info: Redefining \it@ocap on input line 22.
+LaTeX Info: Redefining \it@ccap on input line 22.
+
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting 
+italian.ldf    on input line 22.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+)
+\c@lstlisting=\count127
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count128
+\scratchdimen=\dimen132
+\scratchbox=\box32
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen133
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks24
+)
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 22.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(80.0pt, 437.50787pt, 80.0pt)
+* v-part:(T,H,B)=(42.67912pt, 688.5567pt, 113.81102pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=437.50787pt
+* \textheight=688.5567pt
+* \oddsidemargin=7.73001pt
+* \evensidemargin=7.73001pt
+* \topmargin=-66.59087pt
+* \headheight=56.9055pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring ON on input line 22.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count134
+)
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
+
+(./ManualeUtente_v1.0.out) (./ManualeUtente_v1.0.out)
+\@outlinefile=\write3
+\openout3 = `ManualeUtente_v1.0.out'.
+
+ (./documents/first.tex
+<../logo/logo404_Extends.png, id=120, 1027.84pt x 433.62pt>
+File: ../logo/logo404_Extends.png Graphic file (type png)
+
+<use ../logo/logo404_Extends.png>
+Package pdftex.def Info: ../logo/logo404_Extends.png used on input line 16.
+(pdftex.def)             Requested size: 359.74939pt x 151.76927pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 26.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 26.
+ [1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../logo
+/logo404_Extends.png>])
+(./documents/regModifiche.tex
+Underfull \vbox (badness 10000) detected at line 28
+ []
+
+) <../logo/logo404.png, id=129, 1027.84pt x 402.50375pt>
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 26.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 \newpage
+              [1 <../logo/logo404.png>] (./ManualeUtente_v1.0.toc)
+\tf@toc=\write4
+\openout4 = `ManualeUtente_v1.0.toc'.
+
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 28.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [2] (./ManualeUtente_v1.0.lot)
+\tf@lot=\write5
+\openout5 = `ManualeUtente_v1.0.lot'.
+
+
+(./ManualeUtente_v1.0.lof)
+\tf@lof=\write6
+\openout6 = `ManualeUtente_v1.0.lof'.
+
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 51.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [3] (./documents/intro.tex (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/d
+ata/uni-0.def
+File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
+)
+Overfull \hbox (34.08925pt too wide) in paragraph at lines 15--16
+\OT1/cmr/m/n/12 zio-ne \OT1/cmr/m/it/12 Pre-mi\OT1/cmr/m/n/12 , co-mu-ni-car-li
+ tra-mi-te mes-sag-gio email al-l'in-di-riz-zo [][]404not-found.unipd@gmail.com
+[][]
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 25.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [4]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 33.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [5])
+(./documents/descrizione.tex) (./documents/istruzioni.tex
+<img/signup.png, id=239, 941.5175pt x 587.19376pt>
+File: img/signup.png Graphic file (type png)
+ <use img/signup.png>
+Package pdftex.def Info: img/signup.png used on input line 15.
+(pdftex.def)             Requested size: 376.60033pt x 234.87334pt.
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 25.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [6 <./img/signup.png>]
+<img/signin.png, id=248, 963.6pt x 579.16376pt>
+File: img/signin.png Graphic file (type png)
+ <use img/signin.png>
+Package pdftex.def Info: img/signin.png used on input line 33.
+(pdftex.def)             Requested size: 385.43317pt x 231.66139pt.
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 38.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [7 <./img/signin.png>]
+<img/dashboard.png, id=255, 1284.8pt x 627.34375pt>
+File: img/dashboard.png Graphic file (type png)
+ <use img/dashboard.png>
+Package pdftex.def Info: img/dashboard.png used on input line 43.
+(pdftex.def)             Requested size: 449.68674pt x 219.5736pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 43--44
+ [] 
+ []
+
+<img/gear.png, id=256, 46.1725pt x 38.1425pt>
+File: img/gear.png Graphic file (type png)
+ <use img/gear.png>
+Package pdftex.def Info: img/gear.png used on input line 50.
+(pdftex.def)             Requested size: 27.70369pt x 22.88567pt.
+
+Overfull \hbox (4.20393pt too wide) in paragraph at lines 50--50
+[][] 
+ []
+
+<img/quit.png, id=257, 46.1725pt x 38.1425pt>
+File: img/quit.png Graphic file (type png)
+ <use img/quit.png>
+Package pdftex.def Info: img/quit.png used on input line 51.
+(pdftex.def)             Requested size: 27.70369pt x 22.88567pt.
+
+Overfull \hbox (4.20393pt too wide) in paragraph at lines 51--51
+[][] 
+ []
+
+<img/add.png, id=258, 68.255pt x 70.2625pt>
+File: img/add.png Graphic file (type png)
+ <use img/add.png>
+Package pdftex.def Info: img/add.png used on input line 52.
+(pdftex.def)             Requested size: 27.3015pt x 28.10449pt.
+
+Overfull \hbox (3.80174pt too wide) in paragraph at lines 52--52
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--54
+
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 55.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [8 <./img/dashboard.png> <./img/gear.png> <./img/quit.png> <./img/add.png>] <i
+mg/new_pres.png, id=268, 901.3675pt x 403.5075pt>
+File: img/new_pres.png Graphic file (type png)
+
+<use img/new_pres.png>
+Package pdftex.def Info: img/new_pres.png used on input line 59.
+(pdftex.def)             Requested size: 360.5406pt x 161.40013pt.
+ <img/list.png, id=269, 1284.8pt x 627.34375pt>
+File: img/list.png Graphic file (type png)
+
+<use img/list.png>
+Package pdftex.def Info: img/list.png used on input line 68.
+(pdftex.def)             Requested size: 449.68674pt x 219.5736pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 68--69
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
+
+ []
+
+<img/play.png, id=270, 51.19125pt x 52.195pt>
+File: img/play.png Graphic file (type png)
+ <use img/play.png>
+Package pdftex.def Info: img/play.png used on input line 76.
+(pdftex.def)             Requested size: 20.47612pt x 20.87762pt.
+
+<img/edit.png, id=271, 26.0975pt x 29.10875pt>
+File: img/edit.png Graphic file (type png)
+ <use img/edit.png>
+Package pdftex.def Info: img/edit.png used on input line 77.
+(pdftex.def)             Requested size: 18.26811pt x 20.37598pt.
+
+<img/delete.png, id=272, 25.09375pt x 29.10875pt>
+File: img/delete.png Graphic file (type png)
+ <use img/delete.png>
+Package pdftex.def Info: img/delete.png used on input line 78.
+(pdftex.def)             Requested size: 17.56549pt x 20.37598pt.
+
+<img/edit_title.png, id=273, 316.18124pt x 43.16125pt>
+File: img/edit_title.png Graphic file (type png)
+
+<use img/edit_title.png>
+Package pdftex.def Info: img/edit_title.png used on input line 79.
+(pdftex.def)             Requested size: 126.47025pt x 17.26418pt.
+
+Overfull \hbox (8.97147pt too wide) in paragraph at lines 79--79
+[][] 
+ []
+
+
+Overfull \hbox (2.10727pt too wide) in paragraph at lines 75--81
+[][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 83.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 83.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 83.
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 86.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [9 <./img/new_pres.png> <./img/list.png> <./img/play.png> <./img/edit.png> <./
+img/delete.png> <./img/edit_title.png>]
+<img/frame_editor.png, id=284, 64.24pt x 64.24pt>
+File: img/frame_editor.png Graphic file (type png)
+ <use img/frame_editor.png>
+Package pdftex.def Info: img/frame_editor.png used on input line 87.
+(pdftex.def)             Requested size: 25.69554pt x 25.69554pt.
+
+Overfull \hbox (2.19579pt too wide) in paragraph at lines 87--87
+[][] 
+ []
+
+<img/info_editor.png, id=285, 64.24pt x 64.24pt>
+File: img/info_editor.png Graphic file (type png)
+ <use img/info_editor.png>
+Package pdftex.def Info: img/info_editor.png used on input line 88.
+(pdftex.def)             Requested size: 25.69554pt x 25.69554pt.
+
+Overfull \hbox (2.19579pt too wide) in paragraph at lines 88--88
+[][] 
+ []
+
+<img/trails_editor.png, id=286, 64.24pt x 64.24pt>
+File: img/trails_editor.png Graphic file (type png)
+ <use img/trails_editor.png>
+Package pdftex.def Info: img/trails_editor.png used on input line 89.
+(pdftex.def)             Requested size: 25.69554pt x 25.69554pt.
+
+Overfull \hbox (2.19579pt too wide) in paragraph at lines 89--89
+[][] 
+ []
+
+<img/save.png, id=287, 63.73813pt x 63.73813pt>
+File: img/save.png Graphic file (type png)
+ <use img/save.png>
+Package pdftex.def Info: img/save.png used on input line 91.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+<img/quit2.png, id=288, 63.73813pt x 63.73813pt>
+File: img/quit2.png Graphic file (type png)
+ <use img/quit2.png>
+Package pdftex.def Info: img/quit2.png used on input line 91.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+Overfull \hbox (54.40804pt too wide) in paragraph at lines 86--92
+[][]
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 93.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 93.
+
+<img/add_object.png, id=289, 63.73813pt x 63.73813pt>
+File: img/add_object.png Graphic file (type png)
+ <use img/add_object.png>
+Package pdftex.def Info: img/add_object.png used on input line 96.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--97
+
+ []
+
+<img/add_frame.png, id=290, 63.73813pt x 63.73813pt>
+File: img/add_frame.png Graphic file (type png)
+ <use img/add_frame.png>
+Package pdftex.def Info: img/add_frame.png used on input line 100.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+Overfull \hbox (1.99503pt too wide) in paragraph at lines 100--100
+[][] 
+ []
+
+<img/add_picture.png, id=291, 63.73813pt x 63.73813pt>
+File: img/add_picture.png Graphic file (type png)
+
+<use img/add_picture.png>
+Package pdftex.def Info: img/add_picture.png used on input line 101.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+Overfull \hbox (1.99503pt too wide) in paragraph at lines 101--101
+[][] 
+ []
+
+<img/add_shape.png, id=292, 63.73813pt x 63.73813pt>
+File: img/add_shape.png Graphic file (type png)
+ <use img/add_shape.png>
+Package pdftex.def Info: img/add_shape.png used on input line 102.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+Overfull \hbox (1.99503pt too wide) in paragraph at lines 102--102
+[][] 
+ []
+
+<img/add_text.png, id=293, 63.73813pt x 63.73813pt>
+File: img/add_text.png Graphic file (type png)
+ <use img/add_text.png>
+Package pdftex.def Info: img/add_text.png used on input line 103.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+Overfull \hbox (1.99503pt too wide) in paragraph at lines 103--103
+[][] 
+ []
+
+
+Overfull \hbox (36.78322pt too wide) in paragraph at lines 98--105
+[] 
+ []
+
+<img/frame_editor_screen.png, id=294, 1284.8pt x 630.85687pt>
+File: img/frame_editor_screen.png Graphic file (type png)
+
+<use img/frame_editor_screen.png>
+Package pdftex.def Info: img/frame_editor_screen.png used on input line 108.
+(pdftex.def)             Requested size: 449.68674pt x 220.8032pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 108--109
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 113.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [10 <./img/frame_editor.png> <./img/info_editor.png> <./img/trails_editor.png>
+ <./img/save.png> <./img/quit2.png> <./img/add_object.png> <./img/add_frame.png
+> <./img/add_picture.png> <./img/add_shape.png> <./img/add_text.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 114.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 114.
+
+File: img/add_frame.png Graphic file (type png)
+<use img/add_frame.png>
+Package pdftex.def Info: img/add_frame.png used on input line 115.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+File: img/add_object.png Graphic file (type png)
+ <use img/add_object.png>
+Package pdftex.def Info: img/add_object.png used on input line 115.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+<img/screen_add_frame.png, id=301, 1284.8pt x 631.35875pt>
+File: img/screen_add_frame.png Graphic file (type png)
+
+<use img/screen_add_frame.png>
+Package pdftex.def Info: img/screen_add_frame.png used on input line 119.
+(pdftex.def)             Requested size: 385.44298pt x 189.40909pt.
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 124.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [11 <./img/frame_editor_screen.png> <./img/screen_add_frame.png>]
+File: img/add_shape.png Graphic file (type png)
+ <use img/add_shape.png>
+Package pdftex.def Info: img/add_shape.png used on input line 126.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+File: img/add_object.png Graphic file (type png)
+
+<use img/add_object.png>
+Package pdftex.def Info: img/add_object.png used on input line 126.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+ <img/sel_shape.png, id=308, 1284.8pt x 626.34pt>
+File: img/sel_shape.png Graphic file (type png)
+
+<use img/sel_shape.png>
+Package pdftex.def Info: img/sel_shape.png used on input line 129.
+(pdftex.def)             Requested size: 449.68674pt x 219.22227pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 129--130
+ [] 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 136.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [12 <./img/sel_shape.png>]
+File: img/add_text.png Graphic file (type png)
+ <use img/add_text.png>
+Package pdftex.def Info: img/add_text.png used on input line 138.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+File: img/add_object.png Graphic file (type png)
+
+<use img/add_object.png>
+Package pdftex.def Info: img/add_object.png used on input line 138.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+<img/screen_add_text.png, id=316, 1284.8pt x 632.3625pt>
+File: img/screen_add_text.png Graphic file (type png)
+
+<use img/screen_add_text.png>
+Package pdftex.def Info: img/screen_add_text.png used on input line 143.
+(pdftex.def)             Requested size: 449.68674pt x 221.33018pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 143--144
+ [] 
+ []
+
+<img/color_text.png, id=317, 77.28876pt x 81.30376pt>
+File: img/color_text.png Graphic file (type png)
+ <use img/color_text.png>
+Package pdftex.def Info: img/color_text.png used on input line 154.
+(pdftex.def)             Requested size: 23.1868pt x 24.3913pt.
+
+<img/bold_text.png, id=318, 73.27374pt x 73.27374pt>
+File: img/bold_text.png Graphic file (type png)
+ <use img/bold_text.png>
+Package pdftex.def Info: img/bold_text.png used on input line 155.
+(pdftex.def)             Requested size: 21.98228pt x 21.98228pt.
+
+<img/corsivo_text.png, id=319, 75.28125pt x 74.2775pt>
+File: img/corsivo_text.png Graphic file (type png)
+
+<use img/corsivo_text.png>
+Package pdftex.def Info: img/corsivo_text.png used on input line 156.
+(pdftex.def)             Requested size: 22.58453pt x 22.28342pt.
+
+<img/underline_text.png, id=320, 79.29625pt x 71.26625pt>
+File: img/underline_text.png Graphic file (type png)
+
+<use img/underline_text.png>
+Package pdftex.def Info: img/underline_text.png used on input line 157.
+(pdftex.def)             Requested size: 23.78905pt x 21.38002pt.
+
+<img/size_text.png, id=321, 75.28125pt x 73.27374pt>
+File: img/size_text.png Graphic file (type png)
+ <use img/size_text.png>
+Package pdftex.def Info: img/size_text.png used on input line 158.
+(pdftex.def)             Requested size: 22.58453pt x 21.98228pt.
+
+<img/clear_text.png, id=322, 75.28125pt x 71.26625pt>
+File: img/clear_text.png Graphic file (type png)
+ <use img/clear_text.png>
+Package pdftex.def Info: img/clear_text.png used on input line 159.
+(pdftex.def)             Requested size: 22.58453pt x 21.38002pt.
+
+<img/move_text.png, id=323, 74.2775pt x 75.28125pt>
+File: img/move_text.png Graphic file (type png)
+ <use img/move_text.png>
+Package pdftex.def Info: img/move_text.png used on input line 160.
+(pdftex.def)             Requested size: 22.28342pt x 22.58453pt.
+
+<img/save_text.png, id=324, 66.2475pt x 60.225pt>
+File: img/save_text.png Graphic file (type png)
+ <use img/save_text.png>
+Package pdftex.def Info: img/save_text.png used on input line 161.
+(pdftex.def)             Requested size: 21.86172pt x 19.8743pt.
+
+<img/delete_text.png, id=325, 63.23625pt x 57.21375pt>
+File: img/delete_text.png Graphic file (type png)
+
+<use img/delete_text.png>
+Package pdftex.def Info: img/delete_text.png used on input line 162.
+(pdftex.def)             Requested size: 20.86801pt x 18.88058pt.
+
+<img/toolbar_text.png, id=326, 1170.3725pt x 685.56125pt>
+File: img/toolbar_text.png Graphic file (type png)
+
+<use img/toolbar_text.png>
+Package pdftex.def Info: img/toolbar_text.png used on input line 167.
+(pdftex.def)             Requested size: 409.6365pt x 239.95003pt.
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 170.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [13 <./img/screen_add_text.png>]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 171.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [14 <./img/color_text.png (PNG copy)> <./img/bold_text.png (PNG copy)> <./img/
+corsivo_text.png (PNG copy)> <./img/underline_text.png (PNG copy)> <./img/size_
+text.png (PNG copy)> <./img/clear_text.png (PNG copy)> <./img/move_text.png (PN
+G copy)> <./img/save_text.png (PNG copy)> <./img/delete_text.png (PNG copy)> <.
+/img/toolbar_text.png (PNG copy)>]
+<img/edit_shape.png, id=339, 1284.8pt x 628.3475pt>
+File: img/edit_shape.png Graphic file (type png)
+ <use img/edit_shape.png>
+Package pdftex.def Info: img/edit_shape.png used on input line 175.
+(pdftex.def)             Requested size: 449.68674pt x 219.92491pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 175--176
+ [] 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 180.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [15 <./img/edit_shape.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 181.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 181.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 181.
+
+<img/infographic.png, id=346, 1284.8pt x 635.37375pt>
+File: img/infographic.png Graphic file (type png)
+
+<use img/infographic.png>
+Package pdftex.def Info: img/infographic.png used on input line 185.
+(pdftex.def)             Requested size: 449.68674pt x 222.38414pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 185--186
+ [] 
+ []
+
+File: img/add_object.png Graphic file (type png)
+<use img/add_object.png>
+Package pdftex.def Info: img/add_object.png used on input line 190.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+<img/added_frames.png, id=347, 63.73813pt x 63.73813pt>
+File: img/added_frames.png Graphic file (type png)
+
+<use img/added_frames.png>
+Package pdftex.def Info: img/added_frames.png used on input line 191.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+<img/frames_to_be_added.png, id=348, 63.73813pt x 63.73813pt>
+File: img/frames_to_be_added.png Graphic file (type png)
+
+<use img/frames_to_be_added.png>
+Package pdftex.def Info: img/frames_to_be_added.png used on input line 192.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 195.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 195.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 195.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+<img/trails_editor_screen.png, id=349, 1284.8pt x 626.34pt>
+File: img/trails_editor_screen.png Graphic file (type png)
+
+<use img/trails_editor_screen.png>
+Package pdftex.def Info: img/trails_editor_screen.png used on input line 200.
+(pdftex.def)             Requested size: 449.68674pt x 219.22227pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 200--201
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: img/add_object.png Graphic file (type png)
+<use img/add_object.png>
+Package pdftex.def Info: img/add_object.png used on input line 205.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+<img/save_confirm.png, id=350, 99.37125pt x 37.13875pt>
+File: img/save_confirm.png Graphic file (type png)
+
+<use img/save_confirm.png>
+Package pdftex.def Info: img/save_confirm.png used on input line 205.
+(pdftex.def)             Requested size: 49.6855pt x 18.56932pt.
+File: img/edit.png Graphic file (type png)
+ <use img/edit.png>
+Package pdftex.def Info: img/edit.png used on input line 207.
+(pdftex.def)             Requested size: 18.26811pt x 20.37598pt.
+
+<img/edit_trail.png, id=351, 1284.8pt x 633.36626pt>
+File: img/edit_trail.png Graphic file (type png)
+ <use img/edit_trail.png>
+Package pdftex.def Info: img/edit_trail.png used on input line 214.
+(pdftex.def)             Requested size: 449.68674pt x 221.6815pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 214--215
+ [] 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 217.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [16 <./img/infographic.png> <./img/added_frames.png> <./img/frames_to_be_added
+.png> <./img/save_confirm.png>]
+File: img/frames_to_be_added.png Graphic file (type png)
+
+<use img/frames_to_be_added.png>
+Package pdftex.def Info: img/frames_to_be_added.png used on input line 219.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+File: img/add.png Graphic file (type png)
+ <use img/add.png>
+Package pdftex.def Info: img/add.png used on input line 219.
+(pdftex.def)             Requested size: 27.3015pt x 28.10449pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+
+ []
+
+<img/trail_frames_list.png, id=359, 1284.8pt x 632.3625pt>
+File: img/trail_frames_list.png Graphic file (type png)
+
+<use img/trail_frames_list.png>
+Package pdftex.def Info: img/trail_frames_list.png used on input line 223.
+(pdftex.def)             Requested size: 449.68674pt x 221.33018pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 223--224
+ [] 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 226.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [17 <./img/trails_editor_screen.png> <./img/edit_trail.png>] <img/checkpoint.p
+ng, id=367, 73.27374pt x 72.27pt>
+File: img/checkpoint.png Graphic file (type png)
+
+<use img/checkpoint.png>
+Package pdftex.def Info: img/checkpoint.png used on input line 228.
+(pdftex.def)             Requested size: 29.30896pt x 28.90747pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+<img/trail_frame.png, id=368, 1284.8pt x 632.3625pt>
+File: img/trail_frame.png Graphic file (type png)
+ <use img/trail_frame.png>
+Package pdftex.def Info: img/trail_frame.png used on input line 232.
+(pdftex.def)             Requested size: 449.68674pt x 221.33018pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 232--233
+ [] 
+ []
+
+File: img/play.png Graphic file (type png)
+<use img/play.png>
+Package pdftex.def Info: img/play.png used on input line 238.
+(pdftex.def)             Requested size: 25.59555pt x 26.09743pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 239.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [18 <./img/trail_frames_list.png> <./img/checkpoint.png> <./img/trail_frame.pn
+g>]
+File: img/dashboard.png Graphic file (type png)
+ <use img/dashboard.png>
+Package pdftex.def Info: img/dashboard.png used on input line 242.
+(pdftex.def)             Requested size: 449.68674pt x 219.5736pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 242--243
+ [] 
+ []
+
+File: img/play.png Graphic file (type png)
+<use img/play.png>
+Package pdftex.def Info: img/play.png used on input line 247.
+(pdftex.def)             Requested size: 25.59555pt x 26.09743pt.
+ <img/viewer.png, id=378, 1284.8pt x 630.355pt>
+File: img/viewer.png Graphic file (type png)
+
+<use img/viewer.png>
+Package pdftex.def Info: img/viewer.png used on input line 252.
+(pdftex.def)             Requested size: 385.44298pt x 189.10796pt.
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 259.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [19 <./img/viewer.png>]
+<img/checkpoint2.png, id=385, 63.73813pt x 63.73813pt>
+File: img/checkpoint2.png Graphic file (type png)
+
+<use img/checkpoint2.png>
+Package pdftex.def Info: img/checkpoint2.png used on input line 260.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+Overfull \hbox (1.99503pt too wide) in paragraph at lines 260--260
+[][] 
+ []
+
+<img/prev.png, id=386, 63.73813pt x 63.73813pt>
+File: img/prev.png Graphic file (type png)
+ <use img/prev.png>
+Package pdftex.def Info: img/prev.png used on input line 261.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+Overfull \hbox (1.99503pt too wide) in paragraph at lines 261--261
+[][] 
+ []
+
+<img/next.png, id=387, 63.73813pt x 63.73813pt>
+File: img/next.png Graphic file (type png)
+ <use img/next.png>
+Package pdftex.def Info: img/next.png used on input line 262.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+Overfull \hbox (1.99503pt too wide) in paragraph at lines 262--262
+[][] 
+ []
+
+<img/down.png, id=388, 63.73813pt x 63.73813pt>
+File: img/down.png Graphic file (type png)
+ <use img/down.png>
+Package pdftex.def Info: img/down.png used on input line 263.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+Overfull \hbox (1.99503pt too wide) in paragraph at lines 263--263
+[][] 
+ []
+
+<img/quit3.png, id=389, 63.73813pt x 63.73813pt>
+File: img/quit3.png Graphic file (type png)
+ <use img/quit3.png>
+Package pdftex.def Info: img/quit3.png used on input line 264.
+(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
+
+Overfull \hbox (1.99503pt too wide) in paragraph at lines 264--264
+[][] 
+ []
+
+
+Overfull \hbox (54.40804pt too wide) in paragraph at lines 259--266
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+<img/signup_error.png, id=390, 397.485pt x 419.5675pt>
+File: img/signup_error.png Graphic file (type png)
+
+<use img/signup_error.png>
+Package pdftex.def Info: img/signup_error.png used on input line 274.
+(pdftex.def)             Requested size: 158.99118pt x 167.82402pt.
+
+<img/signup_error2.png, id=391, 398.48875pt x 421.575pt>
+File: img/signup_error2.png Graphic file (type png)
+
+<use img/signup_error2.png>
+Package pdftex.def Info: img/signup_error2.png used on input line 276.
+(pdftex.def)             Requested size: 159.39267pt x 168.627pt.
+
+Overfull \hbox (48.07901pt too wide) in paragraph at lines 283--284
+[]\OT1/cmr/bx/n/12 Email\OT1/cmr/m/n/12 : l'in-di-riz-zo email de-ve es-se-re i
+n un for-ma-to cor-ret-to, cio^^Re \OT1/cmr/m/it/12 no-me@dominio.estensione
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 287.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [20 <./img/checkpoint2.png> <./img/prev.png> <./img/next.png> <./img/down.png>
+ <./img/quit3.png> <./img/signup_error.png> <./img/signup_error2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
+
+ []
+
+<img/signin_error.png, id=399, 396.48125pt x 342.27875pt>
+File: img/signin_error.png Graphic file (type png)
+
+<use img/signin_error.png>
+Package pdftex.def Info: img/signin_error.png used on input line 292.
+(pdftex.def)             Requested size: 158.58968pt x 136.90906pt.
+
+<img/signin_error2.png, id=400, 607.26875pt x 449.68pt>
+File: img/signin_error2.png Graphic file (type png)
+
+<use img/signin_error2.png>
+Package pdftex.def Info: img/signin_error2.png used on input line 294.
+(pdftex.def)             Requested size: 182.18202pt x 134.90503pt.
+
+Overfull \hbox (48.07901pt too wide) in paragraph at lines 301--302
+[]\OT1/cmr/bx/n/12 Email\OT1/cmr/m/n/12 : l'in-di-riz-zo email de-ve es-se-re i
+n un for-ma-to cor-ret-to, cio^^Re \OT1/cmr/m/it/12 no-me@dominio.estensione
+ []
+
+<img/change_pass_error.png, id=401, 581.17125pt x 661.47125pt>
+File: img/change_pass_error.png Graphic file (type png)
+
+<use img/change_pass_error.png>
+Package pdftex.def Info: img/change_pass_error.png used on input line 310.
+(pdftex.def)             Requested size: 203.41298pt x 231.5184pt.
+) (./documents/appendice.tex
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 4--7
+[] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 7--10
+ [] [] 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 10.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [21 <./img/signin_error.png> <./img/signin_error2.png> <./img/change_pass_erro
+r.png>]
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 12--15
+[] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 15--18
+ [] [] 
+ []
+
+
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 20--23
+[] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 23--26
+ [] [] 
+ []
+
+
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 28--31
+[] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 31--34
+ [] [] 
+ []
+
+
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 36--39
+[] 
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 41--42
+\OT1/cmr/m/n/12 le pa-gi-ne web, e da Ot-to-bre 2014 pub-bli-ca-to co-me W3C
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 39--42
+ [] [] 
+ []
+
+
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 44--47
+[] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 47--50
+ [] [] 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 50.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [22]
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 53--56
+[] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 56--61
+ [] [] 
+ []
+
+
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 63--66
+[] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 66--71
+ [] [] 
+ []
+
+
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 73--76
+[] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 76--79
+ [] [] 
+ []
+
+)
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 56.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [23]
+No file ManualeUtente_v1.0.bbl.
+
+AED: lastpage setting LastPage
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 59.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 59.
+(./ManualeUtente_v1.0.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 59.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 59.
+Package rerunfilecheck Info: File `ManualeUtente_v1.0.out' has not changed.
+(rerunfilecheck)             Checksum: 25BA472F7493D4434B893B9095124C46;2031.
+ ) 
+Here is how much of TeX's memory you used:
+ 10774 strings out of 493117
+ 161499 string characters out of 6135432
+ 262216 words of memory out of 5000000
+ 13936 multiletter control sequences out of 15000+600000
+ 9799 words of font info for 34 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,16n,47p,812b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on ManualeUtente_v1.0.pdf (24 pages, 2384642 bytes).
+PDF statistics:
+ 472 PDF objects out of 1000 (max. 8388607)
+ 349 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 528 words of extra memory for PDF output out of 10000 (max. 10000000)
+
