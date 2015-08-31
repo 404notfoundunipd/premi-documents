@@ -104,6 +104,11 @@ Con l'utilizzo della dependency injection, l'oggetto ha in sé solamente una pro
 
 \end{itemize}
 
+\subsubsection{Publish Subscribe}
+
+Publish Subscribe è un design pattern utilizzato per la comunicazione asincrona fra diversi processi, oggetti. In questo schema, mittenti e destinatari di messaggi dialogano attraverso un tramite, che può essere detto dispatcher o broker. Il mittente di un messaggio (detto publisher) non deve essere consapevole dell'identità dei destinatari (detti subscriber); esso si limita a "pubblicare" (in inglese to publish) il proprio messaggio al dispatcher. I destinatari si rivolgono a loro volta al dispatcher "abbonandosi" (in inglese to subscribe) alla ricezione di messaggi. Il dispatcher quindi inoltra ogni messaggio inviato da un publisher a tutti i subscriber interessati a quel messaggio.
+Questo design pattern è utilizzato all'interno del progetto per inviare le richieste di salvataggio o richieste dati al database MongoDb$_G$. In particolare all'interno delle classi databaseAPI.
+
 \subsection{Design Pattern Creazionali}
 
 \subsubsection{Factory Method}
