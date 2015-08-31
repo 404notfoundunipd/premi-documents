@@ -60,7 +60,21 @@
 					\item \textit{scale:} identifica la scala dell'oggetto; %da chiedere%
 					\item \textit{lvl:} identifica il livello dell'oggetto. %da chiedere%
 				\end{itemize}
-					 
+			
+			Viene inizializzato dal metodo initByDefault e il seguente è l'oggetto JSON inizializzato con i valori di default:
+\begin{lstlisting}
+{
+    "_id"               : "",
+    "dataX"             : 0,
+    "dataY"             : 0,
+    "dataZ"             : 0,
+    "height"            : 100,
+    "width"             : 100,
+    "scale"             : 1,
+    "lvl"               : 0
+}
+\end{lstlisting}					
+                 L'attributo Info è usato in molti metodi di questa classe. Ad ogni metodo che si interfaccia con questo oggetto, verrà specificato nella descrizione le modifiche che vengono apportate. 
 		
 	\end{description}
 	
@@ -233,7 +247,27 @@
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ init(type : String) : Collection			}] \hfill
-			inizializza con i parametri di default un oggetto image, shape o text e ne restituisce il riferimento.
+			inizializza con i parametri di default un oggetto image, shape o text e restituisce un oggetto JSON che contiene tutti i campi dell'attributo info dell'oggetto (image, shape, text) a cui si riferisce. Ad esempio se init inizializza un oggetto text restituisce un JSON con le seguenti coppie chiave - valore:
+\begin{lstlisting}
+{
+    "_id"               : "",
+    "dataX"             : 0,
+    "dataY"             : 0,
+    "dataZ"             : 0,
+    "height"            : 100,
+    "width"             : 100,
+    "scale"             : 1,
+    "lvl"               : 0,
+    "text"              : "text",
+    "type"              : "text",
+    "color"             : "#ffffff",
+    "weight"            : "",
+    "fontStyle"         : "",
+    "textDecoration"    : "",
+    "sizeFontText"      : 20,
+    "fontFamily"        : "Arial"
+}
+\end{lstlisting}
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -301,6 +335,25 @@
 		\item \textit{content:} è un oggetto JSON che contiene gli oggetti che fanno parte del frame;
 		\item \textit{type:} identifica che l'oggetto trattato è un frame.
 	\end{itemize}
+	
+	Viene inizializzato dal metodo initByDefault e il seguente è l'oggetto JSON inizializzato con i valori di default:
+\begin{lstlisting}
+{
+    "_id"               : "",
+    "dataX"             : 0,
+    "dataY"             : 0,
+    "dataZ"             : 0,
+    "height"            : 100,
+    "width"             : 100,
+    "scale"             : 1,
+    "lvl"               : 0,
+    "backgrooundColor"  : "#ffffff",
+    "content"           : {},
+    "type"              : "frame"
+}
+\end{lstlisting}					
+                 L'attributo Info è usato in molti metodi di questa classe. Ad ogni metodo che si interfaccia con questo oggetto, verrà specificato nella descrizione le modifiche che vengono apportate. 	
+	
 	\end{description}
 	\begin{description}
 		\item[\textbf{- selectedGO : Collection			}] \hfill
@@ -638,6 +691,30 @@
 		\item \textit{idpres:} identifica l'id della presentazione a cui si riferisce;
 		\item \textit{owner:} identifica l'id dell'utente che ha creato la presentazione.
 	\end{itemize}
+	Viene inizializzato dal metodo initByDefault e il seguente è l'oggetto JSON inizializzato con i valori di default:
+\begin{lstlisting}
+{
+    "_id"               : "",
+    "dataX"             : 0,
+    "dataY"             : 0,
+    "dataZ"             : 0,
+    "height"            : 100,
+    "width"             : 100,
+    "scale"             : 1,
+    "lvl"               : 0,
+    "background" {
+          image : "",
+          size  : "cover",
+          color : "antiquewhite",
+          repeat: "no-repeat"
+                 }
+    "content"           : {},
+    "presid"            : "",
+    "owner"             : "",
+    "type"              : ""
+}
+\end{lstlisting}					
+                 L'attributo Info è usato in molti metodi di questa classe. Ad ogni metodo che si interfaccia con questo oggetto, verrà specificato nella descrizione le modifiche che vengono apportate.
 	\end{description}
 	\begin{description}
 		\item[\textbf{- selectedGO : GObject			}] \hfill
@@ -946,7 +1023,23 @@
 		\item \textit{src:} definisce il percorso dell'immagine;
 		\item \textit{type:} identifica il tipo di oggetto.		
 	\end{itemize}
-	\end{description}
+	Viene inizializzato dal metodo initByDefault e il seguente è l'oggetto JSON inizializzato con i valori di default:
+\begin{lstlisting}
+{
+    "_id"               : "",    
+    "dataX"             : 0,
+    "dataY"             : 0,
+    "dataZ"             : 0,
+    "height"            : 100,
+    "width"             : 100,
+    "scale"             : 1,
+    "lvl"               : 0,
+    "src"               : "ffff",
+    "type"              : "image"
+}
+\end{lstlisting}					
+                 L'attributo Info è usato in molti metodi di questa classe. Ad ogni metodo che si interfaccia con questo oggetto, verrà specificato nella descrizione le modifiche che vengono apportate. 
+    \end{description}
 	\begin{description}
 		\item[\textbf{- selectedGO : Collection			}] \hfill
 			contiene l'oggetto GObject contenuto nel frame corrente selezionato dall'utente.  
@@ -1077,6 +1170,22 @@
 		\item \textit{framesId:} array che contiene gli id dei frame appartenenti all'infografica;
 		\item \textit{type:} identifica il tipo di oggetto ovvero infografica.		
 	\end{itemize}
+	Viene inizializzato dal metodo initByDefault e il seguente è l'oggetto JSON inizializzato con i valori di default:
+\begin{lstlisting}
+{
+    "_id"               : "",    
+    "dataX"             : 0,
+    "dataY"             : 0,
+    "dataZ"             : 0,
+    "height"            : 100,
+    "width"             : 100,
+    "scale"             : 1,
+    "lvl"               : 0,
+    "framesId"          : [],
+    "type"              : "infographic"
+}
+\end{lstlisting}					
+                 L'attributo Info è usato in molti metodi di questa classe. Ad ogni metodo che si interfaccia con questo oggetto, verrà specificato nella descrizione le modifiche che vengono apportate. 
 		\item[\textbf{- frames : Collection			}] \hfill
 			contiene degli oggetti JSON che rappresentano i frame appartenenti all'infografica.
 		\item[\textbf{- saver : Saver			}] \hfill
@@ -1596,6 +1705,18 @@
 				\item \textit{frame:} oggetto JSON che contiene le modifiche sugli oggetti frame;
 				\item \textit{infographic:} oggetto JSON che contiene le modifiche sugli oggetti infographic.
 			\end{itemize}
+			
+			Il seguente è l'oggetto JSON inizializzato con i valori di default:
+\begin{lstlisting}
+{
+    "image"               : {},
+    "shape"               : {},
+    "text"                : {},
+    "frame"               : {},
+    "infographic"         : {}    
+}
+\end{lstlisting}					
+
 		\item[\textbf{- saveFunctions : Collection			}] \hfill
 			contiene i nomi delle funzioni che si occupano di salvare degli oggetti nel database. I campi che contiene sono:
 			\begin{itemize}
@@ -1604,7 +1725,19 @@
 				\item \textit{text:} contiene la funzione che si occupa di salvare i text;
 				\item \textit{frame:} contiene la funzione che si occupa di salvare i frame;
 				\item \textit{infographic:} contiene la funzione che si occupa di salvare le infographic.
-			\end{itemize}		
+			\end{itemize}
+
+Il seguente è l'oggetto JSON inizializzato con i valori di default:
+			\begin{lstlisting}
+{
+    "image"               : databaseAPI.updateSimpleGOContent,
+    "shape"               : databaseAPI.updateSimpleGOContent,
+    "text"                : databaseAPI.updateSimpleGOContent,
+    "frame"               : databaseAPI.updateFrame,
+    "infographic"         : databaseAPI.updateInfographic   
+}
+			\end{lstlisting}				
+					
 	\item[\textbf{- removed : Collection			}] \hfill
 			contiene le operazioni di rimozione da eseguire nel db. E' un oggetto JSON che contiene i seguenti campi:
 			\begin{itemize}
@@ -1613,7 +1746,17 @@
 				\item \textit{text:} oggetto JSON che contiene le operazioni di rimozione degli oggetti text;
 				\item \textit{frame:} oggetto JSON che contiene le operazioni di rimozione degli oggetti frame;
 				\item \textit{infographic:} oggetto JSON che contiene le operazioni di rimozione degli oggetti infographic.
-			\end{itemize}		
+			\end{itemize}
+			
+			Il seguente è l'oggetto JSON inizializzato con i valori di default:
+			\begin{lstlisting}
+{
+    "image"               : [],
+    "shape"               : [],
+    "text"                : [],
+    "frame"               : [] 
+}
+			\end{lstlisting}					
 	\item[\textbf{- removeFunctions : Collection			}] \hfill
 			contiene i nomi delle funzioni che si occupano di rimuovere degli oggetti dal database. I campi che contiene sono:
 			\begin{itemize}
@@ -1622,7 +1765,17 @@
 				\item \textit{text:} contiene la funzione che si occupa di rimuovere i text;
 				\item \textit{frame:} contiene la funzione che si occupa di rimuovere i frame;
 				\item \textit{infographic:} contiene la funzione che si occupa di rimuovere l'infographic.
-			\end{itemize}		
+			\end{itemize}
+			
+			Il seguente è l'oggetto JSON inizializzato con i valori di default:
+			\begin{lstlisting}
+{
+    "image"               : databaseAPI.removeSimpleGOContent,
+    "shape"               : databaseAPI.removeSimpleGOContent,
+    "text"                : databaseAPI.removeSimpleGOContent,
+    "frame"               : databaseAPI.removeFrameInfographic 
+}
+			\end{lstlisting}					
 	\item[\textbf{- inserted : Collection			}] \hfill
 			contiene le operazioni di inserimento da eseguire nel db. E' un oggetto JSON che contiene i seguenti campi:
 			\begin{itemize}
@@ -1632,6 +1785,16 @@
 				\item \textit{frame:} oggetto JSON che contiene le operazioni di inserimento degli oggetti frame;
 				\item \textit{infographic:} oggetto JSON che contiene le operazioni di inserimento degli oggetti infographic.
 			\end{itemize}
+			
+			Il seguente è l'oggetto JSON inizializzato con i valori di default:
+			\begin{lstlisting}
+{
+    "image"               : [],
+    "shape"               : [],
+    "text"                : [],
+    "frame"               : [] 
+}
+			\end{lstlisting}	
 			\item[\textbf{- insertFunctions : Collection			}] \hfill
 			contiene i nomi delle funzioni che si occupano di inserire degli oggetti sul database. I campi che contiene sono:
 			\begin{itemize}
@@ -1640,7 +1803,17 @@
 				\item \textit{text:} contiene la funzione che si occupa di inserire i text;
 				\item \textit{frame:} contiene la funzione che si occupa di inserire i frame;
 				\item \textit{infographic:} contiene la funzione che si occupa di inserire l'infographic.
-			\end{itemize}		
+			\end{itemize}
+
+Il seguente è l'oggetto JSON inizializzato con i valori di default:
+			\begin{lstlisting}
+{
+    "image"               : databaseAPI.insertSimpleGOContent,
+    "shape"               : databaseAPI.insertSimpleGOContent,
+    "text"                : databaseAPI.insertSimpleGOContent,
+    "frame"               : databaseAPI.insertFrameInfographic 
+}
+			\end{lstlisting}								
 		
 	\end{description}
 	
@@ -1761,6 +1934,33 @@
         \item \textit{strokeWidth:} definisce la dimensione del bordo dell'oggetto grafico; %da chiarire
 		\item \textit{type:} identifica il tipo di oggetto.		
 	\end{itemize}
+	Viene inizializzato dal metodo initByDefault e il seguente è l'oggetto JSON inizializzato con i valori di default:
+\begin{lstlisting}
+{
+    "_id"               : "",    
+    "dataX"             : 0,
+    "dataY"             : 0,
+    "dataZ"             : 0,
+    "height"            : 100,
+    "width"             : 100,
+    "scale"             : 1,
+    "lvl"               : 0,
+    "src                : "",
+    "content"           : "",
+    "color"             : "black",
+    "stroke"            : "black",
+    "strokeWidth"       : 2,
+    "path"              : "",
+    "y"                 : "",
+    "viewBox"           : "",
+    "style"             : "",
+    "zoom"              : 100,
+    "sWidth"            : 0,
+    "sHeight"           : 0,
+    "type"              : 'shape'
+}
+\end{lstlisting}					
+                 L'attributo Info è usato in molti metodi di questa classe. Ad ogni metodo che si interfaccia con questo oggetto, verrà specificato nella descrizione le modifiche che vengono apportate. 	
 	\end{description}
 	
 %-------  lista dei metodi
@@ -1904,6 +2104,28 @@
         \item \textit{sizeFontText:} definisce la grandezza del testo;
 		\item \textit{type:} identifica il tipo di oggetto.		
 	\end{itemize}
+	Viene inizializzato dal metodo initByDefault e il seguente è l'oggetto JSON inizializzato con i valori di default:
+\begin{lstlisting}
+{
+    "_id"               : "",    
+    "dataX"             : 0,
+    "dataY"             : 0,
+    "dataZ"             : 0,
+    "height"            : 100,
+    "width"             : 100,
+    "scale"             : 1,
+    "lvl"               : 0,
+    "text"              : "text",
+    "type"              : 'text',
+    "color"             : '#ffffff',
+    "weight"            : '',
+    "fontStyle"         : '',
+    "textDecoration"    : '',
+    "sizeFontText"      : '20',
+    "fontFamily"        : 'Arial'
+}
+\end{lstlisting}					
+                 L'attributo Info è usato in molti metodi di questa classe. Ad ogni metodo che si interfaccia con questo oggetto, verrà specificato nella descrizione le modifiche che vengono apportate.
 	\end{description}
 	
 %-------  lista dei metodi

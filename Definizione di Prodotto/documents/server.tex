@@ -352,21 +352,28 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 						\item \textit{isPublic}: \textbf{false}, la presentazione inizialmente è sempre privata
 					\end{itemize}
 					\item Ogni presentazione possiede almeno un'infografica, che andrà creata e inizializata nel database con i seguenti campi dato:
-					\begin{itemize}
-						\item \textit{dataX}: -5000
-						\item \textit{dataY}: -4000
-						\item \textit{dataZ}: 0
-						\item \textit{scale}: 0
-						\item \textit{height}: 7920
-						\item \textit{width}: 10240
-						\item \textit{zoom}: 0
-						\item \textit{presid}: il codice univoco della presentazione
-						\item \textit{owner}: l'id dell'utente che sta creando la presentazione
-						\item \textit{background}: Collezione(JSON) vuota
-						\item \textit{content}: Collezione(JSON) vuota
-						\item \textit{framesId}: array vuoto
-						\item \textit{type}: "infographics"
-					\end{itemize}
+\begin{lstlisting}
+{
+	"dataX"             : -5000,
+    "dataY"             : -4000,
+    "dataZ"             : 0,
+    "scale"             : 1,
+    "height"            : 0,
+    "width"             : 0,
+    "zoom"              : 10,
+    "presid"            : idPres,
+    "owner"             : this.userId,
+    "background"        : {
+			image : "",
+			size : "cover",
+			color : "antiquewhite",
+			repeat : "no-repeat",
+                     	},
+    "content"           : {},
+    "framesId"          : [],
+    "type"              : "infogrphics",
+}					
+\end{lstlisting}	
 				\end{itemize}
 		\end{description}
 	\end{description}
@@ -616,20 +623,22 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 			\begin{itemize}
 					\item Dev'essere inserito nel servizio \textbf{\$meteor} attraverso il comando Meteor.methods
 					\item Inizializzare il frame con i seguenti campi dato:
-					\begin{itemize}
-					\item \textit{presid}: con il codice identificativo della presentazione
-					\item \textit{owner}: con l'id dell'utente che ha effetuato la chiamata al metodo
-					\item \textit{dataX}: 0
-					\item \textit{dataY}: 0
-					\item \textit{dataZ}: 0
-					\item \textit{height}: 792
-					\item \textit{width}: 1024
-					\item \textit{scale}: 1
-					\item \textit{backgroundColor}: "\#FFFFFF"
-					\item \textit{content}: Collezione(JSON) vuota
-					\item \textit{type}: frame
-					\item \textit{lvl}: 0
-					\end{itemize}
+					\begin{lstlisting}
+{
+	"presid"            : idPres,
+    "owner"             : this.userId,
+    "dataX"             : 0,
+    "dataY"             : 0,
+    "dataZ"             : 0,
+    "scale"             : 1,
+    "height"            : 792,
+    "width"             : 1024,
+    "backgroundColor"   : #FFFFFF, 
+    "content"           : {},
+    "type"              : "frame",
+    "lvl"               : 0
+}					
+					\end{lstlisting}		
 				\end{itemize}
 		\end{description}
 	\end{description}
