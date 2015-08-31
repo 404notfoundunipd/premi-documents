@@ -1,6 +1,16 @@
 \clearpage
 \section{Specifica componenti}
 Vengono qui descritti i metodi e gli attributi di ogni componente dell'applicazione. \\
+\subsection{Collezioni di MongoDB} \label{collezioni}
+Le informazioni in Meteor vengono salvate all'interno di collezioni di documenti, i quali non sono altro che collezioni di coppie di chiavi e valori. Sono facilmente manipolabili poiché si convertono naturalmente in oggetti JavaScript$_G$, e documenti della stessa collezione non devono per forza contenere le stesse chiavi (MongoDB possiede uno schema dinamico). \\
+All'avvio di MeteorJS$_G$ vengono create, se non sono già presenti, quattro collezioni di documenti:
+\begin{itemize}
+\item \textbf{Presentations} contiene tutte le presentazioni create dagli utenti;
+\item \textbf{Trails} contiene i percorsi di tutte le presentazioni;
+\item \textbf{Frames} contiene le slides di tutte le presentazioni;
+\item \textbf{Infographics} contiene l'infografica di ogni presentazione;
+\end{itemize}
+
 \subsection{Template}
 Componenti marcati come \textit{template} sono speciali pagine HTML che non possiedono metodi e attributi propri, ma utilizzano quelli forniti dal loro controller dedicato attraverso lo \textit{\$scope} (l'oggetto di AngularJS$_G$ che funge da ViewModel$_G$); per questo motivo saranno solamente descritti tramite note e raccomandazioni che specificano come essi devano essere costruiti.
 \subsection{Servizi di AngularJS$_G$} \label{servizi}
@@ -36,3 +46,6 @@ Lo \$scope ha accesso completo al controller, mentre la view può solo utilizzar
 \item \textbf{\$locationProvider} permette la configurazione del servizio \$locationProvider.
 
 \end{itemize}
+
+\subsection{Gestione degli Account Utente}
+Il Framework MeteorJS$_G$ si occupa della gestione dell'account degli utenti che utilizzano l'applicazione. Le informazioni dell'utente sono consultabili attraverso la variabile currentUser  in \$rootScope.

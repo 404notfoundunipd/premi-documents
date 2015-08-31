@@ -32,7 +32,7 @@ Meteor.publish('nomeMetodo', function publishFunction(parametro1,parametro2,...)
    	return Collezione.find(...);
 });
 \end{lstlisting}\color{black}
-Le informazioni vengono prelevate dalle Collezioni di Meteor, che sono in sostanza il modo con cui le informazioni persistenti vengono archiviate. \\
+Le informazioni vengono prelevate dalle Collezioni di Meteor, che sono il modo con cui le informazioni persistenti vengono archiviate (vedi \ref{collezioni}). \\
 Questi metodi vengono solitamente chiamati all'interno dei file routes.js contenuti in ognuno dei package del client.
 
 
@@ -46,7 +46,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getInfographicByPresId(id : String) : Collection			}] \hfill
-			Restituisce una collezione di infografiche associate ad una presentazione, cercandola nella collezione Infographics creata automaticamente al primo avvio del database MongoDB. \\ La presentazione deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
+			Restituisce una collezione di infografiche associate ad una presentazione, cercandola nella collezione Infographics creata automaticamente al primo avvio del database MongoDB. 
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -61,6 +61,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 			\item[Note] \hfill
 			\begin{itemize}
 					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
+					\item La presentazione deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 				\end{itemize}
 		\end{description}
 	\end{description}
@@ -69,7 +70,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getFramesByPresId(id : String) : Collection			}] \hfill
-			Restituisce una collezione di frames associati ad una presentazione, cercandola nella collezione Frames creata automaticamente al primo avvio del database MongoDB. \\ La presentazione deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
+			Restituisce una collezione di frames associati ad una presentazione, cercandola nella collezione Frames creata automaticamente al primo avvio del database MongoDB.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -84,7 +85,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 			\item[Note] \hfill
 			\begin{itemize}
 					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-					\item La presentazione deve appartenere all'utente che ha effettuato la richiesta
+					\item La presentazione deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 				\end{itemize}
 		\end{description}
 	\end{description}
@@ -93,7 +94,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getInfographicFrames(presid : String) : Collection			}] \hfill
-			Restituisce una collezione di tutti i Frame contenuti nell'infografica di una presentazione, cercando prima l'Infografica associata al codice identificativo ricevuto, e successivamente cercando i Frame. Consulta le collezioni Infographics e Frames create automaticamente al primo avvio del database MongoDB. \\ La presentazione in cui è contenuta l'infografica deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
+			Restituisce una collezione di tutti i Frame contenuti nell'infografica di una presentazione, cercando prima l'Infografica associata al codice identificativo ricevuto, e successivamente cercando i Frame. Consulta le collezioni Infographics e Frames create automaticamente al primo avvio del database MongoDB.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -108,7 +109,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 			\item[Note] \hfill
 			\begin{itemize}
 					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-					\item La presentazione deve appartenere all'utente che ne ha effettuato la richiesta
+					\item La presentazione in cui è contenuta l'infografica deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 				\end{itemize}
 		\end{description}
 	\end{description}
@@ -117,7 +118,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getTrailsByPresId(id : String) : Collection			}] \hfill
-			Restituisce una collezione di Trails associati ad una presentazione, cercandola nella collezione Trails creata automaticamente al primo avvio del database MongoDB. \\ La presentazione deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
+			Restituisce una collezione di Trails associati ad una presentazione, cercandola nella collezione Trails creata automaticamente al primo avvio del database MongoDB. 
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -132,7 +133,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 			\item[Note] \hfill
 			\begin{itemize}
 					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-					\item La presentazione deve appartenere all'utente che ne ha effettuato la richiesta
+					\item La presentazione deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 				\end{itemize}
 		\end{description}
 	\end{description}
@@ -141,7 +142,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getPresentationsById(id : String) : Collection			}] \hfill
-			Restituisce la presentazione associata al codice identificativo ricevuto, cercandola nella collezione Presentations creata automaticamente al primo avvio del database MongoDB. \\ La presentazione deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
+			Restituisce la presentazione associata al codice identificativo ricevuto, cercandola nella collezione Presentations creata automaticamente al primo avvio del database MongoDB.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -156,7 +157,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 			\item[Note] \hfill
 			\begin{itemize}
 					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-					\item La presentazione deve appartenere all'utente che ne ha effettuato la richiesta
+					\item La presentazione deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 				\end{itemize}
 		\end{description}
 	\end{description}
@@ -165,7 +166,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getPresentations() : Collection			}] \hfill
-			Restituisce una collezione di tutte le presentazioni create dall'utente, cercandole nella collezione Presentations creata automaticamente al primo avvio del database MongoDB. \\ Le presentazioni devono appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
+			Restituisce una collezione di tutte le presentazioni create dall'utente, cercandole nella collezione Presentations creata automaticamente al primo avvio del database MongoDB.
 			
 		\begin{description}
 			
@@ -173,7 +174,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 			\item[Note] \hfill
 			\begin{itemize}
 					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-					\item Le presentazioni devono appartenere all'utente che ne ha effettuato la richiesta
+					\item Le presentazioni devono appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 				\end{itemize}
 		\end{description}
 	\end{description}
@@ -197,7 +198,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 			\item[Note] \hfill
 			\begin{itemize}
 					\item Dev'essere inserito come funzione \textbf{publishfunction} in Meteor.publish
-					\item Il trail deve appartenere all'utente che ne ha effettuato la richiesta
+					\item Il trail deve appartenere all'utente che ne ha effettuato la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 				\end{itemize}
 		\end{description}
 	\end{description}
@@ -309,7 +310,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ currentUser() : Collection			}] \hfill
-			Restituisce le informazioni riguardanti l'utente che sta interrogando il database attraverso una collezione di documenti di MongoDB
+			Restituisce le informazioni riguardanti l'utente che ha effettuato la chiamata al metodo, tramite \texttt{Meteor.user()}
 			
 		\begin{description}
 			
