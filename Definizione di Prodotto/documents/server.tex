@@ -24,7 +24,19 @@
 \begin{description}
 %-------  descrizione della classe%
 \item[Descrizione] \hfill
-	Lista di metodi che pubblicano al client solamente le informazioni a cui esso puo' accedere. Utilizzano tutti  \textbf{[Meteor.publish]} per rendere reperibili i metodi attraverso Meteor
+	Questi metodi trasferiscono informazioni dal database MongoDB al database minimongo, prelevando solamente le informazioni di cui l'utente ha bisogno e a cui ha accesso. \\
+Vengono pubblicati all'interno di Meteor e sono sempre acessibili in ogni parte dell'applicazione. Il seguente esempio mostra come vengono dichiarati: 
+\color{blue}\begin{lstlisting}[frame=single]
+Meteor.publish('nomeMetodo', function publishFunction(parametro1,parametro2,...) {
+	/* ... */
+   	return Collezione.find(...);
+});
+\end{lstlisting}\color{black}
+Le informazioni vengono prelevate dalle Collezioni di Meteor, che sono in sostanza il modo con cui le informazioni persistenti vengono archiviate. \\
+Questi metodi vengono solitamente chiamati all'interno dei file routes.js contenuti in ognuno dei package del client.
+
+
+
 
 	
 	
@@ -34,7 +46,7 @@
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getInfographicByPresId(id : String) : Collection			}] \hfill
-			Pubblica una lista di infografiche associate ad una presentazione
+			Restituisce una collezione di infografiche associate ad una presentazione, cercandola nella collezione Infographics creata automaticamente al primo avvio del database MongoDB. \\ La presentazione deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -57,7 +69,7 @@
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getFramesByPresId(id : String) : Collection			}] \hfill
-			Pubblica una lista di frames associati ad una presentazione
+			Restituisce una collezione di frames associati ad una presentazione, cercandola nella collezione Frames creata automaticamente al primo avvio del database MongoDB. \\ La presentazione deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -81,7 +93,7 @@
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getInfographicFrames(presid : String) : Collection			}] \hfill
-			Pubblica una lista di tutti i frames delle infografiche di una presentazione
+			Restituisce una collezione di tutti i Frame contenuti nell'infografica di una presentazione, cercando prima l'Infografica associata al codice identificativo ricevuto, e successivamente cercando i Frame. Consulta le collezioni Infographics e Frames create automaticamente al primo avvio del database MongoDB. \\ La presentazione in cui è contenuta l'infografica deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -105,7 +117,7 @@
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getTrailsByPresId(id : String) : Collection			}] \hfill
-			Pubblica una lista di trails associati ad una presentazione
+			Restituisce una collezione di Trails associati ad una presentazione, cercandola nella collezione Trails creata automaticamente al primo avvio del database MongoDB. \\ La presentazione deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -129,7 +141,7 @@
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getPresentationsById(id : String) : Collection			}] \hfill
-			Pubblica una presentazione all'utente
+			Restituisce la presentazione associata al codice identificativo ricevuto, cercandola nella collezione Presentations creata automaticamente al primo avvio del database MongoDB. \\ La presentazione deve appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -153,7 +165,7 @@
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getPresentations() : Collection			}] \hfill
-			Pubblica una lista di tutte le presentazioni che l'utente possiede
+			Restituisce una collezione di tutte le presentazioni create dall'utente, cercandole nella collezione Presentations creata automaticamente al primo avvio del database MongoDB. \\ Le presentazioni devono appartenere all'utente che ne sta effettuando la richiesta (il codice identificativo dell'utente viene individuato tramite \texttt{this.userId})
 			
 		\begin{description}
 			
@@ -170,7 +182,7 @@
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getTrailsById(id : String) : Collection			}] \hfill
-			Pubblica un trail all'utente che ne ha effettuato la richiesta
+			Restituisce il Trail associato al codice identificativo ricevuto, cercandolo nella collezione Trails creata automaticamente al primo avvio del database MongoDB.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -205,6 +217,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 %-------  diagramma della classe%
 \subsubsection{premi/server/methods}
 \begin{figure}[H]
@@ -220,7 +242,7 @@
 \begin{description}
 %-------  descrizione della classe%
 \item[Descrizione] \hfill
-	Lista di metodi che permettono al client di interagire con il database del server. I metodi marcati \textbf{[Meteor.methods]} devono essere inseriti nel servizio \$meteor per permettere poi al client di accedervi attraverso il pattern Dependency Injection$_G$
+	Lista di metodi che permettono al client di interagire con il database del server. I metodi marcati \{Meteor.methods\} devono essere inseriti nel servizio \$meteor per permettere poi al client di accedervi attraverso il pattern Dependency Injection$_G$.\\
 
 
 
