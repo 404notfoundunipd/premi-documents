@@ -3,11 +3,30 @@
 Vengono qui descritti i metodi e gli attributi di ogni componente dell'applicazione. \\
 \subsection{Template}
 Componenti marcati come \textit{template} sono speciali pagine HTML che non possiedono metodi e attributi propri, ma utilizzano quelli forniti dal loro controller dedicato attraverso lo \textit{\$scope} (l'oggetto di AngularJS$_G$ che funge da ViewModel$_G$); per questo motivo saranno solamente descritti tramite note e raccomandazioni che specificano come essi devano essere costruiti.
-\subsection{Servizi di AngularJS$_G$}
+\subsection{Servizi di AngularJS$_G$} \label{servizi}
 I servizi di AngularJS sono oggetti intercambiabili che vengono collegati tra loro attraverso il pattern Dependency Injection$_G$. Sono quasi sempre dei Singleton$_G$, e vengono istanziati solo quando un componente dipende da loro.
 I principali servizi utilizzati per lo sviluppo di questa applicazione sono:
 \begin{itemize}
-\item \textbf{\$scope} è il collegamento tra i controller e le view dell'applicazione. Il controller modella lo \$scope con attributi e metodi pubblici, che la view utilizza per mostrare e modificare il database in tempo reale;
+\item \textbf{\$scope} è il collegamento tra i controller e le view dell'applicazione. Il controller modella lo \$scope con attributi e metodi pubblici, che la view utilizza per mostrare e modificare il database in tempo reale. Ogni applicazione che utilizza AngularJS ha un solo \$scope principale chiamato \$rootScope, ma può avere svariati \$scope figli aggiunti in una struttura ad albero che rispecchia esattamente la struttura a "stati" delle view del sito. \\
+Nei diagrammi dei package di questo documento lo \$scope è rappresentato simbolicamente come classe esterna posta tra la view e il controller, mentre a livello implementativo viene invece definito all'interno del controller associato. Nella definizione dei controller quindi: 
+\begin{itemize}
+\item \textbf{tutti i gli attributi e i metodi pubblici dei controller vanno inseriti nello \$scope};
+\item \textbf{tutti i gli attributi e i metodi privati dei controller appartengono al controller}.
+\end{itemize}
+Questo esempio mostra la dichiarazione di un metodo (privato) in un controller che accede ad attributi pubblici dello \$scope:
+\color{blue}\begin{lstlisting}[frame=single]
+var var_init = function () {
+	$scope.emailState = "";
+	$scope.passwordState = "";
+};
+\end{lstlisting}\color{black}
+quest'altro esempio invece mostra la dichiarazione di un metodo (pubblico) dello \$scope all'interno del controller che accede al metodo privato del controller mostrato prima:
+\color{blue}\begin{lstlisting}[frame=single]
+$scope.initVariables = function () {
+	var_init();
+};
+\end{lstlisting}\color{black}
+Lo \$scope ha accesso completo al controller, mentre la view può solo utilizzare quello che è stato definito nello \$scope;
 \item \textbf{\$rootScope} è lo \$scope "radice" da cui discendono tutti gli altri \$scope dell'applicazione;
 \item \textbf{\$meteor} è un servizio creato da Urigo: Angular-Meteor$_G$ per permettere di accedere alle funzionalità di Meteor all'interno dei moduli di AngularJS;
 \item \textbf{\$state} rappresenta lo stato, o la posizione, in cui l'utente si trova all'interno dell'applicazione. Viene fornito dal package esterno AngularUI Router per AngularJS, che vede il re-indirizzamento dell'utente all'interno dell'applicazione come lo spostamento attraverso una macchina a stati;

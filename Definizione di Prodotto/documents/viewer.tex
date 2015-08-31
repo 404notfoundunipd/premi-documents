@@ -2,7 +2,7 @@
 \subsection{premi/client/viewer}
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=0.55]{img/diapkg/viewer.png}
+\includegraphics[scale=0.75]{img/diapkg/viewer.png}
 \caption{Diagramma del package premi/client/viewer}
 \end{center}
 \end{figure}
@@ -55,7 +55,7 @@
 \subsubsection{premi/client/viewer/controllers/trailsCtrl}
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.55]{img/diacla/trailsCtrl.png}
+\includegraphics[scale=0.85]{img/diacla/trailsCtrl.png}
 \caption{Diagramma della classe premi/client/viewer/controllers/trailsCtrl}
 \end{center}
 \end{figure}
@@ -64,7 +64,13 @@
 \begin{description}
 %-------  descrizione della classe%
 \item[Descrizione] \hfill
-	Controller della vista generata dal template \textit{trails.ng}. Fornisce, tramite lo \textit{\$scope}, la lista di tutti i trail creati dall'utente per la presentazione selezionata
+	Controller della vista generata dal template \textit{trails.ng}. Fornisce, tramite lo \textit{\$scope}, la lista di tutti i trail creati dall'utente per la presentazione selezionata.
+	\\ La dicitura \{\$scope\} nel diagramma UML$_G$ indica che:
+\begin{itemize}
+\item tutti gli attributi e i metodi pubblici del controller vanno inseriti nello \$scope;
+\item tutti gli attributi e i metodi privati del controller appartengono al controller.
+\end{itemize}
+Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 	
 
 	
@@ -93,7 +99,7 @@
 \subsubsection{premi/client/viewer/controllers/viewerCtrl}
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.55]{img/diacla/viewerCtrl.png}
+\includegraphics[scale=0.85]{img/diacla/viewerCtrl.png}
 \caption{Diagramma della classe premi/client/viewer/controllers/viewerCtrl}
 \end{center}
 \end{figure}
@@ -102,7 +108,13 @@
 \begin{description}
 %-------  descrizione della classe%
 \item[Descrizione] \hfill
-	Controller della vista generata dal template \textit{viewer.ng}. Fornisce, tramite lo \textit{\$scope}, gli attributi ed i metodi necessari alla visualizzazione a allo scorrimento della presentazione tramite la libreria impress.js
+	Controller della vista generata dal template \textit{viewer.ng}. Fornisce, tramite lo \textit{\$scope}, gli attributi ed i metodi necessari alla visualizzazione a allo scorrimento della presentazione tramite la libreria impress.js.
+	\\ La dicitura \{\$scope\} nel diagramma UML$_G$ indica che:
+\begin{itemize}
+\item tutti gli attributi e i metodi pubblici del controller vanno inseriti nello \$scope;
+\item tutti gli attributi e i metodi privati del controller appartengono al controller.
+\end{itemize}
+Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 	
 	
 	

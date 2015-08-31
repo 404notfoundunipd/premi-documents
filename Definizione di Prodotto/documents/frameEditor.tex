@@ -2,7 +2,7 @@
 \subsection{premi/client/frameEditor}
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.55]{img/diapkg/frameEditor.png}
+\includegraphics[scale=0.85]{img/diapkg/frameEditor.png}
 \caption{Diagramma del package premi/client/frameEditor}
 \end{center}
 \end{figure}
@@ -42,6 +42,12 @@
 %-------  descrizione della classe%
 \item[Descrizione] \hfill
 	Questo controller crea lo \$scope associato alla vista generata da \textbf{frame.ng}, fornendo i dati e i metodi necessari per consentire all'utente di creare e modellare un frame, inserendo o rimuovendo oggetti grafici al suo interno.
+\\ La dicitura \{\$scope\} nel diagramma UML$_G$ indica che:
+\begin{itemize}
+\item tutti gli attributi e i metodi pubblici del controller vanno inseriti nello \$scope;
+\item tutti gli attributi e i metodi privati del controller appartengono al controller.
+\end{itemize}
+Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 	
 	
 %-------  lista delle classi associate%	
