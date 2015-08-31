@@ -244,6 +244,7 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 %-------  descrizione della classe%
 \item[Descrizione] \hfill
 	Lista di metodi che permettono al client di interagire con il database del server. I metodi marcati \{Meteor.methods\} devono essere inseriti nel servizio \$meteor per permettere poi al client di accedervi attraverso il pattern Dependency Injection$_G$.\\
+	Il codice identificativo dell'utente viene individuato tramite \texttt{this.userId}.
 
 
 
@@ -345,26 +346,26 @@ Questi metodi vengono solitamente chiamati all'interno dei file routes.js conten
 					\item Dev'essere inserito nel servizio \textbf{\$meteor} attraverso il comando Meteor.methods
 					\item Inizializzare ogni attributo della presentazione:
 					\begin{itemize}
-					\item \textit{title}: con il titolo ricevuto
-					\item \textit{description}: con la descrizione ricevuta
-					\item \textit{owner}: con l'id dell'utente che sta creando la presentazione
-					\item \textit{isPublic}: \textbf{false}, la presentazione inizialmente è sempre privata
+						\item \textit{title}: con il titolo ricevuto
+						\item \textit{description}: con la descrizione ricevuta
+						\item \textit{owner}: con l'id dell'utente che sta creando la presentazione
+						\item \textit{isPublic}: \textbf{false}, la presentazione inizialmente è sempre privata
 					\end{itemize}
 					\item Ogni presentazione possiede almeno un'infografica, che andrà creata e inizializata nel database con i seguenti campi dato:
 					\begin{itemize}
-					\item \textit{dataX}: -5000
-					\item \textit{dataY}: -4000
-					\item \textit{dataZ}: 0
-					\item \textit{scale}: 0
-					\item \textit{height}: 7920
-					\item \textit{width}: 10240
-					\item \textit{zoom}: 0
-					\item \textit{presid}: il codice univoco della presentazione
-					\item \textit{owner}: l'id dell'utente che sta creando la presentazione
-					\item \textit{background}: Collezione(JSON) vuota
-					\item \textit{content}: Collezione(JSON) vuota
-					\item \textit{framesId}: array vuoto
-					\item \textit{type}: "infographics"
+						\item \textit{dataX}: -5000
+						\item \textit{dataY}: -4000
+						\item \textit{dataZ}: 0
+						\item \textit{scale}: 0
+						\item \textit{height}: 7920
+						\item \textit{width}: 10240
+						\item \textit{zoom}: 0
+						\item \textit{presid}: il codice univoco della presentazione
+						\item \textit{owner}: l'id dell'utente che sta creando la presentazione
+						\item \textit{background}: Collezione(JSON) vuota
+						\item \textit{content}: Collezione(JSON) vuota
+						\item \textit{framesId}: array vuoto
+						\item \textit{type}: "infographics"
 					\end{itemize}
 				\end{itemize}
 		\end{description}

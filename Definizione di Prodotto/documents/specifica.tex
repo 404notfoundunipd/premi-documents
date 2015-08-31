@@ -48,4 +48,4 @@ Lo \$scope ha accesso completo al controller, mentre la view può solo utilizzar
 \end{itemize}
 
 \subsection{Gestione degli Account Utente}
-Il Framework MeteorJS$_G$ si occupa della gestione dell'account degli utenti che utilizzano l'applicazione. Le informazioni dell'utente sono consultabili attraverso la variabile currentUser  in \$rootScope.
+Il Framework MeteorJS$_G$ si occupa della gestione dell'account degli utenti che utilizzano l'applicazione. Le informazioni dell'utente sono consultabili attraverso la variabile \texttt{currentUser}  in \$rootScope, mentre all'interno dei metodi del server che pubblicano le informazioni all'utente è necessario usare \texttt{this.userid}.
