@@ -11,12 +11,35 @@ Si illustreranno poi i Design Pattern utilizzati nella fase di progettazione ad 
 I componenti sono stati suddivisi prima in base al loro contributo a specifiche funzionalità del software e solo successivamente per appartenenza ai ruoli del pattern MVC$_G$. Questo aumenta la chiarezza espositiva dei diagrammi, evita la creazione di package$_G$ contenenti un numero eccessivo di classi e aiuta a compiere verifiche mirate a singoli componenti. \\
 È importante specificare che il framework AngularJS$_G$ unisce view e controller attraverso una dichiarazione esterna a entrambi, che fa parte del meccanismo detto di \textit{routing} o di reindirizzamento dell'utente; view e controller inoltre non sanno di essere collegati tra loro e comunicano attraverso un oggetto chiamato \textit{\$scope}. Questo rende l'architettura sia di tipo Model-View-Controller$_G$ che di tipo Model-View-ViewModel$_G$. \\
 Per motivi di leggibilità \$scope e routing non verranno rappresentati in modo esplicito nei diagrammi dei package e delle classi di questo documento, ma sono comunque da considerarsi impliciti nelle dipendenze tra i view e controller dei componenti. \\
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.40]{img/architettura.png}
+\caption{Schema archittetura}
+\end{center}
+\end{figure}
+
+La figura precedente mostra com'è formato un tipico componente costruito utilizzando i framework AngularJS e MeteorJS combinati assieme. Grazie ai due framework il gruppo potrà concentrarsi solamente sulla creazione di Controller, Template, Modelli dei dati e Servizi, e lasciare che tutto il resto venga creato automaticamente all'occorrenza. \\
+Verrà qui sotto esposta una lista dettagliata dei tipi di componenti e di come essi vengono implementati:
+\begin{itemize}
+\item \textbf{Template:}(CREATO DAL GRUPPO CON ANGULAR)\\ in Angular, i Template vengono scritti con il linguaggio HTML combinato assieme a specifici elementi e attributi propri del framework. Angular combina il Template con informazioni provenienti dal Model e dal Controller per realizzare una View dinamica con cui l'utente interagisce attraverso il browser;
+\item \textbf{View:}(GENERATO AUTOMATICAMENTE DA ANGULAR)\\ le View sono le pagine web dinamiche che l'utente vede nel browser e utilizza per interagire con le funzionalità offerte dall'applicazione. Vengono generate automaticamente da Angular attraverso i Template. Non ci sarà quindi bisogno di implementarle;
+\item \textbf{ModelView:} (GENERATO DAL CONTROLLER) è l'oggetto che incorpora i dati recuperati dal database e le espressioni che la View utilizza per elaborarli e modificarli. In Angular viene chiamato \texttt{\$scope} e le sue funzionalità vengono modellate all'interno del Controller; 
+\item \textbf{Controller:} (CREATO DAL GRUPPO CON ANGULAR) in Angular, i Controller sono delle \textit{funzioni} costruttore scritte in linguaggio JavaScript che sono utilizzate per estendere il ModelView, che in Angular è un oggetto chiamato \texttt{\$scope}. I Controller incorporano le definizioni dei Modelli dei dati e i vari Servizi di cui hanno bisogno attraverso il pattern Dependency Injection, completamente gestito da Angular. Tutto quello che il gruppo dovrà fare sarà dichiararne la dipendenza;
+\item \textbf{Servizi:} (CREATI DAL GRUPPO CON ANGULAR) i Servizi di Angular sono oggetti sostituibili che sono collegati assieme tramite il pattern Dependency Injection$_G$. Vengono utilizzati per organizzare e condividere parti di codice nell'applicazione, con una semplice dichiarazione della dipendenza ad essi;
+\item \textbf{Modelli dei dati:}(CREATI DAL GRUPPO CON ANGULAR) i Modelli dei dati sono classi che regolano la struttura dei dati salvati nel database e forniscono gli strumenti per manipolarli. In Angular le classi vengono definite in appositi contenitori chiamati Factory, che generano oggetti che vengono forniti all'utente tramite i Controller, e salvati poi nel database come collezioni tramite Meteor;
+\item \textbf{Database Locale} (GESTITO DA METEOR) grazie a Meteor e al design pattern publish-subscribe$_G$, l'utente riceve solamente le informazioni di cui ha bisogno nel contesto in cui si trova, che vengono prelevate dal database remoto e salvate in un in-memory-database$_G$ locale gestito da Minimongo$_G$. Meteor si occupa poi di sincronizzare in background le informazioni con il database remoto. Minimongo è un database di tipo dinamico: le informazioni salvate sono collezioni di documenti, i quali non sono altro che collezioni di coppie di chiavi e valori. La struttura delle collezioni viene regolamentata lato client dai Modelli dei dati e dal Controller; non vi è quindi bisogno di strutturare il server i
+\item \textbf{Database Remoto} (GESTITO DA METEOR) 
+\end{itemize}
+
+
+
 \subsection{Server}
 
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=0.70]{img/meteor_architettura.jpg}
-\caption{Schema archittetura}
+\caption{Schema archittetura di Meteor}
 \end{center}
 \end{figure}
 
