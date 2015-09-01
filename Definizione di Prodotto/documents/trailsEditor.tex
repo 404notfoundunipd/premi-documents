@@ -8,20 +8,6 @@
 \end{figure}
 
 %-------  diagramma di un template %
-\subsubsection{premi/client/trailsEditor/views/basicToolbar.ng}
-
-\begin{description}
-%-------  descrizione del template%
-\item[Descrizione] \hfill
-	Template della vista associata allo \textit{\$scope} di \textit{basicToolbarCtrl}. Fornisce una toolbar per la navigazione tra le varie fasi della modifica della presentazione
-\item[Note] \hfill
-	\begin{itemize}
-			\item Deve possedere un bottone per ogni fase dell'editor (Gestione Frame, Gestione Infografica e Gestione Trail)
-			\item Deve possedere un bottone per l'uscita dall'editor
-	\end{itemize}
-\end{description}
-
-%-------  diagramma di un template %
 \subsubsection{premi/client/trailsEditor/views/editTrail.ng}
 
 \begin{description}
@@ -98,86 +84,51 @@
 	\end{itemize}
 \end{description}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-%-------  diagramma della classe%
-\subsubsection{premi/client/trailsEditor/controllers/basicToolbarCtrl}
-\begin{figure}[H]
-\begin{center}
-\includegraphics[scale=0.85]{img/diacla/basicToolbarCtrl.png}
-\caption{Diagramma della classe premi/client/trailsEditor/controllers/basicToolbarCtrl}
-\end{center}
-\end{figure}
-
+%-------  diagramma di un template %
+\subsubsection{premi/client/trailsEditor/views/removeChkPnt.ng}
 
 \begin{description}
-%-------  descrizione della classe%
+%-------  descrizione del template%
 \item[Descrizione] \hfill
-	Controller della view \textit{basicToolbar.ng}. Fornisce, tramite lo \textit{\$scope} un metodo per passaggio da un editor all'altro
-	\\ La dicitura \{\$scope\} nel diagramma UML$_G$ indica che:
-\begin{itemize}
-\item tutti gli attributi e i metodi pubblici del controller vanno inseriti nello \$scope;
-\item tutti gli attributi e i metodi privati del controller appartengono al controller.
-\end{itemize}
-Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
-	
-%-------  lista dei metodi%	
-\item[Metodi] \hfill
-
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ goToState(state : String) : void			}] \hfill
-			Tramite il metodo \textit{\$state.go} cambia "stato" dell'editor, passando da una fase di creazione della presentazione all'altra.
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill
-				\begin{itemize}
-				
-					\item \textbf{state : String			} \hfill
-					Il nuovo stato dell'editor. Gli stati dell'editor al momento sono:
-					\begin{itemize}
-						\item "premi.editor.frame"
-						\item "premi.editor.infographic"
-						\item "premi.editor.trails"
-					\end{itemize}
-					
-				\end{itemize}
-		\end{description}
-	\end{description}
-	% -- fine metodo -- %	
-		
+	Template della vista associata allo \textit{\$scope} di \textit{removeChkPnt}. Fornisce all'utente i comandi per la rimozione di un checkpoint.
+\item[Note] \hfill
+	\begin{itemize}
+			\item Mostra un messaggio di conferma eliminazione del checkpoint
+			\item Possiede un bottone associato al metodo \textit{remove()} dello \textit{\$scope} confermare la rimozione
+			\item Possiede un bottone associato al metodo \textit{discard()} dello \textit{\$scope} per annullare il processo di rimozione del checkpoint
+	\end{itemize}
 \end{description}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
