@@ -16,6 +16,20 @@
 	Template della vista associata allo \textit{\$scope} di \textit{editorCtrl}. Fornisce uno scheletro per le altre viste dedicate alla gestione dell'editor. 
 \end{description}
 
+%-------  diagramma di un template %
+\subsubsection{premi/client/editor/views/basicToolbar.ng}
+
+\begin{description}
+%-------  descrizione del template%
+\item[Descrizione] \hfill
+	Template della vista associata allo \textit{\$scope} di \textit{basicToolbar}. Fornisce il menù per:
+	\begin{itemize}
+	\item accedere al frameEditor;
+	\item accedere all'infographicEditor;
+	\item accedere al trail Editor.
+	\end{itemize}
+\end{description}
+
 
 \subsubsection{premi/client/editor/controllers/editorCtrl}
 \begin{figure}[H]
@@ -29,6 +43,73 @@
 %-------  descrizione della classe%
 \item[Descrizione] \hfill
 	Questo controller non è al momento provvisto di funzionalità. Si appoggia alla vista associata \textit{editor.ng}, la quale funge da scheletro per le viste necessarie alla gestione dei vari editor a disposizione dell'utente. 
+\end{description}
+
+%-------  diagramma della classe%
+\subsubsection{premi/client/editor/controllers/basicToolbarCtrl}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.85]{img/diacla/basicToolbarCtrl.png}
+\caption{Diagramma della classe premi/editor/controllers/basicToolbarCtrl}
+\end{center}
+\end{figure}
+
+
+\begin{description}
+%-------  descrizione della classe%
+\item[Descrizione] \hfill
+	Controller della view \textit{basicToolbar.ng}. Fornisce, tramite lo \textit{\$scope} un metodo per passaggio da un editor all'altro
+	\\ La dicitura \{\$scope\} nel diagramma UML$_G$ indica che:
+\begin{itemize}
+\item tutti gli attributi e i metodi pubblici del controller vanno inseriti nello \$scope;
+\item tutti gli attributi e i metodi privati del controller appartengono al controller.
+\end{itemize}
+Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
+	
+%-------  lista dei metodi%	
+\item[Metodi] \hfill
+
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ goToState(state : String) : void			}] \hfill
+			Tramite il metodo \textit{\$state.go} cambia "stato" dell'editor, passando da una fase di creazione della presentazione all'altra.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{state : String			} \hfill
+					Il nuovo stato dell'editor. Gli stati dell'editor al momento sono:
+					\begin{itemize}
+						\item "premi.editor.frame"
+						\item "premi.editor.infographic"
+						\item "premi.editor.trails"
+					\end{itemize}
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ activeStateClass(state : String) : String			}] \hfill
+			Verifica se un determinato stato è attivo. Restituisce "active" nel caso lo stato sia attivo altrimenti restituisce una stringa vuota.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{state : String			} \hfill
+					identifica il nome dello stato da controllare.
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
+		
 \end{description}
 
 
