@@ -11,6 +11,7 @@ Si illustreranno poi i Design Pattern utilizzati nella fase di progettazione ad 
 I componenti sono stati suddivisi prima in base al loro contributo a specifiche funzionalità del software e solo successivamente per appartenenza ai ruoli del pattern MVC$_G$. Questo aumenta la chiarezza espositiva dei diagrammi, evita la creazione di package$_G$ contenenti un numero eccessivo di classi e aiuta a compiere verifiche mirate a singoli componenti. \\
 È importante specificare che il framework AngularJS$_G$ unisce view e controller attraverso una dichiarazione esterna a entrambi, che fa parte del meccanismo detto di \textit{routing} o di reindirizzamento dell'utente; view e controller inoltre non sanno di essere collegati tra loro e comunicano attraverso un oggetto chiamato \textit{\$scope}. Questo rende l'architettura sia di tipo Model-View-Controller$_G$ che di tipo Model-View-ViewModel$_G$. \\
 Per motivi di leggibilità \$scope e routing non verranno rappresentati in modo esplicito nei diagrammi dei package e delle classi di questo documento, ma sono comunque da considerarsi impliciti nelle dipendenze tra i view e controller dei componenti. \\
+Tutti i componenti marcati come Template inoltre utilizzano il framework Materialize che, come per i framework AngularJS e MeteorJS verrà dato per implicito e non verrà inserito in ogni diagramma.
 
 \subsection{Tipi di Componenti}
 
@@ -25,8 +26,8 @@ Per motivi di leggibilità \$scope e routing non verranno rappresentati in modo 
 La figura precedente mostra l'architettura di un'applicazione costruita utilizzando i framework AngularJS$_G$ e MeteorJS$_G$ combinati assieme. Grazie ai due framework$_G$ il gruppo potrà concentrarsi solamente sulla creazione di Controller, Template, Modelli dei dati e Servizi, e lasciare che tutto il resto venga generato automaticamente all'occorrenza. \\
 Verrà qui sotto esposta una lista dettagliata dei tipi di componenti e di come essi vengono implementati:
 \begin{itemize}
-\item \textbf{Template:}\textit{(CREATI DAL GRUPPO CON ANGULAR$_G$)} in Angular, i Template vengono scritti con il linguaggio HTML combinato assieme a specifici elementi e attributi propri del framework. Angular combina il Template con informazioni provenienti dal Model e dal Controller per realizzare una View dinamica con cui l'utente interagisce attraverso il browser;
-\item \textbf{View:}\textit{(GENERATO AUTOMATICAMENTE DA ANGULAR$_G$)} le View sono le pagine web dinamiche che l'utente vede nel browser e utilizza per interagire con le funzionalità offerte dall'applicazione. Vengono generate automaticamente da Angular attraverso i Template. Non ci sarà quindi bisogno di implementarle;
+\item \textbf{Template:}\textit{(CREATI DAL GRUPPO CON ANGULAR$_G$)} in Angular, i Template vengono scritti con il linguaggio HTML combinato assieme a specifici elementi e attributi propri del framework. Angular combina il Template con informazioni provenienti dal Model e dal Controller per realizzare una View dinamica con cui l'utente interagisce attraverso il browser. L'applicazione inoltre sfrutterà il framework Materialize per dare uno stile alle View;
+\item \textbf{View:}\textit{(GENERATE AUTOMATICAMENTE DA ANGULAR$_G$ E MATERIALIZE)} le View sono le pagine web dinamiche che l'utente vede nel browser e utilizza per interagire con le funzionalità offerte dall'applicazione. Vengono generate automaticamente da Angular attraverso i Template e il loro stile verrà fornito da Materialize. Non ci sarà quindi bisogno di implementarle;
 \item \textbf{ModelView:}\textit{(GENERATI DAI CONTROLLER)} è l'oggetto che incorpora i dati recuperati dal database, e le espressioni che la View utilizza per elaborarli e modificarli. In Angular viene chiamato \texttt{\$scope} e le sue funzionalità vengono modellate all'interno del Controller; 
 \item \textbf{Controller:}\textit{(CREATI DAL GRUPPO CON ANGULAR$_G$)} in Angular, i Controller sono delle \textit{funzioni} costruttore scritte in linguaggio JavaScript che sono utilizzate per estendere il ModelView, che in Angular è un oggetto chiamato \texttt{\$scope}. I Controller incorporano le definizioni dei Modelli dei dati e i vari Servizi di cui hanno bisogno attraverso il pattern Dependency Injection, completamente gestito da Angular. Tutto quello che il gruppo dovrà fare per incorporarli sarà dichiararne la dipendenza;
 \item \textbf{Servizi:}\textit{(CREATI DAL GRUPPO CON ANGULAR$_G$)} i Servizi di Angular sono oggetti sostituibili che sono collegati assieme tramite il pattern Dependency Injection$_G$. Vengono utilizzati per organizzare e condividere parti di codice nell'applicazione, con una semplice dichiarazione della dipendenza ad essi;
@@ -47,14 +48,20 @@ Verrà qui sotto esposta una lista dettagliata dei tipi di componenti e di come 
 \end{figure}
 
 La comunicazione con la componente server avviene tramite la libreria Node.js$_G$ già implementata in MeteorJS$_G$. Con questa componente l'archittetura permette di realizzare un'applicazione asincrona, che a differenza del modello classico client-server permette di eseguire operazioni utili durante l'attesa di ricevere o di modificare un dato richiesto.
-Nel server sono presenti delle funzioni che permettono al client di reperire i dati dal database MongoDB$_G$ residente nel server. In locale vengono scaricati solo i file richiesti che servono in quel momento. Ogni modifica ai dati viene effettuata prima nel database locale Minimongo$_G$; solo successivamente MeteorJS esegue in automatico in background la sincronizzazione tra Minimongo$_G$ e MongoDB$_G$. Il database MongoDB residente nel server viene gestito dalle classi del client e quindi anche la struttura delle collezioni è definita dalle stesse. Nella parte server è presente solo una classe che contiene i metodi per accedere e per gestire al database MongoDB$_G$.
+Nel server sono presenti delle funzioni che permettono al client di reperire i dati dal database MongoDB$_G$ residente nel server. In locale vengono scaricati solo i file richiesti che servono in quel momento. Ogni modifica ai dati viene effettuata prima nel database locale Minimongo$_G$; solo successivamente MeteorJS esegue in automatico in background la sincronizzazione tra Minimongo$_G$ e MongoDB$_G$. Il database MongoDB è una collezione di documenti la cui struttura può essere dinamica: è quindi compito del Client, ed eventualmente di specifici metodi del Server assicurare che la struttura delle informazioni salvate sia corretta. \\
+Riassumendo:
+\begin{itemize}
+\item i database gestiti da MeteorJS non impongono una struttura rigida alle informazioni salvate: i Modelli dei dati verranno quindi collocati lato Client;
+\item delle funzioni specifiche nel Server si occuperanno di fornire all'utente solamente le informazioni di cui ha bisogno e a cui ha accesso;
+\item dei metodi specifici nel Server si occuperanno di inserire, aggiornare o rimuovere correttamente i dati nel database locale;
+\item la sincronizzazione tra il database locale e quello remoto è interamente gestita da MeteorJS, non è necessario progettarla.
 \clearpage
 \newpage
 \section{Diagramma dei Package}
 Di seguito vengono rappresentati i componenti principali del sistema e le loro dipendenze. \\
 Package contenenti parti del prodotto relative alla componente \textit{Model} sono stati colorati di rosso; quelli relativi alla componente \textit{Controller} o \textit{ViewModel} sono stati colorati di verde, mentre quelli che racchiudono i template delle \textit{View} sono stati colorati di arancio. Questa scelta ha il solo scopo di facilitare la comprensione della struttura del sistema e non si basa su alcun standard UML$_G$.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.40]{img/diapkg/package.png}
 \caption{Diagramma dei package di Premi.}
