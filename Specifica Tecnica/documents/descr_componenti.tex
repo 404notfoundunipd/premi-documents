@@ -1,4 +1,4 @@
-section{Descrizione dei singoli componenti}
+\section{Descrizione dei singoli componenti}
 
 \subsection{premi/server}
 \begin{figure}[H]
@@ -680,7 +680,33 @@ section{Descrizione dei singoli componenti}
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/viewer/views/viewer.ng per visualizzare la presentazione
 \end{itemize}
 
-
+\subsection{Premi/client/trailMap}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/trailMap.png}
+\caption{Diagramma del package premi/client/trailMap}
+\end{center}
+\end{figure}
+\subsubsection{Premi/client/trailMap/views/trailMap.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} trailMap.ng
+  \item[] \textbf{Tipo:} template
+  \item[] \textbf{Package:} Premi/client/trailMap/views
+  \item[] \textbf{Descrizione:}  template che permette di visualizzare e modificare il percorso di un trail.
+\end{itemize}
+\subsubsection{Premi/client/trailMap/controllers/trailMapCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} trailMapCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} Premi/client/trailMap/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailMapCtrl/views/trailMap.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailMap/views/trailMap.ng e dipende da:
+  \begin{itemize}
+  	\item \textit{Premi/client/presentation/lib/trail} per interagire con gli oggetti trail;
+  	\item \textit{Premi/client/presentation/lib/orderedGOList} per ordinare gli oggetti grafici;
+  	\item \textit{Premi/client/presentation/lib/signalCtrl} per gestire i vari stati;
+  \end{itemize}
+\end{itemize}
 
 
 
