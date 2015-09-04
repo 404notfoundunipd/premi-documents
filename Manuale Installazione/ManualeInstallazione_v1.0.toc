@@ -9,19 +9,16 @@
 \contentsline {subsubsection}{\numberline {1.5.1}Informativi}{4}{subsubsection.1.5.1}
 \contentsline {section}{\numberline {2}Istruzioni per l'uso}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}Requisiti di sistema}{5}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Primo accesso}{6}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Pannello di controllo dell'utente}{8}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Creare una nuova presentazione}{9}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Editor$_G$}{10}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Frame$_G$ editor$_G$}{10}{subsection.2.6}
-\contentsline {subsubsection}{\numberline {2.6.1}Aggiunta frame$_G$}{11}{subsubsection.2.6.1}
-\contentsline {subsubsection}{\numberline {2.6.2}Aggiunta elemento forma}{12}{subsubsection.2.6.2}
-\contentsline {subsubsection}{\numberline {2.6.3}Aggiunta testo}{13}{subsubsection.2.6.3}
-\contentsline {subsubsection}{\numberline {2.6.4}Modifica degli elementi}{13}{subsubsection.2.6.4}
-\contentsline {subsection}{\numberline {2.7}Infographic editor$_G$}{16}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}Trails editor$_G$}{16}{subsection.2.8}
-\contentsline {subsubsection}{\numberline {2.8.1}Creazione percorso presentativo}{17}{subsubsection.2.8.1}
-\contentsline {subsection}{\numberline {2.9}Avvio di una presentazione}{19}{subsection.2.9}
-\contentsline {subsection}{\numberline {2.10}Errori e loro cause}{20}{subsection.2.10}
-\contentsline {subsection}{\numberline {2.11}Appendice}{22}{subsection.2.11}
-\contentsline {subsubsection}{\numberline {2.11.1}Glossario}{22}{subsubsection.2.11.1}
+\contentsline {section}{\numberline {3}File necessari}{5}{section.3}
+\contentsline {section}{\numberline {4}Installazione}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Linux}{5}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Installazione curl}{5}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Installazione MeteorJS}{5}{subsubsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.3}Avvio applicazione}{5}{subsubsection.4.1.3}
+\contentsline {subsection}{\numberline {4.2}Mac OS}{5}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Installazione curl}{5}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Installazione MeteorJS}{5}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Avvio applicazione}{5}{subsubsection.4.2.3}
+\contentsline {section}{\numberline {5}Consigli}{5}{section.5}
+\contentsline {subsection}{\numberline {5.1}Appendice}{5}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Glossario}{5}{subsubsection.5.1.1}

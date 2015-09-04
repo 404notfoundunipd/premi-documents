@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  4 SEP 2015 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  4 SEP 2015 22:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -423,7 +423,7 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 101.
 )
-No file ManualeInstallazione_v1.0.aux.
+(./ManualeInstallazione_v1.0.aux)
 \openout1 = `ManualeInstallazione_v1.0.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -440,6 +440,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
+
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -556,12 +557,14 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 22.
 LaTeX Info: Redefining \pageref on input line 22.
 LaTeX Info: Redefining \nameref on input line 22.
+
+(./ManualeInstallazione_v1.0.out) (./ManualeInstallazione_v1.0.out)
 \@outlinefile=\write3
 \openout3 = `ManualeInstallazione_v1.0.out'.
 
 
 (./documents/first.tex
-<../logo/logo404_Extends.png, id=4, 1027.84pt x 433.62pt>
+<../logo/logo404_Extends.png, id=92, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
@@ -581,37 +584,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Underfull \vbox (badness 10000) detected at line 28
  []
 
-) <../logo/logo404.png, id=13, 1027.84pt x 402.50375pt>
+) <../logo/logo404.png, id=101, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 26.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 26.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.26 \newpage
-              [1 <../logo/logo404.png>]
+              [1 <../logo/logo404.png>] (./ManualeInstallazione_v1.0.toc)
 \tf@toc=\write4
 \openout4 = `ManualeInstallazione_v1.0.toc'.
 
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 28.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 28.
-
-[2]
+ [2] (./ManualeInstallazione_v1.0.lot)
 \tf@lot=\write5
 \openout5 = `ManualeInstallazione_v1.0.lot'.
 
+
+(./ManualeInstallazione_v1.0.lof)
 \tf@lof=\write6
 \openout6 = `ManualeInstallazione_v1.0.lof'.
 
@@ -619,11 +617,8 @@ File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 32.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 32.
-
-[3] (./documents/intro.tex
+ [3]
+(./documents/intro.tex
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
@@ -632,850 +627,12 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 22.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 22.
-
-[4]) (./documents/istruzioni.tex
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 8.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 8.
-
-[5] <img/signup.png, id=52, 941.5175pt x 587.19376pt>
-File: img/signup.png Graphic file (type png)
- <use img/signup.png>
-Package pdftex.def Info: img/signup.png used on input line 13.
-(pdftex.def)             Requested size: 376.60033pt x 234.87334pt.
-File: ../logo/logo404.png Graphic file (type png)
-
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 30.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 30.
-
-[6 <./img/signup.png>] <img/signin.png, id=62, 963.6pt x 579.16376pt>
-File: img/signin.png Graphic file (type png)
-
-<use img/signin.png>
-Package pdftex.def Info: img/signin.png used on input line 34.
-(pdftex.def)             Requested size: 385.43317pt x 231.66139pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 39.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 39.
-
-[7 <./img/signin.png>] <img/dashboard.png, id=69, 1284.8pt x 627.34375pt>
-File: img/dashboard.png Graphic file (type png)
-
-<use img/dashboard.png>
-Package pdftex.def Info: img/dashboard.png used on input line 44.
-(pdftex.def)             Requested size: 449.68674pt x 219.5736pt.
-
-Overfull \hbox (12.17886pt too wide) in paragraph at lines 44--45
- [] 
+ [4]) (./documents/istruzioni.tex
+Overfull \hbox (13.82431pt too wide) in paragraph at lines 14--15
+\OT1/cmr/m/n/12 una car-tel-la, che per co-mo-dit^^Ra sup-po-nia-mo es-se-re []
+\OT1/cmtt/m/n/12 /home/404notfound/Desktop/Premi/\OT1/cmr/m/n/12 . 
  []
 
-<img/gear.png, id=70, 46.1725pt x 38.1425pt>
-File: img/gear.png Graphic file (type png)
- <use img/gear.png>
-Package pdftex.def Info: img/gear.png used on input line 51.
-(pdftex.def)             Requested size: 27.70369pt x 22.88567pt.
-
-Overfull \hbox (4.20393pt too wide) in paragraph at lines 51--51
-[][] 
- []
-
-<img/quit.png, id=71, 46.1725pt x 38.1425pt>
-File: img/quit.png Graphic file (type png)
- <use img/quit.png>
-Package pdftex.def Info: img/quit.png used on input line 52.
-(pdftex.def)             Requested size: 27.70369pt x 22.88567pt.
-
-Overfull \hbox (4.20393pt too wide) in paragraph at lines 52--52
-[][] 
- []
-
-<img/add.png, id=72, 68.255pt x 70.2625pt>
-File: img/add.png Graphic file (type png)
- <use img/add.png>
-Package pdftex.def Info: img/add.png used on input line 53.
-(pdftex.def)             Requested size: 27.3015pt x 28.10449pt.
-
-Overfull \hbox (3.80174pt too wide) in paragraph at lines 53--53
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--55
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 56.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 8 undefined on input line 56.
-
-[8 <./img/dashboard.png> <./img/gear.png> <./img/quit.png> <./img/add.png>]
-<img/new_pres.png, id=83, 901.3675pt x 403.5075pt>
-File: img/new_pres.png Graphic file (type png)
- <use img/new_pres.png>
-Package pdftex.def Info: img/new_pres.png used on input line 60.
-(pdftex.def)             Requested size: 360.5406pt x 161.40013pt.
-
-<img/list.png, id=84, 1284.8pt x 627.34375pt>
-File: img/list.png Graphic file (type png)
- <use img/list.png>
-Package pdftex.def Info: img/list.png used on input line 69.
-(pdftex.def)             Requested size: 449.68674pt x 219.5736pt.
-
-Overfull \hbox (12.17886pt too wide) in paragraph at lines 69--70
- [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-<img/play.png, id=85, 51.19125pt x 52.195pt>
-File: img/play.png Graphic file (type png)
- <use img/play.png>
-Package pdftex.def Info: img/play.png used on input line 77.
-(pdftex.def)             Requested size: 20.47612pt x 20.87762pt.
-
-<img/edit.png, id=86, 26.0975pt x 29.10875pt>
-File: img/edit.png Graphic file (type png)
- <use img/edit.png>
-Package pdftex.def Info: img/edit.png used on input line 78.
-(pdftex.def)             Requested size: 18.26811pt x 20.37598pt.
-
-<img/delete.png, id=87, 25.09375pt x 29.10875pt>
-File: img/delete.png Graphic file (type png)
- <use img/delete.png>
-Package pdftex.def Info: img/delete.png used on input line 79.
-(pdftex.def)             Requested size: 17.56549pt x 20.37598pt.
-
-<img/edit_title.png, id=88, 316.18124pt x 43.16125pt>
-File: img/edit_title.png Graphic file (type png)
- <use img/edit_title.png>
-Package pdftex.def Info: img/edit_title.png used on input line 80.
-(pdftex.def)             Requested size: 126.47025pt x 17.26418pt.
-
-Overfull \hbox (8.97147pt too wide) in paragraph at lines 80--80
-[][] 
- []
-
-
-Overfull \hbox (2.10727pt too wide) in paragraph at lines 76--82
-[][] 
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 84.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 84.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 84.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 84.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 84.
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 87.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 87.
-
-[9 <./img/new_pres.png> <./img/list.png> <./img/play.png> <./img/edit.png> <./i
-mg/delete.png> <./img/edit_title.png>]
-<img/frame_editor.png, id=101, 64.24pt x 64.24pt>
-File: img/frame_editor.png Graphic file (type png)
- <use img/frame_editor.png>
-Package pdftex.def Info: img/frame_editor.png used on input line 88.
-(pdftex.def)             Requested size: 25.69554pt x 25.69554pt.
-
-Overfull \hbox (2.19579pt too wide) in paragraph at lines 88--88
-[][] 
- []
-
-<img/info_editor.png, id=102, 64.24pt x 64.24pt>
-File: img/info_editor.png Graphic file (type png)
- <use img/info_editor.png>
-Package pdftex.def Info: img/info_editor.png used on input line 89.
-(pdftex.def)             Requested size: 25.69554pt x 25.69554pt.
-
-Overfull \hbox (2.19579pt too wide) in paragraph at lines 89--89
-[][] 
- []
-
-<img/trails_editor.png, id=103, 64.24pt x 64.24pt>
-File: img/trails_editor.png Graphic file (type png)
- <use img/trails_editor.png>
-Package pdftex.def Info: img/trails_editor.png used on input line 90.
-(pdftex.def)             Requested size: 25.69554pt x 25.69554pt.
-
-Overfull \hbox (2.19579pt too wide) in paragraph at lines 90--90
-[][] 
- []
-
-<img/save.png, id=104, 63.73813pt x 63.73813pt>
-File: img/save.png Graphic file (type png)
- <use img/save.png>
-Package pdftex.def Info: img/save.png used on input line 92.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-<img/quit2.png, id=105, 63.73813pt x 63.73813pt>
-File: img/quit2.png Graphic file (type png)
- <use img/quit2.png>
-Package pdftex.def Info: img/quit2.png used on input line 92.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-Overfull \hbox (54.40804pt too wide) in paragraph at lines 87--93
-[][]
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 94.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 94.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 94.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 94.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 94.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 94.
-
-<img/add_object.png, id=106, 63.73813pt x 63.73813pt>
-File: img/add_object.png Graphic file (type png)
- <use img/add_object.png>
-Package pdftex.def Info: img/add_object.png used on input line 97.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--98
-
- []
-
-<img/add_frame.png, id=107, 63.73813pt x 63.73813pt>
-File: img/add_frame.png Graphic file (type png)
- <use img/add_frame.png>
-Package pdftex.def Info: img/add_frame.png used on input line 101.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-Overfull \hbox (1.99503pt too wide) in paragraph at lines 101--101
-[][] 
- []
-
-<img/add_picture.png, id=108, 63.73813pt x 63.73813pt>
-File: img/add_picture.png Graphic file (type png)
-
-<use img/add_picture.png>
-Package pdftex.def Info: img/add_picture.png used on input line 102.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-Overfull \hbox (1.99503pt too wide) in paragraph at lines 102--102
-[][] 
- []
-
-<img/add_shape.png, id=109, 63.73813pt x 63.73813pt>
-File: img/add_shape.png Graphic file (type png)
- <use img/add_shape.png>
-Package pdftex.def Info: img/add_shape.png used on input line 103.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-Overfull \hbox (1.99503pt too wide) in paragraph at lines 103--103
-[][] 
- []
-
-<img/add_text.png, id=110, 63.73813pt x 63.73813pt>
-File: img/add_text.png Graphic file (type png)
- <use img/add_text.png>
-Package pdftex.def Info: img/add_text.png used on input line 104.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-Overfull \hbox (1.99503pt too wide) in paragraph at lines 104--104
-[][] 
- []
-
-
-Overfull \hbox (36.78322pt too wide) in paragraph at lines 99--106
-[] 
- []
-
-<img/frame_editor_screen.png, id=111, 1284.8pt x 630.85687pt>
-File: img/frame_editor_screen.png Graphic file (type png)
-
-<use img/frame_editor_screen.png>
-Package pdftex.def Info: img/frame_editor_screen.png used on input line 109.
-(pdftex.def)             Requested size: 449.68674pt x 220.8032pt.
-
-Overfull \hbox (12.17886pt too wide) in paragraph at lines 109--110
- [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 114.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 10 undefined on input line 114.
-
-[10 <./img/frame_editor.png> <./img/info_editor.png> <./img/trails_editor.png> 
-<./img/save.png> <./img/quit2.png> <./img/add_object.png> <./img/add_frame.png>
- <./img/add_picture.png> <./img/add_shape.png> <./img/add_text.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 115.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 115.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 115.
-
-File: img/add_frame.png Graphic file (type png)
-<use img/add_frame.png>
-Package pdftex.def Info: img/add_frame.png used on input line 116.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-File: img/add_object.png Graphic file (type png)
- <use img/add_object.png>
-Package pdftex.def Info: img/add_object.png used on input line 116.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-<img/screen_add_frame.png, id=119, 1284.8pt x 631.35875pt>
-File: img/screen_add_frame.png Graphic file (type png)
-
-<use img/screen_add_frame.png>
-Package pdftex.def Info: img/screen_add_frame.png used on input line 120.
-(pdftex.def)             Requested size: 385.44298pt x 189.40909pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 125.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 125.
-
-[11 <./img/frame_editor_screen.png> <./img/screen_add_frame.png>]
-File: img/add_shape.png Graphic file (type png)
-
-<use img/add_shape.png>
-Package pdftex.def Info: img/add_shape.png used on input line 127.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-File: img/add_object.png Graphic file (type png)
- <use img/add_object.png>
-Package pdftex.def Info: img/add_object.png used on input line 127.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-<img/sel_shape.png, id=128, 1284.8pt x 626.34pt>
-File: img/sel_shape.png Graphic file (type png)
- <use img/sel_shape.png>
-Package pdftex.def Info: img/sel_shape.png used on input line 130.
-(pdftex.def)             Requested size: 449.68674pt x 219.22227pt.
-
-Overfull \hbox (12.17886pt too wide) in paragraph at lines 130--131
- [] 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 137.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 12 undefined on input line 137.
-
-[12 <./img/sel_shape.png>]
-File: img/add_text.png Graphic file (type png)
- <use img/add_text.png>
-Package pdftex.def Info: img/add_text.png used on input line 139.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-File: img/add_object.png Graphic file (type png)
- <use img/add_object.png>
-Package pdftex.def Info: img/add_object.png used on input line 139.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-<img/screen_add_text.png, id=137, 1284.8pt x 632.3625pt>
-File: img/screen_add_text.png Graphic file (type png)
-
-<use img/screen_add_text.png>
-Package pdftex.def Info: img/screen_add_text.png used on input line 144.
-(pdftex.def)             Requested size: 449.68674pt x 221.33018pt.
-
-Overfull \hbox (12.17886pt too wide) in paragraph at lines 144--145
- [] 
- []
-
-<img/color_text.png, id=138, 77.28876pt x 81.30376pt>
-File: img/color_text.png Graphic file (type png)
- <use img/color_text.png>
-Package pdftex.def Info: img/color_text.png used on input line 155.
-(pdftex.def)             Requested size: 23.1868pt x 24.3913pt.
-
-<img/bold_text.png, id=139, 73.27374pt x 73.27374pt>
-File: img/bold_text.png Graphic file (type png)
- <use img/bold_text.png>
-Package pdftex.def Info: img/bold_text.png used on input line 156.
-(pdftex.def)             Requested size: 21.98228pt x 21.98228pt.
-
-<img/corsivo_text.png, id=140, 75.28125pt x 74.2775pt>
-File: img/corsivo_text.png Graphic file (type png)
-
-<use img/corsivo_text.png>
-Package pdftex.def Info: img/corsivo_text.png used on input line 157.
-(pdftex.def)             Requested size: 22.58453pt x 22.28342pt.
-
-<img/underline_text.png, id=141, 79.29625pt x 71.26625pt>
-File: img/underline_text.png Graphic file (type png)
-
-<use img/underline_text.png>
-Package pdftex.def Info: img/underline_text.png used on input line 158.
-(pdftex.def)             Requested size: 23.78905pt x 21.38002pt.
-
-<img/size_text.png, id=142, 75.28125pt x 73.27374pt>
-File: img/size_text.png Graphic file (type png)
- <use img/size_text.png>
-Package pdftex.def Info: img/size_text.png used on input line 159.
-(pdftex.def)             Requested size: 22.58453pt x 21.98228pt.
-
-<img/clear_text.png, id=143, 75.28125pt x 71.26625pt>
-File: img/clear_text.png Graphic file (type png)
- <use img/clear_text.png>
-Package pdftex.def Info: img/clear_text.png used on input line 160.
-(pdftex.def)             Requested size: 22.58453pt x 21.38002pt.
-
-<img/move_text.png, id=144, 74.2775pt x 75.28125pt>
-File: img/move_text.png Graphic file (type png)
- <use img/move_text.png>
-Package pdftex.def Info: img/move_text.png used on input line 161.
-(pdftex.def)             Requested size: 22.28342pt x 22.58453pt.
-
-<img/save_text.png, id=145, 66.2475pt x 60.225pt>
-File: img/save_text.png Graphic file (type png)
- <use img/save_text.png>
-Package pdftex.def Info: img/save_text.png used on input line 162.
-(pdftex.def)             Requested size: 21.86172pt x 19.8743pt.
-
-<img/delete_text.png, id=146, 63.23625pt x 57.21375pt>
-File: img/delete_text.png Graphic file (type png)
-
-<use img/delete_text.png>
-Package pdftex.def Info: img/delete_text.png used on input line 163.
-(pdftex.def)             Requested size: 20.86801pt x 18.88058pt.
-
-<img/toolbar_text.png, id=147, 1170.3725pt x 685.56125pt>
-File: img/toolbar_text.png Graphic file (type png)
-
-<use img/toolbar_text.png>
-Package pdftex.def Info: img/toolbar_text.png used on input line 168.
-(pdftex.def)             Requested size: 409.6365pt x 239.95003pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 171.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 13 undefined on input line 171.
-
-[13 <./img/screen_add_text.png>]
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 172.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 14 undefined on input line 172.
-
-[14 <./img/color_text.png (PNG copy)> <./img/bold_text.png (PNG copy)> <./img/c
-orsivo_text.png (PNG copy)> <./img/underline_text.png (PNG copy)> <./img/size_t
-ext.png (PNG copy)> <./img/clear_text.png (PNG copy)> <./img/move_text.png (PNG
- copy)> <./img/save_text.png (PNG copy)> <./img/delete_text.png (PNG copy)> <./
-img/toolbar_text.png (PNG copy)>]
-<img/edit_shape.png, id=161, 1284.8pt x 628.3475pt>
-File: img/edit_shape.png Graphic file (type png)
- <use img/edit_shape.png>
-Package pdftex.def Info: img/edit_shape.png used on input line 176.
-(pdftex.def)             Requested size: 449.68674pt x 219.92491pt.
-
-Overfull \hbox (12.17886pt too wide) in paragraph at lines 176--177
- [] 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 181.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 15 undefined on input line 181.
-
-[15 <./img/edit_shape.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 182.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 182.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 182.
-
-<img/infographic.png, id=168, 1284.8pt x 635.37375pt>
-File: img/infographic.png Graphic file (type png)
-
-<use img/infographic.png>
-Package pdftex.def Info: img/infographic.png used on input line 186.
-(pdftex.def)             Requested size: 449.68674pt x 222.38414pt.
-
-Overfull \hbox (12.17886pt too wide) in paragraph at lines 186--187
- [] 
- []
-
-File: img/add_object.png Graphic file (type png)
-<use img/add_object.png>
-Package pdftex.def Info: img/add_object.png used on input line 191.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-<img/added_frames.png, id=169, 63.73813pt x 63.73813pt>
-File: img/added_frames.png Graphic file (type png)
-
-<use img/added_frames.png>
-Package pdftex.def Info: img/added_frames.png used on input line 192.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-<img/frames_to_be_added.png, id=170, 63.73813pt x 63.73813pt>
-File: img/frames_to_be_added.png Graphic file (type png)
-
-<use img/frames_to_be_added.png>
-Package pdftex.def Info: img/frames_to_be_added.png used on input line 193.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 196.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 196.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 196.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-
- []
-
-<img/trails_editor_screen.png, id=171, 1284.8pt x 626.34pt>
-File: img/trails_editor_screen.png Graphic file (type png)
-
-<use img/trails_editor_screen.png>
-Package pdftex.def Info: img/trails_editor_screen.png used on input line 201.
-(pdftex.def)             Requested size: 449.68674pt x 219.22227pt.
-
-Overfull \hbox (12.17886pt too wide) in paragraph at lines 201--202
- [] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: img/add_object.png Graphic file (type png)
-<use img/add_object.png>
-Package pdftex.def Info: img/add_object.png used on input line 206.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-<img/save_confirm.png, id=172, 99.37125pt x 37.13875pt>
-File: img/save_confirm.png Graphic file (type png)
-
-<use img/save_confirm.png>
-Package pdftex.def Info: img/save_confirm.png used on input line 206.
-(pdftex.def)             Requested size: 49.6855pt x 18.56932pt.
-File: img/edit.png Graphic file (type png)
- <use img/edit.png>
-Package pdftex.def Info: img/edit.png used on input line 208.
-(pdftex.def)             Requested size: 18.26811pt x 20.37598pt.
-
-<img/edit_trail.png, id=173, 1284.8pt x 633.36626pt>
-File: img/edit_trail.png Graphic file (type png)
- <use img/edit_trail.png>
-Package pdftex.def Info: img/edit_trail.png used on input line 215.
-(pdftex.def)             Requested size: 449.68674pt x 221.6815pt.
-
-Overfull \hbox (12.17886pt too wide) in paragraph at lines 215--216
- [] 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 218.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 16 undefined on input line 218.
-
-[16 <./img/infographic.png> <./img/added_frames.png> <./img/frames_to_be_added.
-png> <./img/save_confirm.png>]
-File: img/frames_to_be_added.png Graphic file (type png)
- <use img/frames_to_be_added.png>
-Package pdftex.def Info: img/frames_to_be_added.png used on input line 220.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-File: img/add.png Graphic file (type png)
-
-<use img/add.png>
-Package pdftex.def Info: img/add.png used on input line 220.
-(pdftex.def)             Requested size: 27.3015pt x 28.10449pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
-
- []
-
-<img/trail_frames_list.png, id=183, 1284.8pt x 632.3625pt>
-File: img/trail_frames_list.png Graphic file (type png)
-
-<use img/trail_frames_list.png>
-Package pdftex.def Info: img/trail_frames_list.png used on input line 224.
-(pdftex.def)             Requested size: 449.68674pt x 221.33018pt.
-
-Overfull \hbox (12.17886pt too wide) in paragraph at lines 224--225
- [] 
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 227.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 17 undefined on input line 227.
-
-[17 <./img/trails_editor_screen.png> <./img/edit_trail.png>]
-<img/checkpoint.png, id=193, 73.27374pt x 72.27pt>
-File: img/checkpoint.png Graphic file (type png)
- <use img/checkpoint.png>
-Package pdftex.def Info: img/checkpoint.png used on input line 229.
-(pdftex.def)             Requested size: 29.30896pt x 28.90747pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-
- []
-
-<img/trail_frame.png, id=194, 1284.8pt x 632.3625pt>
-File: img/trail_frame.png Graphic file (type png)
- <use img/trail_frame.png>
-Package pdftex.def Info: img/trail_frame.png used on input line 233.
-(pdftex.def)             Requested size: 449.68674pt x 221.33018pt.
-
-Overfull \hbox (12.17886pt too wide) in paragraph at lines 233--234
- [] 
- []
-
-File: img/play.png Graphic file (type png)
-<use img/play.png>
-Package pdftex.def Info: img/play.png used on input line 239.
-(pdftex.def)             Requested size: 25.59555pt x 26.09743pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 240.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 18 undefined on input line 240.
-
-[18 <./img/trail_frames_list.png> <./img/checkpoint.png> <./img/trail_frame.png
->]
-File: img/dashboard.png Graphic file (type png)
- <use img/dashboard.png>
-Package pdftex.def Info: img/dashboard.png used on input line 243.
-(pdftex.def)             Requested size: 449.68674pt x 219.5736pt.
-
-Overfull \hbox (12.17886pt too wide) in paragraph at lines 243--244
- [] 
- []
-
-File: img/play.png Graphic file (type png)
-<use img/play.png>
-Package pdftex.def Info: img/play.png used on input line 248.
-(pdftex.def)             Requested size: 25.59555pt x 26.09743pt.
- <img/viewer.png, id=206, 1284.8pt x 630.355pt>
-File: img/viewer.png Graphic file (type png)
-
-<use img/viewer.png>
-Package pdftex.def Info: img/viewer.png used on input line 253.
-(pdftex.def)             Requested size: 385.44298pt x 189.10796pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 260.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 19 undefined on input line 260.
-
-[19 <./img/viewer.png>] <img/checkpoint2.png, id=215, 63.73813pt x 63.73813pt>
-File: img/checkpoint2.png Graphic file (type png)
-
-<use img/checkpoint2.png>
-Package pdftex.def Info: img/checkpoint2.png used on input line 261.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-Overfull \hbox (1.99503pt too wide) in paragraph at lines 261--261
-[][] 
- []
-
-<img/prev.png, id=216, 63.73813pt x 63.73813pt>
-File: img/prev.png Graphic file (type png)
- <use img/prev.png>
-Package pdftex.def Info: img/prev.png used on input line 262.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-Overfull \hbox (1.99503pt too wide) in paragraph at lines 262--262
-[][] 
- []
-
-<img/next.png, id=217, 63.73813pt x 63.73813pt>
-File: img/next.png Graphic file (type png)
- <use img/next.png>
-Package pdftex.def Info: img/next.png used on input line 263.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-Overfull \hbox (1.99503pt too wide) in paragraph at lines 263--263
-[][] 
- []
-
-<img/down.png, id=218, 63.73813pt x 63.73813pt>
-File: img/down.png Graphic file (type png)
- <use img/down.png>
-Package pdftex.def Info: img/down.png used on input line 264.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-Overfull \hbox (1.99503pt too wide) in paragraph at lines 264--264
-[][] 
- []
-
-<img/quit3.png, id=219, 63.73813pt x 63.73813pt>
-File: img/quit3.png Graphic file (type png)
- <use img/quit3.png>
-Package pdftex.def Info: img/quit3.png used on input line 265.
-(pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
-
-Overfull \hbox (1.99503pt too wide) in paragraph at lines 265--265
-[][] 
- []
-
-
-Overfull \hbox (54.40804pt too wide) in paragraph at lines 260--267
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
-
- []
-
-<img/signup_error.png, id=220, 397.485pt x 419.5675pt>
-File: img/signup_error.png Graphic file (type png)
-
-<use img/signup_error.png>
-Package pdftex.def Info: img/signup_error.png used on input line 275.
-(pdftex.def)             Requested size: 158.99118pt x 167.82402pt.
-
-<img/signup_error2.png, id=221, 398.48875pt x 421.575pt>
-File: img/signup_error2.png Graphic file (type png)
-
-<use img/signup_error2.png>
-Package pdftex.def Info: img/signup_error2.png used on input line 277.
-(pdftex.def)             Requested size: 159.39267pt x 168.627pt.
-
-Overfull \hbox (48.07901pt too wide) in paragraph at lines 284--285
-[]\OT1/cmr/bx/n/12 Email\OT1/cmr/m/n/12 : l'in-di-riz-zo email de-ve es-se-re i
-n un for-ma-to cor-ret-to, cio^^Re \OT1/cmr/m/it/12 no-me@dominio.estensione
- []
-
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 288.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 20 undefined on input line 288.
-
-[20 <./img/checkpoint2.png> <./img/prev.png> <./img/next.png> <./img/down.png> 
-<./img/quit3.png> <./img/signup_error.png> <./img/signup_error2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-<img/signin_error.png, id=230, 396.48125pt x 342.27875pt>
-File: img/signin_error.png Graphic file (type png)
-
-<use img/signin_error.png>
-Package pdftex.def Info: img/signin_error.png used on input line 293.
-(pdftex.def)             Requested size: 158.58968pt x 136.90906pt.
-
-<img/signin_error2.png, id=231, 607.26875pt x 449.68pt>
-File: img/signin_error2.png Graphic file (type png)
-
-<use img/signin_error2.png>
-Package pdftex.def Info: img/signin_error2.png used on input line 295.
-(pdftex.def)             Requested size: 182.18202pt x 134.90503pt.
-
-Overfull \hbox (48.07901pt too wide) in paragraph at lines 302--303
-[]\OT1/cmr/bx/n/12 Email\OT1/cmr/m/n/12 : l'in-di-riz-zo email de-ve es-se-re i
-n un for-ma-to cor-ret-to, cio^^Re \OT1/cmr/m/it/12 no-me@dominio.estensione
- []
-
-<img/change_pass_error.png, id=232, 581.17125pt x 661.47125pt>
-File: img/change_pass_error.png Graphic file (type png)
-
-<use img/change_pass_error.png>
-Package pdftex.def Info: img/change_pass_error.png used on input line 311.
-(pdftex.def)             Requested size: 203.41298pt x 231.5184pt.
 ) (./documents/appendice.tex
 Overfull \hbox (17.7362pt too wide) in paragraph at lines 4--7
 [] 
@@ -1486,16 +643,7 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 7--10
  [] [] 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 10.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-
-LaTeX Warning: Reference `LastPage' on page 21 undefined on input line 10.
-
-[21 <./img/signin_error.png> <./img/signin_error2.png> <./img/change_pass_error
-.png>]
 Overfull \hbox (17.7362pt too wide) in paragraph at lines 12--15
 [] 
  []
@@ -1505,7 +653,11 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 15--18
  [] [] 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 18.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [5]
 Overfull \hbox (17.7362pt too wide) in paragraph at lines 20--23
 [] 
  []
@@ -1550,15 +702,7 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 47--50
  [] [] 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 50.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-
-LaTeX Warning: Reference `LastPage' on page 22 undefined on input line 50.
-
-[22]
 Overfull \hbox (17.7362pt too wide) in paragraph at lines 53--56
 [] 
  []
@@ -1568,7 +712,11 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 56--61
  [] [] 
  []
 
-
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 61.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [6]
 Overfull \hbox (17.7362pt too wide) in paragraph at lines 64--67
 [] 
  []
@@ -1598,28 +746,13 @@ Overfull \hbox (24.0pt too wide) in alignment at lines 86--89
  [] [] 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 89.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 23 undefined on input line 89.
-
-[23])
+)
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 36.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
-
-
-LaTeX Warning: Reference `LastPage' on page 24 undefined on input line 36.
-
-[24]
+ [7]
 No file ManualeInstallazione_v1.0.bbl.
-
-Package lastpage Warning: Rerun to get the references right on input line 39.
-
 
 AED: lastpage setting LastPage
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
@@ -1627,42 +760,29 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
 (./ManualeInstallazione_v1.0.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
-
-
-Package rerunfilecheck Warning: File `ManualeInstallazione_v1.0.out' has change
-d.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ManualeInstallazione_v1.0.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  7BA2DA753F741C6CAF3625DE14A0A281;1729.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+Package rerunfilecheck Info: File `ManualeInstallazione_v1.0.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: 950EFB5C1C7360DD4C41CFBF16120E7A;1424.
  ) 
 Here is how much of TeX's memory you used:
- 10727 strings out of 493117
- 160671 string characters out of 6135432
- 261711 words of memory out of 5000000
- 13906 multiletter control sequences out of 15000+600000
- 9799 words of font info for 34 fonts, out of 8000000 for 9000
+ 10433 strings out of 493117
+ 154885 string characters out of 6135432
+ 262257 words of memory out of 5000000
+ 13696 multiletter control sequences out of 15000+600000
+ 9353 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,16n,47p,819b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,15n,47p,819b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/
 local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on ManualeInstallazione_v1.0.pdf (25 pages, 2381936 bytes).
+Output written on ManualeInstallazione_v1.0.pdf (8 pages, 116671 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 86 named destinations out of 1000 (max. 500000)
- 296 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 218 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
