@@ -13,7 +13,7 @@
   \item[] \textbf{Nome:} publish
   \item[] \textbf{Tipo:} class
   \item[] \textbf{Package:} premi/server
-  \item[] \textbf{Descrizione:} questa classe pubblica all'utente solo ed esclusivamente le informazioni a cui lui ha accesso
+  \item[] \textbf{Descrizione:} questa classe pubblica all'utente solo ed esclusivamente le informazioni a cui lui ha accesso e di cui ha bisogno nel contesto in cui si trova. \\ Utilizza funzionalità fornite dai framework MeteorJS$_G$ e AngularJS$_G$ che sfruttano il design pattern Publish-Subscribe$_G$ (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
 \end{itemize}
 
 
@@ -22,7 +22,7 @@
   \item[] \textbf{Nome:} server
   \item[] \textbf{Tipo:} class
   \item[] \textbf{Package:} premi/server
-  \item[] \textbf{Descrizione:} questa classe fornisce al lato client dell'applicazione dei metodi per l'inserimento, l'aggiornamento e la rimozione dei dati del database
+  \item[] \textbf{Descrizione:} questa classe fornisce al lato client dell'applicazione dei metodi per l'inserimento, l'aggiornamento e la rimozione dei dati del database, che verranno resi disponibili tramite speciali oggetti del framework$_G$ MeteorJS$_G$.
 \end{itemize}
 
 
@@ -158,7 +158,7 @@
 \subsubsection{premi/client/presentation/lib/databaseAPI}
 \begin{itemize}
   \item[] \textbf{Nome:} databaseAPI
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/presentation/lib/
   \item[] \textbf{Descrizione:} estende i metodi di premi/server/publish e li specializza per i bisogni del client
    \item[] \textbf{Relazioni con altri componenti:} dipende da:
@@ -168,26 +168,26 @@
 \end{itemize}
 
 
-\subsubsection{premi/client/presentation/lib/order}
+\subsubsection{premi/client/presentation/lib/OrderedGoList}
 \begin{itemize}
   \item[] \textbf{Nome:} OrderedGoList
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/presentation/lib/
-  \item[] \textbf{Descrizione:} classe che modella una lista ordinata di oggetti grafici
+  \item[] \textbf{Descrizione:} classe che modella una lista ordinata di oggetti grafici. Verrà inserita in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
 \end{itemize}
   
 \subsubsection{premi/client/presentation/lib/Trail}
 \begin{itemize}
   \item[] \textbf{Nome:} Trail
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/presentation/lib/
-  \item[] \textbf{Descrizione:} classe che modella un Trail, ossia un percorso di presentazione. Deve poter fornire i metodi per scorrere la presentazione e inserire o rimuovere Frame e checkpoint
+  \item[] \textbf{Descrizione:} classe che modella un Trail, ossia un percorso di presentazione. Deve poter fornire i metodi per scorrere la presentazione e inserire o rimuovere Frame e checkpoint. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
 \end{itemize}
 
 \subsubsection{premi/client/presentation/lib/signalCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} signalCtrl
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/presentation/lib/
   \item[] \textbf{Descrizione:} classe ha lo scopo di registrare i signal quando un certo slot viene creato in modo tale che facendo un controllo sul relativo controller si eviti di aggiungerne in più.
 \end{itemize}
@@ -195,7 +195,7 @@
 \subsubsection{premi/client/presentation/lib/filter}
 \begin{itemize}
   \item[] \textbf{Nome:} filter
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/presentation/lib/
   \item[] \textbf{Descrizione:} filter di angular che permette di ordinare gli elementi all'interno di un oggetto JSON. 
 \end{itemize}
@@ -325,19 +325,19 @@
   \item[] \textbf{Nome:} GObject
   \item[] \textbf{Tipo:} \textit{abstract class}
   \item[] \textbf{Package:} premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici nella presentazione
+  \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici nella presentazione. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
 \end{itemize}
 \subsubsection{premi/client/editor/lib/Observer}
 \begin{itemize}
   \item[] \textbf{Nome:} Observer
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/editor/lib
   \item[] \textbf{Descrizione:} si occupa di osservare degli oggetti grafici impostando e inviando dei segnali.
 \end{itemize}
 \subsubsection{premi/client/editor/lib/InteractInit}
 \begin{itemize}
   \item[] \textbf{Nome:} InteractInit
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/editor/lib
   \item[] \textbf{Descrizione:} classe che inizializza la libreria esterna Interact e la prepara per il ridimensionamento e lo spostamento di oggetti grafici.
   \item[] \textbf{Relazioni con altri componenti:} InteractInit dipende da:
@@ -348,87 +348,87 @@
 \end{itemize}
 \subsubsection{premi/client/editor/lib/GOProvider}
 \begin{itemize}
-  \item[] \textbf{Nome:} GOProvider;
-  \item[] \textbf{Tipo:} class;
-  \item[] \textbf{Package:} premi/client/editor/lib;
-  \item[] \textbf{Descrizione:} permette di interfacciarsi con gli oggetti image, text, shape accedendo ai loro metodi pubblici;
+  \item[] \textbf{Nome:} GOProvider
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/editor/lib
+  \item[] \textbf{Descrizione:} permette di interfacciarsi con gli oggetti image, text, shape accedendo ai loro metodi pubblici. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
   \item[] \textbf{Relazioni con altri componenti:} GOProvider dipende da:
   \begin{itemize}
-  	\item \textit{premi/client/editor/lib/text} per accedere ai metodi di text;
-  	\item \textit{premi/client/editor/lib/image} per accedere ai metodi di image;
-  	\item \textit{premi/client/editor/lib/shape} per accedere ai metodi di shape.
+  	\item \textit{premi/client/editor/lib/Text} per accedere ai metodi di text;
+  	\item \textit{premi/client/editor/lib/Image} per accedere ai metodi di image;
+  	\item \textit{premi/client/editor/lib/Shape} per accedere ai metodi di shape.
   \end{itemize}
 \end{itemize}
 \subsubsection{premi/client/editor/lib/GOContainer}
 \begin{itemize}
-  \item[] \textbf{Nome:} GOContainer;
-  \item[] \textbf{Tipo:} \textit{abstract class};
-  \item[] \textbf{Package:} premi/client/editor/lib;
-  \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici che possono essere contenuti in un frame; 
-  \item[] \textbf{Relazioni con altri componenti:} estende \code{premi/client/editor/gObject} e dipende anche da:
+  \item[] \textbf{Nome:} GOContainer
+  \item[] \textbf{Tipo:} \textit{abstract class}
+  \item[] \textbf{Package:} premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici che possono essere contenuti in un frame. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
+  \item[] \textbf{Relazioni con altri componenti:} estende \textit{premi/client/editor/GObject} e dipende anche da:
   \begin{itemize} 
 	\item \textit{premi/client/editor/lib/GOProvider} per accedere ai metodi pubblici degli oggetti image, text e shape.
 \end{itemize}  
 \end{itemize}
-\subsubsection{premi/client/editor/lib/text}
+\subsubsection{premi/client/editor/lib/Text}
 \begin{itemize}
-  \item[] \textbf{Nome:} text
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Nome:} Text
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta un'area di testo nella presentazione
-  \item[] \textbf{Relazioni con altri componenti:} estende \code{premi/client/editor/gObject}
+  \item[] \textbf{Descrizione:} rappresenta un'area di testo nella presentazione. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
+  \item[] \textbf{Relazioni con altri componenti:} estende \textit{premi/client/editor/GObject}
 \end{itemize}
-\subsubsection{premi/client/editor/lib/image}
+\subsubsection{premi/client/editor/lib/Image}
 \begin{itemize}
-  \item[] \textbf{Nome:} image
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Nome:} Image
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta un'immagine nella presentazione
-  \item[] \textbf{Relazioni con altri componenti:} estende \code{premi/client/editor/gObject}
+  \item[] \textbf{Descrizione:} rappresenta un'immagine nella presentazione. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
+  \item[] \textbf{Relazioni con altri componenti:} estende \textit{premi/client/editor/GObject}
 \end{itemize}
-\subsubsection{premi/client/editor/lib/shape}
+\subsubsection{premi/client/editor/lib/Shape}
 \begin{itemize}
-  \item[] \textbf{Nome:} shape
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Nome:} Shape
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta una figura nella presentazione. Uno shape può avere forme diverse come un quadrato, un cerchio, una freccia. Può diventare un elemento di abbellimento o di aumento dell' informazione che si vuole rappresentare. 
-  \item[] \textbf{Relazioni con altri componenti:} estende \code{premi/client/editor/gObject}
+  \item[] \textbf{Descrizione:} rappresenta una figura nella presentazione. Uno shape può avere forme diverse come un quadrato, un cerchio, una freccia. Può diventare un elemento di abbellimento o di aumento dell' informazione che si vuole rappresentare. . Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
+  \item[] \textbf{Relazioni con altri componenti:} estende \textit{premi/client/editor/GObject}
 \end{itemize}
-\subsubsection{premi/client/editor/lib/frame}
+\subsubsection{premi/client/editor/lib/Frame}
 \begin{itemize}
-  \item[] \textbf{Nome:} frame
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Nome:} Frame
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta un frame$_G$ nella presentazione
-  \item[] \textbf{Relazioni con altri componenti:} estende \code{premi/client/editor/gObject} e contiene un insieme di oggetti \code{premi/client/editor/gObject}. Nonostante la classe frame$_G$ estenda gObject, un frame$_G$ non può contenere altri frame$_G$. Tuttavia si è scelto di lasciare che un frame$_G$ possa contenere tutti gli gObject perchè si prevede in futuro che un frame$_G$ potrà contenere altri frame$_G$. Dipende anche da: 
+  \item[] \textbf{Descrizione:} rappresenta un frame$_G$ nella presentazione. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
+  \item[] \textbf{Relazioni con altri componenti:} estende \code{premi/client/editor/GObject} e contiene un insieme di oggetti \code{premi/client/editor/GObject} che rappresentano il testo, le immagini e gli shape di una slide. Nonostante la classe frame$_G$ estenda GObject, un frame$_G$ non può contenere altri frame$_G$. Tuttavia si è scelto di lasciare che un frame$_G$ possa contenere ogni tipo derivato da GObject per l'eventualità futura di dare nuove funzionalità alla classe. Dipende anche da: 
 \begin{itemize} 
-	\item \textit{premi/client/editor/lib/image} per interagire con gli oggetti di tipo image;
-	\item \textit{premi/client/editor/lib/text} per interagire con gli oggetti di tipo testo;
-	\item \textit{premi/client/editor/lib/shape} per interagire con gli oggetti di tipo shape;
-	\item \textit{premi/client/editor/lib/saver} per interagire con il database e salvare e modificare gli oggetti di un frame;
+	\item \textit{premi/client/editor/lib/Image} per interagire con gli oggetti di tipo image;
+	\item \textit{premi/client/editor/lib/Text} per interagire con gli oggetti di tipo testo;
+	\item \textit{premi/client/editor/lib/Shape} per interagire con gli oggetti di tipo shape;
+	\item \textit{premi/client/editor/lib/Saver} per interagire con il database e salvare e modificare gli oggetti di un frame;
 \end{itemize}  
 \end{itemize}
-\subsubsection{premi/client/editor/lib/infographic}
+\subsubsection{premi/client/editor/lib/Infographic}
 \begin{itemize}
-  \item[] \textbf{Nome:} infographic
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Nome:} Infographic
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta l'infografica di una presentazione
+  \item[] \textbf{Descrizione:} rappresenta l'infografica di una presentazione. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
   \item[] \textbf{Relazioni con altri componenti:} estende \code{premi/client/editor/gOContainer} e dipende da:
 \begin{itemize} 
 	\item \textit{premi/client/editor/lib/frame} per interagire con gli oggetti di tipo frame;
 	\item \textit{premi/client/editor/lib/saver} per interagire con il database, salvare e modificare gli oggetti dell'infografica;
 \end{itemize}  
 \end{itemize}
-\subsubsection{premi/client/editor/lib/saver}
+\subsubsection{premi/client/editor/lib/Saver}
 \begin{itemize}
-  \item[] \textbf{Nome:} saver
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Nome:} Saver
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/editor/lib
   \item[] \textbf{Descrizione:} classe che permette di effettuare le modifiche degli oggetti sul database
   \item[] \textbf{Relazioni con altri componenti:} Dipende da:
 \begin{itemize} 
-	\item \textit{premi/client/editor/lib/saver} per interagire con il database.
+	\item \textit{premi/client/presentation/lib/databaseAPI} per interagire con il database.
 \end{itemize}  
 \end{itemize}
 \subsubsection{premi/client/editor/views/editor.ng}
