@@ -20,8 +20,8 @@
 \subsubsection{premi/client/trailMap/controllers/trailMapCtrl}
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.85]{img/diacla/basicToolbarCtrl.png}
-\caption{Diagramma della classe premi/editor/controllers/basicToolbarCtrl}
+\includegraphics[scale=0.85]{img/diacla/TrailMapCtrl.png}
+\caption{Diagramma della classe premi/editor/controllers/trailMapCtrl}
 \end{center}
 \end{figure}
 
@@ -29,7 +29,7 @@
 \begin{description}
 %-------  descrizione della classe%
 \item[Descrizione] \hfill
-	Controller della view \textit{basicToolbar.ng}. Fornisce, tramite lo \textit{\$scope} un metodo per passaggio da un editor all'altro
+	Controller della view \textit{trailMap.ng}. Fornisce, tramite lo \textit{\$scope} i metodi per la modifica o l'aggiunta delle slide che formano il percorso di un trail. 
 	\\ La dicitura \{\$scope\} nel diagramma UML$_G$ indica che:
 \begin{itemize}
 \item tutti gli attributi e i metodi pubblici del controller vanno inseriti nello \$scope;
@@ -37,27 +37,47 @@
 \end{itemize}
 Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 	
+%-------  lista degli Attributi%	
+\item[Attributi] \hfill
+	\begin{description}
+		\item[\textbf{- Mtrail : trail			}] \hfill
+			contiene un istanza dell'oggetto trail e serve per interagire con quella classe
+		\item[\textbf{- frames : collection			}] \hfill
+			contiene	 degli oggetti JSON che rappresentano i frames appartenenti al trail che si sta modificando
+		\item[\textbf{- idframes : String[]			}] \hfill			
+			array che contiene gli identificativi dei frames appartenenti al trail che si sta modificando		
+		\item[\textbf{- trilly : String[]			}] \hfill			
+			descrizione %da chiarire
+		\item[\textbf{- idCheckForInsert : String			}] \hfill			
+			descrizione %da chiarire
+		\item[\textbf{- selectedFrames : collection			}] \hfill			
+			contiene gli oggetti JSON dei frames che sono stati selezionati nella vista trailMap.ng %da chiarire
+		\item[\textbf{+ showInSide : boolean			}] \hfill			
+			descrizione %da chiarire
+		\item[\textbf{+ selectedFrameOut : collection			}] \hfill			
+			contiene gli oggetti JSON dei frames che sono stati selezionati nella vista trailMap.ng nella sezione Frames Out
+		\item[\textbf{+ removingChkPnt : boolean			}] \hfill			
+			se settata a true %da chiarire			
+	\end{description}
+	
+	
 %-------  lista dei metodi%	
 \item[Metodi] \hfill
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ goToState(state : String) : void			}] \hfill
-			Tramite il metodo \textit{\$state.go} cambia "stato" dell'editor, passando da una fase di creazione della presentazione all'altra.
+		\item[\textbf{\color{blue}+ setOneSvg(svg : collection, mod : String) : void			}] \hfill
+		tramite due metodi JQuery$_G$ setta il colore e il path del svg.		
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill
 				\begin{itemize}
 				
-					\item \textbf{state : String			} \hfill
-					Il nuovo stato dell'editor. Gli stati dell'editor al momento sono:
-					\begin{itemize}
-						\item "premi.editor.frame"
-						\item "premi.editor.infographic"
-						\item "premi.editor.trails"
-					\end{itemize}
-					
+					\item \textbf{svg : collection			} \hfill
+						un oggetto JSON che identifica un svg
+					\item \textbf{mod : String			} \hfill
+						identifica %da chiarire
 				\end{itemize}
 		\end{description}
 	\end{description}
@@ -65,20 +85,283 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 	
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ activeStateClass(state : String) : String			}] \hfill
-			Verifica se un determinato stato è attivo. Restituisce "active" nel caso lo stato sia attivo altrimenti restituisce una stringa vuota.
+		\item[\textbf{\color{blue}+ setFrames(hashFrames : collection) : void			}] \hfill
+			descrizione %da chiarire
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill
 				\begin{itemize}
 				
-					\item \textbf{state : String			} \hfill
-					identifica il nome dello stato da controllare.
+					\item \textbf{hashFrames : collection			} \hfill
+					descrizione %da chiarire
 					
 				\end{itemize}
 		\end{description}
 	\end{description}
 	% -- fine metodo -- %	
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ setTrail(inTrail : collection) : void			}] \hfill
+			descrizione %da chiarire
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{inTrail : collection			} \hfill
+					descrizione %da chiarire
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ setFramesId(arrayId : String[]) : void			}] \hfill
+			descrizione %da chiarire
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{arrayId : String[]			} \hfill
+					descrizione %da chiarire
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getFramesContent() : collection			}] \hfill
+			restituisce la collezione di oggetti JSON che rappresentano i frames appartenenti ad un trail.
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ insertFrames(idCheck : String) : void			}] \hfill
+			inserisce un determinato frame tra quelli selezionati nel trail.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idCheck : String			} \hfill
+						identifica l'id del frame da inserire nel trail
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %				
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ selectFrame(idFrame : String) : void			}] \hfill
+			se l'id fa parte dei frame selezionati seleziona il frame mettendo a true il frame con id = idFrame.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String			} \hfill
+						identifica l'id del frame da selezionare
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ isSelected(idFrame : String) : boolean			}] \hfill
+			se il frame con id = idFrame è selezionato restituisce true altrimenti false
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idFrame : collection			} \hfill
+						identifica il frame per cui fare il controllo
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ remove(idFrame : String) : void			}] \hfill
+			rimuove un determinato frame dal trail
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String			} \hfill
+						identifica l'id del frame da rimuovere dal trail
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ increment(idFrame : String) : void			}] \hfill
+			descrizione %da chiarire
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String			} \hfill
+						identifica l'id del frame da
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ decrement(idFrame : String) : void			}] \hfill
+			descrizione %da chiarire
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String			} \hfill
+						identifica l'id del frame da
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ makeCheckPointFrame(idFrame : String) : void			}] \hfill
+			dichiara che un determinato frame è un checkpoint per un percorso di specializzazione.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String			} \hfill
+						identifica l'id del frame da marchiare come checkpoint
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ removeChk(idFrame : String) : void			}] \hfill
+			elimina il checkpoint di un determinato frame.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String			} \hfill
+						identifica l'id del frame da smarchiare come checkpoint
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %							
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ discard() : void			}] \hfill
+			descrizione %da chiarire
+	\end{description}
+	% -- fine metodo -- %	
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ showSideBarDx() : void			}] \hfill
+			descrizione %da chiarire
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ isFrameInTrail(idFrame : String) : boolean			}] \hfill
+			restituisce true se un determinato frame appartiene al trail.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String			} \hfill
+						identifica l'id del frame per cui fare il controllo
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ isFrameCheckPoint(idFrame : String) : boolean			}] \hfill
+			restituisce true se il frame con id = idFrame è marchiato come checkpoint.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String			} \hfill
+						identifica il frame da controllare
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ isEmpty() : boolean			}] \hfill
+			se il trail è vuoto ovvero non contiene alcun frame restituisce true, false altrimenti.
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getTrailDir() : String			}] \hfill
+			restituisce il percorso del trail
+
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ init() : void			}] \hfill
+			inizializza un trail.
+		
+	\end{description}
+	% -- fine metodo -- %					
 		
 \end{description}
