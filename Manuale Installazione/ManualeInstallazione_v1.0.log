@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  4 SEP 2015 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  5 SEP 2015 23:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -426,29 +426,29 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 101.
 (./ManualeInstallazione_v1.0.aux)
 \openout1 = `ManualeInstallazione_v1.0.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Info: Redefining \it@ocap on input line 22.
-LaTeX Info: Redefining \it@ccap on input line 22.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Info: Redefining \it@ocap on input line 28.
+LaTeX Info: Redefining \it@ccap on input line 28.
 
 
 File italian.ldf warning: 
@@ -456,7 +456,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 22.
+italian.ldf    on input line 28.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -492,7 +492,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 22.
+(lastpage)             ! on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -544,7 +544,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box33
-Package hyperref Info: Link coloring ON on input line 22.
+Package hyperref Info: Link coloring ON on input line 28.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -554,9 +554,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count134
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 
 (./ManualeInstallazione_v1.0.out) (./ManualeInstallazione_v1.0.out)
 \@outlinefile=\write3
@@ -564,7 +564,7 @@ LaTeX Info: Redefining \nameref on input line 22.
 
 
 (./documents/first.tex
-<../logo/logo404_Extends.png, id=92, 1027.84pt x 433.62pt>
+<../logo/logo404_Extends.png, id=96, 1027.84pt x 433.62pt>
 File: ../logo/logo404_Extends.png Graphic file (type png)
 
 <use ../logo/logo404_Extends.png>
@@ -584,17 +584,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Underfull \vbox (badness 10000) detected at line 28
  []
 
-) <../logo/logo404.png, id=101, 1027.84pt x 402.50375pt>
+) <../logo/logo404.png, id=105, 1027.84pt x 402.50375pt>
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 26.
+Package pdftex.def Info: ../logo/logo404.png used on input line 32.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.26 \newpage
+l.32 \newpage
               [1 <../logo/logo404.png>] (./ManualeInstallazione_v1.0.toc)
 \tf@toc=\write4
 \openout4 = `ManualeInstallazione_v1.0.toc'.
@@ -602,7 +602,7 @@ l.26 \newpage
 File: ../logo/logo404.png Graphic file (type png)
 
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 28.
+Package pdftex.def Info: ../logo/logo404.png used on input line 34.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [2] (./ManualeInstallazione_v1.0.lot)
 \tf@lot=\write5
@@ -615,174 +615,222 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 28.
 
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 32.
+Package pdftex.def Info: ../logo/logo404.png used on input line 38.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [3]
 (./documents/intro.tex
 (/usr/local/texlive/2014/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-File: ../logo/logo404.png Graphic file (type png)
+Overfull \hbox (1.35007pt too wide) in paragraph at lines 12--13
+\OT1/cmr/m/n/12 sten-za tec-ni-ca in-vian-do un mes-sag-gio email al-l'in-di-ri
+z-zo [][]404not-found.unipd@gmail.com[][]
+ []
 
+File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 22.
+Package pdftex.def Info: ../logo/logo404.png used on input line 29.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [4]) (./documents/istruzioni.tex
-Overfull \hbox (13.82431pt too wide) in paragraph at lines 14--15
-\OT1/cmr/m/n/12 una car-tel-la, che per co-mo-dit^^Ra sup-po-nia-mo es-se-re []
-\OT1/cmtt/m/n/12 /home/404notfound/Desktop/Premi/\OT1/cmr/m/n/12 . 
+ [4]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 31.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [5])
+(./documents/istruzioni.tex
+<img/curl_files_linux.png, id=173, 1220.56pt x 662.475pt>
+File: img/curl_files_linux.png Graphic file (type png)
+
+<use img/curl_files_linux.png>
+Package pdftex.def Info: img/curl_files_linux.png used on input line 22.
+(pdftex.def)             Requested size: 366.17082pt x 198.74403pt.
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 31.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [6 <./img/curl_files_linux.png>]
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 32.
+
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+<img/start_premi.png, id=183, 724.7075pt x 463.7325pt>
+File: img/start_premi.png Graphic file (type png)
+
+<use img/start_premi.png>
+Package pdftex.def Info: img/start_premi.png used on input line 71.
+(pdftex.def)             Requested size: 289.87787pt x 185.4897pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 76.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
  []
 
 ) (./documents/appendice.tex
-Overfull \hbox (17.7362pt too wide) in paragraph at lines 4--7
-[] 
- []
-
-
-Overfull \hbox (24.0pt too wide) in alignment at lines 7--10
- [] [] 
- []
-
-
-Overfull \hbox (17.7362pt too wide) in paragraph at lines 12--15
-[] 
- []
-
-
-Overfull \hbox (24.0pt too wide) in alignment at lines 15--18
- [] [] 
- []
-
 File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 18.
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 1.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [5]
-Overfull \hbox (17.7362pt too wide) in paragraph at lines 20--23
+ [8 <./img/start_premi.png>]
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 5--8
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 23--26
+Overfull \hbox (24.0pt too wide) in alignment at lines 8--11
  [] [] 
  []
 
 
-Overfull \hbox (17.7362pt too wide) in paragraph at lines 28--31
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 13--16
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 31--34
+Overfull \hbox (24.0pt too wide) in alignment at lines 16--19
  [] [] 
  []
 
 
-Overfull \hbox (17.7362pt too wide) in paragraph at lines 36--39
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 21--24
 [] 
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 41--42
+Overfull \hbox (24.0pt too wide) in alignment at lines 24--27
+ [] [] 
+ []
+
+
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 29--32
+[] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 32--35
+ [] [] 
+ []
+
+
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 37--40
+[] 
+ []
+
+
+Underfull \hbox (badness 1043) in paragraph at lines 42--43
 \OT1/cmr/m/n/12 le pa-gi-ne web, e da Ot-to-bre 2014 pub-bli-ca-to co-me W3C
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 39--42
+Overfull \hbox (24.0pt too wide) in alignment at lines 40--43
  [] [] 
  []
 
 
-Overfull \hbox (17.7362pt too wide) in paragraph at lines 44--47
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 45--48
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 47--50
- [] [] 
- []
-
-
-Overfull \hbox (17.7362pt too wide) in paragraph at lines 53--56
-[] 
- []
-
-
-Overfull \hbox (24.0pt too wide) in alignment at lines 56--61
+Overfull \hbox (24.0pt too wide) in alignment at lines 48--51
  [] [] 
  []
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 61.
+Package pdftex.def Info: ../logo/logo404.png used on input line 51.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [6]
-Overfull \hbox (17.7362pt too wide) in paragraph at lines 64--67
+ [9]
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 54--57
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 67--70
+Overfull \hbox (24.0pt too wide) in alignment at lines 57--62
  [] [] 
  []
 
 
-Overfull \hbox (17.7362pt too wide) in paragraph at lines 73--76
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 65--68
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 76--81
+Overfull \hbox (24.0pt too wide) in alignment at lines 68--71
  [] [] 
  []
 
 
-Overfull \hbox (17.7362pt too wide) in paragraph at lines 83--86
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 74--77
 [] 
  []
 
 
-Overfull \hbox (24.0pt too wide) in alignment at lines 86--89
+Overfull \hbox (24.0pt too wide) in alignment at lines 77--82
  [] [] 
  []
 
-)
+
+Overfull \hbox (17.7362pt too wide) in paragraph at lines 84--87
+[] 
+ []
+
+
+Overfull \hbox (24.0pt too wide) in alignment at lines 87--90
+ [] [] 
+ []
+
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 90.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [10])
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 36.
+Package pdftex.def Info: ../logo/logo404.png used on input line 42.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [7]
+ [11]
 No file ManualeInstallazione_v1.0.bbl.
 
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 (./ManualeInstallazione_v1.0.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `ManualeInstallazione_v1.0.out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 950EFB5C1C7360DD4C41CFBF16120E7A;1424.
+(rerunfilecheck)             Checksum: F07B1C0A01AE18EB0760AC2F6AFEC1C1;1493.
  ) 
 Here is how much of TeX's memory you used:
- 10433 strings out of 493117
- 154885 string characters out of 6135432
- 262257 words of memory out of 5000000
- 13696 multiletter control sequences out of 15000+600000
- 9353 words of font info for 33 fonts, out of 8000000 for 9000
+ 10776 strings out of 493117
+ 158245 string characters out of 6135432
+ 287301 words of memory out of 5000000
+ 14009 multiletter control sequences out of 15000+600000
+ 9818 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,15n,47p,819b,478s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,16n,47p,819b,1301s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on ManualeInstallazione_v1.0.pdf (8 pages, 116671 bytes).
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on ManualeInstallazione_v1.0.pdf (12 pages, 686948 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 45 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 286 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
