@@ -51,6 +51,11 @@
 \begin{description}
 %-------  descrizione del template%
 \item[Descrizione] \hfill
-	Semplice factory che restituisce una funzione per l'invio di notifiche o messaggi di errore all'utente
+	Semplice factory che restituisce una funzione per l'invio di notifiche o messaggi di errore all'utente. Sfrutta il metodo \texttt{Materialize.toast()} del framework$_G$ Materialize$_G$.
+%-------  lista delle classi associate%	
+\item[Dipendenze] \hfill
+	\begin{itemize}
+		\item \textbf{Materialize}: (dipendenza non dichiarata esplicitamente) il framework Materialize viene utilizzato richiamare il suo metodo \texttt{Materialize.toast()}, reso disponibile a livello globale dopo l'avvio del server.
+	\end{itemize}
 \end{description}
 
