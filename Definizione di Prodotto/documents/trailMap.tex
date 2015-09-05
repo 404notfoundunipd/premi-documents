@@ -41,23 +41,24 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 \item[Attributi] \hfill
 	\begin{description}
 		\item[\textbf{- Mtrail : trail			}] \hfill
-			contiene un istanza dell'oggetto trail e serve per interagire con quella classe
+			Oggetto Trail da modificare. Inizialmente vuoto, dev’essere inizializzato
+con gli attributi di trailCollection
 		\item[\textbf{- frames : collection			}] \hfill
 			contiene	 degli oggetti JSON che rappresentano i frames appartenenti al trail che si sta modificando
-		\item[\textbf{- idframes : String[]			}] \hfill			
+		\item[\textbf{- idframes : Array			}] \hfill			
 			array che contiene gli identificativi dei frames appartenenti al trail che si sta modificando		
-		\item[\textbf{- trilly : String[]			}] \hfill			
-			descrizione %da chiarire
-		\item[\textbf{- idCheckForInsert : String			}] \hfill			
-			descrizione %da chiarire
+		\item[\textbf{- trilly : Array			}] \hfill			
+			Matrice vuota, utilizzata come variabile d’appoggio per l’utilizzo del metodo
+di MTrail initPath per la sua inizializzazione
 		\item[\textbf{- selectedFrames : collection			}] \hfill			
 			contiene gli oggetti JSON dei frames che sono stati selezionati nella vista trailMap.ng %da chiarire
 		\item[\textbf{+ showInSide : boolean			}] \hfill			
-			descrizione %da chiarire
+			Indica se la barra di destra dell’editor dev’essere visualizzata (true) o meno
+(false)
 		\item[\textbf{+ selectedFrameOut : collection			}] \hfill			
 			contiene gli oggetti JSON dei frames che sono stati selezionati nella vista trailMap.ng nella sezione Frames Out
 		\item[\textbf{+ removingChkPnt : boolean			}] \hfill			
-			se settata a true %da chiarire			
+			se settata a true consente a removeChk di togliere un checkpoint, se settata a false l'operazione viene annullata			
 	\end{description}
 	
 	
@@ -66,8 +67,8 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ setOneSvg(svg : collection, mod : String) : void			}] \hfill
-		tramite due metodi JQuery$_G$ setta il colore e il path del svg.		
+		\item[\textbf{\color{blue}- setOneSvg(svg : collection, mod : String) : void			}] \hfill
+		tramite due metodi JQuery$_G$ setta il colore e il path dell'svg.		
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -77,7 +78,24 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 					\item \textbf{svg : collection			} \hfill
 						un oggetto JSON che identifica un svg
 					\item \textbf{mod : String			} \hfill
-						identifica %da chiarire
+						identifica gli id HTML$_G$ associati all'svg
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+
+% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- setFrameSvg(frame : collection) : void			}] \hfill
+			chiama il metodo setOneSvg per ogni shape contenuto nel frame ricevuto in input	
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{frame : collection			} \hfill
+						un oggetto JSON che rappresenta un frame
 				\end{itemize}
 		\end{description}
 	\end{description}
@@ -85,7 +103,16 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 	
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ setFrames(hashFrames : collection) : void			}] \hfill
+		\item[\textbf{\color{blue}- setSvgFramesSide() : void			}] \hfill
+			per ogni frame appartenente al trail viene chiamato il metodo setFrameSvg	
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ setFrames(hashFrames : list) : void			}] \hfill
 			descrizione %da chiarire
 			
 		\begin{description}
@@ -93,7 +120,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 			\item[Argomenti] \hfill
 				\begin{itemize}
 				
-					\item \textbf{hashFrames : collection			} \hfill
+					\item \textbf{hashFrames : list			} \hfill
 					descrizione %da chiarire
 					
 				\end{itemize}
@@ -220,7 +247,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 		% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ increment(idFrame : String) : void			}] \hfill
-			descrizione %da chiarire
+			sposta il frame identificato dal codice ricevuto nella posizione successiva rispetto a quella in cui si trova. Utilizza il metodo switchDxSlide di trail
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -228,7 +255,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 				\begin{itemize}
 				
 					\item \textbf{idFrame : String			} \hfill
-						identifica l'id del frame da
+						identifica l'id del frame da spostare
 					
 				\end{itemize}
 		\end{description}
@@ -238,7 +265,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 		% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ decrement(idFrame : String) : void			}] \hfill
-			descrizione %da chiarire
+			sposta il frame identificato dal codice ricevuto nella posizione precedente rispetto a quella in cui si trova. Utilizza il metodo switchSxSlide di trail
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -246,7 +273,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 				\begin{itemize}
 				
 					\item \textbf{idFrame : String			} \hfill
-						identifica l'id del frame da
+						identifica l'id del frame da spostare
 					
 				\end{itemize}
 		\end{description}
@@ -292,14 +319,15 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 		% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ discard() : void			}] \hfill
-			descrizione %da chiarire
+			imposta removingChkPnt a false
 	\end{description}
 	% -- fine metodo -- %	
 	
 		% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ showSideBarDx() : void			}] \hfill
-			descrizione %da chiarire
+			Attiva o disattiva la barra laterale destra dell’editor impostando a true
+showInSide se era impostato a false e viceversa
 			
 	\end{description}
 	% -- fine metodo -- %
@@ -351,7 +379,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 		% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ getTrailDir() : String			}] \hfill
-			restituisce il percorso del trail
+			restituisce una matrice di frame che rappresenta il percorso di presentazione. Utilizza il metodo getTrail della classe trail
 
 	\end{description}
 	% -- fine metodo -- %
@@ -359,7 +387,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 		% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ init() : void			}] \hfill
-			inizializza un trail.
+			inizializza il trail utilizzando il metodo initPath della classe trail
 		
 	\end{description}
 	% -- fine metodo -- %					
