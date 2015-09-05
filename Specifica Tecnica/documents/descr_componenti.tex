@@ -37,20 +37,12 @@
 \end{center}
 \end{figure}
 
-\subsubsection{premi/client/views/header.ng}
-\begin{itemize}
-  \item[] \textbf{Nome:} header.ng
-  \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} premi/client/views
-  \item[] \textbf{Descrizione:} template dell'header della pagina principale dell'applicazione
-\end{itemize}
-
 \subsubsection{premi/client/controllers/premi}
 \begin{itemize}
   \item[] \textbf{Nome:} premi
   \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} premi/client/controllers
-  \item[] \textbf{Descrizione:} controller generale della pagina principale dell'applicazione
+  \item[] \textbf{Descrizione:} controller generale della pagina principale, che funge da appoggio per gli altri controller dell'applicazione
 \end{itemize}
 
 \subsubsection{premi/client/lib/toastMessageFactory}
@@ -58,8 +50,12 @@
   \item[] \textbf{Nome:} toastMessageFactory
   \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/lib
-  \item[] \textbf{Descrizione:} fornisce una semplice funzione per l'invio di notifiche o messaggi di errore all'utente
+  \item[] \textbf{Descrizione:} permette l'invio di notifiche o messaggi d'errore all'utente
 \end{itemize}
+
+
+
+
 
 \subsection{premi/client/userManager}
 \begin{figure}[H]
@@ -578,7 +574,7 @@
   \item[] \textbf{Nome:} editTrailCtrl
   \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/editTrail.ng
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/editTrail.ng. Tramite l'oggetto \textit{\$scope}, fornisce alla vista i metodi per modificare il titolo di un trail
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/trailsEditor/views/editTrail.ng e dipende da:   
   \begin{itemize}
   \item[] \textit{premi/client/presentation/lib/databaseAPI} per interagire con il database;    
@@ -589,7 +585,7 @@
   \item[] \textbf{Nome:} listTrailCtrl
   \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/listTrail.ng
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/listTrail.ng. Tramite l'oggetto \textit{\$scope}, fornisce alla vista una lista dei Trail creati finora dall'utente per la presentazione selezionata
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/trailsEditor/views/listTrail.ng
 \end{itemize}
 \subsubsection{premi/client/trailsEditor/controllers/modTrailCtrl}
@@ -597,7 +593,7 @@
   \item[] \textbf{Nome:} modTrailCtrl
   \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/modTrail.ng
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/modTrail.ng. Tramite l'oggetto \textit{\$scope}, fornisce alla vista i metodi per modificare un percorso di presentazione (Trail)
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/trailsEditor/views/modTrail.ng e dipende da:
   \begin{itemize}
   	\item \textit{premi/client/presentation/lib/trail} per interagire con i metodi per gestire un trail.
@@ -608,7 +604,7 @@
   \item[] \textbf{Nome:} newTrailCtrl
   \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/newTrail.ng
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/newTrail.ng. Tramite l'oggetto \textit{\$scope}, fornisce alla vista i metodi per la creazione di un nuovo percorso di presentazione (Trail)
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/trailsEditor/views/newTrail.ng e dipende da:
   \begin{itemize}
   	\item \textit{premi/client/presentation/lib/databaseAPI} per interagire con il database.
@@ -619,7 +615,7 @@
   \item[] \textbf{Nome:} removeTrailCtrl
   \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/removeTrail.ng
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/removeTrail.ng. Tramite l'oggetto \textit{\$scope}, fornisce alla vista i metodi per la rimozione di un percorso di presentazione (Trail)
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/trailsEditor/views/removeTrail.ng e dipende da:
   \begin{itemize}
   	\item \textit{premi/client/presentation/lib/databaseAPI} per interagire con il database.
@@ -632,12 +628,12 @@
   \item[] \textbf{Package:} premi/client/trailsEditor/controllers
   \item[] \textbf{Descrizione:} controller generale che gestisce le view di premi/client/trailsEditor/views
 \end{itemize}
-\subsubsection{premi/client/trailsEditor/controllers/removeChkPnt}
+\subsubsection{premi/client/trailsEditor/controllers/removeChkPntCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} removeChkPnt
   \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/removeChkPnt.ng
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/removeChkPnt.ng. Tramite l'oggetto \textit{\$scope}, fornisce alla vista i metodi per rimuovere un checkpoint da un trail, che indica la presenza di un percorso di specializzazione
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/trailsEditor/views/removeChkPnt.ng
 \end{itemize}
 
@@ -703,7 +699,7 @@
   \item[] \textbf{Nome:} trailMapCtrl
   \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} Premi/client/trailMap/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailMapCtrl/views/trailMap.ng
+  \item[] \textbf{Descrizione:} controller di premi/client/trailMapCtrl/views/trailMap.ng. Tramite l'oggetto \textit{\$scope}, fornisce gli strumenti per generare e gestire una mappa interattiva del percorso di presentazione.
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailMap/views/trailMap.ng e dipende da:
   \begin{itemize}
   	\item \textit{Premi/client/presentation/lib/trail} per interagire con gli oggetti trail;
