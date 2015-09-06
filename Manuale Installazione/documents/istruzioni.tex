@@ -11,11 +11,19 @@ Per procedere all'installazione dell'applicazione \emph{Premi} sono necessari al
 Tali file sono reperibili all'interno del repository pubblico all'indirizzo \href{http://404notfoundunipd.github.io/premi/}{http://404notfoundunipd.github.io/premi/}, dove si troveranno tutte le istruzioni necessarie per scaricare i file dell'applicazione.
 
 \section{Installazione}
-\subsection{Linux}
+\subsection{Linux e Mac OS}
 
 \subsubsection{Installazione curl}
 Curl è uno strumento per riga di comando e libreria per il trasferimento di dati con sintassi URL. \\
-Per eseguire l'installazione è necessario scaricare il pacchetto d'installazione dal sito \href{http://curl.haxx.se/download.html}{http://curl.haxx.se/download.html}; una volta scaricato il pacchetto, estrarne i file in una cartella come nell'immagine seguente:
+
+Per eseguire l'installazione aprire il terminale e digitare in sequenza i seguenti comandi (solo Linux):
+
+\begin{lstlisting}[style=DOS]
+	$ sudo apt-get update
+	$ sudo apt-get install libcurl3 php5-curl
+\end{lstlisting}
+
+Alternativamente è possibile eseguire l'installazione scaricando il pacchetto d'installazione dal sito \href{http://curl.haxx.se/download.html}{http://curl.haxx.se/download.html}; una volta scaricato il pacchetto, estrarne i file in una cartella come nell'immagine seguente:
 
 \begin{figure}[h]
 \begin{center}
@@ -90,13 +98,5 @@ Se invece l'applicazione è stata avviata correttamente verrà visualizzato sul 
 \end{lstlisting}
 
 Sarà quindi sufficiente aprire il browser Google Chrome ed inserire nella barra degli indirizzi \verb+http://localhost:3000/+ oppure \verb+http://127.0.0.1:3000/+.
-
-
-\subsection{Mac OS}
-\subsubsection{Installazione curl}
-
-\subsubsection{Installazione MeteorJS}
-
-\subsubsection{Avvio applicazione}
 
 \section{Consigli}
