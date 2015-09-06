@@ -1,0 +1,162 @@
+\newpage
+\section{Tracciamento requisiti-componenti}	
+\begin{longtable}{|l|p{5cm}|p{7cm}|}
+\hline
+\textbf{Requisito}  & \textbf{Descrizione} & \textbf{Componenti} \\
+\hline
+FOb1 & l'utente deve poter creare una presentazione & \hspace{0pt}premi/client/presentationManager/views/newPresentation.ng \linebreak \linebreak premi/client/presentationManager/controller/newPresentationCtrl \\
+\hline
+FOb1.1 & l'utente deve poter scegliere un titolo per una presentazione & \hspace{0pt}premi/client/presentationManager/views/newPresentation.ng \linebreak \linebreak premi/client/presentationManager/controller/newPresentationCtrl \\
+\hline
+FOb1.2 & l'utente deve poter inserire una descrizione della presentazione & \hspace{0pt}premi/client/presentationManager/views/newPresenation.ng \linebreak \linebreak premi/client/presentationManager/controller/newPresentationCtrl \\
+\hline
+FOp10 & l'utente deve poter rendere live una presentazione pubblica & \hspace{0pt}premi/client/presentationManager/views/presentations.ng \linebreak \linebreak premi/client/presentationManager/controller/presentationsCtrl \\
+\hline
+FOp11 & l'utente deve poter esportare una presentazione & \hspace{0pt}premi/client/presentationManager/views/presentations.ng \linebreak \linebreak premi/client/presentationManager/controller/presentationsCtrl \\
+\hline
+FOp11.1 & l'utente deve poter esportare la presentazione come poster & \hspace{0pt}premi/client/presentationManager/views/presentations.ng \linebreak \linebreak premi/client/presentationManager/controller/presentationsCtrl \\
+\hline
+FOp11.2 & l'utente deve poter esportare la presentazione in formato portabile & \hspace{0pt}premi/client/presentationManager/views/presentations.ng \linebreak \linebreak premi/client/presentationManager/controller/presentationsCtrl \\
+\hline
+FOp12 & l'utente deve poter partecipare ad una presentazione resa live & \hspace{0pt}premi/client/viewer/views/viewer.ng \linebreak \linebreak premi/client/viewer/controllers/viewerCtrl \\
+\hline
+FOb13 & l'utente deve poter registrarsi al sistema & \hspace{0pt}premi/client/userManager/views/signup.ng \linebreak \linebreak premi/client/userManager/controllers/signupCtrl \linebreak \linebreak premi/client/userManager/views/userManager.ng \linebreak \linebreak premi/client/userManager/controllers/signoutCtrl \\
+\hline
+FOb14 & l'utente deve potersi autenticare & \hspace{0pt}premi/client/userManager/views/signin.ng \linebreak \linebreak premi/client/userManager/controllers/signinCtrl \linebreak \linebreak premi/client/userManager/views/userManager.ng \\
+\hline
+FOb15 & l'utente deve sapere quando ha commesso un errore & \hspace{0pt}premi/client/lib/toastMessageFactory \\
+\hline
+FOb16 & l'utente deve poter modificare la propria password & \hspace{0pt}premi/client/userManager/views/changePassword.ng \linebreak \linebreak premi/client/userManager/controllers/changePasswordCtrl \linebreak \linebreak premi/client/userManager/views/userManager.ng \\
+\hline
+FOb2 & l'utente deve poter selezionare una sua presentazione & \hspace{0pt}premi/client/presentationManager/views/presentations.ng \linebreak \linebreak premi/client/presentationManager/controllers/presentationCtrl \linebreak \linebreak premi/client/presentationManager/views/presentationManager.ng \linebreak \linebreak premi/client/presentationManager/controllers/presentationManagerCtrl \linebreak \linebreak premi/server/publish \\
+\hline
+FOb3 & l'utente deve poter eseguire una sua presentazione & \hspace{0pt}premi/client/viewer/views/viewer.ng \linebreak \linebreak premi/client/viewer/controllers/viewerCtrl \\
+\hline
+FDe3.1 & l'utente deve poter scegliere un percorso presentativo precedentemente creato & \hspace{0pt}premi/client/viewer/views/trails.ng \linebreak \linebreak premi/client/viewer/controllers/trailsCtrl \linebreak \linebreak premi/server/publish \linebreak \linebreak premi/client/trailMap/controllers/trailMapCtrl \linebreak \linebreak premi/client/trailMap/views/trailMap.ng \\
+\hline
+FOb3.2 & l'utente deve poter avanzare nel percorso presentativo scelto & \hspace{0pt}premi/client/viewer/views/viewer.ng \linebreak \linebreak premi/client/viewer/controllers/viewerCtrl \\
+\hline
+FOb3.3 & l'utente deve poter retrocedere nel percorso presentativo scelto & \hspace{0pt}premi/client/viewer/views/viewer.ng \linebreak \linebreak premi/client/viewer/controllers/viewerCtrl \\
+\hline
+FDe3.4 & l'utente deve poter seguire un percorso di approndimento & \hspace{0pt}premi/client/viewer/views/viewer.ng \linebreak \linebreak premi/client/viewer/controllers/viewerCtrl \linebreak \linebreak premi/client/trailMap/controllers/trailMapCtrl \linebreak \linebreak premi/client/trailMap/views/trailMap.ng \\
+\hline
+FOb3.5 & l'utente deve poter tornare ad un checkpoint & \hspace{0pt}premi/client/viewer/views/viewer.ng \linebreak \linebreak premi/client/viewer/controllers/viewerCtrl \\
+\hline
+FOb3.6 & l'utente deve poter interrompere l'esecuzione della presentazione & \hspace{0pt}premi/client/viewer/views/viewer.ng \linebreak \linebreak premi/client/viewer/controllers/viewerCtrl \\
+\hline
+FOb4 & l'utente deve poter modificare una presentazione & \hspace{0pt}premi/client/editor/views/editor.ng \linebreak \linebreak premi/client/editor/controllers/editorCtrl  \linebreak \linebreak premi/server/methods \linebreak \linebreak premi/client/trailsEditor/views/basicToolbar.ng \linebreak \linebreak premi/client/trailsEditor/controllers/basicToolbarCtrl \\
+\hline
+FOb4.1 & l'utente deve poter inserire un oggetto grafico & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \linebreak \linebreak premi/client/editor/lib/graphicObject \linebreak \linebreak premi/client/presentations/lib/OrderedGOList \\
+\hline
+FOb4.1.1 & l'utente deve poter inserire un'area di testo & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \linebreak \linebreak premi/client/editor/lib/graphicObject \linebreak \linebreak premi/client/editor/lib/Text \linebreak \linebreak premi/client/editor/lib/Observer \linebreak \linebreak premi/client/editor/lib/GObject \linebreak \linebreak premi/client/presentations/lib/OrderedGOList \\
+\hline
+FOb4.1.1.1 & l'utente deve poter inserire del testo & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl  \linebreak \linebreak premi/client/presentations/lib/OrderedGOList \\
+\hline
+FOb4.1.1.2 & l'utente deve poter scegliere il tipo di font per il testo & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.1.1.3 & l'utente deve poter scegliere il colore del testo & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.1.1.4 & l'utente deve poter scegliere la dimensione del testo & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.1.2 & l'utente deve poter inserire un frame nella presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/GoProvider \linebreak \linebreak premi/client/editor/lib/Frame \\
+\hline
+FOp4.1.2.1 & l'utente deve poter scegliere la forma del frame & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \\
+\hline
+FOb4.1.3 & l'utente deve poter inserire un immagine nella presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \linebreak \linebreak premi/client/editor/lib/graphicObject \linebreak \linebreak premi/client/editor/lib/GObject \linebreak \linebreak premi/client/editor/lib/Image \linebreak \linebreak premi/client/editor/lib/Observer \linebreak \linebreak premi/client/presentations/lib/OrderedGOList  \\
+\hline
+FOb4.1.3.1 & l'utente deve poter scegliere un'immagine da filesystem &  \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.1.4 & l'utente deve poter inserire uno shape nella presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \linebreak \linebreak premi/client/editor/lib/graphicObject \linebreak \linebreak premi/client/editor/lib/Shape  \linebreak \linebreak \linebreak \linebreak premi/client/editor/lib/Observer premi/client/editor/lib/GObject \linebreak \linebreak premi/client/presentations/lib/OrderedGOList \\
+\hline
+FOb4.1.4.1 & l'utente deve poter scegliere la forma di uno shape & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.10 & l'utente deve poter modificare la descrizione di una presentazione &\hspace{0pt}premi/client/presentationManager/views/editPresentation.ng \linebreak \linebreak premi/client/presentationManager/controllers/editPresentationCtrl  \linebreak \linebreak premi/server/methods \\
+\hline
+FOb4.2 & l'utente deve poter selezionare un oggetto grafico & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \linebreak \linebreak premi/server/publish \\
+\hline
+FOb4.3 & l'utente deve poter modificare un oggetto grafico nella presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \linebreak \linebreak premi/client/editor/lib/infographic \linebreak \linebreak premi/server/methods \\
+\hline
+FOb4.3.1 & l'utente deve poter modificare un frame & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl  \linebreak \linebreak premi/server/methods \\
+\hline
+FOb4.3.1.1 & l'utente deve poter ridimensionare un frame della presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.3.1.2 & l'utente deve poter riposizionare un frame nella presentazione &\hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.3.1.3 & l'utente deve poter modificare lo stile di un frame della presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl  \linebreak \linebreak premi/server/methods \\
+\hline
+FOb4.3.2 & l'utente deve poter modificare il contenuto di un'area di testo della presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl  \linebreak \linebreak premi/server/methods \\
+\hline
+FOb4.3.2.1 & l'utente deve poter ridimensionare un'area di testo della presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.3.2.2 & l'utente deve poter riposizionare un area di testo nella presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.3.2.3 & l'utente deve poter modificare lo stile dell'area di testo della presentazione &\hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl  \linebreak \linebreak premi/server/methods \\
+\hline
+FOb4.3.2.4 & l'utente deve poter modificare il contenuto di un'area di testo della presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl  \linebreak \linebreak premi/server/methods \\
+\hline
+FOb4.3.2.5 & l'utente deve poter cambiare il livello di un'area di testo & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.3.3 & l'utente deve poter modificare una shape & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl  \linebreak \linebreak premi/server/methods \\
+\hline
+FOb4.3.3.1 & l'utente deve poter riposizionare una shape & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.3.3.2 & l'utente deve poter cambiare lo stile di una shape & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.3.3.3 & l'utente deve poter ridimensionare una shape & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.3.3.4 & l'utente deve poter cambiare livello ad una shape & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.3.4 & l'utente deve poter modificare un'immagine della presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl  \linebreak \linebreak premi/server/methods \\
+\hline
+FOb4.3.4.1 & l'utente deve poter riposizionare un'immagine nella presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.3.4.2 & l'utente deve poter ridimensionare un'immagine della presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.3.4.3 & l'utente deve poter cambiare il livello di un immagine & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FOb4.4 & l'utente deve poter eliminare un oggetto grafico dalla presentazione & \hspace{0pt}premi/client/frameEditor/views/frame.ng \linebreak \linebreak premi/client/frameEditor/controllers/frameEditorCtrl \linebreak \linebreak premi/client/editor/lib/InteractInit \linebreak \linebreak premi/client/infographicEditor/views/infographic.ng \linebreak \linebreak premi/client/infographicEditor/controllers/infographicEditorCtrl \\
+\hline
+FDe4.5 & l'utente deve poter creare un percorso per la presentazione & \hspace{0pt}premi/client/trailsEditor/views/newTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/newTrailCtrl \linebreak \linebreak premi/client/trailsEditor/controllers/trailsCtrl \linebreak \linebreak premi/client/trailsEditor/controllers/trailsEditorCtrl \linebreak \linebreak premi/client/presentation/lib/Trail \linebreak \linebreak premi/client/editor/lib/GOContainer \\
+\hline
+FDe4.5.1 & l'utente deve poter inserire un titolo per un percorso & \hspace{0pt}premi/client/trailsEditor/views/newTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/newTrailCtrl \\
+\hline
+FDe4.5.2 & l'utente deve poter clonare un percorso esistente della presentazione & \hspace{0pt}premi/client/trailsEditor/views/newTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/newTrailCtrl \\
+\hline
+FDe4.6 & l'utente deve poter selezionare un percorso della presentazione & \hspace{0pt}premi/client/trailsEditor/views/listTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/listTrailCtrl \linebreak \linebreak premi/client/trailsEditor/controllers/trailsCtrl \\
+\hline
+FOb4.7 & l'utente deve poter modificare un percorso della presentazione & \hspace{0pt}premi/client/trailsEditor/views/modTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/modTrailCtrl  \linebreak \linebreak premi/server/methods  \\
+\hline
+FDe4.7.1 & l'utente deve poter modificare il titolo del percorso & \hspace{0pt}premi/client/trailsEditor/views/editTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/editTrailCtrl  \linebreak \linebreak premi/server/methods  \\
+\hline
+FOb4.7.2 & l'utente deve poter aggiungere un passo ad un cammino della presentazione & \hspace{0pt}premi/client/trailsEditor/views/modTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/modTrailCtrl \linebreak \linebreak premi/client/presentation/lib/Trail \\
+\hline
+FOb4.7.3 & l'utente deve poter modificare l'ordine dei frame nel percorso & \hspace{0pt}premi/client/trailsEditor/views/modTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/modTrailCtrl \linebreak \linebreak premi/client/presentation/lib/Trail  \linebreak \linebreak premi/server/methods \\
+\hline
+FDe4.7.4 & l'utente deve poter rendere checkpoint un frame & \hspace{0pt}premi/client/trailsEditor/views/modTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/modTrailCtrl \linebreak \linebreak premi/client/presentation/lib/Trail \\
+\hline
+FDe4.7.5 & l'utente deve poter rimuovere la marcatura a checkpoint di un frame & \hspace{0pt}premi/client/trailsEditor/views/modTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/modTrailCtrl \linebreak \linebreak premi/client/presentation/lib/Trail \\
+\hline
+FDe4.7.5.1 & l'utente deve confermare l'eliminazione di una marcatura a checkpoint & \hspace{0pt}premi/client/trailsEditor/views/modTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/modTrailCtrl \linebreak \linebreak premi/client/presentation/lib/Trail \\
+\hline
+FDe4.7.5.2 & l'utente deve poter annullare la rimozione di una marcatura a checkpoint & \hspace{0pt}premi/client/trailsEditor/views/modTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/modTrailCtrl \linebreak \linebreak premi/client/presentation/lib/Trail \\
+\hline
+FOb4.7.6 & l'utente deve poter selezionare un frame del percorso & \hspace{0pt}premi/client/trailsEditor/views/modTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/modTrailCtrl \linebreak \linebreak premi/server/publish \\
+\hline
+FOb4.8 & l'utente deve poter modificare il titolo di una presentazione & \hspace{0pt}premi/client/presentationManager/views/editPresentation.ng \linebreak \linebreak premi/client/presentationManager/controllers/editPresentationCtrl  \linebreak \linebreak premi/server/methods \\
+\hline
+FDe4.9 & l'utente deve poter eliminare un percorso & \hspace{0pt}premi/client/trailsEditor/views/removeTrail.ng \linebreak \linebreak premi/client/trailsEditor/controllers/removeTrailCtrl \\
+\hline
+FOb5 & l'utente deve poter salvare una presentazione & \hspace{0pt}premi/client/presentation/lib/databaseAPI \linebreak \linebreak premi/client/editor/lib/Saver \linebreak \linebreak premi/server/methods \\
+\hline
+FOb6 & l'utente deve poter eliminare una presentazione &  \hspace{0pt}premi/client/presentationManager/views/removePresentation.ng \linebreak \linebreak premi/client/presentationManager/controllers/removePresentationCtrl \\
+\hline
+FOb6.1 & l'utente deve poter scegliere di annullare l'operazione di eliminazione di una presentazione &  \hspace{0pt}premi/client/presentationManager/views/removePresentation.ng \linebreak \linebreak premi/client/presentationManager/controllers/removePresentationCtrl \\
+\hline
+FOp7 & l'utente deve poter rendere pubblica una presentazione & \hspace{0pt}premi/client/presentationManager/views/presentations.ng \linebreak \linebreak premi/client/presentationManager/controllers/presentationsCtrl \\
+\hline
+FOp8 & il sistema deve poter generare un link per una presentazione live & \hspace{0pt}premi/client/presentationManager/views/presentations.ng \linebreak \linebreak premi/client/presentationManager/controllers/presentationsCtrl \\
+\hline
+FOp9 & l'utente deve poter rendere privata una presentazione publica & \hspace{0pt}premi/client/presentationManager/views/presentations.ng \linebreak \linebreak premi/client/presentationManager/controller/presentationsCtrl \\
+\hline
+\caption{Tracciamento requisiti-componeni}
+\end{longtable}
