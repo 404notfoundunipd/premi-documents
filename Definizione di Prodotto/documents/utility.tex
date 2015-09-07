@@ -2,8 +2,8 @@
 \subsection{premi/client/utility}
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.70]{img/diapkg/trailMap.png}
-\caption{Diagramma della classe premi/client/trailMap}
+\includegraphics[scale=0.70]{img/diapkg/utility.png}
+\caption{Diagramma della classe premi/client/utility}
 \end{center}
 \end{figure}
 
@@ -13,7 +13,7 @@
 \begin{description}
 %-------  descrizione del template%
 \item[Descrizione] \hfill
-	template della vista associato alla direttiva \textit{actionDialogDirective} che permette di visualizzare un messaggio all'utente	
+	template della vista associato alla direttiva \textit{actionDialogDirective} che permette di visualizzare un messaggio informativo all'utente	
 \end{description}
 
 %-------  diagramma di un template %
@@ -23,4 +23,13 @@
 %-------  descrizione del template%
 \item[Descrizione] \hfill
 	direttiva che include la vista \textit{actionDialog.ng} e permette con il tag html$_G$ \textit{action-dialog} di visualizzare un messaggio all'utente che può essere personalizzato includendo codice html tra il tag di apertura e chiusura della direttiva
+\end{description}
+
+%-------  diagramma di un template %
+\subsubsection{premi/client/utility/lib/shapeFilesystemMap}
+
+\begin{description}
+%-------  descrizione del template%
+\item[Descrizione] \hfill
+	Questa Factory$_G$ restituisce un hash contenente l'URL di tutti gli shape inseribili nell'editor, nella forma \texttt{ \{filename : 'indirizzo/nome.svg', ... \}}.
 \end{description}
