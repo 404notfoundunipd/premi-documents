@@ -113,7 +113,7 @@ di MTrail initPath per la sua inizializzazione
 	% -- inizio metodo -- %
 	\begin{description}
 		\item[\textbf{\color{blue}+ setFrames(hashFrames : list) : void			}] \hfill
-			descrizione %da chiarire
+			inserisce i frame nella lista dei frames convertendo la lista in input in oggetti JSON di tipo frame
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -121,7 +121,7 @@ di MTrail initPath per la sua inizializzazione
 				\begin{itemize}
 				
 					\item \textbf{hashFrames : list			} \hfill
-					descrizione %da chiarire
+						lista di frame da convertire
 					
 				\end{itemize}
 		\end{description}
@@ -130,16 +130,16 @@ di MTrail initPath per la sua inizializzazione
 	
 		% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ setTrail(inTrail : collection) : void			}] \hfill
-			descrizione %da chiarire
+		\item[\textbf{\color{blue}+ setTrail(inTrail : list) : void			}] \hfill
+			inserisce i trail nella matrice trilly convertendo prima la lista in input in oggetti JSON di tipo trail
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill
 				\begin{itemize}
 				
-					\item \textbf{inTrail : collection			} \hfill
-					descrizione %da chiarire
+					\item \textbf{inTrail : list			} \hfill
+						lista di trail da convertire
 					
 				\end{itemize}
 		\end{description}
@@ -148,16 +148,16 @@ di MTrail initPath per la sua inizializzazione
 	
 		% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ setFramesId(arrayId : String[]) : void			}] \hfill
-			descrizione %da chiarire
+		\item[\textbf{\color{blue}+ setFramesId(arrayId : Array) : void			}] \hfill
+			inserisce gli id dei frame nell'array idframes convertendo prima la lista data in input in stringhe.
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill
 				\begin{itemize}
 				
-					\item \textbf{arrayId : String[]			} \hfill
-					descrizione %da chiarire
+					\item \textbf{arrayId : Array			} \hfill
+						lista degli identificativi da convertire
 					
 				\end{itemize}
 		\end{description}
@@ -392,4 +392,13 @@ showInSide se era impostato a false e viceversa
 	\end{description}
 	% -- fine metodo -- %					
 		
+\end{description}
+
+%-------  diagramma di un template %
+\subsubsection{premi/client/trailMap/lib/trailMapDirective}
+
+\begin{description}
+%-------  descrizione del template%
+\item[Descrizione] \hfill
+	direttiva che include la vista \textit{trailMap.ng} e il controller \textit{trailMapCtrl} e permette con il tag html$_G$ \textit{trail-map} di settare i frame, gli identificativi dei frame e il trail a cui ci si vuole riferire per la successiva modifica del percorso di presentazione 
 \end{description}
