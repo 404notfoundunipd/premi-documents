@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  6 SEP 2015 22:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  7 SEP 2015 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1067,10 +1067,11 @@ File: img/move_text.png Graphic file (type png)
 Package pdftex.def Info: img/move_text.png used on input line 163.
 (pdftex.def)             Requested size: 22.28342pt x 22.58453pt.
 
-<img/save_text.png, id=336, 66.2475pt x 60.225pt>
-File: img/save_text.png Graphic file (type png)
- <use img/save_text.png>
-Package pdftex.def Info: img/save_text.png used on input line 164.
+<img/text_edit_mode.png, id=336, 66.2475pt x 60.225pt>
+File: img/text_edit_mode.png Graphic file (type png)
+
+<use img/text_edit_mode.png>
+Package pdftex.def Info: img/text_edit_mode.png used on input line 164.
 (pdftex.def)             Requested size: 21.86172pt x 19.8743pt.
 
 <img/delete_text.png, id=337, 63.23625pt x 57.21375pt>
@@ -1098,8 +1099,8 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 174.
  [15 <./img/color_text.png (PNG copy)> <./img/bold_text.png (PNG copy)> <./img/
 corsivo_text.png (PNG copy)> <./img/underline_text.png (PNG copy)> <./img/size_
 text.png (PNG copy)> <./img/clear_text.png (PNG copy)> <./img/move_text.png (PN
-G copy)> <./img/save_text.png (PNG copy)> <./img/delete_text.png (PNG copy)> <.
-/img/toolbar_text.png (PNG copy)>]
+G copy)> <./img/text_edit_mode.png (PNG copy)> <./img/delete_text.png (PNG copy
+)> <./img/toolbar_text.png (PNG copy)>]
 <img/edit_shape.png, id=350, 1284.8pt x 628.3475pt>
 File: img/edit_shape.png Graphic file (type png)
  <use img/edit_shape.png>
@@ -1562,7 +1563,7 @@ Package rerunfilecheck Info: File `ManualeUtente_v1.0.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  10780 strings out of 493117
- 161532 string characters out of 6135432
+ 161557 string characters out of 6135432
  262251 words of memory out of 5000000
  13938 multiletter control sequences out of 15000+600000
  9799 words of font info for 34 fonts, out of 8000000 for 9000
@@ -1575,7 +1576,7 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
 local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on ManualeUtente_v1.0.pdf (26 pages, 2389538 bytes).
+Output written on ManualeUtente_v1.0.pdf (26 pages, 2391076 bytes).
 PDF statistics:
  491 PDF objects out of 1000 (max. 8388607)
  366 compressed objects within 4 object streams

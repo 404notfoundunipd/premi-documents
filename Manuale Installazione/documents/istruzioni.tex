@@ -2,8 +2,9 @@
 \subsection{Requisiti di sistema}
 Il server$_G$ ospitante l'applicazione dovrà soddisfare alcuni requisiti di seguito elencati:
 \begin{itemize}
-\item Sistema operativo Linux o Mac OS;
-\item Browser Google Chrome$_G$;
+\item Sistema operativo Ubuntu$_G$ 14.04 LTS o Mac OSX v.10 o superiore;
+\item Browser Google Chrome$_G$ v.40 o superiore;
+\item Disco rigido con almeno 250,0 MB di memoria disponibili.
 \end{itemize}
 
 \section{Files necessari}
@@ -16,14 +17,14 @@ Tali file sono reperibili all'interno del repository$_G$ pubblico all'indirizzo 
 \subsubsection{Installazione curl}
 Curl è uno strumento per riga di comando e libreria per il trasferimento di dati con sintassi URL$_G$. \\
 
-Per eseguire l'installazione aprire il terminale e digitare in sequenza i seguenti comandi (solo Linux):
+\noindent Per eseguire l'installazione aprire il terminale e digitare in sequenza i seguenti comandi (solo Ubuntu$_G$ o derivati Debian$_G$):
 
 \begin{lstlisting}[style=DOS]
 	$ sudo apt-get update
-	$ sudo apt-get install libcurl3 php5-curl
+	$ sudo apt-get install libcurl3
 \end{lstlisting}
 
-Alternativamente è possibile eseguire l'installazione scaricando il pacchetto d'installazione dal sito \href{http://curl.haxx.se/download.html}{http://curl.haxx.se/download.html}; una volta scaricato il pacchetto, estrarne i file in una cartella come nell'immagine seguente:
+\noindent Alternativamente è possibile eseguire l'installazione scaricando il pacchetto d'installazione dal sito \href{http://curl.haxx.se/download.html}{http://curl.haxx.se/download.html}; una volta scaricato il pacchetto, estrarne i file in una cartella come nell'immagine seguente:
 
 \begin{figure}[h]
 \begin{center}
@@ -41,7 +42,7 @@ Aprire quindi il terminale e spostarsi all'interno di questa cartella tramite il
 	$ cd /home/notfound404/Desktop/Curl/curl-7.44.0/
 \end{lstlisting}
 
-eseguire quindi in sequenza i comandi:
+\noindent eseguire quindi in sequenza i comandi:
 
 \begin{lstlisting}[style=DOS]
 	$ ./configure
@@ -59,7 +60,7 @@ Per eseguire la sua installazione sarà sufficiente aprire il terminale ed esegu
 	$ curl https://install.meteor.com/ | sh
 \end{lstlisting}
 
-Una volta terminata l'installazione, MeteorJS$_G$ sarà pronto per essere utilizzato.
+\noindent Una volta terminata l'installazione, MeteorJS$_G$ sarà pronto per essere utilizzato.
 
 \subsubsection{Avvio applicazione}
 Dopo aver scaricato l'archivio contenente i files necessari, come spiegato nella sezione \emph{3 Files necessari}, è necessario scompattarlo estraendone i files in una cartella, che per comodità supponiamo essere \verb+/home/notfound404/Desktop/Premi/+.\\
@@ -92,13 +93,13 @@ Nel caso vengano riscontrati errori verificare i seguenti punti:
 
 \noindent Nel caso in cui nessuna delle soluzioni sopra indicate porti ad una soluzione del problema, contattare gli sviluppatori attraverso le modalità indicate nella sezione \emph{1.5 Assistenza tecnica} del documento corrente.\\
 
-Se invece l'applicazione è stata avviata correttamente verrà visualizzato sul terminale il messaggio 
+\noindent Se invece l'applicazione è stata avviata correttamente verrà visualizzato sul terminale il messaggio 
 
 \begin{lstlisting}[style=DOS]
 	$ => App running at: http://localhost:3000/
 \end{lstlisting}
 
-Sarà quindi sufficiente aprire il browser$_G$ Google Chrome$_G$ ed inserire nella barra degli indirizzi \verb+http://localhost:3000/+ oppure \verb+http://127.0.0.1:3000/+.
+\noindent Sarà quindi sufficiente aprire il browser$_G$ Google Chrome$_G$ ed inserire nella barra degli indirizzi \verb+http://localhost:3000/+ oppure \verb+http://127.0.0.1:3000/+.
 
 \begin{figure}[!h]
 \begin{center}
@@ -107,4 +108,4 @@ Sarà quindi sufficiente aprire il browser$_G$ Google Chrome$_G$ ed inserire nel
 \end{center}
 \end{figure}
 
-\section{Consigli}
+\noindent Per effettuare l'accesso all'applicazione tramite la rete, il server deve disporre di indirizzo IP pubblico e una corretta configurazione della propria rete.
