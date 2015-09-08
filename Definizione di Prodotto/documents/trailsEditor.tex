@@ -250,6 +250,8 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 			Array di codici identificativi dei frames presenti in FrameCollection
 		\item[\textbf{- trilly : Array			}] \hfill
 			Matrice vuota, utilizzata come variabile d'appoggio per l'utilizzo del metodo di MTrail initPath per la sua inizializzazione
+		\item[\textbf{- states : Collection			}] \hfill
+			oggetto JSON che contiene i valori degli stati che può assumere un oggetto all'interno del trail
 		\item[\textbf{+ showInSide : boolean			}] \hfill
 			Indica se la barra di destra dell'editor dev'essere visualizzata (\textit{true}) o meno (\textit{false})
 		\item[\textbf{+ selectedFrameOut : String			}] \hfill
@@ -269,161 +271,32 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 	
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ showSideBarDx() : void			}] \hfill
-			Attiva o disattiva la barra laterale destra dell'editor impostando a \textit{true} showInSide se era impostato a \textit{false} e viceversa
-	\end{description}
-	% -- fine metodo -- %	
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ addFrameAfterCurrent()			}] \hfill
-			utilizza il metodo insertSlideAfterCurrent di MTrail inserire la slide attualmente selezionata(selectedFrameOut) nella lista dopo quella selezionata nel percorso
-	\end{description}
-	% -- fine metodo -- %	
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ addFrameAfterCurrent()			}] \hfill
-			utilizza il metodo insertSlideAfterCurrent di MTrail per inserire la slide attualmente selezionata(selectedFrameOut) nella lista prima di quella selezionata nel percorso
-	\end{description}
-	% -- fine metodo -- %		
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ addFrameBeforeCurrent()			}] \hfill
-			utilizza il metodo insertSlideBeforeCurrent di MTrail per inserire la slide attualmente selezionata(selectedFrameOut) nella lista prima di quella selezionata nel percorso
-	\end{description}
-	% -- fine metodo -- %	
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ addFrameToSpecCurrent()			}] \hfill
-			utilizza il metodo insertSlideInSpecTrail di MTrail per inserire la slide attualmente selezionata(selectedFrameOut) nella lista nel percorso di specializzazione di quella selezionata nel percorso
-	\end{description}
-	% -- fine metodo -- %	
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ removeCurrentFrame()			}] \hfill
-			utilizza il metodo removeCurrentSlide di MTrail per rimuovere la slide selezionata nel percorso
-	\end{description}
-	% -- fine metodo -- %	
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ selectFrameOut(idFrame : String) : void			}] \hfill
-			Copia il codice identificativo del frame ricevuto dentro selectedFrameOut, rendendolo in questo modo selezionato.
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill
-				\begin{itemize}
-				
-					\item \textbf{idFrame : String			} \hfill
-					Il codice identificativo del frame da selezionare
-					
-				\end{itemize}
-			
-		\end{description}
-	\end{description}
-	% -- fine metodo -- %	
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ nextSlide()			}] \hfill
-			utilizza il metodo nextSlide di MTrail per avanzare di un passo nel trail
-	\end{description}
-	% -- fine metodo -- %	
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ previousSlide()			}] \hfill
-			utilizza il metodo nextSlide di MTrail per retrocedere di un passo nel trail
-	\end{description}
-	% -- fine metodo -- %	
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ enterInCheckPoint()			}] \hfill
-			utilizza il metodo enterInCheckPoint di MTrail per entrare nel percorso di specializzazione associato al frame attualmente selezionato nel percorso, se il frame funge da checkpoint
-	\end{description}
-	% -- fine metodo -- %	
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ returnToCheckPoint()			}] \hfill
-			utilizza il metodo returnToCheckPoint di MTrail per uscire dal percorso di specializzazione e tornare al percorso dove risiede il checkpoint
-	\end{description}
-	% -- fine metodo -- %	
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ goToFrame(idSlide : String) : void			}] \hfill
-			Rende un frame selezionato nel percorso
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill
-				\begin{itemize}
-				
-					\item \textbf{idSlide : String			} \hfill
-					Il codice identificativo del frame da selezionare
-					
-				\end{itemize}
-			
-		\end{description}
-	\end{description}
-	% -- fine metodo -- %
-	
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ isTrailEmpty() : bool		}] \hfill
-			utilizza il metodo isTrailEmpty di MTrail per restituire \textit{true} se il percorso è vuoto, \textit{false} altrimenti
-	\end{description}
-	% -- fine metodo -- %	
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ getCurrentId() : String		}] \hfill
-			utilizza il metodo getCurrentId di MTrail per restituire il codice identificativo del frame attualmente selezionato nel percorso
-	\end{description}
-	% -- fine metodo -- %		
-	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ getCurrentContent() : Collection		}] \hfill
-			utilizza il metodo getCurrentId di MTrail per ricevere il codice identificativo del frame attualmente selezionato nel percorso, per poi utilizzarlo per restituire gli attributi del frame, reperibili dalla collezione frames
-	\end{description}
-	% -- fine metodo -- %
-	
-	% -- inizio metodo -- %
-	\begin{description}
 		\item[\textbf{\color{blue}+ getFrames() : Collection		}] \hfill
 			restituisce l'intera collezione frames
 	\end{description}
-	% -- fine metodo -- %	
-	
+	% -- fine metodo -- %
 	
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ isFrameInTrail(idFrame : String) : bool			}] \hfill
-			utilizza il metodo isSlideInTrail di MTrail per restituire \textit{true} se il frame è nel percorso, \textit{false} altrimenti
-			
-		\begin{description}
-			% -- lista argomenti del metodo -- %
-			\item[Argomenti] \hfill
-				\begin{itemize}
-				
-					\item \textbf{idFrame : String			} \hfill
-					Il codice identificativo del frame da cercare
-					
-				\end{itemize}
-			
-		\end{description}
+		\item[\textbf{\color{blue}+ getFramesId() : Array		}] \hfill
+			restituisce gli id dei frames del trail 
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ getTrail() : Collection		}] \hfill
+			restituisce i vari percorsi di specializzazione del trail
 	\end{description}
 	% -- fine metodo -- %	
 	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ init() : void		}] \hfill
+			inizializza i vari attributi del trail
+	\end{description}
+	% -- fine metodo -- %
+		
 \end{description}	
 	
 	
