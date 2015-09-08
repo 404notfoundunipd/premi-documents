@@ -893,7 +893,7 @@ clearpage
 			\item[\textbf{- checkPointHash : Hash		}] \hfill
 			Lista delle slide che fungono da checkpoint. È una lista di valori  \{ \texttt{id\_{}slide} : \texttt{riga nella matrice del percorso} \}
 			\item[\textbf{- pipe : Array		}] \hfill
-			%da chiarire
+			Array che contiene i frame su cui si sta lavorando in ordine di aggiunta. 
 	\end{description}
 	
 	
@@ -1016,7 +1016,7 @@ clearpage
 	
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}- removeCheckPoint(idSlide : String) : Trail			}] \hfill
+		\item[\textbf{\color{blue}- removeChkPoint(idSlide : String) : Trail			}] \hfill
 			Rimuove il percorso di specializzazione associato alla slide. Restituisce un riferimento al this per consentire chiamate consecutive ai metodi della classe
 			
 		\begin{description}
@@ -1032,6 +1032,30 @@ clearpage
 		\end{description}
 	\end{description}
 	% -- fine metodo -- %
+	
+% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}- switchSlides(pos1 : int, pos2 : int, lvl : int) : void			}] \hfill
+			permette lo spostamento di una slide da una posizione all'altra.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{pos1 : int		} \hfill
+					posizione di dove si trova la slide da spostare
+					\item \textbf{pos2 : int		} \hfill
+					posizione di dove va inserita la slide da spostare
+					\item \textbf{lvl : int		} \hfill
+					livello di trasparenza della slide da spostare
+					 
+					
+				\end{itemize}
+			
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
 	
 	% -- inizio metodo -- %
 	\begin{description}
@@ -1145,6 +1169,14 @@ clearpage
 	
 	% -- inizio metodo -- %
 	\begin{description}
+		\item[\textbf{\color{blue}+ goToFirst() : boolean			}] \hfill
+			Sposta la visualizzazione sulla prima slide del percorso
+			
+	\end{description}
+	% -- fine metodo -- %	
+	
+	% -- inizio metodo -- %
+	\begin{description}
 		\item[\textbf{\color{blue}+ isCurrentSlideChkPnt() : boolean			}] \hfill
 			Restituisce \textit{true} se la slide in cui l'utente si trova è un checkpoint, \textit{false} altrimenti
 			
@@ -1209,8 +1241,8 @@ clearpage
 	
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ insertSlideAfterCurrent(idSlide : String) : boolean			}] \hfill
-			Inserisce la slide ricevuta nella posizione successiva a quella attualmente selezionata. Restituisce \textit{true} se l'operazione ha avuto successo, \textit{false} altrimenti
+		\item[\textbf{\color{blue}+ getCheckId(idSlide : String) : String			}] \hfill
+			Restituisce l'id della posizione all'interno del percorso di specializzazione in cui si trova la slide data in input.  
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1227,10 +1259,9 @@ clearpage
 	\end{description}
 	% -- fine metodo -- %
 	
-	% -- inizio metodo -- %
-	\begin{description}
-		\item[\textbf{\color{blue}+ insertSlideAfterCurrent(idSlide : String) : boolean			}] \hfill
-			Inserisce la slide ricevuta nella posizione precedente a quella attualmente selezionata. Restituisce \textit{true} se l'operazione ha avuto successo, \textit{false} altrimenti
+		\begin{description}
+		\item[\textbf{\color{blue}+ getSpecPath(idSlide : String) : String			}] \hfill
+			Restituisce le slide precedenti che formano il percorso per arrivare alla slide data in input nel percorso di specializzazione  
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1246,11 +1277,12 @@ clearpage
 			
 	\end{description}
 	% -- fine metodo -- %
+		
 	
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ insertSlideAfterCurrent(idSlide : String) : boolean			}] \hfill
-			Inserisce la slide ricevuta nel percorso di specializzazione correlato alla slide attualmente selezionata. Se la slide non era un checkpoint viene impostata come tale. Restituisce \textit{true} se l'operazione ha avuto successo, \textit{false} altrimenti
+		\item[\textbf{\color{blue}+ insertSlideInPath(idSlide : String, idCheck : String) : trail			}] \hfill
+			Inserisce la slide ricevuta nella posizione successiva a quella attualmente selezionata. Restituisce un riferimento di trail
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1259,6 +1291,8 @@ clearpage
 				
 					\item \textbf{idSlide : String	} \hfill
 					È il codice identificativo della slide
+					\item \textbf{idCheck : String   } \hfill
+					Rappresenta il codice di dove deve essere inserita la slide nel percorso di specializzazione
 					
 				\end{itemize}
 			
@@ -1277,8 +1311,48 @@ clearpage
 	
 	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ removeCheckPoint() : void			}] \hfill
+		\item[\textbf{\color{blue}+ removeChkPoint() : void			}] \hfill
 			Toglie il percorso di specializzazione dalla slide attualmente selezionata, che non sarà più un checkpoint
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ switchDxSlide(idSlide : String) : trail			}] \hfill
+			sposta la slide di una posizione a destra del percorso di specializzazione. Restituisce un riferimento di trail
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idSlide : String	} \hfill
+					È il codice identificativo della slide
+					
+				\end{itemize}
+			
+		\end{description}
+			
+	\end{description}
+	% -- fine metodo -- %
+	
+		% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ switchSxSlide(idSlide : String) : trail			}] \hfill
+			sposta la slide di una posizione a sinistra del percorso di specializzazione. Restituisce un riferimento di trail.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idSlide : String	} \hfill
+					È il codice identificativo della slide
+					
+				\end{itemize}
+			
+		\end{description}
 			
 	\end{description}
 	% -- fine metodo -- %
