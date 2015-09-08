@@ -144,11 +144,11 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 					\item \textit{\_id:} rappresenta l'id che identifica l'oggetto;
 					\item \textit{dataX:} identifica la posizione orizzontale dell'asse x dell'oggetto;
 					\item \textit{dataY:} identifica la posizione verticale dell'asse y dell'oggetto;
-					\item \textit{dataZ:} identifica il grado di trasparenza dell'oggetto; %da chiedere%
+					\item \textit{dataZ:} identifica il grado di trasparenza dell'oggetto;
 					\item \textit{height:} identifica l'altezza dell'oggetto;
 					\item \textit{width:} identifica la larghezza dell'oggetto;
-					\item \textit{scale:} identifica la scala dell'oggetto; %da chiedere%
-					\item \textit{lvl:} identifica il livello dell'oggetto. %da chiedere%
+					\item \textit{scale:} identifica la scala dell'oggetto; 
+					\item \textit{lvl:} identifica il livello dell'oggetto. 
 				\end{itemize}
 			
 			Viene inizializzato dal metodo initByDefault e il seguente è l'oggetto JSON inizializzato con i valori di default:
@@ -565,14 +565,14 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 
 \begin{description}
 		\item[\textbf{\color{blue}+ selectGO(idGO) : Collection			}] \hfill
-			restituisce l'oggetto grafico con id = idGO contenuto all'interno del frame. 
+			seleziona l'oggetto presente nel frame che viene identificato tramite l'attributo idGO dato in input. Restituisce un riferimento di frame. 
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill
 				\begin{itemize}
 						\item \textbf{idGO : String			} \hfill
-					valore dell'id dell'oggetto grafico da restituire.  				
+							valore dell'id dell'oggetto grafico da selezionare.  				
 				\end{itemize}
 
 \end{description}
@@ -669,7 +669,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 
 \begin{description}
 		\item[\textbf{\color{blue}+ resizeGO(resize : Collection, idGO : String) : void			}] \hfill
-			aggiorna i campi dell'oggetto con un determinato id, per permettere il ridimensionamento dell'oggetto. Viene utilizzato il metodo \textit{update(idGO,type,update)} per appendere le operazioni di modifica nell'oggetto Saver.    
+			richiama su selectedGO, i metodi drag e resize appartenenti ad un oggetto GObject per effettuare il ridimensionamento dell'oggetto grafico selezionato. Viene utilizzato il metodo \textit{update(idGO,type,update)} per appendere le operazioni di modifica nell'oggetto Saver.    
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -687,7 +687,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 
 \begin{description}
 		\item[\textbf{\color{blue}+ dragGO(drag : Collection, idGO : String) : void			}] \hfill
-			aggiorna i campi dell'oggetto con un determinato id, per permettere lo spostamento dell'oggetto nel template grafico. Viene utilizzato il metodo \textit{update(idGO,type,update)} per appendere le operazioni di modifica nell'oggetto Saver.    
+		richiama su selectedGO, il metodo drag appartenente ad un oggetto GObject per effettuare lo spostamento dell'oggetto grafico selezionato. Viene utilizzato il metodo \textit{update(idGO,type,update)} per appendere le operazioni di modifica nell'oggetto Saver.    
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -912,7 +912,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 
 \begin{description}
 		\item[\textbf{\color{blue}+ selectGO(idGO) : GObject			}] \hfill
-			restituisce l'oggetto grafico con id = idGO contenuto all'interno del GOContainer. 
+			seleziona l'oggetto presente nel GOContainer che viene identificato tramite l'attributo idGO dato in input. Restituisce un riferimento di GOContainer 
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1031,7 +1031,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 
 \begin{description}
 		\item[\textbf{\color{blue}+ resizeGO(resize : Collection, idGO : String) : void			}] \hfill
-			aggiorna i campi dell'oggetto con un determinato id, per permettere il ridimensionamento dell'oggetto.    
+			richiama su selectedGO, i metodi resize e drag appartenenti ad un oggetto GObject per effettuare il resizing dell'oggetto selezionato. Viene utilizzato il metodo update(idGO,type,update) per appendere le operazioni di modifica nell'oggetto Saver che andrà ad aggiornare il database. 
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1049,7 +1049,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 
 \begin{description}
 		\item[\textbf{\color{blue}+ dragGO(drag : Collection, idGO : String) : void			}] \hfill
-			aggiorna i campi dell'oggetto con un determinato id, per permettere lo spostamento dell'oggetto nel template grafico.    
+			richiama su selectedGO, il metodo drag appartenente ad un oggetto GObject per effettuare lo spostamento dell'oggetto selezionato. Viene utilizzato il metodo update(idGO,type,update) per appendere le operazioni di modifica nell'oggetto Saver che andrà ad aggiornare il database.    
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1470,7 +1470,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 
 \begin{description}
 		\item[\textbf{\color{blue}+ resizeGO(resize : Collection, idGO : String) : void			}] \hfill
-			aggiorna i campi dell'oggetto con un determinato id, per permettere il ridimensionamento dell'oggetto. Viene utilizzato il metodo \textit{update(idGO,type,update)} di Saver per appendere un operazione di aggiornamento nell'oggetto saver.     
+			richiama il metodo della superclasse per aggiornare i campi di un determinato oggetto su cui effettuare il ridimensionamento nel template grafico. Viene utilizzato il metodo \textit{update(idGO,type,update)} di Saver per appendere un operazione di aggiornamento nell'oggetto saver.     
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1488,7 +1488,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 
 \begin{description}
 		\item[\textbf{\color{blue}+ dragGO(drag : Collection, idGO : String) : void			}] \hfill
-			aggiorna i campi dell'oggetto con un determinato id, per permettere lo spostamento dell'oggetto nel template grafico. Viene utilizzato il metodo \textit{update(idGO,type,update)} di Saver per appendere un operazione di aggiornamento nell'oggetto saver.     
+			richiama il metodo della superclasse per aggiornare i campi di un determinato oggetto su cui effettuare lo spostamento nel template grafico. Viene utilizzato il metodo \textit{update(idGO,type,update)} di Saver per appendere un operazione di aggiornamento nell'oggetto saver.     
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
