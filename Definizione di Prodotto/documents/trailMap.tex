@@ -51,14 +51,16 @@ con gli attributi di trailCollection
 			Matrice vuota, utilizzata come variabile d’appoggio per l’utilizzo del metodo
 di MTrail initPath per la sua inizializzazione
 		\item[\textbf{- selectedFrames : collection			}] \hfill			
-			contiene gli oggetti JSON dei frames che sono stati selezionati nella vista trailMap.ng %da chiarire
+			contiene gli oggetti JSON dei frames che sono stati selezionati nella vista trailMap.ng
 		\item[\textbf{+ showInSide : boolean			}] \hfill			
 			Indica se la barra di destra dell’editor dev’essere visualizzata (true) o meno
 (false)
 		\item[\textbf{+ selectedFrameOut : collection			}] \hfill			
 			contiene gli oggetti JSON dei frames che sono stati selezionati nella vista trailMap.ng nella sezione Frames Out
 		\item[\textbf{+ removingChkPnt : boolean			}] \hfill			
-			se settata a true consente a removeChk di togliere un checkpoint, se settata a false l'operazione viene annullata			
+			se settata a true consente a removeChk di togliere un checkpoint, se settata a false l'operazione viene annullata	
+		\item[\textbf{+ selectedLvls : array			}] \hfill			
+			contiene i riferimenti dei Frame che sono checkpoint	
 	\end{description}
 	
 	
@@ -190,10 +192,10 @@ di MTrail initPath per la sua inizializzazione
 	\end{description}
 	% -- fine metodo -- %				
 	
-		% -- inizio metodo -- %
+	% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ selectFrame(idFrame : String) : void			}] \hfill
-			se l'id fa parte dei frame selezionati seleziona il frame mettendo a true il frame con id = idFrame.
+		\item[\textbf{\color{blue}+ selectFrameOut(idFrame : String) : void			}] \hfill
+			viene aggiunto alla sezione Frame Out della vista associata il frame con l'id dato in input
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
@@ -201,7 +203,43 @@ di MTrail initPath per la sua inizializzazione
 				\begin{itemize}
 				
 					\item \textbf{idFrame : String			} \hfill
-						identifica l'id del frame da selezionare
+						identifica l'id del frame da inserire
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ isSelectedOut(idFrame : String) : boolean			}] \hfill
+			restituisce true se il frame appartiene alla sezione Frame Out, false viceversa
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String			} \hfill
+						identifica l'id del frame da controllare
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ selectFrameIn(idFrame : String) : void			}] \hfill
+			viene aggiunto alla sezione Frame In della vista associata il frame con l'id dato in input
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idFrame : String			} \hfill
+						identifica l'id del frame da inserire
 					
 				\end{itemize}
 		\end{description}
@@ -210,21 +248,41 @@ di MTrail initPath per la sua inizializzazione
 	
 		% -- inizio metodo -- %
 	\begin{description}
-		\item[\textbf{\color{blue}+ isSelected(idFrame : String) : boolean			}] \hfill
-			se il frame con id = idFrame è selezionato restituisce true altrimenti false
+		\item[\textbf{\color{blue}+ openLvl(idCheck : String) : void			}] \hfill
+			apre un checkpoint su un determinato frame per formare un nuovo percorso di specializzazione
 			
 		\begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill
 				\begin{itemize}
 				
-					\item \textbf{idFrame : collection			} \hfill
-						identifica il frame per cui fare il controllo
+					\item \textbf{idCheck : String			} \hfill
+						identifica l'id del frame da inserire come checkpoint
 					
 				\end{itemize}
 		\end{description}
 	\end{description}
 	% -- fine metodo -- %
+	
+			% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ isOpenLvl(idCheck : String) : void			}] \hfill
+			controlla se su un determinato c'è un percorso di specializzazione
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{idCheck : String			} \hfill
+						identifica l'id del frame da controllare
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
+	
+		
 	
 		% -- inizio metodo -- %
 	\begin{description}
