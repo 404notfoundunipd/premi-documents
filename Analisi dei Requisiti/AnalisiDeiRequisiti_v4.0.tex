@@ -1,19 +1,18 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage{../style}
-\usepackage{url}
-
+\usepackage{longtable}
+\usepackage{float}
 
 \newcommand{\docs}{documents/}
 % Dati inerenti al documento corrente %
 % Da sostituire con i valori corretti %
-\newcommand{\titDoc}{Specifica Tecnica}
-\newcommand{\dataCreazione}{25 febbraio 2015}
-\newcommand{\versione}{2.0}
+\newcommand{\titDoc}{Analisi dei requisiti}
+\newcommand{\dataCreazione}{26 dicembre 2014}
+\newcommand{\versione}{4.0}
 
 % Dati di rilascio del documento corrente %
 \newcommand{\stato}{Formale}
 \newcommand{\uso}{Esterno}
-\newcommand{\code}[1]{\path{#1}}
 
 \lfoot{
 	\titDoc \\
@@ -32,18 +31,11 @@
 \listoffigures
 
 \newpage
-
 \input{\docs intro.tex}
-\input{\docs descr_tecnologie.tex}
-\input{\docs defin_prodotto.tex}
-\input{\docs descr_componenti.tex}
-\input{\docs attivita.tex}
-\input{\docs stime_fattibilita.tex}
-\input{\docs tracciam_requisiti.tex}
-\input{\docs tracciam_componenti.tex}
-\input{\docs design_pattern.tex}
-
-% ecc.......
+\input{\docs descrizione.tex}
+\input{\docs casi_uso.tex}
+\input{\docs requisiti.tex}
+\input{\docs requisiti_imp.tex}
 \newpage
 \bibliography{../bibliography}
 

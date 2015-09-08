@@ -2,7 +2,7 @@
 \subsection{premi/client/editor}
 \begin{figure}[H]
 \begin{center}
-\includegraphics[scale=0.70]{img/diapkg/editor.png}
+\includegraphics[scale=0.50]{img/diapkg/editor.png}
 \caption{Diagramma della classe premi/client/editor}
 \end{center}
 \end{figure}
@@ -14,6 +14,29 @@
 %-------  descrizione del template%
 \item[Descrizione] \hfill
 	Template della vista associata allo \textit{\$scope} di \textit{editorCtrl}. Fornisce uno scheletro per le altre viste dedicate alla gestione dell'editor. 
+\end{description}
+
+%-------  diagramma di un template %
+\subsubsection{premi/client/editor/views/basicToolbar.ng}
+
+\begin{description}
+%-------  descrizione del template%
+\item[Descrizione] \hfill
+	Template della vista associata allo \textit{\$scope} di \textit{basicToolbar}. Fornisce il menù per:
+	\begin{itemize}
+	\item accedere al frameEditor;
+	\item accedere all'infographicEditor;
+	\item accedere al trail Editor.
+	\end{itemize}
+\end{description}
+
+%-------  diagramma di un template %
+\subsubsection{premi/client/editor/views/shapeMenu.ng}
+
+\begin{description}
+%-------  descrizione del template%
+\item[Descrizione] \hfill
+	Template della vista associata allo \textit{\$scope} di \textit{editorCtrl}. Fornisce la lista contenente gli shape disponibili che possono essere inseriti in un frame.
 \end{description}
 
 
@@ -29,6 +52,73 @@
 %-------  descrizione della classe%
 \item[Descrizione] \hfill
 	Questo controller non è al momento provvisto di funzionalità. Si appoggia alla vista associata \textit{editor.ng}, la quale funge da scheletro per le viste necessarie alla gestione dei vari editor a disposizione dell'utente. 
+\end{description}
+
+%-------  diagramma della classe%
+\subsubsection{premi/client/editor/controllers/basicToolbarCtrl}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=0.85]{img/diacla/basicToolbarCtrl.png}
+\caption{Diagramma della classe premi/editor/controllers/basicToolbarCtrl}
+\end{center}
+\end{figure}
+
+
+\begin{description}
+%-------  descrizione della classe%
+\item[Descrizione] \hfill
+	Controller della view \textit{basicToolbar.ng}. Fornisce, tramite lo \textit{\$scope} un metodo per passaggio da un editor all'altro
+	\\ La dicitura \{\$scope\} nel diagramma UML$_G$ indica che:
+\begin{itemize}
+\item tutti gli attributi e i metodi pubblici del controller vanno inseriti nello \$scope;
+\item tutti gli attributi e i metodi privati del controller appartengono al controller.
+\end{itemize}
+Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
+	
+%-------  lista dei metodi%	
+\item[Metodi] \hfill
+
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ goToState(state : String) : void			}] \hfill
+			Tramite il metodo \textit{\$state.go} cambia "stato" dell'editor, passando da una fase di creazione della presentazione all'altra.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{state : String			} \hfill
+					Il nuovo stato dell'editor. Gli stati dell'editor al momento sono:
+					\begin{itemize}
+						\item "premi.editor.frame"
+						\item "premi.editor.infographic"
+						\item "premi.editor.trails"
+					\end{itemize}
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ activeStateClass(state : String) : String			}] \hfill
+			Verifica se un determinato stato è attivo. Restituisce "active" nel caso lo stato sia attivo altrimenti restituisce una stringa vuota.
+			
+		\begin{description}
+			% -- lista argomenti del metodo -- %
+			\item[Argomenti] \hfill
+				\begin{itemize}
+				
+					\item \textbf{state : String			} \hfill
+					identifica il nome dello stato da controllare.
+					
+				\end{itemize}
+		\end{description}
+	\end{description}
+	% -- fine metodo -- %	
+		
 \end{description}
 
 
@@ -54,11 +144,11 @@
 					\item \textit{\_id:} rappresenta l'id che identifica l'oggetto;
 					\item \textit{dataX:} identifica la posizione orizzontale dell'asse x dell'oggetto;
 					\item \textit{dataY:} identifica la posizione verticale dell'asse y dell'oggetto;
-					\item \textit{dataZ:} identifica il grado di trasparenza dell'oggetto; %da chiedere%
+					\item \textit{dataZ:} identifica il grado di trasparenza dell'oggetto;
 					\item \textit{height:} identifica l'altezza dell'oggetto;
 					\item \textit{width:} identifica la larghezza dell'oggetto;
-					\item \textit{scale:} identifica la scala dell'oggetto; %da chiedere%
-					\item \textit{lvl:} identifica il livello dell'oggetto. %da chiedere%
+					\item \textit{scale:} identifica la scala dell'oggetto; 
+					\item \textit{lvl:} identifica il livello dell'oggetto. 
 				\end{itemize}
 			
 			Viene inizializzato dal metodo initByDefault e il seguente è l'oggetto JSON inizializzato con i valori di default:
@@ -475,14 +565,14 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ selectGO(idGO) : Collection			}] \hfill
-			restituisce l'oggetto grafico con id = idGO contenuto all'interno del frame. 
+			seleziona l'oggetto presente nel frame che viene identificato tramite l'attributo idGO dato in input. Restituisce un riferimento di frame. 
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
 			\item[Argomenti] \hfill
 				\begin{itemize}
 						\item \textbf{idGO : String			} \hfill
-					valore dell'id dell'oggetto grafico da restituire.  				
+							valore dell'id dell'oggetto grafico da selezionare.  				
 				\end{itemize}
 
 \end{description}
@@ -579,7 +669,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ resizeGO(resize : Collection, idGO : String) : void			}] \hfill
-			aggiorna i campi dell'oggetto con un determinato id, per permettere il ridimensionamento dell'oggetto. Viene utilizzato il metodo \textit{update(idGO,type,update)} per appendere le operazioni di modifica nell'oggetto Saver.    
+			richiama su selectedGO, i metodi drag e resize appartenenti ad un oggetto GObject per effettuare il ridimensionamento dell'oggetto grafico selezionato. Viene utilizzato il metodo \textit{update(idGO,type,update)} per appendere le operazioni di modifica nell'oggetto Saver.    
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -597,7 +687,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ dragGO(drag : Collection, idGO : String) : void			}] \hfill
-			aggiorna i campi dell'oggetto con un determinato id, per permettere lo spostamento dell'oggetto nel template grafico. Viene utilizzato il metodo \textit{update(idGO,type,update)} per appendere le operazioni di modifica nell'oggetto Saver.    
+		richiama su selectedGO, il metodo drag appartenente ad un oggetto GObject per effettuare lo spostamento dell'oggetto grafico selezionato. Viene utilizzato il metodo \textit{update(idGO,type,update)} per appendere le operazioni di modifica nell'oggetto Saver.    
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -822,7 +912,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ selectGO(idGO) : GObject			}] \hfill
-			restituisce l'oggetto grafico con id = idGO contenuto all'interno del GOContainer. 
+			seleziona l'oggetto presente nel GOContainer che viene identificato tramite l'attributo idGO dato in input. Restituisce un riferimento di GOContainer 
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -941,7 +1031,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ resizeGO(resize : Collection, idGO : String) : void			}] \hfill
-			aggiorna i campi dell'oggetto con un determinato id, per permettere il ridimensionamento dell'oggetto.    
+			richiama su selectedGO, i metodi resize e drag appartenenti ad un oggetto GObject per effettuare il resizing dell'oggetto selezionato. Viene utilizzato il metodo update(idGO,type,update) per appendere le operazioni di modifica nell'oggetto Saver che andrà ad aggiornare il database. 
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -959,7 +1049,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ dragGO(drag : Collection, idGO : String) : void			}] \hfill
-			aggiorna i campi dell'oggetto con un determinato id, per permettere lo spostamento dell'oggetto nel template grafico.    
+			richiama su selectedGO, il metodo drag appartenente ad un oggetto GObject per effettuare lo spostamento dell'oggetto selezionato. Viene utilizzato il metodo update(idGO,type,update) per appendere le operazioni di modifica nell'oggetto Saver che andrà ad aggiornare il database.    
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1380,7 +1470,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ resizeGO(resize : Collection, idGO : String) : void			}] \hfill
-			aggiorna i campi dell'oggetto con un determinato id, per permettere il ridimensionamento dell'oggetto. Viene utilizzato il metodo \textit{update(idGO,type,update)} di Saver per appendere un operazione di aggiornamento nell'oggetto saver.     
+			richiama il metodo della superclasse per aggiornare i campi di un determinato oggetto su cui effettuare il ridimensionamento nel template grafico. Viene utilizzato il metodo \textit{update(idGO,type,update)} di Saver per appendere un operazione di aggiornamento nell'oggetto saver.     
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -1398,7 +1488,7 @@
 
 \begin{description}
 		\item[\textbf{\color{blue}+ dragGO(drag : Collection, idGO : String) : void			}] \hfill
-			aggiorna i campi dell'oggetto con un determinato id, per permettere lo spostamento dell'oggetto nel template grafico. Viene utilizzato il metodo \textit{update(idGO,type,update)} di Saver per appendere un operazione di aggiornamento nell'oggetto saver.     
+			richiama il metodo della superclasse per aggiornare i campi di un determinato oggetto su cui effettuare lo spostamento nel template grafico. Viene utilizzato il metodo \textit{update(idGO,type,update)} di Saver per appendere un operazione di aggiornamento nell'oggetto saver.     
 
 \begin{description}
 			% -- lista argomenti del metodo -- %
@@ -2234,6 +2324,24 @@ Il seguente è l'oggetto JSON inizializzato con i valori di default:
 
 
 
+\end{description}
+
+%-------  diagramma di un template %
+\subsubsection{premi/client/editor/lib/basicToolbarDirective}
+
+\begin{description}
+%-------  descrizione del template%
+\item[Descrizione] \hfill
+	direttiva che include la vista \textit{basicToolbar.ng} e il controller \textit{basicToolbarCtrl} e permette con il tag html$_G$ \textit{basic-toolbar} di settare la visualizzazione a true o false della toolbar dell'editor
+\end{description}
+
+%-------  diagramma di un template %
+\subsubsection{premi/client/editor/lib/shapeMenuDirective}
+
+\begin{description}
+%-------  descrizione del template%
+\item[Descrizione] \hfill
+	direttiva che include la vista \textit{shapeMenu.ng} e permette con il tag html$_G$ \textit{shape-menu} di visualizzare il menu di scelta di un oggetto shape. Per visualizzare gli shape, si appoggia alla funzione shapeFilesystemMapFactory che ritorna la lista degli shape disponibili
 \end{description}
 
 

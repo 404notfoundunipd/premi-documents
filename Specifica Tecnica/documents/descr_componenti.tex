@@ -1,7 +1,7 @@
-section{Descrizione dei singoli componenti}
+\section{Descrizione dei singoli componenti}
 
 \subsection{premi/server}
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.45]{img/diapkg/server.png}
 \caption{Diagramma del package premi/server}
@@ -13,7 +13,7 @@ section{Descrizione dei singoli componenti}
   \item[] \textbf{Nome:} publish
   \item[] \textbf{Tipo:} class
   \item[] \textbf{Package:} premi/server
-  \item[] \textbf{Descrizione:} questa classe pubblica all'utente solo ed esclusivamente le informazioni a cui lui ha accesso
+  \item[] \textbf{Descrizione:} questa classe pubblica all'utente solo ed esclusivamente le informazioni a cui lui ha accesso e di cui ha bisogno nel contesto in cui si trova. \\ Utilizza funzionalità fornite dai framework MeteorJS$_G$ e AngularJS$_G$ che sfruttano il design pattern Publish-Subscribe$_G$ (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
 \end{itemize}
 
 
@@ -22,7 +22,7 @@ section{Descrizione dei singoli componenti}
   \item[] \textbf{Nome:} server
   \item[] \textbf{Tipo:} class
   \item[] \textbf{Package:} premi/server
-  \item[] \textbf{Descrizione:} questa classe fornisce al lato client dell'applicazione dei metodi per l'inserimento, l'aggiornamento e la rimozione dei dati del database
+  \item[] \textbf{Descrizione:} questa classe fornisce al lato client dell'applicazione dei metodi per l'inserimento, l'aggiornamento e la rimozione dei dati del database, che verranno resi disponibili tramite speciali oggetti del framework$_G$ MeteorJS$_G$.
 \end{itemize}
 
 
@@ -30,54 +30,19 @@ section{Descrizione dei singoli componenti}
 
 
 \subsection{premi/client}
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.45]{img/diapkg/client.png}
 \caption{Diagramma dei package views e controllers di premi}
 \end{center}
 \end{figure}
 
-
-\subsubsection{premi/client/views/home.ng}
-\begin{itemize}
-  \item[] \textbf{Nome:} home.ng
-  \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} premi/client/views
-  \item[] \textbf{Descrizione:} template della pagina principale dell'applicazione
-\end{itemize}
-
-
-\subsubsection{premi/client/views/container.ng}
-\begin{itemize}
-  \item[] \textbf{Nome:} container.ng
-  \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} premi/client/views
-  \item[] \textbf{Descrizione:} template "contenitore" di supporto ad altre viste
-\end{itemize}
-  
-  
-\subsubsection{premi/client/views/fluidContainer.ng}
-\begin{itemize}
-  \item[] \textbf{Nome:} fluidContainer.ng
-  \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} premi/client/views
-  \item[] \textbf{Descrizione:} template "contenitore" di supporto ad altre viste
-\end{itemize}
-
-\subsubsection{premi/client/views/header.ng}
-\begin{itemize}
-  \item[] \textbf{Nome:} header.ng
-  \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} premi/client/views
-  \item[] \textbf{Descrizione:} template dell'header della pagina principale dell'applicazione
-\end{itemize}
-
 \subsubsection{premi/client/controllers/premi}
 \begin{itemize}
   \item[] \textbf{Nome:} premi
   \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} premi/client/controllers
-  \item[] \textbf{Descrizione:} controller generale della pagina principale dell'applicazione
+  \item[] \textbf{Descrizione:} controller generale della pagina principale, che funge da appoggio per gli altri controller dell'applicazione
 \end{itemize}
 
 \subsubsection{premi/client/lib/toastMessageFactory}
@@ -85,11 +50,15 @@ section{Descrizione dei singoli componenti}
   \item[] \textbf{Nome:} toastMessageFactory
   \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/lib
-  \item[] \textbf{Descrizione:} fornisce una semplice funzione per l'invio di notifiche o messaggi di errore all'utente
+  \item[] \textbf{Descrizione:} permette l'invio di notifiche o messaggi d'errore all'utente
 \end{itemize}
 
+
+
+
+
 \subsection{premi/client/userManager}
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{center}
 \includegraphics[scale=0.45]{img/diapkg/userManager.png}
 \caption{Diagramma del package premi/client/userManager}
@@ -123,7 +92,7 @@ section{Descrizione dei singoli componenti}
   \item[] \textbf{Relazioni con altri componenti:} la view generata da questo template è collegata allo \textit{\$scope} di premi/client/userManager/controllers/changePasswordCtrl per effettuare il cambio password.
 \end{itemize}
 
-\subsubsection{premi/client/userManager/views/user.ng}
+\subsubsection{premi/client/userManager/views/userManager.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} user.ng
   \item[] \textbf{Tipo:} template
@@ -161,13 +130,16 @@ section{Descrizione dei singoli componenti}
   \item[] \textbf{Descrizione:} permette ad un utente loggato di effettuare il logout.
 \end{itemize}
 
-\subsubsection{premi/client/userManager/controllers/userManagerCtrl}
+\subsubsection{premi/client/userManager/controllers/changePasswordCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} userManagerCtrl
   \item[] \textbf{Tipo:} controller
   \item[] \textbf{Package:} premi/client/userManager/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/userManager/views/user.ng
-  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/userManager/views/user.ng
+  \item[] \textbf{Descrizione:} controller di premi/client/userManager/views/changePassword.ng
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/userManager/views/changePassword.ng e dipende da:
+  \begin{itemize}
+   \item \textit{premi/client/lib/toastMessageFactory} per la gestione delle notifiche all'utente.
+  \end{itemize}
 \end{itemize}
 
 \subsection{premi/client/presentation}
@@ -182,7 +154,7 @@ section{Descrizione dei singoli componenti}
 \subsubsection{premi/client/presentation/lib/databaseAPI}
 \begin{itemize}
   \item[] \textbf{Nome:} databaseAPI
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/presentation/lib/
   \item[] \textbf{Descrizione:} estende i metodi di premi/server/publish e li specializza per i bisogni del client
    \item[] \textbf{Relazioni con altri componenti:} dipende da:
@@ -192,20 +164,36 @@ section{Descrizione dei singoli componenti}
 \end{itemize}
 
 
-\subsubsection{premi/client/presentation/lib/OrderedGOList}
+\subsubsection{premi/client/presentation/lib/OrderedGoList}
 \begin{itemize}
   \item[] \textbf{Nome:} OrderedGoList
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/presentation/lib/
-  \item[] \textbf{Descrizione:} classe che modella una lista ordinata di oggetti grafici
+  \item[] \textbf{Descrizione:} classe che modella una lista ordinata di oggetti grafici. Verrà inserita in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
 \end{itemize}
   
 \subsubsection{premi/client/presentation/lib/Trail}
 \begin{itemize}
   \item[] \textbf{Nome:} Trail
-  \item[] \textbf{Tipo:} class
+  \item[] \textbf{Tipo:} classe
   \item[] \textbf{Package:} premi/client/presentation/lib/
-  \item[] \textbf{Descrizione:} classe che modella un Trail, ossia un percorso di presentazione. Deve poter fornire i metodi per scorrere la presentazione e inserire o rimuovere Frame e checkpoint
+  \item[] \textbf{Descrizione:} classe che modella un Trail, ossia un percorso di presentazione. Deve poter fornire i metodi per scorrere la presentazione e inserire o rimuovere Frame e checkpoint. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
+\end{itemize}
+
+\subsubsection{premi/client/presentation/lib/signalCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} signalCtrl
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/presentation/lib/
+  \item[] \textbf{Descrizione:} classe ha lo scopo di registrare i signal quando un certo slot viene creato in modo tale che facendo un controllo sul relativo controller si eviti di aggiungerne in più.
+\end{itemize}
+
+\subsubsection{premi/client/presentation/lib/filter}
+\begin{itemize}
+  \item[] \textbf{Nome:} filter
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/presentation/lib/
+  \item[] \textbf{Descrizione:} filter di angular che permette di ordinare gli elementi all'interno di un oggetto JSON. 
 \end{itemize}
 
 
@@ -321,325 +309,359 @@ section{Descrizione dei singoli componenti}
 
 
 \clearpage
-\subsection{Premi/client/editor}
+\subsection{premi/client/editor}
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[scale=0.45]{img/diapkg/editor.png}
+\includegraphics[scale=0.50]{img/diapkg/editor.png}
 \caption{Diagramma del package premi/client/editor}
 \end{center}
 \end{figure}
-\subsubsection{Premi/client/editor/lib/GObject}
+\subsubsection{premi/client/editor/lib/GObject}
 \begin{itemize}
   \item[] \textbf{Nome:} GObject
   \item[] \textbf{Tipo:} \textit{abstract class}
-  \item[] \textbf{Package:} Premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici nella presentazione
+  \item[] \textbf{Package:} premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici nella presentazione. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
 \end{itemize}
-\subsubsection{Premi/client/editor/lib/Observer}
+\subsubsection{premi/client/editor/lib/Observer}
 \begin{itemize}
-  \item[] \textbf{Nome:} GObject
-  \item[] \textbf{Tipo:} class
-  \item[] \textbf{Package:} Premi/client/editor/lib
+  \item[] \textbf{Nome:} Observer
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/editor/lib
   \item[] \textbf{Descrizione:} si occupa di osservare degli oggetti grafici impostando e inviando dei segnali.
 \end{itemize}
-\subsubsection{Premi/client/editor/lib/InteractInit}
+\subsubsection{premi/client/editor/lib/InteractInit}
 \begin{itemize}
-  \item[] \textbf{Nome:} GObject
-  \item[] \textbf{Tipo:} class
-  \item[] \textbf{Package:} Premi/client/editor/lib
-  \item[] \textbf{Descrizione:} classe che contiene i metodi per la gestione del ridimensionamento e dello spostamento degli oggetti.
-  \item[] \textbf{Relazioni con altri componenti:} GOProvider dipende da:
+  \item[] \textbf{Nome:} InteractInit
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/editor/lib
+  \item[] \textbf{Descrizione:} classe che inizializza la libreria esterna Interact e la prepara per il ridimensionamento e lo spostamento di oggetti grafici.
+  \item[] \textbf{Relazioni con altri componenti:} InteractInit dipende da:
   \begin{itemize}
-  	\item \textit{Premi/client/editor/lib/Observer} per osservare gli oggetti grafici;
+  	\item \textit{premi/client/editor/lib/Observer} per osservare gli oggetti grafici;
+  	\item \textit{Interact} libreria esterna che facilita il ridimensionamento e lo spostamento di oggetti grafici
   \end{itemize}
 \end{itemize}
-\subsubsection{Premi/client/editor/lib/GOProvider}
+\subsubsection{premi/client/editor/lib/GOProvider}
 \begin{itemize}
-  \item[] \textbf{Nome:} GOProvider;
-  \item[] \textbf{Tipo:} class;
-  \item[] \textbf{Package:} Premi/client/editor/lib;
-  \item[] \textbf{Descrizione:} permette di interfacciarsi con gli oggetti image, text, shape accedendo ai loro metodi pubblici;
+  \item[] \textbf{Nome:} GOProvider
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/editor/lib
+  \item[] \textbf{Descrizione:} permette di interfacciarsi con gli oggetti image, text, shape accedendo ai loro metodi pubblici. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
   \item[] \textbf{Relazioni con altri componenti:} GOProvider dipende da:
   \begin{itemize}
-  	\item \textit{Premi/client/editor/lib/text} per accedere ai metodi di text;
-  	\item \textit{Premi/client/editor/lib/image} per accedere ai metodi di image;
-  	\item \textit{Premi/client/editor/lib/shape} per accedere ai metodi di shape.
+  	\item \textit{premi/client/editor/lib/Text} per accedere ai metodi di text;
+  	\item \textit{premi/client/editor/lib/Image} per accedere ai metodi di image;
+  	\item \textit{premi/client/editor/lib/Shape} per accedere ai metodi di shape.
   \end{itemize}
 \end{itemize}
-\subsubsection{Premi/client/editor/lib/GOContainer}
+\subsubsection{premi/client/editor/lib/GOContainer}
 \begin{itemize}
-  \item[] \textbf{Nome:} GOContainer;
-  \item[] \textbf{Tipo:} \textit{abstract class};
-  \item[] \textbf{Package:} Premi/client/editor/lib;
-  \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici che possono essere contenuti in un frame; 
-  \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gObject} e dipende anche da:
+  \item[] \textbf{Nome:} GOContainer
+  \item[] \textbf{Tipo:} \textit{abstract class}
+  \item[] \textbf{Package:} premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta gli oggetti grafici che possono essere contenuti in un frame. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
+  \item[] \textbf{Relazioni con altri componenti:} estende \textit{premi/client/editor/GObject} e dipende anche da:
   \begin{itemize} 
-	\item \textit{Premi/client/editor/lib/GOProvider} per accedere ai metodi pubblici degli oggetti image, text e shape.
+	\item \textit{premi/client/editor/lib/GOProvider} per accedere ai metodi pubblici degli oggetti image, text e shape.
 \end{itemize}  
 \end{itemize}
-\subsubsection{Premi/client/editor/lib/text}
+\subsubsection{premi/client/editor/lib/Text}
 \begin{itemize}
-  \item[] \textbf{Nome:} text
-  \item[] \textbf{Tipo:} class
-  \item[] \textbf{Package:} Premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta un'area di testo nella presentazione
-  \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gObject}
+  \item[] \textbf{Nome:} Text
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta un'area di testo nella presentazione. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
+  \item[] \textbf{Relazioni con altri componenti:} estende \textit{premi/client/editor/GObject}
 \end{itemize}
-\subsubsection{Premi/client/editor/lib/image}
+\subsubsection{premi/client/editor/lib/Image}
 \begin{itemize}
-  \item[] \textbf{Nome:} image
-  \item[] \textbf{Tipo:} class
-  \item[] \textbf{Package:} Premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta un'immagine nella presentazione
-  \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gObject}
+  \item[] \textbf{Nome:} Image
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta un'immagine nella presentazione. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
+  \item[] \textbf{Relazioni con altri componenti:} estende \textit{premi/client/editor/GObject}
 \end{itemize}
-\subsubsection{Premi/client/editor/lib/shape}
+\subsubsection{premi/client/editor/lib/Shape}
 \begin{itemize}
-  \item[] \textbf{Nome:} shape
-  \item[] \textbf{Tipo:} class
-  \item[] \textbf{Package:} Premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta una figura nella presentazione. Uno shape può avere forme diverse come un quadrato, un cerchio, una freccia. Può diventare un elemento di abbellimento o di aumento dell' informazione che si vuole rappresentare. 
-  \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gObject}
+  \item[] \textbf{Nome:} Shape
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta una figura nella presentazione. Uno shape può avere forme diverse come un quadrato, un cerchio, una freccia. Può diventare un elemento di abbellimento o di aumento dell' informazione che si vuole rappresentare. . Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
+  \item[] \textbf{Relazioni con altri componenti:} estende \textit{premi/client/editor/GObject}
 \end{itemize}
-\subsubsection{Premi/client/editor/lib/frame}
+\subsubsection{premi/client/editor/lib/Frame}
 \begin{itemize}
-  \item[] \textbf{Nome:} frame
-  \item[] \textbf{Tipo:} class
-  \item[] \textbf{Package:} Premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta un frame$_G$ nella presentazione
-  \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gObject} e contiene un insieme di oggetti \code{Premi/client/editor/gObject}. Nonostante la classe frame$_G$ estenda gObject, un frame$_G$ non può contenere altri frame$_G$. Tuttavia si è scelto di lasciare che un frame$_G$ possa contenere tutti gli gObject perchè si prevede in futuro che un frame$_G$ potrà contenere altri frame$_G$. Dipende anche da: 
+  \item[] \textbf{Nome:} Frame
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta un frame$_G$ nella presentazione. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
+  \item[] \textbf{Relazioni con altri componenti:} estende \code{premi/client/editor/GObject} e contiene un insieme di oggetti \code{premi/client/editor/GObject} che rappresentano il testo, le immagini e gli shape di una slide. Nonostante la classe frame$_G$ estenda GObject, un frame$_G$ non può contenere altri frame$_G$. Tuttavia si è scelto di lasciare che un frame$_G$ possa contenere ogni tipo derivato da GObject per l'eventualità futura di dare nuove funzionalità alla classe. Dipende anche da: 
 \begin{itemize} 
-	\item \textit{Premi/client/editor/lib/image} per interagire con gli oggetti di tipo image;
-	\item \textit{Premi/client/editor/lib/text} per interagire con gli oggetti di tipo testo;
-	\item \textit{Premi/client/editor/lib/shape} per interagire con gli oggetti di tipo shape;
-	\item \textit{Premi/client/editor/lib/saver} per interagire con il database e salvare e modificare gli oggetti di un frame;
+	\item \textit{premi/client/editor/lib/Image} per interagire con gli oggetti di tipo image;
+	\item \textit{premi/client/editor/lib/Text} per interagire con gli oggetti di tipo testo;
+	\item \textit{premi/client/editor/lib/Shape} per interagire con gli oggetti di tipo shape;
+	\item \textit{premi/client/editor/lib/Saver} per interagire con il database e salvare e modificare gli oggetti di un frame;
 \end{itemize}  
 \end{itemize}
-\subsubsection{Premi/client/editor/lib/infographic}
+\subsubsection{premi/client/editor/lib/Infographic}
 \begin{itemize}
-  \item[] \textbf{Nome:} infographic
-  \item[] \textbf{Tipo:} class
-  \item[] \textbf{Package:} Premi/client/editor/lib
-  \item[] \textbf{Descrizione:} rappresenta l'infografica di una presentazione
-  \item[] \textbf{Relazioni con altri componenti:} estende \code{Premi/client/editor/gOContainer} e dipende da:
+  \item[] \textbf{Nome:} Infographic
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/editor/lib
+  \item[] \textbf{Descrizione:} rappresenta l'infografica di una presentazione. Verrà inserito in un servizio factory$_G$ di AngularJS$_G$ che genererà istanze della classe quando esse saranno richieste attraverso il pattern Dependency Injection (vedere la sezione \ref{DesignPattern} per ulteriori informazioni)
+  \item[] \textbf{Relazioni con altri componenti:} estende \code{premi/client/editor/gOContainer} e dipende da:
 \begin{itemize} 
-	\item \textit{Premi/client/editor/lib/frame} per interagire con gli oggetti di tipo frame;
-	\item \textit{Premi/client/editor/lib/saver} per interagire con il database, salvare e modificare gli oggetti dell'infografica;
+	\item \textit{premi/client/editor/lib/frame} per interagire con gli oggetti di tipo frame;
+	\item \textit{premi/client/editor/lib/saver} per interagire con il database, salvare e modificare gli oggetti dell'infografica;
 \end{itemize}  
 \end{itemize}
-\subsubsection{Premi/client/editor/lib/saver}
+\subsubsection{premi/client/editor/lib/Saver}
 \begin{itemize}
-  \item[] \textbf{Nome:} saver
-  \item[] \textbf{Tipo:} class
-  \item[] \textbf{Package:} Premi/client/editor/lib
+  \item[] \textbf{Nome:} Saver
+  \item[] \textbf{Tipo:} classe
+  \item[] \textbf{Package:} premi/client/editor/lib
   \item[] \textbf{Descrizione:} classe che permette di effettuare le modifiche degli oggetti sul database
   \item[] \textbf{Relazioni con altri componenti:} Dipende da:
 \begin{itemize} 
-	\item \textit{Premi/client/editor/lib/saver} per interagire con il database.
+	\item \textit{premi/client/presentation/lib/databaseAPI} per interagire con il database.
 \end{itemize}  
+\end{itemize}
+\subsubsection{premi/client/editor/views/editor.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} editor.ng
+  \item[] \textbf{Tipo:} template
+  \item[] \textbf{Package:} premi/client/editor/views
+  \item[] \textbf{Descrizione:} Template che fornisce uno scheletro per le altre viste dedicate alla gestione dell'editor.
+\end{itemize}
+\subsubsection{premi/client/editor/views/basicToolbar.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} basicToolbar.ng
+  \item[] \textbf{Tipo:} template
+  \item[] \textbf{Package:} premi/client/editor/views
+  \item[] \textbf{Descrizione:} template della parte di pagina che mostra la toolbar che contiene il menù per spostarsi da un editor all'altro.
+\end{itemize}
+\subsubsection{premi/client/editor/controllers/editorCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} editorCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/editor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/editor/views/editor.ng.
+\end{itemize}
+\subsubsection{premi/client/editor/controllers/basicToolbarCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} basicToolbarCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/editor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/editor/views/basicToolbar.ng.
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/editor/views/basicToolbarCtrl.ng
 \end{itemize}
 
 
-\subsection{Premi/client/frameEditor}
+\subsection{premi/client/frameEditor}
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[scale=0.45]{img/diapkg/frameEditor.png}
 \caption{Diagramma del package premi/client/frameEditor}
 \end{center}
 \end{figure}
-\subsubsection{Premi/client/frameEditor/views/frame.ng}
+\subsubsection{premi/client/frameEditor/views/frame.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} frame.ng
   \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} Premi/client/frameEditor/views
+  \item[] \textbf{Package:} premi/client/frameEditor/views
   \item[] \textbf{Descrizione:} template della parte di pagina che permette la modifica dei Frame$_G$ e degli oggetti in esso contenuti.
 \end{itemize}
-\subsubsection{Premi/client/frameEditor/controllers/frameEditorCtrl}
+\subsubsection{premi/client/frameEditor/controllers/frameEditorCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} FrameEditorCtrl
   \item[] \textbf{Tipo:} controller
-  \item[] \textbf{Package:} Premi/client/frameEditor/controllers
+  \item[] \textbf{Package:} premi/client/frameEditor/controllers
   \item[] \textbf{Descrizione:} controller di premi/client/frameEditor/views/toolbar.ng e di premi/client/frameEditor/views/frame.ng
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con le views generate da premi/client/frameEditor/views/toolbar.ng e premi/client/frameEditor/views/frame.ng dipende anche da:
  \begin{itemize} 
-	\item \textit{Premi/client/presentation/lib/databaseAPI} per interagire con il database;  
-	\item \textit{Premi/client/editor/lib/interactInit} per interagire con la libreria Interactjs;
-	\item \textit{Premi/client/editor/lib/frame} per interagire con la libreria frame e usare i metodi per la modifica, aggiunta, cancellazione di un frame;
-	\item \textit{Premi/client/editor/lib/Observer} per interagire con la libreria observer; 
-	\item \textit{Premi/presentation/lib/orderedGOList} per interagire con la libreria orderedGOList per ordinare la lista dei frame. 
+	\item \textit{premi/client/presentation/lib/databaseAPI} per interagire con il database;  
+	\item \textit{premi/client/editor/lib/interactInit} per interagire con la libreria Interactjs;
+	\item \textit{premi/client/editor/lib/frame} per interagire con la libreria frame e usare i metodi per la modifica, aggiunta, cancellazione di un frame;
+	\item \textit{premi/client/editor/lib/Observer} per interagire con la libreria observer; 
+	\item \textit{premi/presentation/lib/orderedGOList} per interagire con la libreria orderedGOList per ordinare la lista dei frame. 
   \end{itemize} 
 \end{itemize}
 
 \clearpage
-\subsection{Premi/client/infographicEditor}
+\subsection{premi/client/infographicEditor}
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[scale=0.45]{img/diapkg/infographicEditor.png}
 \caption{Diagramma del package premi/client/infographicEditor}
 \end{center}
 \end{figure}
-\subsubsection{Premi/client/infographicEditor/views/infographic.ng}
+\subsubsection{premi/client/infographicEditor/views/infographic.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} infographic.ng
   \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} Premi/client/infographicEditor/views
+  \item[] \textbf{Package:} premi/client/infographicEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per la creazione o modifica dell'infografica$_G$
 \end{itemize}
 
-\subsubsection{Premi/client/infographicEditor/controllers/infographicEditorCtrl}
+\subsubsection{premi/client/infographicEditor/controllers/infographicEditorCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} infographicEditorCtrl
   \item[] \textbf{Tipo:} controller
-  \item[] \textbf{Package:} Premi/client/infographicEditor/controllers
+  \item[] \textbf{Package:} premi/client/infographicEditor/controllers
   \item[] \textbf{Descrizione:} controller di premi/client/infographicEditor/views/frameList.ng e premi/client/infographicEditor/views/infographic.ng
-  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con le views generate da Premi.client.InfographicEditor.views.frame.ng e di Premi.client.InfographicEditor.views.toolbar.ng e dipende da: 
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con le views generate da premi.client.InfographicEditor.views.frame.ng e di premi.client.InfographicEditor.views.toolbar.ng e dipende da: 
   \begin{itemize}  
-  \item[] \textit{Premi/client/presentation/lib/databaseAPI} per interagire con il database;
-  \item[] \textit{Premi/client/editor/lib/interactInit} per interagire con la libreria interactjs;
-  \item[] \textit{Premi/client/editor/lib/infographic} per interagire con la libreria infografica e usare i metodi per la gestione dell'infografica;
-  \item[] \textit{Premi/client/editor/lib/observer} per interagire con la libreria observer;
-  \item[] \textit{Premi/presentation/lib/orderedGOList} per interagire con la libreria orderedGOList per ordinare la lista dei frame. 
+  \item[] \textit{premi/client/presentation/lib/databaseAPI} per interagire con il database;
+  \item[] \textit{premi/client/editor/lib/interactInit} per interagire con la libreria interactjs;
+  \item[] \textit{premi/client/editor/lib/infographic} per interagire con la libreria infografica e usare i metodi per la gestione dell'infografica;
+  \item[] \textit{premi/client/editor/lib/observer} per interagire con la libreria observer;
+  \item[] \textit{premi/presentation/lib/orderedGOList} per interagire con la libreria orderedGOList per ordinare la lista dei frame. 
   \end{itemize}
 \end{itemize}
 
-\subsection{Premi/client/trailsEditor}
+\subsection{premi/client/trailsEditor}
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[scale=0.45]{img/diapkg/trailsEditor.png}
 \caption{Diagramma del package premi/client/trailsEditor}
 \end{center}
 \end{figure}
-\subsubsection{Premi/client/trailsEditor/views/basicToolbar.ng}
-\begin{itemize}
-  \item[] \textbf{Nome:} basicToolbar.ng
-  \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} Premi/client/trailsEditor/views
-  \item[] \textbf{Descrizione:} template della parte di pagina che mostra la toolbar che contiene tutte le funzionalità disponibili per la modifica di un trail$_G$
-\end{itemize}
-\subsubsection{Premi/client/trailsEditor/views/editTrail.ng}
+\subsubsection{premi/client/trailsEditor/views/editTrail.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} editTrail.ng
   \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} Premi/client/trailsEditor/views
+  \item[] \textbf{Package:} premi/client/trailsEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per la modifica del titolo di un trail$_G$
 \end{itemize}
-\subsubsection{Premi/client/trailsEditor/views/listTrail.ng}
+\subsubsection{premi/client/trailsEditor/views/listTrail.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} listTrail.ng
   \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} Premi/client/trailsEditor/views
+  \item[] \textbf{Package:} premi/client/trailsEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per la visualizzazione della lista dei trail$_G$ esistenti
 \end{itemize}
-\subsubsection{Premi/client/trailsEditor/views/modTrail.ng}
+\subsubsection{premi/client/trailsEditor/views/modTrail.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} modTrail.ng
   \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} Premi/client/trailsEditor/views
+  \item[] \textbf{Package:} premi/client/trailsEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per la modifica di un trail$_G$
 \end{itemize}
-\subsubsection{Premi/client/trailsEditor/views/newTrail.ng}
+\subsubsection{premi/client/trailsEditor/views/newTrail.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} newTrail.ng
   \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} Premi/client/trailsEditor/views
+  \item[] \textbf{Package:} premi/client/trailsEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per l'aggiunta un nuovo trail$_G$
 \end{itemize}
-\subsubsection{Premi/client/trailsEditor/views/removeTrail.ng}
+\subsubsection{premi/client/trailsEditor/views/removeTrail.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} removeTrail.ng
   \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} Premi/client/trailsEditor/views
+  \item[] \textbf{Package:} premi/client/trailsEditor/views
   \item[] \textbf{Descrizione:}  template della parte di pagina per la rimozione di un trail$_G$
 \end{itemize}
-\subsubsection{Premi/client/trailsEditor/controllers/basicToolbarCtrl}
+\subsubsection{premi/client/trailsEditor/views/removeChkPnt.ng}
 \begin{itemize}
-  \item[] \textbf{Nome:} basicToolbarCtrl
-  \item[] \textbf{Tipo:} controller
-  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/basicToolbar.ng   
+  \item[] \textbf{Nome:} removeChkPnt.ng
+  \item[] \textbf{Tipo:} template
+  \item[] \textbf{Package:} premi/client/trailsEditor/views
+  \item[] \textbf{Descrizione:}  template della parte di pagina per la rimozione di un checkpoint in un trail$_G$
 \end{itemize}
-\subsubsection{Premi/client/trailsEditor/controllers/editTrailCtrl}
+\subsubsection{premi/client/trailsEditor/controllers/editTrailCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} editTrailCtrl
   \item[] \textbf{Tipo:} controller
-  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/editTrail.ng
-  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/editTrail.ng e dipende da:   
+  \item[] \textbf{Package:} premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/editTrail.ng. Tramite l'oggetto \textit{\$scope}, fornisce alla vista i metodi per modificare il titolo di un trail
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/trailsEditor/views/editTrail.ng e dipende da:   
   \begin{itemize}
-  \item[] \textit{Premi/client/presentation/lib/databaseAPI} per interagire con il database;    
+  \item[] \textit{premi/client/presentation/lib/databaseAPI} per interagire con il database;    
   \end{itemize}
 \end{itemize}
-\subsubsection{Premi/client/trailsEditor/controllers/listTrailCtrl}
+\subsubsection{premi/client/trailsEditor/controllers/listTrailCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} listTrailCtrl
   \item[] \textbf{Tipo:} controller
-  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/listTrail.ng
-  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/listTrail.ng
+  \item[] \textbf{Package:} premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/listTrail.ng. Tramite l'oggetto \textit{\$scope}, fornisce alla vista una lista dei Trail creati finora dall'utente per la presentazione selezionata
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/trailsEditor/views/listTrail.ng
 \end{itemize}
-\subsubsection{Premi/client/trailsEditor/controllers/modTrailCtrl}
+\subsubsection{premi/client/trailsEditor/controllers/modTrailCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} modTrailCtrl
   \item[] \textbf{Tipo:} controller
-  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/modTrail.ng
-  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/modTrail.ng e dipende da:
+  \item[] \textbf{Package:} premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/modTrail.ng. Tramite l'oggetto \textit{\$scope}, fornisce alla vista i metodi per modificare un percorso di presentazione (Trail)
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/trailsEditor/views/modTrail.ng e dipende da:
   \begin{itemize}
-  	\item \textit{Premi/client/presentation/lib/trail} per interagire con i metodi per gestire un trail.
+  	\item \textit{premi/client/presentation/lib/trail} per interagire con i metodi per gestire un trail.
   \end{itemize}
 \end{itemize}
-\subsubsection{Premi/client/trailsEditor/controllers/newTrailCtrl}
+\subsubsection{premi/client/trailsEditor/controllers/newTrailCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} newTrailCtrl
   \item[] \textbf{Tipo:} controller
-  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/newTrail.ng
-  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/newTrail.ng e dipende da:
+  \item[] \textbf{Package:} premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/newTrail.ng. Tramite l'oggetto \textit{\$scope}, fornisce alla vista i metodi per la creazione di un nuovo percorso di presentazione (Trail)
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/trailsEditor/views/newTrail.ng e dipende da:
   \begin{itemize}
-  	\item \textit{Premi/client/presentation/lib/databaseAPI} per interagire con il database.
+  	\item \textit{premi/client/presentation/lib/databaseAPI} per interagire con il database.
   \end{itemize}
 \end{itemize}
-\subsubsection{Premi/client/trailsEditor/controllers/removeTrailCtrl}
+\subsubsection{premi/client/trailsEditor/controllers/removeTrailCtrl}
 \begin{itemize}
   \item[] \textbf{Nome:} removeTrailCtrl
   \item[] \textbf{Tipo:} controller
-  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/removeTrail.ng
-  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailsEditor/views/removeTrail.ng e dipende da:
+  \item[] \textbf{Package:} premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/removeTrail.ng. Tramite l'oggetto \textit{\$scope}, fornisce alla vista i metodi per la rimozione di un percorso di presentazione (Trail)
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/trailsEditor/views/removeTrail.ng e dipende da:
   \begin{itemize}
-  	\item \textit{Premi/client/presentation/lib/databaseAPI} per interagire con il database.
+  	\item \textit{premi/client/presentation/lib/databaseAPI} per interagire con il database.
   \end{itemize}
 \end{itemize}
-\subsubsection{Premi/client/trailsEditor/controllers/trailsCtrl}
+\subsubsection{premi/client/trailsEditor/controllers/trailsEditorCtrl}
 \begin{itemize}
-  \item[] \textbf{Nome:} trailsCtrl
+  \item[] \textbf{Nome:} trailsEditorCtrl
   \item[] \textbf{Tipo:} controller
-  \item[] \textbf{Package:} Premi/client/trailsEditor/controllers
-  \item[] \textbf{Descrizione:} controller generale che gestisce le view di Premi/client/trailsEditor/views
+  \item[] \textbf{Package:} premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller generale che gestisce le view di premi/client/trailsEditor/views
+\end{itemize}
+\subsubsection{premi/client/trailsEditor/controllers/removeChkPntCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} removeChkPnt
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} premi/client/trailsEditor/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailsEditor/views/removeChkPnt.ng. Tramite l'oggetto \textit{\$scope}, fornisce alla vista i metodi per rimuovere un checkpoint da un trail, che indica la presenza di un percorso di specializzazione
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/trailsEditor/views/removeChkPnt.ng
 \end{itemize}
 
-\subsection{Premi/client/viewer}
+\subsection{premi/client/viewer}
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[scale=0.45]{img/diapkg/viewer.png}
 \caption{Diagramma del package premi/client/viewer}
 \end{center}
 \end{figure}
-\subsubsection{Premi/client/viewer/views/trails.ng}
+\subsubsection{premi/client/viewer/views/trails.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} trails.ng
   \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} Premi/client/viewer/views
+  \item[] \textbf{Package:} premi/client/viewer/views
   \item[] \textbf{Descrizione:} template del viewer che permette di visualizzare i trail disponibili per la scelta del percorso da visualizzare
-  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/viewer/views/trails.ng
+  \item[] \textbf{Relazioni con altri componenti:} è la vista di premi/client/viewer/views/trailsCtrl
 \end{itemize}
-\subsubsection{Premi/client/viewer/views/viewer.ng}
+\subsubsection{premi/client/viewer/views/viewer.ng}
 \begin{itemize}
   \item[] \textbf{Nome:} viewer.ng
   \item[] \textbf{Tipo:} template
-  \item[] \textbf{Package:} Premi/client/viewer/views
+  \item[] \textbf{Package:} premi/client/viewer/views
   \item[] \textbf{Descrizione:} template del viewer che permette di visualizzare la presentazione.
-  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/viewer/views/viewer.ng
+  \item[] \textbf{Relazioni con altri componenti:} è la vista dedicata di premi/client/viewer/views/viewerCtrl e dipende da:
+  \begin{itemize}
+  	\item \textit{Impress} libreria esterna che interagisce con l'HTML della vista per creare una presentazione
+  \end{itemize}
 \end{itemize}
 \subsubsection{premi/client/viewer/controllers/trailsCtrl}
 \begin{itemize}
@@ -658,7 +680,33 @@ section{Descrizione dei singoli componenti}
   \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da premi/client/viewer/views/viewer.ng per visualizzare la presentazione
 \end{itemize}
 
-
+\subsection{Premi/client/trailMap}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=0.45]{img/diapkg/trailMap.png}
+\caption{Diagramma del package premi/client/trailMap}
+\end{center}
+\end{figure}
+\subsubsection{Premi/client/trailMap/views/trailMap.ng}
+\begin{itemize}
+  \item[] \textbf{Nome:} trailMap.ng
+  \item[] \textbf{Tipo:} template
+  \item[] \textbf{Package:} Premi/client/trailMap/views
+  \item[] \textbf{Descrizione:}  template che permette di visualizzare e modificare il percorso di un trail.
+\end{itemize}
+\subsubsection{Premi/client/trailMap/controllers/trailMapCtrl}
+\begin{itemize}
+  \item[] \textbf{Nome:} trailMapCtrl
+  \item[] \textbf{Tipo:} controller
+  \item[] \textbf{Package:} Premi/client/trailMap/controllers
+  \item[] \textbf{Descrizione:} controller di premi/client/trailMapCtrl/views/trailMap.ng. Tramite l'oggetto \textit{\$scope}, fornisce gli strumenti per generare e gestire una mappa interattiva del percorso di presentazione.
+  \item[] \textbf{Relazioni con altri componenti:} modella lo \textit{\$scope} per interagire con la view generata da Premi/client/trailMap/views/trailMap.ng e dipende da:
+  \begin{itemize}
+  	\item \textit{Premi/client/presentation/lib/trail} per interagire con gli oggetti trail;
+  	\item \textit{Premi/client/presentation/lib/orderedGOList} per ordinare gli oggetti grafici;
+  	\item \textit{Premi/client/presentation/lib/signalCtrl} per gestire i vari stati;
+  \end{itemize}
+\end{itemize}
 
 
 

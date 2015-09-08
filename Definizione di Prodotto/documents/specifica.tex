@@ -13,6 +13,10 @@ All'avvio di MeteorJS$_G$ vengono create, se non sono già presenti, quattro col
 
 \subsection{Template}
 Componenti marcati come \textit{template} sono speciali pagine HTML che non possiedono metodi e attributi propri, ma utilizzano quelli forniti dal loro controller dedicato attraverso lo \textit{\$scope} (l'oggetto di AngularJS$_G$ che funge da ViewModel$_G$); per questo motivo saranno solamente descritti tramite note e raccomandazioni che specificano come essi devano essere costruiti.
+
+\subsection{Directive}
+Componenti marcati come \textit{directive} aggiungono marcatori ad un elemento del DOM (un attributo, un tag, un commento o una classe CSS), e dicono al compilatore di AngularJS$_G$ che genera la view di applicare un certo comportamento all'elemento, o di trasformare l'elemento in qualcos'altro. \\ Possono interagire con tutti i componenti necessari alla compilazione: template, \$scope e controller.
+
 \subsection{Servizi di AngularJS$_G$} \label{servizi}
 I servizi di AngularJS sono oggetti intercambiabili che vengono collegati tra loro attraverso il pattern Dependency Injection$_G$. Sono quasi sempre dei Singleton$_G$, e vengono istanziati solo quando un componente dipende da loro.
 I principali servizi utilizzati per lo sviluppo di questa applicazione sono:

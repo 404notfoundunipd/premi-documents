@@ -124,6 +124,7 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 		\item \textbf{premi/client/presentation/lib/Trail}: per la gestione del percorso della presentazione
 		\item \textbf{premi/client/editor/lib/Infographic}: per rappresentare l'infografica come sfondo della presentazione
 		\item \textbf{premi/client/presentation/lib/OrderedGOList}: per la gestione della lista degli oggetti grafici dell'infografica
+		\item \textbf{premi/client/presentation/lib/signalCtrl}: per la gestione dei signal e degli slot. viewerCtrl usa questa classe per effettuare due chiamate: removeAllSignals() per rimuovere tutti i signal pendenti e initSignal che inizializza i signal per l'oggetto viewer
 	\end{itemize}
 	
 	
@@ -154,6 +155,14 @@ Vedere la sezione \ref{servizi} per approfondimenti sull'oggetto \$scope.
 	\begin{description}
 		\item[\textbf{\color{blue}+ init() : void			}] \hfill
 			Imposta play\_active a \textit{true} e invia un segnale a impress.js per avviare la presentazione
+			
+	\end{description}
+	% -- fine metodo -- %	
+	
+	% -- inizio metodo -- %
+	\begin{description}
+		\item[\textbf{\color{blue}+ setSvg() : Collection			}] \hfill
+			Per ogni oggetto di tipo shape che appartengono alla presentazione imposta il colore e il path (percorso) di dove si trova l'svg.
 			
 	\end{description}
 	% -- fine metodo -- %	
