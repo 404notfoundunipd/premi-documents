@@ -2,7 +2,7 @@
 
 \section {Pianificazione dei test}
 
-Si descrivono di seguito tutti i test di validazione, sistema ed integrazione previsti, prevedendo un aggiornamento futuro per i test di unità. Per le tempistiche di esecuzione dei test si faccia riferimento al \textit{PianoDiProgetto\_v3.0.pdf} Nelle tabelle sottostanti lo stato dei test "Pianificato" è da intendersi come non applicato in quanto tali test saranno applicati successivamente, come descritto nel \textit{Piano di Progetto}.
+Si descrivono di seguito tutti i test di validazione, sistema ed integrazione previsti, prevedendo un aggiornamento futuro per i test di unità. Per le tempistiche di esecuzione dei test si faccia riferimento al \textit{PianoDiProgetto\_v4.0.pdf} Nelle tabelle sottostanti lo stato dei test "Pianificato" è da intendersi come non applicato in quanto tali test saranno applicati successivamente, come descritto nel \textit{Piano di Progetto}.
 
 \subsection {Test di sistema}
 
@@ -92,7 +92,7 @@ Il diagramma seguente non rispetta il formalismo UMLG 2.x ed è utilizzato per 
 	\hline
 	\caption{Tabella test di integrazione}
 \end{longtable}
-
+\pagebreak
 \subsubsection{Tracciamento componenti – test di integrazione}
 Nella tabella seguente è riportato il tracciamento delle singole componenti del sistema con il relativo test di integrazione. Si noti che l'integrazione di Views e Controllers sono garantite dall'architettura del sistema.
 
@@ -610,10 +610,55 @@ FOb8 & TV7.1\\
 \hline
 \end{longtable}
 
+\subsection {Copertura dei test}
 
+La copertura del codice relativa ai test effettuati è pari al 73.3\% del codice prodotto,
+come premesso all'inizio del capitolo il team \gruppo\ ha scelto di implementare i test solo per tutti i metodi ritenuti fondamentali alla logica del programma e non banali.
+\pagebreak
+\subsection{Analisi delle misurazioni sul codice}
 
+Di seguito vengono riportati i risultati delle misurazioni effettuate tramite il plugin Plato$_G$. In particolare le misurazioni riguardano la manutenibilità del codice prodotto.
 
+\begin{figure}[h!]
+   	\centering
+   	\includegraphics[scale=.4]{img/manutenibilita.png}
+   	\caption{Stima della Manutenibilità}
+\end{figure} \\
+Si nota come la manutenibilità risulti essere al di sopra del valore atteso di 70 punti su 100.
+Di seguito sono riportati i risultati nel dettaglio degli indici SLOC (Source Line Of Codes), Complessità ciclomatica e indice LINT che misura quanto il codice analizzato si discosta dai costrutti noti e dalle best practice del linguaggio Javascript, oltre agli errori stimati essere possibilmente presenti nel codice sulla base della complessità calcolata.
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.4]{img/errors.png}
+	\caption{Errori possibilmente stimati nel codice}
+\end{figure} 
 
+Anche in questo caso i valori rilevati restano al di sotto di 10 in linea con il range di accettabilità.
 
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.45]{img/lint1.png}
+	\centering
+	\includegraphics[scale=.45]{img/lint2.png}
+\end{figure} 
 
+\pagebreak
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.43]{img/lint3.png}
+	\centering
+	\includegraphics[scale=.43]{img/lint4.png}
+\end{figure} 
+
+\pagebreak
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.43]{img/lint5.png}
+	\centering
+	\includegraphics[scale=.43]{img/lint6.png}
+	\caption{Dettaglio della stima di Manutenibiltà}
+\end{figure} 
+
+Tutti i valori calcolati rientrano nell'intervallo di valori accettabili imposti dalle metriche, sebbene la complessità cicolmatica in qualche caso sfugga al range ottimale superando il limite 10 essa rimane sempre all'interno del range di accettabilità preposto dal gruppo \gruppo.

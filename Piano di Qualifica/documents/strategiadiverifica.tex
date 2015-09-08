@@ -6,12 +6,48 @@
 Per garantire la qualità del prodotto è necessario perseguire la qualità dei processi che lo definiscono. Per fare questo si è deciso di adottare lo standard ISO /IEC$_G$ 15504 denominato SPICE il quale fornisce gli strumenti necessari a valutare l’idoneità di questi ultimi. Per applicare correttamente questo modello si deve utilizzare il ciclo di Deming (ciclo PDCA) il quale definisce una metodologia di controllo dei processi durante il loro ciclo di vita che consente di migliorarne in modo continuativo la qualità.
 
 \subsubsection{Qualità di Prodotto}
-Al fine di aumentare il valore commerciale di un prodotto software e di garantirne il corretto funzionamento è necessario fissare degli obiettivi qualitativi e di garantire che questi vengano effettivamente rispettati. Lo standard ISO/IEC$_G$ 91264 è stato redatto con lo scopo di descrivere questi obiettivi e delineare delle metriche capaci di misurare il raggiungimento di tali obiettivi.
+Al fine di aumentare il valore commerciale di un prodotto software e di garantirne il corretto funzionamento è necessario fissare degli obiettivi qualitativi e di garantire che questi vengano effettivamente rispettati. Lo standard ISO/IEC$_G$ 9126 è stato redatto con lo scopo di descrivere questi obiettivi e delineare delle metriche capaci di misurare il raggiungimento di tali obiettivi.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[scale=.65]{img/9126.png}
+	\caption{Rappresentazione del modello ISO/IEC 9126}
+\end{figure}
+
+\paragraph{Funzionalità.}
+
+E' un requisito funzionale che indica la capacità del software di soddisfare le esigenze esposte dal capitolato ed individuate durante l'analisi dei requisiti, per valutare questa caratteristica si considerano l'appropriatezza e l'accuratezza delle funzioni offerte. Si sarà ottenuto un buon risultato in questo settore quando il software avrà superato in maniera positiva tutti i test e assicurerà copertura pari al 100\% dei requisiti obbligatori.
+
+\paragraph{Affidabilità.}
+
+E' un requisito non funzionale che indica la capacità del software di svolgere correttamente il suo compito, mantenendo delle buone prestazioni anche al variare dell'ambiente nel tempo, per questo vengono considerate la sua tolleranza agli errori, la capacità di evitare fallimenti nell'esecuzione a seguito di malfunzionamenti, detta maturità, e la recuperabilità dei dati e delle prestazioni nell'eventualità di un
+malfunzionamento inevitabile. Il prodotto può considerarsi affidabile se il numero di esecuzioni andate a buon fine è sufficientemente grande rispetto al numero di esecuzioni totali.
+\begin{itemize}
+	\item Range ottimale :  N. esecuzioni a buon fine / N. tot. di esecuzioni\\ = [97\% - 100\%]
+	\item Range accettabile :  N. esecuzioni a buon fine / N. tot. di esecuzioni\\ = [90\% - 97\%]
+\end{itemize}
+
+\paragraph{Efficienza.}
+E' un requisito non funzionale che indica il rapporto tra le prestazioni e le risorse disponibili, si valuta cioè se il software utilizza al meglio le risorse a sua disposizione per fornire le funzionalità richieste, considerando il suo comportamento rispetto al tempo, ossia la velocità di risposta e di elaborazione in determinate condizioni, e rispetto all'uso delle risorse, ossia la sua capacità di utilizzare la quantità adeguata di risorse per eseguire le funzioni richieste. Un modo per valutare l'efficienza di un software è calcolarne i tempi di attesa in seguito all'esecuzione di un comando. Nello specifico del software Premi si intende misurare la velocità di risposta del browser e il tempo necessario al caricamento delle pagine web, misurando il  TTI (time to interact) cioè in sostanza il tempo che la pagina web impiega per rendere i suoi contenuti fruibili all'utente.
+
+\begin{itemize}
+	\item Valore ottimale :  TTI inferiore a 0.8 secondi
+	\item Valore accettabile :  TTI compreso tra 0.8 e 1.5 secondi
+\end{itemize}
+
+\paragraph{Usabilità.}
+E' un requisito non funzionale che indica la capacità del software di essere compreso, appreso ed usato con soddisfazione dall'utente, per far ciò il prodotto deve soddisfare condizioni di comprensibilità, apprendibilità ed operabilità, deve inoltre avere una certa attrattiva nei confronti dell'utente allo scopo di rendergliene piacevole l'utilizzo. Questa caratteristica non è facilmente misurabile in quanto non esistono metriche per quantificarla, perciò si farà affidamento sul buon senso e sul giudizio dei proponenti che sono a conoscenza delle capacità e delle necessità del bacino di utenza a cui il prodotto si rivolge.
+
+\paragraph{Manutenibilità.}
+E' un requisito non funzionale che indica la capacità del software di essere corretto, migliorato o adattato con un impegno contenuto, a tale scopo esso deve essere facilmente analizzabile e modificabile, deve garantire stabilità a seguito di modifiche e testabilità di tali modifiche. Per misurare questa caratteristica esistono una serie di metriche descritte nella sezione 2.7.3, molte delle quali quantificabili tramite il plugin Plato. L'obiettivo si riterrà raggiunto se la manutenubilità calcolata risulterà essere superiore a 70 (valore accettabile) o 80 (valore ottimale) punti su 100 nella scala di misurazione.
+
+\paragraph{Portabilità.}
+E' un requisito non funzionale che indica la capacità del software di essere trasferito da un ambiente operativo ad un altro, il prodotto deve essere in grado di adattarsi al nuovo sistema limitando la necessità di apportare cambiamenti, non deve richiedere troppo impegno per essere installato in uno specificato ambiente e deve garantire sostituibilità con versioni precedenti o software simili. Nello specifico caso del software Premi è richiesto come requisito obbligatorio che esso funzioni correttamente e sia pienamente compatibile con il browser Chrome. Per garantire la potabilità del software è richiesto che tutti i test vengano eseguiti e il software sia testato sul browser sia in ambiente Windows 8.0 o superiore, MacOSX,  Linux.
 
 \subsection{Controllo di qualità}
 
 \subsubsection{Procedure di controllo di qualità di processo}
-La qualità dei processi viene monitorata mediante l'analisi costante della qualità del prodotto. Un prodotto di bassa qualità è indice di carenza di qualità anche nei processi coinvolti alla realizzazione di quel prodotto, e quindi indica un processo da migliorare. Per quantificare la qualità dei processi il team si impegna ad utilizzare le metriche descritte nella sezione 3.7.3.
+La qualità dei processi viene monitorata mediante l'analisi costante della qualità del prodotto. Un prodotto di bassa qualità è indice di carenza di qualità anche nei processi coinvolti alla realizzazione di quel prodotto, e quindi indica un processo da migliorare. Per quantificare la qualità dei processi il team si impegna ad utilizzare le metriche descritte nella sezione 2.7.3.
 \\
 Per avere controllo dei processi, e conseguentemente qualità, è necessario che:
 \begin{itemize}
@@ -23,7 +59,7 @@ La qualità dei processi verrà inoltre garantita dall'applicazione del principi
 \subsubsection{Procedure di controllo di qualità di prodotto}
 Il controllo di qualità del prodotto verrà garantito da tre diverse attività:
 \begin{itemize}
-	\item[-] \textbf{Quality Assurance}: insieme di attività realizzate per garantire il raggiungimento degli obbiettivi di qualità. Prevede l'attuazione di tecniche di analisi statica e dinamica, descritte nella sezione 3.7.2;
+	\item[-] \textbf{Quality Assurance}: insieme di attività realizzate per garantire il raggiungimento degli obbiettivi di qualità. Prevede l'attuazione di tecniche di analisi statica e dinamica, descritte nella sezione 2.7.2;
 	\item[-] \textbf{Verifica}: processo che determina se l'output di una fase è consistente, completo e corretto. La verifica andrà eseguita costantemente durante l'intera durata del progetto. I risultati delle attività di verifica eseguiti nelle varie fasi del progetto sono riportati nell'appendice B;
 	\item[-] \textbf{Validazione}: conferma in modo oggettivo che il sistema risponda ai requisiti.
 \end{itemize}
@@ -31,7 +67,7 @@ Il controllo di qualità del prodotto verrà garantito da tre diverse attività:
 \subsection{Organizzazione}
 
 Per garantire la qualità del prodotto in tutte le sue fasi di realizzazione, accertandone la conformità rispetto a quanto emerso durante la fase di Analisi dei Requisiti (vedi allegato \textit{AnalisiDeiRequisiti\_v2.0.pdf}), si intende svolgere una costante attività di verifica trasversale a tutte le fasi di sviluppo del progetto. Si è scelto e adottato il metodo ``Broken Window Theory'' secondo il quale, non appena un errore viene rilevato, questo dovrà essere segnalato e corretto il prima possibile onde evitarne la propagazione. Per poter svolgere un corretto processo di verifica si è scelto di effettuare le dovute operazioni di controllo ogni volta che il prodotto in esame avrà maturato sostanziali modifiche rispetto alla sua precedente versione. \\ \\
-Per quanto riguarda la documentazione questa maturazione si rispecchia nel variare dell'indice di versione dei documenti stessi (vedi documento interno \textit{NormeDiProgetto\_v3.0.pdf}, sezione 6.6) e una fase di verifica finale è necessaria affinché un qualsiasi documento possa passare alla fase di approvazione da parte del \ruoloResponsabile. E' auspicabile che siano svolte verifiche sui documenti non solo prima dell'approvazione ma anche in fasi intermedie nelle quali il documento può non essere ancora stato completato. Ogni svolgimento di una fase di verifica globale sarà riportata nell'apposito registro delle modifiche. Per assicurare il massimo livello di controllo, tuttavia, un primo controllo sommario sui nuovi contenuti viene svolto dal \ruoloVerificatore\ ad ogni modifica del documento (per approfondimento vedi documento interno \textit{NormeDiProgetto\_v.3.0.pdf} sezione 5.4)
+Per quanto riguarda la documentazione questa maturazione si rispecchia nel variare dell'indice di versione dei documenti stessi (vedi documento interno \textit{NormeDiProgetto\_v4.0.pdf}, sezione 6.6) e una fase di verifica finale è necessaria affinché un qualsiasi documento possa passare alla fase di approvazione da parte del \ruoloResponsabile. E' auspicabile che siano svolte verifiche sui documenti non solo prima dell'approvazione ma anche in fasi intermedie nelle quali il documento può non essere ancora stato completato. Ogni svolgimento di una fase di verifica globale sarà riportata nell'apposito registro delle modifiche. Per assicurare il massimo livello di controllo, tuttavia, un primo controllo sommario sui nuovi contenuti viene svolto dal \ruoloVerificatore\ ad ogni modifica del documento (per approfondimento vedi documento interno \textit{NormeDiProgetto\_v.4.0.pdf} sezione 5.4)
 \\ \\
  Per quanto riguarda il codice è molto importante che i processi di verifica siano resi il più automatizzati possibile per garantire così la loro ripetibilità e per elevarne l'efficienza. Le attività di verifica avvengono allo scopo di trovare e rimuovere eventuali problemi presenti. Un problema può verificarsi a vari livelli, e per ogni livello assume un nome diverso:
 \begin{itemize}
@@ -46,7 +82,7 @@ Esiste una relazione di causa-effetto fra questi tre termini: \begin{center}
 Non sempre un errore dà origine ad un fallimento: ad esempio potrebbero esserci alcune variabili che si trovano in stato erroneo ma non vengono lette, o non viene percorso il ramo di codice che le contiene. E' compito dei \textit{Verificatori} prestare particolare attenzione a questo tipo di errori (detti anche quiescenti).
 
 \subsection{Pianificazione Strategica e Temporale}
-Avendo l'obiettivo di rispettare le scadenze fissate nel \textit{PianodiProgettov3.0.pdf}, è necessario che l'attività di verifica della documentazione e del codice sia sistematica e ben organizzata. Ogni fase di redazione dei documenti e di codifica deve essere preceduta da una fase di studio preliminare per eliminare all'origine possibili imprecisioni di natura concettuale e/o tecnica.
+Avendo l'obiettivo di rispettare le scadenze fissate nel \textit{PianodiProgettov4.0.pdf}, è necessario che l'attività di verifica della documentazione e del codice sia sistematica e ben organizzata. Ogni fase di redazione dei documenti e di codifica deve essere preceduta da una fase di studio preliminare per eliminare all'origine possibili imprecisioni di natura concettuale e/o tecnica.
 \\ \\Il processo di verifica viene strutturato in tre fasi:
 \begin{enumerate}
 	\item \textbf{Pre-Verifica:} Si tratta della pianificazione e la preparazione delle attività di verifica. Consiste nella scelta delle persone che si occuperanno di questa attività e nella distribuzione dei documenti o componenti software da controllare;
@@ -54,7 +90,7 @@ Avendo l'obiettivo di rispettare le scadenze fissate nel \textit{PianodiProgetto
 	\item \textbf{Post-Verifica:} Dopo che le correzioni sono state apportate al componente in esame il \ruoloVerificatore, usando  come checklist l'elenco delle correzioni da lui redatto nella fase precedente, potrà constatare l'avvenuta correzione.
 \end{enumerate}
 Durante le attività di verifica è inevitabile che gli errori commessi dagli individui vengano esposti a tutto il gruppo. E' quindi molto importante che si incoraggi nel team una mentalità per la quale la segnalazione degli errori non diventi motivo per screditare il lavoro di un singolo, ma occasione di crescita per la persona e per l'intero gruppo di lavoro.\\ \\
-Essendo il ciclo di vita scelto per lo sviluppo del progetto un ciclo di vita incrementale (vedi documento allegato \textit{PianoDiProgetto\_v3.0.pdf}), di conseguenza le
+Essendo il ciclo di vita scelto per lo sviluppo del progetto un ciclo di vita incrementale (vedi documento allegato \textit{PianoDiProgetto\_v4.0.pdf}), di conseguenza le
 operazioni di verifica verranno realizzate in modo tale da intervenire in maniera coerente nelle varie fasi del progetto come illustrato di seguito.
 
 \subsubsection{Analisi dei Requisiti}
@@ -93,7 +129,7 @@ Il processo di verifica in fase di Progettazione consisterà nel verificare che 
 	\item \textbf{Incapsulamento}: ll funzionamento interno di una classe viene nascosto all'esterno, proteggendo così gli utenti di quella classe da eventuali modifiche;
 	\item \textbf{Accoppiamento}: indica quanto una componente fa affidamento sull'altra, dipendendo da essa. Un basso grado di accoppiamento favorisce la manutenibilità del software.
 \end{itemize}
-Gli obiettivi di qualità vengono descritti nel capitolo 3. il lavoro del  \ruoloVerificatore\ è quello di effettuare una verifica incrociata tra i requisiti riportati nel documento\textit{ AnalisiDeiRequisiti\_v3.0.pdf} e le componenti descritte nel documento \textit{SpecificaTecnica\_v3.0.pdf}, accertandosi  i requisiti utente siano soddisfatti  dalle componenti architetturali prodotte durante la progettazione ad alto livello e dai metodi e dagli attributi prodotti nella progettazione di dettaglio.
+Gli obiettivi di qualità vengono descritti nell'appendice A. il lavoro del  \ruoloVerificatore\ è quello di effettuare una verifica incrociata tra i requisiti riportati nel documento\textit{ AnalisiDeiRequisiti\_v4.0.pdf} e le componenti descritte nel documento \textit{SpecificaTecnica\_v3.0.pdf}, accertandosi  i requisiti utente siano soddisfatti  dalle componenti architetturali prodotte durante la progettazione ad alto livello e dai metodi e dagli attributi prodotti nella progettazione di dettaglio.
 Le attività di tracciamento, controllo diagrammi UML e verifica della progettazione vengono eseguite in parallelo assicurando il soddisfacimento delle quattro proprietà descritte sopra. Inoltre, i \textit{Verificatori} devono controllare che:
 
 \begin{itemize}
@@ -169,7 +205,7 @@ I verificatori dovranno poi eseguire un'attività di inspection (vedi sezione 2.
 	\item[-] l'indentazione deve essere consistente e favorire la lettura del codice.
 \end{itemize}
 
-Vanno infine garantite le caratteristiche di qualità descritte dallo standard ISO/IEC 91264 e riportate in nella sezione 3.2 del presente documento e il rispetto dei valori per le metriche stabiliti nella sezione 2.7.3.
+Vanno infine garantite le caratteristiche di qualità descritte dallo standard ISO/IEC 91264 e riportate in nella sezione 2.2 del presente documento e il rispetto dei valori per le metriche stabiliti nella sezione 2.7.3.
 
 \begin{figure}[h!]
 	\centering
@@ -187,16 +223,16 @@ Quando tutte le componenti sono state testate e integrate si procede con il test
 \end{itemize}
 
 \subsection{Responsabilità}
-Per garantire che il processo di verifica sia efficace e sistematico vengono attribuite delle responsabilità ad ogni specifico ruolo del progetto. I ruoli che detengono le responsabilità del processo di verifica sono il \ruoloResponsabile\ ed i {\textit{Verificatori}}. La suddivisione dei compiti e le modalità di attuazione degli stessi sono definiti nel documento\textit{NormeDiProgetto\_v3.0.pdf}.
+Per garantire che il processo di verifica sia efficace e sistematico vengono attribuite delle responsabilità ad ogni specifico ruolo del progetto. I ruoli che detengono le responsabilità del processo di verifica sono il \ruoloResponsabile\ ed i {\textit{Verificatori}}. La suddivisione dei compiti e le modalità di attuazione degli stessi sono definiti nel documento\textit{NormeDiProgetto\_v4.0.pdf}.
 
 \subsection{Risorse}
-Per assicurare che gli obiettivi qualitativi vengano raggiunti è necessario l'utilizzo di risorse sia umane che tecnologiche. Coloro che detengono la responsabilità maggiore per l'attività di verifica e validazione sono il \ruoloResponsabile\ e il \ruoloVerificatore. Per una dettagliata descrizione dei ruoli e delle loro responsabilità fare riferimento alle \textit{NormeDiProgetto\_v3.0.pdf}. Per risorse tecniche e tecnologiche sono da intendersi tutti gli strumenti software e hardware che il gruppo intende utilizzare per attuare le attività di verifica su processi e prodotti.
+Per assicurare che gli obiettivi qualitativi vengano raggiunti è necessario l'utilizzo di risorse sia umane che tecnologiche. Coloro che detengono la responsabilità maggiore per l'attività di verifica e validazione sono il \ruoloResponsabile\ e il \ruoloVerificatore. Per una dettagliata descrizione dei ruoli e delle loro responsabilità fare riferimento alle \textit{NormeDiProgetto\_v4.0.pdf}. Per risorse tecniche e tecnologiche sono da intendersi tutti gli strumenti software e hardware che il gruppo intende utilizzare per attuare le attività di verifica su processi e prodotti.
 
 \subsection{Strumenti, Tecniche e Metodi}
 \subsubsection{Strumenti}
 Per lo svolgimento del processo di verifica faremo uso dei seguenti strumenti:
 \begin{itemize}
-	\item \textbf{Correttore automatico di TeXMaker$_G$}: come segnalato nelle \textit{NormeDiProgetto\_v3.0.pdf} per la scrittura di documenti si è scelto di utilizzare l'ambiente grafico TeXMaker$_G$. Tale strumento integra i dizionari di OpenOffice.org e segnala i potenziali
+	\item \textbf{Correttore automatico di TeXMaker$_G$}: come segnalato nelle \textit{NormeDiProgetto\_v4.0.pdf} per la scrittura di documenti si è scelto di utilizzare l'ambiente grafico TeXMaker$_G$. Tale strumento integra i dizionari di OpenOffice.org e segnala i potenziali
 	errori ortografici presenti nel testo;
 
 	\item \textbf{404TrackerDB}: Strumento software realizzato dal gruppo \gruppo\ che contiene ed associa:
@@ -266,7 +302,7 @@ Perché tale attività sia utile e generi risultati attendibili è necessario ch
 \newpage
 \subsubsection{Misure e Metriche}
 Le misure e le metriche che il team adotterà si ispireranno alle indicazioni dello standard ISO/IEC$_G$-14598. Tale norma descrive il processo di valutazione della qualità del software. Vengono di seguito descritte le metriche sulle quali \gruppo\ intende basarsi nei processi di verifica, sia in fase di progettazione che di codifica, che potranno essere integrate e stabilite con maggiore precisione durante l'avanzamento del progetto.
-
+\\ \\
 Essendo la natura delle metriche molto variabile, vi possono essere due tipologie di range:
 
 \begin{itemize}
@@ -274,8 +310,7 @@ Essendo la natura delle metriche molto variabile, vi possono essere due tipologi
 \item \textbf{Ottimale}: valori entro cui dovrebbe collocarsi la misurazione. Tale range non è vincolante, ma fortemente consigliato.
 \end{itemize}
 
-\begin{itemize}
-    \item \textbf{Complessità ciclomatica}:
+\paragraph{Complessità ciclomatica} 
     La complessità ciclomatica di un programma è il
     numero di cammini linearmente indipendenti attraverso il codice sorgente. Per esempio, se il codice sorgente non contiene IF o FOR, allora il livello di complessità sarà 1, poiché esiste un solo 
     cammino, se è presente un IF la complessità diventa di 2. Un programma si può quindi rappresentare come un albero nel quale i nodi sono i blocchi del programma e gli archi sono il passaggio del controllo da un blocco all'altro. La complessità è quindi definita come:
@@ -287,7 +322,7 @@ Essendo la natura delle metriche molto variabile, vi possono essere due tipologi
     	\centering
     	\includegraphics[scale=.45]{img/tabella_CC.png}
     	\caption{Stima della Complessità Ciclomatica}
-    \end{figure} \\
+    \end{figure} 
     
     \textbf{Parametri utilizzati}:
     		\begin{itemize}
@@ -296,7 +331,7 @@ Essendo la natura delle metriche molto variabile, vi possono essere due tipologi
     		\end{itemize}
     		Il valore 10 come massimo di complessità ciclomatica fu raccomandato da T. J. McCabe, l'inventore di tale metrica.
 
-	\item \textbf{Misure nella progettazione}:
+\paragraph{Misure nella progettazione} \linebreak
 	\begin{itemize}
 		\item \textbf{Complessità di flusso}: 
 		misura la quantità di informazioni in entrata ed uscita da una funzione (fan in e fan out). Fan-in è una misura del numero di metodi che invocano una determinata procedura. Un alto valore per fan-in significa che cambiamenti a quella procedura potrebbero avere effetti a catena sulle altre. Fan-out indica quanto una procedura ne richiama delle altre, dando una valutazione del grado di dipendenza di quella procedura dalle altre; Il valore è calcolato come: 
@@ -317,13 +352,14 @@ Essendo la natura delle metriche molto variabile, vi possono essere due tipologi
 		\begin{itemize}
 			\item Range-accettazione: [0 − 3];
 			\item Range-ottimale: [0 − 1].
-		\end{itemize} \\ \bigskip
+		\end{itemize} \\ 
 		
 	\end{itemize}
-	\item \textbf{Misure sul codice}:
+	\paragraph{Misure sul codice}
+	\linebreak
 	\begin{itemize}
 
-		\item \textbf{TLOC (Total Lines Of Code)}: indice della lunghezza complessiva del codice, misura la dimensione del prodotto in termini di numero di linee di codice, al netto delle linee vuote o commentate.
+		\item \textbf{SLOC (Source Lines Of Code)}: indice della lunghezza complessiva del codice, misura la dimensione del prodotto in termini di numero di linee di codice, al netto delle linee vuote o commentate.
 		
 		\item \textbf{MLOC (Method Lines Of Code)}: numero di linee di codice di un metodo, al netto delle linee vuote o commentate; Generalmente, maggiore è la dimensione di un metodo o componente, maggiore è la probabilità che esso contenga degli errori;
 		
@@ -368,5 +404,21 @@ Essendo la natura delle metriche molto variabile, vi possono essere due tipologi
 			\item Range-accettazione: [0 − 9];
 			\item Range-ottimale: [0 − 4].
 		\end{itemize}
+		
+		\item \textbf{LINT Errors}:  indice che misura il numero di discrepanze rilevate confrontando il codice analizzato con i costrutti noti del linguaggio Javascript, e le sue best practice.\\
+		
+		\textbf{Parametri utilizzati}:
+		\begin{itemize}
+			\item Range-accettazione: [0 − 10];
+			\item Range-ottimale: [0 − 5].
+		\end{itemize}
+		
+		\item \textbf{Est. Errors}:  Numero di errori stimati nel codice calcolato sulla base della complessità misurata.\\
+		
+		\textbf{Parametri utilizzati}:
+		\begin{itemize}
+			\item Range-accettazione: [0 − 15];
+			\item Range-ottimale: [0 − 3].
+		\end{itemize}
 	\end{itemize}
-\end{itemize}
+

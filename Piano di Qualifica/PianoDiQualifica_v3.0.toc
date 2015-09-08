@@ -1,0 +1,76 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {1}Introduzione}{6}{section.1}
+\contentsline {subsection}{\numberline {1.1}Scopo del documento}{6}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scopo del Prodotto}{6}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Glossario}{6}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Riferimenti}{6}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}Normativi}{6}{subsubsection.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.2}Informativi}{6}{subsubsection.1.4.2}
+\contentsline {section}{\numberline {2}Visione Generale della Strategia di Verifica}{8}{section.2}
+\contentsline {subsection}{\numberline {2.1}Definizione obiettivi}{8}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Qualit\IeC {\`a} di Processo}{8}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Qualit\IeC {\`a} di Prodotto}{8}{subsubsection.2.1.2}
+\contentsline {paragraph}{\numberline {2.1.2.1}Funzionalit\IeC {\`a}.}{8}{paragraph.2.1.2.1}
+\contentsline {paragraph}{\numberline {2.1.2.2}Affidabilit\IeC {\`a}.}{8}{paragraph.2.1.2.2}
+\contentsline {paragraph}{\numberline {2.1.2.3}Efficienza.}{9}{paragraph.2.1.2.3}
+\contentsline {paragraph}{\numberline {2.1.2.4}Usabilit\IeC {\`a}.}{9}{paragraph.2.1.2.4}
+\contentsline {paragraph}{\numberline {2.1.2.5}Manutenibilit\IeC {\`a}.}{9}{paragraph.2.1.2.5}
+\contentsline {paragraph}{\numberline {2.1.2.6}Portabilit\IeC {\`a}.}{9}{paragraph.2.1.2.6}
+\contentsline {subsection}{\numberline {2.2}Controllo di qualit\IeC {\`a}}{10}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}Procedure di controllo di qualit\IeC {\`a} di processo}{10}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}Procedure di controllo di qualit\IeC {\`a} di prodotto}{10}{subsubsection.2.2.2}
+\contentsline {subsection}{\numberline {2.3}Organizzazione}{10}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Pianificazione Strategica e Temporale}{11}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Analisi dei Requisiti}{12}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Progettazione Architetturale}{13}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Programmazione di dettaglio e codifica}{14}{subsubsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.4}Test e Validazione}{17}{subsubsection.2.4.4}
+\contentsline {subsection}{\numberline {2.5}Responsabilit\IeC {\`a}}{18}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Risorse}{18}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Strumenti, Tecniche e Metodi}{19}{subsection.2.7}
+\contentsline {subsubsection}{\numberline {2.7.1}Strumenti}{19}{subsubsection.2.7.1}
+\contentsline {subsubsection}{\numberline {2.7.2}Tecniche di Analisi}{20}{subsubsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.3}Misure e Metriche}{22}{subsubsection.2.7.3}
+\contentsline {paragraph}{\numberline {2.7.3.1}Complessit\IeC {\`a} ciclomatica}{22}{paragraph.2.7.3.1}
+\contentsline {paragraph}{\numberline {2.7.3.2}Misure nella progettazione}{23}{paragraph.2.7.3.2}
+\contentsline {paragraph}{\numberline {2.7.3.3}Misure sul codice}{23}{paragraph.2.7.3.3}
+\contentsline {section}{\numberline {3}Gestione amministrativa della revisione}{26}{section.3}
+\contentsline {subsection}{\numberline {3.1}Comunicazione e risoluzione di anomalie}{26}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Trattamento delle discrepanze}{26}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Procedure di controllo di qualit\IeC {\`a} di processo}{27}{subsection.3.3}
+\contentsline {section}{\numberline {A}Obiettivi di Qualit\IeC {\`a}}{29}{appendix.Alph1}
+\contentsline {subsection}{\numberline {A.1}Qualit\IeC {\`a} dei Processi}{29}{subsection.Alph1.1}
+\contentsline {subsection}{\numberline {A.2}Qualit\IeC {\`a} del Prodotto}{32}{subsection.Alph1.2}
+\contentsline {subsubsection}{\numberline {A.2.1}Funzionalit\IeC {\`a}}{32}{subsubsection.Alph1.2.1}
+\contentsline {subsubsection}{\numberline {A.2.2}Affidabilit\IeC {\`a}}{32}{subsubsection.Alph1.2.2}
+\contentsline {subsubsection}{\numberline {A.2.3}Efficienza}{33}{subsubsection.Alph1.2.3}
+\contentsline {subsubsection}{\numberline {A.2.4}Usabilit\IeC {\`a}}{33}{subsubsection.Alph1.2.4}
+\contentsline {subsubsection}{\numberline {A.2.5}Manutenibilit\IeC {\`a}}{33}{subsubsection.Alph1.2.5}
+\contentsline {subsubsection}{\numberline {A.2.6}Portabilit\IeC {\`a}}{34}{subsubsection.Alph1.2.6}
+\contentsline {section}{\numberline {B}Pianificazione dei test}{35}{appendix.Alph2}
+\contentsline {subsection}{\numberline {B.1}Test di sistema}{35}{subsection.Alph2.1}
+\contentsline {subsubsection}{\numberline {B.1.1}Descrizione dei test di sistema}{35}{subsubsection.Alph2.1.1}
+\contentsline {subsection}{\numberline {B.2}Test di integrazione}{38}{subsection.Alph2.2}
+\contentsline {subsubsection}{\numberline {B.2.1}Descrizione dei test di integrazione}{39}{subsubsection.Alph2.2.1}
+\contentsline {subsubsection}{\numberline {B.2.2}Tracciamento componenti \IeC {\textendash } test di integrazione}{40}{subsubsection.Alph2.2.2}
+\contentsline {subsection}{\numberline {B.3}Test di unit\IeC {\`a}}{40}{subsection.Alph2.3}
+\contentsline {subsection}{\numberline {B.4}Test di validazione}{46}{subsection.Alph2.4}
+\contentsline {subsubsection}{\numberline {B.4.1}Test TV1}{46}{subsubsection.Alph2.4.1}
+\contentsline {subsubsection}{\numberline {B.4.2}Test TV2}{46}{subsubsection.Alph2.4.2}
+\contentsline {subsubsection}{\numberline {B.4.3}Test TV3}{47}{subsubsection.Alph2.4.3}
+\contentsline {subsubsection}{\numberline {B.4.4}Test TV4}{47}{subsubsection.Alph2.4.4}
+\contentsline {subsubsection}{\numberline {B.4.5}Test TV5}{48}{subsubsection.Alph2.4.5}
+\contentsline {subsubsection}{\numberline {B.4.6}Test TV6}{50}{subsubsection.Alph2.4.6}
+\contentsline {subsubsection}{\numberline {B.4.7}Test TV7}{50}{subsubsection.Alph2.4.7}
+\contentsline {subsubsection}{\numberline {B.4.8}Tracciamento Test di Validazione - Requisiti}{51}{subsubsection.Alph2.4.8}
+\contentsline {subsection}{\numberline {B.5}Copertura dei test}{52}{subsection.Alph2.5}
+\contentsline {subsection}{\numberline {B.6}Analisi delle misurazioni sul codice}{53}{subsection.Alph2.6}
+\contentsline {section}{\numberline {C}Resoconto dell'Attivit\IeC {\`a} di Verifica}{57}{appendix.Alph3}
+\contentsline {subsection}{\numberline {C.1}Revisione della Documentazione}{57}{subsection.Alph3.1}
+\contentsline {subsection}{\numberline {C.2}Tracciamento requisiti}{57}{subsection.Alph3.2}
+\contentsline {subsection}{\numberline {C.3}Dettaglio delle verifiche tramite analisi}{58}{subsection.Alph3.3}
+\contentsline {subsection}{\numberline {C.4}Revisione dei Requisiti}{58}{subsection.Alph3.4}
+\contentsline {subsection}{\numberline {C.5}Revisione di Progettazione}{59}{subsection.Alph3.5}
+\contentsline {subsection}{\numberline {C.6}Revisione di Qualifica}{60}{subsection.Alph3.6}
+\contentsline {subsection}{\numberline {C.7}Revisione di Accettazione}{61}{subsection.Alph3.7}

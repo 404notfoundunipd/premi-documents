@@ -4,7 +4,7 @@
 
 \newcommand{\titDoc}{Piano di Qualifica}
 \newcommand{\dataCreazione}{05 Gennaio 2015}
-\newcommand{\versione}{3.0}
+\newcommand{\versione}{4.0}
 \newcommand{\stato}{Formale}
 \newcommand{\uso}{Esterno}
 
@@ -15,6 +15,8 @@
 \title{\titDoc}
 
 \begin{document}
+\setcounter{secnumdepth}{5}
+	
 \input{documents/first.tex}
 \newpage
 \input{documents/regModifiche.tex}
@@ -26,15 +28,17 @@
 \newpage
 \input{documents/intro.tex}
 \newpage
-\input{documents/obiettiviqualita.tex}
-\newpage
 \input{documents/strategiadiverifica.tex}
 \newpage
 \input{documents/gestioneamministrativa.tex}
 \newpage
 \appendix
+\newpage
+\input{documents/obiettiviqualita.tex}
+\newpage
 \input{documents/test.tex}
 \newpage
 \input{documents/resocontoverifca.tex}
+
 \bibliography{../bibliography}
 \end{document}
