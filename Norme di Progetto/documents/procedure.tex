@@ -175,7 +175,14 @@ Al \ruoloVerificatore\ è richiesto il controllo dei diagrammi UML$_G$ prodotti:
 \end{itemize}
 
 \subsubsection{Verifica del codice}
-Per la verifica del codice al \ruoloVerificatore\ è richiesto l'avvio dei test statici e dinamici riportati nella sezione 2.5.2 del \PdQ{} e l'analisi dei risultati ottenuti.
+Per la verifica del codice al \ruoloVerificatore\ è richiesto l'avvio dei test statici e dinamici riportati nella sezione 2.5.2 del \PdQ{} e l'analisi dei risultati ottenuti. \\
+I test di sistema, integrazione e unità vengono descritti nel \PdQ{}, e saranno effettuati con i seguenti strumenti:
+\begin{itemize}
+\item \textbf{Jasmine}$_G$: è un framework$_G$ per il testing di codice JavaScript;
+\item \textbf{Velocity}$_G$: esegue i test sul framework$_G$ MeteorJS$_G$
+\item \textbf{Karma}$_G$: esegue i test sul framework$_G$ AngularJS$_G$
+\item \textbf{Plato}$_G$: per la generazione di analisi sulla complessità del codice.
+\end{itemize}
 
 \subsubsection{Gestione delle anomalie}
 
@@ -299,6 +306,16 @@ angular.module("esempio.commenti")
 
 \subsubsection{Formattazione del Codice}
 Per la formattazione del codice utilizzare la formattazione automatica del software WebStorm$_G$, ad ogni modifica apportata e ad ogni nuovo file aggiunto.
+
+\subsection{Validazione}
+Devono essere creati dei test per accertare che Premi soddisfi i  requisiti descritti nell \AR{}. Ogni test dev'essere descritto nel \PdQ{} nel modo seguente:
+\begin{itemize}
+\item nome e codice identificativo del test;
+\item descrizione del test;
+\item procedura o insieme di passi per il superamento del test;
+\item note eventuali.
+\end{itemize}
+I test di validazione devono essere accompagnati da una tabella di tracciamento per la corrispondenza con i requisiti testati. 
 
 
 \subsection{Procedure per l'utilizzo del repository} \label{procedureticket}
