@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  8 SEP 2015 22:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  9 SEP 2015 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -638,20 +638,26 @@ Package pdftex.def Info: ../logo/logo404.png used on input line 31.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [5])
 (./documents/istruzioni.tex
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Overfull \hbox (37.03014pt too wide) in paragraph at lines 11--14
+\OT1/cmr/m/n/12 L'indirizzo del repository$[]$ uf-fi-cia-le ^^Re il se-guen-te:
+[][]https://github.com/404notfoundunipd/premi[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 23.
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 24.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<img/curl_files_linux.png, id=149, 1220.56pt x 662.475pt>
+<img/curl_files_linux.png, id=150, 1220.56pt x 662.475pt>
 File: img/curl_files_linux.png Graphic file (type png)
 
 <use img/curl_files_linux.png>
-Package pdftex.def Info: img/curl_files_linux.png used on input line 31.
+Package pdftex.def Info: img/curl_files_linux.png used on input line 32.
 (pdftex.def)             Requested size: 366.17082pt x 198.74403pt.
 
 
@@ -659,45 +665,45 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 36.
+Package pdftex.def Info: ../logo/logo404.png used on input line 37.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [6]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 55.
+(hyperref)                removing `math shift' on input line 56.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 55.
+(hyperref)                removing `subscript' on input line 56.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 55.
+(hyperref)                removing `math shift' on input line 56.
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 69.
+Package pdftex.def Info: ../logo/logo404.png used on input line 70.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [7 <./img/curl_files_linux.png>]
-<img/start_premi.png, id=180, 724.7075pt x 463.7325pt>
+<img/start_premi.png, id=181, 724.7075pt x 463.7325pt>
 File: img/start_premi.png Graphic file (type png)
 
 <use img/start_premi.png>
-Package pdftex.def Info: img/start_premi.png used on input line 81.
+Package pdftex.def Info: img/start_premi.png used on input line 82.
 (pdftex.def)             Requested size: 289.87787pt x 185.4897pt.
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 86.
+Package pdftex.def Info: ../logo/logo404.png used on input line 87.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [8 <./img/start_premi.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-<img/app_started.png, id=191, 1284.8pt x 728.7225pt>
+<img/app_started.png, id=192, 1284.8pt x 728.7225pt>
 File: img/app_started.png Graphic file (type png)
  <use img/app_started.png>
-Package pdftex.def Info: img/app_started.png used on input line 106.
+Package pdftex.def Info: img/app_started.png used on input line 107.
 (pdftex.def)             Requested size: 385.44298pt x 218.61844pt.
 ) (./documents/appendice.tex
 File: ../logo/logo404.png Graphic file (type png)
@@ -848,10 +854,10 @@ cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on ManualeInstallazione_v1.0.pdf (13 pages, 834273 bytes).
+Output written on ManualeInstallazione_v1.0.pdf (13 pages, 834353 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
+ 275 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
  67 named destinations out of 1000 (max. 500000)
  170 words of extra memory for PDF output out of 10000 (max. 10000000)
 
