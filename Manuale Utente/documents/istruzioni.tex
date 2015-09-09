@@ -94,17 +94,7 @@ L'editor$_G$ di una presentazione sarà utilizzabile in tre modalità:
 In ognuna di queste modalità saranno presenti i comandi di salvataggio \includegraphics[scale=0.4]{img/save.png} e di uscita dall'editor$_G$ \includegraphics[scale=0.4]{img/quit2.png}.
 
 \subsection{Frame$_G$ editor$_G$}
-In questa modalità sarà possibile gestire tutto ciò che è contenuto all'interno di un frame$_G$: dall'aggiunta di forme,  immagini o testo alla loro modifica.
-\\
-Per aggiungere un oggetto (testo, immagine o forma) sarà sufficiente premere sul comando \includegraphics[scale=0.4]{img/add_object.png}\\
-
-Successivamente si aprirà un menù laterale i cui comandi saranno i seguenti:\\
-\begin{tabular}{ c p{15cm}}
-\parbox[c]{2em}{\includegraphics[scale=0.4]{img/add_frame.png}} & Aggiunta di un nuovo frame$_G$.\\
-\parbox[c]{2em}{\includegraphics[scale=0.4]{img/add_picture.png}} & Inserimento immagine all'interno del frame$_G$ corrente. Si aprirà una finestra per la selezione dell'immagine dal sistema operativo.\\
-\parbox[c]{2em}{\includegraphics[scale=0.4]{img/add_shape.png}} & Aggiunta di una forma.\\
-\parbox[c]{2em}{\includegraphics[scale=0.4]{img/add_text.png}} & Permette l'inserimento di un'area di testo.\\
-\end{tabular}
+In questa modalità sarà possibile gestire tutto ciò che è contenuto all'interno di un frame$_G$: dall'aggiunta di forme,  immagini o testo alla loro modifica.\\
 
 \begin{figure}[!h]
 \begin{center}
@@ -113,9 +103,29 @@ Successivamente si aprirà un menù laterale i cui comandi saranno i seguenti:\\
 \end{center}
 \end{figure}
 
+Per aggiungere un oggetto (testo, immagine o forma) sarà sufficiente premere sul comando \includegraphics[scale=0.4]{img/slides_object.png}\\
+
+Si aprirà quindi un menu laterale indicante la lista degli oggetti presenti nella slide corrente. Per aggiungere un oggetto premere quindi \includegraphics[scale=0.4]{img/add.png}\\
+
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=0.35]{img/objects_list.png}
+\caption{Lista di oggetti di un frame.}
+\end{center}
+\end{figure}
+
+Successivamente si aprirà un menù laterale i cui comandi saranno i seguenti:\\
+\begin{tabular}{ c p{15cm}}
+\parbox[c]{2em}{\includegraphics[scale=0.4]{img/add_picture.png}} & Inserimento immagine all'interno del frame$_G$ corrente. Si aprirà una finestra per la selezione dell'immagine dal sistema operativo.\\
+\parbox[c]{2em}{\includegraphics[scale=0.4]{img/add_shape.png}} & Aggiunta di una forma.\\
+\parbox[c]{2em}{\includegraphics[scale=0.4]{img/add_text.png}} & Permette l'inserimento di un'area di testo.\\
+\end{tabular}
+
 \newpage
 \subsubsection{Aggiunta frame$_G$}
-Per l'aggiunta di un nuovo frame$_G$ sarà sufficiente premere il comando \includegraphics[scale=0.4]{img/add_frame.png} visibile nel menu disponibile premendo sul tasto \includegraphics[scale=0.4]{img/add_object.png}. Un nuovo frame$_G$ vuoto verrà creato ed aggiunto alla lista di frame$_G$.
+Per l'aggiunta di un nuovo frame$_G$ sarà sufficiente premere il comando \includegraphics[scale=0.4]{img/add_slide_dark.png} presente nel menu laterale. Alternativamente, visualizzare la lista delle slides premendo il tasto \includegraphics[scale=0.4]{img/slides_list.png} e successivamente sul comando \includegraphics[scale=0.4]{img/add_slide_red.png}.\\
+
+\noindent Un nuovo frame$_G$ vuoto verrà creato ed aggiunto alla lista di frame$_G$.
 
 \begin{figure}[h]
 \begin{center}
@@ -126,7 +136,11 @@ Per l'aggiunta di un nuovo frame$_G$ sarà sufficiente premere il comando \inclu
 
 \newpage
 \subsubsection{Aggiunta elemento forma}
-Per aggiungere un oggetto di tipo forma sarà sufficiente premere sul comando \includegraphics[scale=0.4]{img/add_shape.png} visibile nel menu disponibile premendo sul tasto \includegraphics[scale=0.4]{img/add_object.png}. Si aprirà un menù sulla parte inferiore dello schermo per permettere la selezione della forma desiderata.\\
+
+
+Per aggiungere un oggetto di tipo forma sarà sufficiente premere sul comando \includegraphics[scale=0.4]{img/slides_object.png}\\
+Si aprirà quindi un menu laterale indicante la lista degli oggetti presenti nella slide corrente. Per aggiungere una forma premere quindi \includegraphics[scale=0.4]{img/add.png}\\ e successivamente su \includegraphics[scale=0.4]{img/add_shape.png}
+Sarà quindi disponibile un menù sulla parte inferiore dello schermo per permettere la selezione della forma desiderata.\\
 \begin{figure}[h]
 \begin{center}
 \includegraphics[scale=0.35]{img/sel_shape.png}
@@ -138,8 +152,9 @@ Una volta scelta la forma desiderata, questa verrà aggiunta al frame$_G$ corren
 
 \newpage
 \subsubsection{Aggiunta testo}
-Per aggiungere un'area di testo basterà premere sul comando \includegraphics[scale=0.4]{img/add_text.png} visibile nel menu disponibile premendo sul tasto \includegraphics[scale=0.4]{img/add_object.png}. \\
-Verrà inserita nel frame$_G$ corrente un'area di testo, nella quale sarà possibile inserire il proprio testo.
+Per aggiungere un'area di testo premere sul comando \includegraphics[scale=0.4]{img/slides_object.png}\\
+Si aprirà quindi un menu laterale indicante la lista degli oggetti presenti nella slide corrente. Per aggiungere un'area di testo premere quindi \includegraphics[scale=0.4]{img/add.png}\\ e successivamente su \includegraphics[scale=0.4]{img/add_text.png}\\
+Verrà inserita nel frame$_G$ corrente un'area di testo, nella quale sarà possibile inserire il testo desiderato.
 
 \begin{figure}[!h]
 \begin{center}
@@ -191,10 +206,11 @@ Questa modalità permette di modificare l'infografica$_G$ risultante dalla prese
 \end{figure}
 
 Anche in questa modalità è possibile aggiungere un oggetto (testo, immagine o forma) all'infografica$_G$ tramite il comando \includegraphics[scale=0.4]{img/add_object.png}.\\
-La lista dei frame$_G$ già presenti all'interno dell'infografica$_G$ è visualizzabile premendo il pulsante \includegraphics[scale=0.4]{img/added_frames.png}.
-Mentre per visualizzare i frame$_G$s che non sono ancora stati aggiunti all'infografica$_G$ sarà sufficiente premere sul pulsante \includegraphics[scale=0.4]{img/frames_to_be_added.png}.\\
+La lista dei frame$_G$ già presenti all'interno dell'infografica$_G$ è visualizzabile premendo il pulsante \includegraphics[scale=0.4]{img/slides_list.png}.
+Mentre per visualizzare i frame$_G$s che non sono ancora stati aggiunti all'infografica$_G$ sarà sufficiente premere sul pulsante \includegraphics[scale=0.4]{img/add_object.png} e successivamente sul pulsante \includegraphics[scale=0.4]{img/add_frame.png}.\\
 Una volta aggiunti i frames$_G$ sarà possibile spostarli all'interno dell'infografica$_G$ semplicemente trascinandoli col mouse.
 
+\newpage
 \subsection{Trails editor$_G$}
 Con la modalità \emph{Trails editor$_G$} è possibile gestire i cammini presentativi, ovvero, per una stessa presentazione, è possibile impostare diversi modi in cui scorrere i frames$_G$. Sarà possibile selezionare uno dei cammini prima dell'avvio della presentazione.\\
 
@@ -209,6 +225,7 @@ Per creare un nuovo cammino premere sul comando \includegraphics[scale=0.4]{img/
 Il nuovo cammino appena creato verrà aggiunto alla lista dei cammini presenti.\\
 Per modificare la struttura di un cammino selezionare l'icona \includegraphics[scale=0.7]{img/edit.png} corrispondente al cammino che si vuole modificare.
 
+\newpage
 \subsubsection{Creazione percorso presentativo}
 Una volta selezionato il percorso da modificare sarà possibile aggiungere i vari frames$_G$ e gestirne l'ordine di visualizzazione.
 
@@ -219,16 +236,10 @@ Una volta selezionato il percorso da modificare sarà possibile aggiungere i var
 \end{center}
 \end{figure}
 
-Per aggiungere un frame$_G$ al percorso si deve prima selezionare dalla lista dei frames $_G$, visualizzabile premendo sul pulsante \includegraphics[scale=0.4]{img/frames_to_be_added.png} e successivamente premendo sul pulsante \includegraphics[scale=0.4]{img/add.png} corrispondente alla direzione in cui si vuole inserire il frame$_G$.\\
+\noindent Per aggiungere una slide al percorso, deve essere per prima cosa selezionata con un click dalla lista sotto alla voce \emph{FRAMES OUT} e successivamente premendo il comando \includegraphics[scale=0.4]{img/add.png} in corrispondenza della posizione in cui inserire la slide.
 
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[scale=0.35]{img/trail_frames_list.png}
-\caption{Modalità Trails editor$_G$.}
-\end{center}
-\end{figure}
-
-Una volta inserito il frame$_G$ sarà possibile ripetere la procedura per inserire un ulteriore frame$_G$ oppure marcare quello corrente come checkpoint$_G$, ovvero impostarlo come nodo di partenza di un percorso alternativo, premendo sul pulsante \includegraphics[scale=0.4]{img/checkpoint.png}.\\
+Una volta inserita la slide sarà possibile ripetere la procedura per inserire una slide ulteriore oppure è possibile marcare le slides già inserite come checkpoint$_G$, ovvero impostarle come nodo di partenza di un percorso alternativo, premendo sul pulsante \includegraphics[scale=0.4]{img/checkpoint.png}.\\
+Questa azione comporterà la comparsa di una nuova riga dove la prima slide è quella selezionata come checkpoint. Tale riga rappresenta un cammino di approfondimento.
 
 \begin{figure}[!h]
 \begin{center}
@@ -237,6 +248,7 @@ Una volta inserito il frame$_G$ sarà possibile ripetere la procedura per inseri
 \end{center}
 \end{figure}
 
+\newpage
 \subsection{Avvio di una presentazione}
 Per avviare una presentazione premere sul comando \includegraphics[scale=0.5]{img/play.png} della presentazione che si vuole avviare.\\
 

@@ -19,14 +19,14 @@
 \contentsline {subsection}{\numberline {3.4}Creare una nuova presentazione}{10}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}Editor$_G$}{11}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}Frame$_G$ editor$_G$}{11}{subsection.3.6}
-\contentsline {subsubsection}{\numberline {3.6.1}Aggiunta frame$_G$}{12}{subsubsection.3.6.1}
-\contentsline {subsubsection}{\numberline {3.6.2}Aggiunta elemento forma}{13}{subsubsection.3.6.2}
-\contentsline {subsubsection}{\numberline {3.6.3}Aggiunta testo}{14}{subsubsection.3.6.3}
-\contentsline {subsubsection}{\numberline {3.6.4}Modifica degli elementi}{14}{subsubsection.3.6.4}
-\contentsline {subsection}{\numberline {3.7}Infographic editor$_G$}{17}{subsection.3.7}
-\contentsline {subsection}{\numberline {3.8}Trails editor$_G$}{17}{subsection.3.8}
-\contentsline {subsubsection}{\numberline {3.8.1}Creazione percorso presentativo}{18}{subsubsection.3.8.1}
-\contentsline {subsection}{\numberline {3.9}Avvio di una presentazione}{19}{subsection.3.9}
-\contentsline {subsection}{\numberline {3.10}Errori e loro cause}{21}{subsection.3.10}
-\contentsline {section}{\numberline {4}Appendice}{24}{section.4}
-\contentsline {subsection}{\numberline {4.1}Glossario}{24}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {3.6.1}Aggiunta frame$_G$}{13}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}Aggiunta elemento forma}{14}{subsubsection.3.6.2}
+\contentsline {subsubsection}{\numberline {3.6.3}Aggiunta testo}{15}{subsubsection.3.6.3}
+\contentsline {subsubsection}{\numberline {3.6.4}Modifica degli elementi}{15}{subsubsection.3.6.4}
+\contentsline {subsection}{\numberline {3.7}Infographic editor$_G$}{18}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Trails editor$_G$}{19}{subsection.3.8}
+\contentsline {subsubsection}{\numberline {3.8.1}Creazione percorso presentativo}{20}{subsubsection.3.8.1}
+\contentsline {subsection}{\numberline {3.9}Avvio di una presentazione}{21}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10}Errori e loro cause}{22}{subsection.3.10}
+\contentsline {section}{\numberline {4}Appendice}{25}{section.4}
+\contentsline {subsection}{\numberline {4.1}Glossario}{25}{subsection.4.1}
