@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  8 SEP 2015 22:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.28)  9 SEP 2015 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -924,12 +924,12 @@ Overfull \hbox (36.78322pt too wide) in paragraph at lines 101--108
 [] 
  []
 
-<img/frame_editor_screen.png, id=305, 1284.8pt x 630.85687pt>
+<img/frame_editor_screen.png, id=305, 1284.8pt x 706.64pt>
 File: img/frame_editor_screen.png Graphic file (type png)
 
 <use img/frame_editor_screen.png>
 Package pdftex.def Info: img/frame_editor_screen.png used on input line 111.
-(pdftex.def)             Requested size: 449.68674pt x 220.8032pt.
+(pdftex.def)             Requested size: 449.68674pt x 247.3277pt.
 
 Overfull \hbox (12.17886pt too wide) in paragraph at lines 111--112
  [] 
@@ -986,12 +986,12 @@ File: img/add_object.png Graphic file (type png)
 <use img/add_object.png>
 Package pdftex.def Info: img/add_object.png used on input line 129.
 (pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
- <img/sel_shape.png, id=321, 1284.8pt x 626.34pt>
+ <img/sel_shape.png, id=322, 1284.8pt x 705.63625pt>
 File: img/sel_shape.png Graphic file (type png)
 
 <use img/sel_shape.png>
 Package pdftex.def Info: img/sel_shape.png used on input line 132.
-(pdftex.def)             Requested size: 449.68674pt x 219.22227pt.
+(pdftex.def)             Requested size: 449.68674pt x 246.97638pt.
 
 Overfull \hbox (12.17886pt too wide) in paragraph at lines 132--133
  [] 
@@ -1012,100 +1012,106 @@ File: img/add_object.png Graphic file (type png)
 Package pdftex.def Info: img/add_object.png used on input line 141.
 (pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
 
-<img/screen_add_text.png, id=328, 1284.8pt x 632.3625pt>
+<img/screen_add_text.png, id=329, 1284.8pt x 707.64375pt>
 File: img/screen_add_text.png Graphic file (type png)
 
 <use img/screen_add_text.png>
 Package pdftex.def Info: img/screen_add_text.png used on input line 146.
-(pdftex.def)             Requested size: 449.68674pt x 221.33018pt.
+(pdftex.def)             Requested size: 449.68674pt x 247.67902pt.
 
 Overfull \hbox (12.17886pt too wide) in paragraph at lines 146--147
  [] 
  []
 
-<img/color_text.png, id=329, 77.28876pt x 81.30376pt>
+<img/color_text.png, id=330, 77.28876pt x 81.30376pt>
 File: img/color_text.png Graphic file (type png)
  <use img/color_text.png>
 Package pdftex.def Info: img/color_text.png used on input line 157.
 (pdftex.def)             Requested size: 23.1868pt x 24.3913pt.
 
-<img/bold_text.png, id=330, 73.27374pt x 73.27374pt>
+<img/bold_text.png, id=331, 73.27374pt x 73.27374pt>
 File: img/bold_text.png Graphic file (type png)
  <use img/bold_text.png>
 Package pdftex.def Info: img/bold_text.png used on input line 158.
 (pdftex.def)             Requested size: 21.98228pt x 21.98228pt.
 
-<img/corsivo_text.png, id=331, 75.28125pt x 74.2775pt>
+<img/corsivo_text.png, id=332, 75.28125pt x 74.2775pt>
 File: img/corsivo_text.png Graphic file (type png)
 
 <use img/corsivo_text.png>
 Package pdftex.def Info: img/corsivo_text.png used on input line 159.
 (pdftex.def)             Requested size: 22.58453pt x 22.28342pt.
 
-<img/underline_text.png, id=332, 79.29625pt x 71.26625pt>
+<img/underline_text.png, id=333, 79.29625pt x 71.26625pt>
 File: img/underline_text.png Graphic file (type png)
 
 <use img/underline_text.png>
 Package pdftex.def Info: img/underline_text.png used on input line 160.
 (pdftex.def)             Requested size: 23.78905pt x 21.38002pt.
 
-<img/size_text.png, id=333, 75.28125pt x 73.27374pt>
+<img/size_text.png, id=334, 75.28125pt x 73.27374pt>
 File: img/size_text.png Graphic file (type png)
  <use img/size_text.png>
 Package pdftex.def Info: img/size_text.png used on input line 161.
 (pdftex.def)             Requested size: 22.58453pt x 21.98228pt.
 
-<img/clear_text.png, id=334, 75.28125pt x 71.26625pt>
+<img/clear_text.png, id=335, 75.28125pt x 71.26625pt>
 File: img/clear_text.png Graphic file (type png)
  <use img/clear_text.png>
 Package pdftex.def Info: img/clear_text.png used on input line 162.
 (pdftex.def)             Requested size: 22.58453pt x 21.38002pt.
 
-<img/move_text.png, id=335, 74.2775pt x 75.28125pt>
+<img/move_text.png, id=336, 74.2775pt x 75.28125pt>
 File: img/move_text.png Graphic file (type png)
  <use img/move_text.png>
 Package pdftex.def Info: img/move_text.png used on input line 163.
 (pdftex.def)             Requested size: 22.28342pt x 22.58453pt.
 
-<img/text_edit_mode.png, id=336, 66.2475pt x 60.225pt>
+<img/text_edit_mode.png, id=337, 66.2475pt x 60.225pt>
 File: img/text_edit_mode.png Graphic file (type png)
 
 <use img/text_edit_mode.png>
 Package pdftex.def Info: img/text_edit_mode.png used on input line 164.
 (pdftex.def)             Requested size: 21.86172pt x 19.8743pt.
 
-<img/delete_text.png, id=337, 63.23625pt x 57.21375pt>
+<img/delete_text.png, id=338, 63.23625pt x 57.21375pt>
 File: img/delete_text.png Graphic file (type png)
 
 <use img/delete_text.png>
 Package pdftex.def Info: img/delete_text.png used on input line 165.
 (pdftex.def)             Requested size: 20.86801pt x 18.88058pt.
 
-<img/toolbar_text.png, id=338, 1170.3725pt x 685.56125pt>
+<img/toolbar_text.png, id=339, 1284.8pt x 705.63625pt>
 File: img/toolbar_text.png Graphic file (type png)
 
 <use img/toolbar_text.png>
 Package pdftex.def Info: img/toolbar_text.png used on input line 170.
-(pdftex.def)             Requested size: 409.6365pt x 239.95003pt.
+(pdftex.def)             Requested size: 449.68674pt x 246.97638pt.
+
+Overfull \hbox (12.17886pt too wide) in paragraph at lines 170--171
+ [] 
+ []
+
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 173.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [14 <./img/screen_add_text.png>]
 File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
+
+<use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 174.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
  [15 <./img/color_text.png (PNG copy)> <./img/bold_text.png (PNG copy)> <./img/
 corsivo_text.png (PNG copy)> <./img/underline_text.png (PNG copy)> <./img/size_
 text.png (PNG copy)> <./img/clear_text.png (PNG copy)> <./img/move_text.png (PN
 G copy)> <./img/text_edit_mode.png (PNG copy)> <./img/delete_text.png (PNG copy
-)> <./img/toolbar_text.png (PNG copy)>]
-<img/edit_shape.png, id=350, 1284.8pt x 628.3475pt>
+)> <./img/toolbar_text.png>]
+<img/edit_shape.png, id=352, 1284.8pt x 705.63625pt>
 File: img/edit_shape.png Graphic file (type png)
  <use img/edit_shape.png>
 Package pdftex.def Info: img/edit_shape.png used on input line 178.
-(pdftex.def)             Requested size: 449.68674pt x 219.92491pt.
+(pdftex.def)             Requested size: 449.68674pt x 246.97638pt.
 
 Overfull \hbox (12.17886pt too wide) in paragraph at lines 178--179
  [] 
@@ -1128,12 +1134,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 184.
 
-<img/infographic.png, id=357, 1284.8pt x 635.37375pt>
+<img/infographic.png, id=359, 1284.8pt x 706.64pt>
 File: img/infographic.png Graphic file (type png)
-
-<use img/infographic.png>
+ <use img/infographic.png>
 Package pdftex.def Info: img/infographic.png used on input line 188.
-(pdftex.def)             Requested size: 449.68674pt x 222.38414pt.
+(pdftex.def)             Requested size: 449.68674pt x 247.3277pt.
 
 Overfull \hbox (12.17886pt too wide) in paragraph at lines 188--189
  [] 
@@ -1144,14 +1149,14 @@ File: img/add_object.png Graphic file (type png)
 Package pdftex.def Info: img/add_object.png used on input line 193.
 (pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
 
-<img/added_frames.png, id=358, 63.73813pt x 63.73813pt>
+<img/added_frames.png, id=360, 63.73813pt x 63.73813pt>
 File: img/added_frames.png Graphic file (type png)
 
 <use img/added_frames.png>
 Package pdftex.def Info: img/added_frames.png used on input line 194.
 (pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
 
-<img/frames_to_be_added.png, id=359, 63.73813pt x 63.73813pt>
+<img/frames_to_be_added.png, id=361, 63.73813pt x 63.73813pt>
 File: img/frames_to_be_added.png Graphic file (type png)
 
 <use img/frames_to_be_added.png>
@@ -1175,12 +1180,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
-<img/trails_editor_screen.png, id=360, 1284.8pt x 626.34pt>
+<img/trails_editor_screen.png, id=362, 1284.8pt x 706.64pt>
 File: img/trails_editor_screen.png Graphic file (type png)
 
 <use img/trails_editor_screen.png>
 Package pdftex.def Info: img/trails_editor_screen.png used on input line 203.
-(pdftex.def)             Requested size: 449.68674pt x 219.22227pt.
+(pdftex.def)             Requested size: 449.68674pt x 247.3277pt.
 
 Overfull \hbox (12.17886pt too wide) in paragraph at lines 203--204
  [] 
@@ -1194,7 +1199,7 @@ File: img/add_object.png Graphic file (type png)
 Package pdftex.def Info: img/add_object.png used on input line 208.
 (pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
 
-<img/save_confirm.png, id=361, 99.37125pt x 37.13875pt>
+<img/save_confirm.png, id=363, 99.37125pt x 37.13875pt>
 File: img/save_confirm.png Graphic file (type png)
 
 <use img/save_confirm.png>
@@ -1204,8 +1209,14 @@ File: img/edit.png Graphic file (type png)
  <use img/edit.png>
 Package pdftex.def Info: img/edit.png used on input line 210.
 (pdftex.def)             Requested size: 18.26811pt x 20.37598pt.
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 212.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
 
-<img/edit_trail.png, id=362, 1284.8pt x 633.36626pt>
+[17 <./img/infographic.png> <./img/added_frames.png> <./img/frames_to_be_added.
+png> <./img/save_confirm.png>]
+<img/edit_trail.png, id=371, 1284.8pt x 633.36626pt>
 File: img/edit_trail.png Graphic file (type png)
  <use img/edit_trail.png>
 Package pdftex.def Info: img/edit_trail.png used on input line 217.
@@ -1215,14 +1226,7 @@ Overfull \hbox (12.17886pt too wide) in paragraph at lines 217--218
  [] 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 220.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [17 <./img/infographic.png> <./img/added_frames.png> <./img/frames_to_be_added
-.png> <./img/save_confirm.png>]
 File: img/frames_to_be_added.png Graphic file (type png)
-
 <use img/frames_to_be_added.png>
 Package pdftex.def Info: img/frames_to_be_added.png used on input line 222.
 (pdftex.def)             Requested size: 25.49478pt x 25.49478pt.
@@ -1235,7 +1239,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
-<img/trail_frames_list.png, id=370, 1284.8pt x 632.3625pt>
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 223.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [18 <./img/trails_editor_screen.png> <./img/edit_trail.png>] <img/trail_frames
+_list.png, id=380, 1284.8pt x 632.3625pt>
 File: img/trail_frames_list.png Graphic file (type png)
 
 <use img/trail_frames_list.png>
@@ -1246,15 +1255,9 @@ Overfull \hbox (12.17886pt too wide) in paragraph at lines 226--227
  [] 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 229.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [18 <./img/trails_editor_screen.png> <./img/edit_trail.png>] <img/checkpoint.p
-ng, id=379, 73.27374pt x 72.27pt>
+<img/checkpoint.png, id=381, 73.27374pt x 72.27pt>
 File: img/checkpoint.png Graphic file (type png)
-
-<use img/checkpoint.png>
+ <use img/checkpoint.png>
 Package pdftex.def Info: img/checkpoint.png used on input line 231.
 (pdftex.def)             Requested size: 29.30896pt x 28.90747pt.
 
@@ -1262,15 +1265,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-<img/trail_frame.png, id=380, 1284.8pt x 632.3625pt>
+<img/trail_frame.png, id=382, 1284.8pt x 706.64pt>
 File: img/trail_frame.png Graphic file (type png)
  <use img/trail_frame.png>
 Package pdftex.def Info: img/trail_frame.png used on input line 235.
-(pdftex.def)             Requested size: 449.68674pt x 221.33018pt.
+(pdftex.def)             Requested size: 449.68674pt x 247.3277pt.
 
 Overfull \hbox (12.17886pt too wide) in paragraph at lines 235--236
  [] 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: img/play.png Graphic file (type png)
 <use img/play.png>
@@ -1281,14 +1287,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-File: ../logo/logo404.png Graphic file (type png)
-<use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 242.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [19 <./img/trail_frames_list.png> <./img/checkpoint.png> <./img/trail_frame.pn
-g>]
 File: img/dashboard.png Graphic file (type png)
- <use img/dashboard.png>
+<use img/dashboard.png>
 Package pdftex.def Info: img/dashboard.png used on input line 245.
 (pdftex.def)             Requested size: 449.68674pt x 219.5736pt.
 
@@ -1296,22 +1296,24 @@ Overfull \hbox (12.17886pt too wide) in paragraph at lines 245--246
  [] 
  []
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: img/play.png Graphic file (type png)
 <use img/play.png>
 Package pdftex.def Info: img/play.png used on input line 250.
 (pdftex.def)             Requested size: 25.59555pt x 26.09743pt.
- <img/viewer.png, id=389, 1284.8pt x 630.355pt>
+ <img/viewer.png, id=383, 1284.8pt x 708.6475pt>
 File: img/viewer.png Graphic file (type png)
 
 <use img/viewer.png>
 Package pdftex.def Info: img/viewer.png used on input line 255.
-(pdftex.def)             Requested size: 385.44298pt x 189.10796pt.
-File: ../logo/logo404.png Graphic file (type png)
- <use ../logo/logo404.png>
-Package pdftex.def Info: ../logo/logo404.png used on input line 262.
-(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [20 <./img/viewer.png>]
-<img/checkpoint2.png, id=396, 63.73813pt x 63.73813pt>
+(pdftex.def)             Requested size: 385.44298pt x 212.59589pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/checkpoint2.png, id=384, 63.73813pt x 63.73813pt>
 File: img/checkpoint2.png Graphic file (type png)
 
 <use img/checkpoint2.png>
@@ -1322,7 +1324,7 @@ Overfull \hbox (1.99503pt too wide) in paragraph at lines 263--263
 [][] 
  []
 
-<img/prev.png, id=397, 63.73813pt x 63.73813pt>
+<img/prev.png, id=385, 63.73813pt x 63.73813pt>
 File: img/prev.png Graphic file (type png)
  <use img/prev.png>
 Package pdftex.def Info: img/prev.png used on input line 264.
@@ -1332,7 +1334,7 @@ Overfull \hbox (1.99503pt too wide) in paragraph at lines 264--264
 [][] 
  []
 
-<img/next.png, id=398, 63.73813pt x 63.73813pt>
+<img/next.png, id=386, 63.73813pt x 63.73813pt>
 File: img/next.png Graphic file (type png)
  <use img/next.png>
 Package pdftex.def Info: img/next.png used on input line 265.
@@ -1342,7 +1344,7 @@ Overfull \hbox (1.99503pt too wide) in paragraph at lines 265--265
 [][] 
  []
 
-<img/down.png, id=399, 63.73813pt x 63.73813pt>
+<img/down.png, id=387, 63.73813pt x 63.73813pt>
 File: img/down.png Graphic file (type png)
  <use img/down.png>
 Package pdftex.def Info: img/down.png used on input line 266.
@@ -1352,7 +1354,7 @@ Overfull \hbox (1.99503pt too wide) in paragraph at lines 266--266
 [][] 
  []
 
-<img/quit3.png, id=400, 63.73813pt x 63.73813pt>
+<img/quit3.png, id=388, 63.73813pt x 63.73813pt>
 File: img/quit3.png Graphic file (type png)
  <use img/quit3.png>
 Package pdftex.def Info: img/quit3.png used on input line 267.
@@ -1367,19 +1369,32 @@ Overfull \hbox (54.40804pt too wide) in paragraph at lines 262--269
 [][] 
  []
 
+File: ../logo/logo404.png Graphic file (type png)
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 270.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [19 <./img/trail_frames_list.png> <./img/checkpoint.png>]
+Overfull \vbox (9.92111pt too high) has occurred while \output is active []
 
+File: ../logo/logo404.png Graphic file (type png)
+
+<use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 270.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [20 <./img/trail_frame.png> <./img/checkpoint2.png> <./img/prev.png> <./img/ne
+xt.png> <./img/down.png> <./img/quit3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 271--272
 
  []
 
-<img/signup_error.png, id=401, 397.485pt x 419.5675pt>
+<img/signup_error.png, id=402, 397.485pt x 419.5675pt>
 File: img/signup_error.png Graphic file (type png)
 
 <use img/signup_error.png>
 Package pdftex.def Info: img/signup_error.png used on input line 277.
 (pdftex.def)             Requested size: 158.99118pt x 167.82402pt.
 
-<img/signup_error2.png, id=402, 398.48875pt x 421.575pt>
+<img/signup_error2.png, id=403, 398.48875pt x 421.575pt>
 File: img/signup_error2.png Graphic file (type png)
 
 <use img/signup_error2.png>
@@ -1393,22 +1408,26 @@ n un for-ma-to cor-ret-to, cio^^Re \OT1/cmr/m/it/12 no-me@dominio.estensione
 
 File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
+Package pdftex.def Info: ../logo/logo404.png used on input line 289.
+(pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
+ [21 <./img/viewer.png> <./img/signup_error.png> <./img/signup_error2.png>]
+File: ../logo/logo404.png Graphic file (type png)
+ <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 290.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [21 <./img/checkpoint2.png> <./img/prev.png> <./img/next.png> <./img/down.png>
- <./img/quit3.png> <./img/signup_error.png> <./img/signup_error2.png>]
+ [22]
 Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
-<img/signin_error.png, id=410, 396.48125pt x 342.27875pt>
+<img/signin_error.png, id=417, 396.48125pt x 342.27875pt>
 File: img/signin_error.png Graphic file (type png)
 
 <use img/signin_error.png>
 Package pdftex.def Info: img/signin_error.png used on input line 295.
 (pdftex.def)             Requested size: 158.58968pt x 136.90906pt.
 
-<img/signin_error2.png, id=411, 607.26875pt x 449.68pt>
+<img/signin_error2.png, id=418, 607.26875pt x 449.68pt>
 File: img/signin_error2.png Graphic file (type png)
 
 <use img/signin_error2.png>
@@ -1420,7 +1439,7 @@ Overfull \hbox (48.07901pt too wide) in paragraph at lines 304--305
 n un for-ma-to cor-ret-to, cio^^Re \OT1/cmr/m/it/12 no-me@dominio.estensione
  []
 
-<img/change_pass_error.png, id=412, 581.17125pt x 661.47125pt>
+<img/change_pass_error.png, id=419, 581.17125pt x 661.47125pt>
 File: img/change_pass_error.png Graphic file (type png)
 
 <use img/change_pass_error.png>
@@ -1440,7 +1459,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 10.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [22 <./img/signin_error.png> <./img/signin_error2.png> <./img/change_pass_erro
+ [23 <./img/signin_error.png> <./img/signin_error2.png> <./img/change_pass_erro
 r.png>]
 Overfull \hbox (17.7362pt too wide) in paragraph at lines 12--15
 [] 
@@ -1500,7 +1519,7 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 50.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [23]
+ [24]
 Overfull \hbox (17.7362pt too wide) in paragraph at lines 53--56
 [] 
  []
@@ -1544,12 +1563,12 @@ File: ../logo/logo404.png Graphic file (type png)
 <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 89.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [24])
+ [25])
 File: ../logo/logo404.png Graphic file (type png)
  <use ../logo/logo404.png>
 Package pdftex.def Info: ../logo/logo404.png used on input line 37.
 (pdftex.def)             Requested size: 85.35826pt x 33.42316pt.
- [25]
+ [26]
 No file ManualeUtente_v2.0.bbl.
 
 AED: lastpage setting LastPage
@@ -1562,8 +1581,8 @@ Package rerunfilecheck Info: File `ManualeUtente_v2.0.out' has not changed.
 (rerunfilecheck)             Checksum: 8B0326A968106899F448B8CF3D92C4E8;2078.
  ) 
 Here is how much of TeX's memory you used:
- 10780 strings out of 493117
- 161557 string characters out of 6135432
+ 10781 strings out of 493117
+ 161564 string characters out of 6135432
  268251 words of memory out of 5000000
  13938 multiletter control sequences out of 15000+600000
  9799 words of font info for 34 fonts, out of 8000000 for 9000
@@ -1576,10 +1595,10 @@ Here is how much of TeX's memory you used:
 sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
 local/texlive/2014/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on ManualeUtente_v2.0.pdf (26 pages, 2397077 bytes).
+Output written on ManualeUtente_v2.0.pdf (27 pages, 4504372 bytes).
 PDF statistics:
- 491 PDF objects out of 1000 (max. 8388607)
- 366 compressed objects within 4 object streams
- 92 named destinations out of 1000 (max. 500000)
+ 498 PDF objects out of 1000 (max. 8388607)
+ 370 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
  536 words of extra memory for PDF output out of 10000 (max. 10000000)
 

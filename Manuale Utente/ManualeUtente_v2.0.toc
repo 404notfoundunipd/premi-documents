@@ -26,7 +26,7 @@
 \contentsline {subsection}{\numberline {3.7}Infographic editor$_G$}{17}{subsection.3.7}
 \contentsline {subsection}{\numberline {3.8}Trails editor$_G$}{17}{subsection.3.8}
 \contentsline {subsubsection}{\numberline {3.8.1}Creazione percorso presentativo}{18}{subsubsection.3.8.1}
-\contentsline {subsection}{\numberline {3.9}Avvio di una presentazione}{20}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.9}Avvio di una presentazione}{19}{subsection.3.9}
 \contentsline {subsection}{\numberline {3.10}Errori e loro cause}{21}{subsection.3.10}
-\contentsline {section}{\numberline {4}Appendice}{23}{section.4}
-\contentsline {subsection}{\numberline {4.1}Glossario}{23}{subsection.4.1}
+\contentsline {section}{\numberline {4}Appendice}{24}{section.4}
+\contentsline {subsection}{\numberline {4.1}Glossario}{24}{subsection.4.1}
