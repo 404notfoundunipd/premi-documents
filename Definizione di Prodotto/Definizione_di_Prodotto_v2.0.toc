@@ -1,0 +1,110 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {section}{\numberline {1}Introduzione}{8}{section.1}
+\contentsline {subsection}{\numberline {1.1}Scopo del documento}{8}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Scopo del Progetto}{8}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Glossario}{8}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Riferimenti}{8}{subsection.1.4}
+\contentsline {subsubsection}{\numberline {1.4.1}Normativi}{8}{subsubsection.1.4.1}
+\contentsline {subsubsection}{\numberline {1.4.2}Informativi}{8}{subsubsection.1.4.2}
+\contentsline {section}{\numberline {2}Standard di Progetto}{9}{section.2}
+\contentsline {subsection}{\numberline {2.1}Standard di progettazione architetturale}{9}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Standard di documentazione del codice}{9}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Standard di denominazione di entit\IeC {\`a} e relazioni}{9}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Standard di programmazione}{9}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Strumenti di lavoro}{9}{subsection.2.5}
+\contentsline {section}{\numberline {3}Specifica componenti}{10}{section.3}
+\contentsline {subsection}{\numberline {3.1}Collezioni di MongoDB}{10}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Template}{10}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Directive}{10}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Servizi di AngularJS$_G$}{10}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Gestione degli Account Utente}{12}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}premi/server}{13}{subsection.3.6}
+\contentsline {subsubsection}{\numberline {3.6.1}premi/server/publish}{13}{subsubsection.3.6.1}
+\contentsline {subsubsection}{\numberline {3.6.2}premi/server/methods}{16}{subsubsection.3.6.2}
+\contentsline {subsection}{\numberline {3.7}premi/client}{26}{subsection.3.7}
+\contentsline {subsubsection}{\numberline {3.7.1}premi/client/controllers/premi}{26}{subsubsection.3.7.1}
+\contentsline {subsubsection}{\numberline {3.7.2}premi/client/lib/toastMessageFactory}{26}{subsubsection.3.7.2}
+\contentsline {subsection}{\numberline {3.8}premi/client/presentation}{26}{subsection.3.8}
+\contentsline {subsubsection}{\numberline {3.8.1}premi/client/presentation/lib/databaseAPI}{27}{subsubsection.3.8.1}
+\contentsline {subsubsection}{\numberline {3.8.2}premi/client/presentations/lib/OrderedGOList}{33}{subsubsection.3.8.2}
+\contentsline {subsubsection}{\numberline {3.8.3}premi/client/presentation/lib/Trail}{37}{subsubsection.3.8.3}
+\contentsline {subsubsection}{\numberline {3.8.4}premi/client/presentation/lib/signalCtrl}{43}{subsubsection.3.8.4}
+\contentsline {subsection}{\numberline {3.9}premi/client/presentationManager}{46}{subsection.3.9}
+\contentsline {subsubsection}{\numberline {3.9.1}premi/client/presentationManager/views/editPresentation.ng}{46}{subsubsection.3.9.1}
+\contentsline {subsubsection}{\numberline {3.9.2}premi/client/presentationManager/views/newPresentation.ng}{46}{subsubsection.3.9.2}
+\contentsline {subsubsection}{\numberline {3.9.3}premi/client/presentationManager/views/presentationManager.ng}{47}{subsubsection.3.9.3}
+\contentsline {subsubsection}{\numberline {3.9.4}premi/client/presentationManager/views/presentations.ng}{47}{subsubsection.3.9.4}
+\contentsline {subsubsection}{\numberline {3.9.5}premi/client/presentationManager/views/removePresentation.ng}{47}{subsubsection.3.9.5}
+\contentsline {subsubsection}{\numberline {3.9.6}premi/client/presentationManager/controllers/editPresentationCtrl}{48}{subsubsection.3.9.6}
+\contentsline {subsubsection}{\numberline {3.9.7}premi/client/presentationManager/controllers/newPresentationCtrl}{49}{subsubsection.3.9.7}
+\contentsline {subsubsection}{\numberline {3.9.8}premi/client/presentationManager/controllers/presentationManagerCtrl}{50}{subsubsection.3.9.8}
+\contentsline {subsubsection}{\numberline {3.9.9}premi/client/presentationManager/controllers/presentationsCtrl}{50}{subsubsection.3.9.9}
+\contentsline {subsubsection}{\numberline {3.9.10}premi/client/presentationManager/controllers/removePresentationCtrl}{51}{subsubsection.3.9.10}
+\contentsline {subsection}{\numberline {3.10}premi/client/editor}{53}{subsection.3.10}
+\contentsline {subsubsection}{\numberline {3.10.1}premi/client/editor/views/editor.ng}{53}{subsubsection.3.10.1}
+\contentsline {subsubsection}{\numberline {3.10.2}premi/client/editor/views/basicToolbar.ng}{53}{subsubsection.3.10.2}
+\contentsline {subsubsection}{\numberline {3.10.3}premi/client/editor/views/shapeMenu.ng}{53}{subsubsection.3.10.3}
+\contentsline {subsubsection}{\numberline {3.10.4}premi/client/editor/controllers/editorCtrl}{54}{subsubsection.3.10.4}
+\contentsline {subsubsection}{\numberline {3.10.5}premi/client/editor/controllers/basicToolbarCtrl}{54}{subsubsection.3.10.5}
+\contentsline {subsubsection}{\numberline {3.10.6}premi/client/editor/lib/GObject}{55}{subsubsection.3.10.6}
+\contentsline {subsubsection}{\numberline {3.10.7}premi/client/editor/lib/GOProvider}{58}{subsubsection.3.10.7}
+\contentsline {subsubsection}{\numberline {3.10.8}premi/client/editor/lib/Frame}{60}{subsubsection.3.10.8}
+\contentsline {subsubsection}{\numberline {3.10.9}premi/client/editor/lib/GOContainer}{65}{subsubsection.3.10.9}
+\contentsline {subsubsection}{\numberline {3.10.10}premi/client/editor/lib/Image}{70}{subsubsection.3.10.10}
+\contentsline {subsubsection}{\numberline {3.10.11}premi/client/editor/lib/Infographic}{72}{subsubsection.3.10.11}
+\contentsline {subsubsection}{\numberline {3.10.12}premi/client/editor/lib/interactInit}{76}{subsubsection.3.10.12}
+\contentsline {subsubsection}{\numberline {3.10.13}premi/client/client/lib/Observer}{79}{subsubsection.3.10.13}
+\contentsline {subsubsection}{\numberline {3.10.14}premi/client/editor/lib/saver}{80}{subsubsection.3.10.14}
+\contentsline {subsubsection}{\numberline {3.10.15}premi/client/editor/lib/Shape}{84}{subsubsection.3.10.15}
+\contentsline {subsubsection}{\numberline {3.10.16}premi/client/editor/lib/Text}{87}{subsubsection.3.10.16}
+\contentsline {subsubsection}{\numberline {3.10.17}premi/client/editor/lib/basicToolbarDirective}{89}{subsubsection.3.10.17}
+\contentsline {subsubsection}{\numberline {3.10.18}premi/client/editor/lib/shapeMenuDirective}{89}{subsubsection.3.10.18}
+\contentsline {subsection}{\numberline {3.11}premi/client/frameEditor}{90}{subsection.3.11}
+\contentsline {subsubsection}{\numberline {3.11.1}premi/client/frameEditor/views/frame.ng}{90}{subsubsection.3.11.1}
+\contentsline {subsubsection}{\numberline {3.11.2}premi/client/frameEditor/controllers/frameEditorCtrl}{91}{subsubsection.3.11.2}
+\contentsline {subsection}{\numberline {3.12}premi/client/infographicEditor}{99}{subsection.3.12}
+\contentsline {subsubsection}{\numberline {3.12.1}premi/client/infographicEditor/views/infographic.ng}{99}{subsubsection.3.12.1}
+\contentsline {subsubsection}{\numberline {3.12.2}premi/client/infographicEditor/controllers/infographicEditorCtrl}{100}{subsubsection.3.12.2}
+\contentsline {subsection}{\numberline {3.13}premi/client/trailsEditor}{107}{subsection.3.13}
+\contentsline {subsubsection}{\numberline {3.13.1}premi/client/trailsEditor/views/editTrail.ng}{107}{subsubsection.3.13.1}
+\contentsline {subsubsection}{\numberline {3.13.2}premi/client/trailsEditor/views/listTrail.ng}{107}{subsubsection.3.13.2}
+\contentsline {subsubsection}{\numberline {3.13.3}premi/client/trailsEditor/views/modTrail.ng}{108}{subsubsection.3.13.3}
+\contentsline {subsubsection}{\numberline {3.13.4}premi/client/trailsEditor/views/newTrail.ng}{108}{subsubsection.3.13.4}
+\contentsline {subsubsection}{\numberline {3.13.5}premi/client/trailsEditor/views/removeTrail.ng}{108}{subsubsection.3.13.5}
+\contentsline {subsubsection}{\numberline {3.13.6}premi/client/trailsEditor/controllers/editTrailCtrl}{109}{subsubsection.3.13.6}
+\contentsline {subsubsection}{\numberline {3.13.7}premi/client/trailsEditor/controllers/listTrailCtrl}{110}{subsubsection.3.13.7}
+\contentsline {subsubsection}{\numberline {3.13.8}premi/client/trailsEditor/controllers/modTrailCtrl}{110}{subsubsection.3.13.8}
+\contentsline {subsubsection}{\numberline {3.13.9}premi/client/trailsEditor/controllers/newTrailCtrl}{112}{subsubsection.3.13.9}
+\contentsline {subsubsection}{\numberline {3.13.10}premi/client/trailsEditor/controllers/removeTrailCtrl}{113}{subsubsection.3.13.10}
+\contentsline {subsubsection}{\numberline {3.13.11}premi/client/trailsEditor/controllers/trailsEditorCtrl}{114}{subsubsection.3.13.11}
+\contentsline {subsection}{\numberline {3.14}premi/client/userManager}{116}{subsection.3.14}
+\contentsline {subsubsection}{\numberline {3.14.1}premi/client/userManager/views/changePassword.ng}{116}{subsubsection.3.14.1}
+\contentsline {subsubsection}{\numberline {3.14.2}premi/client/userManager/views/signin.ng}{116}{subsubsection.3.14.2}
+\contentsline {subsubsection}{\numberline {3.14.3}premi/client/userManager/views/signup.ng}{117}{subsubsection.3.14.3}
+\contentsline {subsubsection}{\numberline {3.14.4}premi/client/userManager/views/userManager.ng}{117}{subsubsection.3.14.4}
+\contentsline {subsubsection}{\numberline {3.14.5}premi/client/userManager/controllers/changePasswordCtrl}{117}{subsubsection.3.14.5}
+\contentsline {subsubsection}{\numberline {3.14.6}premi/client/userManager/controllers/signinCtrl}{118}{subsubsection.3.14.6}
+\contentsline {subsubsection}{\numberline {3.14.7}premi/client/userManager/controllers/signoutCtrl}{119}{subsubsection.3.14.7}
+\contentsline {subsubsection}{\numberline {3.14.8}premi/client/userManager/controllers/signupCtrl}{120}{subsubsection.3.14.8}
+\contentsline {subsection}{\numberline {3.15}premi/client/viewer}{122}{subsection.3.15}
+\contentsline {subsubsection}{\numberline {3.15.1}premi/client/viewer/views/trails.ng}{122}{subsubsection.3.15.1}
+\contentsline {subsubsection}{\numberline {3.15.2}premi/client/viewer/views/viewer.ng}{122}{subsubsection.3.15.2}
+\contentsline {subsubsection}{\numberline {3.15.3}premi/client/viewer/controllers/trailsCtrl}{123}{subsubsection.3.15.3}
+\contentsline {subsubsection}{\numberline {3.15.4}premi/client/viewer/controllers/viewerCtrl}{124}{subsubsection.3.15.4}
+\contentsline {subsection}{\numberline {3.16}premi/client/trailMap}{126}{subsection.3.16}
+\contentsline {subsubsection}{\numberline {3.16.1}premi/client/trailMap/views/trailMap.ng}{126}{subsubsection.3.16.1}
+\contentsline {subsubsection}{\numberline {3.16.2}premi/client/trailMap/controllers/trailMapCtrl}{127}{subsubsection.3.16.2}
+\contentsline {subsubsection}{\numberline {3.16.3}premi/client/trailMap/lib/trailMapDirective}{132}{subsubsection.3.16.3}
+\contentsline {subsection}{\numberline {3.17}premi/client/utility}{133}{subsection.3.17}
+\contentsline {subsubsection}{\numberline {3.17.1}premi/client/utility/views/actionDialog.ng}{133}{subsubsection.3.17.1}
+\contentsline {subsubsection}{\numberline {3.17.2}premi/client/utility/lib/actionDialogDirective}{133}{subsubsection.3.17.2}
+\contentsline {subsubsection}{\numberline {3.17.3}premi/client/utility/lib/shapeFilesystemMap}{133}{subsubsection.3.17.3}
+\contentsline {subsection}{\numberline {3.18}premi/client/fallback}{133}{subsection.3.18}
+\contentsline {subsubsection}{\numberline {3.18.1}premi/client/fallback/views/fallbackMessage.ng}{133}{subsubsection.3.18.1}
+\contentsline {subsubsection}{\numberline {3.18.2}premi/client/fallback/lib/fallbackMessageDirective}{134}{subsubsection.3.18.2}
+\contentsline {subsection}{\numberline {3.19}premi/client/navbar}{134}{subsection.3.19}
+\contentsline {subsubsection}{\numberline {3.19.1}premi/client/navbar/views/navbar.ng}{134}{subsubsection.3.19.1}
+\contentsline {subsubsection}{\numberline {3.19.2}premi/client/navbar/lib/navbarDirective}{134}{subsubsection.3.19.2}
+\contentsline {section}{\numberline {4}Tracciamento componenti-requisiti}{135}{section.4}
+\contentsline {section}{\numberline {5}Tracciamento requisiti-componenti}{140}{section.5}
